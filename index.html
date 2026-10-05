@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>My Essays</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap" rel="stylesheet">
+<style>
+
+:root{--bg:#eef1f4;--panel:#fff;--ink:#1c2430;--mute:#5d6b7a;--line:#d5dce3;--accent:#1b6b73;--accent-ink:#fff;--hl:#fde9a8;--danger:#b3261e;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12171d;--panel:#1a2129;--ink:#e6ebf0;--mute:#93a0ae;--line:#2c3640;--accent:#5fc0c8;--accent-ink:#0c1418;--hl:#4a4020;--danger:#f2b8b5}}
+:root[data-theme="dark"]{--bg:#12171d;--panel:#1a2129;--ink:#e6ebf0;--mute:#93a0ae;--line:#2c3640;--accent:#5fc0c8;--accent-ink:#0c1418;--hl:#4a4020;--danger:#f2b8b5}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Figtree,system-ui,-apple-system,"Segoe UI",sans-serif}
+.app{display:grid;grid-template-columns:300px 1fr;min-height:100vh}
+aside{background:var(--panel);border-right:1px solid var(--line);padding:16px;display:flex;flex-direction:column;gap:12px}
+aside h2{margin:0;font-size:1.15rem}
+button,select,input,textarea{font:inherit;color:inherit}
+button{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:7px 12px;cursor:pointer}
+button:hover{border-color:var(--accent)}
+button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+button.danger{color:var(--danger)}
+button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible,.item:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+input[type=search],#eTitle,#eBody,select{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+select{width:auto;padding:7px 8px}
+#list{display:flex;flex-direction:column;gap:4px;overflow:auto;max-height:calc(100vh - 170px)}
+.item{text-align:left;border:1px solid transparent;border-radius:8px;padding:8px 10px;background:none}
+.item[aria-current=true]{background:var(--bg);border-color:var(--line)}
+.item b{display:block;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.item small{color:var(--mute)}
+main{min-width:0}
+#content{padding:28px clamp(16px,4vw,48px)}
+#doc{max-width:760px}
+h1{font:600 1.9rem/1.25 Literata,Georgia,serif;margin:0 0 4px;overflow-wrap:anywhere}
+#eTitle{font:600 1.5rem/1.3 Literata,Georgia,serif}
+#meta{color:var(--mute);margin:0 0 16px;font-size:.9rem}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.grp{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.grp+.grp{margin-left:8px;padding-left:12px;border-left:1px solid var(--line)}
+.lbl{color:var(--mute);font-size:.85rem}
+label.lbl{display:flex;gap:6px;align-items:center;cursor:pointer}
+.body,#eBody{font:1.08rem/1.8 Literata,Georgia,serif;white-space:pre-wrap;overflow-wrap:anywhere}
+#eBody{min-height:55vh;resize:vertical}
+.s.on{background:var(--hl);border-radius:3px}
+#empty{color:var(--mute);max-width:46ch;padding-top:12vh}
+#manage{display:flex;gap:10px;margin-top:40px;padding-top:16px;border-top:1px solid var(--line)}
+.danger.armed{background:var(--danger);color:var(--bg);border-color:var(--danger)}
+#credit{margin:auto 0 0;padding-top:12px;border-top:1px solid var(--line);color:var(--mute);font-size:.85rem}
+#imp{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;padding:16px}
+#imp .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px;width:100%;max-width:640px;max-height:85vh;overflow:auto}
+#imp h2{margin:0 0 4px}
+#impList{display:flex;flex-direction:column;gap:10px;margin:14px 0}
+.row{display:flex;gap:10px;align-items:flex-start;padding:10px;border:1px solid var(--line);border-radius:8px}
+.row input[type=text]{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px}
+.row small{display:block;color:var(--mute);margin-top:4px;overflow-wrap:anywhere}
+#topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;display:flex;align-items:center;gap:10px;padding:10px 16px;background:var(--panel);border-bottom:1px solid var(--line)}
+.tb-title{flex:1;min-width:0;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#menuBtn{display:none}
+#scrim{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:30}
+#settings{position:fixed;top:calc(env(safe-area-inset-top,0px) + 60px);right:12px;width:min(380px,calc(100vw - 24px));max-height:calc(100vh - 100px);overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;z-index:25;box-shadow:0 8px 28px rgba(0,0,0,.2)}
+#settings h3{margin:0 0 10px;font-size:.95rem}
+#settings hr{border:0;border-top:1px solid var(--line);margin:14px 0}
+label.fld{flex-direction:column;align-items:stretch;gap:4px;margin-bottom:12px}
+label.fld select,label.fld input[type=range]{width:100%}
+#editBar{position:sticky;bottom:0;z-index:10;background:var(--panel);margin:20px 0 0;padding:12px 0 calc(12px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line);border-bottom:0}
+#sync{margin:0;color:var(--mute);font-size:.8rem}
+#toast{z-index:60;position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;opacity:0;pointer-events:none;transition:opacity .2s}
+#toast.show{opacity:1}
+[hidden]{display:none!important}
+@media (max-width:760px){
+.app{grid-template-columns:1fr}
+aside{position:fixed;top:0;left:0;bottom:0;width:min(86vw,320px);z-index:40;overflow:auto;visibility:hidden;transform:translateX(-102%);transition:transform .2s,visibility .2s;padding-top:calc(16px + env(safe-area-inset-top,0px));padding-bottom:calc(16px + env(safe-area-inset-bottom,0px))}
+aside.open{visibility:visible;transform:none}
+#list{max-height:none;flex:1;overflow:visible}
+#menuBtn{display:inline-flex;align-items:center}
+button,select{min-height:44px}
+.item{padding:12px 10px}
+#content{padding:16px 16px 24px}
+.hint{display:none}
+#manage button{flex:1}
+}
+@media (prefers-reduced-motion:reduce){#toast,aside{transition:none}}
+
+</style>
+</head>
+<body>
+<div class="app">
+<aside id="side" aria-label="Essays">
+  <h2>My Essays</h2>
+  <input type="search" id="q" placeholder="Search titles" aria-label="Search essays">
+  <div id="list"></div>
+  <p id="credit">Created by MANA</p>
+</aside>
+<div id="scrim" hidden></div>
+<main>
+  <header id="topbar">
+    <button id="menuBtn" aria-label="Open essays">&#9776;</button>
+    <div class="tb-title">My Essays</div>
+    <div class="grp" id="player" hidden><button id="playBtn">Listen</button><button id="stopBtn" hidden>Stop</button></div>
+    <button id="setBtn" aria-label="Settings" aria-expanded="false">&#9881;</button>
+  </header>
+  <section id="settings" hidden aria-label="Settings">
+    <div id="tts">
+      <h3>Listening</h3>
+      <label class="lbl fld">Voice <select id="voice"></select></label>
+      <label class="lbl fld">Speed <select id="rate"><option value="0.7">0.7x</option><option value="0.85">0.85x</option><option value="1" selected>1x</option><option value="1.15">1.15x</option><option value="1.3">1.3x</option></select></label>
+      <label class="lbl fld">Pitch <input type="range" id="pitch" min="0.7" max="1.3" step="0.05" value="1"></label>
+      <label class="lbl fld">Pause between sentences <select id="pause"><option value="0">None</option><option value="300" selected>Short</option><option value="600">Medium</option><option value="900">Long</option></select></label>
+      <label class="lbl"><input type="checkbox" id="auto"> Auto-play next</label>
+      <div class="grp" style="margin-top:12px"><button id="testVoice">Test voice</button><span class="lbl">&#9733; = higher quality voice</span></div>
+    </div>
+  </section>
+  <div id="content">
+    <div id="empty"><h1>Welcome</h1><p>Open the menu and choose an essay to read or listen to.</p></div>
+    <article id="doc" hidden>
+      <h1 id="vTitle"></h1>
+      <p id="meta"></p>
+      <div class="grp" id="src" hidden><button id="srcVoice" class="primary">Default voice</button><button id="srcRec">My recording</button></div>
+      <audio id="aud" controls preload="metadata" hidden style="width:100%;margin:14px 0"></audio>
+      <div class="body" id="vBody"></div>
+    </article>
+  </div>
+</main>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script>
+const $=s=>document.querySelector(s),PK='essay-viewer-prefs',synth=window.speechSynthesis,aud=$('#aud');
+let items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
+try{prefs=JSON.parse(localStorage.getItem(PK))||{}}catch(e){}
+const save=()=>{try{localStorage.setItem(PK,JSON.stringify(prefs))}catch(e){}};
+const words=s=>(s.trim().match(/\S+/g)||[]).length;
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>t.classList.remove('show'),2800)}
+function drawer(o){$('#side').classList.toggle('open',o);$('#scrim').hidden=!o}
+function settings(o){$('#settings').hidden=!o;$('#setBtn').setAttribute('aria-expanded',String(o))}
+function renderList(){
+  const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';
+  items.filter(i=>!f||i.title.toLowerCase().includes(f)).forEach(i=>{
+    const b=document.createElement('button');b.className='item';b.setAttribute('aria-current',String(cur===i));
+    const t=document.createElement('b');t.textContent=i.title;b.append(t);b.onclick=()=>open(i);box.append(b)});
+  if(!box.children.length)box.textContent='No essays found.';
+}
+function renderBody(text){
+  const box=$('#vBody');box.textContent='';
+  (text.match(/[^.!?\n]*[.!?]+["')\]]*\s*|[^.!?\n]+|\n+/g)||[]).forEach(p=>{
+    if(/^\n+$/.test(p)||!p.trim()){box.append(document.createTextNode(p));return}
+    const s=document.createElement('span');s.className='s';s.textContent=p;box.append(s)});
+}
+async function open(i){
+  stopSpeech();aud.pause();cur=i;drawer(false);prefs.last=i.file;save();renderList();
+  let txt='';
+  try{const r=await fetch(i.file);if(!r.ok)throw 0;txt=await r.text()}catch(e){toast('Could not load this essay.');return}
+  if(cur!==i)return;
+  const lines=txt.replace(/\r/g,'').split('\n');
+  if(lines[0].trim()===i.title.trim()){lines.shift();if(lines.length&&!lines[0].trim())lines.shift()}
+  const body=lines.join('\n').trim();
+  $('#empty').hidden=true;$('#doc').hidden=false;$('#vTitle').textContent=i.title;
+  $('#meta').textContent=words(body)+' words - '+Math.max(1,Math.ceil(words(body)/200))+' min read';
+  renderBody(body);$('#src').hidden=true;
+  if(i.audio)aud.src=i.audio;else{aud.removeAttribute('src');aud.load()}
+  setMode('voice');window.scrollTo(0,0);
+}
+aud.onloadedmetadata=()=>{$('#src').hidden=false};
+aud.onerror=()=>{if(aud.getAttribute('src')){$('#src').hidden=true;setMode('voice')}};
+aud.onplay=()=>{aud.playbackRate=parseFloat($('#rate').value)||1};
+function setMode(m){
+  mode=m;aud.hidden=m!=='rec';$('#player').hidden=m==='rec'||!cur||!synth;
+  $('#srcVoice').classList.toggle('primary',m==='voice');$('#srcRec').classList.toggle('primary',m==='rec');
+  if(m==='rec')stopSpeech();else aud.pause();
+}
+$('#srcVoice').onclick=()=>setMode('voice');
+$('#srcRec').onclick=()=>setMode('rec');
+
+/* Default voice reader: sentence by sentence with highlight */
+function setUI(){$('#playBtn').textContent=state==='playing'?'Pause':state==='paused'?'Resume':'Listen';$('#stopBtn').hidden=state==='idle'}
+function loadVoices(){
+  const sc=v=>(/natural|neural|premium|enhanced|siri/i.test(v.name)?3:0)+(v.localService===false?2:0)+(/google|microsoft/i.test(v.name)?1:0);
+  voices=synth.getVoices().filter(v=>/^en/i.test(v.lang)).sort((a,b)=>sc(b)-sc(a)||a.lang.localeCompare(b.lang)||a.name.localeCompare(b.name));
+  const sel=$('#voice');sel.textContent='';
+  voices.forEach(v=>{const o=document.createElement('option');o.value=v.voiceURI;o.textContent=(sc(v)>=2?'\u2605 ':'')+v.name+' ('+v.lang+')';sel.append(o)});
+  if(prefs.voice&&voices.some(v=>v.voiceURI===prefs.voice))sel.value=prefs.voice;
+  sel.hidden=!voices.length;
+}
+function mkUtt(text){
+  const u=new SpeechSynthesisUtterance(text),v=voices.find(v=>v.voiceURI===$('#voice').value);
+  if(v){u.voice=v;u.lang=v.lang}else u.lang='en-US';
+  u.rate=parseFloat($('#rate').value)||1;u.pitch=parseFloat($('#pitch').value)||1;return u;
+}
+function mark(el){document.querySelectorAll('.s.on').forEach(x=>x.classList.remove('on'));if(el){el.classList.add('on');el.scrollIntoView({block:'center',behavior:'smooth'})}}
+function speakNext(t){
+  if(t!==tok)return;
+  if(qi>=q.length){finish();return}
+  const el=q[qi];
+  if(!el.textContent.trim()){qi++;speakNext(t);return}
+  mark(el);
+  const u=mkUtt(el.textContent.trim());
+  u.onend=()=>{if(t===tok){qi++;setTimeout(()=>speakNext(t),parseInt($('#pause').value)||0)}};
+  u.onerror=ev=>{if(t===tok&&ev.error!=='interrupted'&&ev.error!=='canceled'){qi++;speakNext(t)}};
+  synth.speak(u);
+}
+function beginRead(){q=[...document.querySelectorAll('#vBody .s')];qi=0;state='playing';synth.cancel();speakNext(++tok);setUI()}
+function finish(){
+  if($('#auto').checked){const n=items[items.indexOf(cur)+1];if(n){open(n).then(()=>{if(mode==='voice')beginRead()});return}}
+  stopSpeech();
+}
+function stopSpeech(){if(!synth)return;tok++;synth.cancel();state='idle';mark(null);setUI()}
+if(!synth){$('#tts').hidden=true;$('#playBtn').hidden=true}else{
+  loadVoices();synth.onvoiceschanged=loadVoices;
+  if(prefs.rate)$('#rate').value=prefs.rate;
+  if(prefs.pitch)$('#pitch').value=prefs.pitch;
+  if(prefs.pause!==undefined)$('#pause').value=prefs.pause;
+  $('#auto').checked=!!prefs.auto;
+  $('#voice').onchange=$('#rate').onchange=$('#pitch').onchange=$('#pause').onchange=$('#auto').onchange=()=>{
+    prefs.voice=$('#voice').value;prefs.rate=$('#rate').value;prefs.pitch=$('#pitch').value;prefs.pause=$('#pause').value;prefs.auto=$('#auto').checked;save()};
+  $('#testVoice').onclick=()=>{stopSpeech();synth.speak(mkUtt('This is how this voice sounds. Your essays will be read to you like this.'))};
+  $('#playBtn').onclick=()=>{
+    if(state==='playing'){synth.pause();state='paused'}
+    else if(state==='paused'){synth.resume();state='playing'}
+    else beginRead();
+    setUI();
+  };
+  $('#stopBtn').onclick=stopSpeech;
+  window.addEventListener('pagehide',()=>synth.cancel());
+}
+
+$('#menuBtn').onclick=()=>drawer(true);
+$('#scrim').onclick=()=>drawer(false);
+$('#setBtn').onclick=e=>{e.stopPropagation();settings($('#settings').hidden)};
+document.addEventListener('click',e=>{if(!$('#settings').hidden&&!e.target.closest('#settings'))settings(false)});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){settings(false);drawer(false)}});
+$('#q').oninput=renderList;
+fetch('essays.json').then(r=>r.json()).then(d=>{
+  items=d.essays||[];renderList();
+  const last=items.find(x=>x.file===prefs.last);if(last)open(last);
+}).catch(()=>{$('#list').textContent='Could not load essays.json. Make sure it is uploaded next to index.html.'});
+</script>
+</body>
+</html>

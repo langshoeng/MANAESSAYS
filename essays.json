@@ -1,0 +1,504 @@
+{
+  "essays": [
+    {
+      "title": "Qualities of an Effective Teacher",
+      "file": "essays/qualities-of-an-effective-teacher.txt",
+      "audio": "audio/qualities-of-an-effective-teacher.mp3"
+    },
+    {
+      "title": "The Role and Responsibilities of Teachers",
+      "file": "essays/the-role-and-responsibilities-of-teachers.txt",
+      "audio": "audio/the-role-and-responsibilities-of-teachers.mp3"
+    },
+    {
+      "title": "The Qualities of an Effective 21st-Century Teacher",
+      "file": "essays/the-qualities-of-an-effective-21st-century-teacher.txt",
+      "audio": "audio/the-qualities-of-an-effective-21st-century-teacher.mp3"
+    },
+    {
+      "title": "Student Discipline and Behavior",
+      "file": "essays/student-discipline-and-behavior.txt",
+      "audio": "audio/student-discipline-and-behavior.mp3"
+    },
+    {
+      "title": "Teacher–Parent Cooperation in Education",
+      "file": "essays/teacher-parent-cooperation-in-education.txt",
+      "audio": "audio/teacher-parent-cooperation-in-education.mp3"
+    },
+    {
+      "title": "Student-Centered Learning",
+      "file": "essays/student-centered-learning.txt",
+      "audio": "audio/student-centered-learning.mp3"
+    },
+    {
+      "title": "Students' Responsibility for Their Own Learning",
+      "file": "essays/students-responsibility-for-their-own-learning.txt",
+      "audio": "audio/students-responsibility-for-their-own-learning.mp3"
+    },
+    {
+      "title": "Education Reform in Cambodia",
+      "file": "essays/education-reform-in-cambodia.txt",
+      "audio": "audio/education-reform-in-cambodia.mp3"
+    },
+    {
+      "title": "The Role of Education in National Development",
+      "file": "essays/the-role-of-education-in-national-development.txt",
+      "audio": "audio/the-role-of-education-in-national-development.mp3"
+    },
+    {
+      "title": "The Importance of Education for Cambodia",
+      "file": "essays/the-importance-of-education-for-cambodia.txt",
+      "audio": "audio/the-importance-of-education-for-cambodia.mp3"
+    },
+    {
+      "title": "The Role of Teachers in National Development",
+      "file": "essays/the-role-of-teachers-in-national-development.txt",
+      "audio": "audio/the-role-of-teachers-in-national-development.mp3"
+    },
+    {
+      "title": "The Importance of Motivation in Learning",
+      "file": "essays/the-importance-of-motivation-in-learning.txt",
+      "audio": "audio/the-importance-of-motivation-in-learning.mp3"
+    },
+    {
+      "title": "How Teachers Can Motivate Students",
+      "file": "essays/how-teachers-can-motivate-students.txt",
+      "audio": "audio/how-teachers-can-motivate-students.mp3"
+    },
+    {
+      "title": "Factors Affecting Students' Academic Performance",
+      "file": "essays/factors-affecting-students-academic-performance.txt",
+      "audio": "audio/factors-affecting-students-academic-performance.mp3"
+    },
+    {
+      "title": "The Importance of Critical Thinking in Education",
+      "file": "essays/the-importance-of-critical-thinking-in-education.txt",
+      "audio": "audio/the-importance-of-critical-thinking-in-education.mp3"
+    },
+    {
+      "title": "The Importance of Creativity in Education",
+      "file": "essays/the-importance-of-creativity-in-education.txt",
+      "audio": "audio/the-importance-of-creativity-in-education.mp3"
+    },
+    {
+      "title": "The Importance of Communication Skills for Students",
+      "file": "essays/the-importance-of-communication-skills-for-students.txt",
+      "audio": "audio/the-importance-of-communication-skills-for-students.mp3"
+    },
+    {
+      "title": "The Importance of Technology in Education",
+      "file": "essays/the-importance-of-technology-in-education.txt",
+      "audio": "audio/the-importance-of-technology-in-education.mp3"
+    },
+    {
+      "title": "The Role of ICT in Modern Teaching",
+      "file": "essays/the-role-of-ict-in-modern-teaching.txt",
+      "audio": "audio/the-role-of-ict-in-modern-teaching.mp3"
+    },
+    {
+      "title": "The Advantages and Disadvantages of Online Learning",
+      "file": "essays/the-advantages-and-disadvantages-of-online-learning.txt",
+      "audio": "audio/the-advantages-and-disadvantages-of-online-learning.mp3"
+    },
+    {
+      "title": "The Importance of Lifelong Learning",
+      "file": "essays/the-importance-of-lifelong-learning.txt",
+      "audio": "audio/the-importance-of-lifelong-learning.mp3"
+    },
+    {
+      "title": "The Importance of Professional Development for Teachers",
+      "file": "essays/the-importance-of-professional-development-for-teachers.txt",
+      "audio": "audio/the-importance-of-professional-development-for-teachers.mp3"
+    },
+    {
+      "title": "Classroom Management",
+      "file": "essays/classroom-management.txt",
+      "audio": "audio/classroom-management.mp3"
+    },
+    {
+      "title": "Inclusive Education",
+      "file": "essays/inclusive-education.txt",
+      "audio": "audio/inclusive-education.mp3"
+    },
+    {
+      "title": "Equal Access to Quality Education",
+      "file": "essays/equal-access-to-quality-education.txt",
+      "audio": "audio/equal-access-to-quality-education.mp3"
+    },
+    {
+      "title": "Problems Facing the Cambodian Education System",
+      "file": "essays/problems-facing-the-cambodian-education-system.txt",
+      "audio": "audio/problems-facing-the-cambodian-education-system.mp3"
+    },
+    {
+      "title": "How to Improve the Quality of Education in Cambodia",
+      "file": "essays/how-to-improve-the-quality-of-education-in-cambodia.txt",
+      "audio": "audio/how-to-improve-the-quality-of-education-in-cambodia.mp3"
+    },
+    {
+      "title": "Challenges Faced by Teachers in Cambodia",
+      "file": "essays/challenges-faced-by-teachers-in-cambodia.txt",
+      "audio": "audio/challenges-faced-by-teachers-in-cambodia.mp3"
+    },
+    {
+      "title": "Teacher Quality and Educational Quality",
+      "file": "essays/teacher-quality-and-educational-quality.txt",
+      "audio": "audio/teacher-quality-and-educational-quality.mp3"
+    },
+    {
+      "title": "Teacher Motivation",
+      "file": "essays/teacher-motivation.txt",
+      "audio": "audio/teacher-motivation.mp3"
+    },
+    {
+      "title": "Teacher Training and Professional Development",
+      "file": "essays/teacher-training-and-professional-development.txt",
+      "audio": "audio/teacher-training-and-professional-development.mp3"
+    },
+    {
+      "title": "Teacher Accountability",
+      "file": "essays/teacher-accountability.txt",
+      "audio": "audio/teacher-accountability.mp3"
+    },
+    {
+      "title": "The Education Gap Between Urban and Rural Areas",
+      "file": "essays/the-education-gap-between-urban-and-rural-areas.txt",
+      "audio": "audio/the-education-gap-between-urban-and-rural-areas.mp3"
+    },
+    {
+      "title": "The Role of Parents in Education",
+      "file": "essays/the-role-of-parents-in-education.txt",
+      "audio": "audio/the-role-of-parents-in-education.mp3"
+    },
+    {
+      "title": "The Role of Communities in Education",
+      "file": "essays/the-role-of-communities-in-education.txt",
+      "audio": "audio/the-role-of-communities-in-education.mp3"
+    },
+    {
+      "title": "The Role of Technology in Cambodian Schools",
+      "file": "essays/the-role-of-technology-in-cambodian-schools.txt",
+      "audio": "audio/the-role-of-technology-in-cambodian-schools.mp3"
+    },
+    {
+      "title": "How to Reduce Student Dropout Rates",
+      "file": "essays/how-to-reduce-student-dropout-rates.txt",
+      "audio": "audio/how-to-reduce-student-dropout-rates.mp3"
+    },
+    {
+      "title": "How to Improve Students' Learning Outcomes",
+      "file": "essays/how-to-improve-students-learning-outcomes.txt",
+      "audio": "audio/how-to-improve-students-learning-outcomes.mp3"
+    },
+    {
+      "title": "Education and Poverty",
+      "file": "essays/education-and-poverty.txt",
+      "audio": "audio/education-and-poverty.mp3"
+    },
+    {
+      "title": "The Role of Students in Their Own Education",
+      "file": "essays/the-role-of-students-in-their-own-education.txt",
+      "audio": "audio/the-role-of-students-in-their-own-education.mp3"
+    },
+    {
+      "title": "The Role of Teachers in Developing 21st-Century Human Resources",
+      "file": "essays/the-role-of-teachers-in-developing-21st-century-human-resour.txt",
+      "audio": "audio/the-role-of-teachers-in-developing-21st-century-human-resour.mp3"
+    },
+    {
+      "title": "The Importance of Soft Skills in Education",
+      "file": "essays/the-importance-of-soft-skills-in-education.txt",
+      "audio": "audio/the-importance-of-soft-skills-in-education.mp3"
+    },
+    {
+      "title": "The Role of Teachers in Developing Students' Critical Thinking",
+      "file": "essays/the-role-of-teachers-in-developing-students-critical-thinkin.txt",
+      "audio": "audio/the-role-of-teachers-in-developing-students-critical-thinkin.mp3"
+    },
+    {
+      "title": "The Role of Teachers in Developing Students' Creativity",
+      "file": "essays/the-role-of-teachers-in-developing-students-creativity.txt",
+      "audio": "audio/the-role-of-teachers-in-developing-students-creativity.mp3"
+    },
+    {
+      "title": "The Importance of Active Learning",
+      "file": "essays/the-importance-of-active-learning.txt",
+      "audio": "audio/the-importance-of-active-learning.mp3"
+    },
+    {
+      "title": "The Importance of Collaborative Learning",
+      "file": "essays/the-importance-of-collaborative-learning.txt",
+      "audio": "audio/the-importance-of-collaborative-learning.mp3"
+    },
+    {
+      "title": "The Importance of Assessment in Education",
+      "file": "essays/the-importance-of-assessment-in-education.txt",
+      "audio": "audio/the-importance-of-assessment-in-education.mp3"
+    },
+    {
+      "title": "The Importance of Feedback in Learning",
+      "file": "essays/the-importance-of-feedback-in-learning.txt",
+      "audio": "audio/the-importance-of-feedback-in-learning.mp3"
+    },
+    {
+      "title": "The Role of Parents and Teachers in Student Discipline",
+      "file": "essays/the-role-of-parents-and-teachers-in-student-discipline.txt",
+      "audio": "audio/the-role-of-parents-and-teachers-in-student-discipline.mp3"
+    },
+    {
+      "title": "The Advantages and Disadvantages of Social Media for Students",
+      "file": "essays/the-advantages-and-disadvantages-of-social-media-for-student.txt",
+      "audio": "audio/the-advantages-and-disadvantages-of-social-media-for-student.mp3"
+    },
+    {
+      "title": "The Impact of Smartphones on Students' Education",
+      "file": "essays/the-impact-of-smartphones-on-students-education.txt",
+      "audio": "audio/the-impact-of-smartphones-on-students-education.mp3"
+    },
+    {
+      "title": "The Importance of Digital Literacy for Students",
+      "file": "essays/the-importance-of-digital-literacy-for-students.txt",
+      "audio": "audio/the-importance-of-digital-literacy-for-students.mp3"
+    },
+    {
+      "title": "The Importance of Lifelong Learning for Teachers",
+      "file": "essays/the-importance-of-lifelong-learning-for-teachers.txt",
+      "audio": "audio/the-importance-of-lifelong-learning-for-teachers.mp3"
+    },
+    {
+      "title": "The Importance of Professional Ethics for Teachers",
+      "file": "essays/the-importance-of-professional-ethics-for-teachers.txt",
+      "audio": "audio/the-importance-of-professional-ethics-for-teachers.mp3"
+    },
+    {
+      "title": "The Role of Education in Reducing Poverty",
+      "file": "essays/the-role-of-education-in-reducing-poverty.txt",
+      "audio": "audio/the-role-of-education-in-reducing-poverty.mp3"
+    },
+    {
+      "title": "The Importance of Education for Sustainable Development",
+      "file": "essays/the-importance-of-education-for-sustainable-development.txt",
+      "audio": "audio/the-importance-of-education-for-sustainable-development.mp3"
+    },
+    {
+      "title": "The Role of Youth in National Development",
+      "file": "essays/the-role-of-youth-in-national-development.txt",
+      "audio": "audio/the-role-of-youth-in-national-development.mp3"
+    },
+    {
+      "title": "The Importance of Good Citizenship",
+      "file": "essays/the-importance-of-good-citizenship.txt",
+      "audio": "audio/the-importance-of-good-citizenship.mp3"
+    },
+    {
+      "title": "The Importance of Gender Equality in Education",
+      "file": "essays/the-importance-of-gender-equality-in-education.txt",
+      "audio": "audio/the-importance-of-gender-equality-in-education.mp3"
+    },
+    {
+      "title": "The Importance of Environmental Education",
+      "file": "essays/the-importance-of-environmental-education.txt",
+      "audio": "audio/the-importance-of-environmental-education.mp3"
+    },
+    {
+      "title": "The Role of Schools in Protecting the Environment",
+      "file": "essays/the-role-of-schools-in-protecting-the-environment.txt",
+      "audio": "audio/the-role-of-schools-in-protecting-the-environment.mp3"
+    },
+    {
+      "title": "The Role of Students in Environmental Protection",
+      "file": "essays/the-role-of-students-in-environmental-protection.txt",
+      "audio": "audio/the-role-of-students-in-environmental-protection.mp3"
+    },
+    {
+      "title": "The Importance of Volunteering Among Young People",
+      "file": "essays/the-importance-of-volunteering-among-young-people.txt",
+      "audio": "audio/the-importance-of-volunteering-among-young-people.mp3"
+    },
+    {
+      "title": "The Importance of Social Responsibility",
+      "file": "essays/the-importance-of-social-responsibility.txt",
+      "audio": "audio/the-importance-of-social-responsibility.mp3"
+    },
+    {
+      "title": "The Importance of Respect in Schools",
+      "file": "essays/the-importance-of-respect-in-schools.txt",
+      "audio": "audio/the-importance-of-respect-in-schools.mp3"
+    },
+    {
+      "title": "The Importance of Responsibility Among Students",
+      "file": "essays/the-importance-of-responsibility-among-students.txt",
+      "audio": "audio/the-importance-of-responsibility-among-students.mp3"
+    },
+    {
+      "title": "The Importance of Teamwork Among Students",
+      "file": "essays/the-importance-of-teamwork-among-students.txt",
+      "audio": "audio/the-importance-of-teamwork-among-students.mp3"
+    },
+    {
+      "title": "The Importance of Confidence Among Students",
+      "file": "essays/the-importance-of-confidence-among-students.txt",
+      "audio": "audio/the-importance-of-confidence-among-students.mp3"
+    },
+    {
+      "title": "The Importance of Self-Expression Among Students",
+      "file": "essays/the-importance-of-self-expression-among-students.txt",
+      "audio": "audio/the-importance-of-self-expression-among-students.mp3"
+    },
+    {
+      "title": "The Importance of Problem-Solving Skills",
+      "file": "essays/the-importance-of-problem-solving-skills.txt",
+      "audio": "audio/the-importance-of-problem-solving-skills.mp3"
+    },
+    {
+      "title": "How to Develop Students' Leadership Skills",
+      "file": "essays/how-to-develop-students-leadership-skills.txt",
+      "audio": "audio/how-to-develop-students-leadership-skills.mp3"
+    },
+    {
+      "title": "How to Develop Students' Life Skills",
+      "file": "essays/how-to-develop-students-life-skills.txt",
+      "audio": "audio/how-to-develop-students-life-skills.mp3"
+    },
+    {
+      "title": "How to Encourage Students to Become Lifelong Learners",
+      "file": "essays/how-to-encourage-students-to-become-lifelong-learners.txt",
+      "audio": "audio/how-to-encourage-students-to-become-lifelong-learners.mp3"
+    },
+    {
+      "title": "How to Support Students with Learning Difficulties",
+      "file": "essays/how-to-support-students-with-learning-difficulties.txt",
+      "audio": "audio/how-to-support-students-with-learning-difficulties.mp3"
+    },
+    {
+      "title": "The Importance of Reading for Students",
+      "file": "essays/the-importance-of-reading-for-students.txt",
+      "audio": "audio/the-importance-of-reading-for-students.mp3"
+    },
+    {
+      "title": "The Importance of Communication Skills for Teachers",
+      "file": "essays/the-importance-of-communication-skills-for-teachers.txt",
+      "audio": "audio/the-importance-of-communication-skills-for-teachers.mp3"
+    },
+    {
+      "title": "The Importance of Teacher Motivation",
+      "file": "essays/the-importance-of-teacher-motivation.txt",
+      "audio": "audio/the-importance-of-teacher-motivation.mp3"
+    },
+    {
+      "title": "The Importance of Professional Ethics for Teachers",
+      "file": "essays/the-importance-of-professional-ethics-for-teachers-2.txt",
+      "audio": "audio/the-importance-of-professional-ethics-for-teachers-2.mp3"
+    },
+    {
+      "title": "The Importance of Teacher Professional Development",
+      "file": "essays/the-importance-of-teacher-professional-development.txt",
+      "audio": "audio/the-importance-of-teacher-professional-development.mp3"
+    },
+    {
+      "title": "The Importance of Inclusive Education",
+      "file": "essays/the-importance-of-inclusive-education.txt",
+      "audio": "audio/the-importance-of-inclusive-education.mp3"
+    },
+    {
+      "title": "The Importance of Student-Centered Learning",
+      "file": "essays/the-importance-of-student-centered-learning.txt",
+      "audio": "audio/the-importance-of-student-centered-learning.mp3"
+    },
+    {
+      "title": "The Importance of Critical Thinking for Students",
+      "file": "essays/the-importance-of-critical-thinking-for-students.txt",
+      "audio": "audio/the-importance-of-critical-thinking-for-students.mp3"
+    },
+    {
+      "title": "The Importance of Collaboration Between Parents and Teachers",
+      "file": "essays/the-importance-of-collaboration-between-parents-and-teachers.txt",
+      "audio": "audio/the-importance-of-collaboration-between-parents-and-teachers.mp3"
+    },
+    {
+      "title": "The Role of Schools in Preparing Students for Employment",
+      "file": "essays/the-role-of-schools-in-preparing-students-for-employment.txt",
+      "audio": "audio/the-role-of-schools-in-preparing-students-for-employment.mp3"
+    },
+    {
+      "title": "The Importance of Motivation in Student Learning",
+      "file": "essays/the-importance-of-motivation-in-student-learning.txt",
+      "audio": "audio/the-importance-of-motivation-in-student-learning.mp3"
+    },
+    {
+      "title": "The Role of Feedback in Student Learning",
+      "file": "essays/the-role-of-feedback-in-student-learning.txt",
+      "audio": "audio/the-role-of-feedback-in-student-learning.mp3"
+    },
+    {
+      "title": "The Importance of Assessment in Education",
+      "file": "essays/the-importance-of-assessment-in-education-2.txt",
+      "audio": "audio/the-importance-of-assessment-in-education-2.mp3"
+    },
+    {
+      "title": "The Advantages and Disadvantages of Online Learning",
+      "file": "essays/the-advantages-and-disadvantages-of-online-learning-2.txt",
+      "audio": "audio/the-advantages-and-disadvantages-of-online-learning-2.mp3"
+    },
+    {
+      "title": "The Impact of Technology on Education",
+      "file": "essays/the-impact-of-technology-on-education.txt",
+      "audio": "audio/the-impact-of-technology-on-education.mp3"
+    },
+    {
+      "title": "The Importance of Digital Literacy for Students",
+      "file": "essays/the-importance-of-digital-literacy-for-students-2.txt",
+      "audio": "audio/the-importance-of-digital-literacy-for-students-2.mp3"
+    },
+    {
+      "title": "The Advantages and Disadvantages of Social Media for Students",
+      "file": "essays/the-advantages-and-disadvantages-of-social-media-for-student-2.txt",
+      "audio": "audio/the-advantages-and-disadvantages-of-social-media-for-student-2.mp3"
+    },
+    {
+      "title": "The Importance of Classroom Management",
+      "file": "essays/the-importance-of-classroom-management.txt",
+      "audio": "audio/the-importance-of-classroom-management.mp3"
+    },
+    {
+      "title": "How to Improve Students' Academic Performance",
+      "file": "essays/how-to-improve-students-academic-performance.txt",
+      "audio": "audio/how-to-improve-students-academic-performance.mp3"
+    },
+    {
+      "title": "The Importance of Education in Rural Areas",
+      "file": "essays/the-importance-of-education-in-rural-areas.txt",
+      "audio": "audio/the-importance-of-education-in-rural-areas.mp3"
+    },
+    {
+      "title": "The Role of Education in Reducing Poverty",
+      "file": "essays/the-role-of-education-in-reducing-poverty-2.txt",
+      "audio": "audio/the-role-of-education-in-reducing-poverty-2.mp3"
+    },
+    {
+      "title": "The Role of Teachers in National Development",
+      "file": "essays/the-role-of-teachers-in-national-development-2.txt",
+      "audio": "audio/the-role-of-teachers-in-national-development-2.mp3"
+    },
+    {
+      "title": "The Importance of Good Citizenship Among Students",
+      "file": "essays/the-importance-of-good-citizenship-among-students.txt",
+      "audio": "audio/the-importance-of-good-citizenship-among-students.mp3"
+    },
+    {
+      "title": "The Importance of Gender Equality in Education",
+      "file": "essays/the-importance-of-gender-equality-in-education-2.txt",
+      "audio": "audio/the-importance-of-gender-equality-in-education-2.mp3"
+    },
+    {
+      "title": "The Importance of Environmental Education",
+      "file": "essays/the-importance-of-environmental-education-2.txt",
+      "audio": "audio/the-importance-of-environmental-education-2.mp3"
+    },
+    {
+      "title": "The Importance of Education for Sustainable Development",
+      "file": "essays/the-importance-of-education-for-sustainable-development-2.txt",
+      "audio": "audio/the-importance-of-education-for-sustainable-development-2.mp3"
+    }
+  ]
+}
