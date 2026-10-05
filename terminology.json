@@ -1,0 +1,2443 @@
+{
+"sections": [
+{
+"id": "start",
+"group": "Start here",
+"title": "How to use this handbook",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "This is the final master version for teacher entrance/recruitment exam preparation. It combines the original terminology handbook with the additional terminology selected from the reference-book contents pages you provided. Repeated terms have been consolidated so you can study from one document."
+},
+{
+"t": "h",
+"x": "Priority system"
+},
+{
+"t": "ul",
+"items": [
+"★★★ Very high priority — memorize the definition, example, and at least one related distinction.",
+"★★ High priority — understand the concept and be able to explain it briefly.",
+"★ Extension — recognize the term and know its basic meaning."
+]
+},
+{
+"t": "p",
+"x": "Master coverage: 359 unique key terms."
+},
+{
+"t": "h",
+"x": "Recommended study order"
+},
+{
+"t": "ul",
+"items": [
+"Memorize the ★★★ terms in Applied Linguistics, SLA, teaching methods, assessment, and linguistics first.",
+"Study the major distinctions. These are particularly useful for multiple-choice and short-answer questions.",
+"Practice explaining each important term in one or two sentences without looking at the definition.",
+"For essay writing, use terminology naturally and accurately rather than forcing many technical words into one paragraph.",
+"When you meet a new term, connect it to an example from an English classroom. This makes the definition easier to remember.",
+"After mastering the ★★★ terms, move to ★★ terms and then the extension terms."
+]
+},
+{
+"t": "h",
+"x": "Using this section in the app"
+},
+{
+"t": "ul",
+"items": [
+"Pick a category from the menu, or search for any term to jump straight to it.",
+"Use \"Must-memorize terms\" to study only the ★★★ terms, grouped by category.",
+"Press Save on a term to add it to \"My saved terms\" for last-minute review.",
+"Switch to Flashcards inside a category: see the term, say the definition aloud, then check."
+]
+}
+]
+},
+{
+"id": "dist",
+"group": "Quick study",
+"title": "Most important exam distinctions",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Frequent multiple-choice and short-answer questions ask you to tell two similar terms apart. Learn these pairs first."
+},
+{
+"t": "tbl",
+"head": [
+"Distinction",
+"Exam Shortcut"
+],
+"rows": [
+[
+"Linguistics vs. Applied Linguistics",
+"Linguistics studies language systematically; Applied Linguistics applies language knowledge to real-world language problems, especially teaching and learning."
+],
+[
+"Semantics vs. Pragmatics",
+"Semantics concerns meaning encoded in language; pragmatics concerns meaning interpreted in context."
+],
+[
+"Cohesion vs. Coherence",
+"Cohesion is the linguistic linking of text; coherence is the overall logical and meaningful connection of ideas."
+],
+[
+"Approach vs. Method vs. Technique",
+"Approach = beliefs; Method = organized teaching plan; Technique = specific classroom procedure."
+],
+[
+"Acquisition vs. Learning",
+"Acquisition emphasizes natural development through meaningful exposure/use; learning emphasizes conscious study or knowledge."
+],
+[
+"Competence vs. Performance",
+"Competence is underlying knowledge; performance is actual language use."
+],
+[
+"Synonymy vs. Hyponymy",
+"Synonymy concerns similar meanings; hyponymy concerns a category/member relationship."
+],
+[
+"Homonymy vs. Polysemy",
+"Homonymy involves identical forms with unrelated meanings; polysemy involves multiple related meanings."
+],
+[
+"Phonetics vs. Phonology",
+"Phonetics studies physical speech sounds; phonology studies how sounds function in a language system."
+],
+[
+"Phoneme vs. Morpheme",
+"A phoneme is a smallest contrastive sound unit; a morpheme is a smallest meaningful or grammatical unit."
+],
+[
+"Descriptive vs. Prescriptive Grammar",
+"Descriptive grammar describes actual use; prescriptive grammar states preferred or standard rules."
+],
+[
+"Form vs. Function",
+"Form is the grammatical shape; function is the communicative purpose."
+],
+[
+"Input vs. Output",
+"Input is language received; output is language produced."
+],
+[
+"Positive vs. Negative Transfer",
+"Positive transfer helps learning; negative transfer contributes to errors."
+],
+[
+"Direct vs. Indirect Speech Act",
+"Direct speech acts match grammatical form and function; indirect speech acts do not."
+],
+[
+"Positive vs. Negative Face",
+"Positive face is the desire for approval; negative face is the desire for freedom from imposition."
+],
+[
+"Equality vs. Equity",
+"Equality gives the same treatment/opportunity; equity provides fair support according to different needs."
+],
+[
+"Assessment vs. Evaluation",
+"Assessment gathers evidence about learning/performance; evaluation makes judgments about quality, value, or effectiveness."
+]
+]
+}
+]
+},
+{
+"id": "c1",
+"group": "Categories",
+"title": "Linguistics & Nature of Language",
+"kind": "terms",
+"terms": [
+{
+"t": "Arbitrariness",
+"d": "The lack of a natural connection between a linguistic form and its meaning.",
+"e": "There is nothing naturally tree-like about the English word 'tree'.",
+"p": 3
+},
+{
+"t": "Competence",
+"d": "A speaker's underlying knowledge of a language system.",
+"e": "Knowing how English sentences are formed even when not currently speaking.",
+"p": 3
+},
+{
+"t": "Connotation",
+"d": "The additional emotional, cultural, or associative meanings linked to a word.",
+"e": "The word 'home' can connote comfort and belonging.",
+"p": 3
+},
+{
+"t": "Denotation",
+"d": "The basic, literal, or dictionary meaning of a word.",
+"e": "The denotation of 'snake' is a type of reptile.",
+"p": 3
+},
+{
+"t": "Displacement",
+"d": "The ability to communicate about people, places, objects, or events that are not present in the immediate situation.",
+"e": "We can discuss yesterday's meeting or next year's plans.",
+"p": 3
+},
+{
+"t": "Duality of Patterning",
+"d": "The organization of language at two levels: meaningless sounds combine to form meaningful units.",
+"e": "Individual sounds combine to form words such as 'cat'.",
+"p": 3
+},
+{
+"t": "Innateness",
+"d": "The idea that humans have an inborn capacity that supports language development.",
+"e": "Children normally acquire language without formal grammar lessons.",
+"p": 3
+},
+{
+"t": "Language Creativity",
+"d": "The capacity to create and understand novel utterances using a limited linguistic system.",
+"e": "A learner can produce a new sentence using familiar vocabulary and grammar.",
+"p": 3
+},
+{
+"t": "Language Design Features",
+"d": "Properties that distinguish human language, such as arbitrariness, duality, productivity, and displacement.",
+"e": "Displacement allows people to discuss things outside the immediate situation.",
+"p": 3
+},
+{
+"t": "Linguistic Sign",
+"d": "A meaningful unit that connects a form with a meaning.",
+"e": "The spoken or written form 'tree' is linked to the concept of a tree.",
+"p": 3
+},
+{
+"t": "Linguistics",
+"d": "The scientific study of language and its structure, meaning, use, and development.",
+"e": "Linguists study sounds, words, grammar, meaning, and language use.",
+"p": 3
+},
+{
+"t": "Open-endedness",
+"d": "The ability of human language to produce an unlimited number of new expressions.",
+"e": "Speakers can create sentences they have never heard before.",
+"p": 3
+},
+{
+"t": "Performance",
+"d": "The actual use of language in real situations, which may include mistakes or hesitations.",
+"e": "A speaker may know English grammar but make a slip while speaking quickly.",
+"p": 3
+},
+{
+"t": "Psycholinguistics",
+"d": "The study of how language is processed, learned, understood, and produced by the mind.",
+"e": "Studying how learners process new vocabulary.",
+"p": 3
+},
+{
+"t": "Rule-Governed Language",
+"d": "The idea that language is organized by systematic patterns rather than random combinations.",
+"e": "English speakers generally follow rules for word order even when they do not consciously know them.",
+"p": 3
+},
+{
+"t": "Second Language Acquisition (SLA)",
+"d": "The study of how people develop knowledge and ability in a language learned after their first language.",
+"e": "SLA research examines how learners develop English over time.",
+"p": 3
+},
+{
+"t": "Semantics",
+"d": "The study of meaning in language.",
+"e": "Studying the meaning of words and sentences.",
+"p": 3
+},
+{
+"t": "Sociolinguistics",
+"d": "The study of the relationship between language and society.",
+"e": "Studying how language varies across social groups.",
+"p": 3
+},
+{
+"t": "Syntax",
+"d": "The study of how words combine into phrases, clauses, and sentences.",
+"e": "Studying English word order.",
+"p": 3
+},
+{
+"t": "Corpus Linguistics",
+"d": "The study of language using large collections of real spoken or written texts.",
+"e": "Using a corpus to examine common English collocations.",
+"p": 2
+},
+{
+"t": "Diachronic Study",
+"d": "The study of how a language changes over time.",
+"e": "Studying how English vocabulary developed from Old English to Modern English.",
+"p": 2
+},
+{
+"t": "Ideational Metafunction",
+"d": "The function of language for representing experience, events, and ideas.",
+"e": "A sentence describes what happened and who was involved.",
+"p": 2
+},
+{
+"t": "Interpersonal Metafunction",
+"d": "The function of language for expressing attitudes and managing social relationships.",
+"e": "A speaker uses politeness to maintain a relationship.",
+"p": 2
+},
+{
+"t": "Language Universals",
+"d": "Features or principles that are found across human languages.",
+"e": "All human languages have ways of expressing meanings such as events and participants.",
+"p": 2
+},
+{
+"t": "Langue",
+"d": "The shared system of language, including its conventions and rules, associated with Saussure.",
+"e": "The English system of grammar and vocabulary shared by speakers.",
+"p": 2
+},
+{
+"t": "Metafunction",
+"d": "A broad communicative function of language in systemic functional linguistics.",
+"e": "Language can represent experience, build relationships, and organize messages.",
+"p": 2
+},
+{
+"t": "Neurolinguistics",
+"d": "The study of the relationship between language and the brain.",
+"e": "Studying language disorders after brain injury.",
+"p": 2
+},
+{
+"t": "Paradigmatic Relationship",
+"d": "A relationship between linguistic choices that can substitute for one another in the same position.",
+"e": "In 'The boy runs', 'boy', 'girl', and 'student' can occupy the same position.",
+"p": 2
+},
+{
+"t": "Parole",
+"d": "Actual individual acts of speaking or language use, associated with Saussure.",
+"e": "A person's particular sentence spoken in a conversation.",
+"p": 2
+},
+{
+"t": "Sapir-Whorf Effect",
+"d": "The view that language and patterns of thought are related, with stronger versions proposing that language influences how people perceive the world.",
+"e": "Different languages may encourage speakers to pay attention to different distinctions.",
+"p": 2
+},
+{
+"t": "Sense",
+"d": "The meaning relationship of a word within the linguistic system, independent of a specific real-world referent.",
+"e": "The sense of 'teacher' includes its relationship to concepts such as 'student' and 'school'.",
+"p": 2
+},
+{
+"t": "Signified",
+"d": "The concept or meaning represented by a signifier.",
+"e": "The mental concept of a tree is the signified.",
+"p": 2
+},
+{
+"t": "Signifier",
+"d": "The form of a linguistic sign, such as a sound sequence or written word.",
+"e": "The sounds /triː/ are the signifier in 'tree'.",
+"p": 2
+},
+{
+"t": "Stimulus Freedom",
+"d": "The ability to use language without being directly controlled by an immediate external stimulus.",
+"e": "A person can talk about an imaginary situation without seeing it.",
+"p": 2
+},
+{
+"t": "Synchronic Study",
+"d": "The study of a language at a particular point in time.",
+"e": "Studying the grammar of present-day English.",
+"p": 2
+},
+{
+"t": "Syntagmatic Relationship",
+"d": "A relationship between linguistic elements that occur together in a sequence.",
+"e": "In 'The small boy runs', the words form a sequence with grammatical relationships.",
+"p": 2
+},
+{
+"t": "Textual Metafunction",
+"d": "The function of language for organizing a message into a coherent text.",
+"e": "Information is arranged so the listener can follow the message.",
+"p": 2
+},
+{
+"t": "Animal Communication",
+"d": "Systems used by animals to exchange information, which differ from the productive and flexible nature of human language.",
+"e": "Bees use movement to communicate information about food locations.",
+"p": 1
+}
+]
+},
+{
+"id": "c2",
+"group": "Categories",
+"title": "Semantics & Lexical Meaning",
+"kind": "terms",
+"terms": [
+{
+"t": "Agent",
+"d": "The participant that intentionally performs an action.",
+"e": "In 'Sara opened the window', Sara is the Agent.",
+"p": 3
+},
+{
+"t": "Antonymy",
+"d": "A relationship between words with opposite or contrasting meanings.",
+"e": "hot/cold.",
+"p": 3
+},
+{
+"t": "Collocation",
+"d": "A combination of words that commonly occur together.",
+"e": "Make a decision is a common collocation.",
+"p": 3
+},
+{
+"t": "Homonym",
+"d": "A word form that is identical to another form in sound or spelling but has a different meaning.",
+"e": "Bat can refer to an animal or a piece of sports equipment.",
+"p": 3
+},
+{
+"t": "Homophone",
+"d": "A word that sounds the same as another word but has a different meaning and usually different spelling.",
+"e": "Two/too.",
+"p": 3
+},
+{
+"t": "Hyponymy",
+"d": "A relationship in which one word represents a more specific member of a broader category.",
+"e": "Rose is a hyponym of flower.",
+"p": 3
+},
+{
+"t": "Lexical Relation",
+"d": "A relationship between the meanings or forms of words.",
+"e": "Synonymy and antonymy are lexical relations.",
+"p": 3
+},
+{
+"t": "Polysemy",
+"d": "A situation in which one word has several related meanings.",
+"e": "Head can refer to a body part or the leader of a group.",
+"p": 3
+},
+{
+"t": "Semantic Feature",
+"d": "A basic meaning component used to distinguish words.",
+"e": "Man can be described with features such as [+human], [+adult], [+male].",
+"p": 3
+},
+{
+"t": "Semantic Role",
+"d": "The role a noun phrase plays in the situation described by a sentence.",
+"e": "In 'The student opened the door', 'the student' has the Agent role.",
+"p": 3
+},
+{
+"t": "Synonymy",
+"d": "A relationship between words with similar or closely related meanings.",
+"e": "begin/start.",
+"p": 3
+},
+{
+"t": "Theme",
+"d": "The participant that is moved, affected, or involved in an event without necessarily causing it.",
+"e": "In 'Sara opened the window', the window is the Theme.",
+"p": 3
+},
+{
+"t": "Associative Meaning",
+"d": "Meaning connected to personal, cultural, emotional, or social associations.",
+"e": "The word 'school' may evoke memories, exams, friends, or teachers.",
+"p": 2
+},
+{
+"t": "Conceptual Meaning",
+"d": "The core, relatively stable meaning of a word or expression.",
+"e": "The conceptual meaning of 'bachelor' includes the idea of an unmarried adult man.",
+"p": 2
+},
+{
+"t": "Experiencer",
+"d": "A participant that feels, perceives, or experiences something.",
+"e": "In 'Mina likes music', Mina is the Experiencer.",
+"p": 2
+},
+{
+"t": "Goal",
+"d": "The endpoint or destination toward which something moves.",
+"e": "In 'She walked to the school', the school is the Goal.",
+"p": 2
+},
+{
+"t": "Hypernym",
+"d": "A broader category term that includes a more specific word.",
+"e": "Flower is a hypernym of rose.",
+"p": 2
+},
+{
+"t": "Instrument",
+"d": "An object used to carry out an action.",
+"e": "In 'He cut the bread with a knife', the knife is the Instrument.",
+"p": 2
+},
+{
+"t": "Location",
+"d": "The place where an event or state occurs.",
+"e": "In 'The children studied in the library', the library is the Location.",
+"p": 2
+},
+{
+"t": "Metonymy",
+"d": "A meaning relationship in which one thing is referred to by the name of something closely associated with it.",
+"e": "The White House announced... uses a place to refer to the administration.",
+"p": 2
+},
+{
+"t": "Prototype",
+"d": "The most typical or representative example of a category.",
+"e": "A robin may be considered a more typical bird than a penguin for many speakers.",
+"p": 2
+},
+{
+"t": "Source",
+"d": "The starting point from which something moves or originates.",
+"e": "In 'She walked from the school', the school is the Source.",
+"p": 2
+},
+{
+"t": "Word Play",
+"d": "Creative or humorous use of language based on meanings, sounds, or forms of words.",
+"e": "A joke may depend on a word having two meanings.",
+"p": 1
+}
+]
+},
+{
+"id": "c3",
+"group": "Categories",
+"title": "First & Second Language Acquisition",
+"kind": "terms",
+"terms": [
+{
+"t": "Acquisition-Learning Distinction",
+"d": "The distinction between natural development of language ability and conscious learning of language rules.",
+"e": "A learner may consciously study the past tense but also acquire patterns through communication.",
+"p": 3
+},
+{
+"t": "Affective Factor",
+"d": "An emotional or psychological factor that influences language learning.",
+"e": "Motivation, confidence, and anxiety can affect learning.",
+"p": 3
+},
+{
+"t": "Affective Factors",
+"d": "Emotional or psychological factors that influence language learning.",
+"e": "Motivation, confidence, and anxiety can affect learning.",
+"p": 3
+},
+{
+"t": "Developing Syntax",
+"d": "The process through which learners acquire rules for combining words into phrases and sentences.",
+"e": "Children move from short combinations to increasingly complex sentences.",
+"p": 3
+},
+{
+"t": "First Language Acquisition",
+"d": "The natural development of a person's first language, usually beginning in childhood.",
+"e": "A child develops Khmer through everyday interaction.",
+"p": 3
+},
+{
+"t": "Fossilization",
+"d": "A state in which certain non-target-like language features become stable and resistant to change.",
+"e": "A learner continues using the same grammatical error despite instruction.",
+"p": 3
+},
+{
+"t": "Language Acquisition",
+"d": "The development of language ability through largely natural, meaningful exposure and use.",
+"e": "A child acquires a first language through interaction with caregivers.",
+"p": 3
+},
+{
+"t": "Language Acquisition Process",
+"d": "The gradual development of linguistic knowledge and ability through exposure, interaction, and mental processing.",
+"e": "A child develops vocabulary, grammar, and pronunciation over time.",
+"p": 3
+},
+{
+"t": "Language Anxiety",
+"d": "Worry or tension associated with using or learning a language.",
+"e": "A student feels nervous when speaking English in front of the class.",
+"p": 3
+},
+{
+"t": "Language Learning",
+"d": "A conscious or intentional process of developing language knowledge and skills, often through instruction.",
+"e": "A student studies English grammar and vocabulary in class.",
+"p": 3
+},
+{
+"t": "Motivation",
+"d": "The set of reasons and forces that initiate, direct, and sustain learning behavior.",
+"e": "A learner studies English because they want to communicate with international visitors.",
+"p": 3
+},
+{
+"t": "Acquisition Barrier",
+"d": "A factor that makes language development more difficult.",
+"e": "Limited exposure, anxiety, or lack of interaction can become barriers.",
+"p": 2
+},
+{
+"t": "Acquisition Schedule",
+"d": "The typical developmental sequence through which language abilities emerge.",
+"e": "Children usually develop babbling before meaningful multiword combinations.",
+"p": 2
+},
+{
+"t": "Age of Acquisition",
+"d": "The age at which a person begins learning or acquiring a language.",
+"e": "Age of acquisition can influence pronunciation outcomes.",
+"p": 2
+},
+{
+"t": "Babbling",
+"d": "An early stage in which infants produce repeated or varied speech-like syllables.",
+"e": "A baby produces 'ba-ba-ba'.",
+"p": 2
+},
+{
+"t": "Caregiver Speech",
+"d": "The simplified, modified, or supportive language adults may use when communicating with young children.",
+"e": "An adult may use shorter sentences and exaggerated intonation with a child.",
+"p": 2
+},
+{
+"t": "Critical Period",
+"d": "A proposed period in development during which language learning may be especially sensitive to biological factors.",
+"e": "Researchers debate how age affects pronunciation in second-language learning.",
+"p": 2
+},
+{
+"t": "Developing Morphology",
+"d": "The process through which learners acquire word forms and grammatical markers.",
+"e": "A child gradually learns plural -s and past-tense -ed.",
+"p": 2
+},
+{
+"t": "Developing Semantics",
+"d": "The development of knowledge about word and sentence meanings.",
+"e": "A child gradually learns distinctions such as 'big' versus 'small'.",
+"p": 2
+},
+{
+"t": "Language Aptitude",
+"d": "A person's potential or capacity to learn a new language, often measured through specific abilities.",
+"e": "A language aptitude test may assess sound discrimination and grammatical sensitivity.",
+"p": 2
+},
+{
+"t": "One-Word Stage",
+"d": "A stage in early language development in which children use single words to express broader meanings.",
+"e": "A child says 'milk' to mean 'I want milk'.",
+"p": 2
+},
+{
+"t": "Telegraphic Speech",
+"d": "Early child language containing mainly meaningful content words while function words may be omitted.",
+"e": "A child says 'Daddy go work'.",
+"p": 2
+},
+{
+"t": "Two-Word Stage",
+"d": "A stage in which children begin combining two words to express basic relationships.",
+"e": "A child says 'Mommy go'.",
+"p": 2
+},
+{
+"t": "Cooing",
+"d": "An early stage of infant vocal development involving vowel-like sounds.",
+"e": "A baby produces sounds such as 'oo' or 'ah'.",
+"p": 1
+}
+]
+},
+{
+"id": "c4",
+"group": "Categories",
+"title": "Applied Linguistics & SLA",
+"kind": "terms",
+"terms": [
+{
+"t": "Affective Filter",
+"d": "The idea that emotional factors such as anxiety or low motivation can affect how effectively learners benefit from language input.",
+"e": "High anxiety may reduce a student's willingness to participate.",
+"p": 3
+},
+{
+"t": "Applied Linguistics",
+"d": "The interdisciplinary use of knowledge about language to address real-world language-related problems.",
+"e": "Using SLA and linguistics research to improve English teaching.",
+"p": 3
+},
+{
+"t": "Comprehensible Input",
+"d": "Language input that learners can understand sufficiently to support development, often with some material slightly beyond their current level.",
+"e": "A teacher uses pictures and simple language to make a story understandable.",
+"p": 3
+},
+{
+"t": "Contrastive Analysis",
+"d": "The comparison of two languages to identify similarities and differences that may affect learning.",
+"e": "Comparing Khmer and English word order can help predict possible difficulties.",
+"p": 3
+},
+{
+"t": "Error Analysis",
+"d": "The systematic study of learner errors to identify patterns, causes, and implications for teaching.",
+"e": "A teacher analyzes repeated verb-tense errors to plan instruction.",
+"p": 3
+},
+{
+"t": "Explicit Instruction",
+"d": "Teaching that directly explains a language rule, concept, or strategy.",
+"e": "The teacher explicitly explains how the past perfect is formed.",
+"p": 3
+},
+{
+"t": "Focus on the Learner",
+"d": "An orientation that emphasizes learners' needs, characteristics, strategies, motivation, and participation.",
+"e": "The teacher adapts activities to learners' levels and goals.",
+"p": 3
+},
+{
+"t": "Input",
+"d": "Language that learners receive through listening or reading.",
+"e": "Students hear the teacher explain a story.",
+"p": 3
+},
+{
+"t": "Interaction",
+"d": "Communication between learners and others that provides opportunities to understand and produce language.",
+"e": "Pair work gives students opportunities to negotiate meaning.",
+"p": 3
+},
+{
+"t": "Interlanguage",
+"d": "A learner's developing language system that has its own patterns and changes over time.",
+"e": "A learner may consistently use a form that differs from both Khmer and standard English.",
+"p": 3
+},
+{
+"t": "Language Transfer",
+"d": "The influence of previously known language knowledge on another language.",
+"e": "A learner transfers Khmer word-order patterns into English.",
+"p": 3
+},
+{
+"t": "Learner-Centeredness",
+"d": "The principle that learning should actively involve learners and respond to their needs and agency.",
+"e": "Students make choices and actively participate in tasks.",
+"p": 3
+},
+{
+"t": "Negative Transfer",
+"d": "Transfer that leads to errors because the first language and target language differ.",
+"e": "A learner applies a first-language word-order pattern that is incorrect in English.",
+"p": 3
+},
+{
+"t": "Negotiation of Meaning",
+"d": "The interactional process of clarifying and modifying communication when understanding is incomplete.",
+"e": "A student asks, 'Do you mean Monday?' and the speaker clarifies.",
+"p": 3
+},
+{
+"t": "Output",
+"d": "Language that learners produce through speaking or writing.",
+"e": "Students explain the story to a partner.",
+"p": 3
+},
+{
+"t": "Scaffolding",
+"d": "Temporary support provided to help learners perform a task they cannot yet complete independently.",
+"e": "The teacher provides sentence starters before students write independently.",
+"p": 3
+},
+{
+"t": "Second Language Acquisition",
+"d": "The study of how people develop knowledge and ability in a language learned after their first language.",
+"e": "Studying how Cambodian learners develop English.",
+"p": 3
+},
+{
+"t": "Transfer",
+"d": "The influence of previously known language knowledge on the learning or use of another language.",
+"e": "A Cambodian learner may transfer a Khmer word-order pattern into English.",
+"p": 3
+},
+{
+"t": "Zone of Proximal Development",
+"d": "The range between what a learner can do independently and what they can do with appropriate support.",
+"e": "A learner solves a task with teacher guidance and later completes it alone.",
+"p": 3
+},
+{
+"t": "Focus on Method",
+"d": "An orientation that emphasizes the teaching method as a major factor in determining learning outcomes.",
+"e": "A teacher may examine whether a method is appropriate for a particular class.",
+"p": 2
+},
+{
+"t": "Implicit Instruction",
+"d": "Teaching in which learners encounter or use a target form without a direct explanation of the rule.",
+"e": "Students repeatedly hear and use a structure in meaningful communication.",
+"p": 2
+},
+{
+"t": "Interaction Hypothesis",
+"d": "The view that interaction can support language development by helping learners notice problems, negotiate meaning, and receive feedback.",
+"e": "A student asks for clarification and modifies their understanding.",
+"p": 2
+},
+{
+"t": "Noticing",
+"d": "The process of consciously paying attention to a language feature in input.",
+"e": "A learner notices that third-person verbs take -s.",
+"p": 2
+},
+{
+"t": "Positive Transfer",
+"d": "Transfer that helps the learner produce or understand the target language.",
+"e": "A similar vocabulary item in two languages may help learning.",
+"p": 2
+}
+]
+},
+{
+"id": "c5",
+"group": "Categories",
+"title": "Teaching Approaches, Methods & Techniques",
+"kind": "terms",
+"terms": [
+{
+"t": "Approach",
+"d": "A general set of beliefs about the nature of language and language learning.",
+"e": "A communicative approach emphasizes language as communication.",
+"p": 3
+},
+{
+"t": "Audio-Lingual Method",
+"d": "A method emphasizing listening and speaking practice, repetition, drills, habit formation, and controlled patterns.",
+"e": "Students repeat and substitute words in a sentence pattern.",
+"p": 3
+},
+{
+"t": "Blended Learning",
+"d": "Learning that combines face-to-face instruction with online or digital learning.",
+"e": "Students learn in class and complete an online activity.",
+"p": 3
+},
+{
+"t": "Collaborative Learning",
+"d": "Learning through joint effort, discussion, and shared construction of knowledge.",
+"e": "Students co-write and revise a short paragraph.",
+"p": 3
+},
+{
+"t": "Communicative Language Teaching",
+"d": "An approach that prioritizes meaningful communication and communicative competence.",
+"e": "Students practice English through information-gap tasks and role-plays.",
+"p": 3
+},
+{
+"t": "Content-Based Instruction",
+"d": "Teaching language through meaningful subject matter or content.",
+"e": "Students learn English while studying a science topic.",
+"p": 3
+},
+{
+"t": "Cooperative Learning",
+"d": "Structured learning in which students work together toward shared learning goals.",
+"e": "Small groups solve a problem and each member has a role.",
+"p": 3
+},
+{
+"t": "Differentiated Instruction",
+"d": "Adapting teaching, tasks, materials, or assessment to learners' different needs and levels.",
+"e": "A teacher provides easier and more challenging reading tasks.",
+"p": 3
+},
+{
+"t": "Direct Method",
+"d": "A method that teaches the target language directly, emphasizes speaking and listening, and generally avoids translation.",
+"e": "The teacher explains a new word using objects or pictures rather than Khmer.",
+"p": 3
+},
+{
+"t": "Eclectic Approach",
+"d": "An approach that selects useful techniques from different methods according to learners, goals, and context.",
+"e": "A teacher may combine communicative activities with explicit grammar teaching.",
+"p": 3
+},
+{
+"t": "Grammar-Translation Method",
+"d": "A method emphasizing grammar rules, translation, reading, and written exercises, with less emphasis on spontaneous speaking.",
+"e": "Students translate sentences between English and Khmer.",
+"p": 3
+},
+{
+"t": "Inquiry-Based Learning",
+"d": "Learning through asking questions, investigating evidence, and developing explanations.",
+"e": "Students investigate why plants grow differently in two places.",
+"p": 3
+},
+{
+"t": "Interactive Learning",
+"d": "Learning that emphasizes meaningful interaction among students, teachers, materials, and tasks.",
+"e": "Students discuss and negotiate answers rather than only listen to lectures.",
+"p": 3
+},
+{
+"t": "Learner-Centered Instruction",
+"d": "Teaching that gives significant attention to learners' needs, participation, choices, and active learning.",
+"e": "Students work on tasks and the teacher acts as a facilitator.",
+"p": 3
+},
+{
+"t": "Method",
+"d": "A systematic plan for teaching based on a particular view of language and learning.",
+"e": "The Grammar-Translation Method is a specific teaching method.",
+"p": 3
+},
+{
+"t": "Notional-Functional Syllabus",
+"d": "A syllabus organized around meanings and communicative functions rather than only grammatical structures.",
+"e": "Units may focus on asking for directions, making requests, or expressing ability.",
+"p": 3
+},
+{
+"t": "Pedagogy",
+"d": "The theory and practice of teaching, especially how teaching and learning should be organized.",
+"e": "A teacher uses learner-centered pedagogy.",
+"p": 3
+},
+{
+"t": "Problem-Based Learning",
+"d": "Learning organized around investigating and solving a meaningful problem.",
+"e": "Students identify causes of poor attendance and propose solutions.",
+"p": 3
+},
+{
+"t": "Project-Based Learning",
+"d": "Learning organized around a sustained project that produces a meaningful outcome.",
+"e": "Students create an English-language community project.",
+"p": 3
+},
+{
+"t": "Student-Centered Learning",
+"d": "Learning that emphasizes learners' active participation, needs, choices, and responsibility.",
+"e": "Students discuss and solve tasks while the teacher facilitates.",
+"p": 3
+},
+{
+"t": "Task-Based Language Teaching",
+"d": "An approach in which learners use language to complete meaningful tasks, with communication central to the lesson.",
+"e": "Students plan a trip using English and then present their plan.",
+"p": 3
+},
+{
+"t": "Teaching Approach",
+"d": "A general set of beliefs about language, learning, and teaching.",
+"e": "A communicative approach treats language as communication.",
+"p": 3
+},
+{
+"t": "Teaching Method",
+"d": "A systematic plan for teaching based on a particular view of language and learning.",
+"e": "The Direct Method is a teaching method.",
+"p": 3
+},
+{
+"t": "Technique",
+"d": "A specific classroom activity or procedure used to implement teaching.",
+"e": "A role-play is a classroom technique.",
+"p": 3
+},
+{
+"t": "Andragogy",
+"d": "The theory and practice of teaching adult learners.",
+"e": "Adult education often draws on andragogical principles.",
+"p": 2
+},
+{
+"t": "Cognitive Code Learning",
+"d": "An approach emphasizing conscious understanding of language rules and mental processes rather than habit formation alone.",
+"e": "Students analyze why a grammatical form is used.",
+"p": 2
+},
+{
+"t": "Experiential Learning",
+"d": "Learning through direct experience followed by reflection.",
+"e": "Students conduct a real survey and reflect on the results.",
+"p": 2
+},
+{
+"t": "Natural Approach",
+"d": "An approach emphasizing comprehensible input, low anxiety, and gradual development of communication before demanding accurate production.",
+"e": "Beginners receive understandable English and are not forced to speak immediately.",
+"p": 2
+},
+{
+"t": "Reflective Learning",
+"d": "Learning that involves examining one's own experience, decisions, and progress.",
+"e": "A student reflects on why a speaking task was difficult.",
+"p": 2
+},
+{
+"t": "Teacher-Centered Learning",
+"d": "An approach in which the teacher controls much of the content, explanation, pace, and classroom activity.",
+"e": "The teacher lectures while students mainly listen and take notes.",
+"p": 2
+},
+{
+"t": "Total Physical Response",
+"d": "A method linking language with physical movement, especially useful for beginning learners.",
+"e": "The teacher says 'Stand up' and students perform the action.",
+"p": 2
+},
+{
+"t": "Community Language Learning",
+"d": "A learner-supportive approach in which the teacher acts as a counselor and learners collaborate in producing language.",
+"e": "The teacher helps learners express ideas they want to communicate.",
+"p": 1
+},
+{
+"t": "Gouin Series Method",
+"d": "An early method using sequences of actions and language to connect language with physical experience.",
+"e": "Learners learn a sequence such as 'I open the door, I walk into the room...'.",
+"p": 1
+},
+{
+"t": "Silent Way",
+"d": "A method in which the teacher minimizes speech and uses materials to encourage learners to discover and produce language.",
+"e": "The teacher uses colored rods and gestures while students produce the language.",
+"p": 1
+},
+{
+"t": "Suggestopedia",
+"d": "A method associated with relaxed learning environments, music, positive suggestion, and reduced learner anxiety.",
+"e": "Students may work with language in a comfortable, low-stress setting.",
+"p": 1
+},
+{
+"t": "Whole Language Education",
+"d": "An approach that treats language as an integrated whole and emphasizes meaningful reading and writing.",
+"e": "Students learn language through authentic texts and meaningful activities.",
+"p": 1
+}
+]
+},
+{
+"id": "c6",
+"group": "Categories",
+"title": "Learning Styles, Strategies & Learner Factors",
+"kind": "terms",
+"terms": [
+{
+"t": "Communication Strategy",
+"d": "A strategy used to overcome problems or gaps during communication.",
+"e": "A learner describes an unknown word instead of stopping communication.",
+"p": 3
+},
+{
+"t": "Compensatory Strategy",
+"d": "A strategy used to compensate for limited language knowledge during communication.",
+"e": "Using gestures or paraphrasing when a word is unknown.",
+"p": 3
+},
+{
+"t": "Individual Differences",
+"d": "Variations among learners in ability, background, motivation, personality, and learning needs.",
+"e": "Students in one class have different proficiency levels.",
+"p": 3
+},
+{
+"t": "Learner Autonomy",
+"d": "The ability and willingness of learners to take responsibility for their own learning.",
+"e": "A student sets vocabulary goals and monitors progress.",
+"p": 3
+},
+{
+"t": "Learner Differences",
+"d": "Variations among learners in ability, background, motivation, personality, and learning needs.",
+"e": "Students in one class may have different levels and interests.",
+"p": 3
+},
+{
+"t": "Learning Strategy",
+"d": "A deliberate action or technique used by a learner to improve learning.",
+"e": "Using flashcards to review vocabulary is a learning strategy.",
+"p": 3
+},
+{
+"t": "Metacognition",
+"d": "Awareness and regulation of one's own thinking and learning processes.",
+"e": "A learner asks, 'Which reading strategy worked best for me?'",
+"p": 3
+},
+{
+"t": "Self-Regulation",
+"d": "The ability to plan, monitor, and adjust one's own learning behavior.",
+"e": "A student changes study habits after noticing weak test results.",
+"p": 3
+},
+{
+"t": "Ambiguity Tolerance",
+"d": "The degree to which a learner can remain comfortable when information is unclear or uncertain.",
+"e": "A learner with high tolerance may continue communicating despite not knowing every word.",
+"p": 2
+},
+{
+"t": "Avoidance Strategy",
+"d": "A communication strategy in which a learner avoids a difficult topic, word, or structure.",
+"e": "A learner changes the topic because they do not know the required vocabulary.",
+"p": 2
+},
+{
+"t": "Extrinsic Motivation",
+"d": "Motivation driven by external rewards, requirements, or consequences.",
+"e": "A student studies to pass an exam or obtain a scholarship.",
+"p": 2
+},
+{
+"t": "Intrinsic Motivation",
+"d": "Motivation arising from enjoyment, interest, or satisfaction in the activity itself.",
+"e": "A student learns English because they enjoy communicating in English.",
+"p": 2
+},
+{
+"t": "Learning Style",
+"d": "A learner's preferred or characteristic way of approaching learning activities.",
+"e": "A learner may prefer visual materials or hands-on activities.",
+"p": 2
+},
+{
+"t": "Strategy-Based Instruction",
+"d": "Teaching that explicitly helps learners understand and use effective learning strategies.",
+"e": "A teacher teaches students how to predict content before reading.",
+"p": 2
+},
+{
+"t": "Field Independence",
+"d": "A cognitive style involving greater ability to separate relevant information from surrounding context.",
+"e": "A field-independent learner may focus on details within a complex visual task.",
+"p": 1
+},
+{
+"t": "Impulsivity",
+"d": "A tendency to respond quickly, sometimes before fully considering alternatives.",
+"e": "An impulsive learner may answer quickly but make more errors.",
+"p": 1
+},
+{
+"t": "Reflectivity",
+"d": "A tendency to consider alternatives carefully before responding.",
+"e": "A reflective learner may take more time before answering.",
+"p": 1
+}
+]
+},
+{
+"id": "c7",
+"group": "Categories",
+"title": "Language Teaching & Communicative Competence",
+"kind": "terms",
+"terms": [
+{
+"t": "Accuracy",
+"d": "The degree to which language use conforms to target-language rules and conventions.",
+"e": "Correct verb tense and subject-verb agreement.",
+"p": 3
+},
+{
+"t": "Authentic Materials",
+"d": "Materials created for real-world communication rather than specifically for language teaching.",
+"e": "A real menu, news article, or job advertisement.",
+"p": 3
+},
+{
+"t": "Communicative Competence",
+"d": "The ability to use language appropriately and effectively in real communication.",
+"e": "A learner knows grammar and also knows how to make a polite request.",
+"p": 3
+},
+{
+"t": "Discourse Competence",
+"d": "The ability to connect sentences and interpret or produce coherent spoken or written discourse.",
+"e": "Writing a paragraph with clear links between ideas.",
+"p": 3
+},
+{
+"t": "Fluency",
+"d": "The ability to communicate smoothly and continuously with appropriate speed and few disruptive pauses.",
+"e": "A learner speaks for a minute without frequent breakdowns.",
+"p": 3
+},
+{
+"t": "Functional Language",
+"d": "Language used to perform communicative functions such as requesting, apologizing, agreeing, or refusing.",
+"e": "'Could you help me?' functions as a request.",
+"p": 3
+},
+{
+"t": "Grammar",
+"d": "The system of rules and patterns that organizes words and structures in a language.",
+"e": "English grammar includes tense and word-order patterns.",
+"p": 3
+},
+{
+"t": "Linguistic Competence",
+"d": "Knowledge of the formal system of a language, including grammar, vocabulary, and sound patterns.",
+"e": "Knowing how to form an English question.",
+"p": 3
+},
+{
+"t": "Listening Skill",
+"d": "The ability to understand spoken language.",
+"e": "A student identifies the main idea of a short dialogue.",
+"p": 3
+},
+{
+"t": "Productive Skills",
+"d": "Language skills involving producing language: speaking and writing.",
+"e": "Students write a paragraph and give a presentation.",
+"p": 3
+},
+{
+"t": "Pronunciation",
+"d": "The way words and sounds are produced and perceived in spoken language.",
+"e": "Students practice the pronunciation of /θ/.",
+"p": 3
+},
+{
+"t": "Reading Skill",
+"d": "The ability to understand written language.",
+"e": "Students identify the main idea of a passage.",
+"p": 3
+},
+{
+"t": "Receptive Skills",
+"d": "Language skills involving receiving and understanding language: listening and reading.",
+"e": "Students listen to a dialogue and answer questions.",
+"p": 3
+},
+{
+"t": "Register",
+"d": "A variety or style of language associated with a particular situation, purpose, or relationship.",
+"e": "Formal English is appropriate for a job application.",
+"p": 3
+},
+{
+"t": "Sociolinguistic Competence",
+"d": "The ability to use language appropriately according to social context, relationship, and culture.",
+"e": "Using a more polite request with a principal.",
+"p": 3
+},
+{
+"t": "Speaking Skill",
+"d": "The ability to communicate ideas and meaning orally.",
+"e": "Students describe a picture to a partner.",
+"p": 3
+},
+{
+"t": "Strategic Competence",
+"d": "The ability to use communication strategies to overcome gaps or problems in communication.",
+"e": "Paraphrasing a word that a learner does not know.",
+"p": 3
+},
+{
+"t": "Writing Skill",
+"d": "The ability to communicate meaning through written language.",
+"e": "Students write a five-paragraph essay.",
+"p": 3
+},
+{
+"t": "Complexity",
+"d": "The range and sophistication of language forms used by a learner.",
+"e": "Using varied sentence structures and vocabulary.",
+"p": 2
+},
+{
+"t": "Pronunciation Teaching",
+"d": "Instruction that helps learners produce and understand speech sounds, stress, rhythm, and intonation.",
+"e": "Students practice /θ/ and /ð/ using minimal pairs.",
+"p": 2
+}
+]
+},
+{
+"id": "c8",
+"group": "Categories",
+"title": "Classroom Practice",
+"kind": "terms",
+"terms": [
+{
+"t": "Classroom Climate",
+"d": "The overall emotional, social, and interpersonal atmosphere of a classroom.",
+"e": "A respectful classroom climate encourages participation.",
+"p": 3
+},
+{
+"t": "Classroom Interaction",
+"d": "The patterns of communication and participation among teacher and students.",
+"e": "Teacher questioning and student responses form classroom interaction.",
+"p": 3
+},
+{
+"t": "Classroom Management",
+"d": "The organization of classroom behavior, routines, time, space, and interaction to support learning.",
+"e": "A teacher establishes clear rules and transitions.",
+"p": 3
+},
+{
+"t": "Corrective Feedback",
+"d": "Information provided to a learner about the accuracy or appropriateness of their language.",
+"e": "Teacher: 'He go?' Student: 'He goes.'",
+"p": 3
+},
+{
+"t": "Elicitation",
+"d": "A teaching technique used to encourage learners to produce information or language rather than simply receive it.",
+"e": "The teacher shows a picture and asks, 'What is this?'",
+"p": 3
+},
+{
+"t": "Feedback",
+"d": "Information provided to learners about their performance to support improvement.",
+"e": "The teacher tells a student what was done well and what to improve.",
+"p": 3
+},
+{
+"t": "Group Work",
+"d": "An activity in which several students work together on a shared task.",
+"e": "Four students solve a problem together.",
+"p": 3
+},
+{
+"t": "Inclusive Education",
+"d": "An approach that ensures learners with different abilities, backgrounds, and needs learn together with appropriate support.",
+"e": "A school adapts activities so students with disabilities can participate.",
+"p": 3
+},
+{
+"t": "Learner Engagement",
+"d": "The extent to which learners participate behaviorally, emotionally, and cognitively in learning.",
+"e": "Students actively discuss and persist with a challenging task.",
+"p": 3
+},
+{
+"t": "Mixed-Ability Class",
+"d": "A class containing learners with different levels of ability or proficiency.",
+"e": "One English class contains beginner and stronger students.",
+"p": 3
+},
+{
+"t": "Open-Ended Question",
+"d": "A question that allows multiple possible responses rather than one fixed answer.",
+"e": "Why do you think reading is important?",
+"p": 3
+},
+{
+"t": "Pair Work",
+"d": "An activity in which two students work together on a learning task.",
+"e": "Two students practice a dialogue.",
+"p": 3
+},
+{
+"t": "Peer Feedback",
+"d": "Feedback provided by one learner to another.",
+"e": "Students exchange essays and give suggestions.",
+"p": 3
+},
+{
+"t": "Questioning",
+"d": "The use of questions to elicit information, check understanding, stimulate thinking, or guide learning.",
+"e": "A teacher asks 'Why do you think so?' to promote reasoning.",
+"p": 3
+},
+{
+"t": "Student Agency",
+"d": "A learner's ability to make choices, take initiative, and influence their own learning.",
+"e": "Students choose a project topic and plan how to present it.",
+"p": 3
+},
+{
+"t": "Student Engagement",
+"d": "The degree to which learners are behaviorally, emotionally, and cognitively involved in learning.",
+"e": "Students actively participate and persist with a task.",
+"p": 3
+},
+{
+"t": "Student Talk",
+"d": "The language produced by students during classroom activities.",
+"e": "Students discuss answers in pairs.",
+"p": 3
+},
+{
+"t": "Teacher Talk",
+"d": "The language produced by the teacher during classroom instruction.",
+"e": "Teacher explanations, questions, instructions, and feedback are teacher talk.",
+"p": 3
+},
+{
+"t": "Wait Time",
+"d": "The deliberate pause a teacher gives after asking a question before selecting a response.",
+"e": "The teacher waits five seconds so more students can think.",
+"p": 3
+},
+{
+"t": "Closed Question",
+"d": "A question with a limited or predetermined set of answers.",
+"e": "Did you finish your homework?",
+"p": 2
+},
+{
+"t": "Needs-Based Teaching",
+"d": "Teaching adapted to learners' identified goals, abilities, and needs.",
+"e": "A teacher emphasizes speaking because learners need English for customer service.",
+"p": 2
+},
+{
+"t": "Peer Teaching",
+"d": "A learning activity in which students teach or explain content to classmates.",
+"e": "Pairs take turns explaining vocabulary.",
+"p": 2
+}
+]
+},
+{
+"id": "c9",
+"group": "Categories",
+"title": "Discourse Analysis",
+"kind": "terms",
+"terms": [
+{
+"t": "Background Knowledge",
+"d": "Knowledge a person already has that helps them understand new language or discourse.",
+"e": "Knowing how schools work helps a learner understand a school timetable.",
+"p": 3
+},
+{
+"t": "Coherence",
+"d": "The overall meaningful and logical connection of ideas in a text or conversation.",
+"e": "A paragraph is coherent when its ideas clearly support one another.",
+"p": 3
+},
+{
+"t": "Cohesion",
+"d": "The grammatical and lexical links that connect parts of a text.",
+"e": "Pronouns, conjunctions, repetition, and substitution can create cohesion.",
+"p": 3
+},
+{
+"t": "Conjunction",
+"d": "A linguistic device that explicitly signals relationships between clauses or ideas.",
+"e": "However, because, and, and therefore show logical relationships.",
+"p": 3
+},
+{
+"t": "Cooperative Principle",
+"d": "Grice's idea that participants generally cooperate to make conversation effective and meaningful.",
+"e": "Speakers normally provide information relevant to the conversation.",
+"p": 3
+},
+{
+"t": "Discourse",
+"d": "Connected spoken or written language beyond the level of an individual sentence.",
+"e": "A classroom discussion is a discourse.",
+"p": 3
+},
+{
+"t": "Discourse Analysis",
+"d": "The study of how language is organized and used in real spoken or written communication.",
+"e": "Analyzing how a teacher and students interact during a lesson.",
+"p": 3
+},
+{
+"t": "Ellipsis",
+"d": "Omission of information that can be understood from the context.",
+"e": "John can play the guitar, and Mary can too.",
+"p": 3
+},
+{
+"t": "Implicature",
+"d": "Meaning that is suggested or inferred rather than directly stated.",
+"e": "If someone says 'It is getting late,' they may imply that it is time to leave.",
+"p": 3
+},
+{
+"t": "Lexical Cohesion",
+"d": "Cohesion created through relationships among vocabulary items.",
+"e": "Repetition, synonymy, and related words can connect a text.",
+"p": 3
+},
+{
+"t": "Schema",
+"d": "An organized mental framework for understanding a type of situation or concept.",
+"e": "A restaurant schema includes ordering, eating, paying, and leaving.",
+"p": 3
+},
+{
+"t": "Turn-Taking",
+"d": "The system by which speakers manage who speaks, when, and for how long.",
+"e": "A student waits for the teacher to finish before answering.",
+"p": 3
+},
+{
+"t": "Conversation Analysis",
+"d": "The study of how people organize naturally occurring conversation.",
+"e": "Researchers analyze pauses, turns, interruptions, and repairs.",
+"p": 2
+},
+{
+"t": "Hedge",
+"d": "A word or expression that makes a statement less direct, absolute, or certain.",
+"e": "Perhaps, probably, I think, and somewhat can function as hedges.",
+"p": 2
+},
+{
+"t": "Interpreting Discourse",
+"d": "Understanding meaning by considering linguistic form, context, relationships, and background knowledge.",
+"e": "A listener interprets 'It's cold here' as a possible request to close a window.",
+"p": 2
+},
+{
+"t": "Repetition",
+"d": "The deliberate or natural reuse of words or ideas to create connection or emphasis in a text.",
+"e": "The repeated key term 'education' helps maintain the topic.",
+"p": 2
+},
+{
+"t": "Script",
+"d": "A mental sequence of expected events in a familiar situation.",
+"e": "A doctor's visit script may include registration, examination, and advice.",
+"p": 2
+},
+{
+"t": "Speech Event",
+"d": "A communicative event defined by its participants, purpose, setting, and conventions.",
+"e": "A job interview is a speech event with specific expectations.",
+"p": 2
+},
+{
+"t": "Substitution",
+"d": "Replacing a word or phrase with another form to avoid unnecessary repetition.",
+"e": "I need a pen. Do you have one?",
+"p": 2
+}
+]
+},
+{
+"id": "c10",
+"group": "Categories",
+"title": "Pragmatics & Context",
+"kind": "terms",
+"terms": [
+{
+"t": "Anaphora",
+"d": "A linguistic relationship in which an expression refers back to something previously mentioned.",
+"e": "Sara bought a book. She read it at night.",
+"p": 3
+},
+{
+"t": "Context",
+"d": "The linguistic, social, physical, and cultural situation in which communication occurs.",
+"e": "The meaning of 'here' depends on where the speaker is.",
+"p": 3
+},
+{
+"t": "Deixis",
+"d": "Words whose interpretation depends on the context of the utterance.",
+"e": "Here, there, now, then, I, and you are deictic expressions.",
+"p": 3
+},
+{
+"t": "Indirect Speech Act",
+"d": "A speech act in which the intended function differs from the literal grammatical form.",
+"e": "Could you close the door? is grammatically a question but functions as a request.",
+"p": 3
+},
+{
+"t": "Inference",
+"d": "A conclusion that a listener or reader draws from available information.",
+"e": "From 'The ground is wet,' a reader may infer that it has rained.",
+"p": 3
+},
+{
+"t": "Politeness",
+"d": "Linguistic and social strategies used to maintain respectful relationships and reduce interpersonal conflict.",
+"e": "Using 'Could you please...' can make a request more polite.",
+"p": 3
+},
+{
+"t": "Pragmatics",
+"d": "The study of how meaning is communicated and interpreted in context.",
+"e": "Understanding that 'Can you open the door?' is normally a request, not a question about ability.",
+"p": 3
+},
+{
+"t": "Presupposition",
+"d": "An assumption that a speaker treats as already accepted or true when making an utterance.",
+"e": "In 'John stopped smoking,' it is presupposed that John used to smoke.",
+"p": 3
+},
+{
+"t": "Speech Act",
+"d": "An action performed through speaking, such as requesting, apologizing, promising, or informing.",
+"e": "Saying 'I apologize' performs an apology.",
+"p": 3
+},
+{
+"t": "Direct Speech Act",
+"d": "A speech act in which the grammatical form directly matches the communicative function.",
+"e": "Please close the door is directly used as a request.",
+"p": 2
+},
+{
+"t": "Invisible Meaning",
+"d": "Meaning that is not directly expressed but must be inferred from context.",
+"e": "The statement 'The room is dark' may indirectly suggest turning on the light.",
+"p": 2
+},
+{
+"t": "Negative Face",
+"d": "A person's desire for freedom from pressure or unwanted interference.",
+"e": "A polite request can reduce pressure on the listener.",
+"p": 2
+},
+{
+"t": "Positive Face",
+"d": "A person's desire to be liked, approved of, or valued by others.",
+"e": "Complimenting someone can support their positive face.",
+"p": 2
+},
+{
+"t": "Reference",
+"d": "The act of using language to identify or point to a person, object, place, or idea.",
+"e": "In 'That book is mine,' 'that book' identifies a particular object.",
+"p": 2
+}
+]
+},
+{
+"id": "c11",
+"group": "Categories",
+"title": "Grammar & Functional Grammar",
+"kind": "terms",
+"terms": [
+{
+"t": "Clause",
+"d": "A grammatical unit containing a verb and its associated elements.",
+"e": "Because she studied is a dependent clause.",
+"p": 3
+},
+{
+"t": "Descriptive Grammar",
+"d": "A description of how speakers actually use a language.",
+"e": "A descriptive grammar records patterns found in real English use.",
+"p": 3
+},
+{
+"t": "Form",
+"d": "The grammatical shape or structure of a language item.",
+"e": "The form 'has eaten' is a present perfect structure.",
+"p": 3
+},
+{
+"t": "Form and Function",
+"d": "The relationship between the grammatical shape of language and the communicative purpose it serves.",
+"e": "A question form can function as a request.",
+"p": 3
+},
+{
+"t": "Function",
+"d": "The communicative purpose served by a linguistic form.",
+"e": "The present perfect can express an experience or a past event relevant to the present.",
+"p": 3
+},
+{
+"t": "Functional Grammar",
+"d": "A grammar that explains how grammatical structures function to create meaning in context.",
+"e": "Passive voice can foreground the action or result rather than the actor.",
+"p": 3
+},
+{
+"t": "Learning Grammar",
+"d": "Developing the ability to understand and use grammatical patterns in meaningful communication.",
+"e": "Students learn the past tense through both explanation and meaningful use.",
+"p": 3
+},
+{
+"t": "Prescriptive Grammar",
+"d": "Rules that state how language should be used according to a particular standard.",
+"e": "A prescriptive rule may tell learners to avoid certain forms in formal writing.",
+"p": 3
+},
+{
+"t": "Teaching Grammar",
+"d": "The process of helping learners understand and use grammatical forms accurately and appropriately.",
+"e": "A teacher combines explanation, examples, practice, and communication.",
+"p": 3
+},
+{
+"t": "Clause Complex",
+"d": "A larger grammatical structure formed by linking clauses.",
+"e": "Although it rained, the students continued the activity.",
+"p": 2
+},
+{
+"t": "Discourse Grammar",
+"d": "The study of grammar as it operates across connected discourse rather than only in isolated sentences.",
+"e": "Pronoun choice can connect one sentence to another.",
+"p": 2
+},
+{
+"t": "Grammar-Lexis Interdependence",
+"d": "The idea that grammatical and lexical choices work together rather than being completely separate systems.",
+"e": "The verb 'depend' commonly occurs with the preposition 'on'.",
+"p": 2
+},
+{
+"t": "Language Universal in Grammar",
+"d": "A grammatical property or tendency found across many languages.",
+"e": "Researchers compare languages to identify common structural patterns.",
+"p": 2
+},
+{
+"t": "Lexicogrammar",
+"d": "The close relationship between vocabulary and grammar in constructing meaning.",
+"e": "Words such as 'depend' and 'on' form a conventional grammatical-vocabulary pattern.",
+"p": 2
+},
+{
+"t": "Spoken Grammar",
+"d": "Patterns of grammar commonly found in spoken interaction.",
+"e": "Spoken English often contains ellipsis and discourse markers.",
+"p": 2
+},
+{
+"t": "Written Grammar",
+"d": "Grammatical patterns characteristic of written language.",
+"e": "Formal writing often uses more complete structures than casual speech.",
+"p": 2
+},
+{
+"t": "Token",
+"d": "Each individual occurrence of a word or form in a text.",
+"e": "If 'students' appears three times, there are three tokens of that word.",
+"p": 1
+},
+{
+"t": "Type",
+"d": "A distinct word or linguistic form counted as a category in a text.",
+"e": "In 'students study and students learn', 'students' is one type.",
+"p": 1
+}
+]
+},
+{
+"id": "c12",
+"group": "Categories",
+"title": "Vocabulary, Morphology & Word Formation",
+"kind": "terms",
+"terms": [
+{
+"t": "Allomorph",
+"d": "A variant form of a morpheme that occurs in different contexts without changing its basic function or meaning.",
+"e": "The plural morpheme has pronunciations such as /s/, /z/, and /ɪz/.",
+"p": 3
+},
+{
+"t": "Blending",
+"d": "Creating a new word by combining parts of two or more words.",
+"e": "Brunch comes from breakfast + lunch.",
+"p": 3
+},
+{
+"t": "Borrowing",
+"d": "Taking a word or expression from another language.",
+"e": "English borrowed bungalow from South Asian languages.",
+"p": 3
+},
+{
+"t": "Bound Morpheme",
+"d": "A morpheme that must be attached to another form.",
+"e": "The plural -s in books is a bound morpheme.",
+"p": 3
+},
+{
+"t": "Compounding",
+"d": "Combining two or more words or roots to form a new lexical item.",
+"e": "Toothbrush combines tooth + brush.",
+"p": 3
+},
+{
+"t": "Derivation",
+"d": "Forming a new word by adding an affix to a base or stem.",
+"e": "Happy becomes unhappy.",
+"p": 3
+},
+{
+"t": "Morpheme",
+"d": "The smallest linguistic unit that carries meaning or grammatical function.",
+"e": "Un-happy contains two morphemes.",
+"p": 3
+},
+{
+"t": "Morphology",
+"d": "The study of word structure and word formation.",
+"e": "Morphology analyzes how words are built from smaller units.",
+"p": 3
+},
+{
+"t": "Vocabulary",
+"d": "The set of words and lexical items known or used by a person, group, or language.",
+"e": "A learner's English vocabulary includes words they understand and/or use.",
+"p": 3
+},
+{
+"t": "Vocabulary Depth",
+"d": "The richness of knowledge about a word, including meaning, form, use, collocations, and relationships.",
+"e": "Knowing 'run' includes its meanings, forms, collocations, and different uses.",
+"p": 3
+},
+{
+"t": "Word Formation",
+"d": "The processes through which new words are created or existing words change form.",
+"e": "Derivation and compounding are word-formation processes.",
+"p": 3
+},
+{
+"t": "Acronym",
+"d": "A word formed from the initial letters of a series of words and pronounced as a word.",
+"e": "UNESCO is an acronym.",
+"p": 2
+},
+{
+"t": "Backformation",
+"d": "Creating a new word by removing what is interpreted as an affix from an existing word.",
+"e": "Edit was historically formed from editor.",
+"p": 2
+},
+{
+"t": "Clipping",
+"d": "Creating a shorter word from a longer word.",
+"e": "Advertisement becomes ad.",
+"p": 2
+},
+{
+"t": "Free Morpheme",
+"d": "A morpheme that can occur independently as a word.",
+"e": "Book can stand alone.",
+"p": 2
+},
+{
+"t": "Vocabulary Breadth",
+"d": "The number or range of words a learner knows.",
+"e": "Knowing many different English words reflects greater vocabulary breadth.",
+"p": 2
+},
+{
+"t": "Zero-Derivation",
+"d": "Changing a word's grammatical category without adding an affix.",
+"e": "Email can function as a noun and as a verb.",
+"p": 2
+},
+{
+"t": "Bifurcation",
+"d": "A semantic development in which one form develops or splits into distinct related or specialized meanings.",
+"e": "A historical word may develop separate meanings in different contexts.",
+"p": 1
+},
+{
+"t": "Extension",
+"d": "A process in which an existing word develops a broader range of meaning.",
+"e": "A word may extend from a specific sense to a more general one.",
+"p": 1
+},
+{
+"t": "Invention",
+"d": "Creating a completely new word or form.",
+"e": "A brand or technology may introduce a new lexical item.",
+"p": 1
+},
+{
+"t": "Morph",
+"d": "The actual form used to realize a morpheme in a particular word.",
+"e": "The different forms of the plural morpheme are morphs.",
+"p": 1
+},
+{
+"t": "Narrowing",
+"d": "A process in which a word develops a more restricted meaning.",
+"e": "A word can change from a broad category to a more specific one.",
+"p": 1
+}
+]
+},
+{
+"id": "c13",
+"group": "Categories",
+"title": "Phonetics & Phonology",
+"kind": "terms",
+"terms": [
+{
+"t": "Connected Speech",
+"d": "Natural spoken language in which sounds may change, link, reduce, or disappear.",
+"e": "Want to may be pronounced with connected-speech features in rapid conversation.",
+"p": 3
+},
+{
+"t": "Intonation",
+"d": "Changes in pitch across an utterance that contribute to meaning and discourse.",
+"e": "Rising intonation can help signal a question in some contexts.",
+"p": 3
+},
+{
+"t": "Manner of Articulation",
+"d": "The way airflow is obstructed or shaped to produce a consonant.",
+"e": "Stops, fricatives, and nasals are different manners of articulation.",
+"p": 3
+},
+{
+"t": "Minimal Pair",
+"d": "Two words that differ in only one phoneme and have different meanings.",
+"e": "ship/sheep is a minimal pair.",
+"p": 3
+},
+{
+"t": "Phoneme",
+"d": "The smallest sound unit that can distinguish meaning in a particular language.",
+"e": "/p/ and /b/ are separate phonemes in English because pat and bat differ in meaning.",
+"p": 3
+},
+{
+"t": "Phonetics",
+"d": "The scientific study of speech sounds, including their production, transmission, and perception.",
+"e": "Phonetics studies how /p/ is physically produced.",
+"p": 3
+},
+{
+"t": "Phonology",
+"d": "The study of how speech sounds function and are organized in a particular language.",
+"e": "Phonology explains why changing one sound can change meaning in English.",
+"p": 3
+},
+{
+"t": "Place of Articulation",
+"d": "The location in the vocal tract where a speech sound is produced.",
+"e": "The lips are the place of articulation for /p/ and /b/.",
+"p": 3
+},
+{
+"t": "Stress",
+"d": "Relative prominence given to a syllable or word through features such as loudness, length, pitch, and vowel quality.",
+"e": "PREsent and preSENT can differ in stress placement.",
+"p": 3
+},
+{
+"t": "Voiced Sound",
+"d": "A sound produced with vibration of the vocal folds.",
+"e": "The /z/ sound is voiced.",
+"p": 3
+},
+{
+"t": "Voiceless Sound",
+"d": "A sound produced without vibration of the vocal folds.",
+"e": "The /s/ sound is voiceless.",
+"p": 3
+},
+{
+"t": "Consonant Charting",
+"d": "The systematic classification of consonants according to place and manner of articulation and voicing.",
+"e": "English consonants can be organized in a chart using these features.",
+"p": 2
+},
+{
+"t": "Rhythm",
+"d": "The pattern of stressed and unstressed syllables in speech.",
+"e": "English has a characteristic stress-timed rhythm.",
+"p": 2
+},
+{
+"t": "Sentence Stress",
+"d": "The prominence given to particular words in a sentence.",
+"e": "Content words are often more prominent than function words.",
+"p": 2
+},
+{
+"t": "Word Stress",
+"d": "The prominence given to one syllable within a word.",
+"e": "PHOtograph has stress on the first syllable.",
+"p": 2
+}
+]
+},
+{
+"id": "c14",
+"group": "Categories",
+"title": "Assessment & Evaluation",
+"kind": "terms",
+"terms": [
+{
+"t": "Achievement Test",
+"d": "A test designed to measure what learners have learned from a particular course or program.",
+"e": "A final test based on Units 1–6.",
+"p": 3
+},
+{
+"t": "Assessment",
+"d": "The systematic process of gathering information about learning or performance.",
+"e": "A teacher uses a quiz and observation to assess learning.",
+"p": 3
+},
+{
+"t": "Assessment for Learning",
+"d": "The use of assessment evidence primarily to improve learning and instruction.",
+"e": "A teacher uses quiz results to reteach a difficult concept.",
+"p": 3
+},
+{
+"t": "Assessment Literacy",
+"d": "Teachers' knowledge and skills for designing, interpreting, and using assessment appropriately.",
+"e": "A teacher chooses a valid rubric for a speaking task.",
+"p": 3
+},
+{
+"t": "Authenticity",
+"d": "The extent to which assessment tasks resemble meaningful real-world language use.",
+"e": "Students write an actual email rather than only choose grammar answers.",
+"p": 3
+},
+{
+"t": "Continuous Assessment",
+"d": "Assessment carried out regularly throughout a course rather than only in a final examination.",
+"e": "Homework, quizzes, projects, and participation contribute to the final grade.",
+"p": 3
+},
+{
+"t": "Criterion-Referenced Assessment",
+"d": "Assessment interpreted against defined learning criteria or standards rather than against other test takers.",
+"e": "A student passes after meeting 80% of stated criteria.",
+"p": 3
+},
+{
+"t": "Diagnostic Assessment",
+"d": "Assessment used to identify learners' strengths, weaknesses, and needs before or during instruction.",
+"e": "A pre-test identifies students' grammar difficulties.",
+"p": 3
+},
+{
+"t": "Evaluation",
+"d": "The process of making a judgment about the quality, value, or effectiveness of learning, teaching, or a program.",
+"e": "A school evaluates whether a new program improved reading outcomes.",
+"p": 3
+},
+{
+"t": "Formative Assessment",
+"d": "Assessment conducted during learning to provide information that improves ongoing teaching and learning.",
+"e": "An exit ticket helps the teacher plan tomorrow's lesson.",
+"p": 3
+},
+{
+"t": "Formative Feedback",
+"d": "Feedback provided during learning to help learners improve before final evaluation.",
+"e": "A teacher comments on a draft before the final essay.",
+"p": 3
+},
+{
+"t": "Peer Assessment",
+"d": "Assessment in which learners evaluate one another's work.",
+"e": "Students use a rubric to assess classmates' presentations.",
+"p": 3
+},
+{
+"t": "Placement Test",
+"d": "A test used to determine an appropriate level or class for a learner.",
+"e": "A language school tests students before assigning classes.",
+"p": 3
+},
+{
+"t": "Portfolio",
+"d": "A purposeful collection of learner work used to demonstrate progress or achievement.",
+"e": "A student keeps drafts and final versions of essays.",
+"p": 3
+},
+{
+"t": "Proficiency Test",
+"d": "A test measuring general ability in a language rather than achievement of a specific course.",
+"e": "An English proficiency examination for university admission.",
+"p": 3
+},
+{
+"t": "Reliability",
+"d": "The consistency or stability of assessment results.",
+"e": "A reliable test gives similar results under similar conditions.",
+"p": 3
+},
+{
+"t": "Rubric",
+"d": "A scoring guide containing criteria and performance levels for evaluating work.",
+"e": "An essay rubric scores organization, grammar, vocabulary, and ideas.",
+"p": 3
+},
+{
+"t": "Self-Assessment",
+"d": "Assessment in which learners judge their own learning or performance.",
+"e": "A student rates their speaking confidence using a checklist.",
+"p": 3
+},
+{
+"t": "Summative Assessment",
+"d": "Assessment conducted at the end of a period of learning to judge achievement.",
+"e": "A final examination at the end of a course.",
+"p": 3
+},
+{
+"t": "Validity",
+"d": "The degree to which an assessment measures what it is intended to measure.",
+"e": "A speaking test should actually assess speaking ability.",
+"p": 3
+},
+{
+"t": "Washback",
+"d": "The effect that testing and assessment have on teaching and learning.",
+"e": "A high-stakes grammar exam may cause teachers to focus heavily on grammar drills.",
+"p": 3
+},
+{
+"t": "Norm-Referenced Assessment",
+"d": "Assessment interpreted by comparing a learner's performance with that of a reference group.",
+"e": "A student's score is reported by percentile rank.",
+"p": 2
+}
+]
+},
+{
+"id": "c15",
+"group": "Categories",
+"title": "Education Theory & Curriculum",
+"kind": "terms",
+"terms": [
+{
+"t": "Behaviorism",
+"d": "A learning theory emphasizing observable behavior, stimulus-response relationships, practice, and reinforcement.",
+"e": "Repetition and reinforcement are used to establish language habits.",
+"p": 3
+},
+{
+"t": "Bloom's Taxonomy",
+"d": "A framework for classifying cognitive learning objectives from lower to higher levels of thinking.",
+"e": "Remember, understand, apply, analyze, evaluate, create.",
+"p": 3
+},
+{
+"t": "Cognitivism",
+"d": "A learning perspective emphasizing mental processes such as attention, memory, processing, and problem-solving.",
+"e": "A teacher helps students organize new vocabulary in meaningful categories.",
+"p": 3
+},
+{
+"t": "Competency",
+"d": "An integrated ability to apply knowledge, skills, and attitudes effectively in a context.",
+"e": "A competent teacher can plan and deliver an effective lesson.",
+"p": 3
+},
+{
+"t": "Constructivism",
+"d": "A view that learners actively construct knowledge through experience and interaction.",
+"e": "Students build understanding by solving a problem and discussing it.",
+"p": 3
+},
+{
+"t": "Creativity",
+"d": "The ability to generate original or useful ideas, solutions, or products.",
+"e": "Students create a new dialogue using target vocabulary.",
+"p": 3
+},
+{
+"t": "Critical Thinking",
+"d": "The ability to analyze information, evaluate evidence, and make reasoned judgments.",
+"e": "Students compare two arguments and identify which has stronger evidence.",
+"p": 3
+},
+{
+"t": "Curriculum",
+"d": "The broader planned educational program, including goals, content, learning experiences, assessment, and sometimes policies.",
+"e": "A national curriculum specifies expected learning outcomes.",
+"p": 3
+},
+{
+"t": "Higher-Order Thinking",
+"d": "Thinking that involves analysis, evaluation, creation, and other complex cognitive processes beyond simple recall.",
+"e": "Students evaluate evidence and design a solution.",
+"p": 3
+},
+{
+"t": "Learning Objective",
+"d": "A specific statement of what learners are expected to learn or do.",
+"e": "Students will identify three causes of pollution.",
+"p": 3
+},
+{
+"t": "Learning Outcome",
+"d": "A statement of what learners should be able to demonstrate as a result of learning.",
+"e": "By the end of the lesson, students can make a polite request.",
+"p": 3
+},
+{
+"t": "Needs Analysis",
+"d": "The systematic process of identifying learners' needs, goals, current abilities, and learning gaps.",
+"e": "A teacher surveys students to identify their English needs.",
+"p": 3
+},
+{
+"t": "Positive Reinforcement",
+"d": "Adding a desirable consequence to increase a behavior.",
+"e": "Giving praise after a student completes a task.",
+"p": 3
+},
+{
+"t": "Problem-Solving",
+"d": "The process of identifying a problem, considering options, and developing and evaluating solutions.",
+"e": "Students identify causes of low participation and propose solutions.",
+"p": 3
+},
+{
+"t": "Reinforcement",
+"d": "A consequence that increases the likelihood that a behavior will occur again.",
+"e": "Praise after successful participation can encourage future participation.",
+"p": 3
+},
+{
+"t": "Social Constructivism",
+"d": "A view emphasizing that learning is constructed through social interaction and support from others.",
+"e": "Students learn through collaborative problem-solving.",
+"p": 3
+},
+{
+"t": "Syllabus",
+"d": "A more specific outline of the content, topics, sequence, and requirements of a course.",
+"e": "An English syllabus lists units and assessment tasks.",
+"p": 3
+},
+{
+"t": "Hidden Curriculum",
+"d": "Unintended learning about values, behaviors, norms, and social expectations conveyed through school practices.",
+"e": "Students may learn punctuality and hierarchy through school routines.",
+"p": 2
+},
+{
+"t": "Negative Reinforcement",
+"d": "Removing an unpleasant condition to increase a behavior; it is not the same as punishment.",
+"e": "Removing an extra practice requirement when students consistently meet a target.",
+"p": 2
+},
+{
+"t": "Punishment",
+"d": "A consequence intended to reduce an undesirable behavior.",
+"e": "A school consequence is given for repeated rule violations.",
+"p": 2
+}
+]
+},
+{
+"id": "c16",
+"group": "Categories",
+"title": "Research & Professional Practice",
+"kind": "terms",
+"terms": [
+{
+"t": "Action Research",
+"d": "Systematic inquiry conducted by practitioners to improve their own practice.",
+"e": "A teacher tests a new reading strategy, collects evidence, and reflects on the results.",
+"p": 3
+},
+{
+"t": "Evidence-Based Practice",
+"d": "Professional practice informed by credible research evidence together with professional expertise and context.",
+"e": "A teacher selects a reading strategy supported by research.",
+"p": 3
+},
+{
+"t": "Interview",
+"d": "A method of collecting information through structured or semi-structured questions and responses.",
+"e": "A researcher interviews English teachers.",
+"p": 3
+},
+{
+"t": "Observation",
+"d": "A research or assessment method involving systematic watching and recording of behavior or events.",
+"e": "A teacher observes student participation using a checklist.",
+"p": 3
+},
+{
+"t": "Pedagogical Content Knowledge",
+"d": "The knowledge of how to teach particular subject content effectively to particular learners.",
+"e": "Knowing how to explain English tense to Cambodian beginners.",
+"p": 3
+},
+{
+"t": "Professional Development",
+"d": "Ongoing learning and training that improve a teacher's professional knowledge and practice.",
+"e": "A teacher attends a workshop on assessment.",
+"p": 3
+},
+{
+"t": "Professional Ethics",
+"d": "Principles and standards guiding responsible, fair, respectful, and professional conduct.",
+"e": "A teacher protects student confidentiality and treats learners fairly.",
+"p": 3
+},
+{
+"t": "Questionnaire",
+"d": "A structured set of written questions used to collect information from respondents.",
+"e": "Students complete a questionnaire about learning preferences.",
+"p": 3
+},
+{
+"t": "Reflective Teaching",
+"d": "A process in which teachers systematically examine their teaching decisions and outcomes to improve practice.",
+"e": "A teacher reflects after a lesson and changes the next lesson plan.",
+"p": 3
+},
+{
+"t": "Triangulation",
+"d": "Using multiple data sources, methods, researchers, or perspectives to strengthen the credibility of findings.",
+"e": "Combining observations, interviews, and test data.",
+"p": 3
+},
+{
+"t": "Case Study",
+"d": "An in-depth investigation of a particular person, group, class, institution, or case.",
+"e": "A researcher studies one rural school in depth.",
+"p": 2
+},
+{
+"t": "Mixed-Methods Research",
+"d": "Research combining qualitative and quantitative approaches.",
+"e": "A study combines test scores with student interviews.",
+"p": 2
+},
+{
+"t": "Qualitative Research",
+"d": "Research focused mainly on non-numerical data such as interviews, observations, and texts.",
+"e": "Interviewing teachers about classroom challenges.",
+"p": 2
+},
+{
+"t": "Quantitative Research",
+"d": "Research using numerical data and statistical analysis.",
+"e": "Comparing test scores before and after an intervention.",
+"p": 2
+},
+{
+"t": "Teacher Efficacy",
+"d": "A teacher's belief in their ability to influence student learning effectively.",
+"e": "A teacher believes they can help struggling students improve.",
+"p": 2
+}
+]
+},
+{
+"id": "c17",
+"group": "Categories",
+"title": "Key Education Concepts",
+"kind": "terms",
+"terms": [
+{
+"t": "21st-Century Skills",
+"d": "Skills needed for modern learning and work, commonly including communication, collaboration, critical thinking, creativity, and digital skills.",
+"e": "Students collaborate on a project and present their findings.",
+"p": 3
+},
+{
+"t": "Accessibility",
+"d": "The extent to which environments, materials, services, and learning opportunities can be used by people with different needs and abilities.",
+"e": "Providing accessible learning materials for students with disabilities.",
+"p": 3
+},
+{
+"t": "Digital Literacy",
+"d": "The ability to find, evaluate, create, communicate, and use information effectively through digital technologies.",
+"e": "Students evaluate whether an online source is reliable.",
+"p": 3
+},
+{
+"t": "Education Quality",
+"d": "The degree to which education effectively supports meaningful learning and development.",
+"e": "Quality education includes effective teaching, relevant content, and supportive learning environments.",
+"p": 3
+},
+{
+"t": "Equality",
+"d": "Providing the same rights, opportunities, or treatment to everyone.",
+"e": "All students receive access to the same school library.",
+"p": 3
+},
+{
+"t": "Equity",
+"d": "Fairness in access, support, opportunities, and outcomes, recognizing that different learners may need different support.",
+"e": "Providing additional support to learners facing greater barriers.",
+"p": 3
+},
+{
+"t": "Inclusive Classroom",
+"d": "A classroom designed to enable learners with diverse abilities, backgrounds, and needs to participate meaningfully.",
+"e": "The teacher uses multiple ways for students to demonstrate learning.",
+"p": 3
+},
+{
+"t": "Lifelong Learning",
+"d": "The continuous development of knowledge and skills throughout life.",
+"e": "A teacher continues learning through professional development.",
+"p": 3
+},
+{
+"t": "Sustainable Development",
+"d": "Development that meets present needs while protecting the ability of future generations to meet their needs.",
+"e": "Education supports sustainable development through environmental awareness and responsible action.",
+"p": 3
+},
+{
+"t": "Global Citizenship",
+"d": "Awareness of global interdependence and the knowledge, skills, values, and attitudes needed to participate responsibly in a global community.",
+"e": "Students learn about global issues and respect different cultures.",
+"p": 2
+}
+]
+}
+]
+}
