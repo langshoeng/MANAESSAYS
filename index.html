@@ -102,6 +102,13 @@ button,select{min-height:44px}
 #gBody td:first-child{font-weight:600}
 #gNav{margin-top:28px;padding-top:16px;border-top:1px solid var(--line)}
 #gNav button{flex:1}
+.opt{display:block;width:100%;text-align:left;margin:8px 0;padding:12px}
+.opt:disabled{opacity:1;color:var(--ink);cursor:default}
+.opt.ok{border:2px solid var(--accent);background:var(--bg)}
+.opt.bad{border:2px solid var(--danger)}
+.exp{margin-top:12px;padding:12px;border-left:3px solid var(--accent);background:var(--bg);border-radius:6px}
+.prog{color:var(--mute);font-size:.85rem;margin:14px 0 4px}
+.qtext{font:600 1.12rem/1.5 Literata,Georgia,serif;margin:4px 0 10px}
 </style>
 </head>
 <body>
@@ -144,7 +151,9 @@ button,select{min-height:44px}
     </article>
     <article id="gdoc" hidden>
       <div class="gh"><h1 id="gTitle"></h1><button id="starBtn" aria-pressed="false">&#9734; Save for review</button></div>
+      <div class="grp" id="gTabs" hidden style="margin:14px 0 4px"><button id="gLearn" class="primary">Lesson</button><button id="gPractice">Practice</button></div>
       <div id="gBody"></div>
+      <div id="pBody" hidden></div>
       <div class="grp" id="gNav"><button id="gPrev">&larr; Previous</button><button id="gNext">Next &rarr;</button></div>
     </article>
   </div>
@@ -153,7 +162,7 @@ button,select{min-height:44px}
 <div id="toast" role="status" aria-live="polite"></div>
 <script>
 const $=s=>document.querySelector(s),PK='essay-viewer-prefs',synth=window.speechSynthesis,aud=$('#aud');
-let gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
+let prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
 try{prefs=JSON.parse(localStorage.getItem(PK))||{}}catch(e){}
 const save=()=>{try{localStorage.setItem(PK,JSON.stringify(prefs))}catch(e){}};
 const words=s=>(s.trim().match(/\S+/g)||[]).length;
@@ -287,8 +296,60 @@ function openG(s){
   $('#gTitle').textContent=s.title;updStar();
   const box=$('#gBody');box.textContent='';s.blocks.forEach(b=>box.append(renderBlock(b)));
   const i=gram.indexOf(s);$('#gPrev').disabled=i<=0;$('#gNext').disabled=i>=gram.length-1;
+  $('#gTabs').hidden=!prac[s.id];ps=null;updPractice();showView('lesson');
   window.scrollTo(0,0);
 }
+function updPractice(){
+  if(!curG||!prac[curG.id])return;
+  const best=(prefs.scores||{})[curG.id];
+  $('#gPractice').textContent='Practice ('+prac[curG.id].length+')'+(best!==undefined?' - best '+best:'');
+}
+function showView(v){
+  $('#gBody').hidden=v!=='lesson';$('#pBody').hidden=v!=='practice';$('#gNav').hidden=v==='practice';
+  $('#gLearn').classList.toggle('primary',v==='lesson');$('#gPractice').classList.toggle('primary',v==='practice');
+}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function startPractice(list,partial){
+  ps={qs:shuffle((list||prac[curG.id]).slice()),i:0,score:0,missed:[],locked:false,partial:!!partial};
+  showView('practice');renderQ();
+}
+function renderQ(){
+  const box=$('#pBody');box.textContent='';
+  if(ps.i>=ps.qs.length){renderResult();return}
+  const q=ps.qs[ps.i];
+  box.append(el('p','prog','Question '+(ps.i+1)+' of '+ps.qs.length+' - score '+ps.score),el('p','qtext',q.q));
+  q.o.forEach((o,k)=>{const b=el('button','opt','ABCD'[k]+'. '+o);b.onclick=()=>answer(k);box.append(b)});
+  window.scrollTo(0,0);
+}
+function answer(k){
+  if(ps.locked)return;ps.locked=true;
+  const q=ps.qs[ps.i];
+  document.querySelectorAll('#pBody .opt').forEach((b,i)=>{
+    b.disabled=true;
+    if(i===q.a){b.classList.add('ok');b.textContent+='  \u2713 correct'}
+    else if(i===k){b.classList.add('bad');b.textContent+='  \u2717 your answer'}
+  });
+  if(k===q.a)ps.score++;else ps.missed.push(q);
+  const fb=el('div','exp'),nx=el('button','primary',ps.i+1>=ps.qs.length?'See results':'Next question');
+  fb.append(el('b','',k===q.a?'Correct. ':'Not quite. '),document.createTextNode(q.e));
+  nx.style.marginTop='12px';nx.onclick=()=>{ps.i++;ps.locked=false;renderQ()};
+  $('#pBody').append(fb,nx);nx.scrollIntoView({block:'nearest'});
+}
+function renderResult(){
+  const box=$('#pBody'),n=ps.qs.length;box.textContent='';
+  const sc=prefs.scores=prefs.scores||{};
+  if(!ps.partial&&(sc[curG.id]===undefined||ps.score>sc[curG.id])){sc[curG.id]=ps.score;save()}
+  updPractice();
+  box.append(el('h3','','Result: '+ps.score+' / '+n),el('p','',ps.missed.length?'Read the explanations for the questions you missed, then retry them.':'Perfect score. Restart to practise again in a new order.'));
+  ps.missed.forEach(q=>{const d=el('div','exp');d.append(el('b','',q.q),el('br'),document.createTextNode('Answer: '+q.o[q.a]+'. '+q.e));box.append(d)});
+  const g=el('div','grp');g.style.marginTop='16px';
+  if(ps.missed.length){const r=el('button','primary','Retry missed ('+ps.missed.length+')');r.onclick=()=>startPractice(ps.missed.slice(),true);g.append(r)}
+  const a=el('button','','Restart all');a.onclick=()=>startPractice();
+  const l=el('button','','Back to lesson');l.onclick=()=>{ps=null;showView('lesson')};
+  g.append(a,l);box.append(g);window.scrollTo(0,0);
+}
+$('#gLearn').onclick=()=>{ps=null;showView('lesson')};
+$('#gPractice').onclick=()=>startPractice();
 $('#gPrev').onclick=()=>{const i=gram.indexOf(curG);if(i>0)openG(gram[i-1])};
 $('#gNext').onclick=()=>{const i=gram.indexOf(curG);if(i<gram.length-1)openG(gram[i+1])};
 $('#starBtn').onclick=()=>{if(!curG)return;stars.has(curG.id)?stars.delete(curG.id):stars.add(curG.id);prefs.stars=[...stars];save();updStar();renderList()};
@@ -307,8 +368,9 @@ $('#tabE').onclick=()=>setTab('essays');
 $('#tabG').onclick=()=>setTab('grammar');
 const flat=b=>[b.x,b.k,(b.items||[]).join(' '),(b.head||[]).join(' '),(b.rows||[]).map(r=>r.join(' ')).join(' ')].filter(Boolean).join(' ');
 const eP=fetch('essays.json').then(r=>r.json()).then(d=>{items=d.essays||[]}).catch(()=>{eErr=true});
+const pP=fetch('practice.json').then(r=>r.json()).then(d=>{prac=d}).catch(()=>{});
 const gP=fetch('grammar.json').then(r=>r.json()).then(d=>{gram=d.sections||[];gram.forEach(s=>{s.text=(s.title+' '+s.blocks.map(flat).join(' ')).toLowerCase()})}).catch(()=>{});
-Promise.all([eP,gP]).then(()=>{
+Promise.all([eP,gP,pP]).then(()=>{
   const le=items.find(x=>x.file===prefs.last),lg=gram.find(x=>x.id===prefs.lastG);
   if(le)cur=le;if(lg)curG=lg;
   setTab(prefs.tab==='grammar'?'grammar':'essays');
