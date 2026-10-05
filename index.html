@@ -109,13 +109,25 @@ button,select{min-height:44px}
 .exp{margin-top:12px;padding:12px;border-left:3px solid var(--accent);background:var(--bg);border-radius:6px}
 .prog{color:var(--mute);font-size:.85rem;margin:14px 0 4px}
 .qtext{font:600 1.12rem/1.5 Literata,Georgia,serif;margin:4px 0 10px}
+.term{padding:14px 0;border-bottom:1px solid var(--line)}
+.term .th{display:flex;gap:10px;justify-content:space-between;align-items:flex-start}
+.term b{font-size:1.05rem}
+.pri{color:var(--accent);white-space:nowrap;font-size:.85rem}
+.term p{margin:.35rem 0}
+.term .ex{color:var(--mute)}
+.term.flash{background:var(--hl);border-radius:6px;padding-left:8px;padding-right:8px}
+.sv{padding:4px 10px;font-size:.85rem;margin-top:4px}
+.card{border:1px solid var(--line);border-radius:12px;padding:22px;margin:12px 0;min-height:150px}
+.card .big{font:600 1.5rem/1.3 Literata,Georgia,serif;margin:0 0 10px}
+#tNav{margin-top:28px;padding-top:16px;border-top:1px solid var(--line)}
+#tNav button{flex:1}
 </style>
 </head>
 <body>
 <div class="app">
 <aside id="side" aria-label="Essays">
   <h2>My Library</h2>
-  <div class="tabs" role="tablist"><button id="tabE" class="primary">Essays</button><button id="tabG">Grammar</button></div>
+  <div class="tabs" role="tablist"><button id="tabE" class="primary">Essays</button><button id="tabG">Grammar</button><button id="tabT">Terms</button></div>
   <input type="search" id="q" placeholder="Search titles" aria-label="Search">
   <label class="lbl" id="starRow" hidden style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="starOnly"> Saved for review only</label>
   <div id="list"></div>
@@ -156,20 +168,28 @@ button,select{min-height:44px}
       <div id="pBody" hidden></div>
       <div class="grp" id="gNav"><button id="gPrev">&larr; Previous</button><button id="gNext">Next &rarr;</button></div>
     </article>
+    <article id="tdoc" hidden>
+      <h1 id="tTitle"></h1>
+      <p id="tMeta" class="lbl"></p>
+      <div class="grp" id="tCtl" hidden style="margin:10px 0 4px"><button id="tLearn" class="primary">Terms</button><button id="tCards">Flashcards</button><select id="tFilter" aria-label="Show terms"><option value="1">All terms</option><option value="2">★★ and ★★★</option><option value="3">★★★ only</option></select></div>
+      <div id="tBody"></div>
+      <div id="cBody" hidden></div>
+      <div class="grp" id="tNav"><button id="tPrev">&larr; Previous</button><button id="tNext">Next &rarr;</button></div>
+    </article>
   </div>
 </main>
 </div>
 <div id="toast" role="status" aria-live="polite"></div>
 <script>
 const $=s=>document.querySelector(s),PK='essay-viewer-prefs',synth=window.speechSynthesis,aud=$('#aud');
-let prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
+let tsecs=[],allT=[],curT=null,tmin=1,cs=null,prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
 try{prefs=JSON.parse(localStorage.getItem(PK))||{}}catch(e){}
 const save=()=>{try{localStorage.setItem(PK,JSON.stringify(prefs))}catch(e){}};
 const words=s=>(s.trim().match(/\S+/g)||[]).length;
 function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>t.classList.remove('show'),2800)}
 function drawer(o){$('#side').classList.toggle('open',o);$('#scrim').hidden=!o}
 function settings(o){$('#settings').hidden=!o;$('#setBtn').setAttribute('aria-expanded',String(o))}
-function renderList(){tab==='grammar'?renderGList():renderEList()}
+function renderList(){tab==='grammar'?renderGList():tab==='terms'?renderTList():renderEList()}
 function renderEList(){
   const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';
   items.filter(i=>!f||i.title.toLowerCase().includes(f)).forEach(i=>{
@@ -266,6 +286,89 @@ $('#setBtn').onclick=e=>{e.stopPropagation();settings($('#settings').hidden)};
 document.addEventListener('click',e=>{if(!$('#settings').hidden&&!e.target.closest('#settings'))settings(false)});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){settings(false);drawer(false)}});
 $('#q').oninput=renderList;
+/* Terminology */
+const tstars=new Set(prefs.tstars||[]);
+const termsOf=s=>s.id==='must'?allT.filter(t=>t.p===3):s.id==='saved'?allT.filter(t=>tstars.has(t.t)):(s.terms||[]);
+function renderTList(){
+  const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';
+  if(f){
+    const hits=allT.filter(t=>(t.t+' '+t.d).toLowerCase().includes(f)).slice(0,80);
+    hits.forEach(t=>{const b=el('button','item');b.append(el('b','',t.t),el('small','',t.cat));b.onclick=()=>openT(t.sec,t.t);box.append(b)});
+    if(!hits.length)box.textContent=allT.length?'No terms found.':'Could not load terminology.json. Make sure it is uploaded next to index.html.';
+    return;
+  }
+  let last='';
+  tsecs.forEach(s=>{
+    if(s.group!==last){last=s.group;box.append(el('div','grp-h',s.group))}
+    const b=el('button','item');b.setAttribute('aria-current',String(curT===s));
+    b.append(el('b','',s.title+(s.kind==='terms'?' ('+termsOf(s).length+')':'')));b.onclick=()=>openT(s);box.append(b);
+  });
+  if(!tsecs.length)box.textContent='Could not load terminology.json. Make sure it is uploaded next to index.html.';
+}
+function termCard(t){
+  const d=el('div','term');d.dataset.t=t.t;
+  const h=el('div','th');h.append(el('b','',t.t),el('span','pri','★'.repeat(t.p)));
+  const sv=el('button','sv',tstars.has(t.t)?'★ Saved':'☆ Save');
+  sv.onclick=()=>{tstars.has(t.t)?tstars.delete(t.t):tstars.add(t.t);prefs.tstars=[...tstars];save();
+    if(curT.id==='saved')renderTView();else sv.textContent=tstars.has(t.t)?'★ Saved':'☆ Save';renderList()};
+  d.append(h,el('p','',t.d),el('p','ex','Example: '+t.e),sv);return d;
+}
+function renderTView(){
+  const s=curT,box=$('#tBody');box.textContent='';cs=null;$('#cBody').hidden=true;box.hidden=false;$('#tNav').hidden=false;
+  const isT=s.kind==='terms';$('#tCtl').hidden=!isT;$('#tFilter').hidden=s.id==='must';
+  const i=tsecs.indexOf(s);$('#tPrev').disabled=i<=0;$('#tNext').disabled=i>=tsecs.length-1;
+  if(!isT){$('#tMeta').textContent='';s.blocks.forEach(b=>box.append(renderBlock(b)));return}
+  const list=termsOf(s).filter(t=>t.p>=(s.id==='must'?1:tmin));
+  $('#tMeta').textContent=list.length+(list.length===1?' term':' terms');
+  $('#tLearn').classList.add('primary');$('#tCards').classList.remove('primary');$('#tCards').disabled=!list.length;
+  let last='';
+  list.forEach(t=>{if(s.id==='must'||s.id==='saved'){if(t.cat!==last){last=t.cat;box.append(el('h3','',t.cat))}}box.append(termCard(t))});
+  if(!list.length)box.append(el('p','',s.id==='saved'?'No saved terms yet. Press Save on any term to collect it here.':'No terms at this level.'));
+}
+function openT(s,focus){
+  stopSpeech();aud.pause();curT=s;drawer(false);prefs.lastT=s.id;save();
+  $('#empty').hidden=true;$('#doc').hidden=true;$('#gdoc').hidden=true;$('#tdoc').hidden=false;
+  if(focus){tmin=1;$('#tFilter').value='1'}
+  $('#tTitle').textContent=s.title;renderTView();renderList();
+  const e=focus&&[...document.querySelectorAll('#tBody .term')].find(x=>x.dataset.t===focus);
+  if(e){e.classList.add('flash');e.scrollIntoView({block:'center'})}else window.scrollTo(0,0);
+}
+$('#tFilter').onchange=()=>{tmin=parseInt($('#tFilter').value)||1;renderTView()};
+$('#tLearn').onclick=renderTView;
+$('#tPrev').onclick=()=>{const i=tsecs.indexOf(curT);if(i>0)openT(tsecs[i-1])};
+$('#tNext').onclick=()=>{const i=tsecs.indexOf(curT);if(i<tsecs.length-1)openT(tsecs[i+1])};
+function startCards(list,partial){
+  const base=list||termsOf(curT).filter(t=>t.p>=(curT.id==='must'?1:tmin));
+  if(!base.length)return;
+  cs={qs:shuffle(base.slice()),i:0,known:0,missed:[],partial:!!partial};
+  $('#tBody').hidden=true;$('#cBody').hidden=false;$('#tNav').hidden=true;
+  $('#tLearn').classList.remove('primary');$('#tCards').classList.add('primary');renderCard();
+}
+function renderCard(){
+  const box=$('#cBody');box.textContent='';
+  if(cs.i>=cs.qs.length){cardResult();return}
+  const t=cs.qs[cs.i];
+  box.append(el('p','prog','Card '+(cs.i+1)+' of '+cs.qs.length+' - known '+cs.known));
+  const c=el('div','card');c.append(el('p','big',t.t),el('p','lbl','Say the definition in your own words, then check.'));
+  const show=el('button','primary','Show answer');
+  show.onclick=()=>{
+    c.append(el('p','',t.d),el('p','ex','Example: '+t.e));show.remove();
+    const g=el('div','grp'),y=el('button','primary','I knew it'),n=el('button','','Review again');
+    y.onclick=()=>{cs.known++;cs.i++;renderCard()};n.onclick=()=>{cs.missed.push(t);cs.i++;renderCard()};
+    g.append(y,n);box.append(g);
+  };
+  box.append(c,show);
+}
+function cardResult(){
+  const box=$('#cBody');box.textContent='';
+  box.append(el('h3','','Known: '+cs.known+' / '+cs.qs.length),el('p','',cs.missed.length?'Retry the ones you wanted to review again.':'You knew them all. Restart to shuffle and go again.'));
+  const g=el('div','grp');g.style.marginTop='14px';
+  if(cs.missed.length){const r=el('button','primary','Retry review ('+cs.missed.length+')');r.onclick=()=>startCards(cs.missed.slice(),true);g.append(r)}
+  const a=el('button','','Restart all');a.onclick=()=>startCards();const b=el('button','','Back to terms');b.onclick=renderTView;
+  g.append(a,b);box.append(g);window.scrollTo(0,0);
+}
+$('#tCards').onclick=()=>startCards();
+
 /* Grammar */
 const stars=new Set(prefs.stars||[]);
 function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e}
@@ -355,26 +458,35 @@ $('#gNext').onclick=()=>{const i=gram.indexOf(curG);if(i<gram.length-1)openG(gra
 $('#starBtn').onclick=()=>{if(!curG)return;stars.has(curG.id)?stars.delete(curG.id):stars.add(curG.id);prefs.stars=[...stars];save();updStar();renderList()};
 $('#starOnly').onchange=renderList;
 function setTab(t){
-  tab=t;prefs.tab=t;save();stopSpeech();aud.pause();
-  $('#tabE').classList.toggle('primary',t==='essays');$('#tabG').classList.toggle('primary',t==='grammar');
-  $('#q').placeholder=t==='essays'?'Search titles':'Search grammar';$('#starRow').hidden=t!=='grammar';
-  $('#tbTitle').textContent=t==='essays'?'My Essays':'Grammar Handbook';
-  $('#doc').hidden=true;$('#gdoc').hidden=true;$('#empty').hidden=false;$('#player').hidden=true;
+  tab=t;prefs.tab=t;save();stopSpeech();aud.pause();$('#q').value='';
+  $('#tabE').classList.toggle('primary',t==='essays');$('#tabG').classList.toggle('primary',t==='grammar');$('#tabT').classList.toggle('primary',t==='terms');
+  $('#q').placeholder={essays:'Search titles',grammar:'Search grammar',terms:'Search terms'}[t];$('#starRow').hidden=t!=='grammar';
+  $('#tbTitle').textContent={essays:'My Essays',grammar:'Grammar Handbook',terms:'Terminology'}[t];
+  $('#doc').hidden=true;$('#gdoc').hidden=true;$('#tdoc').hidden=true;$('#empty').hidden=false;$('#player').hidden=true;
+  if(t==='terms'&&curT){$('#empty').hidden=true;$('#tdoc').hidden=false}
   if(t==='essays'&&cur){$('#empty').hidden=true;$('#doc').hidden=false;setMode(mode)}
   if(t==='grammar'&&curG){$('#empty').hidden=true;$('#gdoc').hidden=false}
   renderList();
 }
 $('#tabE').onclick=()=>setTab('essays');
 $('#tabG').onclick=()=>setTab('grammar');
+$('#tabT').onclick=()=>setTab('terms');
 const flat=b=>[b.x,b.k,(b.items||[]).join(' '),(b.head||[]).join(' '),(b.rows||[]).map(r=>r.join(' ')).join(' ')].filter(Boolean).join(' ');
 const eP=fetch('essays.json').then(r=>r.json()).then(d=>{items=d.essays||[]}).catch(()=>{eErr=true});
 const pP=fetch('practice.json').then(r=>r.json()).then(d=>{prac=d}).catch(()=>{});
+const tP=fetch('terminology.json').then(r=>r.json()).then(d=>{
+  const secs=d.sections;allT=[];
+  secs.forEach(s=>{if(s.kind==='terms')s.terms.forEach(t=>{t.sec=s;t.cat=s.title;allT.push(t)})});
+  const k=secs.findIndex(s=>s.kind==='terms');
+  tsecs=[...secs.slice(0,k),{id:'must',group:'Quick study',title:'Must-memorize terms (★★★)',kind:'terms'},{id:'saved',group:'Quick study',title:'My saved terms',kind:'terms'},...secs.slice(k)];
+}).catch(()=>{});
 const gP=fetch('grammar.json').then(r=>r.json()).then(d=>{gram=d.sections||[];gram.forEach(s=>{s.text=(s.title+' '+s.blocks.map(flat).join(' ')).toLowerCase()})}).catch(()=>{});
-Promise.all([eP,gP,pP]).then(()=>{
+Promise.all([eP,gP,pP,tP]).then(()=>{
   const le=items.find(x=>x.file===prefs.last),lg=gram.find(x=>x.id===prefs.lastG);
   if(le)cur=le;if(lg)curG=lg;
-  setTab(prefs.tab==='grammar'?'grammar':'essays');
-  if(tab==='essays'&&le)open(le);else if(tab==='grammar'&&lg)openG(lg);
+  const lt=tsecs.find(x=>x.id===prefs.lastT);if(lt)curT=lt;
+  setTab(['grammar','terms'].includes(prefs.tab)?prefs.tab:'essays');
+  if(tab==='essays'&&le)open(le);else if(tab==='grammar'&&lg)openG(lg);else if(tab==='terms'&&lt)openT(lt);
 });
 </script>
 </body>
