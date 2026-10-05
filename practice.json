@@ -1,0 +1,672 @@
+{
+ "p1": [
+  {
+   "q": "She ____ English every day.",
+   "o": [
+    "is teaching",
+    "taught",
+    "teach",
+    "teaches"
+   ],
+   "a": 3,
+   "e": "Every day shows a habit, so use Present Simple. She is third person singular, so add -s."
+  },
+  {
+   "q": "Look! The students ____ in the garden now.",
+   "o": [
+    "are playing",
+    "have played",
+    "played",
+    "play"
+   ],
+   "a": 0,
+   "e": "Look! and now show an action happening now: Present Continuous, am/is/are + V-ing."
+  },
+  {
+   "q": "They ____ in this town since 2020.",
+   "o": [
+    "have lived",
+    "live",
+    "lived",
+    "are living"
+   ],
+   "a": 0,
+   "e": "Since + a starting point with a situation that continues to now needs Present Perfect: have/has + V3."
+  },
+  {
+   "q": "I ____ her yesterday.",
+   "o": [
+    "have been meeting",
+    "meet",
+    "met",
+    "have met"
+   ],
+   "a": 2,
+   "e": "Yesterday is a finished time, so use Past Simple (V2), not Present Perfect."
+  },
+  {
+   "q": "When the teacher arrived, the students ____.",
+   "o": [
+    "have studied",
+    "study",
+    "studied",
+    "were studying"
+   ],
+   "a": 3,
+   "e": "The studying was already in progress when the teacher arrived: Past Continuous (was/were + V-ing)."
+  },
+  {
+   "q": "By the time I arrived, the class ____ already.",
+   "o": [
+    "was starting",
+    "has started",
+    "had started",
+    "starts"
+   ],
+   "a": 2,
+   "e": "Two past events: the earlier one uses Past Perfect (had + V3). By the time signals this."
+  },
+  {
+   "q": "She is tired because she ____ for three hours.",
+   "o": [
+    "will study",
+    "studies",
+    "has been studying",
+    "studied"
+   ],
+   "a": 2,
+   "e": "Duration up to now with a visible result: Present Perfect Continuous, have/has been + V-ing."
+  },
+  {
+   "q": "This time tomorrow, I ____ the exam.",
+   "o": [
+    "will be taking",
+    "have taken",
+    "will take",
+    "take"
+   ],
+   "a": 0,
+   "e": "An action in progress at a future time uses Future Continuous: will be + V-ing."
+  },
+  {
+   "q": "By Friday, I ____ the report.",
+   "o": [
+    "will finish",
+    "will have finished",
+    "will be finishing",
+    "finish"
+   ],
+   "a": 1,
+   "e": "By + a future time means completed before that deadline: Future Perfect, will have + V3."
+  },
+  {
+   "q": "By June, she ____ for five years.",
+   "o": [
+    "is teaching",
+    "will teach",
+    "will have been teaching",
+    "has taught"
+   ],
+   "a": 2,
+   "e": "Duration continuing up to a future point: Future Perfect Continuous, will have been + V-ing."
+  },
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "I am seeing him last year.",
+    "I saw him last year.",
+    "I have seen him last year.",
+    "I have seen him yesterday."
+   ],
+   "a": 1,
+   "e": "Finished time words such as last year or yesterday are not normally used with Present Perfect. Use Past Simple."
+  },
+  {
+   "q": "Does she ____ to school by bus?",
+   "o": [
+    "going",
+    "goes",
+    "go",
+    "went"
+   ],
+   "a": 2,
+   "e": "After does/doesn't/did/didn't, always use V1 (base form)."
+  }
+ ],
+ "p2": [
+  {
+   "q": "Everyone ____ responsible for the result.",
+   "o": [
+    "is",
+    "have been",
+    "are",
+    "were"
+   ],
+   "a": 0,
+   "e": "Everyone is a singular word, so it takes a singular verb."
+  },
+  {
+   "q": "Each student ____ a book.",
+   "o": [
+    "have had",
+    "are having",
+    "have",
+    "has"
+   ],
+   "a": 3,
+   "e": "Each is singular: each student has."
+  },
+  {
+   "q": "The list of students ____ on the desk.",
+   "o": [
+    "have been",
+    "were",
+    "are",
+    "is"
+   ],
+   "a": 3,
+   "e": "The main subject is list. The phrase of students does not change it."
+  },
+  {
+   "q": "Neither answer ____ correct.",
+   "o": [
+    "is",
+    "are",
+    "were",
+    "have been"
+   ],
+   "a": 0,
+   "e": "Neither is singular, so use is."
+  },
+  {
+   "q": "There ____ many books on the shelf.",
+   "o": [
+    "are",
+    "is",
+    "was",
+    "has been"
+   ],
+   "a": 0,
+   "e": "After there, the verb agrees with the noun that follows: many books is plural."
+  },
+  {
+   "q": "My friend and my neighbour ____ teachers.",
+   "o": [
+    "is",
+    "has been",
+    "was",
+    "are"
+   ],
+   "a": 3,
+   "e": "Two subjects joined by and are plural, so use are."
+  },
+  {
+   "q": "The news ____ surprising.",
+   "o": [
+    "have been",
+    "were",
+    "is",
+    "are"
+   ],
+   "a": 2,
+   "e": "News is uncountable and takes a singular verb."
+  },
+  {
+   "q": "Nobody ____ the answer.",
+   "o": [
+    "are knowing",
+    "knows",
+    "know",
+    "have known"
+   ],
+   "a": 1,
+   "e": "Nobody is singular, so the Present Simple verb takes -s."
+  },
+  {
+   "q": "One of my students ____ absent today.",
+   "o": [
+    "are",
+    "were",
+    "is",
+    "have been"
+   ],
+   "a": 2,
+   "e": "The subject is one, which is singular, not students."
+  },
+  {
+   "q": "The teacher, along with his students, ____ visiting the museum.",
+   "o": [
+    "is",
+    "are",
+    "were",
+    "have been"
+   ],
+   "a": 0,
+   "e": "Along with does not make the subject plural. The main subject is teacher, so use is."
+  },
+  {
+   "q": "Mathematics ____ my favourite subject.",
+   "o": [
+    "is",
+    "are",
+    "have been",
+    "were"
+   ],
+   "a": 0,
+   "e": "Names of subjects such as mathematics take a singular verb."
+  },
+  {
+   "q": "Either the teacher or the students ____ responsible.",
+   "o": [
+    "are",
+    "is",
+    "has been",
+    "was"
+   ],
+   "a": 0,
+   "e": "With either...or, the verb agrees with the noun nearest to it. Students is plural."
+  }
+ ],
+ "p10": [
+  {
+   "q": "If you heat ice, it ____.",
+   "o": [
+    "would melt",
+    "melts",
+    "will melt",
+    "melted"
+   ],
+   "a": 1,
+   "e": "A general truth uses Zero Conditional: if + present, present."
+  },
+  {
+   "q": "If I study, I ____ the exam.",
+   "o": [
+    "passed",
+    "will pass",
+    "pass",
+    "would pass"
+   ],
+   "a": 1,
+   "e": "A real, possible future uses First Conditional: if + present, will + V1."
+  },
+  {
+   "q": "If I ____ more time, I would study more.",
+   "o": [
+    "will have",
+    "have",
+    "would have",
+    "had"
+   ],
+   "a": 3,
+   "e": "An unreal present situation uses Second Conditional: if + past, would + V1."
+  },
+  {
+   "q": "If she had studied, she ____ the test.",
+   "o": [
+    "will pass",
+    "would have passed",
+    "would pass",
+    "had passed"
+   ],
+   "a": 1,
+   "e": "An unreal past uses Third Conditional: if + had + V3, would have + V3."
+  },
+  {
+   "q": "If I ____ you, I would study harder.",
+   "o": [
+    "were",
+    "am",
+    "be",
+    "was"
+   ],
+   "a": 0,
+   "e": "In the formal second conditional, use were for all subjects: If I were you."
+  },
+  {
+   "q": "Unless you study, you ____ fail.",
+   "o": [
+    "may",
+    "did",
+    "are",
+    "has"
+   ],
+   "a": 0,
+   "e": "Unless means if not. Unless you study = If you don't study, so the result clause needs a verb such as may fail."
+  },
+  {
+   "q": "If it rains tomorrow, we ____ at home.",
+   "o": [
+    "stay",
+    "will stay",
+    "would stay",
+    "stayed"
+   ],
+   "a": 1,
+   "e": "Rain tomorrow is a real possibility, so use First Conditional with will + V1."
+  },
+  {
+   "q": "If I had studied, I ____ the answer now.",
+   "o": [
+    "would know",
+    "knew",
+    "would have known",
+    "will know"
+   ],
+   "a": 0,
+   "e": "Mixed conditional: if + had + V3 (past condition), would + V1 (present result)."
+  },
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "If I would study, I will pass.",
+    "If I studied, I will pass.",
+    "If I will study, I will pass.",
+    "If I study, I will pass."
+   ],
+   "a": 3,
+   "e": "Do not normally put will directly after if in the first conditional."
+  },
+  {
+   "q": "If you mix red and blue, you ____ purple.",
+   "o": [
+    "would get",
+    "will get",
+    "get",
+    "got"
+   ],
+   "a": 2,
+   "e": "This is a general truth, so Zero Conditional: both clauses in the present."
+  },
+  {
+   "q": "If I ____ rich, I would travel the world.",
+   "o": [
+    "would be",
+    "am",
+    "were",
+    "will be"
+   ],
+   "a": 2,
+   "e": "Unreal present: Second Conditional. The formal form is if I were."
+  },
+  {
+   "q": "If the students ____ harder, they would have passed.",
+   "o": [
+    "would study",
+    "had studied",
+    "studied",
+    "study"
+   ],
+   "a": 1,
+   "e": "Third Conditional needs if + had + V3 in the if clause."
+  }
+ ],
+ "p11": [
+  {
+   "q": "English ____ in many schools.",
+   "o": [
+    "is taught",
+    "is teaching",
+    "teaches",
+    "teach"
+   ],
+   "a": 0,
+   "e": "Passive = form of BE + V3. Present Simple passive: is/are + V3."
+  },
+  {
+   "q": "The letter ____ yesterday.",
+   "o": [
+    "wrote",
+    "was written",
+    "has written",
+    "is written"
+   ],
+   "a": 1,
+   "e": "Yesterday means past; the letter receives the action: was + V3."
+  },
+  {
+   "q": "The exam ____ now.",
+   "o": [
+    "has marked",
+    "is marked",
+    "marks",
+    "is being marked"
+   ],
+   "a": 3,
+   "e": "Present Continuous passive: am/is/are + being + V3."
+  },
+  {
+   "q": "The report ____ by Friday.",
+   "o": [
+    "will finish",
+    "finishes",
+    "will finishing",
+    "will be finished"
+   ],
+   "a": 3,
+   "e": "Future passive: will be + V3."
+  },
+  {
+   "q": "The homework ____ already.",
+   "o": [
+    "did",
+    "is doing",
+    "has been done",
+    "has done"
+   ],
+   "a": 2,
+   "e": "Present Perfect passive: have/has been + V3. Already supports the perfect tense."
+  },
+  {
+   "q": "The students ____ by the teacher when the bell rang.",
+   "o": [
+    "were being taught",
+    "were taught",
+    "had taught",
+    "are being taught"
+   ],
+   "a": 0,
+   "e": "Past Continuous passive: was/were + being + V3, for an action in progress in the past."
+  },
+  {
+   "q": "These rules must ____ by everyone.",
+   "o": [
+    "been followed",
+    "being followed",
+    "be followed",
+    "follow"
+   ],
+   "a": 2,
+   "e": "Modal passive: modal + be + V3."
+  },
+  {
+   "q": "They taught English. Which is the passive version?",
+   "o": [
+    "English is taught.",
+    "English was taught.",
+    "English teaches.",
+    "English had taught."
+   ],
+   "a": 1,
+   "e": "Preserve the tense: Past Simple taught becomes was taught."
+  },
+  {
+   "q": "The books ____ by the students last week.",
+   "o": [
+    "are borrowed",
+    "were borrowed",
+    "have borrowed",
+    "borrowed"
+   ],
+   "a": 1,
+   "e": "Last week is past and the books receive the action: were + V3."
+  },
+  {
+   "q": "Which sentence is passive?",
+   "o": [
+    "She wrote a letter.",
+    "She is writing a letter.",
+    "A letter is being written.",
+    "She has written a letter."
+   ],
+   "a": 2,
+   "e": "In a passive sentence the subject receives the action: be + V3 (here is being written)."
+  },
+  {
+   "q": "The project ____ when the manager arrived.",
+   "o": [
+    "was finishing",
+    "is finished",
+    "had been finished",
+    "has been finished"
+   ],
+   "a": 2,
+   "e": "Finished before another past action: Past Perfect passive, had been + V3."
+  },
+  {
+   "q": "The core passive formula is the right form of BE + ____.",
+   "o": [
+    "V2",
+    "V3",
+    "V1",
+    "V-ing"
+   ],
+   "a": 1,
+   "e": "The main verb is always in V3 (past participle). Change only the form of be to match the tense."
+  }
+ ],
+ "p19": [
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "He going to school.",
+    "He goes to school.",
+    "He gos to school.",
+    "He go to school."
+   ],
+   "a": 1,
+   "e": "Third person singular in Present Simple takes -s: he goes."
+  },
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "She doesn't likes it.",
+    "She not like it.",
+    "She don't like it.",
+    "She doesn't like it."
+   ],
+   "a": 3,
+   "e": "Use does + V1 with she/he/it, and do not add -s to the main verb."
+  },
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "Did you going?",
+    "Do you went?",
+    "Did you went?",
+    "Did you go?"
+   ],
+   "a": 3,
+   "e": "After did, use V1: Did you go?"
+  },
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "I agrees.",
+    "I am agree.",
+    "I am agreeing to.",
+    "I agree."
+   ],
+   "a": 3,
+   "e": "Agree is already a verb, so do not add am."
+  },
+  {
+   "q": "She is married ____ a teacher.",
+   "o": [
+    "to",
+    "with",
+    "at",
+    "by"
+   ],
+   "a": 0,
+   "e": "The correct preposition is married to."
+  },
+  {
+   "q": "We must discuss ____.",
+   "o": [
+    "on the problem",
+    "the problem",
+    "about the problem",
+    "of the problem"
+   ],
+   "a": 1,
+   "e": "Discuss takes a direct object; do not add about."
+  },
+  {
+   "q": "I need ____ information.",
+   "o": [
+    "several",
+    "much",
+    "many",
+    "a"
+   ],
+   "a": 1,
+   "e": "Information is uncountable. Use much, some or a lot of, not many."
+  },
+  {
+   "q": "She has lived here ____ five years.",
+   "o": [
+    "during",
+    "for",
+    "from",
+    "since"
+   ],
+   "a": 1,
+   "e": "For is used with a duration; since is used with a starting point."
+  },
+  {
+   "q": "He can ____ well.",
+   "o": [
+    "speak",
+    "speaks",
+    "speaking",
+    "to speak"
+   ],
+   "a": 0,
+   "e": "After a modal, use V1 and never add -s."
+  },
+  {
+   "q": "If I ____ time tomorrow, I will call you.",
+   "o": [
+    "will have",
+    "have",
+    "would have",
+    "had"
+   ],
+   "a": 1,
+   "e": "In the first conditional, do not put will in the if clause."
+  },
+  {
+   "q": "I look forward to ____ you.",
+   "o": [
+    "to meet",
+    "meet",
+    "met",
+    "meeting"
+   ],
+   "a": 3,
+   "e": "In look forward to, to is a preposition, so use -ing."
+  },
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "Many informations are useful.",
+    "An advice is useful.",
+    "Many advices are useful.",
+    "Much information is useful."
+   ],
+   "a": 3,
+   "e": "Information and advice are uncountable: no plural and no a/an."
+  }
+ ]
+}
