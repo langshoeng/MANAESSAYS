@@ -1,0 +1,1159 @@
+{
+"sections": [
+{
+"id": "w1",
+"group": "Start here",
+"title": "Purpose of This Handbook",
+"blocks": [
+{
+"t": "p",
+"x": "The aim is to prepare you to handle an unfamiliar essay question confidently. Do not memorize 100 complete essays. Master one reliable writing system that can be adapted to many education topics."
+},
+{
+"t": "ul",
+"items": [
+"Recognize the essay type immediately.",
+"Identify exactly what the question asks.",
+"Write a clear thesis statement.",
+"Develop three focused body paragraphs.",
+"Explain each point and give a specific example.",
+"Use logical transitions and accurate English.",
+"Write a conclusion that answers the question.",
+"Plan and proofread within the exam time."
+]
+}
+]
+},
+{
+"id": "w2",
+"group": "Essay structure",
+"title": "The Core Five-Paragraph Structure",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Paragraph",
+"Purpose",
+"Key Elements"
+],
+"rows": [
+[
+"1. Introduction",
+"Introduce the issue and answer the question.",
+"Context + focus + thesis"
+],
+[
+"2. Body 1",
+"Develop main point 1.",
+"Topic sentence + explanation + example + link"
+],
+[
+"3. Body 2",
+"Develop main point 2.",
+"Topic sentence + explanation + example + link"
+],
+[
+"4. Body 3",
+"Develop main point 3.",
+"Topic sentence + explanation + example + link"
+],
+[
+"5. Conclusion",
+"Close the argument.",
+"Restated thesis + summary + final thought"
+]
+]
+}
+]
+},
+{
+"id": "w3",
+"group": "Essay structure",
+"title": "The Golden Body-Paragraph Formula: T-E-E-L",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Part",
+"Meaning",
+"What to do"
+],
+"rows": [
+[
+"T",
+"Topic sentence",
+"State the paragraph's main idea."
+],
+[
+"E",
+"Explanation",
+"Explain why/how the idea supports your answer."
+],
+[
+"E",
+"Example / Evidence",
+"Give a specific, realistic example."
+],
+[
+"L",
+"Link",
+"Connect the example back to the topic/question."
+]
+]
+},
+{
+"t": "p",
+"x": "Example: One important quality of an effective teacher is strong communication. Teachers need to explain ideas clearly and listen carefully to students. For instance, when students do not understand a difficult grammar point, a good teacher can use simpler language, examples, or visuals. Therefore, effective communication helps create a classroom where students can understand lessons and participate confidently."
+}
+]
+},
+{
+"id": "w3_5",
+"group": "Essay structure",
+"title": "Model essay (annotated)",
+"blocks": [
+{
+"t": "p",
+"x": "A complete five-paragraph answer that follows the system in this guide. The coloured labels show each part: Context, Focus and Thesis in the introduction, T-E-E-L in each body paragraph, and the three conclusion moves."
+},
+{
+"t": "model",
+"q": "Question: What are the qualities of an effective teacher? Use specific examples to support your answer.",
+"paras": [
+{
+"h": "Introduction",
+"parts": [
+[
+"Context",
+"Teachers shape the knowledge, habits, and confidence of every generation of learners."
+],
+[
+"Focus",
+"Because their influence is so large, it is important to ask which qualities make a teacher truly effective."
+],
+[
+"Thesis",
+"In my view, effective teachers are defined by strong communication, good classroom management, and genuine empathy."
+]
+]
+},
+{
+"h": "Body paragraph 1",
+"parts": [
+[
+"T",
+"The first essential quality is strong communication."
+],
+[
+"E",
+"Teachers must explain ideas clearly and listen carefully, because learning cannot happen if students do not understand the message."
+],
+[
+"E",
+"For instance, when students struggle with a difficult grammar structure, an effective teacher rephrases the explanation, gives a simple example, and asks questions to check understanding."
+],
+[
+"L",
+"In this way, clear communication turns confusion into progress, which is the main purpose of teaching."
+]
+]
+},
+{
+"h": "Body paragraph 2",
+"parts": [
+[
+"T",
+"Another important quality is effective classroom management."
+],
+[
+"E",
+"A well-organized classroom gives students the safety and focus they need to learn."
+],
+[
+"E",
+"For example, a teacher who establishes clear rules and routines at the beginning of the school year spends less time stopping disruptions and more time teaching."
+],
+[
+"L",
+"Therefore, good management protects learning time for every student."
+]
+]
+},
+{
+"h": "Body paragraph 3",
+"parts": [
+[
+"T",
+"Finally, empathy is the quality that makes teaching human."
+],
+[
+"E",
+"When teachers understand their students' feelings and circumstances, learners are more willing to take risks and ask for help."
+],
+[
+"E",
+"For instance, a teacher who notices that a student has stopped participating can speak to that student privately and offer extra support."
+],
+[
+"L",
+"As a result, students feel valued and are more likely to stay motivated."
+]
+]
+},
+{
+"h": "Conclusion",
+"parts": [
+[
+"Restate",
+"In conclusion, effective teachers combine communication, classroom management, and empathy."
+],
+[
+"Summary",
+"By explaining clearly, organizing learning time, and understanding their students, they help every learner succeed."
+],
+[
+"Final thought",
+"Therefore, schools should value and develop these qualities in all teachers."
+]
+]
+}
+]
+}
+]
+},
+{
+"id": "w5",
+"group": "Essay structure",
+"title": "Introduction Formula",
+"blocks": [
+{
+"t": "p",
+"x": "Use a simple three-part introduction:"
+},
+{
+"t": "ol",
+"items": [
+"Context: introduce the general issue in one or two sentences.",
+"Focus: narrow the topic to the exact question.",
+"Thesis: give your central answer and, when useful, preview the main points."
+]
+},
+{
+"t": "p",
+"x": "Flexible thesis pattern:"
+},
+{
+"t": "f",
+"x": "Although [opposing idea/issue], I believe that [your position] because [Point 1], [Point 2], and [Point 3]."
+}
+]
+},
+{
+"id": "w6",
+"group": "Essay structure",
+"title": "Thesis Statements",
+"blocks": [
+{
+"t": "p",
+"x": "Your thesis is the central answer to the question. It should be clear, relevant, specific, and consistent with your body paragraphs."
+},
+{
+"t": "tbl",
+"head": [
+"Weak",
+"Stronger"
+],
+"rows": [
+[
+"Teachers are important.",
+"Effective teachers are essential because they support learning, guide student development, and create positive classroom environments."
+],
+[
+"Discipline is a problem.",
+"Although both parents and teachers influence student discipline, teachers have a particularly important role in maintaining appropriate behavior at school."
+],
+[
+"Technology has advantages and disadvantages.",
+"Technology can improve access to information and interactive learning, but its educational value depends on responsible and purposeful use."
+]
+]
+}
+]
+},
+{
+"id": "w7",
+"group": "Essay structure",
+"title": "Body Paragraph Rules",
+"blocks": [
+{
+"t": "ul",
+"items": [
+"One main idea per paragraph.",
+"Start with a clear topic sentence.",
+"Explain the idea instead of only naming it.",
+"Give one specific, realistic example.",
+"Keep examples connected to teachers, students, classrooms, schools, or society when appropriate.",
+"Do not introduce a completely new major argument in the final sentence.",
+"Use transitions naturally."
+]
+}
+]
+},
+{
+"id": "w8",
+"group": "Essay structure",
+"title": "Strong vs. Weak Examples",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Weak",
+"Better"
+],
+"rows": [
+[
+"Technology is useful.",
+"For example, teachers can use short educational videos to demonstrate a science experiment that students cannot safely conduct in a crowded classroom."
+],
+[
+"Good teachers communicate well.",
+"For instance, when students struggle with a difficult grammar structure, an effective teacher can rephrase the explanation, use examples, and provide guided practice."
+],
+[
+"Parents should help children.",
+"For example, parents can communicate with teachers about attendance and homework so that learning difficulties are identified early."
+]
+]
+}
+]
+},
+{
+"id": "w13",
+"group": "Essay structure",
+"title": "Conclusion Formula",
+"blocks": [
+{
+"t": "ol",
+"items": [
+"Restate your answer in different words.",
+"Briefly summarize the main points.",
+"End with an implication, recommendation, or final thought when appropriate."
+]
+},
+{
+"t": "p",
+"x": "Useful pattern:"
+},
+{
+"t": "f",
+"x": "In conclusion, [restated position]. By [Point 1], [Point 2], and [Point 3], [overall result]. Therefore, [final recommendation/implication]."
+},
+{
+"t": "p",
+"x": "Do not introduce a new major argument in the conclusion."
+}
+]
+},
+{
+"id": "w4",
+"group": "Questions & essay types",
+"title": "Understand the Question Before Writing",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Instruction",
+"What it means"
+],
+"rows": [
+[
+"Discuss",
+"Develop the relevant sides or ideas; follow the exact wording."
+],
+[
+"Discuss both sides and give your opinion",
+"Explain both viewpoints fairly, then clearly state your own position."
+],
+[
+"Do you agree or disagree?",
+"Take a clear position and support it."
+],
+[
+"To what extent do you agree?",
+"Show how strongly you agree/disagree and justify that degree."
+],
+[
+"What are the causes?",
+"Explain why the situation happens."
+],
+[
+"What are the effects?",
+"Explain the results or consequences."
+],
+[
+"Causes and solutions",
+"Explain major causes and propose realistic solutions."
+],
+[
+"Advantages and disadvantages",
+"Develop benefits and drawbacks; give a judgment if requested."
+],
+[
+"Compare and contrast",
+"Show important similarities and/or differences."
+],
+[
+"Explain",
+"Make the idea clear by explaining how/why, with examples."
+],
+[
+"Describe",
+"Present relevant characteristics or features."
+],
+[
+"Using specific examples",
+"Give concrete examples rather than vague statements."
+],
+[
+"Not more than three",
+"Choose up to three strong points and develop them well."
+]
+]
+}
+]
+},
+{
+"id": "w9",
+"group": "Questions & essay types",
+"title": "Essay Types You Should Be Ready For",
+"blocks": [
+{
+"t": "h",
+"x": "Opinion / Agree-Disagree"
+},
+{
+"t": "p",
+"x": "Structure: Introduction with position → 3 reasons/arguments → conclusion."
+},
+{
+"t": "p",
+"x": "Example question: Do you agree that teachers should be responsible for student discipline?"
+},
+{
+"t": "h",
+"x": "Discuss Both Sides + Opinion"
+},
+{
+"t": "p",
+"x": "Structure: Introduction → Side A → Side B → your evaluation/position → conclusion."
+},
+{
+"t": "p",
+"x": "Example question: Some people think discipline is the responsibility of teachers, while others think it is the role of parents."
+},
+{
+"t": "h",
+"x": "Advantages / Disadvantages"
+},
+{
+"t": "p",
+"x": "Structure: Introduction → advantages → disadvantages → evaluation → conclusion."
+},
+{
+"t": "p",
+"x": "Example question: What are the advantages and disadvantages of online learning?"
+},
+{
+"t": "h",
+"x": "Cause / Effect"
+},
+{
+"t": "p",
+"x": "Structure: Introduction → major causes/effects → conclusion."
+},
+{
+"t": "p",
+"x": "Example question: What factors contribute to poor academic performance?"
+},
+{
+"t": "h",
+"x": "Problem / Solution"
+},
+{
+"t": "p",
+"x": "Structure: Introduction → problem/cause → solutions → conclusion."
+},
+{
+"t": "p",
+"x": "Example question: What can schools do to address discipline problems?"
+},
+{
+"t": "h",
+"x": "Compare / Contrast"
+},
+{
+"t": "p",
+"x": "Structure: Introduction → comparison point 1 → point 2 → point 3 → conclusion."
+},
+{
+"t": "p",
+"x": "Example question: Compare teacher-centered and student-centered learning."
+},
+{
+"t": "h",
+"x": "Expository / Explain"
+},
+{
+"t": "p",
+"x": "Structure: Introduction → aspect 1 → aspect 2 → aspect 3 → conclusion."
+},
+{
+"t": "p",
+"x": "Example question: What should be the qualities of an effective 21st-century teacher?"
+},
+{
+"t": "h",
+"x": "Definition / Concept"
+},
+{
+"t": "p",
+"x": "Structure: Define the concept → key feature → importance/application → example/implication → conclusion."
+},
+{
+"t": "p",
+"x": "Example question: What is inclusive education and why is it important?"
+},
+{
+"t": "h",
+"x": "Argumentative / Balanced Discussion"
+},
+{
+"t": "p",
+"x": "Structure: Introduction → arguments → counterargument + response → conclusion."
+},
+{
+"t": "p",
+"x": "Example question: Should technology replace traditional classroom teaching?"
+}
+]
+},
+{
+"id": "w10",
+"group": "Questions & essay types",
+"title": "The Three-Point Strategy",
+"blocks": [
+{
+"t": "p",
+"x": "For qualities, factors, advantages, reasons, or ways to improve something, three strong points are usually safer than many weak points."
+},
+{
+"t": "tbl",
+"head": [
+"Step",
+"Action",
+"Example: Effective Teacher"
+],
+"rows": [
+[
+"1",
+"Brainstorm several ideas.",
+"Communication, patience, knowledge, technology, empathy, management."
+],
+[
+"2",
+"Choose the three easiest to develop.",
+"Communication + classroom management + empathy."
+],
+[
+"3",
+"Give each its own body paragraph.",
+"One paragraph per quality."
+],
+[
+"4",
+"Add a specific example to each.",
+"Rephrasing a difficult lesson; clear routines; supporting a struggling student."
+],
+[
+"5",
+"Check the thesis matches all three.",
+"All three explain teacher effectiveness."
+]
+]
+}
+]
+},
+{
+"id": "w20",
+"group": "Questions & essay types",
+"title": "Matching Our Practice Topics to Structures",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Topic pattern",
+"Best structure",
+"Possible body points"
+],
+"rows": [
+[
+"Qualities of a good/effective teacher",
+"Expository",
+"Communication + classroom management + empathy/professionalism"
+],
+[
+"Qualities of a 21st-century teacher",
+"Expository",
+"Digital literacy + critical thinking + communication/collaboration"
+],
+[
+"Factors contributing to teacher reform",
+"Cause/factor",
+"Professional development + policy/system support + changing learner/societal needs"
+],
+[
+"Teachers vs. parents and discipline",
+"Both sides + opinion",
+"Teacher role + parent role + shared responsibility/your judgment"
+],
+[
+"Teacher opens the door, students walk in",
+"Interpretive opinion",
+"Teacher guidance + learner responsibility + active learning"
+],
+[
+"Importance of reading",
+"Expository",
+"Knowledge/vocabulary + critical thinking + academic achievement"
+],
+[
+"Technology in education",
+"Advantages/disadvantages or opinion",
+"Access/resources + engagement + responsible use"
+],
+[
+"Inclusive education",
+"Definition/expository",
+"Access + participation + equity/support"
+],
+[
+"Rural education",
+"Problem/cause/solution",
+"Resources + access + teacher/community support"
+],
+[
+"Education and poverty",
+"Cause/effect/argument",
+"Economic barriers + reduced opportunities + education as a long-term solution"
+]
+]
+}
+]
+},
+{
+"id": "w11",
+"group": "Planning",
+"title": "Five-Minute Planning Method",
+"blocks": [
+{
+"t": "ol",
+"items": [
+"Read the question twice.",
+"Underline the instruction words: discuss, agree, causes, solutions, advantages, examples, etc.",
+"Identify the exact topic and task.",
+"Choose your position if an opinion is required.",
+"Write three keywords for your body paragraphs.",
+"Write a one-sentence thesis before starting the full essay."
+]
+}
+]
+},
+{
+"id": "w12",
+"group": "Planning",
+"title": "Essay planner (interactive)",
+"blocks": [
+{
+"t": "p",
+"x": "Fill in the planner below before you write. Your answers build an outline you can copy, and the question type shows the structure to follow."
+},
+{
+"t": "planner",
+"types": [
+{
+"n": "Opinion / Agree-Disagree",
+"s": "Introduction with position → 3 reasons/arguments → conclusion."
+},
+{
+"n": "Discuss Both Sides + Opinion",
+"s": "Introduction → Side A → Side B → your evaluation/position → conclusion."
+},
+{
+"n": "Advantages / Disadvantages",
+"s": "Introduction → advantages → disadvantages → evaluation → conclusion."
+},
+{
+"n": "Cause / Effect",
+"s": "Introduction → major causes/effects → conclusion."
+},
+{
+"n": "Problem / Solution",
+"s": "Introduction → problem/cause → solutions → conclusion."
+},
+{
+"n": "Compare / Contrast",
+"s": "Introduction → comparison point 1 → point 2 → point 3 → conclusion."
+},
+{
+"n": "Expository / Explain",
+"s": "Introduction → aspect 1 → aspect 2 → aspect 3 → conclusion."
+},
+{
+"n": "Definition / Concept",
+"s": "Define the concept → key feature → importance/application → example/implication → conclusion."
+},
+{
+"n": "Argumentative / Balanced Discussion",
+"s": "Introduction → arguments → counterargument + response → conclusion."
+}
+]
+}
+]
+},
+{
+"id": "w14",
+"group": "Language & examples",
+"title": "Linking Words",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Purpose",
+"Useful expressions"
+],
+"rows": [
+[
+"Adding",
+"Furthermore, Moreover, In addition"
+],
+[
+"First",
+"First, First of all, One important factor is..."
+],
+[
+"Second",
+"Second, Another important factor is..."
+],
+[
+"Example",
+"For example, For instance, A clear example is..."
+],
+[
+"Cause",
+"Because, Since, Due to, One reason is that..."
+],
+[
+"Effect",
+"Therefore, Consequently, As a result, Thus"
+],
+[
+"Contrast",
+"However, Nevertheless, In contrast, On the other hand"
+],
+[
+"Concession",
+"Although, While it is true that..., Admittedly..."
+],
+[
+"Opinion",
+"In my view, I believe that..., From my perspective..."
+],
+[
+"Conclusion",
+"In conclusion, Overall, To sum up, Ultimately"
+]
+]
+},
+{
+"t": "p",
+"x": "Use transitions where they clarify relationships. Do not put a linking word in every sentence."
+}
+]
+},
+{
+"id": "w15",
+"group": "Language & examples",
+"title": "Academic Language for Education Essays",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Avoid",
+"Prefer"
+],
+"rows": [
+[
+"a lot of",
+"many / a significant number of"
+],
+[
+"good",
+"effective / beneficial / valuable / appropriate"
+],
+[
+"bad",
+"harmful / ineffective / problematic / inappropriate"
+],
+[
+"kids",
+"children / students / learners"
+],
+[
+"things",
+"factors / issues / strategies / aspects"
+],
+[
+"get better",
+"improve / develop"
+],
+[
+"help students",
+"support students / facilitate learning"
+],
+[
+"make students learn",
+"promote student learning"
+],
+[
+"very important",
+"essential / significant / highly important"
+],
+[
+"I think",
+"I believe / In my view / This essay argues that"
+]
+]
+}
+]
+},
+{
+"id": "w16",
+"group": "Language & examples",
+"title": "Flexible Sentence Frames",
+"blocks": [
+{
+"t": "ul",
+"items": [
+"Education plays a crucial role in __________ because __________.",
+"One of the most important factors contributing to __________ is __________.",
+"One major advantage of __________ is that __________.",
+"However, this approach also has a significant limitation: __________.",
+"For example, in a classroom where __________, the teacher can __________.",
+"This is important because __________.",
+"As a result, students are more likely to __________.",
+"Although __________ can be beneficial, I believe that __________ because __________.",
+"From my perspective, teachers should __________ in order to __________.",
+"In conclusion, __________ is essential because __________, __________, and __________."
+]
+}
+]
+},
+{
+"id": "w17",
+"group": "Language & examples",
+"title": "A Bank of Adaptable Education Examples",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Area",
+"Example you can adapt"
+],
+"rows": [
+[
+"Classroom management",
+"A teacher establishes clear rules, routines, and consequences at the beginning of the school year."
+],
+[
+"Differentiation",
+"A teacher gives different levels of reading tasks to students with different abilities."
+],
+[
+"Technology",
+"A teacher uses an educational video or digital quiz to reinforce a difficult concept."
+],
+[
+"Communication",
+"A teacher rephrases a difficult explanation and checks whether students understand."
+],
+[
+"Parent collaboration",
+"A teacher communicates with parents when attendance or learning problems appear."
+],
+[
+"Rural education",
+"Schools in remote areas may face limited resources, transportation difficulties, or teacher shortages."
+],
+[
+"Student motivation",
+"A teacher connects English tasks to students' real goals and interests."
+],
+[
+"Inclusive education",
+"A teacher adapts materials and participation methods so learners with different needs can participate."
+],
+[
+"Critical thinking",
+"Students compare two solutions to a problem and justify which is more effective."
+],
+[
+"Professional development",
+"A teacher attends training, applies a new strategy, and reflects on the results."
+],
+[
+"Environmental education",
+"Students organize a school clean-up while learning about waste and responsibility."
+],
+[
+"21st-century skills",
+"Students work in groups to solve a problem and present their solution."
+]
+]
+}
+]
+},
+{
+"id": "w18",
+"group": "Check & exam strategy",
+"title": "Grammar and Accuracy Checklist",
+"blocks": [
+{
+"t": "ul",
+"items": [
+"Subject–verb agreement: Teachers help students. A teacher helps students.",
+"Tense consistency.",
+"Articles: a, an, the.",
+"Plural nouns: students, teachers, schools, skills.",
+"Countable/uncountable nouns: many students, much information.",
+"Prepositions: responsible for, interested in, important for/to.",
+"Word forms: education / educational / educate; effective / effectiveness.",
+"Pronoun clarity: make sure it, they, this, and these have clear references.",
+"Avoid sentence fragments and run-on sentences.",
+"Capitalization: English, Cambodia, Monday, etc.",
+"Spelling and punctuation."
+]
+}
+]
+},
+{
+"id": "w19",
+"group": "Check & exam strategy",
+"title": "Common Essay Mistakes",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Common mistake",
+"How to fix it"
+],
+"rows": [
+[
+"Not answering the exact question",
+"Identify the instruction before brainstorming."
+],
+[
+"No clear thesis",
+"Make your answer visible in the introduction."
+],
+[
+"Too many ideas",
+"Three developed ideas are better than seven undeveloped ideas."
+],
+[
+"One-sentence body paragraphs",
+"Develop each point with explanation and example."
+],
+[
+"Vague examples",
+"Make examples concrete and realistic."
+],
+[
+"Memorized essay that does not fit",
+"Adapt your prepared ideas to the actual question."
+],
+[
+"Changing your opinion",
+"Keep your thesis, body, and conclusion consistent."
+],
+[
+"Overusing linking words",
+"Prioritize clear logic."
+],
+[
+"Very long introduction",
+"Reach the thesis quickly."
+],
+[
+"New argument in conclusion",
+"The conclusion should synthesize, not start a new discussion."
+],
+[
+"Informal language",
+"Avoid texting-style language."
+],
+[
+"Extreme unsupported claims",
+"Avoid 'all', 'always', and 'never' unless justified."
+]
+]
+}
+]
+},
+{
+"id": "w21",
+"group": "Check & exam strategy",
+"title": "30-Minute Essay Strategy",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Time",
+"Action"
+],
+"rows": [
+[
+"0–3 min",
+"Read twice; identify topic, task, and instruction words."
+],
+[
+"3–6 min",
+"Choose position and three main points; make a quick outline."
+],
+[
+"6–9 min",
+"Write introduction and thesis."
+],
+[
+"9–24 min",
+"Write three body paragraphs using T-E-E-L."
+],
+[
+"24–27 min",
+"Write conclusion."
+],
+[
+"27–30 min",
+"Proofread grammar, spelling, thesis, examples, and conclusion."
+]
+]
+}
+]
+},
+{
+"id": "w22",
+"group": "Check & exam strategy",
+"title": "Final 60-Second Check",
+"blocks": [
+{
+"t": "check",
+"items": [
+"Did I answer every part of the question?",
+"Is my position clear?",
+"Do I have an introduction, three body paragraphs, and a conclusion?",
+"Does each body paragraph have one main idea?",
+"Did I explain each main idea?",
+"Did I give specific examples?",
+"Do my examples support my argument?",
+"Do my body paragraphs support my thesis?",
+"Are transitions used naturally?",
+"Did I check subject–verb agreement, tense, articles, plurals, spelling, and punctuation?",
+"Did I avoid introducing a new major idea in the conclusion?"
+]
+}
+]
+},
+{
+"id": "w23",
+"group": "Check & exam strategy",
+"title": "One-page exam cheat sheet",
+"blocks": [
+{
+"t": "note",
+"x": "QUESTION → TYPE → POSITION → 3 POINTS → THESIS → T-E-E-L → CONCLUSION → CHECK"
+},
+{
+"t": "tbl",
+"head": [
+"Stage",
+"Ask yourself"
+],
+"rows": [
+[
+"Question",
+"What exactly is the examiner asking me to do?"
+],
+[
+"Type",
+"Opinion? Both sides? Causes? Solutions? Advantages? Explain?"
+],
+[
+"Position",
+"What is my clear answer?"
+],
+[
+"3 Points",
+"What three points can I explain best?"
+],
+[
+"Thesis",
+"Can I summarize my answer in one sentence?"
+],
+[
+"Body 1",
+"Point? Why? Example?"
+],
+[
+"Body 2",
+"Point? Why? Example?"
+],
+[
+"Body 3",
+"Point? Why? Example?"
+],
+[
+"Conclusion",
+"What is my final answer and why does it matter?"
+],
+[
+"Check",
+"Grammar? Spelling? Relevance? Structure? Examples?"
+]
+]
+}
+]
+},
+{
+"id": "w24",
+"group": "Check & exam strategy",
+"title": "Final Advice",
+"blocks": [
+{
+"t": "ul",
+"items": [
+"Do not try to sound complicated. Clear, accurate English is better than difficult vocabulary used incorrectly.",
+"Do not memorize complete essays word-for-word. Memorize structures, useful sentence patterns, and flexible ideas.",
+"Your strongest advantage is organization: clear thesis, focused paragraphs, developed ideas, specific examples, and a logical conclusion.",
+"Use education terminology when it genuinely strengthens the explanation, such as learner-centered learning, formative assessment, communicative competence, inclusive education, critical thinking, and professional development.",
+"If you forget a sophisticated word, use a simpler correct word.",
+"Always answer the question actually on the exam, not the essay you prepared at home.",
+"When the question asks for no more than three qualities or factors, choose three and develop them well."
+]
+},
+{
+"t": "note",
+"x": "MASTER RULE: Clear answer + clear structure + developed ideas + specific examples + accurate English."
+}
+]
+}
+]
+}
