@@ -23,7 +23,7 @@
   {
    "id": "p1",
    "group": "Verbs & tenses",
-   "title": "Part 1 · The 12 Tenses",
+   "title": "The 12 Tenses",
    "blocks": [
     {
      "t": "tbl",
@@ -695,7 +695,7 @@
   {
    "id": "p2",
    "group": "Verbs & tenses",
-   "title": "Part 2 · Subject–Verb Agreement",
+   "title": "Subject–Verb Agreement",
    "blocks": [
     {
      "t": "p",
@@ -720,7 +720,7 @@
   {
    "id": "p9",
    "group": "Verbs & tenses",
-   "title": "Part 9 · Modal Verbs",
+   "title": "Modal Verbs",
    "blocks": [
     {
      "t": "tbl",
@@ -795,7 +795,7 @@
   {
    "id": "p10",
    "group": "Verbs & tenses",
-   "title": "Part 10 · Conditionals",
+   "title": "Conditionals",
    "blocks": [
     {
      "t": "tbl",
@@ -851,7 +851,7 @@
   {
    "id": "p11",
    "group": "Verbs & tenses",
-   "title": "Part 11 · Passive Voice",
+   "title": "Passive Voice",
    "blocks": [
     {
      "t": "p",
@@ -907,7 +907,7 @@
   {
    "id": "p12",
    "group": "Verbs & tenses",
-   "title": "Part 12 · Reported Speech",
+   "title": "Reported Speech",
    "blocks": [
     {
      "t": "tbl",
@@ -959,7 +959,7 @@
   {
    "id": "p13",
    "group": "Verbs & tenses",
-   "title": "Part 13 · Gerunds & Infinitives",
+   "title": "Gerunds & Infinitives",
    "blocks": [
     {
      "t": "tbl",
@@ -1007,7 +1007,7 @@
   {
    "id": "p3",
    "group": "Nouns & describing words",
-   "title": "Part 3 · Articles",
+   "title": "Articles",
    "blocks": [
     {
      "t": "tbl",
@@ -1048,7 +1048,7 @@
   {
    "id": "p4",
    "group": "Nouns & describing words",
-   "title": "Part 4 · Nouns",
+   "title": "Nouns",
    "blocks": [
     {
      "t": "tbl",
@@ -1089,7 +1089,7 @@
   {
    "id": "p5",
    "group": "Nouns & describing words",
-   "title": "Part 5 · Pronouns",
+   "title": "Pronouns",
    "blocks": [
     {
      "t": "tbl",
@@ -1137,7 +1137,7 @@
   {
    "id": "p6",
    "group": "Nouns & describing words",
-   "title": "Part 6 · Adjectives & Adverbs",
+   "title": "Adjectives & Adverbs",
    "blocks": [
     {
      "t": "ul",
@@ -1154,7 +1154,7 @@
   {
    "id": "p7",
    "group": "Nouns & describing words",
-   "title": "Part 7 · Comparatives & Superlatives",
+   "title": "Comparatives & Superlatives",
    "blocks": [
     {
      "t": "tbl",
@@ -1203,7 +1203,7 @@
   {
    "id": "p8",
    "group": "Linking & clauses",
-   "title": "Part 8 · Prepositions",
+   "title": "Prepositions",
    "blocks": [
     {
      "t": "tbl",
@@ -1269,7 +1269,7 @@
   {
    "id": "p14",
    "group": "Linking & clauses",
-   "title": "Part 14 · Relative Clauses",
+   "title": "Relative Clauses",
    "blocks": [
     {
      "t": "tbl",
@@ -1325,7 +1325,7 @@
   {
    "id": "p15",
    "group": "Linking & clauses",
-   "title": "Part 15 · Conjunctions & Linking Words",
+   "title": "Conjunctions & Linking Words",
    "blocks": [
     {
      "t": "tbl",
@@ -1369,7 +1369,7 @@
   {
    "id": "p16",
    "group": "Sentences & questions",
-   "title": "Part 16 · Question Forms",
+   "title": "Question Forms",
    "blocks": [
     {
      "t": "ul",
@@ -1391,7 +1391,7 @@
   {
    "id": "p17",
    "group": "Sentences & questions",
-   "title": "Part 17 · Question Tags",
+   "title": "Question Tags",
    "blocks": [
     {
      "t": "ul",
@@ -1410,7 +1410,7 @@
   {
    "id": "p18",
    "group": "Sentences & questions",
-   "title": "Part 18 · Sentence Structure",
+   "title": "Sentence Structure",
    "blocks": [
     {
      "t": "tbl",
@@ -1451,7 +1451,7 @@
   {
    "id": "p19",
    "group": "Exam toolkit",
-   "title": "Part 19 · Common Exam Errors",
+   "title": "Common Exam Errors",
    "blocks": [
     {
      "t": "tbl",
@@ -1523,7 +1523,7 @@
   {
    "id": "p20",
    "group": "Exam toolkit",
-   "title": "Part 20 · One-Page Cheat Sheet",
+   "title": "One-Page Cheat Sheet",
    "blocks": [
     {
      "t": "p",
