@@ -164,6 +164,7 @@ button,select{min-height:44px}
       <label class="lbl fld">Pitch <input type="range" id="pitch" min="0.7" max="1.3" step="0.05" value="1"></label>
       <label class="lbl fld">Pause between sentences <select id="pause"><option value="0">None</option><option value="300" selected>Short</option><option value="600">Medium</option><option value="900">Long</option></select></label>
       <label class="lbl"><input type="checkbox" id="auto"> Auto-play next</label>
+      <label class="lbl"><input type="checkbox" id="preferRec" checked> Prefer my recording when available</label>
       <div class="grp" style="margin-top:12px"><button id="testVoice">Test voice</button><span class="lbl">&#9733; = higher quality voice</span></div>
     </div>
   </section>
@@ -172,9 +173,12 @@ button,select{min-height:44px}
     <article id="doc" hidden>
       <h1 id="vTitle"></h1>
       <p id="meta"></p>
+      <p id="status" class="lbl" style="margin:-8px 0 12px"></p>
       <div class="grp" id="src" hidden><button id="srcVoice" class="primary">Default voice</button><button id="srcRec">My recording</button></div>
+      <button id="tapBtn" class="primary" hidden style="margin:10px 0">Tap to continue playing</button>
       <audio id="aud" controls preload="metadata" hidden style="width:100%;margin:14px 0"></audio>
       <div class="body" id="vBody"></div>
+      <div class="grp" id="eNav" style="margin-top:28px;padding-top:16px;border-top:1px solid var(--line)"><button id="ePrev" style="flex:1">&larr; Previous essay</button><button id="eNext" style="flex:1">Next essay &rarr;</button></div>
     </article>
     <article id="gdoc" hidden>
       <div class="gh"><h1 id="gTitle"></h1><button id="starBtn" aria-pressed="false">&#9734; Save for review</button></div>
@@ -202,7 +206,7 @@ button,select{min-height:44px}
 <div id="toast" role="status" aria-live="polite"></div>
 <script>
 const $=s=>document.querySelector(s),PK='essay-viewer-prefs',synth=window.speechSynthesis,aud=$('#aud');
-let wsecs=[],curW=null,sub='mine',tsecs=[],allT=[],curT=null,tmin=1,cs=null,prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
+let runId=0,recWait=null,wsecs=[],curW=null,sub='mine',tsecs=[],allT=[],curT=null,tmin=1,cs=null,prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
 try{prefs=JSON.parse(localStorage.getItem(PK))||{}}catch(e){}
 const save=()=>{try{localStorage.setItem(PK,JSON.stringify(prefs))}catch(e){}};
 const words=s=>(s.trim().match(/\S+/g)||[]).length;
@@ -223,11 +227,11 @@ function renderBody(text){
     if(/^\n+$/.test(p)||!p.trim()){box.append(document.createTextNode(p));return}
     const s=document.createElement('span');s.className='s';s.textContent=p;box.append(s)});
 }
-async function open(i){
-  stopSpeech();aud.pause();cur=i;drawer(false);prefs.last=i.file;save();renderList();
+async function open(i,auto){
+  if(auto)haltSpeech();else stopSpeech();aud.pause();$('#tapBtn').hidden=true;cur=i;drawer(false);prefs.last=i.file;save();renderList();
   let txt='';
-  try{const r=await fetch(i.file);if(!r.ok)throw 0;txt=await r.text()}catch(e){toast('Could not load this essay.');return}
-  if(cur!==i)return;
+  try{const r=await fetch(i.file);if(!r.ok)throw 0;txt=await r.text()}catch(e){toast('Could not load this essay.');return false}
+  if(cur!==i)return false;
   const lines=txt.replace(/\r/g,'').split('\n');
   if(lines[0].trim()===i.title.trim()){lines.shift();if(lines.length&&!lines[0].trim())lines.shift()}
   const body=lines.join('\n').trim();
@@ -235,7 +239,9 @@ async function open(i){
   $('#meta').textContent=words(body)+' words - '+Math.max(1,Math.ceil(words(body)/200))+' min read';
   renderBody(body);$('#src').hidden=true;
   if(i.audio)aud.src=i.audio;else{aud.removeAttribute('src');aud.load()}
+  recWait=waitRec();
   setMode('voice');window.scrollTo(0,0);
+  updStatus();setSession();prefetchNext();return true;
 }
 aud.onloadedmetadata=()=>{$('#src').hidden=false};
 aud.onerror=()=>{if(aud.getAttribute('src')){$('#src').hidden=true;setMode('voice')}};
@@ -244,9 +250,70 @@ function setMode(m){
   mode=m;aud.hidden=m!=='rec';$('#player').hidden=m==='rec'||!cur||!synth;
   $('#srcVoice').classList.toggle('primary',m==='voice');$('#srcRec').classList.toggle('primary',m==='rec');
   if(m==='rec')stopSpeech();else aud.pause();
+  updStatus();
 }
 $('#srcVoice').onclick=()=>setMode('voice');
 $('#srcRec').onclick=()=>setMode('rec');
+function waitRec(){
+  return new Promise(res=>{
+    if(!aud.getAttribute('src')){res(false);return}
+    const done=v=>{clearTimeout(t);aud.removeEventListener('loadedmetadata',ok);aud.removeEventListener('error',bad);res(v)};
+    const ok=()=>done(true),bad=()=>done(false),t=setTimeout(()=>done(false),5000);
+    aud.addEventListener('loadedmetadata',ok);aud.addEventListener('error',bad);
+    if(aud.readyState>=1)done(true);
+  });
+}
+/* Auto-play next: tries "My recording" first for every essay (if the setting is on), otherwise the default voice */
+async function advance(){
+  const my=runId,n=items[items.indexOf(cur)+1];
+  if(!n){stopSpeech();return}
+  await new Promise(r=>setTimeout(r,1000));
+  if(my!==runId)return;
+  if(!(await open(n,true))){stopSpeech();return}
+  if(my!==runId||cur!==n)return;
+  const ok=n.audio?await recWait:false;
+  if(my!==runId||cur!==n)return;
+  startBest(ok);
+}
+function startBest(ok){
+  $('#tapBtn').hidden=true;
+  if(ok&&$('#preferRec').checked){setMode('rec');aud.currentTime=0;aud.play().catch(showTap)}
+  else{setMode('voice');if(synth)beginRead();else showTap()}
+}
+function showTap(){$('#tapBtn').hidden=false;toast('Playback was blocked. Press Tap to continue.')}
+$('#tapBtn').onclick=()=>{$('#tapBtn').hidden=true;if(mode==='rec')aud.play().catch(showTap);else if(synth)beginRead()};
+function updStatus(){
+  const i=items.indexOf(cur);
+  if(i<0){$('#status').textContent='';return}
+  $('#status').textContent='Essay '+(i+1)+' of '+items.length+' \u00b7 '+(mode==='rec'?'My recording':'Default voice');
+  $('#ePrev').disabled=i<=0;$('#eNext').disabled=i>=items.length-1;
+}
+async function step(d,force){
+  const n=items[items.indexOf(cur)+d];if(!n)return;
+  const playing=state==='playing'||(mode==='rec'&&!aud.paused);
+  runId++;
+  if(!(await open(n,true))||!(playing||force))return;
+  const ok=n.audio?await recWait:false;
+  if(cur===n)startBest(ok);
+}
+$('#ePrev').onclick=()=>step(-1);$('#eNext').onclick=()=>step(1);
+function prefetchNext(){
+  const n=items[items.indexOf(cur)+1];if(!n)return;
+  fetch(n.file).catch(()=>{});
+  if(n.audio){const a=new Audio();a.preload='metadata';a.src=n.audio}
+}
+function setSession(){
+  if(!('mediaSession' in navigator)||!cur)return;
+  try{
+    const ms=navigator.mediaSession;
+    ms.metadata=new MediaMetadata({title:cur.title,artist:'Created by MANA',album:'My Essays'});
+    ms.setActionHandler('play',()=>{if(mode==='rec')aud.play()});
+    ms.setActionHandler('pause',()=>aud.pause());
+    ms.setActionHandler('nexttrack',()=>step(1,true));
+    ms.setActionHandler('previoustrack',()=>step(-1,true));
+  }catch(e){}
+}
+aud.onended=()=>{if(mode==='rec'&&$('#auto').checked)advance()};
 
 /* Default voice reader: sentence by sentence with highlight */
 function setUI(){$('#playBtn').textContent=state==='playing'?'Pause':state==='paused'?'Resume':'Listen';$('#stopBtn').hidden=state==='idle'}
@@ -272,15 +339,16 @@ function speakNext(t){
   mark(el);
   const u=mkUtt(el.textContent.trim());
   u.onend=()=>{if(t===tok){qi++;setTimeout(()=>speakNext(t),parseInt($('#pause').value)||0)}};
-  u.onerror=ev=>{if(t===tok&&ev.error!=='interrupted'&&ev.error!=='canceled'){qi++;speakNext(t)}};
+  u.onerror=ev=>{if(t!==tok)return;if(ev.error==='not-allowed'){state='idle';setUI();showTap();return}if(ev.error!=='interrupted'&&ev.error!=='canceled'){qi++;speakNext(t)}};
   synth.speak(u);
 }
 function beginRead(){q=[...document.querySelectorAll('#vBody .s')];qi=0;state='playing';synth.cancel();speakNext(++tok);setUI()}
 function finish(){
-  if($('#auto').checked){const n=items[items.indexOf(cur)+1];if(n){open(n).then(()=>{if(mode==='voice')beginRead()});return}}
+  if($('#auto').checked){advance();return}
   stopSpeech();
 }
-function stopSpeech(){if(!synth)return;tok++;synth.cancel();state='idle';mark(null);setUI()}
+function stopSpeech(){runId++;haltSpeech()}
+function haltSpeech(){if(!synth)return;tok++;synth.cancel();state='idle';mark(null);setUI()}
 if(!synth){$('#tts').hidden=true;$('#playBtn').hidden=true}else{
   loadVoices();synth.onvoiceschanged=loadVoices;
   if(prefs.rate)$('#rate').value=prefs.rate;
@@ -300,6 +368,7 @@ if(!synth){$('#tts').hidden=true;$('#playBtn').hidden=true}else{
   window.addEventListener('pagehide',()=>synth.cancel());
 }
 
+$('#preferRec').checked=prefs.preferRec!==false;$('#preferRec').onchange=()=>{prefs.preferRec=$('#preferRec').checked;save()};
 $('#menuBtn').onclick=()=>drawer(true);
 $('#scrim').onclick=()=>drawer(false);
 $('#setBtn').onclick=e=>{e.stopPropagation();settings($('#settings').hidden)};
