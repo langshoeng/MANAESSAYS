@@ -141,7 +141,7 @@ button,select{min-height:44px}
 <div class="app">
 <aside id="side" aria-label="Essays">
   <h2>My Library</h2>
-  <div class="tabs" role="tablist"><button id="tabE" class="primary">Essays</button><button id="tabG">Grammar</button><button id="tabT">Terms</button></div>
+  <div class="tabs" role="tablist"><button id="tabE" class="primary">Essays</button><button id="tabG">Grammar</button><button id="tabT">Terms</button><button id="tabX">Exam</button></div>
   <div class="tabs" id="subTabs"><button id="subM" class="primary">My essays</button><button id="subW">Writing guide</button></div>
   <input type="search" id="q" placeholder="Search titles" aria-label="Search">
   <label class="lbl" id="starRow" hidden style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="starOnly"> Saved for review only</label>
@@ -206,14 +206,14 @@ button,select{min-height:44px}
 <div id="toast" role="status" aria-live="polite"></div>
 <script>
 const $=s=>document.querySelector(s),PK='essay-viewer-prefs',synth=window.speechSynthesis,aud=$('#aud');
-let pbase={},runId=0,recWait=null,wsecs=[],curW=null,sub='mine',tsecs=[],allT=[],curT=null,tmin=1,cs=null,prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
+let xsets=[],xbase={},gcur=null,xcur=null,pbase={},runId=0,recWait=null,wsecs=[],curW=null,sub='mine',tsecs=[],allT=[],curT=null,tmin=1,cs=null,prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
 try{prefs=JSON.parse(localStorage.getItem(PK))||{}}catch(e){}
 const save=()=>{try{localStorage.setItem(PK,JSON.stringify(prefs))}catch(e){}};
 const words=s=>(s.trim().match(/\S+/g)||[]).length;
 function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>t.classList.remove('show'),2800)}
 function drawer(o){$('#side').classList.toggle('open',o);$('#scrim').hidden=!o}
 function settings(o){$('#settings').hidden=!o;$('#setBtn').setAttribute('aria-expanded',String(o))}
-function renderList(){tab==='grammar'?renderGList():tab==='terms'?renderTList():sub==='guide'?renderWList():renderEList()}
+function renderList(){tab==='exam'?renderXList():tab==='grammar'?renderGList():tab==='terms'?renderTList():sub==='guide'?renderWList():renderEList()}
 function renderEList(){
   const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';
   items.filter(i=>!f||i.title.toLowerCase().includes(f)).forEach(i=>{
@@ -375,6 +375,33 @@ $('#setBtn').onclick=e=>{e.stopPropagation();settings($('#settings').hidden)};
 document.addEventListener('click',e=>{if(!$('#settings').hidden&&!e.target.closest('#settings'))settings(false)});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){settings(false);drawer(false)}});
 $('#q').oninput=renderList;
+/* Exam bank */
+const xMixed={id:'xmixed',m:'mixed',group:'Practice',title:'Mixed exam quiz (20 questions)',blocks:[{t:'p',x:'Twenty random questions from every exam-bank set that is available. You do not know which type of question comes next, as in a real exam.'}]};
+const xWeak={id:'xweak',m:'weak',group:'Practice',title:'Exam weak spots',blocks:[{t:'p',x:'Exam questions you answered wrongly stay here until you answer them correctly in a later practice. This list is saved on this device.'}]};
+function renderXList(){
+  const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';
+  if(!xsets.length){box.textContent='Could not load exam.json. Make sure it is uploaded next to index.html.';return}
+  if(!f){
+    box.append(el('div','grp-h','Practice'));
+    [[xMixed,'Mixed exam quiz (20 questions)'],[xWeak,'Exam weak spots ('+weakList().length+')']].forEach(([s2,t])=>{
+      const b=el('button','item');b.setAttribute('aria-current',String(curG===s2));b.append(el('b','',t));b.onclick=()=>openPseudo(s2);box.append(b)});
+  }
+  let last='';
+  xsets.filter(s=>!f||(s.title+' '+s.group).toLowerCase().includes(f)).forEach(s=>{
+    if(s.group!==last){last=s.group;box.append(el('div','grp-h',s.group))}
+    const b=el('button','item');b.setAttribute('aria-current',String(curG===s));
+    const best=(prefs.scores||{})[s.id];
+    b.append(el('b','',s.title+' ('+xbase[s.id].length+')'));if(best!==undefined)b.append(el('small','','best '+best+'/'+xbase[s.id].length));
+    b.onclick=()=>openG(s);box.append(b)});
+  if(!box.querySelector('.item'))box.textContent='No exam sets found.';
+}
+const xP=fetch('exam.json').then(r=>r.json()).then(d=>{
+  xsets=d.sets.map(s=>({id:s.id,group:s.group,title:s.title,blocks:[{t:'p',x:s.intro}]}));
+  d.sets.forEach(s=>{
+    s.questions.forEach(q=>{q.sid=s.id;q.k=s.id+'|'+q.q+'|'+q.o[q.a]});
+    xbase[s.id]=s.questions;prac[s.id]=s.questions;
+  });
+}).catch(()=>{});
 /* Writing guide */
 const wflat=b=>[flat(b),(b.paras||[]).map(p=>p.parts.map(x=>x[1]).join(' ')).join(' '),(b.types||[]).map(x=>x.n+' '+x.s).join(' ')].join(' ');
 function renderWList(){
@@ -555,7 +582,7 @@ function renderGList(){
 }
 function updStar(){const on=curG&&stars.has(curG.id);$('#starBtn').textContent=on?'\u2605 Saved':'\u2606 Save for review';$('#starBtn').setAttribute('aria-pressed',String(!!on))}
 function openG(s){
-  stopSpeech();aud.pause();curG=s;drawer(false);prefs.lastG=s.id;save();renderList();
+  stopSpeech();aud.pause();curG=s;drawer(false);if(gram.indexOf(s)>=0)prefs.lastG=s.id;else if(xsets.indexOf(s)>=0)prefs.lastX=s.id;save();renderList();
   $('#empty').hidden=true;$('#doc').hidden=true;$('#gdoc').hidden=false;$('#player').hidden=true;
   $('#gTitle').textContent=s.title;updStar();
   const box=$('#gBody');box.textContent='';s.blocks.forEach(b=>box.append(renderBlock(b)));
@@ -563,13 +590,14 @@ function openG(s){
   $('#starBtn').hidden=gram.indexOf(s)<0;$('#gTabs').hidden=!(prac[s.id]&&prac[s.id].length);ps=null;updPractice();showView('lesson');
   window.scrollTo(0,0);
 }
-const mixedSec={id:'mixed',group:'Practice',title:'Mixed quiz (20 questions)',blocks:[{t:'p',x:'Twenty random questions drawn from every grammar section that has practice. This is the closest thing to a real exam: you do not know which topic comes next.'}]};
-const weakSec={id:'weak',group:'Practice',title:'Weak spots',blocks:[{t:'p',x:'Questions you answered wrongly stay here until you answer them correctly in a later practice. If nothing is listed, you have no weak spots yet. This list is saved on this device.'}]};
+const mixedSec={id:'mixed',m:'mixed',group:'Practice',title:'Mixed quiz (20 questions)',blocks:[{t:'p',x:'Twenty random questions drawn from every grammar section that has practice. This is the closest thing to a real exam: you do not know which topic comes next.'}]};
+const weakSec={id:'weak',m:'weak',group:'Practice',title:'Weak spots',blocks:[{t:'p',x:'Questions you answered wrongly stay here until you answer them correctly in a later practice. If nothing is listed, you have no weak spots yet. This list is saved on this device.'}]};
 function weakKeys(){return new Set(prefs.weak||[])}
 function setWeak(k,on){const w=weakKeys();if(on)w.add(k);else w.delete(k);prefs.weak=[...w];save()}
-function weakList(){const w=weakKeys();return Object.values(pbase).flat().filter(q=>w.has(q.k))}
-function pickMixed(){return shuffle(Object.values(pbase).flat()).slice(0,20)}
-function openPseudo(s){prac[s.id]=s.id==='mixed'?pickMixed():weakList();openG(s);if(prac[s.id].length)startPractice()}
+function srcBase(){return tab==='exam'?xbase:pbase}
+function weakList(){const w=weakKeys();return Object.values(srcBase()).flat().filter(q=>w.has(q.k))}
+function pickMixed(){return shuffle(Object.values(srcBase()).flat()).slice(0,20)}
+function openPseudo(s){prac[s.id]=s.m==='mixed'?pickMixed():weakList();openG(s);if(prac[s.id].length)startPractice()}
 function updPractice(){
   if(!curG||!prac[curG.id])return;
   const best=(prefs.scores||{})[curG.id];
@@ -609,7 +637,7 @@ function answer(k){
 function renderResult(){
   const box=$('#pBody'),n=ps.qs.length;box.textContent='';
   const sc=prefs.scores=prefs.scores||{};
-  if(!ps.partial&&curG.id!=='weak'&&(sc[curG.id]===undefined||ps.score>sc[curG.id])){sc[curG.id]=ps.score;save()}
+  if(!ps.partial&&curG.m!=='weak'&&(sc[curG.id]===undefined||ps.score>sc[curG.id])){sc[curG.id]=ps.score;save()}
   updPractice();renderList();
   box.append(el('h3','','Result: '+ps.score+' / '+n),el('p','',ps.missed.length?'Read the explanations for the questions you missed, then retry them.':'Perfect score. Restart to practise again in a new order.'));
   ps.missed.forEach(q=>{const d=el('div','exp');d.append(el('b','',q.q),el('br'),document.createTextNode('Answer: '+q.o[q.a]+'. '+q.e));box.append(d)});
@@ -626,20 +654,23 @@ $('#gNext').onclick=()=>{const i=gram.indexOf(curG);if(i<gram.length-1)openG(gra
 $('#starBtn').onclick=()=>{if(!curG)return;stars.has(curG.id)?stars.delete(curG.id):stars.add(curG.id);prefs.stars=[...stars];save();updStar();renderList()};
 $('#starOnly').onchange=renderList;
 function setTab(t){
+  if(tab==='exam')xcur=curG;else if(tab==='grammar')gcur=curG;
+  if(t==='exam')curG=xcur;else if(t==='grammar')curG=gcur;
   tab=t;prefs.tab=t;save();stopSpeech();aud.pause();$('#q').value='';$('#subTabs').hidden=t!=='essays';$('#subM').classList.toggle('primary',sub==='mine');$('#subW').classList.toggle('primary',sub==='guide');
-  $('#tabE').classList.toggle('primary',t==='essays');$('#tabG').classList.toggle('primary',t==='grammar');$('#tabT').classList.toggle('primary',t==='terms');
-  $('#q').placeholder={essays:sub==='guide'?'Search the guide':'Search titles',grammar:'Search grammar',terms:'Search terms'}[t];$('#starRow').hidden=t!=='grammar';
-  $('#tbTitle').textContent={essays:'My Essays',grammar:'Grammar Handbook',terms:'Terminology'}[t];
+  $('#tabE').classList.toggle('primary',t==='essays');$('#tabG').classList.toggle('primary',t==='grammar');$('#tabT').classList.toggle('primary',t==='terms');$('#tabX').classList.toggle('primary',t==='exam');
+  $('#q').placeholder={essays:sub==='guide'?'Search the guide':'Search titles',grammar:'Search grammar',terms:'Search terms',exam:'Search exam sets'}[t];$('#starRow').hidden=t!=='grammar';
+  $('#tbTitle').textContent={essays:'My Essays',grammar:'Grammar Handbook',terms:'Terminology',exam:'Exam Bank'}[t];
   $('#doc').hidden=true;$('#gdoc').hidden=true;$('#tdoc').hidden=true;$('#wdoc').hidden=true;$('#empty').hidden=false;$('#player').hidden=true;
   if(t==='essays'&&sub==='guide'&&curW){$('#empty').hidden=true;$('#wdoc').hidden=false}
   if(t==='terms'&&curT){$('#empty').hidden=true;$('#tdoc').hidden=false}
   if(t==='essays'&&sub==='mine'&&cur){$('#empty').hidden=true;$('#doc').hidden=false;setMode(mode)}
-  if(t==='grammar'&&curG){$('#empty').hidden=true;$('#gdoc').hidden=false}
+  if((t==='grammar'||t==='exam')&&curG)openG(curG);
   renderList();
 }
 $('#tabE').onclick=()=>setTab('essays');
 $('#tabG').onclick=()=>setTab('grammar');
 $('#tabT').onclick=()=>setTab('terms');
+$('#tabX').onclick=()=>setTab('exam');
 const flat=b=>[b.x,b.k,(b.items||[]).join(' '),(b.head||[]).join(' '),(b.rows||[]).map(r=>r.join(' ')).join(' ')].filter(Boolean).join(' ');
 const eP=fetch('essays.json').then(r=>r.json()).then(d=>{items=d.essays||[]}).catch(()=>{eErr=true});
 const pP=fetch('practice.json').then(r=>r.json()).then(d=>{
@@ -654,13 +685,15 @@ const tP=fetch('terminology.json').then(r=>r.json()).then(d=>{
   tsecs=[...secs.slice(0,k),{id:'must',group:'Quick study',title:'Must-memorize terms (★★★)',kind:'terms'},{id:'saved',group:'Quick study',title:'My saved terms',kind:'terms'},...secs.slice(k)];
 }).catch(()=>{});
 const gP=fetch('grammar.json').then(r=>r.json()).then(d=>{gram=d.sections||[];gram.forEach(s=>{s.text=(s.title+' '+s.blocks.map(flat).join(' ')).toLowerCase()})}).catch(()=>{});
-Promise.all([eP,gP,pP,tP,wP]).then(()=>{
+Promise.all([eP,gP,pP,tP,wP,xP]).then(()=>{
+  Object.keys(xbase).forEach(id=>{prac[id]=xbase[id]});
   const le=items.find(x=>x.file===prefs.last),lg=gram.find(x=>x.id===prefs.lastG);
   if(le)cur=le;if(lg)curG=lg;
   const lt=tsecs.find(x=>x.id===prefs.lastT);if(lt)curT=lt;
   const lw=wsecs.find(x=>x.id===prefs.lastW);if(lw)curW=lw;sub=prefs.sub==='guide'?'guide':'mine';
-  setTab(['grammar','terms'].includes(prefs.tab)?prefs.tab:'essays');
-  if(tab==='essays'&&sub==='mine'&&le)open(le);else if(tab==='essays'&&sub==='guide'&&lw)openW(lw);else if(tab==='grammar'&&lg)openG(lg);else if(tab==='terms'&&lt)openT(lt);
+  const lx=xsets.find(x=>x.id===prefs.lastX);if(lx)xcur=lx;gcur=curG;
+  setTab(['grammar','terms','exam'].includes(prefs.tab)?prefs.tab:'essays');
+  if(tab==='essays'&&sub==='mine'&&le)open(le);else if(tab==='essays'&&sub==='guide'&&lw)openW(lw);else if(tab==='grammar'&&lg)openG(lg);else if(tab==='terms'&&lt)openT(lt);else if(tab==='exam'&&lx)openG(lx);
 });
 </script>
 </body>
