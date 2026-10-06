@@ -1,0 +1,713 @@
+{
+"sets": [
+{
+"id": "x_gmcq",
+"group": "Part I - Grammar",
+"title": "D. Sentence structure and usage",
+"intro": "Choose the option that correctly completes each sentence. 48 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"questions": [
+{
+"q": "____ not a single hard-surfaced road during the entire colonial period aside from city streets.",
+"o": [
+"It was",
+"There was",
+"It",
+"There were"
+],
+"a": 1,
+"e": "Existential there + singular noun (road): There was."
+},
+{
+"q": "____ in 1776 that the Declaration of Independence was signed.",
+"o": [
+"It was",
+"There was",
+"There",
+"It"
+],
+"a": 0,
+"e": "Cleft sentence for emphasis: It was in 1776 that ..."
+},
+{
+"q": "____ more than 300,000 people in Philadelphia by the end of the colonial period, making it the largest city in the colonies.",
+"o": [
+"There was",
+"It was",
+"They were",
+"There were"
+],
+"a": 3,
+"e": "Existential there + plural noun (people): There were."
+},
+{
+"q": "In the eighteenth century, ____ not many women who had access to formal education in the colonies.",
+"o": [
+"there were",
+"it was",
+"were",
+"were there"
+],
+"a": 0,
+"e": "Existential there with plural women: there were not many women."
+},
+{
+"q": "After the Revolution, although some advances were made in education, ____ a slow process.",
+"o": [
+"They were",
+"it",
+"it was",
+"there was"
+],
+"a": 2,
+"e": "It was a slow process: it refers to education's progress."
+},
+{
+"q": "The behavior of many volcanoes ____ very difficult to predict, especially the more explosive types.",
+"o": [
+"Are",
+"is",
+"that",
+"being"
+],
+"a": 1,
+"e": "The subject is behavior (singular), not volcanoes: is."
+},
+{
+"q": "____ more than 2000 minerals are known, nearly all rocks are formed from seven mineral groups.",
+"o": [
+"Although",
+"However",
+"Despite",
+"Since"
+],
+"a": 0,
+"e": "Although introduces a concession clause: Although more than 2000 minerals are known, ..."
+},
+{
+"q": "Alexander Graham Bell worked with deaf students before ____ the first telephone in 1876.",
+"o": [
+"Designed",
+"was designed",
+"to design",
+"designing"
+],
+"a": 3,
+"e": "After the preposition before, use -ing: before designing."
+},
+{
+"q": "An enzyme works by coming in contact with a particular substance ____ with it, and changing it.",
+"o": [
+"Combines",
+"combining",
+"it combines",
+"to combine"
+],
+"a": 1,
+"e": "Parallel -ing forms: coming ..., combining ..., and changing."
+},
+{
+"q": "Foods of animal origin generally supply greater amounts of iron to the diet than ____",
+"o": [
+"Are foods of plant origin",
+"foods of plant origins",
+"do foods of plant origin",
+"plant origin foods"
+],
+"a": 2,
+"e": "After than, a comparison clause can use do + subject: than do foods of plant origin."
+},
+{
+"q": "____ energy for growth or repair, a plant must carry out photosynthesis.",
+"o": [
+"To obtain",
+"it obtains",
+"it is obtaining",
+"Obtaining"
+],
+"a": 0,
+"e": "Infinitive of purpose: To obtain energy, a plant must ..."
+},
+{
+"q": "Nicotine, ____ found in tobacco, is named after the French diplomat Jean Nicot.",
+"o": [
+"It is a chemical compound",
+"is a chemical compound",
+"a chemical compound",
+"chemical compound is"
+],
+"a": 2,
+"e": "An appositive (a chemical compound) renames Nicotine; no extra verb is needed."
+},
+{
+"q": "____ the world’s most successful artificial language.",
+"o": [
+"As Esperanto is",
+"That Esperanto",
+"it is Esperanto",
+"Esperanto is"
+],
+"a": 3,
+"e": "A complete sentence needs a subject and verb: Esperanto is the world's most successful ..."
+},
+{
+"q": "____ food we eat lacks minerals, then the body can use the stores from its bones for more urgent needs.",
+"o": [
+"As the",
+"If the",
+"The",
+"Since"
+],
+"a": 1,
+"e": "The if-clause pairs with then in the main clause: If the food we eat lacks minerals, then ..."
+},
+{
+"q": "____ an organism to become a fossil.",
+"o": [
+"Rarely",
+"It is rare",
+"Rare is",
+"It is rare for"
+],
+"a": 3,
+"e": "The pattern is It is rare for + noun + to-infinitive."
+},
+{
+"q": "Among sea horses, ____ carries and hatches the eggs in a special breeding pouch.",
+"o": [
+"it is the male which",
+"the male it",
+"it is the male",
+"the male who"
+],
+"a": 0,
+"e": "Cleft structure: it is the male which carries ... The other options leave no main verb or a fragment."
+},
+{
+"q": "____ will be increasingly used as a source of petrochemicals when oil begins to run out.",
+"o": [
+"No matter coal",
+"No doubt coal",
+"If coal",
+"That coal"
+],
+"a": 1,
+"e": "No doubt is a sentence adverb: No doubt coal will be increasingly used ..."
+},
+{
+"q": "Scientists have discovered that the jelly like material in cells ____ proteins and other substances.",
+"o": [
+"is actually a complete mixture",
+"it is actually a complex mixture",
+"actually is a complex mixture of",
+"that actually are a complex mixture of"
+],
+"a": 2,
+"e": "The clause needs a verb and complement: actually is a complex mixture of ..."
+},
+{
+"q": "The discovery that electricity could produce the magnetism ____ in 1820 by the Danish physicist, Hans Christian Oersted.",
+"o": [
+"by accident",
+"was an accident",
+"was made by accident",
+"by accident was"
+],
+"a": 2,
+"e": "Passive verb phrase with agent: was made by accident in 1820 by ..."
+},
+{
+"q": "Digital systems work first by changing quantity and then ____ into strips of numbers.",
+"o": [
+"convert the measurements",
+"the measurement convert",
+"to convert the measurements",
+"converting the measurements"
+],
+"a": 3,
+"e": "Parallel -ing after by: changing ... and then converting ..."
+},
+{
+"q": "It is gravity ____ the objects toward earth.",
+"o": [
+"pulling",
+"that pulls",
+"to pull",
+"what pulls"
+],
+"a": 1,
+"e": "Cleft sentence: It is gravity that pulls the objects toward earth."
+},
+{
+"q": "____ their territories but rather than fight, they howl.",
+"o": [
+"Wolves protectively jealous",
+"Jealous of wolves",
+"Protection of wolves",
+"Wolves jealously protect"
+],
+"a": 3,
+"e": "The clause needs subject + verb: Wolves jealously protect their territories (adverb jealously)."
+},
+{
+"q": "The strongest dump trucks work in rock quarries, ____ tons of rocks and soil at one time.",
+"o": [
+"that they move",
+"they move",
+"where they move",
+"which they move"
+],
+"a": 2,
+"e": "Where refers to the place (rock quarries): where they move tons of rocks."
+},
+{
+"q": "Helen Keller lost both her sight and hearing ____ after severe illness.",
+"o": [
+"of her age in 19 months",
+"she was 19 months old",
+"when she was 19 months old",
+"when 19 months old she was"
+],
+"a": 2,
+"e": "A time clause with a complete verb: when she was 19 months old."
+},
+{
+"q": "It is only recently that the ballets have been based on themes ____ American life.",
+"o": [
+"reflecting",
+"reflects",
+"is reflecting",
+"reflected"
+],
+"a": 0,
+"e": "Reduced relative clause: themes reflecting American life."
+},
+{
+"q": "Built at the beginning of the century, the Library of Congress houses one of the largest ____ collection of books in the world.",
+"o": [
+"and fine",
+"and finest",
+"or finest",
+"yet fine"
+],
+"a": 1,
+"e": "Coordinated adjectives: one of the largest and finest collections."
+},
+{
+"q": "In the preparation of fibrous material for production uses, stiff woody fibers from plants ____ fibers from animal sources.",
+"o": [
+"the most heat the",
+"need more heat than",
+"that more heat needed",
+"need the more heat than"
+],
+"a": 1,
+"e": "Verb + comparison: need more heat than fibers from animal sources."
+},
+{
+"q": "The cosmopolitan flavour of San Francisco is enhanced by ____ shops and museums.",
+"o": [
+"an ethnic",
+"its many ethnic",
+"its ethnicity",
+"ethnicity"
+],
+"a": 1,
+"e": "A possessive plus adjective before the plural noun: its many ethnic shops."
+},
+{
+"q": "____ that increasing numbers of compact-disk players will be bought by consumers in the years to come.",
+"o": [
+"They are anticipated",
+"In anticipation",
+"Anticipation",
+"It’s anticipated"
+],
+"a": 3,
+"e": "Passive with dummy it: It's anticipated that ..."
+},
+{
+"q": "____ , human beings have relatively constant body temperature.",
+"o": [
+"alike all animal",
+"Alike all animals",
+"Like all animals",
+"Like all animal"
+],
+"a": 2,
+"e": "Like (preposition) + noun phrase: Like all animals, human beings ..."
+},
+{
+"q": "The Louisiana Territory, an area ____ the size of France, was purchased in 1803.",
+"o": [
+"than more 4 times",
+"more than 4 times",
+"4 times than more",
+"is 4 times more than"
+],
+"a": 1,
+"e": "Multiplier comparison: more than 4 times the size of France."
+},
+{
+"q": "Despite claims that filters and low-tar tobacco make smoking somewhat safer, in fact they only marginally reduce, ____ eliminate, the hazards.",
+"o": [
+"none",
+"no",
+"not",
+"nor"
+],
+"a": 2,
+"e": "Contrast with not: reduce, not eliminate, the hazards."
+},
+{
+"q": "____ many of the designs for the new capital were considered lost forever, Benjamin Banneker helped reproduce the original plans.",
+"o": [
+"When",
+"During",
+"If as",
+"How"
+],
+"a": 0,
+"e": "When introduces a time clause: When many of the designs were considered lost, ..."
+},
+{
+"q": "A few natural elements exist in ____ that they are rarely seen in their natural environment.",
+"o": [
+"such small quantities",
+"so small quantities",
+"very small quantities",
+"small quantity"
+],
+"a": 0,
+"e": "Such + adjective + plural noun + that: such small quantities that ..."
+},
+{
+"q": "____ business, a merger is a combination of two or more corporations under one management.",
+"o": [
+"The",
+"At",
+"On",
+"In"
+],
+"a": 3,
+"e": "The fixed phrase is In business."
+},
+{
+"q": "Jan’s invention, the “shoe-lasting” machine, ____ production but it cut the cost of it by half.",
+"o": [
+"not only increased",
+"not increased only",
+"increased only",
+"only have increased"
+],
+"a": 0,
+"e": "Correlative pair: not only increased production but ..."
+},
+{
+"q": "In the U.S. ____ is the most concentrated is New Orleans.",
+"o": [
+"French influence the city",
+"the city where French influence",
+"where the city influences French",
+"where the French influences the city"
+],
+"a": 1,
+"e": "A noun phrase with a relative clause: the city where French influence is the most concentrated."
+},
+{
+"q": "Sometimes ____ wears people out and is worse than the lack of sleep itself.",
+"o": [
+"to sleep the desire",
+"the desire to sleep",
+"to desire sleep is",
+"the desire to sleep who"
+],
+"a": 1,
+"e": "The subject of wears is a noun phrase: the desire to sleep."
+},
+{
+"q": "In order to grow vegetables properly, gardeners must know ____ .",
+"o": [
+"what are each vegetable’s requirements",
+"that the requirements for each vegetable",
+"what the requirements for each vegetable",
+"that is required by each vegetable"
+],
+"a": 2,
+"e": "A noun clause after know uses what plus normal word order: what the requirements for each vegetable are."
+},
+{
+"q": "Sweet and rich in nutritious value, ____ .",
+"o": [
+"Khmer cooking uses palm sugar widely",
+"there is a wide use of palm sugar in Khmer cooking",
+"palm sugar is used widely in Khmer cooking",
+"Khmer people use palm sugar widely in their cooking"
+],
+"a": 2,
+"e": "The subject must be what is sweet and rich: palm sugar. Other options leave a dangling modifier."
+},
+{
+"q": "____ she recovers from amnesia, she will be able to recognize us.",
+"o": [
+"Unless",
+"When",
+"Despite",
+"Although"
+],
+"a": 1,
+"e": "When she recovers is a time clause that fits the future result."
+},
+{
+"q": "The survivor knew it was ____ who had rescued him.",
+"o": [
+"her",
+"herself",
+"she",
+"hers"
+],
+"a": 2,
+"e": "After it was, formal English uses the subject form: it was she who."
+},
+{
+"q": "With ____ did the soldier fight relentlessly?",
+"o": [
+"whom",
+"which",
+"who",
+"whose"
+],
+"a": 0,
+"e": "After a preposition, a person takes whom: With whom did ..."
+},
+{
+"q": "Neither Socheata nor I ____ afraid to scale Mount Everest.",
+"o": [
+"am",
+"are",
+"is",
+"was"
+],
+"a": 0,
+"e": "With neither ... nor, the verb agrees with the nearer subject (I): am."
+},
+{
+"q": "The sick baby, as well as his mother, ____ pulled through the ordeal.",
+"o": [
+"have",
+"are",
+"is",
+"was"
+],
+"a": 3,
+"e": "As well as does not change the subject; baby is singular, so: was."
+},
+{
+"q": "Please wait for me ____ that green lamp-post.",
+"o": [
+"by",
+"on",
+"below",
+"in"
+],
+"a": 0,
+"e": "By means beside or near: wait by that lamp-post."
+},
+{
+"q": "The ____ are to be used to replace the old ones at the prison.",
+"o": [
+"bits of furniture",
+"pieces of furniture",
+"furniture",
+"furnishings"
+],
+"a": 1,
+"e": "Furniture is uncountable, so use pieces of furniture before the countable ones. (Check: furnishings could also be argued.)"
+},
+{
+"q": "It was when he was put ____ bars that he finally turned ____ a new leaf.",
+"o": [
+"behind … over",
+"on … into",
+"at … over",
+"in … into"
+],
+"a": 0,
+"e": "Idioms: behind bars and turn over a new leaf."
+}
+]
+},
+{
+"id": "x_gerr",
+"group": "Part I - Grammar",
+"title": "E. Find the incorrect part",
+"intro": "Each sentence has four marked parts. Choose the part (A, B, C or D) that contains the error. 15 questions from the NIE exam bank. Four sentences that contain two errors each were left out. Answers and feedback were prepared by Claude: please check them against your own key.",
+"questions": [
+{
+"q": "Find the error: (A) The antique collector must be able to distinguish (B) real antiques from later imitation, (C) which can be either (D) reproductions nor fakes.",
+"o": [
+"The antique collector must be able to distinguish",
+"real antiques from later imitation,",
+"which can be either",
+"reproductions nor fakes."
+],
+"a": 3,
+"e": "Either pairs with or, not nor: either reproductions or fakes."
+},
+{
+"q": "Find the error: (A) Paint must be stirred (B) and sometime dilution (C) before it (D) is applied.",
+"o": [
+"Paint must be stirred",
+"and sometime dilution",
+"before it",
+"is applied."
+],
+"a": 1,
+"e": "Parallel passive needed: stirred and sometimes diluted."
+},
+{
+"q": "Find the error: (A) A great aviation pioneer, (B) was already famous (C) when she sets out (D) on her ill-fated attempt to circle the globe in 1937.",
+"o": [
+"A great aviation pioneer,",
+"was already famous",
+"when she sets out",
+"on her ill-fated attempt to circle the globe in 1937."
+],
+"a": 2,
+"e": "The story is in the past: when she set out."
+},
+{
+"q": "Find the error: (A) Two unique features (B) of the arctic (C) they are (D) lack of precipitation and permanently frozen ground.",
+"o": [
+"Two unique features",
+"of the arctic",
+"they are",
+"lack of precipitation and permanently frozen ground."
+],
+"a": 2,
+"e": "The pronoun they repeats the subject: Two unique features of the arctic are ..."
+},
+{
+"q": "Find the error: (A) Faced with petroleum shortages (B) scientists and engineers in the United States (C) stepped up its efforts (D) to develop more efficient heating systems and better insulation.",
+"o": [
+"Faced with petroleum shortages",
+"scientists and engineers in the United States",
+"stepped up its efforts",
+"to develop more efficient heating systems and better insulation."
+],
+"a": 2,
+"e": "The subject scientists and engineers is plural: their efforts."
+},
+{
+"q": "Find the error: (A) Rabbits have (B) large front tooth, (C) short tails, (D) and hind legs and feet adapted for running and jumping.",
+"o": [
+"Rabbits have",
+"large front tooth,",
+"short tails,",
+"and hind legs and feet adapted for running and jumping."
+],
+"a": 1,
+"e": "Plural noun needed after large: front teeth."
+},
+{
+"q": "Find the error: (A) Dentistry is a branch of medicine (B) that has developed (C) very dramatic (D) in the last twenty years.",
+"o": [
+"Dentistry is a branch of medicine",
+"that has developed",
+"very dramatic",
+"in the last twenty years."
+],
+"a": 2,
+"e": "An adverb modifies the verb developed: very dramatically."
+},
+{
+"q": "Find the error: (A) The ease of solving a jigsaw puzzle (B) depends the number of pieces, (C) their shapes and shadings, (D) and the design of the picture.",
+"o": [
+"The ease of solving a jigsaw puzzle",
+"depends the number of pieces,",
+"their shapes and shadings,",
+"and the design of the picture."
+],
+"a": 1,
+"e": "Depends needs the preposition on: depends on the number of pieces."
+},
+{
+"q": "Find the error: (A) Plants range in size (B) to tiny, single-celled, blue-green algae, (C) invisible to the naked eye, (D) to giant sequoias, the largest living plants.",
+"o": [
+"Plants range in size",
+"to tiny, single-celled, blue-green algae,",
+"invisible to the naked eye,",
+"to giant sequoias, the largest living plants."
+],
+"a": 1,
+"e": "The pattern is range from ... to ...: from tiny, single-celled algae."
+},
+{
+"q": "Find the error: (A) During the 1940s (B) science and engineering had an impact (C) on the way music reach its audience (D) and even influenced the way in which it was composed.",
+"o": [
+"During the 1940s",
+"science and engineering had an impact",
+"on the way music reach its audience",
+"and even influenced the way in which it was composed."
+],
+"a": 2,
+"e": "The sentence is in the past, and music is singular: the way music reached its audience."
+},
+{
+"q": "Find the error: (A) Ballads were early types of poetry (B) and may have been (C) among a first kinds (D) of music.",
+"o": [
+"Ballads were early types of poetry",
+"and may have been",
+"among a first kinds",
+"of music."
+],
+"a": 2,
+"e": "Among the first kinds (plural, with the): not a first kinds."
+},
+{
+"q": "Find the error: (A) The thin outer layer of the skin (B) is called the epidermis, (C) while the layer inner, (D) which is slightly thicker, is called the dermis.",
+"o": [
+"The thin outer layer of the skin",
+"is called the epidermis,",
+"while the layer inner,",
+"which is slightly thicker, is called the dermis."
+],
+"a": 2,
+"e": "Adjectives come before the noun: the inner layer."
+},
+{
+"q": "Find the error: (A) Although flies live longest (B) in cool temperatures, (C) it breed prolifically (D) when temperatures are warm, food is abundant, and humidity is moderate.",
+"o": [
+"Although flies live longest",
+"in cool temperatures,",
+"it breed prolifically",
+"when temperatures are warm, food is abundant, and humidity is moderate."
+],
+"a": 2,
+"e": "The pronoun must match flies: they breed prolifically."
+},
+{
+"q": "Find the error: (A) Alaska's vast areas (B) of untamed wilderness (C) attracts many people (D) who enjoy the outdoors.",
+"o": [
+"Alaska's vast areas",
+"of untamed wilderness",
+"attracts many people",
+"who enjoy the outdoors."
+],
+"a": 2,
+"e": "The subject is areas (plural): areas attract."
+},
+{
+"q": "Find the error: (A) The giant panda closely resembles the bear, (B) but account of certain anatomical features (C) it is placed (D) in the raccoon family.",
+"o": [
+"The giant panda closely resembles the bear,",
+"but account of certain anatomical features",
+"it is placed",
+"in the raccoon family."
+],
+"a": 1,
+"e": "The phrase is on account of: but on account of certain anatomical features."
+}
+]
+}
+]
+}
