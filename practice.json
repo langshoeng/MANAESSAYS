@@ -1204,5 +1204,541 @@
    "a": 2,
    "e": "Between is used for two."
   }
+ ],
+ "p13": [
+  {
+   "q": "She enjoys ____ English to children.",
+   "o": [
+    "to teach",
+    "taught",
+    "teaching",
+    "teach"
+   ],
+   "a": 2,
+   "e": "Enjoy is followed by -ing."
+  },
+  {
+   "q": "He decided ____ abroad.",
+   "o": [
+    "to study",
+    "studied",
+    "studying",
+    "study"
+   ],
+   "a": 0,
+   "e": "Decide is followed by to + V1."
+  },
+  {
+   "q": "They avoided ____ the same mistake.",
+   "o": [
+    "made",
+    "making",
+    "make",
+    "to make"
+   ],
+   "a": 1,
+   "e": "Avoid is followed by -ing."
+  },
+  {
+   "q": "We are interested in ____ new methods.",
+   "o": [
+    "learning",
+    "learn",
+    "learned",
+    "to learn"
+   ],
+   "a": 0,
+   "e": "After a preposition, use -ing."
+  },
+  {
+   "q": "The teacher made the students ____ the dialogue.",
+   "o": [
+    "to practice",
+    "practiced",
+    "practicing",
+    "practice"
+   ],
+   "a": 3,
+   "e": "Make + object + V1, with no to."
+  },
+  {
+   "q": "She asked me ____ her with the homework.",
+   "o": [
+    "helped",
+    "helping",
+    "to help",
+    "help"
+   ],
+   "a": 2,
+   "e": "Ask + object + to + V1."
+  },
+  {
+   "q": "I look forward to ____ you next week.",
+   "o": [
+    "met",
+    "meeting",
+    "meet",
+    "to meet"
+   ],
+   "a": 1,
+   "e": "In look forward to, to is a preposition, so use -ing."
+  },
+  {
+   "q": "She hopes ____ the entrance exam.",
+   "o": [
+    "passing",
+    "to pass",
+    "passed",
+    "pass"
+   ],
+   "a": 1,
+   "e": "Hope is followed by to + V1."
+  },
+  {
+   "q": "He suggested ____ a break.",
+   "o": [
+    "taking",
+    "to take",
+    "take",
+    "took"
+   ],
+   "a": 0,
+   "e": "Suggest is followed by -ing."
+  },
+  {
+   "q": "Find the error: She (A) refused (B) answering (C) the question (D) politely.",
+   "o": [
+    "refused",
+    "answering",
+    "the question",
+    "politely"
+   ],
+   "a": 1,
+   "e": "Refuse is followed by to + V1: She refused to answer the question politely."
+  },
+  {
+   "q": "Find the error: They (A) let (B) the students (C) to leave (D) early.",
+   "o": [
+    "let",
+    "the students",
+    "to leave",
+    "early"
+   ],
+   "a": 2,
+   "e": "Let + object + V1, with no to: They let the students leave early."
+  },
+  {
+   "q": "Find the error: She is (A) interested in (B) to learn (C) new teaching methods (D) this year.",
+   "o": [
+    "interested in",
+    "to learn",
+    "new teaching methods",
+    "this year"
+   ],
+   "a": 1,
+   "e": "After a preposition, use -ing: interested in learning."
+  }
+ ],
+ "p14": [
+  {
+   "q": "The teacher ____ helped me was kind.",
+   "o": [
+    "whose",
+    "where",
+    "which",
+    "who"
+   ],
+   "a": 3,
+   "e": "Who is used for people."
+  },
+  {
+   "q": "The book ____ I bought is useful.",
+   "o": [
+    "which",
+    "whose",
+    "who",
+    "where"
+   ],
+   "a": 0,
+   "e": "Which is used for things."
+  },
+  {
+   "q": "The student ____ book was lost is absent.",
+   "o": [
+    "which",
+    "whose",
+    "where",
+    "who"
+   ],
+   "a": 1,
+   "e": "Whose shows possession."
+  },
+  {
+   "q": "The school ____ I studied is nearby.",
+   "o": [
+    "whose",
+    "where",
+    "who",
+    "which"
+   ],
+   "a": 1,
+   "e": "Where is used for places."
+  },
+  {
+   "q": "The year ____ I graduated was important.",
+   "o": [
+    "whose",
+    "where",
+    "when",
+    "who"
+   ],
+   "a": 2,
+   "e": "When is used for time."
+  },
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "My teacher who, lives nearby is helpful.",
+    "My teacher, who lives nearby, is helpful.",
+    "My teacher, that lives nearby, is helpful.",
+    "My teacher, whose lives nearby, is helpful."
+   ],
+   "a": 1,
+   "e": "Do not use that in a non-defining clause (the one with commas). Use who."
+  },
+  {
+   "q": "The teacher ____ I met was helpful.",
+   "o": [
+    "whom",
+    "whose",
+    "where",
+    "which"
+   ],
+   "a": 0,
+   "e": "Whom is used for people as the object, in formal English."
+  },
+  {
+   "q": "The book ____ is on the table belongs to me.",
+   "o": [
+    "that",
+    "whom",
+    "where",
+    "whose"
+   ],
+   "a": 0,
+   "e": "That can be used for things in a defining clause."
+  },
+  {
+   "q": "She is the student ____ won the prize.",
+   "o": [
+    "when",
+    "who",
+    "where",
+    "whose"
+   ],
+   "a": 1,
+   "e": "Who is the subject for a person."
+  },
+  {
+   "q": "Find the error: The teacher (A) whose (B) I met (C) yesterday (D) was very helpful.",
+   "o": [
+    "whose",
+    "I met",
+    "yesterday",
+    "was very helpful"
+   ],
+   "a": 0,
+   "e": "Whose shows possession. For a person as object, use whom, who or that: The teacher whom I met."
+  },
+  {
+   "q": "Find the error: My brother, (A) that (B) lives in the city, (C) is (D) a teacher.",
+   "o": [
+    "that",
+    "lives in the city,",
+    "is",
+    "a teacher"
+   ],
+   "a": 0,
+   "e": "A clause between commas is non-defining, so do not use that. Use who: My brother, who lives in the city, is a teacher."
+  },
+  {
+   "q": "Find the error: The year (A) where (B) I graduated (C) was (D) important.",
+   "o": [
+    "where",
+    "I graduated",
+    "was",
+    "important"
+   ],
+   "a": 0,
+   "e": "Where is for places. For time, use when: The year when I graduated."
+  }
+ ],
+ "p7": [
+  {
+   "q": "This room is ____ than that one.",
+   "o": [
+    "the smaller",
+    "more small",
+    "smallest",
+    "smaller"
+   ],
+   "a": 3,
+   "e": "Short adjectives add -er in the comparative."
+  },
+  {
+   "q": "This book is ____ than that one.",
+   "o": [
+    "more useful",
+    "the most useful",
+    "most useful",
+    "usefuler"
+   ],
+   "a": 0,
+   "e": "Long adjectives use more + adjective in the comparative."
+  },
+  {
+   "q": "She is the ____ student in the class.",
+   "o": [
+    "tallest",
+    "most tall",
+    "taller",
+    "more tall"
+   ],
+   "a": 0,
+   "e": "Short adjectives add -est in the superlative, with the."
+  },
+  {
+   "q": "This is the ____ interesting lesson of the course.",
+   "o": [
+    "most",
+    "many",
+    "much",
+    "more"
+   ],
+   "a": 0,
+   "e": "Long adjectives use the most + adjective in the superlative."
+  },
+  {
+   "q": "Her English is ____ than mine.",
+   "o": [
+    "better",
+    "more good",
+    "best",
+    "gooder"
+   ],
+   "a": 0,
+   "e": "Good is irregular: good, better, best."
+  },
+  {
+   "q": "This exam was ____ than the last one.",
+   "o": [
+    "worst",
+    "badder",
+    "more bad",
+    "worse"
+   ],
+   "a": 3,
+   "e": "Bad is irregular: bad, worse, worst."
+  },
+  {
+   "q": "He is as tall ____ his brother.",
+   "o": [
+    "than",
+    "that",
+    "like",
+    "as"
+   ],
+   "a": 3,
+   "e": "Equality uses as + adjective + as."
+  },
+  {
+   "q": "The test was ____ as difficult as I expected.",
+   "o": [
+    "none",
+    "not",
+    "nothing",
+    "nor"
+   ],
+   "a": 1,
+   "e": "Negative equality: not as + adjective + as."
+  },
+  {
+   "q": "He drinks ____ water than before.",
+   "o": [
+    "many",
+    "most",
+    "much",
+    "more"
+   ],
+   "a": 3,
+   "e": "Much is irregular: much, more, most. Use more with than."
+  },
+  {
+   "q": "Find the error: This is (A) the more (B) important lesson (C) in the (D) whole course.",
+   "o": [
+    "the more",
+    "important lesson",
+    "in the",
+    "whole course"
+   ],
+   "a": 0,
+   "e": "Use the superlative with in the whole course: the most important lesson."
+  },
+  {
+   "q": "Find the error: She is (A) more smarter (B) than (C) her (D) sister.",
+   "o": [
+    "more smarter",
+    "than",
+    "her",
+    "sister"
+   ],
+   "a": 0,
+   "e": "Do not use more with an -er adjective. Use smarter only."
+  },
+  {
+   "q": "Find the error: My English is (A) not as (B) good (C) than (D) yours.",
+   "o": [
+    "not as",
+    "good",
+    "than",
+    "yours"
+   ],
+   "a": 2,
+   "e": "Equality uses as ... as, not than: not as good as yours."
+  }
+ ],
+ "p15": [
+  {
+   "q": "He was tired ____ he went to bed early.",
+   "o": [
+    "because",
+    "although",
+    "so",
+    "unless"
+   ],
+   "a": 2,
+   "e": "So introduces a result."
+  },
+  {
+   "q": "____ it was raining, we played football.",
+   "o": [
+    "So",
+    "Because",
+    "Despite",
+    "Although"
+   ],
+   "a": 3,
+   "e": "Although is followed by a clause (subject + verb)."
+  },
+  {
+   "q": "____ the rain, we played football.",
+   "o": [
+    "Because",
+    "Although",
+    "Unless",
+    "Despite"
+   ],
+   "a": 3,
+   "e": "Despite is followed by a noun or -ing."
+  },
+  {
+   "q": "She stayed home ____ she was ill.",
+   "o": [
+    "because of",
+    "because",
+    "so",
+    "despite"
+   ],
+   "a": 1,
+   "e": "Because is followed by a clause."
+  },
+  {
+   "q": "She stayed home ____ her illness.",
+   "o": [
+    "because of",
+    "because",
+    "so that",
+    "although"
+   ],
+   "a": 0,
+   "e": "Because of is followed by a noun or -ing."
+  },
+  {
+   "q": "I studied hard ____ I could pass the exam.",
+   "o": [
+    "despite",
+    "so that",
+    "because of",
+    "unless"
+   ],
+   "a": 1,
+   "e": "So that expresses purpose."
+  },
+  {
+   "q": "You will fail ____ you study.",
+   "o": [
+    "although",
+    "because",
+    "unless",
+    "if"
+   ],
+   "a": 2,
+   "e": "Unless means if not."
+  },
+  {
+   "q": "The first group worked hard. ____, the second group did not.",
+   "o": [
+    "Unless",
+    "Because",
+    "So that",
+    "However"
+   ],
+   "a": 3,
+   "e": "However shows contrast between two sentences."
+  },
+  {
+   "q": "He missed the bus. ____, he arrived late.",
+   "o": [
+    "Unless",
+    "As a result",
+    "Despite",
+    "Although"
+   ],
+   "a": 1,
+   "e": "As a result introduces a result."
+  },
+  {
+   "q": "Find the error: (A) Despite (B) it was raining, (C) we continued (D) the lesson.",
+   "o": [
+    "Despite",
+    "it was raining,",
+    "we continued",
+    "the lesson"
+   ],
+   "a": 0,
+   "e": "Despite needs a noun or -ing. Use Although it was raining, or Despite the rain."
+  },
+  {
+   "q": "Find the error: He was absent (A) because of (B) he was sick (C) yesterday (D) morning.",
+   "o": [
+    "because of",
+    "he was sick",
+    "yesterday",
+    "morning"
+   ],
+   "a": 0,
+   "e": "Because of is followed by a noun or -ing. Before a clause, use because."
+  },
+  {
+   "q": "Find the error: (A) Although (B) she was tired, (C) but she (D) continued working.",
+   "o": [
+    "Although",
+    "she was tired,",
+    "but she",
+    "continued working."
+   ],
+   "a": 2,
+   "e": "Do not use but together with although. One conjunction is enough: Although she was tired, she continued working."
+  }
  ]
 }
