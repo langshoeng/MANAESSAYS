@@ -24,7 +24,7 @@
 },
 {
 "t": "p",
-"x": "Master coverage: 359 unique key terms."
+"x": "Master coverage: 419 unique key terms."
 },
 {
 "t": "h",
@@ -680,6 +680,30 @@
 "d": "An early stage of infant vocal development involving vowel-like sounds.",
 "e": "A baby produces sounds such as 'oo' or 'ah'.",
 "p": 1
+},
+{
+"t": "Interference",
+"d": "The influence of the first language on the second, leading to errors.",
+"e": "A learner whose first language has no articles leaves out 'a' and 'the' in English.",
+"p": 3
+},
+{
+"t": "Over-generalization",
+"d": "Applying a language rule too widely, including to exceptions.",
+"e": "A learner says 'goed' instead of 'went'.",
+"p": 3
+},
+{
+"t": "Comprehensible Output",
+"d": "Swain's idea that learners improve when they must produce language that others can understand.",
+"e": "Students explain a picture to a partner who cannot see it.",
+"p": 2
+},
+{
+"t": "Uptake",
+"d": "What a learner notices and uses from correction or input immediately afterwards.",
+"e": "After recast, the learner repeats the corrected form.",
+"p": 2
 }
 ]
 },
@@ -831,6 +855,42 @@
 "t": "Positive Transfer",
 "d": "Transfer that helps the learner produce or understand the target language.",
 "e": "A similar vocabulary item in two languages may help learning.",
+"p": 2
+},
+{
+"t": "Acquisition-Learning Hypothesis",
+"d": "Krashen's claim that adults have two separate systems: subconscious acquisition, which leads to fluency, and conscious learning, which is only used to monitor.",
+"e": "A child picks up English through play (acquisition); a student memorises grammar rules (learning).",
+"p": 3
+},
+{
+"t": "Monitor Hypothesis",
+"d": "Krashen's claim that conscious learning works only as an editor (monitor) that checks and corrects output.",
+"e": "A learner corrects a verb ending after speaking because they had time to apply a rule.",
+"p": 3
+},
+{
+"t": "Natural Order Hypothesis",
+"d": "Krashen's claim that learners acquire grammatical structures in a predictable order, regardless of the order taught.",
+"e": "Learners usually acquire the progressive -ing before the third-person -s.",
+"p": 3
+},
+{
+"t": "Input Hypothesis",
+"d": "Krashen's claim that learners acquire language when they understand input that is slightly beyond their current level (i + 1).",
+"e": "A teacher uses pictures and gestures so students understand a new story.",
+"p": 3
+},
+{
+"t": "i + 1",
+"d": "Krashen's formula for ideal input: the learner's current level (i) plus one step beyond it.",
+"e": "A student at beginner level hears simple sentences that contain a few new words.",
+"p": 3
+},
+{
+"t": "Monitor Model",
+"d": "Krashen's overall theory of second language acquisition, made up of five hypotheses (acquisition-learning, monitor, natural order, input, affective filter).",
+"e": "Used to explain why comprehensible input and a low-anxiety classroom matter.",
 "p": 2
 }
 ]
@@ -1056,6 +1116,54 @@
 "d": "An approach that treats language as an integrated whole and emphasizes meaningful reading and writing.",
 "e": "Students learn language through authentic texts and meaningful activities.",
 "p": 1
+},
+{
+"t": "PPP",
+"d": "A lesson model with three stages: Presentation, Practice, Production.",
+"e": "Teach 'used to' with pictures, drill it, then students write about childhood habits.",
+"p": 3
+},
+{
+"t": "PRS",
+"d": "A teaching sequence: Presentation, Restricted practice, Structured/free production.",
+"e": "Often presented as a variant of PPP in teacher training.",
+"p": 2
+},
+{
+"t": "Presentation",
+"d": "The stage in which new language is introduced and its meaning, form and use are made clear.",
+"e": "The teacher shows a timeline to introduce the present perfect.",
+"p": 2
+},
+{
+"t": "Practice",
+"d": "The stage in which learners use the new language under teacher control.",
+"e": "Choral drilling of a new sentence pattern.",
+"p": 2
+},
+{
+"t": "Production",
+"d": "The stage in which learners use the language freely and communicatively.",
+"e": "Students interview each other about past experiences.",
+"p": 2
+},
+{
+"t": "Controlled Practice",
+"d": "Practice in which the language and the response are strictly limited by the teacher; accuracy is the aim.",
+"e": "Gap-fill exercise with one right answer.",
+"p": 3
+},
+{
+"t": "Guided Practice",
+"d": "Practice that gives support and some choice, between controlled and free practice.",
+"e": "Students complete a dialogue using prompts.",
+"p": 3
+},
+{
+"t": "Free Practice",
+"d": "Practice in which learners choose their own language to complete a communicative task; fluency is the aim.",
+"e": "A group discussion or a role play.",
+"p": 3
 }
 ]
 },
@@ -1434,6 +1542,30 @@
 "d": "A learning activity in which students teach or explain content to classmates.",
 "e": "Pairs take turns explaining vocabulary.",
 "p": 2
+},
+{
+"t": "Concept Checking",
+"d": "Asking short questions to check that learners understand the meaning of new language.",
+"e": "'Is it happening now?' to check the present continuous.",
+"p": 3
+},
+{
+"t": "Comprehension Checking",
+"d": "Checking that learners understand a text, instruction or explanation.",
+"e": "Asking students to explain the instructions back.",
+"p": 2
+},
+{
+"t": "Error Correction",
+"d": "Techniques a teacher uses to show learners their mistakes and help them correct them.",
+"e": "Recasting a mistake, using fingers to show word order, or peer correction.",
+"p": 3
+},
+{
+"t": "Modeling",
+"d": "Showing learners how to do a task or say language by demonstrating a good example.",
+"e": "The teacher reads a sentence with correct stress before students repeat it.",
+"p": 2
 }
 ]
 },
@@ -1764,6 +1896,48 @@
 "d": "A distinct word or linguistic form counted as a category in a text.",
 "e": "In 'students study and students learn', 'students' is one type.",
 "p": 1
+},
+{
+"t": "Inflection",
+"d": "A change to the form of a word to show grammatical meaning, without changing its word class.",
+"e": "walk → walks, walked, walking; cat → cats.",
+"p": 3
+},
+{
+"t": "Tense",
+"d": "A grammatical form that shows the time of an action (present, past, future).",
+"e": "She walks (present) / She walked (past).",
+"p": 2
+},
+{
+"t": "Aspect",
+"d": "A grammatical view of an action: whether it is complete, in progress or repeated.",
+"e": "She is writing (progressive) / She has written (perfect).",
+"p": 3
+},
+{
+"t": "Voice",
+"d": "The grammatical relationship between the verb and the subject: active or passive.",
+"e": "The teacher marked the test (active) / The test was marked (passive).",
+"p": 2
+},
+{
+"t": "Mood",
+"d": "The speaker's attitude to the action shown by the verb: statement (indicative), command (imperative) or wish or doubt (subjunctive).",
+"e": "If I were you, I would study. (subjunctive)",
+"p": 1
+},
+{
+"t": "Modal",
+"d": "An auxiliary verb that expresses ability, possibility, permission or obligation.",
+"e": "can, could, may, might, must, should, will, would.",
+"p": 2
+},
+{
+"t": "Agreement",
+"d": "The matching of a verb with its subject in number and person, or of other related words.",
+"e": "She teaches (not 'She teach').",
+"p": 2
 }
 ]
 },
@@ -2002,6 +2176,84 @@
 "d": "The prominence given to one syllable within a word.",
 "e": "PHOtograph has stress on the first syllable.",
 "p": 2
+},
+{
+"t": "Allophone",
+"d": "A variant pronunciation of the same phoneme that does not change meaning.",
+"e": "The /p/ in 'pin' (aspirated) and in 'spin' (unaspirated) are allophones of /p/.",
+"p": 3
+},
+{
+"t": "Consonant",
+"d": "A speech sound made by blocking or narrowing the airflow in the mouth or throat.",
+"e": "/p/, /s/ and /m/ are consonants.",
+"p": 2
+},
+{
+"t": "Vowel",
+"d": "A speech sound made with open airflow and no blocking; the vocal tract is not closed.",
+"e": "/i:/ in 'see' and /ɑ:/ in 'car' are vowels.",
+"p": 2
+},
+{
+"t": "Diphthong",
+"d": "A vowel sound that glides from one vowel position to another within one syllable.",
+"e": "/aɪ/ in 'time' and /eɪ/ in 'day'.",
+"p": 2
+},
+{
+"t": "Monophthong",
+"d": "A pure vowel sound with one steady quality throughout.",
+"e": "/iː/ in 'see' and /ʊ/ in 'book'.",
+"p": 2
+},
+{
+"t": "Syllable",
+"d": "A unit of pronunciation built around one vowel sound, with or without consonants.",
+"e": "'Teacher' has two syllables: tea-cher.",
+"p": 2
+},
+{
+"t": "Schwa",
+"d": "The weak, neutral vowel /ə/, the most common sound in English, found in unstressed syllables.",
+"e": "The first and last vowels in 'banana' /bəˈnɑːnə/.",
+"p": 3
+},
+{
+"t": "Assimilation",
+"d": "A connected-speech change in which a sound becomes more like a neighbouring sound.",
+"e": "'Good boy' is often said as 'goob boy'.",
+"p": 3
+},
+{
+"t": "Elision",
+"d": "The omission of a sound in fast or connected speech.",
+"e": "'Next day' is said as 'nex day'.",
+"p": 3
+},
+{
+"t": "Weak Form",
+"d": "The reduced pronunciation of a function word when it is unstressed, often with a schwa.",
+"e": "'Can' in 'I can go' is pronounced /kən/.",
+"p": 2
+},
+{
+"t": "Linking",
+"d": "Joining the end of one word to the start of the next in connected speech so that they flow together.",
+"e": "'An apple' sounds like 'a napple'.",
+"p": 2
+},
+{
+"t": "Segmental Features",
+"d": "The individual sounds of a language, meaning its consonants and vowels.",
+"e": "Teaching the difference between /ɪ/ and /iː/ in 'ship' and 'sheep'.",
+"p": 2
+},
+{
+"t": "Suprasegmental Features",
+"d": "Features of speech that extend over more than one sound: stress, rhythm and intonation.",
+"e": "Rising intonation in a question such as 'Are you ready?'.",
+"p": 3
 }
 ]
 },
@@ -2141,6 +2393,72 @@
 "t": "Norm-Referenced Assessment",
 "d": "Assessment interpreted by comparing a learner's performance with that of a reference group.",
 "e": "A student's score is reported by percentile rank.",
+"p": 2
+},
+{
+"t": "Criterion-Referenced Test",
+"d": "A test that measures performance against a fixed standard or set of objectives, not against other students.",
+"e": "A driving test: everyone passes if the criteria are met.",
+"p": 3
+},
+{
+"t": "Norm-Referenced Test",
+"d": "A test that compares each student's score with the scores of other students.",
+"e": "A national exam that ranks students by percentile.",
+"p": 3
+},
+{
+"t": "Performance Assessment",
+"d": "Assessment that asks learners to show what they can do by carrying out a real task.",
+"e": "A presentation or role play marked with a rubric.",
+"p": 2
+},
+{
+"t": "Authentic Assessment",
+"d": "Assessment that uses real-world tasks that match what learners will do outside class.",
+"e": "Writing an email to a real customer.",
+"p": 3
+},
+{
+"t": "Alternative Assessment",
+"d": "Assessment that goes beyond traditional tests, such as portfolios, projects and self-assessment.",
+"e": "A learner's writing portfolio.",
+"p": 2
+},
+{
+"t": "Progress Test",
+"d": "A test given during a course to check how much learners have learned from recent lessons.",
+"e": "A short unit test after Unit 3.",
+"p": 2
+},
+{
+"t": "Diagnostic Test",
+"d": "A test used to find a learner's strengths and weaknesses before teaching.",
+"e": "A test at the start of the course on verb tenses.",
+"p": 2
+},
+{
+"t": "Aptitude Test",
+"d": "A test that predicts how well a person is likely to learn a language.",
+"e": "A test of sound discrimination and memory for new words.",
+"p": 2
+},
+{
+"t": "Practicality",
+"d": "The quality of a test being easy to design, give, mark and afford with the time and resources available.",
+"e": "A short multiple-choice test that can be machine-scored.",
+"p": 3
+},
+{
+"t": "Discrimination",
+"d": "The ability of a test item to separate stronger learners from weaker ones.",
+"e": "An item that most high scorers answer correctly and most low scorers get wrong.",
+"p": 2
+},
+{
+"t": "Test Bias",
+"d": "An unfair advantage or disadvantage in a test for some group of learners, unrelated to the skill being tested.",
+"e": "A reading passage about a sport that only some students know.",
 "p": 2
 }
 ]
@@ -2435,6 +2753,56 @@
 "t": "Global Citizenship",
 "d": "Awareness of global interdependence and the knowledge, skills, values, and attitudes needed to participate responsibly in a global community.",
 "e": "Students learn about global issues and respect different cultures.",
+"p": 2
+}
+]
+},
+{
+"id": "c18",
+"group": "Categories",
+"title": "Language Skills & Strategies",
+"kind": "terms",
+"terms": [
+{
+"t": "Skimming",
+"d": "Reading quickly to get the general idea of a text.",
+"e": "Glancing over headings and the first lines to find what an article is about.",
+"p": 3
+},
+{
+"t": "Scanning",
+"d": "Reading quickly to find a specific piece of information.",
+"e": "Looking through a timetable for the 9:00 train.",
+"p": 3
+},
+{
+"t": "Intensive Reading",
+"d": "Careful reading of a short text to understand details, language and meaning.",
+"e": "Studying a short passage line by line in class.",
+"p": 2
+},
+{
+"t": "Extensive Reading",
+"d": "Reading longer texts for pleasure and general understanding, often outside class.",
+"e": "Reading graded readers or a novel for fun.",
+"p": 3
+},
+{
+"t": "Bottom-Up Processing",
+"d": "Understanding a text by building meaning from small units: sounds, letters, words and sentences.",
+"e": "Decoding each word to understand a sentence.",
+"p": 3
+},
+{
+"t": "Top-Down Processing",
+"d": "Understanding a text by using background knowledge and expectations to predict meaning.",
+"e": "Guessing the topic of a news story from its headline.",
+"p": 3
+},
+{
+"t": "Interactive Processing",
+"d": "Combining bottom-up and top-down processing, using both language details and background knowledge.",
+"e": "A reader uses vocabulary clues and topic knowledge together.",
 "p": 2
 }
 ]
