@@ -668,5 +668,541 @@
    "a": 3,
    "e": "Information and advice are uncountable: no plural and no a/an."
   }
+ ],
+ "p9": [
+  {
+   "q": "You ____ follow the school rules. It is compulsory.",
+   "o": [
+    "could",
+    "may",
+    "might",
+    "must"
+   ],
+   "a": 3,
+   "e": "Must expresses strong obligation. Might and may express weaker possibility or permission."
+  },
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "She can to speak English.",
+    "She cans speak English.",
+    "She can speaks English.",
+    "She can speak English."
+   ],
+   "a": 3,
+   "e": "Core rule: modal + V1. Never add -s after a modal and never add to."
+  },
+  {
+   "q": "____ you help me with this exercise, please?",
+   "o": [
+    "Must",
+    "Could",
+    "Should",
+    "Might"
+   ],
+   "a": 1,
+   "e": "Could is used for polite requests. Must and should do not make requests."
+  },
+  {
+   "q": "It ____ rain this afternoon, but I am not sure.",
+   "o": [
+    "has to",
+    "must",
+    "might",
+    "will"
+   ],
+   "a": 2,
+   "e": "Might expresses weaker possibility, which fits I am not sure."
+  },
+  {
+   "q": "The ground is wet, so it ____ last night.",
+   "o": [
+    "must have rained",
+    "should rain",
+    "ought rained",
+    "must rain"
+   ],
+   "a": 0,
+   "e": "Must have + V3 shows a strong conclusion about the past."
+  },
+  {
+   "q": "You ____ harder. Now you have failed the test.",
+   "o": [
+    "would studied",
+    "should study",
+    "must study",
+    "should have studied"
+   ],
+   "a": 3,
+   "e": "Should have + V3 expresses past advice or regret."
+  },
+  {
+   "q": "I ____ to the concert, but I had no ticket.",
+   "o": [
+    "would going",
+    "can have gone",
+    "could have gone",
+    "could go"
+   ],
+   "a": 2,
+   "e": "Could have + V3 expresses a past possibility or missed opportunity."
+  },
+  {
+   "q": "We ____ wear a uniform at our school; it is the school's rule.",
+   "o": [
+    "would",
+    "have to",
+    "might",
+    "could"
+   ],
+   "a": 1,
+   "e": "Have to expresses external obligation: the rule comes from outside the speaker."
+  },
+  {
+   "q": "Teachers ____ to be patient with their students.",
+   "o": [
+    "ought",
+    "can",
+    "must",
+    "should"
+   ],
+   "a": 0,
+   "e": "Ought to expresses advice or duty. It is the only one of these that is followed by to."
+  },
+  {
+   "q": "____ I come in, please?",
+   "o": [
+    "Would",
+    "Must",
+    "May",
+    "Should"
+   ],
+   "a": 2,
+   "e": "May is used to ask for permission."
+  },
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "You musts follow the rules.",
+    "You must follow the rules.",
+    "You must to follow the rules.",
+    "You must following the rules."
+   ],
+   "a": 1,
+   "e": "A modal is followed directly by V1: no to, no -s, no -ing."
+  },
+  {
+   "q": "Which meaning does should usually express?",
+   "o": [
+    "Advice or expectation",
+    "External obligation",
+    "Past ability",
+    "A promise about the future"
+   ],
+   "a": 0,
+   "e": "Should is used for advice and expectation. External obligation is have to; a promise is will."
+  }
+ ],
+ "p12": [
+  {
+   "q": "\"I like English,\" she said. She said that she ____ English.",
+   "o": [
+    "likes",
+    "like",
+    "was liking",
+    "liked"
+   ],
+   "a": 3,
+   "e": "Present Simple changes to Past Simple in reported speech."
+  },
+  {
+   "q": "\"I am studying,\" he said. He said that he ____.",
+   "o": [
+    "was studying",
+    "had studying",
+    "is studying",
+    "studied"
+   ],
+   "a": 0,
+   "e": "Present Continuous changes to Past Continuous."
+  },
+  {
+   "q": "\"I have finished,\" she said. She said that she ____.",
+   "o": [
+    "was finishing",
+    "finished",
+    "has finished",
+    "had finished"
+   ],
+   "a": 3,
+   "e": "Present Perfect changes to Past Perfect."
+  },
+  {
+   "q": "\"I visited the museum,\" he said. He said that he ____ the museum.",
+   "o": [
+    "visited",
+    "had visited",
+    "has visited",
+    "was visiting"
+   ],
+   "a": 1,
+   "e": "Past Simple usually changes to Past Perfect."
+  },
+  {
+   "q": "\"I will help you,\" she said. She said that she ____ help me.",
+   "o": [
+    "shall",
+    "would",
+    "did",
+    "will"
+   ],
+   "a": 1,
+   "e": "Will changes to would in reported speech."
+  },
+  {
+   "q": "\"I can swim,\" he said. He said that he ____ swim.",
+   "o": [
+    "would can",
+    "can",
+    "was can",
+    "could"
+   ],
+   "a": 3,
+   "e": "Can changes to could."
+  },
+  {
+   "q": "\"I may come,\" she said. She said that she ____ come.",
+   "o": [
+    "must",
+    "would",
+    "may",
+    "might"
+   ],
+   "a": 3,
+   "e": "May changes to might in reported speech."
+  },
+  {
+   "q": "\"We will leave tomorrow,\" they said. They said they would leave ____.",
+   "o": [
+    "today",
+    "yesterday",
+    "the next day",
+    "tomorrow"
+   ],
+   "a": 2,
+   "e": "Tomorrow changes to the next day."
+  },
+  {
+   "q": "In reported speech, now usually changes to ____.",
+   "o": [
+    "there",
+    "then",
+    "here",
+    "tomorrow"
+   ],
+   "a": 1,
+   "e": "Now becomes then. Here becomes there."
+  },
+  {
+   "q": "\"Where do you live?\" she asked me. She asked me ____.",
+   "o": [
+    "where did I live",
+    "that where I lived",
+    "where do I live",
+    "where I lived"
+   ],
+   "a": 3,
+   "e": "A reported question uses statement order, not question order, and the tense moves back."
+  },
+  {
+   "q": "\"Study hard,\" the teacher said. The teacher told us ____.",
+   "o": [
+    "to study hard",
+    "we study hard",
+    "to studied hard",
+    "study hard"
+   ],
+   "a": 0,
+   "e": "Commands are reported with tell/told + object + to + V1."
+  },
+  {
+   "q": "Past Simple in direct speech usually becomes ____ in reported speech.",
+   "o": [
+    "Present Simple",
+    "Past Continuous",
+    "Future Simple",
+    "Past Perfect"
+   ],
+   "a": 3,
+   "e": "The tense moves one step back: Past Simple becomes Past Perfect."
+  }
+ ],
+ "p3": [
+  {
+   "q": "He is ____ honest student.",
+   "o": [
+    "no article",
+    "a",
+    "the",
+    "an"
+   ],
+   "a": 3,
+   "e": "Article choice depends on sound. Honest starts with a vowel sound because the h is silent."
+  },
+  {
+   "q": "She studies at ____ university in the city.",
+   "o": [
+    "a",
+    "an",
+    "no article",
+    "the"
+   ],
+   "a": 0,
+   "e": "University begins with a consonant sound (/j/), so use a."
+  },
+  {
+   "q": "Earth moves around ____ sun.",
+   "o": [
+    "the",
+    "an",
+    "a",
+    "no article"
+   ],
+   "a": 0,
+   "e": "Use the for something unique: there is only one sun."
+  },
+  {
+   "q": "Sokha is ____ best student in the class.",
+   "o": [
+    "the",
+    "an",
+    "no article",
+    "a"
+   ],
+   "a": 0,
+   "e": "Superlatives take the."
+  },
+  {
+   "q": "In general, ____ students need regular practice.",
+   "o": [
+    "no article",
+    "a",
+    "an",
+    "the"
+   ],
+   "a": 0,
+   "e": "A general plural noun takes the zero article."
+  },
+  {
+   "q": "I believe that ____ education is important for every country.",
+   "o": [
+    "an",
+    "no article",
+    "a",
+    "the"
+   ],
+   "a": 1,
+   "e": "Education is used in a general sense, so it takes the zero article."
+  },
+  {
+   "q": "I saw an accident yesterday. ____ accident was very serious.",
+   "o": [
+    "The",
+    "An",
+    "A",
+    "No article"
+   ],
+   "a": 0,
+   "e": "The accident is now specific and already mentioned, so use the."
+  },
+  {
+   "q": "He waited for ____ hour.",
+   "o": [
+    "the",
+    "no article",
+    "an",
+    "a"
+   ],
+   "a": 2,
+   "e": "Hour begins with a vowel sound (silent h), so use an."
+  },
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "She is the a university student.",
+    "She is university student.",
+    "She is a university student.",
+    "She is an university student."
+   ],
+   "a": 2,
+   "e": "University begins with a consonant sound, so the article is a."
+  },
+  {
+   "q": "Can you pass me ____ book on the table?",
+   "o": [
+    "the",
+    "no article",
+    "a",
+    "an"
+   ],
+   "a": 0,
+   "e": "Use the for a specific, known thing: the book on the table."
+  },
+  {
+   "q": "She wants to be ____ engineer.",
+   "o": [
+    "an",
+    "no article",
+    "the",
+    "a"
+   ],
+   "a": 0,
+   "e": "Engineer begins with a vowel sound, so use an."
+  },
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "An information is important.",
+    "Information is important.",
+    "The informations are important.",
+    "Informations are important."
+   ],
+   "a": 1,
+   "e": "Information is uncountable: no a/an and no plural."
+  }
+ ],
+ "p8": [
+  {
+   "q": "The class starts ____ 7:00.",
+   "o": [
+    "at",
+    "on",
+    "by",
+    "in"
+   ],
+   "a": 0,
+   "e": "Use at for clock time."
+  },
+  {
+   "q": "My birthday is ____ Monday.",
+   "o": [
+    "for",
+    "on",
+    "at",
+    "in"
+   ],
+   "a": 1,
+   "e": "Use on for days and dates."
+  },
+  {
+   "q": "She was born ____ 1998.",
+   "o": [
+    "on",
+    "in",
+    "at",
+    "since"
+   ],
+   "a": 1,
+   "e": "Use in for months, years and long periods."
+  },
+  {
+   "q": "They have lived here ____ 2015.",
+   "o": [
+    "by",
+    "since",
+    "during",
+    "for"
+   ],
+   "a": 1,
+   "e": "Since is used with a starting point."
+  },
+  {
+   "q": "He has taught English ____ ten years.",
+   "o": [
+    "since",
+    "until",
+    "for",
+    "by"
+   ],
+   "a": 2,
+   "e": "For is used with a duration."
+  },
+  {
+   "q": "Please submit your assignment ____ Friday.",
+   "o": [
+    "by",
+    "until",
+    "at",
+    "for"
+   ],
+   "a": 0,
+   "e": "By shows a deadline: not later than Friday."
+  },
+  {
+   "q": "I will stay in the library ____ five o'clock.",
+   "o": [
+    "until",
+    "during",
+    "in",
+    "by"
+   ],
+   "a": 0,
+   "e": "Until shows that an action continues up to a time."
+  },
+  {
+   "q": "He fell asleep ____ the lesson.",
+   "o": [
+    "during",
+    "by",
+    "since",
+    "for"
+   ],
+   "a": 0,
+   "e": "During is used for something within a period or event."
+  },
+  {
+   "q": "____ the rain, we played outside.",
+   "o": [
+    "Despite",
+    "Because of",
+    "Because",
+    "Although"
+   ],
+   "a": 0,
+   "e": "Despite (or in spite of) is followed by a noun or -ing. Although needs a clause."
+  },
+  {
+   "q": "He was late ____ the heavy traffic.",
+   "o": [
+    "because",
+    "despite",
+    "because of",
+    "although"
+   ],
+   "a": 2,
+   "e": "Because of is followed by a noun or -ing; because needs a clause."
+  },
+  {
+   "q": "The prize was shared ____ the three winners.",
+   "o": [
+    "by",
+    "between",
+    "at",
+    "among"
+   ],
+   "a": 3,
+   "e": "Among is used for a group of three or more; between is for two."
+  },
+  {
+   "q": "The ball is ____ the two boxes.",
+   "o": [
+    "among",
+    "at",
+    "between",
+    "in"
+   ],
+   "a": 2,
+   "e": "Between is used for two."
+  }
  ]
 }
