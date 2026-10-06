@@ -1740,5 +1740,943 @@
    "a": 2,
    "e": "Do not use but together with although. One conjunction is enough: Although she was tired, she continued working."
   }
+ ],
+ "p4": [
+  {
+   "q": "I need some ____.",
+   "o": [
+    "an advice",
+    "advice",
+    "advices",
+    "a advice"
+   ],
+   "a": 1,
+   "e": "Advice is uncountable: some advice, a piece of advice."
+  },
+  {
+   "q": "She gave us a lot of ____.",
+   "o": [
+    "information",
+    "a information",
+    "an information",
+    "informations"
+   ],
+   "a": 0,
+   "e": "Information is uncountable and has no plural."
+  },
+  {
+   "q": "There are ____ students in the room.",
+   "o": [
+    "many",
+    "little",
+    "a little",
+    "much"
+   ],
+   "a": 0,
+   "e": "Use many with countable plural nouns."
+  },
+  {
+   "q": "He does not have ____ information about the test.",
+   "o": [
+    "much",
+    "few",
+    "many",
+    "a few"
+   ],
+   "a": 0,
+   "e": "Use much with uncountable nouns."
+  },
+  {
+   "q": "There are ____ students today than yesterday.",
+   "o": [
+    "less",
+    "fewer",
+    "little",
+    "much"
+   ],
+   "a": 1,
+   "e": "Use fewer with countable nouns: fewer students."
+  },
+  {
+   "q": "We have ____ time than we thought.",
+   "o": [
+    "fewer",
+    "less",
+    "few",
+    "many"
+   ],
+   "a": 1,
+   "e": "Use less with uncountable nouns: less time."
+  },
+  {
+   "q": "Which noun is uncountable?",
+   "o": [
+    "student",
+    "school",
+    "book",
+    "homework"
+   ],
+   "a": 3,
+   "e": "Homework is uncountable. You cannot say a homework or homeworks."
+  },
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "She gave me many advices.",
+    "She gave me advices.",
+    "She gave me a piece of advice.",
+    "She gave me an advice."
+   ],
+   "a": 2,
+   "e": "Advice is uncountable, so use a piece of advice or some advice."
+  },
+  {
+   "q": "Our school has new ____.",
+   "o": [
+    "equipments",
+    "a equipment",
+    "an equipment",
+    "equipment"
+   ],
+   "a": 3,
+   "e": "Equipment is uncountable and has no plural."
+  },
+  {
+   "q": "Find the error: She (A) gave (B) me (C) many informations (D) yesterday.",
+   "o": [
+    "gave",
+    "me",
+    "many informations",
+    "yesterday"
+   ],
+   "a": 2,
+   "e": "Information is uncountable: much information, not many informations."
+  },
+  {
+   "q": "Find the error: He (A) asked me (B) for an advice (C) about (D) the exam.",
+   "o": [
+    "asked me",
+    "for an advice",
+    "about",
+    "the exam"
+   ],
+   "a": 1,
+   "e": "Advice is uncountable: for some advice or for a piece of advice."
+  },
+  {
+   "q": "Find the error: (A) Fewer (B) information (C) is (D) available online.",
+   "o": [
+    "Fewer",
+    "information",
+    "is",
+    "available online"
+   ],
+   "a": 0,
+   "e": "Information is uncountable, so use less information, not fewer."
+  }
+ ],
+ "p5": [
+  {
+   "q": "____ is a good teacher.",
+   "o": [
+    "She",
+    "Hers",
+    "Her",
+    "Herself"
+   ],
+   "a": 0,
+   "e": "A subject pronoun is needed before the verb: she."
+  },
+  {
+   "q": "The teacher helped ____.",
+   "o": [
+    "I",
+    "me",
+    "mine",
+    "my"
+   ],
+   "a": 1,
+   "e": "After a verb, use an object pronoun: me."
+  },
+  {
+   "q": "This is my book. That one is ____.",
+   "o": [
+    "your",
+    "you",
+    "yourself",
+    "yours"
+   ],
+   "a": 3,
+   "e": "A possessive pronoun stands alone with no noun after it: yours."
+  },
+  {
+   "q": "She taught ____ to speak English.",
+   "o": [
+    "herself",
+    "hers",
+    "she",
+    "her"
+   ],
+   "a": 0,
+   "e": "A reflexive pronoun is used when the subject and object are the same person."
+  },
+  {
+   "q": "The cat licked ____ paws.",
+   "o": [
+    "its",
+    "it",
+    "it's",
+    "itself"
+   ],
+   "a": 0,
+   "e": "Its shows possession. It's means it is or it has."
+  },
+  {
+   "q": "____ time to start the lesson.",
+   "o": [
+    "Itself",
+    "It's",
+    "Its",
+    "It"
+   ],
+   "a": 1,
+   "e": "It's = it is. Its is for possession."
+  },
+  {
+   "q": "____ are my friends over there.",
+   "o": [
+    "This",
+    "Him",
+    "That",
+    "Those"
+   ],
+   "a": 3,
+   "e": "Those is the plural demonstrative for things or people that are far."
+  },
+  {
+   "q": "They finished ____ homework.",
+   "o": [
+    "them",
+    "they",
+    "their",
+    "theirs"
+   ],
+   "a": 2,
+   "e": "A possessive adjective comes before a noun: their homework."
+  },
+  {
+   "q": "The pen on the desk is ____.",
+   "o": [
+    "their",
+    "they",
+    "them",
+    "theirs"
+   ],
+   "a": 3,
+   "e": "A possessive pronoun replaces a noun: theirs."
+  },
+  {
+   "q": "Find the error: (A) Her (B) and I (C) went (D) to the library.",
+   "o": [
+    "Her",
+    "and I",
+    "went",
+    "to the library"
+   ],
+   "a": 0,
+   "e": "Use a subject pronoun: She and I went to the library."
+  },
+  {
+   "q": "Find the error: The dog wagged (A) it's (B) tail (C) when (D) it saw me.",
+   "o": [
+    "it's",
+    "tail",
+    "when",
+    "it saw me"
+   ],
+   "a": 0,
+   "e": "It's means it is. For possession, use its: The dog wagged its tail."
+  },
+  {
+   "q": "Find the error: He (A) hurt (B) him (C) while he (D) was cooking.",
+   "o": [
+    "hurt",
+    "him",
+    "while he",
+    "was cooking"
+   ],
+   "a": 1,
+   "e": "When the subject and object are the same person, use a reflexive pronoun: himself."
+  }
+ ],
+ "p6": [
+  {
+   "q": "She is a ____ teacher.",
+   "o": [
+    "careful",
+    "carefulness",
+    "carefully",
+    "care"
+   ],
+   "a": 0,
+   "e": "An adjective describes a noun: a careful teacher."
+  },
+  {
+   "q": "She works ____.",
+   "o": [
+    "careful",
+    "care",
+    "carefully",
+    "caring"
+   ],
+   "a": 2,
+   "e": "An adverb describes a verb: works carefully."
+  },
+  {
+   "q": "He speaks English very ____.",
+   "o": [
+    "goods",
+    "goodness",
+    "well",
+    "good"
+   ],
+   "a": 2,
+   "e": "Well is the adverb that describes how he speaks."
+  },
+  {
+   "q": "He is a ____ student.",
+   "o": [
+    "goodly",
+    "goodness",
+    "good",
+    "well"
+   ],
+   "a": 2,
+   "e": "Good is the adjective that describes a noun."
+  },
+  {
+   "q": "She studies ____ for the exam.",
+   "o": [
+    "hard",
+    "hardy",
+    "hards",
+    "hardly"
+   ],
+   "a": 0,
+   "e": "Hard means with effort. Hardly means almost not."
+  },
+  {
+   "q": "He could ____ believe the result.",
+   "o": [
+    "hardly",
+    "hard",
+    "hardness",
+    "harder"
+   ],
+   "a": 0,
+   "e": "Hardly means almost not: he could almost not believe it."
+  },
+  {
+   "q": "I have not seen her ____.",
+   "o": [
+    "latter",
+    "latest",
+    "lately",
+    "late"
+   ],
+   "a": 2,
+   "e": "Lately means recently. Late means not early."
+  },
+  {
+   "q": "He arrived ____ for the class.",
+   "o": [
+    "lateness",
+    "late",
+    "latest",
+    "lately"
+   ],
+   "a": 1,
+   "e": "Late means not early."
+  },
+  {
+   "q": "The exam is ____ finished.",
+   "o": [
+    "nearly",
+    "near",
+    "nearness",
+    "nearest"
+   ],
+   "a": 0,
+   "e": "Nearly means almost. Near means close."
+  },
+  {
+   "q": "Find the error: She (A) speaks (B) English (C) very (D) good.",
+   "o": [
+    "speaks",
+    "English",
+    "very",
+    "good"
+   ],
+   "a": 3,
+   "e": "Speaks is a verb, so use the adverb well: very well."
+  },
+  {
+   "q": "Find the error: He (A) works (B) very hardly (C) every (D) day.",
+   "o": [
+    "works",
+    "very hardly",
+    "every",
+    "day"
+   ],
+   "a": 1,
+   "e": "Hardly means almost not. Use hard for effort: works very hard."
+  },
+  {
+   "q": "Find the error: The teacher (A) explained (B) the lesson (C) clear (D) to us.",
+   "o": [
+    "explained",
+    "the lesson",
+    "clear",
+    "to us"
+   ],
+   "a": 2,
+   "e": "An adverb describes how she explained: clearly."
+  }
+ ],
+ "p16": [
+  {
+   "q": "____ she teach English?",
+   "o": [
+    "Do",
+    "Does",
+    "Is",
+    "Are"
+   ],
+   "a": 1,
+   "e": "Present Simple questions with she use Does + S + V1."
+  },
+  {
+   "q": "____ you finish the work yesterday?",
+   "o": [
+    "Did",
+    "Does",
+    "Have",
+    "Do"
+   ],
+   "a": 0,
+   "e": "Past Simple questions use Did + S + V1."
+  },
+  {
+   "q": "____ the students studying now?",
+   "o": [
+    "Have",
+    "Do",
+    "Does",
+    "Are"
+   ],
+   "a": 3,
+   "e": "Present Continuous questions use Am/Is/Are + S + V-ing."
+  },
+  {
+   "q": "____ you ever visited a museum?",
+   "o": [
+    "Are",
+    "Have",
+    "Has",
+    "Did"
+   ],
+   "a": 1,
+   "e": "Present Perfect questions use Have/Has + S + V3. Have goes with you."
+  },
+  {
+   "q": "____ the class started before you arrived?",
+   "o": [
+    "Has",
+    "Did",
+    "Was",
+    "Had"
+   ],
+   "a": 3,
+   "e": "Past Perfect questions use Had + S + V3."
+  },
+  {
+   "q": "____ you help me tomorrow?",
+   "o": [
+    "Did",
+    "Will",
+    "Do",
+    "Does"
+   ],
+   "a": 1,
+   "e": "Future questions use Will + S + V1."
+  },
+  {
+   "q": "Who ____ English in your school?",
+   "o": [
+    "does teach",
+    "teaching",
+    "teaches",
+    "teach"
+   ],
+   "a": 2,
+   "e": "In a subject question, who is the subject, so do/does/did is not needed."
+  },
+  {
+   "q": "Which question is correct?",
+   "o": [
+    "Where does she live?",
+    "Where does she lives?",
+    "Where lives she?",
+    "Where she lives?"
+   ],
+   "a": 0,
+   "e": "Question word + does + subject + V1."
+  },
+  {
+   "q": "Which question is correct?",
+   "o": [
+    "Has he go to school?",
+    "Did he went to school?",
+    "Does he went to school?",
+    "Did he go to school?"
+   ],
+   "a": 3,
+   "e": "After did, use V1: Did he go?"
+  },
+  {
+   "q": "Find the error: (A) Does (B) she (C) teaches (D) English?",
+   "o": [
+    "Does",
+    "she",
+    "teaches",
+    "English"
+   ],
+   "a": 2,
+   "e": "After does, use V1: Does she teach English?"
+  },
+  {
+   "q": "Find the error: (A) Where (B) did (C) you went (D) yesterday?",
+   "o": [
+    "Where",
+    "did",
+    "you went",
+    "yesterday"
+   ],
+   "a": 2,
+   "e": "After did, use V1: Where did you go yesterday?"
+  },
+  {
+   "q": "Find the error: (A) Who (B) does (C) teach (D) English in this school?",
+   "o": [
+    "Who",
+    "does",
+    "teach",
+    "English in this school"
+   ],
+   "a": 1,
+   "e": "Who is the subject here, so no does is needed: Who teaches English in this school?"
+  }
+ ],
+ "p17": [
+  {
+   "q": "You are ready, ____?",
+   "o": [
+    "aren't you",
+    "are you",
+    "isn't you",
+    "don't you"
+   ],
+   "a": 0,
+   "e": "A positive statement takes a negative tag. Are → aren't."
+  },
+  {
+   "q": "She doesn't teach here, ____?",
+   "o": [
+    "do she",
+    "is she",
+    "doesn't she",
+    "does she"
+   ],
+   "a": 3,
+   "e": "A negative statement takes a positive tag. Doesn't → does."
+  },
+  {
+   "q": "They went home, ____?",
+   "o": [
+    "did they",
+    "don't they",
+    "weren't they",
+    "didn't they"
+   ],
+   "a": 3,
+   "e": "Past Simple takes did/didn't in the tag: went → didn't they."
+  },
+  {
+   "q": "He can swim, ____?",
+   "o": [
+    "can't he",
+    "isn't he",
+    "doesn't he",
+    "couldn't he"
+   ],
+   "a": 0,
+   "e": "Repeat the modal in the tag: can → can't he."
+  },
+  {
+   "q": "Let's study, ____?",
+   "o": [
+    "will we",
+    "shall we",
+    "don't we",
+    "do we"
+   ],
+   "a": 1,
+   "e": "Let's takes the tag shall we."
+  },
+  {
+   "q": "Open the door, ____?",
+   "o": [
+    "will you",
+    "do you",
+    "aren't you",
+    "shall we"
+   ],
+   "a": 0,
+   "e": "A command takes the tag will you."
+  },
+  {
+   "q": "I am late, ____?",
+   "o": [
+    "isn't I",
+    "aren't I",
+    "don't I",
+    "am I not"
+   ],
+   "a": 1,
+   "e": "After I am, the tag is aren't I."
+  },
+  {
+   "q": "Teachers help students, ____?",
+   "o": [
+    "don't they",
+    "doesn't they",
+    "aren't they",
+    "haven't they"
+   ],
+   "a": 0,
+   "e": "Present Simple plural subject: help → don't they."
+  },
+  {
+   "q": "She has finished, ____?",
+   "o": [
+    "hadn't she",
+    "hasn't she",
+    "isn't she",
+    "doesn't she"
+   ],
+   "a": 1,
+   "e": "Repeat the auxiliary has in the tag: hasn't she."
+  },
+  {
+   "q": "Find the error: He (A) likes (B) coffee, (C) isn't (D) he?",
+   "o": [
+    "likes",
+    "coffee,",
+    "isn't",
+    "he"
+   ],
+   "a": 2,
+   "e": "Present Simple with he: likes → doesn't he."
+  },
+  {
+   "q": "Find the error: They (A) don't (B) work (C) here, (D) don't they?",
+   "o": [
+    "don't",
+    "work",
+    "here,",
+    "don't they"
+   ],
+   "a": 3,
+   "e": "A negative statement takes a positive tag: do they."
+  },
+  {
+   "q": "Find the error: Let's (A) go (B) now, (C) will (D) we?",
+   "o": [
+    "go",
+    "now,",
+    "will",
+    "we"
+   ],
+   "a": 2,
+   "e": "Let's takes shall we, not will we."
+  }
+ ],
+ "p18": [
+  {
+   "q": "Students study. What type of sentence is this?",
+   "o": [
+    "Compound-complex",
+    "Simple",
+    "Compound",
+    "Complex"
+   ],
+   "a": 1,
+   "e": "One independent clause only: simple."
+  },
+  {
+   "q": "Students study, and teachers help. What type is this?",
+   "o": [
+    "Compound-complex",
+    "Simple",
+    "Complex",
+    "Compound"
+   ],
+   "a": 3,
+   "e": "Two independent clauses joined by and: compound."
+  },
+  {
+   "q": "Students study because they want to improve. What type is this?",
+   "o": [
+    "Complex",
+    "Compound",
+    "Simple",
+    "Compound-complex"
+   ],
+   "a": 0,
+   "e": "An independent clause plus a dependent clause starting with because: complex."
+  },
+  {
+   "q": "Students study, and teachers help because the exam is important. What type is this?",
+   "o": [
+    "Compound",
+    "Complex",
+    "Compound-complex",
+    "Simple"
+   ],
+   "a": 2,
+   "e": "Two independent clauses plus a dependent clause: compound-complex."
+  },
+  {
+   "q": "Which sentence is complex?",
+   "o": [
+    "She stayed home because she was ill.",
+    "She was tired, but she studied, and she passed.",
+    "She was ill, so she stayed home.",
+    "She stayed home."
+   ],
+   "a": 0,
+   "e": "Only the first has an independent clause plus a dependent clause (because she was ill)."
+  },
+  {
+   "q": "A complex sentence has ____.",
+   "o": [
+    "no independent clause",
+    "only one clause",
+    "two independent clauses and a conjunction",
+    "one independent clause and at least one dependent clause"
+   ],
+   "a": 3,
+   "e": "Complex = independent clause + dependent clause."
+  },
+  {
+   "q": "A compound sentence joins ____.",
+   "o": [
+    "an independent clause and a dependent clause",
+    "two dependent clauses",
+    "two independent clauses with a conjunction",
+    "a phrase and a clause"
+   ],
+   "a": 2,
+   "e": "Compound = two or more independent clauses joined by a conjunction."
+  },
+  {
+   "q": "Which list shows the FANBOYS conjunctions?",
+   "o": [
+    "because, although, if, since",
+    "who, whom, which, whose",
+    "however, moreover, therefore, thus",
+    "for, and, nor, but, or, yet, so"
+   ],
+   "a": 3,
+   "e": "FANBOYS = for, and, nor, but, or, yet, so."
+  },
+  {
+   "q": "Which word is a FANBOYS conjunction?",
+   "o": [
+    "yet",
+    "unless",
+    "because",
+    "although"
+   ],
+   "a": 0,
+   "e": "Yet is a FANBOYS word. The others begin dependent clauses."
+  },
+  {
+   "q": "She studied hard, ____ she passed the exam.",
+   "o": [
+    "so",
+    "although",
+    "because",
+    "unless"
+   ],
+   "a": 0,
+   "e": "So is a FANBOYS conjunction that joins two independent clauses and shows a result."
+  },
+  {
+   "q": "Which sentence is simple?",
+   "o": [
+    "Students study, and teachers help because the exam is important.",
+    "Teachers help students, and students learn.",
+    "Students learn because teachers help.",
+    "Teachers help students."
+   ],
+   "a": 3,
+   "e": "One independent clause only: simple."
+  },
+  {
+   "q": "Which sentence is compound-complex?",
+   "o": [
+    "Students study because they want to improve.",
+    "Students study, and teachers help because the exam is important.",
+    "Students study, and teachers help.",
+    "Students study."
+   ],
+   "a": 1,
+   "e": "Two independent clauses plus a dependent clause: compound-complex."
+  }
+ ],
+ "irregular": [
+  {
+   "q": "What is the past simple of go?",
+   "o": [
+    "goed",
+    "went",
+    "goes",
+    "gone"
+   ],
+   "a": 1,
+   "e": "Go – went – gone."
+  },
+  {
+   "q": "She has ____ the report.",
+   "o": [
+    "wrote",
+    "write",
+    "writed",
+    "written"
+   ],
+   "a": 3,
+   "e": "Present Perfect needs V3: write – wrote – written."
+  },
+  {
+   "q": "They ____ to school yesterday.",
+   "o": [
+    "gone",
+    "goed",
+    "go",
+    "went"
+   ],
+   "a": 3,
+   "e": "Past Simple needs V2: went."
+  },
+  {
+   "q": "He has ____ his keys.",
+   "o": [
+    "lost",
+    "loss",
+    "losed",
+    "loose"
+   ],
+   "a": 0,
+   "e": "Lose – lost – lost."
+  },
+  {
+   "q": "I ____ him last week.",
+   "o": [
+    "sawed",
+    "seen",
+    "saw",
+    "see"
+   ],
+   "a": 2,
+   "e": "See – saw – seen. Last week needs Past Simple: saw."
+  },
+  {
+   "q": "We have already ____ lunch.",
+   "o": [
+    "eated",
+    "ate",
+    "eat",
+    "eaten"
+   ],
+   "a": 3,
+   "e": "Eat – ate – eaten. Have needs V3."
+  },
+  {
+   "q": "The students have ____ the exam.",
+   "o": [
+    "take",
+    "took",
+    "taked",
+    "taken"
+   ],
+   "a": 3,
+   "e": "Take – took – taken."
+  },
+  {
+   "q": "She ____ a beautiful song.",
+   "o": [
+    "sung",
+    "sang",
+    "singed",
+    "sing"
+   ],
+   "a": 1,
+   "e": "Sing – sang – sung. Past Simple uses sang."
+  },
+  {
+   "q": "Which line is correct (V1 – V2 – V3)?",
+   "o": [
+    "begin – begin – began",
+    "begin – began – began",
+    "begin – began – begun",
+    "begin – begun – began"
+   ],
+   "a": 2,
+   "e": "Begin – began – begun."
+  },
+  {
+   "q": "Find the error: She (A) has (B) wrote (C) three (D) essays this week.",
+   "o": [
+    "has",
+    "wrote",
+    "three",
+    "essays this week"
+   ],
+   "a": 1,
+   "e": "Has needs V3: has written."
+  },
+  {
+   "q": "Find the error: He (A) buyed (B) a new book (C) last (D) week.",
+   "o": [
+    "buyed",
+    "a new book",
+    "last",
+    "week"
+   ],
+   "a": 0,
+   "e": "Buy – bought – bought: He bought a new book."
+  },
+  {
+   "q": "Find the error: They have (A) went (B) to the market (C) and (D) bought fruit.",
+   "o": [
+    "went",
+    "to the market",
+    "and",
+    "bought fruit"
+   ],
+   "a": 0,
+   "e": "Have needs V3 of go: have gone."
+  }
  ]
 }
