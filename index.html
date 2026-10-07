@@ -85,7 +85,8 @@ button,select{min-height:44px}
 }
 @media (prefers-reduced-motion:reduce){#toast,aside{transition:none}}
 
-.tabs{display:flex;gap:6px}.tabs button{flex:1}
+.tabs{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:6px}
+.tabs button{min-width:0;padding-left:2px;padding-right:2px;font-size:.84rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .grp-h{margin:12px 0 2px;padding:0 10px;color:var(--mute);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}
 .gh{display:flex;gap:12px;align-items:flex-start;justify-content:space-between}
 .gh button{white-space:nowrap;flex:none}
@@ -135,6 +136,9 @@ button,select{min-height:44px}
 .pl pre{white-space:pre-wrap;overflow-wrap:anywhere;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px;font:.9rem/1.6 Figtree,system-ui,sans-serif;margin:12px 0 8px}
 #wNav{margin-top:28px;padding-top:16px;border-top:1px solid var(--line)}
 #wNav button{flex:1}
+.ul{text-decoration:underline;text-underline-offset:3px;font-weight:600}
+.ul sup{font-size:.7em;color:var(--accent);margin-right:2px;text-decoration:none;display:inline-block}
+#side>*{max-width:100%}
 </style>
 </head>
 <body>
@@ -612,11 +616,20 @@ function startPractice(list,partial){
   ps={qs:shuffle((list||prac[curG.id]).slice()),i:0,score:0,missed:[],locked:false,partial:!!partial};
   showView('practice');renderQ();
 }
+function plainQ(t){return t.replace(/\{([ABCD])\|([^}]*)\}/g,'($1) $2')}
+function setQ(e,text){
+  const re=/\{([ABCD])\|([^}]*)\}/g;let last=0,m;
+  while((m=re.exec(text))){
+    if(m.index>last)e.append(document.createTextNode(text.slice(last,m.index)));
+    const u=el('u','ul');u.append(el('sup','',m[1]),document.createTextNode(' '+m[2]));e.append(u);last=re.lastIndex}
+  if(last<text.length)e.append(document.createTextNode(text.slice(last)));
+}
 function renderQ(){
   const box=$('#pBody');box.textContent='';
   if(ps.i>=ps.qs.length){renderResult();return}
   const q=ps.qs[ps.i];
-  box.append(el('p','prog','Question '+(ps.i+1)+' of '+ps.qs.length+' - score '+ps.score),el('p','qtext',q.q));
+  const qp=el('p','qtext');setQ(qp,q.q);
+  box.append(el('p','prog','Question '+(ps.i+1)+' of '+ps.qs.length+' - score '+ps.score),qp);
   q.o.forEach((o,k)=>{const b=el('button','opt','ABCD'[k]+'. '+o);b.onclick=()=>answer(k);box.append(b)});
   window.scrollTo(0,0);
 }
@@ -640,7 +653,7 @@ function renderResult(){
   if(!ps.partial&&curG.m!=='weak'&&(sc[curG.id]===undefined||ps.score>sc[curG.id])){sc[curG.id]=ps.score;save()}
   updPractice();renderList();
   box.append(el('h3','','Result: '+ps.score+' / '+n),el('p','',ps.missed.length?'Read the explanations for the questions you missed, then retry them.':'Perfect score. Restart to practise again in a new order.'));
-  ps.missed.forEach(q=>{const d=el('div','exp');d.append(el('b','',q.q),el('br'),document.createTextNode('Answer: '+q.o[q.a]+'. '+q.e));box.append(d)});
+  ps.missed.forEach(q=>{const d=el('div','exp');d.append(el('b','',plainQ(q.q)),el('br'),document.createTextNode('Answer: '+q.o[q.a]+'. '+q.e));box.append(d)});
   const g=el('div','grp');g.style.marginTop='16px';
   if(ps.missed.length){const r=el('button','primary','Retry missed ('+ps.missed.length+')');r.onclick=()=>startPractice(ps.missed.slice(),true);g.append(r)}
   const a=el('button','','Restart all');a.onclick=()=>startPractice();
