@@ -141,6 +141,8 @@ button,select{min-height:44px}
 #side>*{max-width:100%}
 .qa{border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:10px 0}
 .qa summary{cursor:pointer;font-weight:600}
+#pinBtn{flex:none;padding:0 12px;font-size:1.25rem;line-height:1.2;min-height:36px}
+#pinBtn.on{color:var(--accent);border-color:var(--accent)}
 </style>
 </head>
 <body>
@@ -181,8 +183,7 @@ button,select{min-height:44px}
     <article id="doc" hidden>
       <h1 id="vTitle"></h1>
       <p id="meta"></p>
-      <p id="status" class="lbl" style="margin:-8px 0 12px"></p>
-      <button id="pinBtn" aria-pressed="false" style="margin:0 0 14px">&#9734; Pin this essay</button>
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin:-8px 0 12px"><p id="status" class="lbl" style="margin:0"></p><button id="pinBtn" aria-pressed="false" aria-label="Pin this essay" title="Pin this essay">&#9734;</button></div>
       <div class="grp" id="src" hidden><button id="srcVoice" class="primary">Default voice</button><button id="srcRec">My recording</button></div>
       <button id="tapBtn" class="primary" hidden style="margin:10px 0">Tap to continue playing</button>
       <audio id="aud" controls preload="metadata" hidden style="width:100%;margin:14px 0"></audio>
@@ -238,7 +239,8 @@ function renderEList(){
 }
 function updPin(){
   const on=!!cur&&pinSet().has(cur.file);
-  $('#pinBtn').textContent=on?'\u2605 Pinned':'\u2606 Pin this essay';$('#pinBtn').setAttribute('aria-pressed',String(on));
+  const b=$('#pinBtn'),t=on?'Unpin this essay':'Pin this essay';
+  b.textContent=on?'\u2605':'\u2606';b.title=t;b.setAttribute('aria-label',t);b.setAttribute('aria-pressed',String(on));b.classList.toggle('on',on);
 }
 
 function renderBody(text){
