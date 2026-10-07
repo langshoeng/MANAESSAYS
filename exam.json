@@ -2941,6 +2941,302 @@
 "e": "Intuition: instinctive knowing; a feeling that something might happen."
 }
 ]
+},
+{
+"id": "x_vfill",
+"group": "Part II - Vocabulary",
+"title": "I. Words from descriptions",
+"intro": "Choose the word that fits each description. In the bank you wrote the word yourself; here each question has four options. 9 questions from the NIE exam bank. Three items (4, 11 and 12 of the bank) were left out because more than one answer fits. The bank has no answer key, so the answers were prepared by Claude: please check them against your own key.",
+"questions": [
+{
+"q": "A long composition that is written by hand is a ____.",
+"o": [
+"manual",
+"manifesto",
+"manuscript",
+"monologue"
+],
+"a": 2,
+"e": "Manuscript: manu (hand) + script (write), a text written by hand."
+},
+{
+"q": "A few nice words that are said to end a ceremony are called a ____.",
+"o": [
+"contradiction",
+"benediction",
+"prediction",
+"addiction"
+],
+"a": 1,
+"e": "Benediction: bene (good) + diction (speaking), good words said at the end of a service or ceremony."
+},
+{
+"q": "Glasses that you use to see better are also called ____.",
+"o": [
+"spectacles",
+"spectators",
+"spectrums",
+"specimens"
+],
+"a": 0,
+"e": "Spectacles: from spect (see)."
+},
+{
+"q": "If you write in a very messy way, you ____.",
+"o": [
+"subscribe",
+"describe",
+"scribble",
+"transcribe"
+],
+"a": 2,
+"e": "Scribble: from scrib (write), to write quickly and messily. (Scrawl would also fit; it is not among the options.)"
+},
+{
+"q": "If you send someone away from you, you ____ her.",
+"o": [
+"dismantle",
+"distress",
+"discuss",
+"dismiss"
+],
+"a": 3,
+"e": "Dismiss: dis (away) + miss (send)."
+},
+{
+"q": "A closed-topped car that can be turned into an open-top car is a ____.",
+"o": [
+"convenient",
+"conventional",
+"convertible",
+"converter"
+],
+"a": 2,
+"e": "A convertible is a car whose roof can be converted (changed) to open-top."
+},
+{
+"q": "Something that is said by an authority or government and must be followed is a(n) ____.",
+"o": [
+"verdict",
+"dictionary",
+"edict",
+"diction"
+],
+"a": 2,
+"e": "Edict: e (out) + dict (say), an official order. (Decree would also fit; it is not among the options.)"
+},
+{
+"q": "To go in between two people who are having an argument is to ____.",
+"o": [
+"intervene",
+"inhale",
+"invent",
+"interview"
+],
+"a": 0,
+"e": "Intervene: inter (between) + vene (come)."
+},
+{
+"q": "Something that you see that is truly amazing is ____.",
+"o": [
+"spectacular",
+"specific",
+"spectator",
+"spectrum"
+],
+"a": 0,
+"e": "Spectacular: from spect (see), impressive to look at."
+}
+]
+},
+{
+"id": "x_tesol",
+"group": "Part III - TESOL and Education",
+"title": "Short-answer questions (model outlines)",
+"intro": "Part III",
+"blocks": [
+{
+"t": "p",
+"x": "These are open questions with no single correct answer, so they cannot be marked like the others. Write your own answer first (about 5 minutes on paper), then open the sample outline and tick the self-check. Where the question says \"based on your beliefs or experiences\", the outline only gives structure and example ideas: your own ideas should come first."
+},
+{
+"t": "qa",
+"q": "1. Briefly explain the qualities of modern education.",
+"tip": "Structure: one sentence defining modern education, 4 or 5 qualities with a one-line explanation each, a closing sentence.",
+"pts": [
+"Learner-centred: students take an active part, and the teacher guides and supports.",
+"Relevant to life: develops 21st-century skills such as critical thinking, creativity, collaboration and communication.",
+"Inclusive and fair: gives every learner a chance to succeed, whatever their background.",
+"Supported by technology: uses digital tools and resources to improve learning and access.",
+"Lifelong learning: prepares learners to keep learning after school.",
+"Values and character: builds responsibility, ethics and citizenship, not only knowledge."
+],
+"check": [
+"I defined modern education in one sentence.",
+"I gave at least four qualities.",
+"Each quality has a short explanation or example.",
+"I ended with a clear closing sentence."
+]
+},
+{
+"t": "qa",
+"q": "2. Briefly explain the qualities of a modern teacher.",
+"tip": "Give a short list, each quality with one line of explanation. Question 8 asks for the same topic in more detail.",
+"pts": [
+"Strong subject knowledge and teaching skills.",
+"Clear communication with learners.",
+"Good classroom management.",
+"Skilled use of technology and varied materials.",
+"Caring and motivating: understands learners.",
+"Keeps learning and reflects on practice."
+],
+"check": [
+"I listed at least four qualities.",
+"I explained each in a few words.",
+"I linked qualities to how learners benefit."
+]
+},
+{
+"t": "qa",
+"q": "3. Write down the peak point of English language teaching and learning in the present day in Cambodia, and suggest your ways to improve those weak points.",
+"tip": "The answer should come from what you know. A strong structure is: strengths you can support with a real example, weak points, then a matching improvement for each weak point.",
+"pts": [
+"Strengths to consider (choose only those you can support): learners' motivation to learn English, access to English materials and online resources, growing teacher training opportunities.",
+"Weak points to consider: limited practice in speaking and listening, differences in resources between schools, exam-focused teaching, teachers' training needs.",
+"Match each weak point with one improvement: more communicative activities, teacher professional development, better materials and technology, balanced assessment of the four skills.",
+"Finish with the result you expect: confident learners who can use English."
+],
+"check": [
+"I named at least two real strengths.",
+"I named at least two weak points.",
+"Every weak point has a specific improvement.",
+"My ideas are realistic for a school or national level."
+]
+},
+{
+"t": "qa",
+"q": "4. Explain the meaning of \"Learning Through Motivation and Inspiration.\"",
+"tip": "Define both words, show how they work together, then give examples of teacher actions and the result.",
+"pts": [
+"Motivation: the inner drive and reasons that make learners want to learn (interest, goals, confidence).",
+"Inspiration: a spark from a teacher, role model or example that makes learners believe they can succeed.",
+"Together: learners who feel motivated and inspired try harder, take part and keep going when tasks are difficult.",
+"Teacher actions: set clear goals, give praise and useful feedback, link lessons to learners' lives, create success, show enthusiasm.",
+"Result: deeper learning, better participation and long-term interest in the subject."
+],
+"check": [
+"I explained motivation and inspiration separately.",
+"I explained how they work together.",
+"I gave at least two teacher actions.",
+"I stated the result for learners."
+]
+},
+{
+"t": "qa",
+"q": "5. Based on your beliefs, suggest TWO ideas for the teacher of English in improving their English language teaching. Briefly explain each one.",
+"tip": "Format for each idea: the idea, why it helps, how a teacher can do it. Use your own beliefs; these are examples.",
+"pts": [
+"Example idea: give learners more speaking time through pair and group work. Why: learners improve by using English. How: information-gap tasks, role plays, short discussions.",
+"Example idea: use varied materials and regular feedback. Why: variety keeps learners interested and feedback shows how to improve. How: songs, short videos, graded readers; quick checks and comments.",
+"Other possible ideas: reflect on lessons and learn from colleagues, set clear learning objectives, use English as the main classroom language."
+],
+"check": [
+"I gave exactly two ideas.",
+"Each idea has a reason.",
+"Each idea has a practical example."
+]
+},
+{
+"t": "qa",
+"q": "6. Based on your experiences, suggest TWO ideas for the learner of English in improving their English language learning. Briefly explain each one.",
+"tip": "Use ideas that worked for you or for learners you know. Format: the idea, why it helps, how to do it.",
+"pts": [
+"Example idea: practise a little every day. Why: regular contact builds memory and confidence. How: a vocabulary notebook, 15 minutes of listening, short writing.",
+"Example idea: use English outside class and do not fear mistakes. Why: real use builds fluency. How: speak with classmates, watch videos, read graded readers for pleasure.",
+"Other possible ideas: set clear goals and check progress, learn from feedback, read widely."
+],
+"check": [
+"I gave exactly two ideas.",
+"Each idea comes from real experience.",
+"Each idea has a reason and a practical example."
+]
+},
+{
+"t": "qa",
+"q": "7. Based on your beliefs and experiences, suggest FOUR ideas for the Ministry of Education, Youth and Sport in improving English language teaching and learning in Cambodia. Briefly explain each one.",
+"tip": "Give four clearly separate ideas, each with a one-line reason and a practical action. These are possible areas, not facts; adapt them to your beliefs.",
+"pts": [
+"Teacher training: regular professional development in modern teaching methods and in the teachers' own English.",
+"Curriculum, textbooks and assessment: aligned so that all four skills are taught and tested, not only grammar and vocabulary.",
+"Resources and access: libraries, listening materials and technology, especially for schools with fewer resources.",
+"Monitoring and support: mentoring, feedback to teachers and recognition for good practice.",
+"Other possible ideas: learner motivation programmes, smaller classes, links with English-speaking communities or exchange programmes."
+],
+"check": [
+"I gave four different ideas.",
+"Each idea has a reason.",
+"Each idea is realistic for a ministry to carry out."
+]
+},
+{
+"t": "qa",
+"q": "8. What are the \"Qualities of Modern Teacher\"? Briefly describe each one.",
+"tip": "Same topic as question 2, but each quality needs a short description.",
+"pts": [
+"Professional knowledge: knows the subject and how to teach it.",
+"Communication: explains clearly, listens and gives useful feedback.",
+"Classroom management: keeps order, uses time well and creates a safe learning environment.",
+"Use of technology: chooses digital tools that help learning.",
+"Adaptability: adjusts methods to different learners and situations.",
+"Lifelong learning: keeps studying, reflects and improves.",
+"Collaboration: works with colleagues, parents and the community."
+],
+"check": [
+"I listed at least five qualities.",
+"Each has a short description.",
+"The qualities are different from each other."
+]
+},
+{
+"t": "qa",
+"q": "9. Describe some of the important aspects of the jobs of modern teachers.",
+"tip": "Think of what teachers actually do, before, during and after lessons.",
+"pts": [
+"Planning and preparing lessons and materials.",
+"Teaching and facilitating learning in the classroom.",
+"Assessing learners and giving feedback.",
+"Managing the classroom and keeping learners safe.",
+"Guiding and supporting learners (mentoring, advice).",
+"Working with parents, colleagues and the community.",
+"Continuing professional development and reflection.",
+"Being a role model in behaviour and values."
+],
+"check": [
+"I covered before, during and after lessons.",
+"I gave at least five aspects.",
+"I gave a short explanation for each."
+]
+},
+{
+"t": "qa",
+"q": "10. What do \"Personal Qualities\" of a modern teacher refer to? Briefly describe what the personal qualities of an effective teacher are.",
+"tip": "First define personal qualities (character and attitudes, as opposed to professional skills), then describe several.",
+"pts": [
+"Definition: personal qualities are the traits of character and attitude a teacher brings to work, besides knowledge and skills.",
+"Patience: stays calm and gives learners time to learn.",
+"Empathy and caring: understands learners' feelings and needs.",
+"Enthusiasm: shows interest in teaching, which inspires learners.",
+"Fairness and integrity: treats all learners equally and acts honestly.",
+"Responsibility and reliability: prepared, punctual and dependable.",
+"Flexibility and open-mindedness: accepts new ideas and learns from mistakes."
+],
+"check": [
+"I defined personal qualities.",
+"I described at least five qualities.",
+"I kept personal qualities separate from professional skills."
+]
+}
+]
 }
 ]
 }
