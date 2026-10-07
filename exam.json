@@ -4,7 +4,7 @@
 "id": "x_gmcq",
 "group": "Part I - Grammar",
 "title": "D. Sentence structure and usage",
-"intro": "Choose the option that correctly completes each sentence. 48 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"intro": "Choose the option that correctly completes each sentence. 47 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
 "questions": [
 {
 "q": "____ not a single hard-surfaced road during the entire colonial period aside from city streets.",
@@ -205,7 +205,7 @@
 "e": "The clause needs a verb and complement: actually is a complex mixture of ..."
 },
 {
-"q": "The discovery that electricity could produce the magnetism ____ in 1820 by the Danish physicist, Hans Christian Oersted.",
+"q": "The discovery that electricity could produce magnetism ____ in 1820 by the Danish physicist, Hans Christian Oersted.",
 "o": [
 "by accident",
 "was an accident",
@@ -282,7 +282,7 @@
 "e": "Reduced relative clause: themes reflecting American life."
 },
 {
-"q": "Built at the beginning of the century, the Library of Congress houses one of the largest ____ collection of books in the world.",
+"q": "Built at the beginning of the century, the Library of Congress houses one of the largest ____ collections of books in the world.",
 "o": [
 "and fine",
 "and finest",
@@ -428,8 +428,8 @@
 "q": "In order to grow vegetables properly, gardeners must know ____ .",
 "o": [
 "what are each vegetable’s requirements",
-"that the requirements for each vegetable",
-"what the requirements for each vegetable",
+"that the requirements for each vegetable are",
+"what the requirements for each vegetable are",
 "that is required by each vegetable"
 ],
 "a": 2,
@@ -513,17 +513,6 @@
 "e": "By means beside or near: wait by that lamp-post."
 },
 {
-"q": "The ____ are to be used to replace the old ones at the prison.",
-"o": [
-"bits of furniture",
-"pieces of furniture",
-"furniture",
-"furnishings"
-],
-"a": 1,
-"e": "Furniture is uncountable, so use pieces of furniture before the countable ones. (Check: furnishings could also be argued.)"
-},
-{
 "q": "It was when he was put ____ bars that he finally turned ____ a new leaf.",
 "o": [
 "behind … over",
@@ -540,172 +529,872 @@
 "id": "x_gerr",
 "group": "Part I - Grammar",
 "title": "E. Find the incorrect part",
-"intro": "Each sentence has four marked parts. Choose the part (A, B, C or D) that contains the error. 15 questions from the NIE exam bank. Four sentences that contain two errors each were left out. Answers and feedback were prepared by Claude: please check them against your own key.",
+"intro": "Each sentence has four underlined parts, marked A to D. Choose the part that contains the grammatical error. 20 questions from the NIE exam bank (corrected version). The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
 "questions": [
 {
-"q": "Find the error: (A) The antique collector must be able to distinguish (B) real antiques from later imitation, (C) which can be either (D) reproductions nor fakes.",
+"q": "The antique collector {A|must be able} to distinguish {B|real} antiques from {C|later imitation}, which can be either reproductions {D|nor fakes}.",
 "o": [
-"The antique collector must be able to distinguish",
-"real antiques from later imitation,",
-"which can be either",
-"reproductions nor fakes."
+"must be able",
+"real",
+"later imitation",
+"nor fakes"
 ],
 "a": 3,
-"e": "Either pairs with or, not nor: either reproductions or fakes."
+"e": "Either goes with or, not nor: either reproductions or fakes."
 },
 {
-"q": "Find the error: (A) Paint must be stirred (B) and sometime dilution (C) before it (D) is applied.",
+"q": "Paint {A|must be stirred} and {B|sometimes} {C|dilution} before it {D|is applied}.",
 "o": [
-"Paint must be stirred",
-"and sometime dilution",
-"before it",
-"is applied."
-],
-"a": 1,
-"e": "Parallel passive needed: stirred and sometimes diluted."
-},
-{
-"q": "Find the error: (A) A great aviation pioneer, (B) was already famous (C) when she sets out (D) on her ill-fated attempt to circle the globe in 1937.",
-"o": [
-"A great aviation pioneer,",
-"was already famous",
-"when she sets out",
-"on her ill-fated attempt to circle the globe in 1937."
+"must be stirred",
+"sometimes",
+"dilution",
+"is applied"
 ],
 "a": 2,
-"e": "The story is in the past: when she set out."
+"e": "The second verb must be passive and parallel to must be stirred: sometimes diluted, not dilution."
 },
 {
-"q": "Find the error: (A) Two unique features (B) of the arctic (C) they are (D) lack of precipitation and permanently frozen ground.",
+"q": "A {A|great aviation pioneer}, Amelia Earhart {B|was already famous} when she {C|sets out} on her ill-fated attempt {D|to circle} the globe in 1937.",
+"o": [
+"great aviation pioneer",
+"was already famous",
+"sets out",
+"to circle"
+],
+"a": 2,
+"e": "The story is in the past, so use the past tense: when she set out."
+},
+{
+"q": "Although apples {A|do not grow} during the cold season, {B|apple trees} must have {C|a such season} {D|in order to flourish}.",
+"o": [
+"do not grow",
+"apple trees",
+"a such season",
+"in order to flourish"
+],
+"a": 2,
+"e": "Such comes before a: such a season, not a such season."
+},
+{
+"q": "{A|Two unique features} of the arctic {B|they are} {C|lack of precipitation} and {D|permanently frozen ground}.",
 "o": [
 "Two unique features",
-"of the arctic",
 "they are",
-"lack of precipitation and permanently frozen ground."
-],
-"a": 2,
-"e": "The pronoun they repeats the subject: Two unique features of the arctic are ..."
-},
-{
-"q": "Find the error: (A) Faced with petroleum shortages (B) scientists and engineers in the United States (C) stepped up its efforts (D) to develop more efficient heating systems and better insulation.",
-"o": [
-"Faced with petroleum shortages",
-"scientists and engineers in the United States",
-"stepped up its efforts",
-"to develop more efficient heating systems and better insulation."
-],
-"a": 2,
-"e": "The subject scientists and engineers is plural: their efforts."
-},
-{
-"q": "Find the error: (A) Rabbits have (B) large front tooth, (C) short tails, (D) and hind legs and feet adapted for running and jumping.",
-"o": [
-"Rabbits have",
-"large front tooth,",
-"short tails,",
-"and hind legs and feet adapted for running and jumping."
+"lack of precipitation",
+"permanently frozen ground"
 ],
 "a": 1,
-"e": "Plural noun needed after large: front teeth."
+"e": "The pronoun they repeats the subject. The sentence should read: Two unique features of the arctic are ..."
 },
 {
-"q": "Find the error: (A) Dentistry is a branch of medicine (B) that has developed (C) very dramatic (D) in the last twenty years.",
+"q": "{A|Faced with petroleum shortages} in the 1970s, scientists and engineers {B|in the United States} {C|stepped up its efforts} to develop more efficient heating systems and {D|better insulation}.",
 "o": [
-"Dentistry is a branch of medicine",
-"that has developed",
-"very dramatic",
-"in the last twenty years."
+"Faced with petroleum shortages",
+"in the United States",
+"stepped up its efforts",
+"better insulation"
 ],
 "a": 2,
-"e": "An adverb modifies the verb developed: very dramatically."
+"e": "The subject scientists and engineers is plural, so the pronoun is their, not its."
 },
 {
-"q": "Find the error: (A) The ease of solving a jigsaw puzzle (B) depends the number of pieces, (C) their shapes and shadings, (D) and the design of the picture.",
+"q": "Rabbits have {A|large front} {B|tooth}, short tails, and {C|hind legs and feet} adapted for {D|running and jumping}.",
 "o": [
-"The ease of solving a jigsaw puzzle",
-"depends the number of pieces,",
-"their shapes and shadings,",
-"and the design of the picture."
+"large front",
+"tooth",
+"hind legs and feet",
+"running and jumping"
+],
+"a": 1,
+"e": "The noun must be plural to match short tails: front teeth."
+},
+{
+"q": "Dentistry is {A|a branch of medicine} that {B|has developed} {C|very dramatic} {D|in the last twenty years}.",
+"o": [
+"a branch of medicine",
+"has developed",
+"very dramatic",
+"in the last twenty years"
+],
+"a": 2,
+"e": "An adverb is needed to modify the verb has developed: very dramatically."
+},
+{
+"q": "{A|The ease of solving} a jigsaw puzzle {B|depends} the number of pieces, {C|their shapes and shadings}, and {D|the design of the picture}.",
+"o": [
+"The ease of solving",
+"depends",
+"their shapes and shadings",
+"the design of the picture"
 ],
 "a": 1,
 "e": "Depends needs the preposition on: depends on the number of pieces."
 },
 {
-"q": "Find the error: (A) Plants range in size (B) to tiny, single-celled, blue-green algae, (C) invisible to the naked eye, (D) to giant sequoias, the largest living plants.",
+"q": "Plants {A|range in size} {B|to tiny}, single-celled, {C|blue-green algae}, invisible to the naked eye, {D|to giant sequoias}, the largest living plants.",
 "o": [
-"Plants range in size",
-"to tiny, single-celled, blue-green algae,",
-"invisible to the naked eye,",
-"to giant sequoias, the largest living plants."
+"range in size",
+"to tiny",
+"blue-green algae",
+"to giant sequoias"
 ],
 "a": 1,
-"e": "The pattern is range from ... to ...: from tiny, single-celled algae."
+"e": "The pattern is range from ... to ...: range in size from tiny algae to giant sequoias."
 },
 {
-"q": "Find the error: (A) During the 1940s (B) science and engineering had an impact (C) on the way music reach its audience (D) and even influenced the way in which it was composed.",
+"q": "{A|During the 1940s} science and engineering had an impact on the way {B|music reach} {C|its audience} and even influenced the way {D|in which it was composed}.",
 "o": [
 "During the 1940s",
-"science and engineering had an impact",
-"on the way music reach its audience",
-"and even influenced the way in which it was composed."
+"music reach",
+"its audience",
+"in which it was composed"
 ],
-"a": 2,
-"e": "The sentence is in the past, and music is singular: the way music reached its audience."
+"a": 1,
+"e": "The verb must be past and agree with the singular subject music: reached."
 },
 {
-"q": "Find the error: (A) Ballads were early types of poetry (B) and may have been (C) among a first kinds (D) of music.",
+"q": "By 1860 the railroads of the United States had {A|30,000 miles of track}, {B|three-quarters of which} {C|it was east} of the Mississippi River and {D|north of the Ohio River}.",
 "o": [
-"Ballads were early types of poetry",
-"and may have been",
+"30,000 miles of track",
+"three-quarters of which",
+"it was east",
+"north of the Ohio River"
+],
+"a": 2,
+"e": "The relative clause three-quarters of which already has its subject, so it is not needed. The plural subject needs were: three-quarters of which were east of the Mississippi."
+},
+{
+"q": "Ballads {A|were early types} of poetry and {B|may have been} {C|among a first kinds} {D|of music}.",
+"o": [
+"were early types",
+"may have been",
 "among a first kinds",
-"of music."
+"of music"
 ],
 "a": 2,
-"e": "Among the first kinds (plural, with the): not a first kinds."
+"e": "Use the with first, and a cannot go with plural kinds: among the first kinds of music."
 },
 {
-"q": "Find the error: (A) The thin outer layer of the skin (B) is called the epidermis, (C) while the layer inner, (D) which is slightly thicker, is called the dermis.",
+"q": "{A|The thin outer layer} of the skin {B|is called the epidermis}, while {C|the layer inner}, {D|which is slightly thicker}, is called the dermis.",
 "o": [
-"The thin outer layer of the skin",
-"is called the epidermis,",
-"while the layer inner,",
-"which is slightly thicker, is called the dermis."
+"The thin outer layer",
+"is called the epidermis",
+"the layer inner",
+"which is slightly thicker"
 ],
 "a": 2,
 "e": "Adjectives come before the noun: the inner layer."
 },
 {
-"q": "Find the error: (A) Although flies live longest (B) in cool temperatures, (C) it breed prolifically (D) when temperatures are warm, food is abundant, and humidity is moderate.",
+"q": "With the {A|incorporation of jazz history} into {B|current academic curricula}, {C|leading jazz musicians} {D|are now founding} on the faculties of several universities.",
 "o": [
-"Although flies live longest",
-"in cool temperatures,",
-"it breed prolifically",
-"when temperatures are warm, food is abundant, and humidity is moderate."
+"incorporation of jazz history",
+"current academic curricula",
+"leading jazz musicians",
+"are now founding"
 ],
-"a": 2,
-"e": "The pronoun must match flies: they breed prolifically."
+"a": 3,
+"e": "The passive meaning is needed: are now found on the faculties (not founding)."
 },
 {
-"q": "Find the error: (A) Alaska's vast areas (B) of untamed wilderness (C) attracts many people (D) who enjoy the outdoors.",
+"q": "Humus, {A|a substance found in soil}, {B|is soft and spongy and enables} {C|plant roots to send out tiny hairs} {D|through that} they absorb water and food.",
+"o": [
+"a substance found in soil",
+"is soft and spongy and enables",
+"plant roots to send out tiny hairs",
+"through that"
+],
+"a": 3,
+"e": "After a preposition, a relative pronoun for things must be which: through which they absorb water."
+},
+{
+"q": "Although flies {A|live longest} in cool temperatures, {B|it breed} prolifically {C|when temperatures are warm}, food is abundant, and {D|humidity is moderate}.",
+"o": [
+"live longest",
+"it breed",
+"when temperatures are warm",
+"humidity is moderate"
+],
+"a": 1,
+"e": "The pronoun must match the plural noun flies, and the verb must agree: they breed."
+},
+{
+"q": "{A|Alaska's vast areas} {B|of untamed wilderness} {C|attracts} many people {D|who enjoy the outdoors}.",
 "o": [
 "Alaska's vast areas",
 "of untamed wilderness",
-"attracts many people",
-"who enjoy the outdoors."
+"attracts",
+"who enjoy the outdoors"
 ],
 "a": 2,
-"e": "The subject is areas (plural): areas attract."
+"e": "The subject is the plural areas, so the verb is attract."
 },
 {
-"q": "Find the error: (A) The giant panda closely resembles the bear, (B) but account of certain anatomical features (C) it is placed (D) in the raccoon family.",
+"q": "The giant panda {A|closely resembles} {B|the bear}, {C|but account of} certain anatomical features {D|it is placed} in the raccoon family.",
 "o": [
-"The giant panda closely resembles the bear,",
-"but account of certain anatomical features",
-"it is placed",
-"in the raccoon family."
+"closely resembles",
+"the bear",
+"but account of",
+"it is placed"
+],
+"a": 2,
+"e": "The phrase is on account of: but on account of certain anatomical features."
+},
+{
+"q": "The ode {A|was original} {B|a ceremonial poem} written {C|to celebrate public occasions} {D|or exalted subjects}.",
+"o": [
+"was original",
+"a ceremonial poem",
+"to celebrate public occasions",
+"or exalted subjects"
+],
+"a": 0,
+"e": "An adverb is needed to modify the participle: was originally a ceremonial poem."
+}
+]
+},
+{
+"id": "x_vctx",
+"group": "Part II - Vocabulary",
+"title": "A. Vocabulary in context",
+"intro": "Choose the best word to complete each sentence. In the bank, question 1 had its answer word printed in the sentence, so it is shown here with a blank. 10 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"questions": [
+{
+"q": "The ____ rain caused the river to overflow its bank.",
+"o": [
+"abstract",
+"indigenous",
+"hollow",
+"incessant"
+],
+"a": 3,
+"e": "Incessant means never stopping: the incessant rain."
+},
+{
+"q": "With its ____ engine, the car performed better than we had hoped.",
+"o": [
+"marginalized",
+"rigorous",
+"modified",
+"garner"
+],
+"a": 2,
+"e": "A modified engine is one that has been changed and improved."
+},
+{
+"q": "A heavy object will ____ other objects toward it by its gravity.",
+"o": [
+"drain",
+"draw",
+"exploit",
+"colloquial"
 ],
 "a": 1,
-"e": "The phrase is on account of: but on account of certain anatomical features."
+"e": "Draw means pull toward: a heavy object draws other objects toward it."
+},
+{
+"q": "Over the sounds of the storm, she couldn’t hear the ____ sound of footsteps outside her bedroom door.",
+"o": [
+"acclaimed",
+"condemned",
+"eternal",
+"fainter"
+],
+"a": 3,
+"e": "Fainter fits the comparison: the fainter sound of footsteps."
+},
+{
+"q": "Through his ____, the billionaire will be remembered for many centuries.",
+"o": [
+"binary",
+"ordeal",
+"taboo",
+"legacy"
+],
+"a": 3,
+"e": "Legacy is what a person leaves behind to be remembered by."
+},
+{
+"q": "Several individuals from ____ groups of society protested in front of the government offices today.",
+"o": [
+"encrypted",
+"incessant",
+"marginalized",
+"inalienable"
+],
+"a": 2,
+"e": "Marginalized groups are pushed to the edge of society."
+},
+{
+"q": "Providing an excellent view of the landscape up to 120 miles in all directions, the mountain ____ over the surrounding countryside.",
+"o": [
+"deviate",
+"lies",
+"portrays",
+"towers"
+],
+"a": 3,
+"e": "To tower over means to rise high above."
+},
+{
+"q": "Some career choices are better suited for individuals with good problem-solving skills and ____ minds.",
+"o": [
+"analytical",
+"beneficial",
+"dependent",
+"epic"
+],
+"a": 0,
+"e": "Analytical minds examine problems carefully, which suits problem-solving."
+},
+{
+"q": "The government continues to disparage smoking because of its ____ effects on the body.",
+"o": [
+"distinctive",
+"detrimental",
+"preeminent",
+"emblematic"
+],
+"a": 1,
+"e": "Detrimental means harmful."
+},
+{
+"q": "The woman filed a lawsuit after her ex-husband continued to ____ her.",
+"o": [
+"immerse",
+"wreak havoc",
+"harass",
+"manipulate"
+],
+"a": 2,
+"e": "Harass means to bother or trouble someone repeatedly."
+}
+]
+},
+{
+"id": "x_vsyn1",
+"group": "Part II - Vocabulary",
+"title": "B. Closest in meaning (single words)",
+"intro": "Choose the word closest in meaning to the given word. 10 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"questions": [
+{
+"q": "Choose the word closest in meaning to: Demented",
+"o": [
+"exhort",
+"efficient",
+"enigma",
+"idiotic"
+],
+"a": 3,
+"e": "Demented means mad or insane; idiotic is closest."
+},
+{
+"q": "Choose the word closest in meaning to: Regress",
+"o": [
+"backslide",
+"adored",
+"vacillate",
+"commotion"
+],
+"a": 0,
+"e": "Regress means to go back to an earlier, worse state: backslide."
+},
+{
+"q": "Choose the word closest in meaning to: Slither",
+"o": [
+"abandon",
+"docile",
+"slide",
+"frugal"
+],
+"a": 2,
+"e": "Slither means to slide along the ground."
+},
+{
+"q": "Choose the word closest in meaning to: Heralded",
+"o": [
+"gambling",
+"clapped",
+"decomposed",
+"praised"
+],
+"a": 3,
+"e": "Heralded means announced with praise: praised."
+},
+{
+"q": "Choose the word closest in meaning to: Decamp",
+"o": [
+"flee",
+"annihilate",
+"anticipate",
+"mercy"
+],
+"a": 0,
+"e": "Decamp means to leave suddenly: flee."
+},
+{
+"q": "Choose the word closest in meaning to: Coddle",
+"o": [
+"diligent",
+"speculate",
+"satisfy",
+"instant"
+],
+"a": 2,
+"e": "Coddle means to treat too gently, to pamper: satisfy is the nearest choice."
+},
+{
+"q": "Choose the word closest in meaning to: Barren",
+"o": [
+"liability",
+"foreboding",
+"pathetic",
+"unproductive"
+],
+"a": 3,
+"e": "Barren land produces nothing: unproductive."
+},
+{
+"q": "Choose the word closest in meaning to: Subjugate",
+"o": [
+"genuine",
+"introduce",
+"quanta",
+"conquer"
+],
+"a": 3,
+"e": "Subjugate means to bring under control by force: conquer."
+},
+{
+"q": "Choose the word closest in meaning to: Abstain",
+"o": [
+"simulate",
+"refrain",
+"dearth",
+"daring"
+],
+"a": 1,
+"e": "Abstain means to hold back from doing something: refrain."
+},
+{
+"q": "Choose the word closest in meaning to: Pester",
+"o": [
+"reveled",
+"cutting",
+"annoy",
+"carpeted"
+],
+"a": 2,
+"e": "Pester means to bother again and again: annoy."
+}
+]
+},
+{
+"id": "x_vsyn2",
+"group": "Part II - Vocabulary",
+"title": "C. Synonyms in sentences",
+"intro": "Choose the word or phrase closest in meaning to the word named in each question. In the bank the target words were not marked, so each is named here. 15 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"questions": [
+{
+"q": "Choose the word or phrase closest in meaning to abides by: A good citizen abides by law.",
+"o": [
+"violates",
+"removes",
+"shifts",
+"adheres to"
+],
+"a": 3,
+"e": "Abide by means to follow or obey: adheres to."
+},
+{
+"q": "Choose the word or phrase closest in meaning to abjure: We don’t force anyone to abjure his religion.",
+"o": [
+"adopt",
+"give up",
+"cherish",
+"abduct"
+],
+"a": 1,
+"e": "Abjure means to give up or renounce solemnly."
+},
+{
+"q": "Choose the word or phrase closest in meaning to abounds in: His garden abounds in beautiful flowers.",
+"o": [
+"teems with",
+"lacks",
+"abhors",
+"abdicates"
+],
+"a": 0,
+"e": "Abound in means to have plenty of: teems with."
+},
+{
+"q": "Choose the word or phrase closest in meaning to complexion: Your story puts a different complexion on the matter.",
+"o": [
+"complexity",
+"companion",
+"appearance",
+"conformity"
+],
+"a": 2,
+"e": "Complexion here means the look or appearance of something."
+},
+{
+"q": "Choose the word or phrase closest in meaning to commotion: The city was in commotion during the electric blackout.",
+"o": [
+"serenity",
+"placidity",
+"confusion",
+"relaxation"
+],
+"a": 2,
+"e": "Commotion means noisy confusion."
+},
+{
+"q": "Choose the word or phrase closest in meaning to commodious: They found their hotel room commodious.",
+"o": [
+"cramped",
+"narrow",
+"spacious",
+"strait"
+],
+"a": 2,
+"e": "Commodious means roomy: spacious."
+},
+{
+"q": "Choose the word or phrase closest in meaning to clumsy: Harry is a clumsy boy constantly stumbling over his own feet.",
+"o": [
+"comely",
+"handy",
+"awkward",
+"deft"
+],
+"a": 2,
+"e": "Clumsy means awkward in movement."
+},
+{
+"q": "Choose the word or phrase closest in meaning to chagrin: His refusal to go with us filled us with chagrin.",
+"o": [
+"riddance",
+"pleasure",
+"relief",
+"vexation"
+],
+"a": 3,
+"e": "Chagrin is annoyance or distress: vexation."
+},
+{
+"q": "Choose the word or phrase closest in meaning to authentic: The document bears an authentic signature.",
+"o": [
+"genuine",
+"flat",
+"fleeting",
+"spurious"
+],
+"a": 0,
+"e": "Authentic means real: genuine."
+},
+{
+"q": "Choose the word or phrase closest in meaning to bigoted: John is a bigoted young man.",
+"o": [
+"broad-minded",
+"narrow-minded",
+"liberal",
+"berserk"
+],
+"a": 1,
+"e": "Bigoted means stubbornly intolerant: narrow-minded."
+},
+{
+"q": "Choose the word or phrase closest in meaning to bounteous: She is a woman of bounteous nature.",
+"o": [
+"niggardly",
+"scant",
+"spares",
+"generous"
+],
+"a": 3,
+"e": "Bounteous means giving freely: generous."
+},
+{
+"q": "Choose the word or phrase closest in meaning to brusque: Don’t be shocked if you are greeted with a brusque welcome.",
+"o": [
+"curt",
+"warm",
+"enthusiastic",
+"ardent"
+],
+"a": 0,
+"e": "Brusque means abrupt and rude: curt."
+},
+{
+"q": "Choose the word or phrase closest in meaning to bypassed: The taxi driver bypassed the main street.",
+"o": [
+"rushed through",
+"detoured",
+"chagrined",
+"chuckled"
+],
+"a": 1,
+"e": "Bypass means to go around: detoured."
+},
+{
+"q": "Choose the word or phrase closest in meaning to catastrophe: The flood was a catastrophe.",
+"o": [
+"calamity",
+"cavalier",
+"cavity",
+"cavil"
+],
+"a": 0,
+"e": "Catastrophe means a sudden great disaster: calamity."
+},
+{
+"q": "Choose the word or phrase closest in meaning to cessation: The workers threatened a cessation of all activities if their demands were not met.",
+"o": [
+"stopping",
+"continuation",
+"certitude",
+"expansion"
+],
+"a": 0,
+"e": "Cessation means a stopping."
+}
+]
+},
+{
+"id": "x_vidm",
+"group": "Part II - Vocabulary",
+"title": "D. Idioms and fixed expressions",
+"intro": "Choose the word that completes each idiom or fixed expression. 10 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"questions": [
+{
+"q": "By hook or by ____ he is determined to win the race.",
+"o": [
+"nail",
+"book",
+"crook",
+"brook"
+],
+"a": 2,
+"e": "The idiom is by hook or by crook: by any means."
+},
+{
+"q": "Since you were at fault, you have to be brave enough to face the ____.",
+"o": [
+"caning",
+"music",
+"scolding",
+"praise"
+],
+"a": 1,
+"e": "To face the music means to accept the consequences."
+},
+{
+"q": "I can feel it in my ____ that something has gone wrong.",
+"o": [
+"toes",
+"nose",
+"bones",
+"brain"
+],
+"a": 2,
+"e": "To feel it in your bones means to be sure of something without proof."
+},
+{
+"q": "Tell me what you want to say directly. Don’t ____ about the bush.",
+"o": [
+"run",
+"sing",
+"dream",
+"beat"
+],
+"a": 3,
+"e": "To beat about the bush means to avoid the main point."
+},
+{
+"q": "Only at the ____ hour did he inform us that he would not be coming for the interview.",
+"o": [
+"eleventh",
+"twelfth",
+"first",
+"third"
+],
+"a": 0,
+"e": "The eleventh hour means the last possible moment."
+},
+{
+"q": "I cannot make ____ of what the lecturer is saying.",
+"o": [
+"sticks or stones",
+"head or tail",
+"blood or water",
+"sweat or tears"
+],
+"a": 1,
+"e": "Cannot make head or tail of something means cannot understand it."
+},
+{
+"q": "The heartless man killed his brother in cold ____.",
+"o": [
+"blood",
+"tears",
+"water",
+"oil"
+],
+"a": 0,
+"e": "In cold blood means cruelly and without emotion."
+},
+{
+"q": "The landlord told the tenant to move his things lock, stock and ____ out of the building.",
+"o": [
+"bottle",
+"bolt",
+"barrel",
+"key"
+],
+"a": 2,
+"e": "Lock, stock and barrel means everything, completely."
+},
+{
+"q": "The agreement between two companies was recorded in ____.",
+"o": [
+"blue and red",
+"black and white",
+"blue and white",
+"green and pink"
+],
+"a": 1,
+"e": "In black and white means in writing."
+},
+{
+"q": "Zheming is upset that he always has to play second ____ to his brother.",
+"o": [
+"piano",
+"trumpet",
+"guitar",
+"fiddle"
+],
+"a": 3,
+"e": "To play second fiddle means to have a less important role."
+}
+]
+},
+{
+"id": "x_vm14",
+"group": "Part II - Vocabulary",
+"title": "E. Vocabulary multiple choice (2014)",
+"intro": "Choose the word that best completes each sentence. 10 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"questions": [
+{
+"q": "You are ____ to be fined if you break the law.",
+"o": [
+"liaise",
+"liberal",
+"subject",
+"liable"
+],
+"a": 3,
+"e": "Liable means likely or legally responsible: liable to be fined."
+},
+{
+"q": "The accident occurred at the road ____.",
+"o": [
+"conjunction",
+"juncture",
+"junction",
+"union"
+],
+"a": 2,
+"e": "A junction is a place where roads meet."
+},
+{
+"q": "The king ordered his knights to ____ the rebellion.",
+"o": [
+"resist",
+"suppress",
+"distinguish",
+"reveal"
+],
+"a": 1,
+"e": "Suppress means to put down by force: suppress the rebellion."
+},
+{
+"q": "These are the few ____ available and you have to pick one of them.",
+"o": [
+"decisions",
+"options",
+"preferences",
+"obligations"
+],
+"a": 1,
+"e": "Options are the choices available."
+},
+{
+"q": "At the request of the defense lawyer, the judge ____ the trial.",
+"o": [
+"adjourned",
+"altered",
+"transformed",
+"converted"
+],
+"a": 0,
+"e": "Adjourn means to postpone or pause a trial or meeting."
+},
+{
+"q": "The boy made a ____ of himself and was told off by the manager.",
+"o": [
+"nonsense",
+"nuisance",
+"nuance",
+"native"
+],
+"a": 1,
+"e": "Make a nuisance of yourself means to annoy others."
+},
+{
+"q": "You have to ____ by the rules of the club if you become members.",
+"o": [
+"abide",
+"abet",
+"assume",
+"admit"
+],
+"a": 0,
+"e": "Abide by the rules means to follow them."
+},
+{
+"q": "The prosecution ____ the evidence given by the expert witness to support its case.",
+"o": [
+"sited",
+"created",
+"cited",
+"scented"
+],
+"a": 2,
+"e": "Cite means to quote as evidence: cited the evidence."
+},
+{
+"q": "He scolded them for failing to ____ with his instructions.",
+"o": [
+"complete",
+"comply",
+"compete",
+"apply"
+],
+"a": 1,
+"e": "Comply with means to obey instructions."
+},
+{
+"q": "One common ____ among successful businessmen is their strong determination to succeed.",
+"o": [
+"expect",
+"accept",
+"specter",
+"aspect"
+],
+"a": 3,
+"e": "An aspect is one feature or part of something."
 }
 ]
 }
