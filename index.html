@@ -171,6 +171,7 @@ button,select{min-height:44px}
       <label class="lbl fld">Pause between sentences <select id="pause"><option value="0">None</option><option value="300" selected>Short</option><option value="600">Medium</option><option value="900">Long</option></select></label>
       <label class="lbl"><input type="checkbox" id="auto"> Auto-play next</label>
       <label class="lbl"><input type="checkbox" id="preferRec" checked> Prefer my recording when available</label>
+      <label class="lbl"><input type="checkbox" id="pinnedOnly"> Auto-play pinned essays only</label>
       <div class="grp" style="margin-top:12px"><button id="testVoice">Test voice</button><span class="lbl">&#9733; = higher quality voice</span></div>
     </div>
   </section>
@@ -180,6 +181,7 @@ button,select{min-height:44px}
       <h1 id="vTitle"></h1>
       <p id="meta"></p>
       <p id="status" class="lbl" style="margin:-8px 0 12px"></p>
+      <button id="pinBtn" aria-pressed="false" style="margin:0 0 14px">&#9734; Pin this essay</button>
       <div class="grp" id="src" hidden><button id="srcVoice" class="primary">Default voice</button><button id="srcRec">My recording</button></div>
       <button id="tapBtn" class="primary" hidden style="margin:10px 0">Tap to continue playing</button>
       <audio id="aud" controls preload="metadata" hidden style="width:100%;margin:14px 0"></audio>
@@ -212,7 +214,7 @@ button,select{min-height:44px}
 <div id="toast" role="status" aria-live="polite"></div>
 <script>
 const $=s=>document.querySelector(s),PK='essay-viewer-prefs',synth=window.speechSynthesis,aud=$('#aud');
-let xsets=[],xbase={},gcur=null,xcur=null,pbase={},runId=0,recWait=null,wsecs=[],curW=null,sub='mine',tsecs=[],allT=[],curT=null,tmin=1,cs=null,prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
+let pinRun=false,xsets=[],xbase={},gcur=null,xcur=null,pbase={},runId=0,recWait=null,wsecs=[],curW=null,sub='mine',tsecs=[],allT=[],curT=null,tmin=1,cs=null,prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
 try{prefs=JSON.parse(localStorage.getItem(PK))||{}}catch(e){}
 const save=()=>{try{localStorage.setItem(PK,JSON.stringify(prefs))}catch(e){}};
 const words=s=>(s.trim().match(/\S+/g)||[]).length;
@@ -220,13 +222,23 @@ function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');cl
 function drawer(o){$('#side').classList.toggle('open',o);$('#scrim').hidden=!o}
 function settings(o){$('#settings').hidden=!o;$('#setBtn').setAttribute('aria-expanded',String(o))}
 function renderList(){tab==='exam'?renderXList():tab==='grammar'?renderGList():tab==='terms'?renderTList():sub==='guide'?renderWList():renderEList()}
+function pinSet(){return new Set(prefs.pins||[])}
 function renderEList(){
   const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';
-  items.filter(i=>!f||i.title.toLowerCase().includes(f)).forEach(i=>{
+  const pins=pinSet(),rows=items.filter(i=>!f||i.title.toLowerCase().includes(f));
+  const pinned=rows.filter(i=>pins.has(i.file)),rest=rows.filter(i=>!pins.has(i.file));
+  const add=i=>{
     const b=document.createElement('button');b.className='item';b.setAttribute('aria-current',String(cur===i));
-    const t=document.createElement('b');t.textContent=i.title;b.append(t);b.onclick=()=>open(i);box.append(b)});
-  if(!box.children.length)box.textContent=eErr?'Could not load essays.json. Make sure it is uploaded next to index.html.':'No essays found.';
+    const t=document.createElement('b');t.textContent=(pins.has(i.file)?'\u2605 ':'')+i.title;b.append(t);b.onclick=()=>open(i);box.append(b)};
+  if(pinned.length){box.append(el('div','grp-h','Pinned'));const pb=el('button','sv','\u25B6 Play pinned essays');pb.style.margin='2px 10px 6px';pb.onclick=playPinned;box.append(pb);pinned.forEach(add);if(rest.length)box.append(el('div','grp-h','All essays'))}
+  rest.forEach(add);
+  if(!box.querySelector('.item'))box.textContent=eErr?'Could not load essays.json. Make sure it is uploaded next to index.html.':'No essays found.';
 }
+function updPin(){
+  const on=!!cur&&pinSet().has(cur.file);
+  $('#pinBtn').textContent=on?'\u2605 Pinned':'\u2606 Pin this essay';$('#pinBtn').setAttribute('aria-pressed',String(on));
+}
+
 function renderBody(text){
   const box=$('#vBody');box.textContent='';
   (text.match(/[^.!?\n]*[.!?]+["')\]]*\s*|[^.!?\n]+|\n+/g)||[]).forEach(p=>{
@@ -234,6 +246,7 @@ function renderBody(text){
     const s=document.createElement('span');s.className='s';s.textContent=p;box.append(s)});
 }
 async function open(i,auto){
+  if(!auto)pinRun=false;
   if(auto)haltSpeech();else stopSpeech();aud.pause();$('#tapBtn').hidden=true;cur=i;drawer(false);prefs.last=i.file;save();renderList();
   let txt='';
   try{const r=await fetch(i.file);if(!r.ok)throw 0;txt=await r.text()}catch(e){toast('Could not load this essay.');return false}
@@ -247,7 +260,7 @@ async function open(i,auto){
   if(i.audio)aud.src=i.audio;else{aud.removeAttribute('src');aud.load()}
   recWait=waitRec();
   setMode('voice');window.scrollTo(0,0);
-  updStatus();setSession();prefetchNext();return true;
+  updStatus();updPin();setSession();prefetchNext();return true;
 }
 aud.onloadedmetadata=()=>{$('#src').hidden=false};
 aud.onerror=()=>{if(aud.getAttribute('src')){$('#src').hidden=true;setMode('voice')}};
@@ -270,12 +283,24 @@ function waitRec(){
   });
 }
 /* Auto-play next: tries "My recording" first for every essay (if the setting is on), otherwise the default voice */
+function nextAuto(){
+  const rest=items.slice(items.indexOf(cur)+1);
+  if(!(pinRun||$('#pinnedOnly').checked))return rest[0];
+  const p=pinSet();return rest.find(x=>p.has(x.file));
+}
+async function playPinned(){
+  const p=pinSet(),first=items.find(x=>p.has(x.file));if(!first)return;
+  runId++;pinRun=true;
+  if(!(await open(first,true))){pinRun=false;return}
+  const ok=first.audio?await recWait:false;
+  if(cur===first)startBest(ok);
+}
 async function advance(){
-  const my=runId,n=items[items.indexOf(cur)+1];
-  if(!n){stopSpeech();return}
+  const my=runId,n=nextAuto();
+  if(!n){if(pinRun||$('#pinnedOnly').checked)toast('End of pinned essays.');pinRun=false;stopSpeech();updStatus();return}
   await new Promise(r=>setTimeout(r,1000));
   if(my!==runId)return;
-  if(!(await open(n,true))){stopSpeech();return}
+  if(!(await open(n,true))){pinRun=false;stopSpeech();return}
   if(my!==runId||cur!==n)return;
   const ok=n.audio?await recWait:false;
   if(my!==runId||cur!==n)return;
@@ -291,7 +316,7 @@ $('#tapBtn').onclick=()=>{$('#tapBtn').hidden=true;if(mode==='rec')aud.play().ca
 function updStatus(){
   const i=items.indexOf(cur);
   if(i<0){$('#status').textContent='';return}
-  $('#status').textContent='Essay '+(i+1)+' of '+items.length+' \u00b7 '+(mode==='rec'?'My recording':'Default voice');
+  $('#status').textContent='Essay '+(i+1)+' of '+items.length+' \u00b7 '+(mode==='rec'?'My recording':'Default voice')+(pinRun?' \u00b7 pinned playlist':'');
   $('#ePrev').disabled=i<=0;$('#eNext').disabled=i>=items.length-1;
 }
 async function step(d,force){
@@ -304,7 +329,7 @@ async function step(d,force){
 }
 $('#ePrev').onclick=()=>step(-1);$('#eNext').onclick=()=>step(1);
 function prefetchNext(){
-  const n=items[items.indexOf(cur)+1];if(!n)return;
+  const n=nextAuto();if(!n)return;
   fetch(n.file).catch(()=>{});
   if(n.audio){const a=new Audio();a.preload='metadata';a.src=n.audio}
 }
@@ -319,7 +344,7 @@ function setSession(){
     ms.setActionHandler('previoustrack',()=>step(-1,true));
   }catch(e){}
 }
-aud.onended=()=>{if(mode==='rec'&&$('#auto').checked)advance()};
+aud.onended=()=>{if(mode==='rec'&&($('#auto').checked||pinRun))advance()};
 
 /* Default voice reader: sentence by sentence with highlight */
 function setUI(){$('#playBtn').textContent=state==='playing'?'Pause':state==='paused'?'Resume':'Listen';$('#stopBtn').hidden=state==='idle'}
@@ -350,7 +375,7 @@ function speakNext(t){
 }
 function beginRead(){q=[...document.querySelectorAll('#vBody .s')];qi=0;state='playing';synth.cancel();speakNext(++tok);setUI()}
 function finish(){
-  if($('#auto').checked){advance();return}
+  if($('#auto').checked||pinRun){advance();return}
   stopSpeech();
 }
 function stopSpeech(){runId++;haltSpeech()}
@@ -370,11 +395,17 @@ if(!synth){$('#tts').hidden=true;$('#playBtn').hidden=true}else{
     else beginRead();
     setUI();
   };
-  $('#stopBtn').onclick=stopSpeech;
+  $('#stopBtn').onclick=()=>{pinRun=false;stopSpeech()};
   window.addEventListener('pagehide',()=>synth.cancel());
 }
 
+$('#pinnedOnly').checked=!!prefs.pinnedOnly;$('#pinnedOnly').onchange=()=>{prefs.pinnedOnly=$('#pinnedOnly').checked;save()};
 $('#preferRec').checked=prefs.preferRec!==false;$('#preferRec').onchange=()=>{prefs.preferRec=$('#preferRec').checked;save()};
+$('#pinBtn').onclick=()=>{
+  if(!cur)return;const p=pinSet();
+  if(p.has(cur.file)){p.delete(cur.file);toast('Unpinned.')}else{p.add(cur.file);toast('Pinned to the top of the list.')}
+  prefs.pins=[...p];save();updPin();renderList();
+};
 $('#menuBtn').onclick=()=>drawer(true);
 $('#scrim').onclick=()=>drawer(false);
 $('#setBtn').onclick=e=>{e.stopPropagation();settings($('#settings').hidden)};
