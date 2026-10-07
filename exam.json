@@ -1397,6 +1397,723 @@
 "e": "An aspect is one feature or part of something."
 }
 ]
+},
+{
+"id": "x_vdef",
+"group": "Part II - Vocabulary",
+"title": "F. Words from definitions",
+"intro": "Choose the word that completes each definition. In the bank, the answer word was printed in brackets after each sentence, so here it is one of the four options. 18 questions from the NIE exam bank. The bank has no answer key, so the feedback was prepared by Claude: please check it against your own key.",
+"questions": [
+{
+"q": "If something has never happened before, it is ____.",
+"o": [
+"unavoidable",
+"unprecedented",
+"unpredictable",
+"unaffordable"
+],
+"a": 1,
+"e": "Unprecedented means never having happened before."
+},
+{
+"q": "Water that is underground is in a(n) ____ location.",
+"o": [
+"subterranean",
+"suburban",
+"submarine",
+"superficial"
+],
+"a": 0,
+"e": "Subterranean means underground (sub = under, terra = earth)."
+},
+{
+"q": "I need to ____ in this situation. It is important to come in between these people and their fight.",
+"o": [
+"invent",
+"interview",
+"intervene",
+"inherit"
+],
+"a": 2,
+"e": "Intervene means to come between people to stop or change what is happening."
+},
+{
+"q": "A person who is very outgoing in dealing with others is a(n) ____.",
+"o": [
+"introvert",
+"perfectionist",
+"pessimist",
+"extrovert"
+],
+"a": 3,
+"e": "An extrovert is outgoing and sociable. An introvert is the opposite."
+},
+{
+"q": "If you carry goods out of one country, you ____ those goods.",
+"o": [
+"export",
+"import",
+"report",
+"support"
+],
+"a": 0,
+"e": "Export means to send goods out of a country. Import means to bring them in."
+},
+{
+"q": "To write or place a limit around something is to ____.",
+"o": [
+"circumscribe",
+"subscribe",
+"describe",
+"transcribe"
+],
+"a": 0,
+"e": "Circumscribe means to draw a line around something or to limit it."
+},
+{
+"q": "To look at something again in order to make it better is to ____.",
+"o": [
+"revive",
+"revise",
+"reverse",
+"revenge"
+],
+"a": 1,
+"e": "Revise means to re-examine something and improve it."
+},
+{
+"q": "To send in something that you would like to place under consideration is to ____ it.",
+"o": [
+"submit",
+"commit",
+"admit",
+"omit"
+],
+"a": 0,
+"e": "Submit means to hand something in to be considered."
+},
+{
+"q": "To exchange information electronically from far away is to ____.",
+"o": [
+"telecommunicate",
+"traverse",
+"telescope",
+"transplant"
+],
+"a": 0,
+"e": "Telecommunicate: tele (far) + communicate, to exchange information over a distance."
+},
+{
+"q": "A meeting where people get together to speak with each other is a(n) ____.",
+"o": [
+"evocation",
+"convocation",
+"invocation",
+"vocation"
+],
+"a": 1,
+"e": "A convocation is a formal gathering or assembly."
+},
+{
+"q": "If you come together again for a meeting, you ____ the meeting.",
+"o": [
+"reconcile",
+"rediscover",
+"reconvene",
+"reconsider"
+],
+"a": 2,
+"e": "Reconvene means to come together again (re = again, convene = meet)."
+},
+{
+"q": "I am trying to ____ the place you are describing; I would like to see it in my mind.",
+"o": [
+"vitalize",
+"revise",
+"visualize",
+"victimize"
+],
+"a": 2,
+"e": "Visualize means to form a picture of something in your mind."
+},
+{
+"q": "Every time I express my opinion, you always ____ me; you always say the opposite of what I say.",
+"o": [
+"contract",
+"contribute",
+"contradict",
+"convict"
+],
+"a": 2,
+"e": "Contradict means to say the opposite of what someone says."
+},
+{
+"q": "The ____ in the card is really meaningful; I really like what is written inside it.",
+"o": [
+"subscription",
+"inscription",
+"description",
+"prescription"
+],
+"a": 1,
+"e": "An inscription is words written inside or on something."
+},
+{
+"q": "My friend is studying ____ because she thinks it is interesting to understand what people's handwriting means.",
+"o": [
+"biology",
+"graphology",
+"geology",
+"psychology"
+],
+"a": 1,
+"e": "Graphology is the study of handwriting."
+},
+{
+"q": "After the man's death a(n) ____ was conducted to determine how he had died.",
+"o": [
+"post-mortem",
+"postscript",
+"postgraduate",
+"postponement"
+],
+"a": 0,
+"e": "A post-mortem is an examination of a body after death to find the cause."
+},
+{
+"q": "These socks are ____; they are incorrectly paired.",
+"o": [
+"misspelled",
+"misguided",
+"mispronounced",
+"mismatched"
+],
+"a": 3,
+"e": "Mismatched means not matching or wrongly paired."
+},
+{
+"q": "Tom is quite a(n) ____ person; he is not at all outgoing.",
+"o": [
+"introverted",
+"converted",
+"extroverted",
+"diverted"
+],
+"a": 0,
+"e": "Introverted means shy and inward-looking, the opposite of outgoing."
+}
+]
+},
+{
+"id": "x_vwf",
+"group": "Part II - Vocabulary",
+"title": "G. Word formation",
+"intro": "Choose the correct form of the word in brackets to complete each sentence. 25 questions from the NIE exam bank. Item 38 of the bank (working as a trainer or a trainee) was left out because both could be right. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"questions": [
+{
+"q": "This insurance company is well-known for its ____. (to rely)",
+"o": [
+"reliability",
+"relying",
+"reliable",
+"reliance"
+],
+"a": 0,
+"e": "Rely → reliability: the quality of being dependable."
+},
+{
+"q": "Those students are famous for their ____ to school and community. (to commit)",
+"o": [
+"commitment",
+"committee",
+"committed",
+"committing"
+],
+"a": 0,
+"e": "Commit → commitment: dedication to a cause or place."
+},
+{
+"q": "He's very popular in school. He's really ____ and fun for his school. (to energize)",
+"o": [
+"energy",
+"energize",
+"energetically",
+"energetic"
+],
+"a": 3,
+"e": "Energize → energetic: an adjective, full of energy."
+},
+{
+"q": "I could hit myself. I made the same mistake twice in ____. (to succeed)",
+"o": [
+"success",
+"succession",
+"successive",
+"successful"
+],
+"a": 1,
+"e": "The fixed phrase is twice in succession (one after the other)."
+},
+{
+"q": "Meeting other people, for me, is a basic ____. (to need)",
+"o": [
+"needed",
+"needy",
+"needless",
+"need"
+],
+"a": 3,
+"e": "The noun form of to need is need: a basic need."
+},
+{
+"q": "We are looking for a candidate with real ____ capacities. (to manage)",
+"o": [
+"managed",
+"managerial",
+"manager",
+"manage"
+],
+"a": 1,
+"e": "An adjective is needed before capacities: managerial."
+},
+{
+"q": "Thanks for your ____ of my humble invitation. (to accept)",
+"o": [
+"acceptable",
+"accepting",
+"accepted",
+"acceptance"
+],
+"a": 3,
+"e": "Accept → acceptance: a noun after your ... of."
+},
+{
+"q": "The ____ time is at 9 o'clock. (to arrive)",
+"o": [
+"arrival",
+"arriving",
+"arrived",
+"arrive"
+],
+"a": 0,
+"e": "Arrive → arrival: a noun used before time (arrival time)."
+},
+{
+"q": "You should ask for his ____ first. (to approve)",
+"o": [
+"approve",
+"approval",
+"approved",
+"approving"
+],
+"a": 1,
+"e": "Approve → approval: a noun after his."
+},
+{
+"q": "Could you send us 10 ____ brochures for distribution among our staff? (to add)",
+"o": [
+"additional",
+"adding",
+"addition",
+"additive"
+],
+"a": 0,
+"e": "Add → additional: an adjective meaning extra."
+},
+{
+"q": "____ must be filed within five working days. (to complain)",
+"o": [
+"Complained",
+"Complaining",
+"Complaints",
+"Complain"
+],
+"a": 2,
+"e": "Complain → complaints: a plural noun is the subject of must be filed."
+},
+{
+"q": "They must have forgotten to add the ____ to this letter. (to enclose)",
+"o": [
+"enclosed",
+"enclose",
+"enclosure",
+"enclosing"
+],
+"a": 2,
+"e": "Enclose → enclosure: a noun after the (the thing enclosed)."
+},
+{
+"q": "It's tough being an ____ these days. (to apply)",
+"o": [
+"application",
+"applicant",
+"applying",
+"applied"
+],
+"a": 1,
+"e": "Apply → applicant: the person who applies."
+},
+{
+"q": "German cars are known for their ____. (to rely)",
+"o": [
+"relying",
+"reliability",
+"reliance",
+"reliable"
+],
+"a": 1,
+"e": "Rely → reliability: the quality of being dependable."
+},
+{
+"q": "I usually have a sore throat after a night of ____ drinking and smoking. (to exceed)",
+"o": [
+"exceeded",
+"exceeding",
+"excess",
+"excessive"
+],
+"a": 3,
+"e": "Exceed → excessive: an adjective meaning too much."
+},
+{
+"q": "We look forward to receiving your price ____. (to quote)",
+"o": [
+"quoted",
+"quotable",
+"quotation",
+"quoting"
+],
+"a": 2,
+"e": "Quote → quotation: a noun, a statement of the price."
+},
+{
+"q": "Payment will be effected on ____ of the goods. (to receive)",
+"o": [
+"received",
+"receivable",
+"receipt",
+"receiving"
+],
+"a": 2,
+"e": "The fixed phrase is on receipt of the goods."
+},
+{
+"q": "A five percent discount for regular customers is not really ____. (to accept)",
+"o": [
+"accepting",
+"acceptable",
+"acceptance",
+"accepted"
+],
+"a": 1,
+"e": "Accept → acceptable: an adjective after is not really."
+},
+{
+"q": "If your terms are ____, we may consider placing regular orders. (to satisfy)",
+"o": [
+"satisfy",
+"satisfaction",
+"satisfactory",
+"satisfactorily"
+],
+"a": 2,
+"e": "Satisfy → satisfactory: an adjective meaning good enough."
+},
+{
+"q": "Check if there is a ____ fee. (to cancel)",
+"o": [
+"cancel",
+"cancelled",
+"cancellation",
+"canceling"
+],
+"a": 2,
+"e": "Cancel → cancellation: a noun used before fee."
+},
+{
+"q": "Your ____ makes me disappointed. (to refuse)",
+"o": [
+"refuse",
+"refusing",
+"refused",
+"refusal"
+],
+"a": 3,
+"e": "Refuse → refusal: a noun after Your."
+},
+{
+"q": "Let me introduce you to Helen, the management ____. (to assist)",
+"o": [
+"assistance",
+"assisted",
+"assisting",
+"assistant"
+],
+"a": 3,
+"e": "Assist → assistant: the person who assists."
+},
+{
+"q": "The successful candidate will be fully responsible for ____ profitable sales through the recruitment, direction, motivation and control of the direct sales force. (to maximize)",
+"o": [
+"maximize",
+"maximized",
+"maximum",
+"maximizing"
+],
+"a": 3,
+"e": "After the preposition for, use the -ing form: maximizing."
+},
+{
+"q": "Your car looks dirty! You'd better take it to the car-washing place to have it ____. (to wash)",
+"o": [
+"wash",
+"washed",
+"washing",
+"washes"
+],
+"a": 1,
+"e": "Have something done uses the past participle: have it washed."
+},
+{
+"q": "You deserve appreciation and admiration for your ____ to our school. (to commit)",
+"o": [
+"committing",
+"committee",
+"committed",
+"commitment"
+],
+"a": 3,
+"e": "Commit → commitment: a noun after your."
+}
+]
+},
+{
+"id": "x_vmatch",
+"group": "Part II - Vocabulary",
+"title": "H. Matching definitions to terms",
+"intro": "Choose the term that matches each definition. In the bank, you matched 20 definitions to a list of 20 terms. Here each definition has four options taken from that list. 20 questions. The bank has no answer key, so the answers were prepared by Claude: please check them against your own key.",
+"questions": [
+{
+"q": "Which term matches this definition? Logical or sensible.",
+"o": [
+"Rational",
+"Prima donna",
+"Security",
+"Flaunt"
+],
+"a": 0,
+"e": "Rational: logical or sensible."
+},
+{
+"q": "Which term matches this definition? Being able to change places or replace something else.",
+"o": [
+"Interchangeable",
+"Discrimination",
+"Rational",
+"Achievement"
+],
+"a": 0,
+"e": "Interchangeable: being able to change places or replace something else."
+},
+{
+"q": "Which term matches this definition? Someone excessively devoted to or enthusiastic about a cause.",
+"o": [
+"Fanatic",
+"Security",
+"Rational",
+"Vision"
+],
+"a": 0,
+"e": "Fanatic: someone excessively devoted to or enthusiastic about a cause."
+},
+{
+"q": "Which term matches this definition? To make something real.",
+"o": [
+"Security",
+"Gamut",
+"Realization",
+"Prima donna"
+],
+"a": 2,
+"e": "Realization: to make something real."
+},
+{
+"q": "Which term matches this definition? A dream.",
+"o": [
+"Procrastination",
+"Vision",
+"Fanatic",
+"Excess"
+],
+"a": 1,
+"e": "Vision: a dream."
+},
+{
+"q": "Which term matches this definition? To explain in detail.",
+"o": [
+"Elaborate",
+"Achievement",
+"Interchangeable",
+"Prima donna"
+],
+"a": 0,
+"e": "Elaborate: to explain in detail."
+},
+{
+"q": "Which term matches this definition? Easily persuaded or swayed; submissive.",
+"o": [
+"Integrity",
+"Achievement",
+"Elaborate",
+"Compliant"
+],
+"a": 3,
+"e": "Compliant: easily persuaded or swayed; submissive."
+},
+{
+"q": "Which term matches this definition? To exhibit something a little too proudly.",
+"o": [
+"Interchangeable",
+"Achievement",
+"Flaunt",
+"Compliant"
+],
+"a": 2,
+"e": "Flaunt: to exhibit something a little too proudly."
+},
+{
+"q": "Which term matches this definition? Feeling safe and certain.",
+"o": [
+"Security",
+"Rational",
+"Interchangeable",
+"Gamut"
+],
+"a": 0,
+"e": "Security: feeling safe and certain."
+},
+{
+"q": "Which term matches this definition? An overly vain person.",
+"o": [
+"Prima donna",
+"Fanatic",
+"Discrimination",
+"Achievement"
+],
+"a": 0,
+"e": "Prima donna: an overly vain person."
+},
+{
+"q": "Which term matches this definition? The full or complete range of things.",
+"o": [
+"Vision",
+"Gamut",
+"Humility",
+"Realization"
+],
+"a": 1,
+"e": "Gamut: the full or complete range of things."
+},
+{
+"q": "Which term matches this definition? Accomplishing something rewarding.",
+"o": [
+"Fanatic",
+"Interchangeable",
+"Impulsive",
+"Achievement"
+],
+"a": 3,
+"e": "Achievement: accomplishing something rewarding."
+},
+{
+"q": "Which term matches this definition? A lack of false pride; feeling modest.",
+"o": [
+"Realization",
+"Humility",
+"Vision",
+"Flaunt"
+],
+"a": 1,
+"e": "Humility: a lack of false pride; feeling modest."
+},
+{
+"q": "Which term matches this definition? Free from corruption or vice; honesty.",
+"o": [
+"Procrastination",
+"Vision",
+"Integrity",
+"Prima donna"
+],
+"a": 2,
+"e": "Integrity: free from corruption or vice; honesty."
+},
+{
+"q": "Which term matches this definition? Wrongful treatment of a person or group due to bias or prejudice.",
+"o": [
+"Elaborate",
+"Discrimination",
+"Fanatic",
+"Gamut"
+],
+"a": 1,
+"e": "Discrimination: wrongful treatment of a person or group due to bias or prejudice."
+},
+{
+"q": "Which term matches this definition? A feeling arising when hindered in trying to reach a goal.",
+"o": [
+"Frustration",
+"Impulsive",
+"Fanatic",
+"Intuition"
+],
+"a": 0,
+"e": "Frustration: a feeling arising when hindered in trying to reach a goal."
+},
+{
+"q": "Which term matches this definition? Putting an assignment or task off until a later time; dawdling.",
+"o": [
+"Prima donna",
+"Vision",
+"Procrastination",
+"Gamut"
+],
+"a": 2,
+"e": "Procrastination: putting an assignment or task off until a later time; dawdling."
+},
+{
+"q": "Which term matches this definition? More of something than is necessary.",
+"o": [
+"Humility",
+"Excess",
+"Security",
+"Intuition"
+],
+"a": 1,
+"e": "Excess: more of something than is necessary."
+},
+{
+"q": "Which term matches this definition? Actions typified by a lack of planning or preparing.",
+"o": [
+"Impulsive",
+"Vision",
+"Realization",
+"Prima donna"
+],
+"a": 0,
+"e": "Impulsive: actions typified by a lack of planning or preparing."
+},
+{
+"q": "Which term matches this definition? Instinctive knowing; a feeling that something might happen.",
+"o": [
+"Fanatic",
+"Intuition",
+"Prima donna",
+"Achievement"
+],
+"a": 1,
+"e": "Intuition: instinctive knowing; a feeling that something might happen."
+}
+]
 }
 ]
 }
