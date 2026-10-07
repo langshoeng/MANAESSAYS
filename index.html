@@ -139,6 +139,8 @@ button,select{min-height:44px}
 .ul{text-decoration:underline;text-underline-offset:3px;font-weight:600}
 .ul sup{font-size:.7em;color:var(--accent);margin-right:2px;text-decoration:none;display:inline-block}
 #side>*{max-width:100%}
+.qa{border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:10px 0}
+.qa summary{cursor:pointer;font-weight:600}
 </style>
 </head>
 <body>
@@ -395,13 +397,13 @@ function renderXList(){
     if(s.group!==last){last=s.group;box.append(el('div','grp-h',s.group))}
     const b=el('button','item');b.setAttribute('aria-current',String(curG===s));
     const best=(prefs.scores||{})[s.id];
-    b.append(el('b','',s.title+' ('+xbase[s.id].length+')'));if(best!==undefined)b.append(el('small','','best '+best+'/'+xbase[s.id].length));
+    b.append(el('b','',s.title+(xbase[s.id]?' ('+xbase[s.id].length+')':'')));if(best!==undefined&&xbase[s.id])b.append(el('small','','best '+best+'/'+xbase[s.id].length));
     b.onclick=()=>openG(s);box.append(b)});
   if(!box.querySelector('.item'))box.textContent='No exam sets found.';
 }
 const xP=fetch('exam.json').then(r=>r.json()).then(d=>{
-  xsets=d.sets.map(s=>({id:s.id,group:s.group,title:s.title,blocks:[{t:'p',x:s.intro}]}));
-  d.sets.forEach(s=>{
+  xsets=d.sets.map(s=>({id:s.id,group:s.group,title:s.title,blocks:s.blocks||[{t:'p',x:s.intro}]}));
+  d.sets.filter(s=>s.questions).forEach(s=>{
     s.questions.forEach(q=>{q.sid=s.id;q.k=s.id+'|'+q.q+'|'+q.o[q.a]});
     xbase[s.id]=s.questions;prac[s.id]=s.questions;
   });
@@ -466,6 +468,12 @@ function renderBlock2(b){
   if(b.t==='f'){const p=el('p');p.append(el('span','formula',b.x));return p}
   if(b.t==='check'){const d=el('div');b.items.forEach(x=>{const l=el('label','chk'),c=el('input');c.type='checkbox';l.append(c,el('span','',x));d.append(l)});return d}
   if(b.t==='planner')return buildPlanner(b);
+  if(b.t==='qa'){
+    const d=el('details','qa');d.append(el('summary','',b.q));
+    if(b.tip)d.append(el('p','lbl',b.tip));
+    const u=el('ul');b.pts.forEach(x=>u.append(el('li','',x)));d.append(u);
+    d.append(el('p','lbl','Self-check after writing your own answer:'));
+    const c=el('div');b.check.forEach(x=>{const l=el('label','chk'),i=el('input');i.type='checkbox';l.append(i,el('span','',x));c.append(l)});d.append(c);return d}
   if(b.t==='model'){
     const d=el('div');d.append(el('p','mq',b.q));
     b.paras.forEach(pa=>{const m=el('div','mp');m.append(el('h4','',pa.h));const p=el('p');p.style.margin='0';
