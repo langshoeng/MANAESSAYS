@@ -1,6 +1,833 @@
 {
 "sets": [
 {
+"id": "x_gverb",
+"group": "Part I - Grammar",
+"title": "A. Verb forms and tenses",
+"intro": "Choose the correct form of the verb in brackets. 33 questions from the NIE exam bank. In question 1 a word was missing in the bank (the weather had been ...), so fine was added. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"questions": [
+{
+"q": "If the weather had been fine, we ____ (to come) by bike.",
+"o": [
+"had come",
+"would come",
+"will come",
+"would have come"
+],
+"a": 3,
+"e": "Third conditional: if + had + V3, would have + V3. (In the bank an adjective after had been is missing; fine was added.)"
+},
+{
+"q": "You will surely miss the bus if you ____ (not/to be) in a hurry.",
+"o": [
+"were not",
+"have not been",
+"will not be",
+"are not"
+],
+"a": 3,
+"e": "First conditional: the if-clause uses the present simple."
+},
+{
+"q": "If I ____ (to see) the film, I wouldn't have bought the video.",
+"o": [
+"would see",
+"had seen",
+"have seen",
+"saw"
+],
+"a": 1,
+"e": "Third conditional: if + had + V3."
+},
+{
+"q": "We could have helped if we ____ (to know) about his problems.",
+"o": [
+"knew",
+"would know",
+"had known",
+"have known"
+],
+"a": 2,
+"e": "Third conditional: if + had + V3."
+},
+{
+"q": "Would you go out more often if you ____ (not/to have) to do so much in the house?",
+"o": [
+"don't have",
+"hadn't had",
+"didn't have",
+"wouldn't have"
+],
+"a": 2,
+"e": "Second conditional: if + past simple."
+},
+{
+"q": "At the party last night, if I had known Mr. John, I ____ (to talk) to him.",
+"o": [
+"had talked",
+"would talk",
+"would have talked",
+"will talk"
+],
+"a": 2,
+"e": "Third conditional result: would have + V3."
+},
+{
+"q": "Drive faster! If you don't hurry up, she ____ (to have) the baby by the time we get to the hospital.",
+"o": [
+"will have",
+"will have had",
+"has had",
+"would have had"
+],
+"a": 1,
+"e": "By the time + a future point: future perfect, will have + V3."
+},
+{
+"q": "We usually grow vegetables in our garden but this year we ____ (not/to grow) any.",
+"o": [
+"don't grow",
+"won't grow",
+"didn't grow",
+"aren't growing"
+],
+"a": 3,
+"e": "This year contrasts with usually, so a temporary situation: present continuous."
+},
+{
+"q": "There's something wrong with Judy's car at the moment, so she ____ (to go) to work by bus this week.",
+"o": [
+"goes",
+"is going",
+"has gone",
+"went"
+],
+"a": 1,
+"e": "A temporary arrangement now: present continuous."
+},
+{
+"q": "Why are you so late? I ____ (to wait) for you here for nearly half an hour!",
+"o": [
+"wait",
+"waited",
+"am waiting",
+"have been waiting"
+],
+"a": 3,
+"e": "A duration that continues up to now: present perfect continuous."
+},
+{
+"q": "The lead guitarist for the band ____ (rehearse) the new songs for weeks. That's why they sound so good tonight.",
+"o": [
+"rehearses",
+"has been rehearsing",
+"rehearsed",
+"is rehearsing"
+],
+"a": 1,
+"e": "For weeks, with a result now: present perfect continuous."
+},
+{
+"q": "This morning when you met my father, you shouldn't ____ (tell) him about my misbehaviors at school.",
+"o": [
+"be telling",
+"tell",
+"have told",
+"told"
+],
+"a": 2,
+"e": "Shouldn't have + V3 criticizes a past action."
+},
+{
+"q": "By the time we get to Preah Vihear province this evening, we ____ (drive) more than four hundred kilometers.",
+"o": [
+"are driving",
+"will have driven",
+"have driven",
+"will drive"
+],
+"a": 1,
+"e": "By the time + future: future perfect, will have + V3."
+},
+{
+"q": "My father ____ (to try) to change a light bulb when he ____ (slip) and fell.",
+"o": [
+"was trying / slipped",
+"had tried / slipped",
+"was trying / was slipping",
+"tried / was slipping"
+],
+"a": 0,
+"e": "A longer action in progress (past continuous) interrupted by a shorter one (past simple)."
+},
+{
+"q": "Come over to my house around 7 o'clock this evening. By then, I ____ (complete) my history essay and we can go to eat out together.",
+"o": [
+"complete",
+"will complete",
+"will have completed",
+"have completed"
+],
+"a": 2,
+"e": "By then + a future time: future perfect."
+},
+{
+"q": "If I had known your address, I ____ (write) to you.",
+"o": [
+"would write",
+"had written",
+"wrote",
+"would have written"
+],
+"a": 3,
+"e": "Third conditional result: would have + V3."
+},
+{
+"q": "We ____ (own) this TV set since 1968, and it still works!",
+"o": [
+"own",
+"owned",
+"are owning",
+"have owned"
+],
+"a": 3,
+"e": "Since + a starting point: present perfect. Own is a state verb, so it is not used in a continuous tense."
+},
+{
+"q": "What ____ (you/do) when the electricity went off last night?",
+"o": [
+"have you done",
+"are you doing",
+"do you do",
+"were you doing"
+],
+"a": 3,
+"e": "The question asks about what was in progress when the power went off: past continuous."
+},
+{
+"q": "I think the waiter has forgotten us. We ____ (wait) here for over half an hour and nobody ____ (take) our order yet.",
+"o": [
+"had waited / took",
+"waited / took",
+"have been waiting / has taken",
+"are waiting / takes"
+],
+"a": 2,
+"e": "Duration up to now: present perfect continuous. Yet needs the present perfect: has taken."
+},
+{
+"q": "When I was in Japan for the first time, I didn't have any problem at all with the language because I ____ (to learn) Japanese before I went to Japan.",
+"o": [
+"was learning",
+"had learned",
+"have learned",
+"learned"
+],
+"a": 1,
+"e": "An earlier past action: past perfect."
+},
+{
+"q": "This time yesterday, I ____ (to have) dinner with my family.",
+"o": [
+"was having",
+"am having",
+"have had",
+"had"
+],
+"a": 0,
+"e": "This time yesterday = an action in progress at that moment: past continuous."
+},
+{
+"q": "I would not go to that place if I ____ (to be) him.",
+"o": [
+"will be",
+"were",
+"am",
+"had been"
+],
+"a": 1,
+"e": "Second conditional: if I were him."
+},
+{
+"q": "We'll go out later if it ____ (to stop) raining.",
+"o": [
+"would stop",
+"stopped",
+"stops",
+"will stop"
+],
+"a": 2,
+"e": "First conditional: if + present simple."
+},
+{
+"q": "The plane ____ (to land) by the time we get to the airport.",
+"o": [
+"lands",
+"will have landed",
+"will land",
+"has landed"
+],
+"a": 1,
+"e": "By the time + future: future perfect."
+},
+{
+"q": "Kindly let me know if you happen ____ (to find) my lost book.",
+"o": [
+"found",
+"to find",
+"find",
+"finding"
+],
+"a": 1,
+"e": "Happen is followed by the to-infinitive."
+},
+{
+"q": "This time tomorrow, I ____ (to fly) to Singapore to take part in the regional seminar.",
+"o": [
+"will fly",
+"will be flying",
+"have flown",
+"fly"
+],
+"a": 1,
+"e": "This time tomorrow = in progress at a future moment: future continuous."
+},
+{
+"q": "Last night, you ____ (to meet) our former CEO if you ____ (to come) to the get-together party.",
+"o": [
+"met / came",
+"would meet / had come",
+"would have met / had come",
+"will meet / come"
+],
+"a": 2,
+"e": "Third conditional: would have + V3 in the result, had + V3 in the if-clause."
+},
+{
+"q": "If you don't explain to her again, she ____ (not/understand) it.",
+"o": [
+"didn't understand",
+"won't understand",
+"doesn't understand",
+"wouldn't understand"
+],
+"a": 1,
+"e": "First conditional: if + present simple, will/won't + V1."
+},
+{
+"q": "I ____ (to work) for this company for more than thirty years, and I intend to stay here until I retire!",
+"o": [
+"have been working",
+"worked",
+"am working",
+"had worked"
+],
+"a": 0,
+"e": "For more than thirty years up to now: present perfect continuous."
+},
+{
+"q": "By the time we get to Ratanakiri province this evening, we ____ (to drive) more than five hundred kilometers.",
+"o": [
+"are driving",
+"will drive",
+"have driven",
+"will have driven"
+],
+"a": 3,
+"e": "By the time + future: future perfect."
+},
+{
+"q": "We were late because we had some car problems. By the time we got to the train station, Susan ____ (to wait) for us for more than two hours.",
+"o": [
+"will have been waiting",
+"had been waiting",
+"has been waiting",
+"waited"
+],
+"a": 1,
+"e": "By the time we got (past): the earlier, continuing action uses past perfect continuous."
+},
+{
+"q": "Why are you putting on the coat? I ____ (to take) the dog for a walk.",
+"o": [
+"am taking",
+"took",
+"take",
+"have taken"
+],
+"a": 0,
+"e": "A plan already made, with a present sign (the coat): present continuous."
+},
+{
+"q": "I forgot to bring the pen with me. \"Oh, don't worry, I ____ (to lend) you mine.\"",
+"o": [
+"lent",
+"will lend",
+"am lending",
+"have lent"
+],
+"a": 1,
+"e": "A spontaneous offer made at the moment of speaking uses will."
+}
+]
+},
+{
+"id": "x_gcond",
+"group": "Part I - Grammar",
+"title": "B. Conditionals",
+"intro": "Choose the option that completes the sentence correctly, or the sentence that joins the facts with the right conditional. 16 questions from the NIE exam bank. Two items (6 and 14) were left out because words were missing in the bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"questions": [
+{
+"q": "Which sentence joins these facts correctly using a conditional? \"I didn't meet John. I didn't tell him about you.\"",
+"o": [
+"If I had met John, I would have told him about you.",
+"If I had met John, I would tell him about you.",
+"If I would have met John, I would have told him about you.",
+"If I met John, I would tell him about you."
+],
+"a": 0,
+"e": "Both are past and unreal: third conditional, if + had + V3, would have + V3."
+},
+{
+"q": "Which sentence joins these facts correctly using a conditional? \"This morning I got up late, and I missed the bus.\"",
+"o": [
+"If I didn't get up late, I wouldn't miss the bus.",
+"If I hadn't got up late, I wouldn't have missed the bus.",
+"If I wouldn't have got up late, I hadn't missed the bus.",
+"If I hadn't got up late, I wouldn't miss the bus."
+],
+"a": 1,
+"e": "A past, unreal situation: third conditional."
+},
+{
+"q": "Which sentence joins these facts correctly using a conditional? \"Right now, I want to buy a book, but I don't have enough money with me.\"",
+"o": [
+"If I had enough money with me, I would buy a book.",
+"If I would have enough money with me, I would buy a book.",
+"If I have enough money with me, I will buy a book.",
+"If I had had enough money with me, I would have bought a book."
+],
+"a": 0,
+"e": "An unreal present situation: second conditional, if + past simple, would + V1."
+},
+{
+"q": "Which sentence joins these facts correctly using a conditional? \"We don't visit you very often because you live so far away.\"",
+"o": [
+"If you don't live so far away, we will visit you more often.",
+"If you didn't live so far away, we would visit you more often.",
+"If you wouldn't live so far away, we would visit you more often.",
+"If you hadn't lived so far away, we would visit you more often."
+],
+"a": 1,
+"e": "An unreal present situation: second conditional."
+},
+{
+"q": "When I stopped talking, Sam finished my sentence for me as though he ____ my mind.",
+"o": [
+"has read",
+"had read",
+"would read",
+"read"
+],
+"a": 1,
+"e": "As though + past perfect describes an unreal earlier action: as though he had read my mind."
+},
+{
+"q": "I wish I ____ you some money for your rent, but I'm broke myself.",
+"o": [
+"would give",
+"had given",
+"could give",
+"can give"
+],
+"a": 2,
+"e": "I wish + could expresses a present wish about ability."
+},
+{
+"q": "If someone ____ into the store, smile and say, \"May I help you?\"",
+"o": [
+"comes",
+"had come",
+"would come",
+"came"
+],
+"a": 0,
+"e": "An instruction for a general situation: if + present simple, then an imperative."
+},
+{
+"q": "\"Are we lost?\" \"I think so. I wish we ____ a map with us today.\"",
+"o": [
+"have",
+"would have",
+"had",
+"had had"
+],
+"a": 2,
+"e": "A wish about the present uses the past simple: I wish we had a map."
+},
+{
+"q": "If I weren't working for an accounting firm, I ____ in a bank.",
+"o": [
+"will work",
+"would be working",
+"would have worked",
+"work"
+],
+"a": 1,
+"e": "Second conditional result: would + V1 (or would be + V-ing)."
+},
+{
+"q": "Ed invested a lot of money with a dishonest advisor and lost nearly all of it. He ____ in this position if he'd listened to some of his friends.",
+"o": [
+"wouldn't be",
+"won't be",
+"wouldn't have been",
+"isn't"
+],
+"a": 0,
+"e": "Mixed conditional: a past condition (if he'd listened) with a present result (wouldn't be)."
+},
+{
+"q": "The world ____ a better place if we had known a hundred years ago what we know today about the earth's environment.",
+"o": [
+"will be",
+"would have been",
+"would be",
+"is"
+],
+"a": 2,
+"e": "Mixed conditional: a past condition with a present result: would + V1."
+},
+{
+"q": "The medicine made me feel dizzy. I felt as though the room ____ around and around.",
+"o": [
+"would spin",
+"is spinning",
+"were spinning",
+"spun"
+],
+"a": 2,
+"e": "As though + past continuous describes how something seemed to be happening."
+},
+{
+"q": "____ you, I'd think twice about that decision. It could be a bad move.",
+"o": [
+"If I am",
+"If I were",
+"If I had been",
+"If I will be"
+],
+"a": 1,
+"e": "Advice with the second conditional: If I were you."
+},
+{
+"q": "\"Was Pam seriously injured in the automobile accident?\" \"She broke her arm. It ____ much worse if she hadn't been wearing her seat belt.\"",
+"o": [
+"would be",
+"would have been",
+"had been",
+"will be"
+],
+"a": 1,
+"e": "Third conditional: if + had + V3, would have + V3."
+},
+{
+"q": "Many people who live near nuclear plants are concerned. ____ go wrong, the impact on the surrounding area could be disastrous.",
+"o": [
+"Had something",
+"Were something",
+"If something",
+"Should something"
+],
+"a": 3,
+"e": "Should + subject + verb is a formal, inverted if-clause for an unlikely possibility."
+},
+{
+"q": "Had I known the carpenter was going to take three days to show up, I ____ the materials and done the work myself. It would be finished by now.",
+"o": [
+"will buy",
+"would have bought",
+"had bought",
+"would buy"
+],
+"a": 1,
+"e": "Had I known = If I had known: third conditional, would have + V3."
+}
+]
+},
+{
+"id": "x_grep",
+"group": "Part I - Grammar",
+"title": "C. Reported speech",
+"intro": "Choose the correct way to report each sentence. 24 questions from the NIE exam bank. In the bank you wrote the answers yourself, so here each question has four options. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"questions": [
+{
+"q": "\"Don't eat too much.\" The doctor told the fat boy ____.",
+"o": [
+"he must not to eat too much",
+"not eating too much",
+"not to eat too much",
+"don't eat too much"
+],
+"a": 2,
+"e": "A negative command: told + object + not to + V1."
+},
+{
+"q": "\"I didn't meet the boss last night.\" She told me ____.",
+"o": [
+"that she hadn't met the boss the night before",
+"that she hasn't met the boss the night before",
+"that she didn't meet the boss last night",
+"that I hadn't met the boss the night before"
+],
+"a": 0,
+"e": "Past simple becomes past perfect, I becomes she, and last night becomes the night before."
+},
+{
+"q": "\"Can you climb up the hill?\" Ratha asked Theara ____.",
+"o": [
+"if he could climb up the hill",
+"can he climb up the hill",
+"that he can climb up the hill",
+"if could he climb up the hill"
+],
+"a": 0,
+"e": "A yes/no question: if/whether + statement order, and can becomes could. (He or she, depending on Theara.)"
+},
+{
+"q": "\"Do you speak English?\" The tourist asked me ____.",
+"o": [
+"if did I speak English",
+"if I spoke English",
+"do I speak English",
+"that I spoke English"
+],
+"a": 1,
+"e": "A yes/no question: if + statement order, with the tense moved back."
+},
+{
+"q": "\"When will you return the cassettes to me?\" Marry asked me ____.",
+"o": [
+"when I would return the cassettes to me",
+"when I would return the cassettes to her",
+"when will I return the cassettes to her",
+"when would I return the cassettes to her"
+],
+"a": 1,
+"e": "Statement order, will becomes would, and me becomes her."
+},
+{
+"q": "\"Have you ironed my shirt?\" Mr. Sovann asked the maid ____.",
+"o": [
+"had she ironed his shirt",
+"if she has ironed his shirt",
+"if she had ironed my shirt",
+"if she had ironed his shirt"
+],
+"a": 3,
+"e": "Present perfect becomes past perfect, you becomes she, and my becomes his."
+},
+{
+"q": "\"I attended the wedding reception yesterday.\" Dr. David told me ____.",
+"o": [
+"that he has attended the wedding reception the day before",
+"that I had attended the wedding reception the day before",
+"that he attended the wedding reception yesterday",
+"that he had attended the wedding reception the day before"
+],
+"a": 3,
+"e": "Past simple becomes past perfect, I becomes he, and yesterday becomes the day before."
+},
+{
+"q": "\"Open your mouth please.\" The doctor asked Rotana ____.",
+"o": [
+"opening her mouth",
+"that she opens her mouth",
+"open her mouth",
+"to open her mouth"
+],
+"a": 3,
+"e": "A request: asked + object + to + V1, and your becomes her."
+},
+{
+"q": "\"Where do you live?\" They asked me ____.",
+"o": [
+"that where I lived",
+"where I lived",
+"where did I live",
+"where do I live"
+],
+"a": 1,
+"e": "A wh-question uses statement order, and the tense moves back."
+},
+{
+"q": "\"I didn't meet her yesterday.\" He told me ____.",
+"o": [
+"that I hadn't met her the day before",
+"that he hadn't met her the day before",
+"that he didn't meet her yesterday",
+"that he hasn't met her the day before"
+],
+"a": 1,
+"e": "Past simple becomes past perfect, and yesterday becomes the day before."
+},
+{
+"q": "\"Don't move!\" He ordered me ____.",
+"o": [
+"not to move",
+"don't move",
+"that I don't move",
+"to not moving"
+],
+"a": 0,
+"e": "A negative command: ordered + object + not to + V1."
+},
+{
+"q": "\"Did the children enjoy the play?\" They asked me ____.",
+"o": [
+"if did the children enjoy the play",
+"did the children enjoy the play",
+"if the children had enjoyed the play",
+"if the children have enjoyed the play"
+],
+"a": 2,
+"e": "A yes/no question: if + statement order, past simple becomes past perfect."
+},
+{
+"q": "\"Who were you talking to?\" They asked me ____.",
+"o": [
+"who was I talking to",
+"who were you talking to",
+"who I am talking to",
+"who I had been talking to"
+],
+"a": 3,
+"e": "Statement order, you becomes I, and the past continuous moves back to past perfect continuous."
+},
+{
+"q": "\"What time is he coming?\" They asked me ____.",
+"o": [
+"what time he is coming",
+"what time he was coming",
+"what time is he coming",
+"what time was he coming"
+],
+"a": 1,
+"e": "Statement order, and the tense moves back: is coming becomes was coming."
+},
+{
+"q": "\"When did you arrive?\" She asked me ____.",
+"o": [
+"when did I arrive",
+"when had I arrived",
+"when I had arrived",
+"when I have arrived"
+],
+"a": 2,
+"e": "Statement order, and past simple becomes past perfect."
+},
+{
+"q": "Peter: \"Clean the black shoes for me.\" Peter told me ____.",
+"o": [
+"that I clean the black shoes for him",
+"to clean the black shoes for him",
+"to clean the black shoes for me",
+"clean the black shoes for him"
+],
+"a": 1,
+"e": "A command: told + object + to + V1, and me becomes him."
+},
+{
+"q": "Peter: \"I cleaned the black shoes yesterday.\" Peter told me that ____.",
+"o": [
+"he had cleaned the black shoes the day before",
+"he cleaned the black shoes yesterday",
+"he has cleaned the black shoes the day before",
+"I had cleaned the black shoes the day before"
+],
+"a": 0,
+"e": "Past simple becomes past perfect, I becomes he, and yesterday becomes the day before."
+},
+{
+"q": "His father said, \"Go to your room.\" His father told him ____.",
+"o": [
+"go to his room",
+"to go to his room",
+"to go to your room",
+"that he goes to his room"
+],
+"a": 1,
+"e": "A command: told + object + to + V1, and your becomes his."
+},
+{
+"q": "Teacher: \"Do your homework.\" The teacher told me ____.",
+"o": [
+"to do your homework",
+"do my homework",
+"to do my homework",
+"doing my homework"
+],
+"a": 2,
+"e": "A command: told + object + to + V1, and your becomes my."
+},
+{
+"q": "Karen: \"Don't play football in the garden.\" Karen told me ____.",
+"o": [
+"to not playing football in the garden",
+"that I don't play football in the garden",
+"don't play football in the garden",
+"not to play football in the garden"
+],
+"a": 3,
+"e": "A negative command: told + object + not to + V1."
+},
+{
+"q": "Mr. John: \"I have cleaned the windows.\" Mr. John told me that ____.",
+"o": [
+"I had cleaned the windows",
+"he cleaned had the windows",
+"he has cleaned the windows",
+"he had cleaned the windows"
+],
+"a": 3,
+"e": "Present perfect becomes past perfect, and I becomes he."
+},
+{
+"q": "Ronaid: \"Where does Maria park her car?\" Ronaid asked me ____.",
+"o": [
+"where had Maria parked her car",
+"where Maria parked her car",
+"where did Maria park her car",
+"where does Maria park her car"
+],
+"a": 1,
+"e": "Statement order, with no does, and the tense moves back: park becomes parked."
+},
+{
+"q": "Mr. Roy: \"Do you like Cambodian food?\" Mr. Roy asked ____.",
+"o": [
+"if I liked Cambodian food",
+"if did I like Cambodian food",
+"do I like Cambodian food",
+"that I liked Cambodian food"
+],
+"a": 0,
+"e": "A yes/no question: if + statement order, present becomes past."
+},
+{
+"q": "Mother: \"Are you hungry?\" The mother asked her son ____.",
+"o": [
+"if he was hungry",
+"that he was hungry",
+"are you hungry",
+"was he hungry"
+],
+"a": 0,
+"e": "A yes/no question: if + statement order, and are becomes was."
+}
+]
+},
+{
 "id": "x_gmcq",
 "group": "Part I - Grammar",
 "title": "D. Sentence structure and usage",
