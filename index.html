@@ -172,6 +172,7 @@ button,select{min-height:44px}
       <label class="lbl"><input type="checkbox" id="auto"> Auto-play next</label>
       <label class="lbl"><input type="checkbox" id="preferRec" checked> Prefer my recording when available</label>
       <label class="lbl"><input type="checkbox" id="pinnedOnly"> Auto-play pinned essays only</label>
+      <label class="lbl"><input type="checkbox" id="shuffle"> Shuffle order for Auto-play next</label>
       <div class="grp" style="margin-top:12px"><button id="testVoice">Test voice</button><span class="lbl">&#9733; = higher quality voice</span></div>
     </div>
   </section>
@@ -214,7 +215,7 @@ button,select{min-height:44px}
 <div id="toast" role="status" aria-live="polite"></div>
 <script>
 const $=s=>document.querySelector(s),PK='essay-viewer-prefs',synth=window.speechSynthesis,aud=$('#aud');
-let pinRun=false,xsets=[],xbase={},gcur=null,xcur=null,pbase={},runId=0,recWait=null,wsecs=[],curW=null,sub='mine',tsecs=[],allT=[],curT=null,tmin=1,cs=null,prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
+const played=new Set();let shuffleRun=false,nextPick=null,pinRun=false,xsets=[],xbase={},gcur=null,xcur=null,pbase={},runId=0,recWait=null,wsecs=[],curW=null,sub='mine',tsecs=[],allT=[],curT=null,tmin=1,cs=null,prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
 try{prefs=JSON.parse(localStorage.getItem(PK))||{}}catch(e){}
 const save=()=>{try{localStorage.setItem(PK,JSON.stringify(prefs))}catch(e){}};
 const words=s=>(s.trim().match(/\S+/g)||[]).length;
@@ -226,11 +227,12 @@ function pinSet(){return new Set(prefs.pins||[])}
 function renderEList(){
   const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';
   const pins=pinSet(),rows=items.filter(i=>!f||i.title.toLowerCase().includes(f));
+  if(!f&&items.length>1){const r=el('div','');r.style.cssText='padding:0 10px 6px';const sa=el('button','sv','Shuffle all essays');sa.onclick=()=>playShuffle(false);r.append(sa);box.append(r)}
   const pinned=rows.filter(i=>pins.has(i.file)),rest=rows.filter(i=>!pins.has(i.file));
   const add=i=>{
     const b=document.createElement('button');b.className='item';b.setAttribute('aria-current',String(cur===i));
     const t=document.createElement('b');t.textContent=(pins.has(i.file)?'\u2605 ':'')+i.title;b.append(t);b.onclick=()=>open(i);box.append(b)};
-  if(pinned.length){box.append(el('div','grp-h','Pinned'));const pb=el('button','sv','\u25B6 Play pinned essays');pb.style.margin='2px 10px 6px';pb.onclick=playPinned;box.append(pb);pinned.forEach(add);if(rest.length)box.append(el('div','grp-h','All essays'))}
+  if(pinned.length){box.append(el('div','grp-h','Pinned'));const pr=el('div','');pr.style.cssText='display:flex;gap:6px;padding:2px 10px 6px;flex-wrap:wrap';const pb=el('button','sv','\u25B6 Play pinned');pb.onclick=playPinned;const ps2=el('button','sv','Shuffle pinned');ps2.onclick=()=>playShuffle(true);pr.append(pb,ps2);box.append(pr);pinned.forEach(add);if(rest.length)box.append(el('div','grp-h','All essays'))}
   rest.forEach(add);
   if(!box.querySelector('.item'))box.textContent=eErr?'Could not load essays.json. Make sure it is uploaded next to index.html.':'No essays found.';
 }
@@ -246,8 +248,8 @@ function renderBody(text){
     const s=document.createElement('span');s.className='s';s.textContent=p;box.append(s)});
 }
 async function open(i,auto){
-  if(!auto)pinRun=false;
-  if(auto)haltSpeech();else stopSpeech();aud.pause();$('#tapBtn').hidden=true;cur=i;drawer(false);prefs.last=i.file;save();renderList();
+  if(!auto){pinRun=false;shuffleRun=false;played.clear()}
+  if(auto)haltSpeech();else stopSpeech();aud.pause();$('#tapBtn').hidden=true;cur=i;played.add(i.file);drawer(false);prefs.last=i.file;save();renderList();
   let txt='';
   try{const r=await fetch(i.file);if(!r.ok)throw 0;txt=await r.text()}catch(e){toast('Could not load this essay.');return false}
   if(cur!==i)return false;
@@ -283,11 +285,28 @@ function waitRec(){
   });
 }
 /* Auto-play next: tries "My recording" first for every essay (if the setting is on), otherwise the default voice */
+function shuffleOn(){return shuffleRun||$('#shuffle').checked}
+function scopePinned(){return pinRun||(!shuffleRun&&$('#pinnedOnly').checked)}
 function nextAuto(){
+  const p=pinSet();
+  if(shuffleOn()){
+    const pool=items.filter(x=>(!scopePinned()||p.has(x.file))&&!played.has(x.file));
+    if(!pool.length)return undefined;
+    if(!(nextPick&&nextPick.cur===cur&&pool.includes(nextPick.item)))nextPick={cur,item:pool[Math.floor(Math.random()*pool.length)]};
+    return nextPick.item;
+  }
   const rest=items.slice(items.indexOf(cur)+1);
-  if(!(pinRun||$('#pinnedOnly').checked))return rest[0];
-  const p=pinSet();return rest.find(x=>p.has(x.file));
+  return scopePinned()?rest.find(x=>p.has(x.file)):rest[0];
 }
+async function playShuffle(pinned){
+  const p=pinSet(),pool=items.filter(x=>!pinned||p.has(x.file));if(!pool.length)return;
+  runId++;played.clear();nextPick=null;shuffleRun=true;pinRun=!!pinned;
+  const first=pool[Math.floor(Math.random()*pool.length)];
+  if(!(await open(first,true))){pinRun=false;shuffleRun=false;return}
+  const ok=first.audio?await recWait:false;
+  if(cur===first)startBest(ok);
+}
+
 async function playPinned(){
   const p=pinSet(),first=items.find(x=>p.has(x.file));if(!first)return;
   runId++;pinRun=true;
@@ -297,10 +316,10 @@ async function playPinned(){
 }
 async function advance(){
   const my=runId,n=nextAuto();
-  if(!n){if(pinRun||$('#pinnedOnly').checked)toast('End of pinned essays.');pinRun=false;stopSpeech();updStatus();return}
+  if(!n){const m=shuffleOn()?'Shuffle finished: each essay was played once.':scopePinned()?'End of pinned essays.':'';if(m)toast(m);pinRun=false;shuffleRun=false;stopSpeech();updStatus();return}
   await new Promise(r=>setTimeout(r,1000));
   if(my!==runId)return;
-  if(!(await open(n,true))){pinRun=false;stopSpeech();return}
+  if(!(await open(n,true))){pinRun=false;shuffleRun=false;stopSpeech();return}
   if(my!==runId||cur!==n)return;
   const ok=n.audio?await recWait:false;
   if(my!==runId||cur!==n)return;
@@ -316,11 +335,11 @@ $('#tapBtn').onclick=()=>{$('#tapBtn').hidden=true;if(mode==='rec')aud.play().ca
 function updStatus(){
   const i=items.indexOf(cur);
   if(i<0){$('#status').textContent='';return}
-  $('#status').textContent='Essay '+(i+1)+' of '+items.length+' \u00b7 '+(mode==='rec'?'My recording':'Default voice')+(pinRun?' \u00b7 pinned playlist':'');
+  $('#status').textContent='Essay '+(i+1)+' of '+items.length+' \u00b7 '+(mode==='rec'?'My recording':'Default voice')+(shuffleOn()?' \u00b7 shuffle':'')+(pinRun?' \u00b7 pinned playlist':'');
   $('#ePrev').disabled=i<=0;$('#eNext').disabled=i>=items.length-1;
 }
 async function step(d,force){
-  const n=items[items.indexOf(cur)+d];if(!n)return;
+  const n=(d===1&&shuffleOn())?nextAuto():items[items.indexOf(cur)+d];if(!n)return;
   const playing=state==='playing'||(mode==='rec'&&!aud.paused);
   runId++;
   if(!(await open(n,true))||!(playing||force))return;
@@ -344,7 +363,7 @@ function setSession(){
     ms.setActionHandler('previoustrack',()=>step(-1,true));
   }catch(e){}
 }
-aud.onended=()=>{if(mode==='rec'&&($('#auto').checked||pinRun))advance()};
+aud.onended=()=>{if(mode==='rec'&&($('#auto').checked||pinRun||shuffleRun))advance()};
 
 /* Default voice reader: sentence by sentence with highlight */
 function setUI(){$('#playBtn').textContent=state==='playing'?'Pause':state==='paused'?'Resume':'Listen';$('#stopBtn').hidden=state==='idle'}
@@ -375,7 +394,7 @@ function speakNext(t){
 }
 function beginRead(){q=[...document.querySelectorAll('#vBody .s')];qi=0;state='playing';synth.cancel();speakNext(++tok);setUI()}
 function finish(){
-  if($('#auto').checked||pinRun){advance();return}
+  if($('#auto').checked||pinRun||shuffleRun){advance();return}
   stopSpeech();
 }
 function stopSpeech(){runId++;haltSpeech()}
@@ -395,10 +414,11 @@ if(!synth){$('#tts').hidden=true;$('#playBtn').hidden=true}else{
     else beginRead();
     setUI();
   };
-  $('#stopBtn').onclick=()=>{pinRun=false;stopSpeech()};
+  $('#stopBtn').onclick=()=>{pinRun=false;shuffleRun=false;stopSpeech()};
   window.addEventListener('pagehide',()=>synth.cancel());
 }
 
+$('#shuffle').checked=!!prefs.shuffle;$('#shuffle').onchange=()=>{prefs.shuffle=$('#shuffle').checked;save();updStatus()};
 $('#pinnedOnly').checked=!!prefs.pinnedOnly;$('#pinnedOnly').onchange=()=>{prefs.pinnedOnly=$('#pinnedOnly').checked;save()};
 $('#preferRec').checked=prefs.preferRec!==false;$('#preferRec').onchange=()=>{prefs.preferRec=$('#preferRec').checked;save()};
 $('#pinBtn').onclick=()=>{
