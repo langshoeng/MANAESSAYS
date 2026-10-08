@@ -143,6 +143,15 @@ button,select{min-height:44px}
 .qa summary{cursor:pointer;font-weight:600}
 #pinBtn{flex:none;padding:0 12px;font-size:1.25rem;line-height:1.2;min-height:36px}
 #pinBtn.on{color:var(--accent);border-color:var(--accent)}
+.qtext{white-space:pre-line}
+.mwrap{display:grid;gap:10px;margin:10px 0}
+@media (min-width:760px){.mwrap{grid-template-columns:1fr 1.7fr}}
+.mcol{display:grid;gap:8px;align-content:start}
+.mt,.md{display:block;width:100%;text-align:left;padding:10px 12px;margin:0}
+.mt.sel,.md.sel{border:2px solid var(--accent);background:var(--bg)}
+.mt.mok,.md.mok{border:2px solid var(--accent);background:var(--bg)}
+.mt:disabled,.md:disabled{opacity:1;color:var(--ink);cursor:default}
+.mt.mbad,.md.mbad{border:2px solid var(--danger)}
 </style>
 </head>
 <body>
@@ -205,7 +214,7 @@ button,select{min-height:44px}
     <article id="tdoc" hidden>
       <h1 id="tTitle"></h1>
       <p id="tMeta" class="lbl"></p>
-      <div class="grp" id="tCtl" hidden style="margin:10px 0 4px"><button id="tLearn" class="primary">Terms</button><button id="tCards">Flashcards</button><select id="tFilter" aria-label="Show terms"><option value="1">All terms</option><option value="2">★★ and ★★★</option><option value="3">★★★ only</option></select></div>
+      <div class="grp" id="tCtl" hidden style="margin:10px 0 4px"><button id="tLearn" class="primary">Terms</button><button id="tCards">Flashcards</button><button id="tQuiz">Quiz</button><button id="tMatch">Match</button><select id="tQType" aria-label="Quiz type"><option value="mixed">Mixed quiz</option><option value="d2t">Definition &rarr; term</option><option value="t2d">Term &rarr; definition</option><option value="e2t">Example &rarr; term</option></select><select id="tFilter" aria-label="Show terms"><option value="1">All terms</option><option value="2">★★ and ★★★</option><option value="3">★★★ only</option></select></div>
       <div id="tBody"></div>
       <div id="cBody" hidden></div>
       <div class="grp" id="tNav"><button id="tPrev">&larr; Previous</button><button id="tNext">Next &rarr;</button></div>
@@ -533,6 +542,97 @@ function renderBlock2(b){
       pa.parts.forEach(([l,x])=>{p.append(el('span','chip',l),document.createTextNode(x+' '))});m.append(p);d.append(m)});return d}
   return null;
 }
+/* Terminology practice */
+const STOP=new Set('the a an of to and or in on for with by is are was were be that this which it as at from their its into not can may used use when who whom has have had'.split(' '));
+const wset=t=>new Set(t.toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(w=>w.length>3&&!STOP.has(w)));
+const jac=(a,b)=>{let n=0;a.forEach(x=>{if(b.has(x))n++});return n/((a.size+b.size-n)||1)};
+const nl=t=>t.toLowerCase().replace(/[^a-z0-9]/g,'');
+function distract(t){
+  const wt=wset(t.d),nt=nl(t.t);
+  const ok=x=>x!==t&&jac(wset(x.d),wt)<0.22&&!nl(x.t).includes(nt)&&!nt.includes(nl(x.t))&&nl(x.d)!==nl(t.d);
+  let pool=allT.filter(x=>x.sec===t.sec&&ok(x));
+  if(pool.length<3)pool=pool.concat(allT.filter(x=>x.sec!==t.sec&&ok(x)));
+  return shuffle(pool).slice(0,3);
+}
+function eligible(t,ty){const n=nl(t.t);return ty==='d2t'?nl(t.d).indexOf(n)<0:ty==='e2t'?nl(t.e).indexOf(n)<0:true}
+function makeQ(ty,t){
+  const ds=distract(t);if(ds.length<3)return null;
+  const ix=shuffle([0,1,2,3]),pick=(c,w)=>{const o=[c,...w];return{o:ix.map(i=>o[i]),a:ix.indexOf(0)}};
+  let q,m,fb;
+  if(ty==='t2d'){m=pick(t.d,ds.map(x=>x.d));q='What is the best definition of \u201C'+t.t+'\u201D?';fb=t.t+': '+t.d+' Example: '+t.e}
+  else if(ty==='e2t'){m=pick(t.t,ds.map(x=>x.t));q='Which term does this example illustrate?\n\u201C'+t.e+'\u201D';fb=t.t+': '+t.d}
+  else{m=pick(t.t,ds.map(x=>x.t));q='Which term matches this definition?\n\u201C'+t.d+'\u201D';fb=t.t+': '+t.d+' Example: '+t.e}
+  return{q,o:m.o,a:m.a,e:fb,k:'t|'+ty+'|'+t.t};
+}
+function termQuiz(list,type,n){
+  const out=[];
+  shuffle(list.slice()).slice(0,n).forEach(t=>{
+    const opts=['d2t','t2d','e2t'].filter(x=>eligible(t,x));
+    const ty=type!=='mixed'&&eligible(t,type)?type:opts[Math.floor(Math.random()*opts.length)];
+    const q=makeQ(ty,t);if(q)out.push(q)});
+  return out;
+}
+function weakTermList(){
+  const out=[];
+  (prefs.weak||[]).forEach(k=>{if(!k.startsWith('t|'))return;const[,ty,name]=k.split('|'),t=allT.find(x=>x.t===name);
+    if(t&&eligible(t,ty)){const q=makeQ(ty,t);if(q)out.push(q)}});
+  return out;
+}
+function distRows(){const d=tsecs.find(x=>x.id==='dist'),b=d&&d.blocks.find(x=>x.t==='tbl');return b?b.rows:[]}
+function distQuiz(){
+  const rows=distRows();
+  return shuffle(rows.slice()).map(r=>{
+    const o=[r[1],...shuffle(rows.filter(x=>x!==r)).slice(0,3).map(x=>x[1])],ix=shuffle([0,1,2,3]);
+    return{q:'Which statement correctly describes: '+r[0]+'?',o:ix.map(i=>o[i]),a:ix.indexOf(0),e:r[0]+': '+r[1]}});
+}
+function openTermQuiz(qs,id,title,intro){
+  if(!qs.length){toast('There are no questions here yet.');return}
+  const s={id,tq:true,group:'Practice',title,blocks:[{t:'p',x:intro}]};
+  prac[id]=qs;openG(s);startPractice();
+}
+$('#tQuiz').onclick=()=>{
+  const list=termsOf(curT).filter(t=>t.p>=(curT.id==='must'?1:tmin)),ty=$('#tQType').value;
+  openTermQuiz(termQuiz(list,ty,10),'tq_'+curT.id+'_'+ty,'Quiz: '+curT.title,'Ten questions from this category. Question types: definition to term, term to definition, and example to term.');
+};
+let ms=null;
+function startMatch(){
+  const base=termsOf(curT).filter(t=>t.p>=(curT.id==='must'?1:tmin));
+  if(base.length<3)return;
+  ms={pool:shuffle(base.slice()).slice(0,20),round:0,right:0,wrong:0,missed:[]};
+  $('#tBody').hidden=true;$('#cBody').hidden=false;$('#tNav').hidden=true;
+  $('#tLearn').classList.remove('primary');$('#tCards').classList.remove('primary');$('#tMatch').classList.add('primary');renderMatch();
+}
+function renderMatch(){
+  const box=$('#cBody');box.textContent='';
+  const group=ms.pool.slice(ms.round*5,ms.round*5+5);
+  if(group.length<1){matchResult();return}
+  if(group.length<3&&ms.round>0){matchResult();return}
+  box.append(el('p','prog','Round '+(ms.round+1)+' of '+Math.ceil(ms.pool.length/5)+'. Tap a term, then the definition that matches it.'));
+  const wrap=el('div','mwrap'),L=el('div','mcol'),R=el('div','mcol'),fb=el('div','exp');fb.hidden=true;
+  let sel=null,done=0;
+  shuffle(group.slice()).forEach(t=>{const b=el('button','mt',t.t);b.onclick=()=>{if(b.disabled)return;if(sel)sel.b.classList.remove('sel');sel={b,t};b.classList.add('sel')};L.append(b)});
+  shuffle(group.slice()).forEach(t=>{const b=el('button','md',t.d);b.onclick=()=>{
+    if(b.disabled)return;if(!sel){toast('Choose a term first.');return}
+    if(sel.t===t){
+      sel.b.classList.remove('sel');sel.b.classList.add('mok');sel.b.disabled=true;b.classList.add('mok');b.disabled=true;
+      ms.right++;done++;fb.hidden=false;fb.textContent=t.t+' \u2713 Example: '+t.e;sel=null;
+      if(done===group.length){const nx=el('button','primary',(ms.round+1)*5>=ms.pool.length?'See results':'Next round');nx.style.marginTop='12px';nx.onclick=()=>{ms.round++;renderMatch()};box.append(nx);nx.scrollIntoView({block:'nearest'})}
+    }else{
+      ms.wrong++;if(!ms.missed.includes(sel.t))ms.missed.push(sel.t);
+      const tb=sel.b;tb.classList.add('mbad');b.classList.add('mbad');setTimeout(()=>{tb.classList.remove('mbad');b.classList.remove('mbad')},700);
+      tb.classList.remove('sel');sel=null;fb.hidden=false;fb.textContent='Not a match. Try again.';
+    }};R.append(b)});
+  wrap.append(L,R);box.append(wrap,fb);window.scrollTo(0,0);
+}
+function matchResult(){
+  const box=$('#cBody');box.textContent='';
+  const total=ms.right+ms.wrong,pct=total?Math.round(100*ms.right/total):0;
+  box.append(el('h3','','Matching finished: '+pct+'% correct on the first try'),el('p','',ms.right+' correct matches, '+ms.wrong+' wrong tries.'));
+  if(ms.missed.length){box.append(el('p','lbl','Terms you mismatched:'));ms.missed.forEach(t=>{const d=el('div','exp');d.append(el('b','',t.t),el('br'),document.createTextNode(t.d));box.append(d)})}
+  const g=el('div','grp');g.style.marginTop='16px';
+  const a=el('button','primary','Play again');a.onclick=startMatch;const b=el('button','','Back to terms');b.onclick=renderTView;g.append(a,b);box.append(g);window.scrollTo(0,0);
+}
+$('#tMatch').onclick=startMatch;
 /* Terminology */
 const tstars=new Set(prefs.tstars||[]);
 const termsOf=s=>s.id==='must'?allT.filter(t=>t.p===3):s.id==='saved'?allT.filter(t=>tstars.has(t.t)):(s.terms||[]);
@@ -543,6 +643,13 @@ function renderTList(){
     hits.forEach(t=>{const b=el('button','item');b.append(el('b','',t.t),el('small','',t.cat));b.onclick=()=>openT(t.sec,t.t);box.append(b)});
     if(!hits.length)box.textContent=allT.length?'No terms found.':'Could not load terminology.json. Make sure it is uploaded next to index.html.';
     return;
+  }
+  if(allT.length){
+    box.append(el('div','grp-h','Practice'));
+    [['Mixed term quiz (20 questions)',()=>openTermQuiz(termQuiz(allT,'mixed',20),'tq_mixed','Mixed term quiz','Twenty random questions from all terms: choosing the term for a definition, the definition for a term, or the term an example shows.')],
+     ['Term weak spots ('+weakTermList().length+')',()=>openTermQuiz(weakTermList(),'tq_weak','Term weak spots','Term questions you answered wrongly stay here until you answer them correctly. This list is saved on this device.')],
+     ['Exam distinctions quiz ('+distRows().length+')',()=>openTermQuiz(distQuiz(),'tq_dist','Exam distinctions quiz','Choose the statement that correctly separates two easily confused terms. These come from the exam distinctions table.')]
+    ].forEach(([t,f])=>{const b=el('button','item');b.append(el('b','',t));b.onclick=f;box.append(b)});
   }
   let last='';
   tsecs.forEach(s=>{
@@ -567,7 +674,7 @@ function renderTView(){
   if(!isT){$('#tMeta').textContent='';s.blocks.forEach(b=>box.append(renderBlock(b)));return}
   const list=termsOf(s).filter(t=>t.p>=(s.id==='must'?1:tmin));
   $('#tMeta').textContent=list.length+(list.length===1?' term':' terms');
-  $('#tLearn').classList.add('primary');$('#tCards').classList.remove('primary');$('#tCards').disabled=!list.length;
+  $('#tLearn').classList.add('primary');$('#tCards').classList.remove('primary');$('#tMatch').classList.remove('primary');$('#tCards').disabled=!list.length;$('#tQuiz').disabled=list.length<4;$('#tMatch').disabled=list.length<3;$('#tQType').hidden=list.length<4;
   let last='';
   list.forEach(t=>{if(s.id==='must'||s.id==='saved'){if(t.cat!==last){last=t.cat;box.append(el('h3','',t.cat))}}box.append(termCard(t))});
   if(!list.length)box.append(el('p','',s.id==='saved'?'No saved terms yet. Press Save on any term to collect it here.':'No terms at this level.'));
@@ -589,7 +696,7 @@ function startCards(list,partial){
   if(!base.length)return;
   cs={qs:shuffle(base.slice()),i:0,known:0,missed:[],partial:!!partial};
   $('#tBody').hidden=true;$('#cBody').hidden=false;$('#tNav').hidden=true;
-  $('#tLearn').classList.remove('primary');$('#tCards').classList.add('primary');renderCard();
+  $('#tLearn').classList.remove('primary');$('#tCards').classList.add('primary');$('#tMatch').classList.remove('primary');renderCard();
 }
 function renderCard(){
   const box=$('#cBody');box.textContent='';
@@ -648,7 +755,7 @@ function renderGList(){
 function updStar(){const on=curG&&stars.has(curG.id);$('#starBtn').textContent=on?'\u2605 Saved':'\u2606 Save for review';$('#starBtn').setAttribute('aria-pressed',String(!!on))}
 function openG(s){
   stopSpeech();aud.pause();curG=s;drawer(false);if(gram.indexOf(s)>=0)prefs.lastG=s.id;else if(xsets.indexOf(s)>=0)prefs.lastX=s.id;save();renderList();
-  $('#empty').hidden=true;$('#doc').hidden=true;$('#gdoc').hidden=false;$('#player').hidden=true;
+  $('#empty').hidden=true;$('#doc').hidden=true;$('#tdoc').hidden=true;$('#wdoc').hidden=true;$('#gdoc').hidden=false;$('#player').hidden=true;
   $('#gTitle').textContent=s.title;updStar();
   const box=$('#gBody');box.textContent='';s.blocks.forEach(b=>box.append(renderBlock(b)));
   const i=gram.indexOf(s);$('#gPrev').disabled=i<=0;$('#gNext').disabled=i>=gram.length-1;
@@ -702,7 +809,7 @@ function answer(k){
     if(i===q.a){b.classList.add('ok');b.textContent+='  \u2713 correct'}
     else if(i===k){b.classList.add('bad');b.textContent+='  \u2717 your answer'}
   });
-  if(k===q.a){ps.score++;setWeak(q.k,false)}else{ps.missed.push(q);setWeak(q.k,true)}
+  if(k===q.a){ps.score++;if(q.k)setWeak(q.k,false)}else{ps.missed.push(q);if(q.k)setWeak(q.k,true)}
   const fb=el('div','exp'),nx=el('button','primary',ps.i+1>=ps.qs.length?'See results':'Next question');
   fb.append(el('b','',k===q.a?'Correct. ':'Not quite. '),document.createTextNode(q.e));
   nx.style.marginTop='12px';nx.onclick=()=>{ps.i++;ps.locked=false;renderQ()};
@@ -719,7 +826,7 @@ function renderResult(){
   if(ps.missed.length){const r=el('button','primary','Retry missed ('+ps.missed.length+')');r.onclick=()=>startPractice(ps.missed.slice(),true);g.append(r)}
   const a=el('button','','Restart all');a.onclick=()=>startPractice();
   const l=el('button','','Back to lesson');l.onclick=()=>{ps=null;showView('lesson')};
-  g.append(a,l);box.append(g);window.scrollTo(0,0);
+  g.append(a,l);if(curG.tq){const bt=el('button','','Back to terms');bt.onclick=()=>{ps=null;if(curT)openT(curT);else setTab('terms')};g.append(bt)}box.append(g);window.scrollTo(0,0);
 }
 $('#gLearn').onclick=()=>{ps=null;showView('lesson')};
 $('#gPractice').onclick=()=>startPractice();
