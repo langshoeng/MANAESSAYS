@@ -152,6 +152,11 @@ button,select{min-height:44px}
 .mt.mok,.md.mok{border:2px solid var(--accent);background:var(--bg)}
 .mt:disabled,.md:disabled{opacity:1;color:var(--ink);cursor:default}
 .mt.mbad,.md.mbad{border:2px solid var(--danger)}
+.lcard{border:1px solid var(--line);border-radius:12px;padding:20px;margin:12px 0;min-height:200px}
+.lcard .big{font:600 1.6rem/1.3 Literata,Georgia,serif;margin:0 0 12px}
+.lcard p{margin:.5rem 0}
+.lcard .s{display:block;padding:4px 6px;border-radius:6px}
+.lset{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin:8px 0}
 </style>
 </head>
 <body>
@@ -214,7 +219,7 @@ button,select{min-height:44px}
     <article id="tdoc" hidden>
       <h1 id="tTitle"></h1>
       <p id="tMeta" class="lbl"></p>
-      <div class="grp" id="tCtl" hidden style="margin:10px 0 4px"><button id="tLearn" class="primary">Terms</button><button id="tCards">Flashcards</button><button id="tQuiz">Quiz</button><button id="tMatch">Match</button><select id="tQType" aria-label="Quiz type"><option value="mixed">Mixed quiz</option><option value="d2t">Definition &rarr; term</option><option value="t2d">Term &rarr; definition</option><option value="e2t">Example &rarr; term</option></select><select id="tFilter" aria-label="Show terms"><option value="1">All terms</option><option value="2">★★ and ★★★</option><option value="3">★★★ only</option></select></div>
+      <div class="grp" id="tCtl" hidden style="margin:10px 0 4px"><button id="tLearn" class="primary">Terms</button><button id="tCards">Flashcards</button><button id="tQuiz">Quiz</button><button id="tMatch">Match</button><button id="tListen">Listen</button><select id="tQType" aria-label="Quiz type"><option value="mixed">Mixed quiz</option><option value="d2t">Definition &rarr; term</option><option value="t2d">Term &rarr; definition</option><option value="e2t">Example &rarr; term</option></select><select id="tFilter" aria-label="Show terms"><option value="1">All terms</option><option value="2">★★ and ★★★</option><option value="3">★★★ only</option></select></div>
       <div id="tBody"></div>
       <div id="cBody" hidden></div>
       <div class="grp" id="tNav"><button id="tPrev">&larr; Previous</button><button id="tNext">Next &rarr;</button></div>
@@ -403,12 +408,12 @@ function speakNext(t){
   u.onerror=ev=>{if(t!==tok)return;if(ev.error==='not-allowed'){state='idle';setUI();showTap();return}if(ev.error!=='interrupted'&&ev.error!=='canceled'){qi++;speakNext(t)}};
   synth.speak(u);
 }
-function beginRead(){q=[...document.querySelectorAll('#vBody .s')];qi=0;state='playing';synth.cancel();speakNext(++tok);setUI()}
+function beginRead(){stopListen();q=[...document.querySelectorAll('#vBody .s')];qi=0;state='playing';synth.cancel();speakNext(++tok);setUI()}
 function finish(){
   if($('#auto').checked||pinRun||shuffleRun){advance();return}
   stopSpeech();
 }
-function stopSpeech(){runId++;haltSpeech()}
+function stopSpeech(){runId++;haltSpeech();stopListen()}
 function haltSpeech(){if(!synth)return;tok++;synth.cancel();state='idle';mark(null);setUI()}
 if(!synth){$('#tts').hidden=true;$('#playBtn').hidden=true}else{
   loadVoices();synth.onvoiceschanged=loadVoices;
@@ -542,6 +547,96 @@ function renderBlock2(b){
       pa.parts.forEach(([l,x])=>{p.append(el('span','chip',l),document.createTextNode(x+' '))});m.append(p);d.append(m)});return d}
   return null;
 }
+/* Terminology audio: Listen and Recall */
+let tl=null,ltok=0,lwake=null;
+const IPA=[['a\u026a','eye'],['e\u026a','ay'],['\u0254\u026a','oy'],['a\u028a','ow'],['\u0259\u028a','oh'],['\u0251\u02d0','ah'],['i\u02d0','ee'],['u\u02d0','oo'],['\u0254\u02d0','aw'],['t\u0283','ch'],['d\u0292','j'],['\u0283','sh'],['\u0292','zh'],['\u03b8','th'],['\u00f0','th'],['\u014b','ng'],['\u0259','schwa'],['\u026a','ih'],['\u028a','uh'],['\u00e6','a'],['\u028c','uh'],['\u0252','o']];
+function ipaSay(x){
+  x=x.replace(/:/g,'\u02d0');
+  if(/[^\x00-\x7F]/.test(x)){IPA.forEach(([k,v])=>{x=x.split(k).join(' '+v+' ')});return x.replace(/[^a-z ]/gi,'').replace(/\s+/g,' ').trim()}
+  return x.length===1?x:null;
+}
+function cleanSpeech(t){
+  return t.replace(/\/([^\/\s]{1,5})\/\s+(sound|phoneme)/gi,(m,x,w)=>{const a=ipaSay(x);return a===null?m:a+' '+w})
+   .replace(/\/([^\/\s]{1,5})\//g,(m,x)=>{const a=ipaSay(x);return a===null?m:(a==='schwa'?a:(a?'the sound '+a:''))})
+   .replace(/\u2192/g,' becomes ').replace(/\bi\.e\./g,'that is').replace(/\be\.g\./g,'for example').replace(/\bvs\.?/gi,'versus').replace(/[\u2605\u2606]/g,'').replace(/\s{2,}/g,' ').trim();
+}
+
+
+function lSegs(t){
+  const m=tl.mode,T={k:'term',x:t.t},D={k:'def',x:t.d},E={k:'ex',x:'Example. '+t.e};
+  return m==='recall'?[T,{k:'wait'},D,E]:m==='short'?[T,D]:[T,D,E];
+}
+function lRelease(){if(lwake){try{lwake.release()}catch(e){}lwake=null}}
+function stopListen(){ltok++;if(tl&&synth)synth.cancel();tl=null;lRelease()}
+function paintL(){
+  if(!tl||!$('#lTerm'))return;
+  const t=tl.list[tl.i],segs=lSegs(t),cur=segs[Math.min(tl.s,segs.length-1)].k;
+  const di=segs.findIndex(x=>x.k==='def'),ei=segs.findIndex(x=>x.k==='ex'),rc=tl.mode==='recall';
+  $('#lProg').textContent='Term '+(tl.i+1)+' of '+tl.list.length+(tl.state==='paused'?' (paused)':'')+(tl.waiting?'. Your turn: say the definition aloud.':'');
+  $('#lTerm').textContent=t.t;$('#lTerm').classList.toggle('on',cur==='term'&&tl.state==='playing');
+  $('#lDef').textContent=!rc||tl.s>=di?t.d:'\u2026';$('#lDef').classList.toggle('on',cur==='def'&&tl.state==='playing');
+  $('#lEx').hidden=ei<0;$('#lEx').textContent=!rc||tl.s>=ei?'Example: '+t.e:'\u2026';$('#lEx').classList.toggle('on',cur==='ex'&&tl.state==='playing');
+  $('#lPlay').textContent=tl.state==='playing'?'Pause':(tl.i>0||tl.s>0?'Resume':'Start');
+}
+function runSeg(my){
+  if(my!==ltok||!tl)return;
+  const t=tl.list[tl.i],segs=lSegs(t);
+  if(tl.s>=segs.length){
+    setTimeout(()=>{
+      if(my!==ltok||!tl)return;
+      tl.i++;tl.s=0;
+      if(tl.i>=tl.list.length){
+        if($('#lLoop').checked){tl.i=0;if($('#lShuf').checked)shuffle(tl.list)}
+        else{tl.i=tl.list.length-1;tl.s=0;tl.state='paused';lRelease();paintL();toast('Finished the list.');return}
+      }
+      paintL();runSeg(my);
+    },900);return;
+  }
+  const sg=segs[tl.s];paintL();
+  const next=()=>{if(my!==ltok||!tl)return;tl.waiting=false;tl.s++;setTimeout(()=>runSeg(my),sg.k==='term'?450:300)};
+  if(sg.k==='wait'){tl.waiting=true;paintL();setTimeout(()=>{if(my===ltok&&tl)next()},tl.wait*1000);return}
+  const u=mkUtt(cleanSpeech(sg.x));u.onend=next;
+  u.onerror=ev=>{if(my===ltok&&ev.error!=='interrupted'&&ev.error!=='canceled')next()};
+  synth.cancel();synth.speak(u);
+}
+function lPlay(){
+  if(!tl)return;tl.state='playing';ltok++;paintL();
+  if('wakeLock' in navigator&&!lwake){try{navigator.wakeLock.request('screen').then(x=>{lwake=x;x.addEventListener('release',()=>{lwake=null})}).catch(()=>{})}catch(e){}}
+  runSeg(ltok);
+}
+function lPause(){ltok++;synth.cancel();if(tl){tl.state='paused';tl.waiting=false}lRelease();paintL()}
+function lMove(d){
+  if(!tl)return;const playing=tl.state==='playing';ltok++;synth.cancel();
+  tl.i=Math.max(0,Math.min(tl.list.length-1,tl.i+d));tl.s=0;tl.waiting=false;
+  if(playing)lPlay();else paintL();
+}
+function startListen(){
+  const list=termsOf(curT).filter(t=>t.p>=(curT.id==='must'?1:tmin));
+  if(!list.length||!synth){toast(synth?'No terms to read.':'This browser has no voice reader.');return}
+  stopSpeech();
+  tl={list:list.slice(),i:0,s:0,state:'idle',waiting:false,mode:prefs.lMode||'full',wait:parseFloat(prefs.lWait)||5};
+  $('#tBody').hidden=true;$('#cBody').hidden=false;$('#tNav').hidden=true;
+  ['tLearn','tCards','tMatch'].forEach(i=>$('#'+i).classList.remove('primary'));$('#tListen').classList.add('primary');
+  const box=$('#cBody');box.textContent='';
+  const row=el('div','lset'),ms2=el('select');
+  [['full','Term, definition, example'],['short','Term and definition only'],['recall','Recall: term, pause, answer']].forEach(([v,t])=>ms2.append(new Option(t,v)));ms2.value=tl.mode;
+  ms2.setAttribute('aria-label','Listening mode');
+  ms2.onchange=()=>{tl.mode=ms2.value;prefs.lMode=tl.mode;save();ws.hidden=tl.mode!=='recall';const was=tl.state==='playing';ltok++;synth.cancel();tl.s=0;if(was)lPlay();else paintL()};
+  const ws=el('select');[3,5,8,12].forEach(n=>ws.append(new Option('Wait '+n+' seconds',n)));ws.value=String(tl.wait);ws.setAttribute('aria-label','Wait before the answer');ws.hidden=tl.mode!=='recall';
+  ws.onchange=()=>{tl.wait=parseFloat(ws.value);prefs.lWait=ws.value;save()};
+  const mk=(id,txt,key)=>{const l=el('label','lbl'),c=el('input');c.type='checkbox';c.id=id;c.checked=!!prefs[key];c.onchange=()=>{prefs[key]=c.checked;save();if(id==='lShuf'&&tl&&tl.state==='idle'){tl.list=c.checked?shuffle(tl.list.slice()):list.slice();tl.i=0;tl.s=0;paintL()}};l.style.display='flex';l.style.gap='6px';l.append(c,document.createTextNode(txt));return l};
+  row.append(ms2,ws,mk('lShuf','Shuffle','lShuf'),mk('lLoop','Repeat','lLoop'));
+  if(prefs.lShuf)tl.list=shuffle(tl.list);
+  box.append(el('p','lbl','Listen to the terms one after another. Recall mode says the term, waits so you can answer aloud, then reads the definition and example. The voice, speed and pitch come from the \u2699 Settings. Keep the screen on while listening.'),row);
+  box.append(el('p','prog','')); box.lastChild.id='lProg';
+  const card=el('div','lcard');
+  const a=el('p','big s');a.id='lTerm';const b=el('p','s');b.id='lDef';const c=el('p','s lbl');c.id='lEx';
+  card.append(a,b,c);box.append(card);
+  const g=el('div','grp'),pv=el('button','','Previous'),pl=el('button','primary','Start'),nx=el('button','','Next'),bk=el('button','','Back to terms');
+  pl.id='lPlay';pv.onclick=()=>lMove(-1);nx.onclick=()=>lMove(1);pl.onclick=()=>tl&&(tl.state==='playing'?lPause():lPlay());bk.onclick=renderTView;
+  g.append(pv,pl,nx,bk);box.append(g);paintL();
+}
+$('#tListen').onclick=startListen;
 /* Terminology practice */
 const STOP=new Set('the a an of to and or in on for with by is are was were be that this which it as at from their its into not can may used use when who whom has have had'.split(' '));
 const wset=t=>new Set(t.toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(w=>w.length>3&&!STOP.has(w)));
@@ -668,13 +763,14 @@ function termCard(t){
   d.append(h,el('p','',t.d),el('p','ex','Example: '+t.e),sv);return d;
 }
 function renderTView(){
+  stopListen();
   const s=curT,box=$('#tBody');box.textContent='';cs=null;$('#cBody').hidden=true;box.hidden=false;$('#tNav').hidden=false;
   const isT=s.kind==='terms';$('#tCtl').hidden=!isT;$('#tFilter').hidden=s.id==='must';
   const i=tsecs.indexOf(s);$('#tPrev').disabled=i<=0;$('#tNext').disabled=i>=tsecs.length-1;
   if(!isT){$('#tMeta').textContent='';s.blocks.forEach(b=>box.append(renderBlock(b)));return}
   const list=termsOf(s).filter(t=>t.p>=(s.id==='must'?1:tmin));
   $('#tMeta').textContent=list.length+(list.length===1?' term':' terms');
-  $('#tLearn').classList.add('primary');$('#tCards').classList.remove('primary');$('#tMatch').classList.remove('primary');$('#tCards').disabled=!list.length;$('#tQuiz').disabled=list.length<4;$('#tMatch').disabled=list.length<3;$('#tQType').hidden=list.length<4;
+  $('#tLearn').classList.add('primary');$('#tCards').classList.remove('primary');$('#tMatch').classList.remove('primary');$('#tListen').classList.remove('primary');$('#tListen').disabled=!list.length;$('#tListen').hidden=!synth;$('#tCards').disabled=!list.length;$('#tQuiz').disabled=list.length<4;$('#tMatch').disabled=list.length<3;$('#tQType').hidden=list.length<4;
   let last='';
   list.forEach(t=>{if(s.id==='must'||s.id==='saved'){if(t.cat!==last){last=t.cat;box.append(el('h3','',t.cat))}}box.append(termCard(t))});
   if(!list.length)box.append(el('p','',s.id==='saved'?'No saved terms yet. Press Save on any term to collect it here.':'No terms at this level.'));
