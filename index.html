@@ -157,6 +157,8 @@ button,select{min-height:44px}
 .lcard p{margin:.5rem 0}
 .lcard .s{display:block;padding:4px 6px;border-radius:6px}
 .lset{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin:8px 0}
+.pass{max-height:42vh;overflow:auto;padding:6px 8px 0 0;font-family:Literata,Georgia,serif;line-height:1.7}
+.pass p{margin:.5rem 0}
 </style>
 </head>
 <body>
@@ -230,7 +232,7 @@ button,select{min-height:44px}
 <div id="toast" role="status" aria-live="polite"></div>
 <script>
 const $=s=>document.querySelector(s),PK='essay-viewer-prefs',synth=window.speechSynthesis,aud=$('#aud');
-const played=new Set();let shuffleRun=false,nextPick=null,pinRun=false,xsets=[],xbase={},gcur=null,xcur=null,pbase={},runId=0,recWait=null,wsecs=[],curW=null,sub='mine',tsecs=[],allT=[],curT=null,tmin=1,cs=null,prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
+const played=new Set();let shuffleRun=false,nextPick=null,pinRun=false,xrd={},passOpen=true,xsets=[],xbase={},gcur=null,xcur=null,pbase={},runId=0,recWait=null,wsecs=[],curW=null,sub='mine',tsecs=[],allT=[],curT=null,tmin=1,cs=null,prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
 try{prefs=JSON.parse(localStorage.getItem(PK))||{}}catch(e){}
 const save=()=>{try{localStorage.setItem(PK,JSON.stringify(prefs))}catch(e){}};
 const words=s=>(s.trim().match(/\S+/g)||[]).length;
@@ -464,13 +466,14 @@ function renderXList(){
     if(s.group!==last){last=s.group;box.append(el('div','grp-h',s.group))}
     const b=el('button','item');b.setAttribute('aria-current',String(curG===s));
     const best=(prefs.scores||{})[s.id];
-    b.append(el('b','',s.title+(xbase[s.id]?' ('+xbase[s.id].length+')':'')));if(best!==undefined&&xbase[s.id])b.append(el('small','','best '+best+'/'+xbase[s.id].length));
+    const qn=(xbase[s.id]||xrd[s.id]||[]).length;b.append(el('b','',s.title+(qn?' ('+qn+')':'')));if(best!==undefined&&qn)b.append(el('small','','best '+best+'/'+qn));
     b.onclick=()=>openG(s);box.append(b)});
   if(!box.querySelector('.item'))box.textContent='No exam sets found.';
 }
 const xP=fetch('exam.json').then(r=>r.json()).then(d=>{
-  xsets=d.sets.map(s=>({id:s.id,group:s.group,title:s.title,blocks:s.blocks||[{t:'p',x:s.intro}]}));
+  xsets=d.sets.map(s=>({id:s.id,group:s.group,title:s.title,passage:s.passage,blocks:s.blocks||[{t:'p',x:s.intro}].concat(s.passage?[{t:'h',x:'Passage'}].concat(s.passage.map(x=>({t:'p',x:x}))):[])}));
   d.sets.filter(s=>s.questions).forEach(s=>{
+    if(s.passage){xrd[s.id]=s.questions;prac[s.id]=s.questions;return}
     s.questions.forEach(q=>{q.sid=s.id;q.k=s.id+'|'+q.q+'|'+q.o[q.a]});
     xbase[s.id]=s.questions;prac[s.id]=s.questions;
   });
@@ -893,6 +896,10 @@ function renderQ(){
   if(ps.i>=ps.qs.length){renderResult();return}
   const q=ps.qs[ps.i];
   const qp=el('p','qtext');setQ(qp,q.q);
+  if(curG&&curG.passage){
+    const dt=el('details','qa');dt.open=passOpen;dt.append(el('summary','','Passage (tap to hide or show)'));
+    const pb=el('div','pass');curG.passage.forEach(x=>pb.append(el('p','',x)));dt.append(pb);dt.ontoggle=()=>{passOpen=dt.open};box.append(dt);
+  }
   box.append(el('p','prog','Question '+(ps.i+1)+' of '+ps.qs.length+' - score '+ps.score),qp);
   q.o.forEach((o,k)=>{const b=el('button','opt','ABCD'[k]+'. '+o);b.onclick=()=>answer(k);box.append(b)});
   window.scrollTo(0,0);
@@ -963,7 +970,7 @@ const tP=fetch('terminology.json').then(r=>r.json()).then(d=>{
 }).catch(()=>{});
 const gP=fetch('grammar.json').then(r=>r.json()).then(d=>{gram=d.sections||[];gram.forEach(s=>{s.text=(s.title+' '+s.blocks.map(flat).join(' ')).toLowerCase()})}).catch(()=>{});
 Promise.all([eP,gP,pP,tP,wP,xP]).then(()=>{
-  Object.keys(xbase).forEach(id=>{prac[id]=xbase[id]});
+  Object.keys(xbase).forEach(id=>{prac[id]=xbase[id]});Object.keys(xrd).forEach(id=>{prac[id]=xrd[id]});
   const le=items.find(x=>x.file===prefs.last),lg=gram.find(x=>x.id===prefs.lastG);
   if(le)cur=le;if(lg)curG=lg;
   const lt=tsecs.find(x=>x.id===prefs.lastT);if(lt)curT=lt;
