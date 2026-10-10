@@ -3237,6 +3237,1380 @@
 ]
 }
 ]
+},
+{
+"id": "x_rd_r1",
+"group": "Part IV - Reading Comprehension",
+"title": "Reading 1 - Short-Term Memory",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"passage": [
+"Most people can remember a phone number for up to thirty seconds. When this short amount of time elapses, however, the numbers are erased from the memory. How did the information get there in the first place? Information that makes its way to the short term memory (STM) does so via the sensory storage area. The brain has a filter which only allows stimuli that is of immediate interest to pass on to the STM, also known as the working memory.",
+"There is much debate about the capacity and duration of the short term memory. The most accepted theory comes from George A. Miller, a cognitive psychologist who suggested that humans can remember approximately seven chunks of information. A chunk is defined as a meaningful unit of information, such as a word or name rather than just a letter or number. Modern theorists suggest that one can increase the capacity of the short term memory by chunking, or classifying similar information together. By organizing information, one can optimize the STM, and improve the chances of a memory being passed on to long term storage.",
+"When making a conscious effort to memorize something, such as information for an exam, many people engage in \"rote rehearsal\". By repeating something over and over again, one is able to keep a memory alive. Unfortunately, this type of memory maintenance only succeeds if there are no interruptions. As soon as a person stops rehearsing the information, it has the tendency to disappear. When a pen and paper are not handy, people often attempt to remember a phone number by repeating it aloud. If the doorbell rings or the dog barks to come in before a person has the opportunity to make a phone call, he will likely forget the number instantly. Therefore, rote rehearsal is not an efficient way to pass information from the short term to long term memory. A better way is to practice \"elaborate rehearsal\". This involves assigning semantic meaning to a piece of information so that it can be filed along with other pre-existing long term memories.",
+"Encoding information semantically also makes it more retrievable. Retrieving information can be done by recognition or recall. Humans can easily recall memories that are stored in the long term memory and used often; however, if a memory seems to be forgotten, it may eventually be retrieved by prompting. The more cues a person is given (such as pictures), the more likely a memory can be retrieved. This is why multiple choice tests are often used for subjects that require a lot of memorization."
+],
+"questions": [
+{
+"q": "According to the passage, how do memories get transferred to the STM?",
+"o": [
+"They revert from the long term memory.",
+"They are filtered from the sensory storage area.",
+"They get chunked when they enter the brain.",
+"They enter via the nervous system."
+],
+"a": 1,
+"e": "The passage says information reaches the STM via the sensory storage area, through a filter."
+},
+{
+"q": "The word elapses in paragraph 1 is closest in meaning to:",
+"o": [
+"passes",
+"adds up",
+"appears",
+"continues"
+],
+"a": 0,
+"e": "Elapses means passes: the short amount of time passes."
+},
+{
+"q": "All of the following are mentioned as places in which memories are stored EXCEPT the:",
+"o": [
+"STM",
+"long term memory",
+"sensory storage area",
+"maintenance area"
+],
+"a": 3,
+"e": "STM, long-term memory and the sensory storage area are named; a \"maintenance area\" is not."
+},
+{
+"q": "Why does the author mention a dog's bark?",
+"o": [
+"To give an example of a type of memory",
+"To provide a type of interruption",
+"To prove that dogs have better memories than humans",
+"To compare another sound that is loud like a doorbell"
+],
+"a": 1,
+"e": "The bark is an example of an interruption that makes you forget the number."
+},
+{
+"q": "How do theorists believe a person can remember more information in a short time?",
+"o": [
+"By organizing it",
+"By repeating it",
+"By giving it a name",
+"By drawing it"
+],
+"a": 0,
+"e": "Theorists say organizing (chunking) information increases short-term capacity."
+},
+{
+"q": "The author believes that rote rehearsal is:",
+"o": [
+"the best way to remember something",
+"more efficient than chunking",
+"ineffective in the long run",
+"an unnecessary interruption"
+],
+"a": 2,
+"e": "The author says rote rehearsal is not an efficient way to reach long-term memory."
+},
+{
+"q": "The word elaborates in paragraph 3 is closest in meaning to:",
+"o": [
+"complex",
+"efficient",
+"pretty",
+"regular"
+],
+"a": 0,
+"e": "Elaborate rehearsal is a more complex way of rehearsing."
+},
+{
+"q": "Which of the following is NOT supported by the passage?",
+"o": [
+"The working memory is the same as the short term memory.",
+"A memory is kept alive through constant repetition.",
+"Cues help people to recognize information.",
+"Multiple choice exams are the most difficult."
+],
+"a": 3,
+"e": "The passage never says multiple choice exams are the most difficult."
+},
+{
+"q": "The word cues in the passage is closest in meaning to",
+"o": [
+"questions",
+"clues",
+"images",
+"tests"
+],
+"a": 1,
+"e": "Cues are clues that help you retrieve a memory."
+},
+{
+"q": "Which sentence best expresses the essential information in this sentence from the passage? \"Humans can easily recall memories that are stored in the long term memory and used often; however, if a memory seems to be forgotten, it may eventually be retrieved by prompting.\" Incorrect choices leave out essential information or change its meaning.",
+"o": [
+"Prompting is the easiest way to retrieve short term memory after an extended period of time.",
+"A memory can be retrieved by prompting, in a case where it has been rarely used.",
+"It's easier to remember short term memories than long term memories due to regular prompts.",
+"Recalling a long term memory that is often used is easy, while forgotten memories often require prompting."
+],
+"a": 3,
+"e": "Often-used memories are easy to recall, while forgotten ones need prompting."
+}
+]
+},
+{
+"id": "x_rd_r2",
+"group": "Part IV - Reading Comprehension",
+"title": "Reading 2 - Tsunamis",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"passage": [
+"Quite different from storm surges are the giant sea waves called tsunamis, which derive their name from the Japanese expression for “high water in a harbor.” These waves are also referred to by the general public as tidal waves, although they have relatively little to do with tides. Scientists often referred to them as seismic sea waves, far more appropriate in that they do result from undersea seismic activity. Tsunamis are caused when the sea bottom suddenly moves, during an underwater earthquake or volcano for example, and the water above the moving earth is suddenly displaced. This sudden shift of water sets off a series of waves. These waves can travel great distances at speeds close to … kilometers per hour. In the open ocean, tsunamis have little noticeable amplitude, often no more than one or two meters. It is when they hit the shallow waters near the coast that they increase in height, possibly up to 40 meters. Tsunamis often occur in the Pacific because the Pacific is an area of heavy seismic activity. Two areas of the Pacific well accustomed to the threat of tsunamis are Japan and Hawaii. Because the seismic activity that causes tsunamis in Japan often occurs on the ocean bottom quite close to the islands, the tsunamis that hit Japan often come with little warning and can, therefore, prove disastrous. Most of the tsunamis that hit the Hawaiian Islands, however, originate thousands of miles away near the coast of Alaska, so these tsunamis have a much greater distance to travel and the inhabitants of Hawaii generally have time for warning of their imminent arrival. Tsunamis are certainly not limited to Japan and Hawaii. In 1755, Europe experienced a calamitous tsunami, when movement along the fault lines near the Azores caused a massive tsunami to sweep onto the Portuguese coast and flood the heavily populated area around Lisbon. The greatest tsunami on record occurred on the other side of the world in 1883 when the Krakatoa volcano underwent a massive explosion, sending waves more than 30 meters high onto nearby Indonesian islands; the tsunami from this volcano actually traveled around the world and was witnessed as far away as the English Channel."
+],
+"questions": [
+{
+"q": "The paragraph preceding this passage most probably discusses _________",
+"o": [
+"tides",
+"storm surges",
+"tidal waves",
+"underwater earthquakes"
+],
+"a": 1,
+"e": "The passage opens by contrasting tsunamis with storm surges, so the previous paragraph discussed storm surges."
+},
+{
+"q": "According to the passage, all of the following are true about tidal waves EXCEPT that _____",
+"o": [
+"they are caused by sudden changes in high and low tides",
+"this terminology is not used by the scientific community",
+"they are the same as tsunamis",
+"they refer to the same phenomenon as seismic sea waves"
+],
+"a": 0,
+"e": "Tidal waves are the same as tsunamis and are not caused by tides, so A is false."
+},
+{
+"q": "The word “displaced” in line 6 is closest in meaning to _________",
+"o": [
+"not pleased",
+"located",
+"moved",
+"filtered"
+],
+"a": 2,
+"e": "Displaced means moved: the water is suddenly moved."
+},
+{
+"q": "It can be inferred from the passage that tsunamis ________",
+"o": [
+"are often identified by ships on the ocean",
+"generally reach heights greater than 40 meters",
+"are far more dangerous on the coast than in the open ocean",
+"cause severe damage in the middle of the ocean."
+],
+"a": 2,
+"e": "Waves grow much higher near the coast, so tsunamis are more dangerous there."
+},
+{
+"q": "In line 9, water that is “shallow” is NOT __________",
+"o": [
+"deep",
+"coastal",
+"tidal",
+"clear"
+],
+"a": 0,
+"e": "Shallow water is not deep."
+},
+{
+"q": "A main difference between tsunamis in Japan and in Hawaii is that tsunamis in Japan are more likely to _________",
+"o": [
+"come from greater distances",
+"originate in Alaska",
+"arrive without warning",
+"be less of a problem"
+],
+"a": 2,
+"e": "Japan's tsunamis begin close by, so they come with little warning."
+},
+{
+"q": "The possessive “their” in line 16 refers to _________",
+"o": [
+"the Hawaiian Islands",
+"these tsunamis",
+"thousands of miles",
+"the inhabitants of Hawaii"
+],
+"a": 1,
+"e": "Their arrival: the arrival of the tsunamis."
+},
+{
+"q": "A “calamitous” tsunami, in line 17, is one that is _________",
+"o": [
+"disastrous",
+"expected",
+"extremely calm",
+"at fault"
+],
+"a": 0,
+"e": "Calamitous means disastrous, as in the flood around Lisbon."
+},
+{
+"q": "From the expression “on record” in line 19, it can be inferred that the tsunami that accompanied the Krakatoa volcano ___________",
+"o": [
+"was filmed as it was happening",
+"occurred before efficient records were kept",
+"was not as strong as the tsunami in Lisbon",
+"might not be the greatest tsunami ever"
+],
+"a": 3,
+"e": "On record means in recorded history, so a greater tsunami may have happened unrecorded."
+},
+{
+"q": "The passage suggests that the tsunami resulting from the Krakatoa volcano",
+"o": [
+"was unobserved outside of the Indonesian islands",
+"resulted in little damage",
+"was far more destructive close to the source than far away",
+"caused volcanic explosions in the English Channel"
+],
+"a": 2,
+"e": "It was witnessed far away, but the big waves hit nearby islands, so damage was greatest near the source."
+}
+]
+},
+{
+"id": "x_rd_r3",
+"group": "Part IV - Reading Comprehension",
+"title": "Reading 3 - The Three Phases of Human Memory",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"passage": [
+"The three phases of the human memory are sensory memory, short – term memory, and long term- memory. The division of memory into phases is based on the length of time of the memory. Sensory memory is instantaneous memory. It is an image or a memory that enters your mind only for short period of time; it comes and goes in under a second. The memory will not last longer than that unless the information enters short-term memory. Information can be held in short-term memory for about 20 seconds or as long as you are actively using it. If you repeat a fact to yourself, that fact will stay in your short-term memory as long as you keep repeating it. Once you stop repeating either it is forgotten or it moves to long-term memory. Long-term memory is the huge memory tank that can hold ideas and images for years and years. Information can be added to your long-term memory when you try to put it there through memorization or when an idea or image enters your mind on its own."
+],
+"questions": [
+{
+"q": "The best title for this passage would be",
+"o": [
+"The Difference between Sensory and Short-Term Memory",
+"How Long It Takes to Memorize",
+"The Stages of Human Memory",
+"Human Phases"
+],
+"a": 2,
+"e": "The passage describes the three stages of memory."
+},
+{
+"q": "The three phases of memory discussed in this passage are differentiated according to",
+"o": [
+"location in the brain",
+"the period of time it takes to remember something",
+"how the senses are involved in the memory",
+"how long the memory lasts"
+],
+"a": 3,
+"e": "Phases are divided by how long the memory lasts."
+},
+{
+"q": "According to the passage, which type of memory is the shortest?",
+"o": [
+"Sensory memory",
+"Active memory",
+"Short-term memory",
+"Long-term memory"
+],
+"a": 0,
+"e": "Sensory memory lasts under a second."
+},
+{
+"q": "According to the passage, when will information stay in your short-term memory?",
+"o": [
+"For as long as 20 minutes",
+"As long as it is being used",
+"After you have repeated it many times",
+"When has moved into long-term memory"
+],
+"a": 1,
+"e": "Information stays in short-term memory as long as you keep using it."
+},
+{
+"q": "The word \"keep\" in line 9 could best be replaced by",
+"o": [
+"hold",
+"continue",
+"retain",
+"Save"
+],
+"a": 1,
+"e": "\"Keep repeating\" means continue repeating."
+},
+{
+"q": "The word \"Once\" line 9 could best be replaced by which of the following?",
+"o": [
+"Just after",
+"Although",
+"Just before",
+"Because"
+],
+"a": 0,
+"e": "Once you stop repeating means just after you stop."
+},
+{
+"q": "All of the following are true about long-term memory EXCEPT that",
+"o": [
+"It has a very large capacity",
+"It can hold information for a long time",
+"it is possible to put information into a through memorization",
+"memorization is the only way that information can get there"
+],
+"a": 3,
+"e": "Information can also enter long-term memory on its own, so memorization is not the only way."
+},
+{
+"q": "The expression \" on its own\" in line 13 could best be replaced by",
+"o": [
+"by itself",
+"in its own time",
+"with its possessions",
+"in only one way"
+],
+"a": 0,
+"e": "On its own means by itself."
+},
+{
+"q": "It can be inferred from the passage that a person remembers a piece of information for two days, this information is probably",
+"o": [
+"three phases of memory",
+"sensory memory",
+"short-term memory",
+"long-term memory"
+],
+"a": 3,
+"e": "A memory lasting two days is in long-term memory."
+},
+{
+"q": "Where in the passage does the author explain what happens when someone stop repeating information?",
+"o": [
+"Line 5- 6",
+"Line 7-8",
+"Line 9-10",
+"Line 11-13"
+],
+"a": 2,
+"e": "The sentence about what happens when you stop repeating is on lines 9-10 (the lines of Once and keep)."
+}
+]
+},
+{
+"id": "x_rd_r5a",
+"group": "Part IV - Reading Comprehension",
+"title": "Reading 5A - Vernal Pools",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"passage": [
+"Even a muddy pond contributes to the ecosystem that affects the environment. A vernal or springtime pool is only a few feet deep and lasts only from March until midsummer but yields a considerable number of diverse life forms. Like all of nature, there are predators and victims, and a particular living being may be one or the other, depending on its age and characteristics. One may find masses of spotted salamander eggs floating just under the surface of the pond, left behind by adults who entered the pond early in the season before predators arrived. Other amphibians and reptiles return to the recurrent pond year after year to reproduce, as their ancestors have done for years. Various forms of algae grow well in the murky water, if there is sufficient sunlight. They in turn produce and transmit oxygen to the salamander embryos and other young that are not yet able to survive outside of water. Diving beetles feast on eggs and larvae deposited in the pond by the salamanders and other amphibians that have called it home. Tadpoles are born in the late spring and feed on the algae. The pond also invites wood frogs staking their territory and courting potential mates, calling as loud as quacking ducks. By the end of the short season, the pond dries to spongy mud and then dries further, becoming covered with leaves and debris, until the following spring when the process repeats itself."
+],
+"questions": [
+{
+"q": "The word vernal in the second sentence means most nearly the same as",
+"o": [
+"springtime.",
+"pool.",
+"deep.",
+"transitory."
+],
+"a": 0,
+"e": "Vernal means springtime: the pool lasts from March to midsummer."
+},
+{
+"q": "What is the author’s purpose stated in the first sentence: Even a muddy pond contributes to the ecosystem that affects the environment?",
+"o": [
+"To explain that a vernal pool is very muddy",
+"To describe how the vernal pool fits into the larger environmental picture",
+"To explain that mud is important to the environment",
+"To show how algae grows"
+],
+"a": 1,
+"e": "The sentence shows how a muddy pond fits into the wider environment."
+},
+{
+"q": "The word yields in the third sentence means most nearly the same as",
+"o": [
+"produces.",
+"contributes to.",
+"kills.",
+"harms."
+],
+"a": 0,
+"e": "Yields means produces."
+},
+{
+"q": "The word diverse in the third sentence means most nearly the same as",
+"o": [
+"distinct.",
+"living.",
+"numerous.",
+"primitive."
+],
+"a": 0,
+"e": "Diverse means different, so distinct."
+},
+{
+"q": "The word its in the fifth sentence refers to",
+"o": [
+"predator.",
+"pond.",
+"living being.",
+"nature."
+],
+"a": 2,
+"e": "Its refers to the living being, whose age and characteristics matter."
+},
+{
+"q": "Which sentence in the first paragraph indicates that a young life form might be prey to an older life form?",
+"o": [
+"A vernal or springtime pool is only a few feet deep and lasts only from March until midsummer but yields a considerable number of diverse life forms.",
+"Like all of nature, there are predators and victims, and a a particular living being may be one or the other, depending on its age and characteristics.",
+"One may find masses of spotted salamander eggs floating just under the surface of the pond, left behind by adults who entered the pond early in the season before predators arrived.",
+"Other amphibians and reptiles return to the recurrent pond year after year to reproduce, as their ancestors have done for years."
+],
+"a": 1,
+"e": "Predators and victims depending on age and characteristics."
+},
+{
+"q": "Which sentence in the first paragraph indicates that life forms continue to act in the same way as the same life forms did previously?",
+"o": [
+"A vernal or springtime pool is only a few feet deep and lasts only from March until midsummer but yields a considerable number of diverse life forms.",
+"Like all of nature, there are predators and victims, and a a particular living being may be one or the other, depending on its age and characteristics.",
+"One may find masses of spotted salamander eggs floating just under the surface of the pond, left behind by adults who entered the pond early in the season before predators arrived.",
+"Other amphibians and reptiles return to the recurrent pond year after year to reproduce, as their ancestors have done for years."
+],
+"a": 3,
+"e": "Amphibians return every year as their ancestors did."
+},
+{
+"q": "The word murky in the first sentence of the second paragraph means most nearly the same as",
+"o": [
+"clear.",
+"cloudy.",
+"cold.",
+"life-producing"
+],
+"a": 1,
+"e": "Murky water is cloudy."
+},
+{
+"q": "The word they in the second sentence of paragraph two refers to",
+"o": [
+"salamander embryos.",
+"young.",
+"forms of algae.",
+"sunlight."
+],
+"a": 2,
+"e": "They refers to the forms of algae that produce oxygen."
+},
+{
+"q": "Which of the following does the author imply in the first two sentences of paragraph two?",
+"o": [
+"The life forms in the pool live in water their entire lives.",
+"Some of the life forms live in water first and later on land.",
+"The life forms found in the pool do not require oxygen to live.",
+"Algae is strictly a food source."
+],
+"a": 1,
+"e": "Embryos not yet able to survive outside water imply some life forms later live on land."
+}
+]
+},
+{
+"id": "x_rd_r5b",
+"group": "Part IV - Reading Comprehension",
+"title": "Reading 5B - Stroke Treatment",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"passage": [
+"Scientists have experimented with a new procedure for alleviating the damage caused by strokes. Strokes are frequently caused by a blood clot lodging in the tree of arteries in the head, choking the flow of blood. Some brain cells die as a direct result of the stroke, but others also die over several hours because the proteins spilling out of the first cells that die trigger a chemical chain reaction that kills the neighboring cells. The current method of reducing the amount of damage is to give a clot dissolver, known as TPA, as soon as possible. But generally TPA is not given to the patient until he or she reaches the hospital, and it still does not immediately stop the damage.",
+"The new technology, still in the research stage, involves chilling the area or the entire patient. It is already known that when an organ is cooled, damage is slowed. This is why sometimes a person who has fallen into an icy pond is not significantly harmed after being warmed up again. The biggest issue is the method of cooling. It is not feasible to chill the head alone. Doctors have chilled the entire body by wrapping the patient in cold materials, but extreme shivering was a problem.",
+"The new idea is to cool the patient from the inside out. Several companies are studying the use of cold-tipped catheters, inserted into the artery in the groin and threaded up to the inferior vena cava, which is a large vein that supplies blood to the abdomen. The catheter is expected to cool the blood that flows over it, thus allowing cooler blood to reach the area of the stroke damage. It is not expected that the cooling will be substantial, but even a slight decrease in temperature is thought to be helpful. In effect, the patient is given a kind of forced hypothermia. And doctors believe it is important to keep the patient awake so that they can converse with the patient in order to ascertain mental condition. Studies continue to determine the most effective and least damaging means of cooling the patient in order to reduce this damage."
+],
+"questions": [
+{
+"q": "The word alleviating in the first sentence is closest in meaning to",
+"o": [
+"reducing.",
+"devastating.",
+"causing.",
+"increasing"
+],
+"a": 0,
+"e": "Alleviating the damage means reducing it."
+},
+{
+"q": "According to the passage, the method of chilling from the inside out is being considered for all of the following reasons except",
+"o": [
+"it is not possible to chill the head alone.",
+"chilling from the inside out avoids shaking.",
+"cold dissolves blood clots.",
+"drugs are not helpful in stopping the chain reaction."
+],
+"a": 2,
+"e": "The passage never says cold dissolves clots: TPA does that."
+},
+{
+"q": "According to the passage, what causes a stroke?",
+"o": [
+"A blood clot sticking in an area of the brain",
+"Low blood flow",
+"Hot blood",
+"A patient choking on food"
+],
+"a": 0,
+"e": "A blood clot lodging in the arteries of the head causes strokes."
+},
+{
+"q": "The word shivering in the last sentence of the third paragraph is closest in meaning to",
+"o": [
+"shaking.",
+"delirious.",
+"sick.",
+"dying"
+],
+"a": 0,
+"e": "Shivering means shaking."
+},
+{
+"q": "According to the passage, all of the following are true except that",
+"o": [
+"some cells die immediately when a person has a stroke, and others die later.",
+"cells die only as a direct result of the stroke.",
+"the protein from dead cells kills other cells.",
+"TPA is effective in removing blood clots."
+],
+"a": 1,
+"e": "Cells also die later from the chain reaction, so not only as a direct result."
+},
+{
+"q": "What is the passage mainly about?",
+"o": [
+"Causes and effects of strokes",
+"New pharmaceutical methods for reducing stroke damage that are being researched",
+"A new method of cooling the body to reduce stroke damage that is being researched",
+"The dangers of cooling the body"
+],
+"a": 2,
+"e": "The passage is about a new cooling method being researched."
+},
+{
+"q": "The word substantial in the fifth paragraph is closest in meaning to",
+"o": [
+"considerable.",
+"slight.",
+"unsubstantiated.",
+"effective."
+],
+"a": 0,
+"e": "Not substantial means not considerable."
+},
+{
+"q": "In the passage, the author implies that",
+"o": [
+"the internal chilling process has not been proven yet.",
+"drug therapy properly addresses all the problems of stroke victims.",
+"chilling the head alone is viable.",
+"nothing is likely to reduce the chain reaction problem."
+],
+"a": 0,
+"e": "The cooling method is still in the research stage, so it has not been proven."
+},
+{
+"q": "The author describes a person falling into cold water in order to",
+"o": [
+"evoke sympathy.",
+"show that cooling a body does not necessarily harm it.",
+"show how one who falls into cold water could also benefit from the internal chilling research.",
+"describe the warming process."
+],
+"a": 1,
+"e": "The icy-pond example shows that cooling does not necessarily harm the body."
+},
+{
+"q": "The author implies that",
+"o": [
+"the catheter is moved all the way to the brain.",
+"the artery in the leg connects directly to the brain.",
+"the artery in the leg connects to the vena cava.",
+"the goal is to chill the brain directly with the catheter."
+],
+"a": 2,
+"e": "The catheter enters the artery in the groin and goes up to the vena cava."
+}
+]
+},
+{
+"id": "x_rd_r6a",
+"group": "Part IV - Reading Comprehension",
+"title": "Reading 6A - The Hippopotamus",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"passage": [
+"The hippopotamus is the third largest land animal, smaller only than the elephant and the rhinoceros. Its name comes from two Greek words which mean \"river horse. \"The long name of this animal is often shortened to the easier to handle term \"hippo.\"",
+"The hippo has a natural affinity for the water. It does not float on top of the water; instead, it can easily walk along the bottom of a body of water. The hippo commonly remains underwater for three to five minutes and has been known to stay under for up to half an hour before coming up for air. In spite of its name, the hippo has relatively little in common with the horse and instead has a number of interesting similarities in common with the whale. When a hippo comes up after a stay at the bottom of a lake or river. it releases air through a blowhole, just like a whale. In addition, the hippo resembles the whale in that they both have thick layers of blubber for protection and they are almost completely hairless."
+],
+"questions": [
+{
+"q": "The topic of this passage is",
+"o": [
+"the largest land animals",
+"the derivations of animals names",
+"the characteristics of the hippo",
+"the relation between the hippo and the whale"
+],
+"a": 2,
+"e": "The passage describes hippo characteristics."
+},
+{
+"q": "It can be inferred from the passage that the rhinoceros is",
+"o": [
+"smaller than the hippo",
+"equal in size to the elephant",
+"a hybrid of the hippo and the elephant",
+"one of the two largest types of land animals"
+],
+"a": 3,
+"e": "Only the elephant and rhinoceros are larger, so they are the two largest."
+},
+{
+"q": "The possessive \" Its\" in line 2 refers to",
+"o": [
+"hippopotamus",
+"elephant",
+"rhinoceros",
+"horse"
+],
+"a": 0,
+"e": "Its refers to the hippopotamus."
+},
+{
+"q": "It can be inferred from the passage that the hippopotamus is commonly called a hippo because the word hippo\" is",
+"o": [
+"simpler to pronounce",
+"scientifically more accurate",
+"the original name",
+"easier for the animal to recognize"
+],
+"a": 0,
+"e": "The long name was shortened to the easier term hippo."
+},
+{
+"q": "The word \"float\" in line 7 is closest in meaning to",
+"o": [
+"sink",
+"drift",
+"cat",
+"flap"
+],
+"a": 1,
+"e": "Does not float on top means does not drift on the surface."
+},
+{
+"q": "According to the passage, what is the maximum time that hippos have been know to stay underwater?",
+"o": [
+"Three minutes",
+"Five minutes",
+"Thirty minutes",
+"Ninety minutes"
+],
+"a": 2,
+"e": "It has been known to stay under for up to half an hour."
+},
+{
+"q": "The expression \"has relatively little in common\" in line 11 could best be replaced by",
+"o": [
+"has few interactions",
+"is not normally found",
+"has minimal experience",
+"shares few similarities"
+],
+"a": 3,
+"e": "Little in common means shares few similarities."
+},
+{
+"q": "The passage states that one way in which a hippo is similar to a whale is that",
+"o": [
+"they both live on the bottoms of rivers",
+"they both have blowholes",
+"they are both named after horses",
+"they both breathe underwater"
+],
+"a": 1,
+"e": "Both release air through a blowhole."
+},
+{
+"q": "The word \"blubber\" in line 17 is closest in meaning to",
+"o": [
+"fat",
+"metal",
+"water",
+"skin"
+],
+"a": 0,
+"e": "Blubber is a thick layer of fat."
+},
+{
+"q": "The passage states that the hippo does not",
+"o": [
+"like water",
+"resemble the whale",
+"have a protective coating",
+"have much hair"
+],
+"a": 3,
+"e": "The hippo is almost completely hairless."
+}
+]
+},
+{
+"id": "x_rd_r6b",
+"group": "Part IV - Reading Comprehension",
+"title": "Reading 6B - Uncle Sam",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"passage": [
+"While the bald eagle is one national symbol of the United States, it is not the only one. Uncle Sam, a bearded gentleman costumed in the red, white, and blue stars and stripes of the nation's flag, is another well-known national symbol. According to legend, this character is based on Samuel Wilson, the owner of a meat-packing business in Troy, New York. During the War of 1812, Sam Wilson's company was granted a government contract to supply meat to the nation's soldiers; this meat was supplied to the army in barrels stamped with the initials U.S., which stood for United States. However, the country was at that time relatively young, and the initials U.S. were not commonly used. Many people questioned what the initials represented, and the standard reply became\" Uncle Sam, \"for the owner of the barrels. It is now generally accepted that the figure of Uncle Sam is based on Samuel Wilson, and the U.S Congress has made it official by adopting a resolution naming Samuel Wilson as the inspiration for Uncle Sam."
+],
+"questions": [
+{
+"q": "The paragraph preceding this passage most probably discusses",
+"o": [
+"the War of 1812",
+"the bald eagle, which symbolizes the United States",
+"Sam Wilson's meat-packing company",
+"the costume worn by Uncle Sam"
+],
+"a": 1,
+"e": "The passage opens with the bald eagle as another national symbol, so the earlier paragraph discussed the eagle."
+},
+{
+"q": "Which of the following is the most appropriate title for this passage?",
+"o": [
+"The Bald Eagle",
+"The symbols of the United States",
+"Samuel Wilson",
+"Uncle Sam: Symbol of the Nation"
+],
+"a": 3,
+"e": "The passage is about Uncle Sam as a national symbol."
+},
+{
+"q": "Which of the following is NOT mentioned about Uncle Sam's appearance?",
+"o": [
+"He wears facial hair.",
+"There is some blue in his clothing.",
+"He is bald.",
+"His clothes have stripes in them."
+],
+"a": 2,
+"e": "He has a beard and stars and stripes, but baldness is not mentioned."
+},
+{
+"q": "The word \"costumed \"in line 3 could most easily be replaced by",
+"o": [
+"dressed",
+"nationalized",
+"hidden",
+"seen"
+],
+"a": 0,
+"e": "Costumed means dressed."
+},
+{
+"q": "Sam Wilson was the proprietor of what type of business?",
+"o": [
+"A costume company",
+"A meat-packing company",
+"A military clothier",
+"A barrel-making company"
+],
+"a": 1,
+"e": "Sam Wilson owned a meat-packing business."
+},
+{
+"q": "The word \"granted\" in line 8 means",
+"o": [
+"refused",
+"underbid for",
+"told about",
+"given"
+],
+"a": 3,
+"e": "Granted means given."
+},
+{
+"q": "According to the passage. What was in the barrels stamped U.S?",
+"o": [
+"Sam Wilson",
+"Food for the army",
+"Weapons to be used in the war",
+"Company contracts"
+],
+"a": 1,
+"e": "The barrels held meat for the soldiers."
+},
+{
+"q": "The word \"initials\" in line 10 means",
+"o": [
+"nicknames",
+"family names",
+"first letters of words",
+"company names"
+],
+"a": 2,
+"e": "Initials are the first letters of words."
+},
+{
+"q": "The word \"official\" in line 17 is closest in meaning to",
+"o": [
+"authorized",
+"professional",
+"dutiful",
+"accidental"
+],
+"a": 0,
+"e": "Official means authorized: Congress made it official."
+},
+{
+"q": "In 1812, people most probably answered that the letters \"U.S.\" written on the barrels stood for \"Uncle Sam\" because",
+"o": [
+"Congress required it",
+"Samuel Wilson was their favorite uncle",
+"Sam Wilson preferred it",
+"they were not exactly sure what the letters meant"
+],
+"a": 3,
+"e": "People did not know what U.S. stood for, so they said Uncle Sam."
+}
+]
+},
+{
+"id": "x_rd_r8b",
+"group": "Part IV - Reading Comprehension",
+"title": "Reading 8B - Leadership in Social Groups",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 7 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"passage": [
+"According to sociologists, there are several different ways in which a person may become recognized as the leader of social group in the United States. In the family, traditional cultural patterns confer leadership on one or both of the parents. In other cases, such as friendship groups, one or more persons may gradually emerge as leaders, although there is no formal process of selection. In larger groups, leaders are usually chosen formally through election or recruitment Although leaders are often thought to be people with unusual personal ability, decades of research have failed to produce consistent evidence that there is any category of \"natural leaders.\" It seems that there is no set of personal qualities that all leaders have in common; rather, virtually any person may be recognized as a leader if the person has qualities that meet the needs of that particular group. Furthermore, although it is commonly supposed that social groups have a single leader, research suggests that there are typically two different leadership roles that are held by different individuals. Instrumental leadership is leadership that emphasizes the completion of tasks by a social group. Group members look to instrumental leaders to \"get things\" done.\" Expressive leadership, on the other hand, is leadership that emphasizes the collective well-being of a social group's member. Expressive leader are less concerned with the overall goals of the group than with providing emotional support to group members and attempting to minimize tension and conflict among them, Group members expect expressive leaders to maintain stable relationships within the group and provide support to individual members. Instrumental leaders are likely to have a rather secondary relationship to other group members. They give orders and may discipline group members who inhibit attainment of the group's goals. Expressive leaders cultivate a more personal or primary relationship to others in the group. They offer sympathy when someone experiences difficulties or is subjected to discipline, are quick to lighten a serious moment with humor,and try to resolve issues that threaten to divide the group. As the differences in these two roles suggest, expressive leaders generally receive more personal affection from group members; instrumental leaders, if they are successful in promoting group goals, may enjoy a more distant respect"
+],
+"questions": [
+{
+"q": "What does the passage mainly discuss?",
+"o": [
+"The problems faced by leaders",
+"How leadership differs in small and large groups",
+"How social groups determine who will lead them",
+"The role of leaders in social groups"
+],
+"a": 3,
+"e": "The passage discusses leaders in social groups and their roles."
+},
+{
+"q": "The passage mentions all of the following ways by which people can become leaders EXCEPT",
+"o": [
+"recruitment",
+"formal election process",
+"specific leadership training",
+"traditional cultural patterns"
+],
+"a": 2,
+"e": "Leadership training is never mentioned."
+},
+{
+"q": "In mentioning \" natural leaders \" in lines 9, 10, the author is making the point that",
+"o": [
+"few people qualify as \" natural leaders\"",
+"there is no proof that \" natural leaders \" exist",
+"\" natural leaders' are easily accepted by the members of a social group",
+"\"natural leaders\" share a similar set of characteristics"
+],
+"a": 1,
+"e": "Research found no consistent evidence of \"natural leaders\"."
+},
+{
+"q": "Which of the following statements about leadership can be inferred from paragraph 2?",
+"o": [
+"A person who is an effective leader of a particular group may not be an effective leader in another group.",
+"Few people succeed in sharing a leadership role with another person.",
+"A person can best learn how to be an effective leader by studying research on leadership.",
+"Most people desire to be leaders but can produce little evidence of their qualifications."
+],
+"a": 0,
+"e": "Leaders need qualities that meet the needs of a particular group."
+},
+{
+"q": "The passage indicates that instrumental leaders generally focus on",
+"o": [
+"ensuring harmonious relationships",
+"sharing responsibility with group members",
+"identifying new leaders",
+"achieving a goal"
+],
+"a": 3,
+"e": "Instrumental leaders focus on completing tasks and meeting group goals."
+},
+{
+"q": "The word \" them \" in line 21 refers to",
+"o": [
+"expressive leaders",
+"goals of the group",
+"group members",
+"tension and conflict"
+],
+"a": 2,
+"e": "Them refers to group members."
+},
+{
+"q": "Paragraphs 3 and 4 organize the discussion of leadership primarily in term of",
+"o": [
+"examples that illustrate a problem",
+"cause and effect analysis",
+"narration of events",
+"comparison and contrast"
+],
+"a": 3,
+"e": "The two roles are compared and contrasted."
+}
+]
+},
+{
+"id": "x_rd_r9a",
+"group": "Part IV - Reading Comprehension",
+"title": "Reading 9A - The Erie Canal",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 8 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"passage": [
+"It is said that George Washington was one of the first to realize how important the building of canals would be to the nation's development. In fact, before he became president, he headed the first company in the United States to build a canal that was to connect the Ohio and Potomac Rivers. It was never completed, but it showed the nation the feasibility of canals. As the country expanded westward, settlers in western New York, Pennsylvania, and Ohio needed a means to ship goods. Canals linking natural waterways seemed to offer an effective solution.",
+"In 1791, engineers commissioned by the state of New York investigated the possibility of a canal between Albany on the Hudson River and Buffalo on Lake Erie, which would link the Great Lakes area with the Atlantic seacoast. It would avoid the mountain that served as a barrier to canals from the Delaware and Potomac rivers. The first attempt to dig the canal, to be called the Erie canal, was made by private companies but only a comparatively small portion was built before the project was halted for lack of funds. The cost of the project was an estimated five million dollars, an enormous amount for those days. There was some on- again, off-again federal funding, but the War of 1812 put an end to this. In 1817, De Witt Clinton was elected governor of New York and persuaded the state to finance and build the Canal. It was completed in 1825. costing two million dollars more than expected. The canal rapidly lived up to its sponsor's faith, quickly paying for itself through tolls. It was far more economical than any other form of transportation at the time. It permitted trade between the Great Lake region and East Coast, robbing the Mississippi River of much of its traffic. It allowed New York to supplant Boston, Philadelphia, and other eastern cities as the chief center of both domestic and foreign commerce. Cities sprang up along the Canal. It also contributed in a number of ways to the North's victory over the South in the Civil War. An expansion of the canal was planned in 1849. Increased traffic would undoubtedly have warranted its construction had it not been for the development of the railroads."
+],
+"questions": [
+{
+"q": "Why does the author most likely mention George Washington in the first paragraph?",
+"o": [
+"He was president at the time the Erie Canal was built.",
+"He was involved in pioneering efforts to build canals.",
+"He successfully opened the first canal in the United States.",
+"He commissioned engineers to study the possibility of building the Erie Canal."
+],
+"a": 1,
+"e": "Washington headed the first canal company, showing early canal efforts."
+},
+{
+"q": "The word \" feasibility\" in line 7 is closest in meaning to",
+"o": [
+"profitability",
+"difficulty",
+"possibility",
+"capability"
+],
+"a": 2,
+"e": "Feasibility means possibility: it showed canals were possible."
+},
+{
+"q": "According to the passage, the Erie Canal connected the",
+"o": [
+"Potomac and Ohio Rivers",
+"Hudson River and Lake Erie",
+"Delaware and Potomac Rivers",
+"Atlantic Ocean and the Hudson River"
+],
+"a": 1,
+"e": "The Erie Canal linked Albany on the Hudson River with Lake Erie at Buffalo."
+},
+{
+"q": "The actual cost of building the Erie Canal was",
+"o": [
+"five million dollars",
+"less than had been estimated",
+"seven million dollars",
+"more than could be repaid"
+],
+"a": 2,
+"e": "It was estimated at five million and cost two million more."
+},
+{
+"q": "Which of the following is closest in meaning to the word \"comparatively\"in line 21 ?",
+"o": [
+"relatively",
+"contrarity",
+"incredibly",
+"considerably"
+],
+"a": 0,
+"e": "Comparatively means relatively."
+},
+{
+"q": "The phrase \" on-again, off-again\" in line 25 could be replaced by which of the following with the least change in meaning?",
+"o": [
+"intermittent",
+"unsolicited",
+"ineffectual",
+"gradual"
+],
+"a": 0,
+"e": "On-again, off-again funding means intermittent."
+},
+{
+"q": "The completion of the Erie Canal was financed by",
+"o": [
+"the state of New York",
+"private companies",
+"the federal government",
+"DeWitt Clinton"
+],
+"a": 0,
+"e": "The state of New York financed and built it."
+},
+{
+"q": "The word \" tolls\" in line 31 is closest in meaning to which of the following?",
+"o": [
+"jobs",
+"grants",
+"links",
+"fees"
+],
+"a": 3,
+"e": "Tolls are fees."
+}
+]
+},
+{
+"id": "x_rd_r9b",
+"group": "Part IV - Reading Comprehension",
+"title": "Reading 9B - Traffic and Neighbourhoods",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 7 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"passage": [
+"A pioneering study by Donald Appleyard made the astounding discovery that a sudden increase in the volume of traffic through an area effects people in the way that a sudden increase in crime does. Appleyard observed this by finding three blocks of houses in San Francisco that looked much alike and had the same kind of middle-class and working- class residents, with approximately the same ethnic mix. The difference was that only 2,000 cars a day ran down Octavia Street (LIGHT street, in Appleyard's terminology), while Gough Street (MEDIUM street) was used by 8,000 cars daily and Franklin Street (HEAVY street) had around 16,000 cars a day. Franklin Street often had as many cars in an hour as Octavia Street had in a day. Heavy traffic brought with it danger, fumes, and soot, directly, and trash secondarily. That is, the cars didn't bring in much trash, but when trash accumulated, residents seldom picked it up. The cars, Appleyard determined, reduced the amount of territory residents felt responsible for. Noise was a constant intrusion into their homes. Many Franklin Street residents covered their doors and windows and spent most of their time in the rear of their houses. Most families with children had already left.",
+"Conditions on Octavia Street were much different. Residents picked up trash. They sat on their front steps and chatted with neighbors. They had three times as many friends and twice as many acquaintances as the people on Franklin. On Gough Street, residents said that the old feeling of community was disappearing as traffic increased. People were becoming more and more preoccupied with their own lives. A number of families had recently moved and more were considering.Those who were staying expressed deep regret at the destruction of their community."
+],
+"questions": [
+{
+"q": "The word \" astounding\" in line 2 is closest in meaning to",
+"o": [
+"startling",
+"disappointing",
+"dubious",
+"alternative"
+],
+"a": 0,
+"e": "Astounding means startling."
+},
+{
+"q": "Approximately how many cars use Franklin Street daily?",
+"o": [
+"2,000",
+"8,000",
+"16,000",
+"20,000"
+],
+"a": 2,
+"e": "Franklin Street had around 16,000 cars a day."
+},
+{
+"q": "All of the following are direct results of heavy traffic EXCEPT",
+"o": [
+"increased amounts of trash",
+"greater danger to residents",
+"more pollution",
+"more vibrations"
+],
+"a": 0,
+"e": "Trash is described as a secondary effect, not a direct one."
+},
+{
+"q": "The author's main purpose in the second paragraph is to",
+"o": [
+"discuss the problems of trash disposal",
+"point out the disadvantages of heavy traffic",
+"propose an alternate system of transportation",
+"suggest ways to cope with traffic problems"
+],
+"a": 1,
+"e": "The paragraph describes the disadvantages of heavy traffic."
+},
+{
+"q": "The three streets mentioned in this passage are different in that",
+"o": [
+"they are in different cities",
+"the residents are of different ethnic backgrounds",
+"they have varying amount of traffic",
+"the income levels of the residents vary considerably"
+],
+"a": 2,
+"e": "The streets differ in the amount of traffic."
+},
+{
+"q": "The word \" chatted \" in line 25 is closest in meaning to",
+"o": [
+"joked",
+"talked",
+"argued",
+"walked"
+],
+"a": 1,
+"e": "Chatted means talked."
+},
+{
+"q": "Which of the following is NOT a statement you would expect from a resident of Gough Street",
+"o": [
+"People in this street are unhappy because the neighborhood is deteriorating.",
+"People on this street think mostly of themselves.",
+"People on this street have more and more space for which they feel responsible.",
+"A number of people are preparing to leave this street."
+],
+"a": 2,
+"e": "Gough Street residents feel less responsible for their space as traffic grows."
+}
+]
+},
+{
+"id": "x_rd_r10a",
+"group": "Part IV - Reading Comprehension",
+"title": "Reading 10A - Carnegie Hall",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"passage": [
+"Carnegie Hall, the famous concert hall in New York City, has again undergone a restoration. While this is not the first, it is certainly the most extensive in the building's history. As a result of this new restoration, Carnegie Hall once again has the quality of sound that it had when it was first built.",
+"Carnegie Hall owes its existence to Andrew Carnegie, the wealthy owner of a steel company in the late 1800s. The hall was finished in 1891 and quickly gained a reputation as an excellent performing arts hall where accomplished musicians gained fame. Despite its reputation, however, the concert hall suffered from several detrimental renovations over the years. During the Great Depression, when fewer people could afford to attend performances, the directors sold part of the building to commercial businesses. As a result, a coffee shop was opened in one corner of the building, for which the builders replaced the brick and terra cotta walls with windowpanes. A renovation in 1946 seriously damaged the acoustical quality of the hall when the makers of the film Carnegie Hall cut a gaping hole in the dome of the ceiling to allow for lights and air vents. The hole was later covered with short curtains and a fake ceiling, but the hall never sounded the same afterward.",
+"In 1960, the violinist Isaac Stern became involved in restoring the hall after a group of real estate developers unveiled plans to demolish Carnegie Hall and build a high-rise office building on the site. This threat spurred Stern to rally public support for Carnegie Hall and encourage the City of New York to buy the property. The movement was successful, and the concert hall is now owned by the city. In the current restoration, builders tested each new material for its sound qualities, and they replaced the hole in the ceiling with a dome. The builders also restored the outer walls to their original appearance and closed the coffee shop. Carnegie has never sounded better, and its prospects for the future have never looked more promising."
+],
+"questions": [
+{
+"q": "This passage is mainly about:",
+"o": [
+"Changes to Carnegie Hall",
+"The appearance of Carnegie Hall",
+"Carnegie Hall's history during the Great Depression",
+"Damage to the ceiling in Carnegie Hall"
+],
+"a": 0,
+"e": "The passage describes the changes and restorations at Carnegie Hall."
+},
+{
+"q": "In line 12, what is the meaning of the word \" detrimental\" ?",
+"o": [
+"Dangerous",
+"Significant",
+"Extreme",
+"Harmful"
+],
+"a": 3,
+"e": "Detrimental means harmful."
+},
+{
+"q": "What major change happened to the hall in 1946?",
+"o": [
+"The acoustic dome was damaged.",
+"Space in the building was sold to commercial business.",
+"The walls were damaged in an earthquake.",
+"The stage was renovated."
+],
+"a": 0,
+"e": "The 1946 film crew cut a hole in the ceiling dome, damaging the acoustics."
+},
+{
+"q": "Who was Andrew Carnegie?",
+"o": [
+"A violinist",
+"An architect",
+"A steel mill owner",
+"Major of New York City"
+],
+"a": 2,
+"e": "Carnegie was the wealthy owner of a steel company."
+},
+{
+"q": "What was Isaac Stern's relationship to Carnegie Hall?",
+"o": [
+"He made the movie Carnegie Hall in 1946.",
+"He performed on opening night in 1891.",
+"He tried to save the hall, beginning in 1960.",
+"He opened a coffee shop in Carnegie Hall during the depression."
+],
+"a": 2,
+"e": "In 1960 Stern rallied support to save the hall."
+},
+{
+"q": "What was probably the most important aspect of the recent renovation?",
+"o": [
+"Restoring the outer wall",
+"Expanding the lobby",
+"Restoring the plaster trim",
+"Repairing the ceiling"
+],
+"a": 3,
+"e": "The ceiling hole was replaced with a dome, restoring the sound."
+},
+{
+"q": "Which of the following best summarizes the third paragraph (lines 23-36)?",
+"o": [
+"The restoration of Carnegie Hall",
+"Isaac Stern's rally for support",
+"How Carnegie Hall came to be owned by the city",
+"The new sound quality of Carnegie Hall"
+],
+"a": 0,
+"e": "The third paragraph covers Stern's rescue effort and the restoration."
+},
+{
+"q": "The author uses the word \"spurred\" in line 26 to show that Stern:",
+"o": [
+"Predicted the result",
+"Probed the plans",
+"Was told in advance",
+"Was stimulated to act"
+],
+"a": 3,
+"e": "Spurred means stimulated: the threat stimulated Stern to act."
+},
+{
+"q": "How does the author seem to feel about the future of Carnegie Hall?",
+"o": [
+"Ambiguous",
+"Guarded",
+"Optimistic",
+"Negative"
+],
+"a": 2,
+"e": "The last sentence is hopeful about the hall's prospects."
+},
+{
+"q": "Which of the following would most likely be the topic of the next paragraph?",
+"o": [
+"A scientific explanation of acoustics and the nature of sound",
+"A description of people's reactions to the newly renovated hall",
+"A discussion of the coffee shop that once was located in the building",
+"Further discussion about the activities of Isaac Stern in 1960"
+],
+"a": 1,
+"e": "The passage ends with how well it sounds now, so reactions to the renovated hall could follow."
+}
+]
+},
+{
+"id": "x_rd_r10b",
+"group": "Part IV - Reading Comprehension",
+"title": "Reading 10B - Denali National Park",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"passage": [
+"Situated in the central mountains of Alaska, a peak named Denali rises 20,320 feet above sea level. It is the highest peak in North America and the center of Denali National Park. One of America's greatest wilderness areas, the park has had limited access to visitors, but in spite of this, tourism rose from under 6,000 visitors in 1950 to over 546,000 visitors in 1990. The increasing popularity of this park is prompting serious discussions about the future use of Denali as well as how to preserve wilderness areas in general. One important issue of land use arises when parts of National Park are owned by individuals. In Denali, although most of the land in this vast tract of more than a million acres are still privately owned as mining tracts. These mining tracts in Denali were once abundant sources of gold, but they also were sources of heavy metals such as arsenic and lead that polluted rivers and streams. Environmentalists were successful in getting the government to require mining companies to submit statements showing the potential impact of a mining project before they now are allowed to begin mining. Because of this requirement, many individuals closed their mines and some sold their land to the National Park Service. Some land owners, however, are wondering if it is better to sell their land to the government or keep it for possible future use. Tourism in this previously remote area is bound to rise, as more roads are built to provide easier access to the park. This increase in the number of visitors creates a demand for hotels and other real estate development. The economic implications of this are of interest to the land owners, but are dismaying to those interested in preserving the wilderness."
+],
+"questions": [
+{
+"q": "What is the primary focus of this passage?",
+"o": [
+"Controversies over land use in Denali",
+"Miners selling their property in Denali",
+"Alaska building more roads to Denali",
+"Limiting tourist access to Denali"
+],
+"a": 0,
+"e": "The passage focuses on land-use disputes in Denali."
+},
+{
+"q": "The word \"prompting\" in line 7 could best be replaced by which of the following?",
+"o": [
+"Promising",
+"Sanctioning",
+"Initiating",
+"Trapping"
+],
+"a": 2,
+"e": "Prompting discussions means initiating them."
+},
+{
+"q": "The word \" arises\" in line 10 could be best replaced by:",
+"o": [
+"Surrenders",
+"Occurs",
+"Volunteers",
+"Prospers"
+],
+"a": 1,
+"e": "Arises means occurs."
+},
+{
+"q": "The word \"tract\" as used in line 12 refers to which of the following?",
+"o": [
+"Trail",
+"Resort",
+"Frontier",
+"Expanse"
+],
+"a": 3,
+"e": "A tract is a large expanse of land."
+},
+{
+"q": "What does the word \"they \"in line 14 refer to in the passage?",
+"o": [
+"Mining tracts",
+"Gold",
+"Millions of acres",
+"Sources"
+],
+"a": 0,
+"e": "They refers to the mining tracts."
+},
+{
+"q": "According to the passage, which of the following are pollutants in the Denali area?",
+"o": [
+"Gold",
+"Pesticides",
+"Human waste",
+"Arsenic"
+],
+"a": 3,
+"e": "Arsenic and lead polluted rivers and streams."
+},
+{
+"q": "Which of the following is closest in meaning to the phrase\"potential impact\"in line 18?",
+"o": [
+"Approximate cost",
+"Expected value",
+"Proposed size",
+"Possible effects"
+],
+"a": 3,
+"e": "Potential impact means possible effects."
+},
+{
+"q": "The author infers that some mine owners might hesitate to sell their land to the Park Service for which of the following reasons?",
+"o": [
+"There may be increasing demand for the ore in the mines.",
+"They might want to move to the towns.",
+"They might receive more money by selling their land to developers",
+"They might want to build a house on their property."
+],
+"a": 2,
+"e": "Visitors create demand for hotels, so selling to developers could pay more."
+},
+{
+"q": "What is the author's purpose in writing this passage?",
+"o": [
+"To demonstrate the changes in Denali National Park",
+"To use Denali as an example of common park issues",
+"To introduce the wonders of the wilderness area of Denali",
+"To explain the problems occurring in Denali Park"
+],
+"a": 3,
+"e": "The passage explains the problems and disputes in Denali."
+},
+{
+"q": "Which of following would most likely be the topic of the next paragraph in this passage?",
+"o": [
+"Conflict between land owners and environmentalists",
+"The role of the National Park Service in development",
+"Tourist needs in Denali Park",
+"Wildlife in the park"
+],
+"a": 0,
+"e": "The last sentence contrasts land owners with those preserving the wilderness."
+}
+]
 }
 ]
 }
