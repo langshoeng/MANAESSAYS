@@ -545,14 +545,15 @@ function buildQW(b){
   const S={};b.stages.forEach(x=>S[x.id]=x);
   const w=el('div','qw');
   const tl=el('label','qf');tl.append(el('span','qn','Topic or essay question'));
-  const ti=el('textarea');ti.rows=2;ti.placeholder='Type or paste the essay question here';ti.value=st.topic;ti.oninput=()=>{st.topic=ti.value;save()};tl.append(ti);w.append(tl);
+  const ti=el('textarea');ti.rows=2;ti.placeholder=b.topicEx?'Example: '+b.topicEx:'Type or paste the essay question here';ti.value=st.topic;ti.oninput=()=>{st.topic=ti.value;save()};tl.append(ti);w.append(tl);
+  if(b.exNote)w.append(el('p','lbl',b.exNote));
   const prog=el('p','prog','');w.append(prog);
   const answered=()=>{let a=0,t=0;const cnt=arr=>{t+=arr.n;for(let i=0;i<arr.n;i++)if((arr.v[i]||'').trim())a++};
     cnt({n:S.intro.qs.length,v:st.intro});for(let k=0;k<st.nbody;k++)cnt({n:S.body.qs.length,v:st.body[k]||[]});cnt({n:S.concl.qs.length,v:st.concl});return[a,t]};
   const upd=()=>{const[a,t]=answered();prog.textContent='Answered '+a+' of '+t+' questions'};
   const fld=(arr,i,q)=>{
     const l=el('label','qf');l.append(el('span','qn',(i+1)+'. '+q.q));
-    const t=el('textarea');t.rows=2;t.value=arr[i]||'';t.oninput=()=>{arr[i]=t.value;save();upd()};l.append(t);
+    const t=el('textarea');t.rows=3;if(q.ex)t.placeholder='Example: '+q.ex;t.value=arr[i]||'';t.oninput=()=>{arr[i]=t.value;save();upd()};l.append(t);
     if(q.tip)l.append(el('small','',(q.think?'Thinking step, not part of the draft. ':'')+'Tip: '+q.tip));return l};
   const stage=(x,open)=>{const d=el('details','st');d.open=open;d.append(el('summary','',x.title));if(x.note)d.append(el('p','lbl',x.note));return d};
   const di=stage(S.intro,true);S.intro.qs.forEach((q,i)=>di.append(fld(st.intro,i,q)));w.append(di);
@@ -580,7 +581,7 @@ function buildQW(b){
   const build=el('button','primary','Build my draft');
   build.onclick=()=>{
     const paras=[];
-    const intro=j(st.intro[1],st.intro[2],st.intro[3],st.intro[4]);if(intro)paras.push(intro);
+    const intro=j(st.intro[1],st.intro[2],st.intro[3],st.addPoints===false?'':st.intro[4]);if(intro)paras.push(intro);
     for(let k=0;k<st.nbody;k++){const b2=st.body[k]||[];const t=j(b2[0],b2[2],b2[3],b2[4],b2[1],b2[5]);if(t)paras.push(t)}
     const c=j(st.concl[0],st.concl[1],st.concl[2],st.concl[3]);if(c)paras.push(c);
     if(!paras.length){toast('Answer some questions first.');return}
@@ -590,8 +591,9 @@ function buildQW(b){
   cp.onclick=async()=>{try{await navigator.clipboard.writeText(out.value);toast('Draft copied.')}catch(e){out.select();toast('Select and copy the draft.')}};
   dl.onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([out.value],{type:'text/plain'}));a.download='my-essay-draft.txt';a.click()};
   let armed=0;clr.onclick=()=>{if(!armed){armed=1;clr.textContent='Click again to clear all';setTimeout(()=>{armed=0;clr.textContent='Clear everything'},3000);return}prefs.qw={};save();openW(curW)};
+  const pl=el('label','chk'),pc=el('input');pc.type='checkbox';pc.checked=st.addPoints!==false;pc.onchange=()=>{st.addPoints=pc.checked;save()};pl.append(pc,el('span','','Add my main points (introduction question 5) after the thesis. Untick if your thesis already lists them.'));
   const row=el('div','grp');row.append(build,cp,dl,clr);
-  w.append(el('h3','','Your draft'),el('p','lbl','The draft joins your answers in a standard order: introduction (background, importance, thesis, main points); each body paragraph (main point, explanation, evidence, what it shows, link to thesis, link to next paragraph); conclusion. The first introduction question is a thinking step, so it is not included. Add linking words and edit until it reads smoothly.'),row,out,wcEl);
+  w.append(el('h3','','Your draft'),el('p','lbl','The draft joins your answers in a standard order: introduction (background, importance, thesis, main points); each body paragraph (main point, explanation, evidence, what it shows, link to thesis, link to next paragraph); conclusion. The first introduction question is a thinking step, so it is not included. Add linking words and edit until it reads smoothly.'),pl,row,out,wcEl);
   wc();upd();return w;
 }
 function renderBlock2(b){
