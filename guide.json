@@ -721,6 +721,118 @@
 ]
 },
 {
+"id": "w_qwriter",
+"group": "Planning",
+"title": "Guided writing: answer the questions",
+"blocks": [
+{
+"t": "p",
+"x": "Write an essay by answering these questions one at a time. Type the topic, answer each question in your own words, then press Build my draft. Your answers are saved on this device. The tips under each question are suggestions to help you start."
+},
+{
+"t": "qwriter",
+"stages": [
+{
+"id": "intro",
+"title": "1. Introduction",
+"qs": [
+{
+"q": "What exactly is the essay question asking me?",
+"tip": "Underline the instruction words (discuss, explain, to what extent) and the topic. Restate the question in your own words.",
+"think": true
+},
+{
+"q": "What background information does the reader need to understand the topic?",
+"tip": "Give one or two sentences of general context. Keep details for the body."
+},
+{
+"q": "Why is this topic important?",
+"tip": "One sentence on why it matters to society, education or learners."
+},
+{
+"q": "What is my main argument or thesis statement?",
+"tip": "Answer the question directly in one sentence, for example: Although ..., I believe that ... because ..."
+},
+{
+"q": "What are the main points I will use to support my thesis?",
+"tip": "List two or three points, in the same order as your body paragraphs."
+}
+]
+},
+{
+"id": "body",
+"title": "2. Body paragraphs",
+"note": "Ask these questions for each body paragraph.",
+"repeat": true,
+"qs": [
+{
+"q": "What is the main point of this paragraph?",
+"tip": "This becomes your topic sentence: one clear idea."
+},
+{
+"q": "How does this point support my thesis?",
+"tip": "Link it to your thesis: This is important because ..."
+},
+{
+"q": "Why is this point important, or how does it work?",
+"tip": "Explain the reason or the process in one or two sentences."
+},
+{
+"q": "What evidence, facts, or examples support this point?",
+"tip": "Give a specific example, fact or situation: For instance, ..."
+},
+{
+"q": "What does the evidence demonstrate, and how does it support my argument?",
+"tip": "Say what the example proves: This shows that ..."
+},
+{
+"q": "How can I connect this paragraph to the overall argument and the next paragraph?",
+"tip": "End by leading on: Therefore ... / In addition ..."
+}
+]
+},
+{
+"id": "concl",
+"title": "3. Conclusion",
+"qs": [
+{
+"q": "What are the most important points I have established?",
+"tip": "Restate your main points in new words."
+},
+{
+"q": "How do these points collectively answer the essay question?",
+"tip": "Say how, together, they answer the question."
+},
+{
+"q": "What conclusion can I draw from my arguments and evidence?",
+"tip": "One sentence beginning In conclusion, ..."
+},
+{
+"q": "Why does my conclusion matter, and what final insight should the reader take away?",
+"tip": "End with a recommendation, an implication or a final thought. No new arguments."
+}
+]
+},
+{
+"id": "review",
+"title": "4. Final review",
+"checks": [
+"Have I answered the essay question directly and completely?",
+"Is every paragraph relevant to my thesis?",
+"Are my arguments logical, well-supported, and clearly connected?",
+"Have I checked my grammar, spelling, and sentence structure?"
+],
+"extra": [
+"Do my paragraphs use linking words (However, For example, Therefore)?",
+"Is my essay within the word limit and the time I have?",
+"Have I read it aloud once to catch mistakes?"
+]
+}
+]
+}
+]
+},
+{
 "id": "w14",
 "group": "Language & examples",
 "title": "Linking Words",
