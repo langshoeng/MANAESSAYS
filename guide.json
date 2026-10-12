@@ -739,23 +739,28 @@
 {
 "q": "What exactly is the essay question asking me?",
 "tip": "Underline the instruction words (discuss, explain, to what extent) and the topic. Restate the question in your own words.",
-"think": true
+"think": true,
+"ex": "It asks me to name the qualities that make a teacher effective, and to support each one with specific examples."
 },
 {
 "q": "What background information does the reader need to understand the topic?",
-"tip": "Give one or two sentences of general context. Keep details for the body."
+"tip": "Give one or two sentences of general context. Keep details for the body.",
+"ex": "Teachers shape the knowledge, habits and confidence of every generation of learners."
 },
 {
 "q": "Why is this topic important?",
-"tip": "One sentence on why it matters to society, education or learners."
+"tip": "One sentence on why it matters to society, education or learners.",
+"ex": "Knowing what makes teaching effective helps schools train and choose better teachers, which improves learning for everyone."
 },
 {
 "q": "What is my main argument or thesis statement?",
-"tip": "Answer the question directly in one sentence, for example: Although ..., I believe that ... because ..."
+"tip": "Answer the question in one sentence. If you can, name your 2 or 3 main reasons: Although ..., I believe that ... because A, B and C.",
+"ex": "In my view, effective teachers combine strong communication, good classroom management and genuine empathy."
 },
 {
 "q": "What are the main points I will use to support my thesis?",
-"tip": "List two or three points, in the same order as your body paragraphs."
+"tip": "Write each main point as one sentence, in the order of your body paragraphs. These become the topic sentences of your body paragraphs. If your thesis already lists them, untick the option next to Build my draft.",
+"ex": "(1) Teachers must communicate clearly. (2) They must manage the classroom well. (3) They must show empathy to their students."
 }
 ]
 },
@@ -767,27 +772,33 @@
 "qs": [
 {
 "q": "What is the main point of this paragraph?",
-"tip": "This becomes your topic sentence: one clear idea."
+"tip": "This becomes your topic sentence: one clear idea.",
+"ex": "The first essential quality is strong communication."
 },
 {
 "q": "How does this point support my thesis?",
-"tip": "Link it to your thesis: This is important because ..."
+"tip": "Link it to your thesis: This is important because ...",
+"ex": "This supports my thesis because learning cannot happen if students do not understand their teacher."
 },
 {
 "q": "Why is this point important, or how does it work?",
-"tip": "Explain the reason or the process in one or two sentences."
+"tip": "Explain the reason or the process in one or two sentences.",
+"ex": "Teachers must explain ideas clearly and listen carefully, so that confusion turns into understanding."
 },
 {
 "q": "What evidence, facts, or examples support this point?",
-"tip": "Give a specific example, fact or situation: For instance, ..."
+"tip": "Give a specific example, fact or situation: For instance, ...",
+"ex": "For instance, when students struggle with a grammar rule, the teacher rephrases it and gives a simple example."
 },
 {
 "q": "What does the evidence demonstrate, and how does it support my argument?",
-"tip": "Say what the example proves: This shows that ..."
+"tip": "Say what the example proves: This shows that ...",
+"ex": "This shows that clear communication helps students make progress."
 },
 {
 "q": "How can I connect this paragraph to the overall argument and the next paragraph?",
-"tip": "End by leading on: Therefore ... / In addition ..."
+"tip": "End by leading on: Therefore ... / In addition ...",
+"ex": "Therefore, clear communication is the base, but it also needs a well-managed classroom."
 }
 ]
 },
@@ -797,19 +808,23 @@
 "qs": [
 {
 "q": "What are the most important points I have established?",
-"tip": "Restate your main points in new words."
+"tip": "Restate your main points in new words.",
+"ex": "I have shown that communication, classroom management and empathy are the key qualities."
 },
 {
 "q": "How do these points collectively answer the essay question?",
-"tip": "Say how, together, they answer the question."
+"tip": "Say how, together, they answer the question.",
+"ex": "Together, they answer the question: they help students understand, stay focused and feel valued."
 },
 {
 "q": "What conclusion can I draw from my arguments and evidence?",
-"tip": "One sentence beginning In conclusion, ..."
+"tip": "One sentence beginning In conclusion, ...",
+"ex": "In conclusion, effective teachers combine these three qualities."
 },
 {
 "q": "Why does my conclusion matter, and what final insight should the reader take away?",
-"tip": "End with a recommendation, an implication or a final thought. No new arguments."
+"tip": "End with a recommendation, an implication or a final thought. No new arguments.",
+"ex": "Schools should therefore train and value these qualities in all teachers."
 }
 ]
 },
@@ -828,7 +843,9 @@
 "Have I read it aloud once to catch mistakes?"
 ]
 }
-]
+],
+"topicEx": "What are the qualities of an effective teacher? Use specific examples to support your answer.",
+"exNote": "The grey examples in each box use the topic 'qualities of an effective teacher' to show the form of a good answer. They disappear when you start typing."
 }
 ]
 },
