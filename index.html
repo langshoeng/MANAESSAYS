@@ -159,6 +159,13 @@ button,select{min-height:44px}
 .lset{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin:8px 0}
 .pass{max-height:42vh;overflow:auto;padding:6px 8px 0 0;font-family:Literata,Georgia,serif;line-height:1.7}
 .pass p{margin:.5rem 0}
+.qw label.qf{display:flex;flex-direction:column;gap:4px;margin:12px 0}
+.qw .qn{font-weight:600}
+.qw textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;color:var(--ink);font:inherit}
+.qw small{color:var(--mute)}
+.qw .draft{font-family:Literata,Georgia,serif;line-height:1.7}
+details.st{border:1px solid var(--line);border-radius:10px;padding:8px 14px;margin:12px 0}
+details.st summary{font-weight:600;cursor:pointer}
 </style>
 </head>
 <body>
@@ -479,7 +486,7 @@ const xP=fetch('exam.json').then(r=>r.json()).then(d=>{
   });
 }).catch(()=>{});
 /* Writing guide */
-const wflat=b=>[flat(b),(b.paras||[]).map(p=>p.parts.map(x=>x[1]).join(' ')).join(' '),(b.types||[]).map(x=>x.n+' '+x.s).join(' ')].join(' ');
+const wflat=b=>[flat(b),(b.stages||[]).map(x=>x.title+' '+(x.qs||[]).map(q=>q.q).join(' ')).join(' '),(b.paras||[]).map(p=>p.parts.map(x=>x[1]).join(' ')).join(' '),(b.types||[]).map(x=>x.n+' '+x.s).join(' ')].join(' ');
 function renderWList(){
   const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';let last='';
   wsecs.filter(s=>!f||s.text.includes(f)).forEach(s=>{
@@ -532,7 +539,63 @@ function buildPlanner(b){
   clr.onclick=()=>{prefs.plan={};save();openW(curW)};
   upd();const g=el('div','grp');g.append(cp,clr);w.append(el('h3','','Your outline'),out,g);return w;
 }
+function buildQW(b){
+  const st=prefs.qw=prefs.qw||{};
+  st.topic=st.topic||'';st.intro=st.intro||[];st.concl=st.concl||[];st.review=st.review||[];st.nbody=st.nbody||3;st.body=st.body||[];st.draft=st.draft||'';
+  const S={};b.stages.forEach(x=>S[x.id]=x);
+  const w=el('div','qw');
+  const tl=el('label','qf');tl.append(el('span','qn','Topic or essay question'));
+  const ti=el('textarea');ti.rows=2;ti.placeholder='Type or paste the essay question here';ti.value=st.topic;ti.oninput=()=>{st.topic=ti.value;save()};tl.append(ti);w.append(tl);
+  const prog=el('p','prog','');w.append(prog);
+  const answered=()=>{let a=0,t=0;const cnt=arr=>{t+=arr.n;for(let i=0;i<arr.n;i++)if((arr.v[i]||'').trim())a++};
+    cnt({n:S.intro.qs.length,v:st.intro});for(let k=0;k<st.nbody;k++)cnt({n:S.body.qs.length,v:st.body[k]||[]});cnt({n:S.concl.qs.length,v:st.concl});return[a,t]};
+  const upd=()=>{const[a,t]=answered();prog.textContent='Answered '+a+' of '+t+' questions'};
+  const fld=(arr,i,q)=>{
+    const l=el('label','qf');l.append(el('span','qn',(i+1)+'. '+q.q));
+    const t=el('textarea');t.rows=2;t.value=arr[i]||'';t.oninput=()=>{arr[i]=t.value;save();upd()};l.append(t);
+    if(q.tip)l.append(el('small','',(q.think?'Thinking step, not part of the draft. ':'')+'Tip: '+q.tip));return l};
+  const stage=(x,open)=>{const d=el('details','st');d.open=open;d.append(el('summary','',x.title));if(x.note)d.append(el('p','lbl',x.note));return d};
+  const di=stage(S.intro,true);S.intro.qs.forEach((q,i)=>di.append(fld(st.intro,i,q)));w.append(di);
+  const db=stage(S.body,true),holder=el('div');db.append(holder);
+  const drawBody=()=>{
+    holder.textContent='';
+    for(let k=0;k<st.nbody;k++){
+      st.body[k]=st.body[k]||[];
+      const p=el('details','st');p.open=k===0;p.append(el('summary','','Body paragraph '+(k+1)));
+      S.body.qs.forEach((q,i)=>p.append(fld(st.body[k],i,q)));holder.append(p)}
+    upd();
+  };
+  const ctl=el('div','grp'),add=el('button','','Add a body paragraph'),rm=el('button','','Remove the last one');
+  add.onclick=()=>{if(st.nbody<6){st.nbody++;save();drawBody()}};
+  rm.onclick=()=>{if(st.nbody>1){st.body.length=st.nbody-1;st.nbody--;save();drawBody()}};
+  ctl.append(add,rm);db.append(ctl);w.append(db);drawBody();
+  const dc=stage(S.concl,true);S.concl.qs.forEach((q,i)=>dc.append(fld(st.concl,i,q)));w.append(dc);
+  const dr=stage(S.review,true);
+  const chk=(txt,i)=>{const l=el('label','chk'),c=el('input');c.type='checkbox';c.checked=!!st.review[i];c.onchange=()=>{st.review[i]=c.checked;save()};l.append(c,el('span','',txt));return l};
+  S.review.checks.forEach((t,i)=>dr.append(chk(t,i)));
+  dr.append(el('p','lbl','Extra checks I suggest:'));S.review.extra.forEach((t,i)=>dr.append(chk(t,10+i)));w.append(dr);
+  const j=(...a)=>a.map(x=>(x||'').trim()).filter(Boolean).join(' ');
+  const out=el('textarea');out.rows=16;out.className='draft';out.placeholder='Your draft will appear here. You can edit it.';out.value=st.draft;out.oninput=()=>{st.draft=out.value;save();wc()};
+  const wcEl=el('p','lbl','');const wc=()=>{const n=(out.value.match(/\S+/g)||[]).length;wcEl.textContent=n+' words'};
+  const build=el('button','primary','Build my draft');
+  build.onclick=()=>{
+    const paras=[];
+    const intro=j(st.intro[1],st.intro[2],st.intro[3],st.intro[4]);if(intro)paras.push(intro);
+    for(let k=0;k<st.nbody;k++){const b2=st.body[k]||[];const t=j(b2[0],b2[2],b2[3],b2[4],b2[1],b2[5]);if(t)paras.push(t)}
+    const c=j(st.concl[0],st.concl[1],st.concl[2],st.concl[3]);if(c)paras.push(c);
+    if(!paras.length){toast('Answer some questions first.');return}
+    out.value=(st.topic.trim()?st.topic.trim()+'\n\n':'')+paras.join('\n\n');st.draft=out.value;save();wc();out.scrollIntoView({block:'nearest'});toast('Draft built. Read it and smooth the joins.');
+  };
+  const cp=el('button','','Copy draft'),dl=el('button','','Download .txt'),clr=el('button','','Clear everything');
+  cp.onclick=async()=>{try{await navigator.clipboard.writeText(out.value);toast('Draft copied.')}catch(e){out.select();toast('Select and copy the draft.')}};
+  dl.onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([out.value],{type:'text/plain'}));a.download='my-essay-draft.txt';a.click()};
+  let armed=0;clr.onclick=()=>{if(!armed){armed=1;clr.textContent='Click again to clear all';setTimeout(()=>{armed=0;clr.textContent='Clear everything'},3000);return}prefs.qw={};save();openW(curW)};
+  const row=el('div','grp');row.append(build,cp,dl,clr);
+  w.append(el('h3','','Your draft'),el('p','lbl','The draft joins your answers in a standard order: introduction (background, importance, thesis, main points); each body paragraph (main point, explanation, evidence, what it shows, link to thesis, link to next paragraph); conclusion. The first introduction question is a thinking step, so it is not included. Add linking words and edit until it reads smoothly.'),row,out,wcEl);
+  wc();upd();return w;
+}
 function renderBlock2(b){
+  if(b.t==='qwriter')return buildQW(b);
   if(b.t==='ol'){const u=el('ol');b.items.forEach(x=>u.append(el('li','',x)));return u}
   if(b.t==='note')return el('div','note',b.x);
   if(b.t==='f'){const p=el('p');p.append(el('span','formula',b.x));return p}
