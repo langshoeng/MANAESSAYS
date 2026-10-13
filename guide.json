@@ -808,18 +808,18 @@
 "qs": [
 {
 "q": "What are the most important points I have established?",
-"tip": "Restate your main points in new words.",
-"ex": "I have shown that communication, classroom management and empathy are the key qualities."
+"tip": "Start with a signal phrase such as In conclusion, or To sum up, then restate your main points in new words.",
+"ex": "In conclusion, I have shown that communication, classroom management and empathy are the key qualities."
 },
 {
 "q": "How do these points collectively answer the essay question?",
-"tip": "Say how, together, they answer the question.",
+"tip": "Say how, together, the points answer the essay question. If questions 2 and 3 would give the same sentence, keep the clearer one.",
 "ex": "Together, they answer the question: they help students understand, stay focused and feel valued."
 },
 {
 "q": "What conclusion can I draw from my arguments and evidence?",
-"tip": "One sentence beginning In conclusion, ...",
-"ex": "In conclusion, effective teachers combine these three qualities."
+"tip": "State your final answer to the question in one sentence, for example Therefore, ... or As a result, ...",
+"ex": "Therefore, effective teachers combine these three qualities."
 },
 {
 "q": "Why does my conclusion matter, and what final insight should the reader take away?",
