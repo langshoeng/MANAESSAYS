@@ -555,22 +555,26 @@ function buildQW(b){
     const l=el('label','qf');l.append(el('span','qn',(i+1)+'. '+q.q));
     const t=el('textarea');t.rows=3;if(q.ex)t.placeholder='Example: '+q.ex;t.value=arr[i]||'';t.oninput=()=>{arr[i]=t.value;save();upd()};l.append(t);
     if(q.tip)l.append(el('small','',(q.think?'Thinking step, not part of the draft. ':'')+'Tip: '+q.tip));return l};
+  const copyBtn=(label,fn)=>{const b=el('button','sv',label);b.style.marginTop='6px';b.onclick=async()=>{const t=fn();if(!t){toast('Answer some questions first.');return}try{await navigator.clipboard.writeText(t);toast('Copied.')}catch(e){toast('Could not copy. Use Build my draft and copy from there.')}};return b};
+  const introT=()=>j(st.intro[1],st.intro[2],st.intro[3],st.addPoints===false?'':st.intro[4]);
+  const bodyT=k=>{const b2=st.body[k]||[];return j(b2[0],b2[2],b2[3],b2[4],b2[1],b2[5])};
+  const conclT=()=>j(st.concl[0],st.concl[1],st.concl[2],st.concl[3]);
   const stage=(x,open)=>{const d=el('details','st');d.open=open;d.append(el('summary','',x.title));if(x.note)d.append(el('p','lbl',x.note));return d};
-  const di=stage(S.intro,true);S.intro.qs.forEach((q,i)=>di.append(fld(st.intro,i,q)));w.append(di);
+  const di=stage(S.intro,true);S.intro.qs.forEach((q,i)=>di.append(fld(st.intro,i,q)));di.append(copyBtn('Copy introduction',introT));w.append(di);
   const db=stage(S.body,true),holder=el('div');db.append(holder);
   const drawBody=()=>{
     holder.textContent='';
     for(let k=0;k<st.nbody;k++){
       st.body[k]=st.body[k]||[];
       const p=el('details','st');p.open=k===0;p.append(el('summary','','Body paragraph '+(k+1)));
-      S.body.qs.forEach((q,i)=>p.append(fld(st.body[k],i,q)));holder.append(p)}
+      S.body.qs.forEach((q,i)=>p.append(fld(st.body[k],i,q)));p.append(copyBtn('Copy this paragraph',()=>bodyT(k)));holder.append(p)}
     upd();
   };
   const ctl=el('div','grp'),add=el('button','','Add a body paragraph'),rm=el('button','','Remove the last one');
   add.onclick=()=>{if(st.nbody<6){st.nbody++;save();drawBody()}};
   rm.onclick=()=>{if(st.nbody>1){st.body.length=st.nbody-1;st.nbody--;save();drawBody()}};
   ctl.append(add,rm);db.append(ctl);w.append(db);drawBody();
-  const dc=stage(S.concl,true);S.concl.qs.forEach((q,i)=>dc.append(fld(st.concl,i,q)));w.append(dc);
+  const dc=stage(S.concl,true);S.concl.qs.forEach((q,i)=>dc.append(fld(st.concl,i,q)));dc.append(copyBtn('Copy conclusion',conclT));w.append(dc);
   const dr=stage(S.review,true);
   const chk=(txt,i)=>{const l=el('label','chk'),c=el('input');c.type='checkbox';c.checked=!!st.review[i];c.onchange=()=>{st.review[i]=c.checked;save()};l.append(c,el('span','',txt));return l};
   S.review.checks.forEach((t,i)=>dr.append(chk(t,i)));
@@ -581,9 +585,9 @@ function buildQW(b){
   const build=el('button','primary','Build my draft');
   build.onclick=()=>{
     const paras=[];
-    const intro=j(st.intro[1],st.intro[2],st.intro[3],st.addPoints===false?'':st.intro[4]);if(intro)paras.push(intro);
-    for(let k=0;k<st.nbody;k++){const b2=st.body[k]||[];const t=j(b2[0],b2[2],b2[3],b2[4],b2[1],b2[5]);if(t)paras.push(t)}
-    const c=j(st.concl[0],st.concl[1],st.concl[2],st.concl[3]);if(c)paras.push(c);
+    const intro=introT();if(intro)paras.push(intro);
+    for(let k=0;k<st.nbody;k++){const t=bodyT(k);if(t)paras.push(t)}
+    const c=conclT();if(c)paras.push(c);
     if(!paras.length){toast('Answer some questions first.');return}
     out.value=(st.topic.trim()?st.topic.trim()+'\n\n':'')+paras.join('\n\n');st.draft=out.value;save();wc();out.scrollIntoView({block:'nearest'});toast('Draft built. Read it and smooth the joins.');
   };
@@ -593,7 +597,7 @@ function buildQW(b){
   let armed=0;clr.onclick=()=>{if(!armed){armed=1;clr.textContent='Click again to clear all';setTimeout(()=>{armed=0;clr.textContent='Clear everything'},3000);return}prefs.qw={};save();openW(curW)};
   const pl=el('label','chk'),pc=el('input');pc.type='checkbox';pc.checked=st.addPoints!==false;pc.onchange=()=>{st.addPoints=pc.checked;save()};pl.append(pc,el('span','','Add my main points (introduction question 5) after the thesis. Untick if your thesis already lists them.'));
   const row=el('div','grp');row.append(build,cp,dl,clr);
-  w.append(el('h3','','Your draft'),el('p','lbl','The draft joins your answers in a standard order: introduction (background, importance, thesis, main points); each body paragraph (main point, explanation, evidence, what it shows, link to thesis, link to next paragraph); conclusion. The first introduction question is a thinking step, so it is not included. Add linking words and edit until it reads smoothly.'),pl,row,out,wcEl);
+  w.append(el('h3','','Your draft'),el('p','lbl','The draft joins your answers in a standard order: introduction (background, importance, thesis, main points); each body paragraph (main point, explanation, evidence, what it shows, link to thesis, link to next paragraph); conclusion. The first introduction question is a thinking step, so it is not included. Each part also has its own Copy button. Add linking words and edit until it reads smoothly.'),pl,row,out,wcEl);
   wc();upd();return w;
 }
 function renderBlock2(b){
