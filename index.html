@@ -85,7 +85,7 @@ button,select{min-height:44px}
 }
 @media (prefers-reduced-motion:reduce){#toast,aside{transition:none}}
 
-.tabs{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:6px}
+.tabs{display:grid;grid-template-columns:repeat(auto-fit,minmax(86px,1fr));gap:6px}
 .tabs button{min-width:0;padding-left:2px;padding-right:2px;font-size:.84rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .grp-h{margin:12px 0 2px;padding:0 10px;color:var(--mute);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}
 .gh{display:flex;gap:12px;align-items:flex-start;justify-content:space-between}
@@ -166,13 +166,24 @@ button,select{min-height:44px}
 .qw .draft{font-family:Literata,Georgia,serif;line-height:1.7}
 details.st{border:1px solid var(--line);border-radius:10px;padding:8px 14px;margin:12px 0}
 details.st summary{font-weight:600;cursor:pointer}
+.gt textarea,.gt input[type=number],.gt input:not([type]){background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;color:var(--ink);font:inherit}
+.gt textarea{width:100%;margin-bottom:8px}
+.gbig{font:600 clamp(1.6rem,6vw,2.4rem)/1.2 Literata,Georgia,serif;text-align:center;padding:26px 12px;border:1px solid var(--line);border-radius:12px;margin:12px 0;min-height:110px;display:flex;align-items:center;justify-content:center;overflow-wrap:anywhere}
+.trow{display:flex;gap:6px;align-items:center;margin:8px 0}
+.trow input{flex:1;min-width:0}
+.tscore{min-width:2.6ch;text-align:center;font:600 1.5rem Figtree,system-ui,sans-serif}
+.bcards{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+.bcard{border:2px solid var(--ink);border-radius:8px;padding:8px;break-inside:avoid}
+.bgrid{display:grid;gap:4px}
+.bcell{border:1px solid var(--line);border-radius:4px;padding:10px 4px;min-height:52px;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:600;overflow-wrap:anywhere}
+@media print{body.printing *{visibility:hidden}body.printing .bprint,body.printing .bprint *{visibility:visible}body.printing .bprint{position:absolute;left:0;top:0;width:100%}}
 </style>
 </head>
 <body>
 <div class="app">
 <aside id="side" aria-label="Essays">
   <h2>My Library</h2>
-  <div class="tabs" role="tablist"><button id="tabE" class="primary">Essays</button><button id="tabG">Grammar</button><button id="tabT">Terms</button><button id="tabX">Exam</button></div>
+  <div class="tabs" role="tablist"><button id="tabE" class="primary">Essays</button><button id="tabG">Grammar</button><button id="tabT">Terms</button><button id="tabX">Exam</button><button id="tabP">Games</button></div>
   <div class="tabs" id="subTabs"><button id="subM" class="primary">My essays</button><button id="subW">Writing guide</button></div>
   <input type="search" id="q" placeholder="Search titles" aria-label="Search">
   <label class="lbl" id="starRow" hidden style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="starOnly"> Saved for review only</label>
@@ -225,6 +236,11 @@ details.st summary{font-weight:600;cursor:pointer}
       <div id="wBody"></div>
       <div class="grp" id="wNav"><button id="wPrev">&larr; Previous</button><button id="wNext">Next &rarr;</button></div>
     </article>
+    <article id="pdoc" hidden>
+      <h1 id="gmTitle"></h1>
+      <div id="gmBody"></div>
+      <div class="grp" id="gmNav"><button id="gmPrev">&larr; Previous</button><button id="gmNext">Next &rarr;</button></div>
+    </article>
     <article id="tdoc" hidden>
       <h1 id="tTitle"></h1>
       <p id="tMeta" class="lbl"></p>
@@ -239,14 +255,14 @@ details.st summary{font-weight:600;cursor:pointer}
 <div id="toast" role="status" aria-live="polite"></div>
 <script>
 const $=s=>document.querySelector(s),PK='essay-viewer-prefs',synth=window.speechSynthesis,aud=$('#aud');
-const played=new Set();let shuffleRun=false,nextPick=null,pinRun=false,xrd={},passOpen=true,xsets=[],xbase={},gcur=null,xcur=null,pbase={},runId=0,recWait=null,wsecs=[],curW=null,sub='mine',tsecs=[],allT=[],curT=null,tmin=1,cs=null,prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
+const played=new Set();let shuffleRun=false,nextPick=null,pinRun=false,gmsecs=[],curP=null,xrd={},passOpen=true,xsets=[],xbase={},gcur=null,xcur=null,pbase={},runId=0,recWait=null,wsecs=[],curW=null,sub='mine',tsecs=[],allT=[],curT=null,tmin=1,cs=null,prac={},ps=null,gram=[],curG=null,tab='essays',eErr=false,items=[],cur=null,mode='voice',state='idle',tok=0,q=[],qi=0,voices=[],prefs={},tt;
 try{prefs=JSON.parse(localStorage.getItem(PK))||{}}catch(e){}
 const save=()=>{try{localStorage.setItem(PK,JSON.stringify(prefs))}catch(e){}};
 const words=s=>(s.trim().match(/\S+/g)||[]).length;
 function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>t.classList.remove('show'),2800)}
 function drawer(o){$('#side').classList.toggle('open',o);$('#scrim').hidden=!o}
 function settings(o){$('#settings').hidden=!o;$('#setBtn').setAttribute('aria-expanded',String(o))}
-function renderList(){tab==='exam'?renderXList():tab==='grammar'?renderGList():tab==='terms'?renderTList():sub==='guide'?renderWList():renderEList()}
+function renderList(){tab==='games'?renderPList():tab==='exam'?renderXList():tab==='grammar'?renderGList():tab==='terms'?renderTList():sub==='guide'?renderWList():renderEList()}
 function pinSet(){return new Set(prefs.pins||[])}
 function renderEList(){
   const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';
@@ -457,6 +473,104 @@ $('#setBtn').onclick=e=>{e.stopPropagation();settings($('#settings').hidden)};
 document.addEventListener('click',e=>{if(!$('#settings').hidden&&!e.target.closest('#settings'))settings(false)});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){settings(false);drawer(false)}});
 $('#q').oninput=renderList;
+/* Games and classroom tools */
+function renderPList(){
+  const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';let last='';
+  gmsecs.filter(s=>!f||s.text.includes(f)).forEach(s=>{
+    if(s.group!==last){last=s.group;box.append(el('div','grp-h',s.group))}
+    const b=el('button','item');b.setAttribute('aria-current',String(curP===s));b.append(el('b','',s.title));b.onclick=()=>openP(s);box.append(b)});
+  if(!box.querySelector('.item'))box.textContent=gmsecs.length?'No games found.':'Could not load games.json. Make sure it is uploaded next to index.html.';
+}
+function openP(s){
+  stopSpeech();aud.pause();curP=s;drawer(false);prefs.lastP=s.id;save();
+  $('#empty').hidden=true;$('#doc').hidden=true;$('#gdoc').hidden=true;$('#tdoc').hidden=true;$('#wdoc').hidden=true;$('#pdoc').hidden=false;$('#player').hidden=true;
+  $('#gmTitle').textContent=s.title;const box=$('#gmBody');box.textContent='';s.blocks.forEach(b=>box.append(renderBlock(b)));
+  const i=gmsecs.indexOf(s);$('#gmPrev').disabled=i<=0;$('#gmNext').disabled=i>=gmsecs.length-1;
+  renderList();window.scrollTo(0,0);
+}
+$('#gmPrev').onclick=()=>{const i=gmsecs.indexOf(curP);if(i>0)openP(gmsecs[i-1])};
+$('#gmNext').onclick=()=>{const i=gmsecs.indexOf(curP);if(i<gmsecs.length-1)openP(gmsecs[i+1])};
+function beep(){try{const A=window.AudioContext||window.webkitAudioContext,c=new A(),o=c.createOscillator(),g=c.createGain();o.connect(g);g.connect(c.destination);o.frequency.value=880;g.gain.value=0.2;o.start();setTimeout(()=>{o.stop();c.close()},700)}catch(e){}try{navigator.vibrate&&navigator.vibrate([200,100,200])}catch(e){}}
+function buildTool(b){return b.id==='picker'?toolPicker():b.id==='teams'?toolTeams():b.id==='bingo'?toolBingo():toolWords(b)}
+function toolPicker(){
+  const st=prefs.gp=prefs.gp||{},w=el('div','gt');
+  const ta=el('textarea');ta.rows=6;ta.placeholder='One name per line, or separate names with commas';ta.value=st.names||'';ta.setAttribute('aria-label','Names');
+  const big=el('div','gbig','Press Pick someone'),info=el('p','lbl','');
+  const names=()=>ta.value.split(/[\n,]+/).map(x=>x.trim()).filter(Boolean);
+  let left=[];const reset=()=>{left=shuffle(names());info.textContent=left.length+' names ready'};
+  ta.oninput=()=>{st.names=ta.value;save();reset()};
+  const pk=el('button','primary','Pick someone');
+  pk.onclick=()=>{if(!names().length){toast('Add some names first.');return}if(!left.length){reset();toast('Everyone has been picked. Starting again.')}const x=left.pop();big.textContent=x;info.textContent=left.length+' names left'};
+  const rs=el('button','','Start over');rs.onclick=()=>{reset();big.textContent='Press Pick someone'};
+  const r1=el('div','grp');r1.append(pk,rs);
+  const gn=el('input');gn.type='number';gn.min=2;gn.max=10;gn.value=st.gsize||3;gn.setAttribute('aria-label','Learners per group');gn.style.width='70px';gn.onchange=()=>{st.gsize=gn.value;save()};
+  const gb=el('button','','Make groups'),gout=el('div');
+  gb.onclick=()=>{const n=names();if(n.length<2){toast('Add at least two names.');return}
+    const size=Math.max(2,parseInt(gn.value)||3),sh=shuffle(n.slice()),k=Math.ceil(sh.length/size),gs=Array.from({length:k},()=>[]);
+    sh.forEach((x,i)=>gs[i%k].push(x));gout.textContent='';gs.forEach((g,i)=>{const d=el('div','exp');d.append(el('b','','Group '+(i+1)+': '),document.createTextNode(g.join(', ')));gout.append(d)})};
+  const r2=el('div','grp');r2.append(el('span','lbl','Learners per group'),gn,gb);
+  w.append(ta,r1,big,info,el('h3','','Random groups'),r2,gout);reset();return w;
+}
+function toolTeams(){
+  const st=prefs.gt=prefs.gt||{};st.teams=st.teams||[{n:'Team 1',s:0},{n:'Team 2',s:0}];
+  const w=el('div','gt'),list=el('div');
+  const draw=()=>{list.textContent='';st.teams.forEach(t=>{
+    const r=el('div','trow'),nm=el('input');nm.value=t.n;nm.setAttribute('aria-label','Team name');nm.oninput=()=>{t.n=nm.value;save()};
+    const sc=el('span','tscore',String(t.s)),bump=d=>{t.s+=d;sc.textContent=t.s;save()};
+    const m=el('button','','-1'),p=el('button','primary','+1'),p5=el('button','','+5');
+    m.onclick=()=>bump(-1);p.onclick=()=>bump(1);p5.onclick=()=>bump(5);r.append(nm,m,sc,p,p5);list.append(r)})};
+  const ab=el('button','','Add a team'),rb=el('button','','Remove last team'),zb=el('button','','Reset scores');
+  ab.onclick=()=>{if(st.teams.length<6){st.teams.push({n:'Team '+(st.teams.length+1),s:0});save();draw()}};
+  rb.onclick=()=>{if(st.teams.length>1){st.teams.pop();save();draw()}};
+  zb.onclick=()=>{st.teams.forEach(t=>t.s=0);save();draw()};
+  const r1=el('div','grp');r1.append(ab,rb,zb);
+  const disp=el('div','gbig','01:00'),sel=el('select');sel.setAttribute('aria-label','Timer length');
+  [[30,'30 seconds'],[60,'1 minute'],[120,'2 minutes'],[180,'3 minutes'],[300,'5 minutes'],[600,'10 minutes']].forEach(([v,t])=>sel.append(new Option(t,v)));sel.value=String(st.secs||60);
+  let left=parseInt(sel.value),iv=null;
+  const fmt=n=>String(Math.floor(n/60)).padStart(2,'0')+':'+String(n%60).padStart(2,'0');
+  const show=()=>{disp.textContent=fmt(left)};
+  const stop=()=>{if(iv){clearInterval(iv);iv=null}};
+  const go=el('button','primary','Start'),rt=el('button','','Reset');
+  sel.onchange=()=>{stop();st.secs=sel.value;save();left=parseInt(sel.value);show();go.textContent='Start'};
+  go.onclick=()=>{if(iv){stop();go.textContent='Resume';return}if(left<=0)left=parseInt(sel.value);go.textContent='Pause';
+    iv=setInterval(()=>{left--;show();if(left<=0){stop();go.textContent='Start';beep();toast('Time is up!')}},1000)};
+  rt.onclick=()=>{stop();left=parseInt(sel.value);show();go.textContent='Start'};
+  const r2=el('div','grp');r2.append(sel,go,rt);
+  draw();show();w.append(el('h3','','Scoreboard'),list,r1,el('h3','','Timer'),disp,r2);return w;
+}
+function toolBingo(){
+  const st=prefs.gb=prefs.gb||{},w=el('div','gt');
+  const ta=el('textarea');ta.rows=8;ta.placeholder='One word per line (at least as many as the squares on a card)';ta.value=st.words||'';ta.setAttribute('aria-label','Bingo words');ta.oninput=()=>{st.words=ta.value;save()};
+  const sz=el('select');[3,4,5].forEach(n=>sz.append(new Option(n+' x '+n,n)));sz.value=String(st.size||3);sz.setAttribute('aria-label','Card size');sz.onchange=()=>{st.size=sz.value;save()};
+  const cn=el('select');[1,2,4,6,8,12,20,30].forEach(n=>cn.append(new Option(n+(n===1?' card':' cards'),n)));cn.value=String(st.cards||6);cn.setAttribute('aria-label','Number of cards');cn.onchange=()=>{st.cards=cn.value;save()};
+  const fl=el('label','lbl'),fc=el('input');fc.type='checkbox';fc.checked=st.free!==false;fc.onchange=()=>{st.free=fc.checked;save()};fl.style.display='flex';fl.style.gap='6px';fl.append(fc,document.createTextNode('FREE centre square (3 x 3 and 5 x 5 cards)'));
+  const out=el('div'),call=el('div');
+  const mk=el('button','primary','Make cards'),pr=el('button','','Print cards');
+  mk.onclick=()=>{
+    const words=[...new Set(ta.value.split(/\n+/).map(x=>x.trim()).filter(Boolean))],n=parseInt(sz.value),free=fc.checked&&n%2===1,need=n*n-(free?1:0);
+    if(words.length<need){toast('Add at least '+need+' different words for a '+n+' x '+n+' card.');return}
+    out.textContent='';call.textContent='';const grid=el('div','bcards');
+    for(let c=0;c<parseInt(cn.value);c++){
+      const cw=shuffle(words.slice()).slice(0,need),card=el('div','bcard'),g=el('div','bgrid');g.style.gridTemplateColumns='repeat('+n+',1fr)';
+      for(let i=0;i<n*n;i++){const mid=free&&i===(n*n-1)/2;g.append(el('div','bcell',mid?'FREE':cw.shift()))}
+      card.append(el('div','lbl','Card '+(c+1)),g);grid.append(card)}
+    out.append(el('h3','','Cards'),grid);
+    call.append(el('h3','','Call list (for the teacher)'),el('p','',shuffle(words.slice()).map((x,i)=>(i+1)+'. '+x).join('   ')));
+  };
+  pr.onclick=()=>{if(!out.querySelector('.bcard')){toast('Make the cards first.');return}document.body.classList.add('printing');try{window.print()}catch(e){}setTimeout(()=>document.body.classList.remove('printing'),800)};
+  const r=el('div','grp');r.append(sz,cn,mk,pr);out.className='bprint';
+  w.append(ta,r,fl,out,call);return w;
+}
+function toolWords(b){
+  const w=el('div','gt'),sel=el('select');Object.keys(b.themes).forEach(k=>sel.append(new Option(k,k)));sel.setAttribute('aria-label','Theme');
+  let pool=[],cur='',hid=false;const big=el('div','gbig','Press Next word'),info=el('p','lbl','');
+  const show=()=>{big.textContent=!cur?'Press Next word':(hid?'Hidden. Press Show word.':cur);info.textContent=pool.length+' words left in this theme'};
+  const nx=el('button','primary','Next word'),hd=el('button','','Hide word');
+  nx.onclick=()=>{if(!pool.length)pool=shuffle(b.themes[sel.value].slice());cur=pool.pop();hid=false;hd.textContent='Hide word';show()};
+  hd.onclick=()=>{if(!cur)return;hid=!hid;hd.textContent=hid?'Show word':'Hide word';show()};
+  sel.onchange=()=>{pool=[];cur='';hid=false;hd.textContent='Hide word';show()};
+  const r=el('div','grp');r.append(sel,nx,hd);w.append(r,big,info);show();return w;
+}
 /* Exam bank */
 const xMixed={id:'xmixed',m:'mixed',group:'Practice',title:'Mixed exam quiz (20 questions)',blocks:[{t:'p',x:'Twenty random questions from every exam-bank set that is available. You do not know which type of question comes next, as in a real exam.'}]};
 const xWeak={id:'xweak',m:'weak',group:'Practice',title:'Exam weak spots',blocks:[{t:'p',x:'Exam questions you answered wrongly stay here until you answer them correctly in a later practice. This list is saved on this device.'}]};
@@ -477,6 +591,7 @@ function renderXList(){
     b.onclick=()=>openG(s);box.append(b)});
   if(!box.querySelector('.item'))box.textContent='No exam sets found.';
 }
+const gmP=fetch('games.json').then(r=>r.json()).then(d=>{gmsecs=d.sections||[];gmsecs.forEach(s=>{s.text=(s.title+' '+s.group+' '+s.blocks.map(wflat).join(' ')).toLowerCase()})}).catch(()=>{});
 const xP=fetch('exam.json').then(r=>r.json()).then(d=>{
   xsets=d.sets.map(s=>({id:s.id,group:s.group,title:s.title,passage:s.passage,blocks:s.blocks||[{t:'p',x:s.intro}].concat(s.passage?[{t:'h',x:'Passage'}].concat(s.passage.map(x=>({t:'p',x:x}))):[])}));
   d.sets.filter(s=>s.questions).forEach(s=>{
@@ -602,6 +717,7 @@ function buildQW(b){
 }
 function renderBlock2(b){
   if(b.t==='qwriter')return buildQW(b);
+  if(b.t==='tool')return buildTool(b);
   if(b.t==='ol'){const u=el('ol');b.items.forEach(x=>u.append(el('li','',x)));return u}
   if(b.t==='note')return el('div','note',b.x);
   if(b.t==='f'){const p=el('p');p.append(el('span','formula',b.x));return p}
@@ -1010,10 +1126,11 @@ function setTab(t){
   if(tab==='exam')xcur=curG;else if(tab==='grammar')gcur=curG;
   if(t==='exam')curG=xcur;else if(t==='grammar')curG=gcur;
   tab=t;prefs.tab=t;save();stopSpeech();aud.pause();$('#q').value='';$('#subTabs').hidden=t!=='essays';$('#subM').classList.toggle('primary',sub==='mine');$('#subW').classList.toggle('primary',sub==='guide');
-  $('#tabE').classList.toggle('primary',t==='essays');$('#tabG').classList.toggle('primary',t==='grammar');$('#tabT').classList.toggle('primary',t==='terms');$('#tabX').classList.toggle('primary',t==='exam');
-  $('#q').placeholder={essays:sub==='guide'?'Search the guide':'Search titles',grammar:'Search grammar',terms:'Search terms',exam:'Search exam sets'}[t];$('#starRow').hidden=t!=='grammar';
-  $('#tbTitle').textContent={essays:'My Essays',grammar:'Grammar Handbook',terms:'Terminology',exam:'Exam Bank'}[t];
-  $('#doc').hidden=true;$('#gdoc').hidden=true;$('#tdoc').hidden=true;$('#wdoc').hidden=true;$('#empty').hidden=false;$('#player').hidden=true;
+  $('#tabE').classList.toggle('primary',t==='essays');$('#tabG').classList.toggle('primary',t==='grammar');$('#tabT').classList.toggle('primary',t==='terms');$('#tabX').classList.toggle('primary',t==='exam');$('#tabP').classList.toggle('primary',t==='games');
+  $('#q').placeholder={essays:sub==='guide'?'Search the guide':'Search titles',grammar:'Search grammar',terms:'Search terms',exam:'Search exam sets',games:'Search games'}[t];$('#starRow').hidden=t!=='grammar';
+  $('#tbTitle').textContent={essays:'My Essays',grammar:'Grammar Handbook',terms:'Terminology',exam:'Exam Bank',games:'Games & Activities'}[t];
+  $('#doc').hidden=true;$('#gdoc').hidden=true;$('#tdoc').hidden=true;$('#wdoc').hidden=true;$('#pdoc').hidden=true;$('#empty').hidden=false;$('#player').hidden=true;
+  if(t==='games'&&curP){$('#empty').hidden=true;$('#pdoc').hidden=false}
   if(t==='essays'&&sub==='guide'&&curW){$('#empty').hidden=true;$('#wdoc').hidden=false}
   if(t==='terms'&&curT){$('#empty').hidden=true;$('#tdoc').hidden=false}
   if(t==='essays'&&sub==='mine'&&cur){$('#empty').hidden=true;$('#doc').hidden=false;setMode(mode)}
@@ -1024,6 +1141,7 @@ $('#tabE').onclick=()=>setTab('essays');
 $('#tabG').onclick=()=>setTab('grammar');
 $('#tabT').onclick=()=>setTab('terms');
 $('#tabX').onclick=()=>setTab('exam');
+$('#tabP').onclick=()=>setTab('games');
 const flat=b=>[b.x,b.k,(b.items||[]).join(' '),(b.head||[]).join(' '),(b.rows||[]).map(r=>r.join(' ')).join(' ')].filter(Boolean).join(' ');
 const eP=fetch('essays.json').then(r=>r.json()).then(d=>{items=d.essays||[]}).catch(()=>{eErr=true});
 const pP=fetch('practice.json').then(r=>r.json()).then(d=>{
@@ -1038,15 +1156,16 @@ const tP=fetch('terminology.json').then(r=>r.json()).then(d=>{
   tsecs=[...secs.slice(0,k),{id:'must',group:'Quick study',title:'Must-memorize terms (★★★)',kind:'terms'},{id:'saved',group:'Quick study',title:'My saved terms',kind:'terms'},...secs.slice(k)];
 }).catch(()=>{});
 const gP=fetch('grammar.json').then(r=>r.json()).then(d=>{gram=d.sections||[];gram.forEach(s=>{s.text=(s.title+' '+s.blocks.map(flat).join(' ')).toLowerCase()})}).catch(()=>{});
-Promise.all([eP,gP,pP,tP,wP,xP]).then(()=>{
+Promise.all([eP,gP,pP,tP,wP,xP,gmP]).then(()=>{
   Object.keys(xbase).forEach(id=>{prac[id]=xbase[id]});Object.keys(xrd).forEach(id=>{prac[id]=xrd[id]});
   const le=items.find(x=>x.file===prefs.last),lg=gram.find(x=>x.id===prefs.lastG);
   if(le)cur=le;if(lg)curG=lg;
   const lt=tsecs.find(x=>x.id===prefs.lastT);if(lt)curT=lt;
   const lw=wsecs.find(x=>x.id===prefs.lastW);if(lw)curW=lw;sub=prefs.sub==='guide'?'guide':'mine';
   const lx=xsets.find(x=>x.id===prefs.lastX);if(lx)xcur=lx;gcur=curG;
-  setTab(['grammar','terms','exam'].includes(prefs.tab)?prefs.tab:'essays');
-  if(tab==='essays'&&sub==='mine'&&le)open(le);else if(tab==='essays'&&sub==='guide'&&lw)openW(lw);else if(tab==='grammar'&&lg)openG(lg);else if(tab==='terms'&&lt)openT(lt);else if(tab==='exam'&&lx)openG(lx);
+  const lp=gmsecs.find(x=>x.id===prefs.lastP);if(lp)curP=lp;
+  setTab(['grammar','terms','exam','games'].includes(prefs.tab)?prefs.tab:'essays');
+  if(tab==='essays'&&sub==='mine'&&le)open(le);else if(tab==='essays'&&sub==='guide'&&lw)openW(lw);else if(tab==='grammar'&&lg)openG(lg);else if(tab==='terms'&&lt)openT(lt);else if(tab==='exam'&&lx)openG(lx);else if(tab==='games'&&lp)openP(lp);
 });
 </script>
 </body>
