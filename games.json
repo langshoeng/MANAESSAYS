@@ -1,0 +1,2061 @@
+{
+"sections": [
+{
+"id": "gstart",
+"group": "Start here",
+"title": "How to choose and run a classroom game",
+"blocks": [
+{
+"t": "p",
+"x": "Games work best when they practise one clear language aim. These activities are well-known classroom techniques used by English teachers around the world; the descriptions and examples here are written for this app. Each game page shows the skills, level, time, group size and materials, then how to play, examples you can copy, and variations."
+},
+{
+"t": "h",
+"x": "Match the game to your goal"
+},
+{
+"t": "tbl",
+"head": [
+"Your goal",
+"Games to try"
+],
+"rows": [
+[
+"Warm up the class",
+"Simon Says, Two Truths and a Lie, Find Someone Who"
+],
+[
+"Practise speaking",
+"Charades, 20 Questions, Hot Seat, Taboo, Spot the Difference, Story Chain"
+],
+[
+"Learn or revise vocabulary",
+"Bingo, Word Chain, Odd One Out, Memory, Board Race, Stop the Bus"
+],
+[
+"Practise grammar",
+"Sentence Auction, Error Correction Relay, Scrambled Sentences, Market Memory Chain"
+],
+[
+"Practise listening",
+"Running Dictation, Telephone, Listen and Draw"
+],
+[
+"Spelling",
+"Hangman, Running Dictation, Stop the Bus"
+],
+[
+"Review at the end of a unit",
+"Jeopardy-style Quiz, Quiz-Quiz-Trade"
+]
+]
+},
+{
+"t": "h",
+"x": "Running a game smoothly"
+},
+{
+"t": "ul",
+"items": [
+"Explain the rules in simple English and show one example round before you start.",
+"Say the language aim first, so learners know what to use (for example, past simple questions).",
+"Set a visible time limit and keep the game short: 10 to 15 minutes is usually enough.",
+"Use mixed-level teams so stronger learners help weaker ones.",
+"Give every learner a job (scorekeeper, judge, timer) so nobody just waits.",
+"Keep score simply, and reward good English as well as speed.",
+"For large classes, use pairs or groups of 4 to 6, and move around to listen and note common mistakes for feedback afterwards.",
+"End with a quick correction round: write 3 to 5 typical mistakes you heard on the board and let learners fix them."
+]
+},
+{
+"t": "note",
+"x": "Use the Classroom tools in this section (name picker, team scoreboard and timer, bingo maker and word cards) to run many of these games."
+}
+]
+},
+{
+"id": "gsimon",
+"group": "Warm-ups and energizers",
+"title": "Simon Says",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Listening, vocabulary (body parts, actions, classroom objects)"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "Beginner"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "5 to 10 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Whole class"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "None"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"The teacher is \"Simon\". Learners stand up.",
+"Give commands. Learners obey only when the command starts with \"Simon says\".",
+"If you give a command without \"Simon says\", learners who move are out, or lose a point.",
+"The last learners standing win. Then let a learner be Simon."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"Simon says touch your nose.",
+"Simon says point to the door.",
+"Jump! (no \"Simon says\", so nobody should move)",
+"Simon says put your pen under your chair."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Use prepositions: on, under, next to.",
+"Speed up the commands to make it harder.",
+"Learners take turns as Simon in small groups."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Instead of sending learners out, give them points off, or make them judges, so nobody sits and waits."
+}
+]
+},
+{
+"id": "gtruths",
+"group": "Warm-ups and energizers",
+"title": "Two Truths and a Lie",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Speaking, past tense and present perfect"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "Elementary to intermediate"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 to 15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Groups of 4 to 6"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Paper and pen (optional)"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Each learner writes three sentences about themselves: two true and one false.",
+"In turn, a learner reads the sentences aloud.",
+"The group asks follow-up questions, then votes on which sentence is false.",
+"The speaker reveals the answer. Score a point for a correct guess."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"I have visited three provinces. / I can play the guitar. / I have a pet snake.",
+"I was born in the rainy season. / I have never eaten pizza. / I walked to school yesterday."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"For beginners use I like / I can / I have.",
+"Use a topic: my weekend, my childhood, my family."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Insist on follow-up questions in full sentences: it turns a guessing game into speaking practice."
+}
+]
+},
+{
+"id": "gfind",
+"group": "Warm-ups and energizers",
+"title": "Find Someone Who",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Speaking, question forms"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "Elementary and above"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 to 15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Whole class"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "A printed or written list of prompts"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Give each learner a list of prompts that begin with \"Find someone who ...\".",
+"Learners walk around asking yes/no questions (Do you ...? Can you ...? Have you ...?).",
+"When someone answers yes, they write that person's name next to the prompt (one name per person).",
+"The first learner to complete the list, or the one with most names in 10 minutes, wins. Report back: \"Sokha can cook.\""
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"Find someone who plays football.",
+"Find someone who has a younger brother.",
+"Find someone who can cook.",
+"Find someone who likes spicy food.",
+"Find someone who was born in the same month as you."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Use past forms: Find someone who went to the market yesterday.",
+"Ask for a second detail: When? How often?"
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Practise the questions as a class before the mingle, so learners do not just say the prompt."
+}
+]
+},
+{
+"id": "gstop",
+"group": "Warm-ups and energizers",
+"title": "Stop the Bus (Categories)",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Vocabulary, spelling"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "All levels"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 to 15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Teams of 3 to 4"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Paper and pen"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Draw a table with categories: animals, food, jobs, countries, things in the classroom.",
+"The teacher chooses a letter.",
+"Teams write one word per category that begins with that letter.",
+"The first team to finish shouts \"Stop!\" and everyone stops writing.",
+"Check answers. A word no other team has scores 2 points; a shared word scores 1."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"Letter B: animal: bear; food: banana; job: baker; country: Brazil; classroom: board.",
+"Letter S: animal: snake; food: soup; job: singer; country: Spain; classroom: school bag."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Use grammar categories: a verb, an adjective, a past participle.",
+"Add a time limit of 2 minutes instead of \"Stop\"."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Choose letters that have many words for beginners, and avoid X, Q and Z."
+}
+]
+},
+{
+"id": "gcharades",
+"group": "Speaking games",
+"title": "Charades and Pictionary",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Vocabulary (verbs, jobs, adjectives, phrases), speaking"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "All levels"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 to 15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Two teams"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Word cards or the Word cards tool"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Divide the class into two teams.",
+"One learner sees a word secretly and acts it out without speaking (or draws it, for Pictionary).",
+"Their team guesses within 60 seconds. Score 1 point for a correct guess.",
+"Teams take turns until everyone has acted."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"Actions: brush your teeth, ride a bike, sweep the floor.",
+"Jobs: doctor, farmer, teacher.",
+"Feelings: tired, angry, surprised.",
+"Phrases: give up, wake up, look for."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Pictionary: draw instead of acting.",
+"Guess the sentence: act out a short sentence (I am eating noodles).",
+"Teams must say the guess in a full sentence: Is it a doctor?"
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Require the guessing team to speak English, with full questions, to keep the game a language activity."
+}
+]
+},
+{
+"id": "g20q",
+"group": "Speaking games",
+"title": "20 Questions",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Speaking, yes/no question forms"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "Elementary and above"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Whole class or groups"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "None"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"One learner thinks of a person, animal or object and tells the teacher.",
+"The class asks yes/no questions, up to 20, to find out what it is.",
+"Learners can guess at any time. A correct guess wins and becomes the next thinker.",
+"If nobody guesses after 20 questions, the thinker wins."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"Is it an animal? Is it bigger than a car? Can you eat it? Does it live in water? Do we use it at school?"
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"\"Who am I?\" with a name card stuck on the forehead.",
+"Limit categories: jobs, places or foods."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Write good question starters on the board for lower levels: Is it ...? Can you ...? Does it ...?"
+}
+]
+},
+{
+"id": "ghotseat",
+"group": "Speaking games",
+"title": "Hot Seat",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Vocabulary, describing, speaking"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "All levels"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 to 15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Two teams"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Whiteboard"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Put a chair at the front, facing the class, with its back to the board.",
+"A learner from each team sits in the hot seat.",
+"The teacher writes a word on the board. Teammates describe it without saying the word.",
+"The first hot-seat learner to say the word wins a point for the team. Change learners each round."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"Word: umbrella. Clues: You use it when it rains. It is round. It keeps you dry.",
+"Word: library. Clues: You can borrow books there. It is quiet."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Allow only one-word clues for advanced learners.",
+"Use revision vocabulary from the unit."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Ask describers to use full sentences, and keep the volume low to avoid noise."
+}
+]
+},
+{
+"id": "gtaboo",
+"group": "Speaking games",
+"title": "Taboo",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Vocabulary, describing without key words"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "Intermediate"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Two teams"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Cards: a target word and three forbidden words"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Prepare cards with a target word and three forbidden words.",
+"A learner describes the target word without using the forbidden words.",
+"Their team guesses before time runs out (60 seconds).",
+"Score a point for each correct guess; a forbidden word loses the card."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"library: book, read, borrow",
+"kitchen: cook, food, eat",
+"teacher: school, class, students",
+"bicycle: wheels, ride, pedal"
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Use target words from your Terminology list for teacher training.",
+"Play with only the first three clues allowed."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Appoint a \"referee\" on the other team to listen for forbidden words."
+}
+]
+},
+{
+"id": "gspot",
+"group": "Speaking games",
+"title": "Spot the Difference (Information Gap)",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Speaking, listening, describing"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "Elementary and above"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Pairs"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Two similar pictures per pair (Learner A and B)"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Give Learner A and Learner B two pictures that are almost the same, with about eight differences.",
+"Without showing each other, they describe their pictures and ask questions.",
+"They note each difference they find.",
+"The pair with the most differences after 10 minutes wins. Check as a class."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"In my picture, there are two dogs. How many dogs are there in yours?",
+"In mine, the man is wearing a hat. What is he wearing in yours?"
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Describe and draw: A describes a picture, B draws it.",
+"Use two pictures of a house for prepositions."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Teach the language first: There is / There are, prepositions of place, colours."
+}
+]
+},
+{
+"id": "gchain",
+"group": "Speaking games",
+"title": "Story Chain",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Speaking, narrative tenses, creativity"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "All levels"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Circle or groups of 5 to 6"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "None (optional: picture or word cards)"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"The teacher or a learner starts a story with one sentence.",
+"Each learner adds one sentence to continue it.",
+"Learners may use a word or picture card that they must include.",
+"At the end, retell the story as a group."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"Yesterday I found a strange key on the road.",
+"Last night, I heard a noise at the door."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Each sentence must start with the next letter of the alphabet.",
+"Each learner must use a different linking word: then, suddenly, after that."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Praise ideas first; correct only major errors at the end, so the story keeps moving."
+}
+]
+},
+{
+"id": "gbingo",
+"group": "Vocabulary games",
+"title": "Bingo",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Vocabulary, listening, spelling"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "All levels"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Whole class"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Bingo cards (use the Bingo maker tool)"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Learners make a grid (3x3 or 4x4) and write words from a list in random squares, or the teacher prints cards.",
+"The teacher calls words, definitions or sentences with gaps.",
+"Learners cross out words they hear. The first to complete a line (or all) shouts \"Bingo!\".",
+"Check the words the winner crossed out."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"Call a definition: \"You use it to write on paper.\" (pen)",
+"Call a sentence: \"I ___ breakfast at 6.\" (eat)",
+"Call a word in the past tense: went."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Call the opposite word or the synonym.",
+"Learners call the words in later rounds."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Keep a tick-list of words called so you can check the winner fast."
+}
+]
+},
+{
+"id": "gword",
+"group": "Vocabulary games",
+"title": "Word Chain",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Vocabulary, spelling"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "All levels"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "5 to 10 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Circle or teams"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Board (optional)"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"A learner says a word.",
+"The next learner says a word that starts with the last letter of the previous word.",
+"No repeats. If a learner cannot answer in 5 seconds, they are out (or the team loses a point).",
+"Continue until one learner or team is left."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"school → lamp → pen → nose → egg → girl",
+"Topic chain: foods only: rice → egg → grape → eel"
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Use a topic: foods, jobs, places.",
+"Use the last two letters for a harder game."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Write the words on the board to practise spelling."
+}
+]
+},
+{
+"id": "godd",
+"group": "Vocabulary games",
+"title": "Odd One Out",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Vocabulary, categories, reasons"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "All levels"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Pairs or teams"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Lists on the board or slides"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Show four or five words.",
+"Learners decide which word does not belong, and why.",
+"They must give the reason in a full sentence.",
+"More than one answer is allowed if the reason is good."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"apple, banana, carrot, mango (carrot is a vegetable; the others are fruit)",
+"doctor, teacher, nurse, hospital (hospital is a place, not a person)",
+"run, jump, happy, swim (happy is an adjective, not a verb)"
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Learners make their own sets for other teams.",
+"Use word families: noun, verb, adjective."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Accept creative reasons; they show deeper thinking."
+}
+]
+},
+{
+"id": "gmemory",
+"group": "Vocabulary games",
+"title": "Memory (Concentration)",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Vocabulary matching, spelling"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "Beginner to elementary"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Pairs or groups of 3 to 4"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Cards in pairs (word and picture, or word and definition)"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Mix the cards and place them face down in rows.",
+"A learner turns over two cards.",
+"If they match, the learner says the word in a sentence and keeps the pair; if not, the cards are turned back.",
+"The learner with the most pairs wins."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"dog + picture of a dog",
+"happy + a smiling face",
+"big ≠ small (opposites)",
+"go + went (present and past)"
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Match a word with its definition or its synonym.",
+"Match a verb with its past tense form."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Ask learners to say the word aloud when they turn a card, to practise pronunciation."
+}
+]
+},
+{
+"id": "gboard",
+"group": "Vocabulary games",
+"title": "Board Race",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Vocabulary, spelling, speed"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "All levels"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 to 15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Two to four teams"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Whiteboard and markers"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Teams line up facing the board; the first learner in each line holds a marker.",
+"The teacher gives a category or says a word or definition.",
+"The first learners run to the board, write a correct word, and run back to pass the marker.",
+"Score a point for each correct, spelled word. Continue until everyone has had a turn."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"Category: write an animal that starts with C.",
+"Definition: it is a place where you buy food (market).",
+"Write the past tense of: go, see, eat, buy."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Teams write a whole sentence using a word.",
+"Add a rule: no word may be used twice."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Make sure the marker is passed; the next learner cannot start until then."
+}
+]
+},
+{
+"id": "gauction",
+"group": "Grammar games",
+"title": "Sentence Auction",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Grammar accuracy, error correction"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "Intermediate"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "20 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Teams of 3 to 4"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "A list of 10 to 12 sentences, some correct and some wrong; \"money\" (for example 1000 points per team)"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Show a list of numbered sentences. Some are correct and some contain a grammar mistake.",
+"Teams discuss and decide which sentences they think are correct.",
+"Run an auction: teams bid for the sentences they think are correct.",
+"Reveal the answers. A team gains the bid for a correct sentence and loses it for an incorrect one. The team with the most money wins."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"She don't like coffee. (wrong)",
+"He went to the market yesterday. (correct)",
+"I have seen him last week. (wrong)",
+"We are studying English since 2020. (wrong)"
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Teams must correct the wrong sentences to keep their money.",
+"Use mistakes from your learners' own writing."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Use real errors you collected in earlier lessons: they are the most useful for the class."
+}
+]
+},
+{
+"id": "gerror",
+"group": "Grammar games",
+"title": "Error Correction Relay",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Grammar, correcting errors"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "Elementary to intermediate"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Teams of 4 to 5"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Sentences on the board (with errors)"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Write numbered sentences with one mistake each on the board, or on cards.",
+"The first learner in each team runs to a sentence, corrects it, and returns.",
+"The next learner takes the next sentence. Teams work through the list.",
+"The teacher checks the answers. The fastest, correct team wins."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"He go to school every day. → He goes to school every day.",
+"There is three books on the desk. → There are three books on the desk.",
+"I am agree with you. → I agree with you."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Each team writes mistakes for another team to correct.",
+"Learners must explain the rule in one sentence."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Choose mistakes from the Common Exam Errors section of the grammar handbook."
+}
+]
+},
+{
+"id": "gscramble",
+"group": "Grammar games",
+"title": "Scrambled Sentences",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Grammar, word order"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "Beginner to intermediate"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 to 15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Pairs or teams"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Cut-up sentence strips or cards"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Cut sentences into single words and mix them in an envelope.",
+"Learners put the words in the correct order.",
+"The first team to finish says \"Done!\", reads the sentence, and the teacher checks it.",
+"Continue with longer or harder sentences."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"school / goes / she / to / every / day → She goes to school every day.",
+"you / did / yesterday / where / go → Where did you go yesterday?"
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Use question forms or conditionals for higher levels.",
+"Race with the whole class at the board."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Let learners make scrambled sentences for other teams."
+}
+]
+},
+{
+"id": "gmarket",
+"group": "Grammar games",
+"title": "Market Memory Chain (\"I went to the market and I bought ...\")",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Past simple, countable nouns, memory"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "Beginner to elementary"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Circle"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "None"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"The first learner says: \"I went to the market and I bought an apple.\"",
+"The next learner repeats and adds one item: \"... an apple and two eggs.\"",
+"Continue around the circle. A learner who forgets an item or gets the order wrong is out.",
+"The last learner left wins."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"I went to the market and I bought rice, two fish and a bag.",
+"Variation sentence: I packed my bag and I put in a book, a pen and a hat."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Use alphabet order for the items: apple, banana, carrot ...",
+"Change to future: I am going to buy ..."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Write the structure on the board first, and accept help from the group."
+}
+]
+},
+{
+"id": "gdictation",
+"group": "Listening games",
+"title": "Running Dictation",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Listening, speaking, spelling, teamwork"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "All levels"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Pairs or teams of 3 to 4"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "A short text (4 to 8 sentences) stuck on the wall or outside the room"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Put the text on the wall, far from the teams.",
+"One runner reads and remembers a sentence, runs back, and dictates it to the writer.",
+"Learners swap roles after each sentence.",
+"The first team to write all sentences correctly wins. Check spelling and accuracy."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"My brother likes football. He plays every Saturday with his friends.",
+"Dara buys fruit from the market in the morning."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Use a text with the key vocabulary from your unit.",
+"Add a mistake in the text for the team to find."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Make clear that accuracy matters, not only speed."
+}
+]
+},
+{
+"id": "gtelephone",
+"group": "Listening games",
+"title": "Telephone (Chinese Whispers)",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Listening, pronunciation"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "All levels"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Rows of 6 to 8 learners"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Sentence slips"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Learners stand in a line. The first learner reads a sentence on a slip.",
+"They whisper it once to the next learner, who whispers it onward.",
+"The last learner says the sentence aloud to the class.",
+"Compare the first and last versions, and discuss where it changed."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"The sheep jumped over the six white fences.",
+"She sells sea shells by the sea shore.",
+"I would like a cup of tea with two sugars."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Use a longer sentence for a harder game.",
+"Add a rule: only say it once."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Use the funny results to practise stress and clear pronunciation."
+}
+]
+},
+{
+"id": "glistendraw",
+"group": "Listening games",
+"title": "Listen and Draw",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Listening, prepositions, descriptions"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "Beginner to elementary"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 to 15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Pairs"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Paper and pens"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"One learner describes a picture or a scene.",
+"The other learner draws what they hear, without seeing the original.",
+"They compare drawings with the original and discuss differences.",
+"Swap roles."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"There is a house in the middle. There is a tree on the left. The sun is above the house.",
+"Draw a circle. Draw a square next to it. Put a star under the circle."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"The teacher describes and the whole class draws.",
+"Use a map or room layout."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Pre-teach the key prepositions and colours before the game."
+}
+]
+},
+{
+"id": "ghangman",
+"group": "Spelling",
+"title": "Hangman",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Spelling, vocabulary"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "All levels"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "10 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Whole class or teams"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Board"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Think of a word and draw a dash for each letter on the board.",
+"Learners call a letter. If it is in the word, write it in the correct place.",
+"If not, draw one part of the hangman (or use another picture, such as a flower losing petals).",
+"The class wins by guessing the word before the drawing is complete."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"_ _ _ _ _ _ (teacher)",
+"Topic: animals. Word: elephant."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Use sentences, not words.",
+"Teams take turns choosing words for other teams."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Pick a gentler picture than a hangman, such as a tree growing leaves, if you prefer."
+}
+]
+},
+{
+"id": "gjeopardy",
+"group": "Review games",
+"title": "Jeopardy-style Quiz",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Review (any skill)"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "All levels"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "20 to 30 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Two to four teams"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "Board with a category grid and point values (100, 200, 300, 400)"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Draw a grid on the board: categories across the top and point values below.",
+"A team chooses a category and a value; the teacher reads the question.",
+"The team answers within 20 seconds. Correct answers win the points; wrong ones lose them.",
+"The team with the most points at the end wins."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"Grammar 100: Choose: She ___ to school every day. (go / goes)",
+"Vocabulary 200: What do we call a person who cooks? (cook / chef)",
+"Reading 300: Answer from a short text you have just read."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Use the Exam bank or Terms in this app to write the questions.",
+"Add a bonus \"double or nothing\" question."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Prepare more questions than you need, and mix easy and hard questions in each category."
+}
+]
+},
+{
+"id": "gqqt",
+"group": "Review games",
+"title": "Quiz-Quiz-Trade",
+"blocks": [
+{
+"t": "kv",
+"k": "Skills",
+"x": "Review, speaking, question forms"
+},
+{
+"t": "kv",
+"k": "Level",
+"x": "Elementary and above"
+},
+{
+"t": "kv",
+"k": "Time",
+"x": "15 minutes"
+},
+{
+"t": "kv",
+"k": "Group",
+"x": "Pairs; whole class moves"
+},
+{
+"t": "kv",
+"k": "Materials",
+"x": "One question card per learner"
+},
+{
+"t": "h",
+"x": "How to play"
+},
+{
+"t": "ol",
+"items": [
+"Each learner gets a card with a question on one side and the answer on the other.",
+"Learners walk around and find a partner.",
+"Partner A asks the question; partner B answers. Then swap roles. The asker gives help if needed.",
+"They trade cards and find a new partner. Repeat for 10 minutes."
+]
+},
+{
+"t": "h",
+"x": "Examples you can use"
+},
+{
+"t": "ul",
+"items": [
+"Q: What is the past tense of go? A: went.",
+"Q: What does \"reduce\" mean? A: make smaller."
+]
+},
+{
+"t": "h",
+"x": "Variations"
+},
+{
+"t": "ul",
+"items": [
+"Use pictures or word cards for beginners.",
+"Learners write their own cards first."
+]
+},
+{
+"t": "note",
+"x": "Teacher tip: Prepare cards from your unit review so the activity is exactly on target."
+}
+]
+},
+{
+"id": "gtpick",
+"group": "Classroom tools",
+"title": "Name picker and group maker",
+"blocks": [
+{
+"t": "p",
+"x": "Type your learners' names, then pick a random learner. Everyone is picked once before names repeat. You can also split the class into random groups."
+},
+{
+"t": "tool",
+"id": "picker"
+}
+]
+},
+{
+"id": "gtteams",
+"group": "Classroom tools",
+"title": "Team scoreboard and timer",
+"blocks": [
+{
+"t": "p",
+"x": "Keep score for up to six teams, and run a countdown timer that beeps at zero."
+},
+{
+"t": "tool",
+"id": "teams"
+}
+]
+},
+{
+"id": "gtbingo",
+"group": "Classroom tools",
+"title": "Bingo card maker",
+"blocks": [
+{
+"t": "p",
+"x": "Type your words (one per line). The tool makes random bingo cards you can print, and a shuffled call list for you."
+},
+{
+"t": "tool",
+"id": "bingo"
+}
+]
+},
+{
+"id": "gtwords",
+"group": "Classroom tools",
+"title": "Word cards for Charades, Pictionary and Hot Seat",
+"blocks": [
+{
+"t": "p",
+"x": "Pick a theme and press Next word. Hide the word on screen so only the actor sees it."
+},
+{
+"t": "tool",
+"id": "words",
+"themes": {
+"Actions": [
+"brush your teeth",
+"ride a bike",
+"sweep the floor",
+"cook rice",
+"swim",
+"climb a tree",
+"wash clothes",
+"sing a song",
+"read a book",
+"write a letter",
+"drive a car",
+"play football",
+"open a door",
+"carry a bag",
+"dance",
+"sleep"
+],
+"Jobs": [
+"doctor",
+"teacher",
+"farmer",
+"driver",
+"cook",
+"nurse",
+"police officer",
+"pilot",
+"builder",
+"singer",
+"fisherman",
+"shopkeeper",
+"tailor",
+"dentist",
+"artist",
+"soldier"
+],
+"Animals": [
+"elephant",
+"monkey",
+"snake",
+"crocodile",
+"bird",
+"fish",
+"cow",
+"buffalo",
+"chicken",
+"dog",
+"cat",
+"frog",
+"spider",
+"butterfly",
+"tiger",
+"bear"
+],
+"Food": [
+"rice",
+"noodles",
+"banana",
+"mango",
+"coconut",
+"egg",
+"soup",
+"fish",
+"bread",
+"sugar",
+"tea",
+"milk",
+"chicken",
+"vegetables",
+"ice cream",
+"pizza"
+],
+"Places": [
+"school",
+"market",
+"hospital",
+"temple",
+"library",
+"airport",
+"bank",
+"farm",
+"beach",
+"mountain",
+"kitchen",
+"post office",
+"bus station",
+"restaurant",
+"park",
+"river"
+],
+"Feelings": [
+"happy",
+"sad",
+"angry",
+"tired",
+"hungry",
+"scared",
+"surprised",
+"bored",
+"excited",
+"worried",
+"proud",
+"sleepy",
+"shy",
+"sick",
+"cold",
+"hot"
+],
+"Sports": [
+"football",
+"swimming",
+"volleyball",
+"boxing",
+"running",
+"badminton",
+"basketball",
+"tennis",
+"cycling",
+"yoga",
+"golf",
+"table tennis",
+"skipping",
+"weightlifting",
+"karate",
+"fishing"
+]
+}
+}
+]
+}
+]
+}
