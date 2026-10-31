@@ -4,7 +4,7 @@
 "id": "x_gverb",
 "group": "Part I - Grammar",
 "title": "A. Verb forms and tenses",
-"intro": "Choose the correct form of the verb in brackets. 33 questions from the NIE exam bank. In question 1 a word was missing in the bank (the weather had been ...), so fine was added. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"intro": "Choose the correct form of the verb in brackets.",
 "questions": [
 {
 "q": "If the weather had been fine, we ____ (to come) by bike.",
@@ -375,7 +375,7 @@
 "id": "x_gcond",
 "group": "Part I - Grammar",
 "title": "B. Conditionals",
-"intro": "Choose the option that completes the sentence correctly, or the sentence that joins the facts with the right conditional. 16 questions from the NIE exam bank. Two items (6 and 14) were left out because words were missing in the bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"intro": "Choose the option that completes the sentence correctly, or the sentence that joins the facts with the right conditional.",
 "questions": [
 {
 "q": "Which sentence joins these facts correctly using a conditional? \"I didn't meet John. I didn't tell him about you.\"",
@@ -559,7 +559,7 @@
 "id": "x_grep",
 "group": "Part I - Grammar",
 "title": "C. Reported speech",
-"intro": "Choose the correct way to report each sentence. 24 questions from the NIE exam bank. In the bank you wrote the answers yourself, so here each question has four options. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"intro": "Choose the correct way to report each sentence. 24 questions from the NIE exam bank. In the bank you wrote the answers yourself, so here each question has four options.",
 "questions": [
 {
 "q": "\"Don't eat too much.\" The doctor told the fat boy ____.",
@@ -1356,7 +1356,7 @@
 "id": "x_gerr",
 "group": "Part I - Grammar",
 "title": "E. Find the incorrect part",
-"intro": "Each sentence has four underlined parts, marked A to D. Choose the part that contains the grammatical error. 20 questions from the NIE exam bank (corrected version). The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"intro": "Each sentence has four underlined parts, marked A to D. Choose the part that contains the grammatical error.",
 "questions": [
 {
 "q": "The antique collector {A|must be able} to distinguish {B|real} antiques from {C|later imitation}, which can be either reproductions {D|nor fakes}.",
@@ -2229,7 +2229,7 @@
 "id": "x_vdef",
 "group": "Part II - Vocabulary",
 "title": "F. Words from definitions",
-"intro": "Choose the word that completes each definition. In the bank, the answer word was printed in brackets after each sentence, so here it is one of the four options. 18 questions from the NIE exam bank. The bank has no answer key, so the feedback was prepared by Claude: please check it against your own key.",
+"intro": "Choose the word that completes each definition. In the bank, the answer word was printed in brackets after each sentence, so here it is one of the four options.",
 "questions": [
 {
 "q": "If something has never happened before, it is ____.",
@@ -2435,7 +2435,7 @@
 "id": "x_vwf",
 "group": "Part II - Vocabulary",
 "title": "G. Word formation",
-"intro": "Choose the correct form of the word in brackets to complete each sentence. 25 questions from the NIE exam bank. Item 38 of the bank (working as a trainer or a trainee) was left out because both could be right. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"intro": "Choose the correct form of the word in brackets to complete each sentence.",
 "questions": [
 {
 "q": "This insurance company is well-known for its ____. (to rely)",
@@ -2718,7 +2718,7 @@
 "id": "x_vmatch",
 "group": "Part II - Vocabulary",
 "title": "H. Matching definitions to terms",
-"intro": "Choose the term that matches each definition. In the bank, you matched 20 definitions to a list of 20 terms. Here each definition has four options taken from that list. 20 questions. The bank has no answer key, so the answers were prepared by Claude: please check them against your own key.",
+"intro": "Choose the term that matches each definition. In the bank, you matched 20 definitions to a list of 20 terms. Here each definition has four options taken from that list. 20 questions.",
 "questions": [
 {
 "q": "Which term matches this definition? Logical or sensible.",
@@ -2946,7 +2946,7 @@
 "id": "x_vfill",
 "group": "Part II - Vocabulary",
 "title": "I. Words from descriptions",
-"intro": "Choose the word that fits each description. In the bank you wrote the word yourself; here each question has four options. 9 questions from the NIE exam bank. Three items (4, 11 and 12 of the bank) were left out because more than one answer fits. The bank has no answer key, so the answers were prepared by Claude: please check them against your own key.",
+"intro": "Choose the word that fits each description. In the bank you wrote the word yourself; here each question has four options.",
 "questions": [
 {
 "q": "A long composition that is written by hand is a ____.",
@@ -3242,7 +3242,7 @@
 "id": "x_rd_r1",
 "group": "Part IV - Reading Comprehension",
 "title": "Reading 1 - Short-Term Memory",
-"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question.",
 "passage": [
 "Most people can remember a phone number for up to thirty seconds. When this short amount of time elapses, however, the numbers are erased from the memory. How did the information get there in the first place? Information that makes its way to the short term memory (STM) does so via the sensory storage area. The brain has a filter which only allows stimuli that is of immediate interest to pass on to the STM, also known as the working memory.",
 "There is much debate about the capacity and duration of the short term memory. The most accepted theory comes from George A. Miller, a cognitive psychologist who suggested that humans can remember approximately seven chunks of information. A chunk is defined as a meaningful unit of information, such as a word or name rather than just a letter or number. Modern theorists suggest that one can increase the capacity of the short term memory by chunking, or classifying similar information together. By organizing information, one can optimize the STM, and improve the chances of a memory being passed on to long term storage.",
@@ -3366,7 +3366,7 @@
 "id": "x_rd_r2",
 "group": "Part IV - Reading Comprehension",
 "title": "Reading 2 - Tsunamis",
-"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question.",
 "passage": [
 "Quite different from storm surges are the giant sea waves called tsunamis, which derive their name from the Japanese expression for “high water in a harbor.” These waves are also referred to by the general public as tidal waves, although they have relatively little to do with tides. Scientists often referred to them as seismic sea waves, far more appropriate in that they do result from undersea seismic activity. Tsunamis are caused when the sea bottom suddenly moves, during an underwater earthquake or volcano for example, and the water above the moving earth is suddenly displaced. This sudden shift of water sets off a series of waves. These waves can travel great distances at speeds close to … kilometers per hour. In the open ocean, tsunamis have little noticeable amplitude, often no more than one or two meters. It is when they hit the shallow waters near the coast that they increase in height, possibly up to 40 meters. Tsunamis often occur in the Pacific because the Pacific is an area of heavy seismic activity. Two areas of the Pacific well accustomed to the threat of tsunamis are Japan and Hawaii. Because the seismic activity that causes tsunamis in Japan often occurs on the ocean bottom quite close to the islands, the tsunamis that hit Japan often come with little warning and can, therefore, prove disastrous. Most of the tsunamis that hit the Hawaiian Islands, however, originate thousands of miles away near the coast of Alaska, so these tsunamis have a much greater distance to travel and the inhabitants of Hawaii generally have time for warning of their imminent arrival. Tsunamis are certainly not limited to Japan and Hawaii. In 1755, Europe experienced a calamitous tsunami, when movement along the fault lines near the Azores caused a massive tsunami to sweep onto the Portuguese coast and flood the heavily populated area around Lisbon. The greatest tsunami on record occurred on the other side of the world in 1883 when the Krakatoa volcano underwent a massive explosion, sending waves more than 30 meters high onto nearby Indonesian islands; the tsunami from this volcano actually traveled around the world and was witnessed as far away as the English Channel."
 ],
@@ -3487,7 +3487,7 @@
 "id": "x_rd_r3",
 "group": "Part IV - Reading Comprehension",
 "title": "Reading 3 - The Three Phases of Human Memory",
-"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question.",
 "passage": [
 "The three phases of the human memory are sensory memory, short – term memory, and long term- memory. The division of memory into phases is based on the length of time of the memory. Sensory memory is instantaneous memory. It is an image or a memory that enters your mind only for short period of time; it comes and goes in under a second. The memory will not last longer than that unless the information enters short-term memory. Information can be held in short-term memory for about 20 seconds or as long as you are actively using it. If you repeat a fact to yourself, that fact will stay in your short-term memory as long as you keep repeating it. Once you stop repeating either it is forgotten or it moves to long-term memory. Long-term memory is the huge memory tank that can hold ideas and images for years and years. Information can be added to your long-term memory when you try to put it there through memorization or when an idea or image enters your mind on its own."
 ],
@@ -3608,7 +3608,7 @@
 "id": "x_rd_r5a",
 "group": "Part IV - Reading Comprehension",
 "title": "Reading 5A - Vernal Pools",
-"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question.",
 "passage": [
 "Even a muddy pond contributes to the ecosystem that affects the environment. A vernal or springtime pool is only a few feet deep and lasts only from March until midsummer but yields a considerable number of diverse life forms. Like all of nature, there are predators and victims, and a particular living being may be one or the other, depending on its age and characteristics. One may find masses of spotted salamander eggs floating just under the surface of the pond, left behind by adults who entered the pond early in the season before predators arrived. Other amphibians and reptiles return to the recurrent pond year after year to reproduce, as their ancestors have done for years. Various forms of algae grow well in the murky water, if there is sufficient sunlight. They in turn produce and transmit oxygen to the salamander embryos and other young that are not yet able to survive outside of water. Diving beetles feast on eggs and larvae deposited in the pond by the salamanders and other amphibians that have called it home. Tadpoles are born in the late spring and feed on the algae. The pond also invites wood frogs staking their territory and courting potential mates, calling as loud as quacking ducks. By the end of the short season, the pond dries to spongy mud and then dries further, becoming covered with leaves and debris, until the following spring when the process repeats itself."
 ],
@@ -3729,7 +3729,7 @@
 "id": "x_rd_r5b",
 "group": "Part IV - Reading Comprehension",
 "title": "Reading 5B - Stroke Treatment",
-"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question.",
 "passage": [
 "Scientists have experimented with a new procedure for alleviating the damage caused by strokes. Strokes are frequently caused by a blood clot lodging in the tree of arteries in the head, choking the flow of blood. Some brain cells die as a direct result of the stroke, but others also die over several hours because the proteins spilling out of the first cells that die trigger a chemical chain reaction that kills the neighboring cells. The current method of reducing the amount of damage is to give a clot dissolver, known as TPA, as soon as possible. But generally TPA is not given to the patient until he or she reaches the hospital, and it still does not immediately stop the damage.",
 "The new technology, still in the research stage, involves chilling the area or the entire patient. It is already known that when an organ is cooled, damage is slowed. This is why sometimes a person who has fallen into an icy pond is not significantly harmed after being warmed up again. The biggest issue is the method of cooling. It is not feasible to chill the head alone. Doctors have chilled the entire body by wrapping the patient in cold materials, but extreme shivering was a problem.",
@@ -3852,7 +3852,7 @@
 "id": "x_rd_r6a",
 "group": "Part IV - Reading Comprehension",
 "title": "Reading 6A - The Hippopotamus",
-"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question.",
 "passage": [
 "The hippopotamus is the third largest land animal, smaller only than the elephant and the rhinoceros. Its name comes from two Greek words which mean \"river horse. \"The long name of this animal is often shortened to the easier to handle term \"hippo.\"",
 "The hippo has a natural affinity for the water. It does not float on top of the water; instead, it can easily walk along the bottom of a body of water. The hippo commonly remains underwater for three to five minutes and has been known to stay under for up to half an hour before coming up for air. In spite of its name, the hippo has relatively little in common with the horse and instead has a number of interesting similarities in common with the whale. When a hippo comes up after a stay at the bottom of a lake or river. it releases air through a blowhole, just like a whale. In addition, the hippo resembles the whale in that they both have thick layers of blubber for protection and they are almost completely hairless."
@@ -3974,7 +3974,7 @@
 "id": "x_rd_r6b",
 "group": "Part IV - Reading Comprehension",
 "title": "Reading 6B - Uncle Sam",
-"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question.",
 "passage": [
 "While the bald eagle is one national symbol of the United States, it is not the only one. Uncle Sam, a bearded gentleman costumed in the red, white, and blue stars and stripes of the nation's flag, is another well-known national symbol. According to legend, this character is based on Samuel Wilson, the owner of a meat-packing business in Troy, New York. During the War of 1812, Sam Wilson's company was granted a government contract to supply meat to the nation's soldiers; this meat was supplied to the army in barrels stamped with the initials U.S., which stood for United States. However, the country was at that time relatively young, and the initials U.S. were not commonly used. Many people questioned what the initials represented, and the standard reply became\" Uncle Sam, \"for the owner of the barrels. It is now generally accepted that the figure of Uncle Sam is based on Samuel Wilson, and the U.S Congress has made it official by adopting a resolution naming Samuel Wilson as the inspiration for Uncle Sam."
 ],
@@ -4095,7 +4095,7 @@
 "id": "x_rd_r8b",
 "group": "Part IV - Reading Comprehension",
 "title": "Reading 8B - Leadership in Social Groups",
-"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 7 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question.",
 "passage": [
 "According to sociologists, there are several different ways in which a person may become recognized as the leader of social group in the United States. In the family, traditional cultural patterns confer leadership on one or both of the parents. In other cases, such as friendship groups, one or more persons may gradually emerge as leaders, although there is no formal process of selection. In larger groups, leaders are usually chosen formally through election or recruitment Although leaders are often thought to be people with unusual personal ability, decades of research have failed to produce consistent evidence that there is any category of \"natural leaders.\" It seems that there is no set of personal qualities that all leaders have in common; rather, virtually any person may be recognized as a leader if the person has qualities that meet the needs of that particular group. Furthermore, although it is commonly supposed that social groups have a single leader, research suggests that there are typically two different leadership roles that are held by different individuals. Instrumental leadership is leadership that emphasizes the completion of tasks by a social group. Group members look to instrumental leaders to \"get things\" done.\" Expressive leadership, on the other hand, is leadership that emphasizes the collective well-being of a social group's member. Expressive leader are less concerned with the overall goals of the group than with providing emotional support to group members and attempting to minimize tension and conflict among them, Group members expect expressive leaders to maintain stable relationships within the group and provide support to individual members. Instrumental leaders are likely to have a rather secondary relationship to other group members. They give orders and may discipline group members who inhibit attainment of the group's goals. Expressive leaders cultivate a more personal or primary relationship to others in the group. They offer sympathy when someone experiences difficulties or is subjected to discipline, are quick to lighten a serious moment with humor,and try to resolve issues that threaten to divide the group. As the differences in these two roles suggest, expressive leaders generally receive more personal affection from group members; instrumental leaders, if they are successful in promoting group goals, may enjoy a more distant respect"
 ],
@@ -4183,7 +4183,7 @@
 "id": "x_rd_r9a",
 "group": "Part IV - Reading Comprehension",
 "title": "Reading 9A - The Erie Canal",
-"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 8 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question.",
 "passage": [
 "It is said that George Washington was one of the first to realize how important the building of canals would be to the nation's development. In fact, before he became president, he headed the first company in the United States to build a canal that was to connect the Ohio and Potomac Rivers. It was never completed, but it showed the nation the feasibility of canals. As the country expanded westward, settlers in western New York, Pennsylvania, and Ohio needed a means to ship goods. Canals linking natural waterways seemed to offer an effective solution.",
 "In 1791, engineers commissioned by the state of New York investigated the possibility of a canal between Albany on the Hudson River and Buffalo on Lake Erie, which would link the Great Lakes area with the Atlantic seacoast. It would avoid the mountain that served as a barrier to canals from the Delaware and Potomac rivers. The first attempt to dig the canal, to be called the Erie canal, was made by private companies but only a comparatively small portion was built before the project was halted for lack of funds. The cost of the project was an estimated five million dollars, an enormous amount for those days. There was some on- again, off-again federal funding, but the War of 1812 put an end to this. In 1817, De Witt Clinton was elected governor of New York and persuaded the state to finance and build the Canal. It was completed in 1825. costing two million dollars more than expected. The canal rapidly lived up to its sponsor's faith, quickly paying for itself through tolls. It was far more economical than any other form of transportation at the time. It permitted trade between the Great Lake region and East Coast, robbing the Mississippi River of much of its traffic. It allowed New York to supplant Boston, Philadelphia, and other eastern cities as the chief center of both domestic and foreign commerce. Cities sprang up along the Canal. It also contributed in a number of ways to the North's victory over the South in the Civil War. An expansion of the canal was planned in 1849. Increased traffic would undoubtedly have warranted its construction had it not been for the development of the railroads."
@@ -4283,7 +4283,7 @@
 "id": "x_rd_r9b",
 "group": "Part IV - Reading Comprehension",
 "title": "Reading 9B - Traffic and Neighbourhoods",
-"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 7 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question.",
 "passage": [
 "A pioneering study by Donald Appleyard made the astounding discovery that a sudden increase in the volume of traffic through an area effects people in the way that a sudden increase in crime does. Appleyard observed this by finding three blocks of houses in San Francisco that looked much alike and had the same kind of middle-class and working- class residents, with approximately the same ethnic mix. The difference was that only 2,000 cars a day ran down Octavia Street (LIGHT street, in Appleyard's terminology), while Gough Street (MEDIUM street) was used by 8,000 cars daily and Franklin Street (HEAVY street) had around 16,000 cars a day. Franklin Street often had as many cars in an hour as Octavia Street had in a day. Heavy traffic brought with it danger, fumes, and soot, directly, and trash secondarily. That is, the cars didn't bring in much trash, but when trash accumulated, residents seldom picked it up. The cars, Appleyard determined, reduced the amount of territory residents felt responsible for. Noise was a constant intrusion into their homes. Many Franklin Street residents covered their doors and windows and spent most of their time in the rear of their houses. Most families with children had already left.",
 "Conditions on Octavia Street were much different. Residents picked up trash. They sat on their front steps and chatted with neighbors. They had three times as many friends and twice as many acquaintances as the people on Franklin. On Gough Street, residents said that the old feeling of community was disappearing as traffic increased. People were becoming more and more preoccupied with their own lives. A number of families had recently moved and more were considering.Those who were staying expressed deep regret at the destruction of their community."
@@ -4372,7 +4372,7 @@
 "id": "x_rd_r10a",
 "group": "Part IV - Reading Comprehension",
 "title": "Reading 10A - Carnegie Hall",
-"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question.",
 "passage": [
 "Carnegie Hall, the famous concert hall in New York City, has again undergone a restoration. While this is not the first, it is certainly the most extensive in the building's history. As a result of this new restoration, Carnegie Hall once again has the quality of sound that it had when it was first built.",
 "Carnegie Hall owes its existence to Andrew Carnegie, the wealthy owner of a steel company in the late 1800s. The hall was finished in 1891 and quickly gained a reputation as an excellent performing arts hall where accomplished musicians gained fame. Despite its reputation, however, the concert hall suffered from several detrimental renovations over the years. During the Great Depression, when fewer people could afford to attend performances, the directors sold part of the building to commercial businesses. As a result, a coffee shop was opened in one corner of the building, for which the builders replaced the brick and terra cotta walls with windowpanes. A renovation in 1946 seriously damaged the acoustical quality of the hall when the makers of the film Carnegie Hall cut a gaping hole in the dome of the ceiling to allow for lights and air vents. The hole was later covered with short curtains and a fake ceiling, but the hall never sounded the same afterward.",
@@ -4495,7 +4495,7 @@
 "id": "x_rd_r10b",
 "group": "Part IV - Reading Comprehension",
 "title": "Reading 10B - Denali National Park",
-"intro": "Read the passage first, then press Practice. The passage stays in a box above each question. 10 questions from the NIE exam bank. The bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key. Obvious typing errors from the extracted file were corrected.",
+"intro": "Read the passage first, then press Practice. The passage stays in a box above each question.",
 "passage": [
 "Situated in the central mountains of Alaska, a peak named Denali rises 20,320 feet above sea level. It is the highest peak in North America and the center of Denali National Park. One of America's greatest wilderness areas, the park has had limited access to visitors, but in spite of this, tourism rose from under 6,000 visitors in 1950 to over 546,000 visitors in 1990. The increasing popularity of this park is prompting serious discussions about the future use of Denali as well as how to preserve wilderness areas in general. One important issue of land use arises when parts of National Park are owned by individuals. In Denali, although most of the land in this vast tract of more than a million acres are still privately owned as mining tracts. These mining tracts in Denali were once abundant sources of gold, but they also were sources of heavy metals such as arsenic and lead that polluted rivers and streams. Environmentalists were successful in getting the government to require mining companies to submit statements showing the potential impact of a mining project before they now are allowed to begin mining. Because of this requirement, many individuals closed their mines and some sold their land to the National Park Service. Some land owners, however, are wondering if it is better to sell their land to the government or keep it for possible future use. Tourism in this previously remote area is bound to rise, as more roads are built to provide easier access to the park. This increase in the number of visitors creates a demand for hotels and other real estate development. The economic implications of this are of interest to the land owners, but are dismaying to those interested in preserving the wilderness."
 ],
