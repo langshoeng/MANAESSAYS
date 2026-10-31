@@ -198,6 +198,8 @@ details.st summary{font-weight:600;cursor:pointer}
 .mcell.today{border:2px solid var(--accent)}
 .mcell.sel{background:var(--bg);box-shadow:inset 0 0 0 2px var(--ink)}
 .mbadge{background:var(--accent);color:var(--accent-ink);border-radius:10px;padding:0 6px;font-size:.75rem;font-weight:600}
+#lpBackBar{position:sticky;top:calc(env(safe-area-inset-top,0px) + 58px);z-index:15;padding:6px 16px;background:var(--panel);border-bottom:1px solid var(--line)}
+#lpBackBtn{width:100%;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 </style>
 </head>
 <body>
@@ -219,6 +221,7 @@ details.st summary{font-weight:600;cursor:pointer}
     <div class="grp" id="player" hidden><button id="playBtn">Listen</button><button id="stopBtn" hidden>Stop</button></div>
     <button id="setBtn" aria-label="Settings" aria-expanded="false">&#9881;</button>
   </header>
+  <div id="lpBackBar" hidden><button id="lpBackBtn" class="primary"></button></div>
   <section id="settings" hidden aria-label="Settings">
     <div id="tts">
       <h3>Listening</h3>
@@ -522,7 +525,7 @@ const newId=()=>'lp'+Date.now()+Math.floor(Math.random()*1000);
 function newPlanFrom(t){
   return {id:newId(),created:Date.now(),updated:Date.now(),status:'Draft',
    info:{teacher:prefs.lpTeacher||'',school:prefs.lpSchool||'',grade:'',level:'',date:'',time:'',duration:t.duration||45,skills:(t.skills||[]).slice(),unit:'',topic:'',book:''},
-   obj:['','',''],prev:'',lang:'',mat:{aids:'',tech:''},stages:t.stages.map(x=>Object.assign({},x,{t:'',s:''})),
+   obj:['','',''],prev:'',lang:'',mat:{aids:'',tech:''},res:[],stages:t.stages.map(x=>Object.assign({},x,{t:'',s:''})),
    assess:{methods:[],evidence:'',errors:''},diff:{support:'',extension:''},hw:{task:'',instr:''},refl:blankRefl()};
 }
 function planFromUser(u){
@@ -576,6 +579,7 @@ function lpText(p){
   L.push("Teacher: "+i.teacher,'School: '+i.school,'Class / grade: '+i.grade,'English level: '+i.level,'Date: '+i.date+(i.time?' '+i.time:''),'Duration: '+i.duration+' minutes','Skills: '+i.skills.join(', '),'Unit / lesson no.: '+i.unit,'Textbook / pages: '+i.book);
   H('2. Learning objectives');L.push('By the end of the lesson, students will be able to:');p.obj.filter(x=>x.trim()).forEach((x,k)=>L.push((k+1)+'. '+x));L.push('Previous knowledge: '+p.prev,'Language focus: '+p.lang);
   H('3. Teaching materials');L.push('Teaching aids / resources: '+p.mat.aids,'Other materials / technology: '+p.mat.tech);
+  if((p.res||[]).length){L.push('Resources and links:');resLines(p).forEach(x=>L.push('  - '+x))}
   H('4. Lesson procedure');p.stages.forEach(x=>{L.push('',x.name+' ('+(x.min||0)+' min, '+x.pattern+')','  Teacher: '+x.t.replace(/\n/g,'\n           '),'  Students: '+x.s.replace(/\n/g,'\n            '))});
   L.push('','Total lesson time: '+p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0)+' minutes');
   H('5. Assessment and checking understanding');L.push('Assessment method: '+p.assess.methods.join(', '),'Evidence that students achieved the objectives: '+p.assess.evidence,'Common errors or difficulties to watch for: '+p.assess.errors);
@@ -591,6 +595,7 @@ function lpPrint(p){
   c.append(el('h3','','1. General information'),T([["Teacher's name",i.teacher,'School',i.school],['Class / grade',i.grade,'English level',i.level],['Date',i.date+(i.time?' '+i.time:''),'Lesson duration',i.duration+' min'],['Subject / skill',i.skills.join(', '),'Unit / lesson no.',i.unit],['Lesson topic',i.topic,'Textbook / pages',i.book]]));
   c.append(el('h3','','2. Learning objectives'),el('p','','By the end of the lesson, students will be able to:'));const ol=el('ol');p.obj.filter(x=>x.trim()).forEach(x=>ol.append(el('li','',x)));c.append(ol,el('p','','Previous knowledge: '+p.prev),el('p','','Language focus: '+p.lang));
   c.append(el('h3','','3. Teaching materials'),el('p','','Teaching aids / resources: '+p.mat.aids),el('p','','Other materials / technology: '+p.mat.tech));
+  if((p.res||[]).length){c.append(el('p','','Resources and links:'));const ul2=el('ul');resLines(p).forEach(x=>ul2.append(el('li','',x)));c.append(ul2)}
   c.append(el('h3','','4. Lesson procedure'),T([['Stage','Time',"Teacher's activities","Students' activities"]].concat(p.stages.map(x=>[x.name+'\n('+x.pattern+')',(x.min||0)+' min',x.t,x.s])),'head'),el('p','','Total lesson time: '+p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0)+' minutes'));
   c.append(el('h3','','5. Assessment and checking understanding'),el('p','','Assessment method: '+p.assess.methods.join(', ')),el('p','','Evidence that students achieved the objectives: '+p.assess.evidence),el('p','','Common errors or difficulties: '+p.assess.errors));
   c.append(el('h3','','6. Differentiation and student support'),el('p','','Support: '+p.diff.support),el('p','','Extension: '+p.diff.extension));
@@ -611,6 +616,7 @@ async function lpDocx(p){
   b+=H('1. General information')+tbl([[lab("Teacher's name"),i.teacher,lab('School'),i.school],[lab('Class / grade'),i.grade,lab('English level'),i.level],[lab('Date'),i.date+(i.time?' '+i.time:''),lab('Lesson duration'),i.duration+' minutes'],[lab('Subject / skill'),i.skills.join(', '),lab('Unit / lesson no.'),i.unit],[lab('Lesson topic'),i.topic,lab('Textbook / pages'),i.book]],[1800,2880,1800,2880]);
   b+=H('2. Learning objectives')+wp('By the end of the lesson, students will be able to:');p.obj.filter(x=>x.trim()).forEach((x,k)=>{b+=wp((k+1)+'. '+x)});b+=wp('Previous knowledge: '+p.prev)+wp('Language focus: '+p.lang);
   b+=H('3. Teaching materials')+wp('Teaching aids / resources: '+p.mat.aids)+wp('Other materials / technology: '+p.mat.tech);
+  if((p.res||[]).length){b+=wp('Resources and links:',{b:1});resLines(p).forEach(x=>{b+=wp('- '+x)})}
   b+=H('4. Lesson procedure')+tbl([[lab('Stage'),lab('Time'),lab("Teacher's activities"),lab("Students' activities")]].concat(p.stages.map(x=>[x.name+'\n('+x.pattern+')',(x.min||0)+' min',x.t,x.s])),[2200,900,3130,3130]);
   b+=wp('Total lesson time: '+p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0)+' minutes',{b:1,sp:100});
   b+=H('5. Assessment and checking understanding')+wp('Assessment method: '+p.assess.methods.join(', '))+wp('Evidence that students achieved the objectives: '+p.assess.evidence)+wp('Common errors or difficulties to watch for: '+p.assess.errors);
@@ -740,8 +746,78 @@ function openLCal(view){
       b.onclick=()=>openL(p.id);b.style.flex='1';b.style.textAlign='left';d.onchange=()=>{p.info.date=d.value;p.updated=Date.now();savePlans();openLCal()};r.append(b,d);box.append(r)})}
   window.scrollTo(0,0);
 }
+/* Planner resources: links to site items and your own resources */
+let lpBack=null;
+const RES_CATS={
+ 'Grammar':()=>gram.map(s=>[s.id,s.title]),
+ 'Terms':()=>tsecs.filter(s=>s.id!=='saved'&&s.id!=='must').map(s=>[s.id,s.title]),
+ 'Games and tools':()=>gmsecs.map(s=>[s.id,s.title]),
+ 'Exam bank':()=>xsets.map(s=>[s.id,s.title]),
+ 'Writing guide':()=>wsecs.map(s=>[s.id,s.title])};
+function siteTarget(ref){
+  const f=a=>a.find(x=>x.id===ref.id)||null;
+  return ref.cat==='Grammar'?f(gram):ref.cat==='Terms'?f(tsecs):ref.cat==='Games and tools'?f(gmsecs):ref.cat==='Exam bank'?f(xsets):ref.cat==='Writing guide'?f(wsecs):null;
+}
+function safeUrl(u){
+  u=(u||'').trim();if(!u)return '';
+  if(/^https?:\/\/\S+$/i.test(u))return u;
+  if(/^[\w-]+(\.[\w-]+)+(\/\S*)?$/i.test(u))return 'https://'+u;
+  return '';
+}
+function showBack(){
+  const bar=$('#lpBackBar'),p=lpBack&&getPlan(lpBack);bar.hidden=!p;
+  if(p)$('#lpBackBtn').textContent='\u2039 Back to lesson plan: '+(p.info.topic||'Untitled lesson');
+}
+function goSite(ref,pid){
+  const t=siteTarget(ref);if(!t)return;
+  if(ref.cat==='Grammar'){setTab('grammar');openG(t)}
+  else if(ref.cat==='Terms'){setTab('terms');openT(t)}
+  else if(ref.cat==='Games and tools'){setTab('games');openP(t)}
+  else if(ref.cat==='Exam bank'){setTab('exam');openG(t)}
+  else{setTab('essays');setSub('guide');openW(t)}
+  lpBack=pid;showBack();
+}
+const resLines=p=>(p.res||[]).map(r=>r.type==='site'?r.label:(r.label||'')+(safeUrl(r.url)?' ('+safeUrl(r.url)+')':''));
+function buildResources(p,touch,pid){
+  const w=el('div'),list=el('div');
+  const draw=()=>{
+    list.textContent='';
+    if(!p.res.length)list.append(el('p','lbl','No resources added yet. This section is optional.'));
+    p.res.forEach((r,k)=>{
+      const row=el('div','trow');let node;
+      if(r.type==='site'){
+        const ok=!!siteTarget(r.ref);
+        node=el('button','',(ok?'':'\u26A0 ')+r.label+(ok?'':' (this item has moved or no longer exists)'));node.style.cssText='flex:1;text-align:left';
+        if(ok)node.onclick=()=>goSite(r.ref,pid);else node.disabled=true;
+      }else{
+        const u=safeUrl(r.url);
+        if(u){node=el('a','',r.label||u);node.href=u;node.target='_blank';node.rel='noopener noreferrer'}else node=el('span','',r.label);
+        node.style.flex='1';node.style.overflowWrap='anywhere';
+      }
+      const rm=el('button','','Remove');rm.onclick=()=>{p.res.splice(k,1);touch();draw()};row.append(node,rm);list.append(row);
+    });
+  };
+  w.append(el('p','lbl','Add pages from this site (a grammar part, a term category, a game, an exam set or a writing guide section) or your own resources, such as textbook pages or a web link. Tap a site item later to open it, and use the bar at the top to come back to the plan.'),list);
+  const cat=el('select'),item=el('select'),add=el('button','','Add from the site');
+  cat.setAttribute('aria-label','Kind of page');item.setAttribute('aria-label','Page');
+  Object.keys(RES_CATS).forEach(k=>cat.append(new Option(k,k)));
+  const fill=()=>{item.textContent='';RES_CATS[cat.value]().forEach(([id,t])=>item.append(new Option(t,id)))};
+  cat.onchange=fill;fill();
+  add.onclick=()=>{if(!item.value){toast('Nothing to add yet. The page may still be loading.');return}
+    const t=item.options[item.selectedIndex].text;p.res.push({type:'site',label:cat.value+': '+t,ref:{cat:cat.value,id:item.value,title:t}});touch();draw()};
+  const r1=el('div','grp');r1.append(cat,item,add);w.append(el('h3','','Add from this site'),r1);
+  const lab=el('input'),url=el('input'),addOwn=el('button','','Add my own');
+  lab.placeholder='e.g. Workbook p. 25, exercise 2';lab.setAttribute('aria-label','Resource name');url.placeholder='Web link (optional)';url.setAttribute('aria-label','Web link');
+  [lab,url].forEach(x=>{x.style.cssText='flex:1;min-width:150px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;color:var(--ink);font:inherit'});
+  addOwn.onclick=()=>{const l=lab.value.trim(),u=url.value.trim();if(!l&&!u){toast('Type a name or a link first.');return}
+    if(u&&!safeUrl(u)){toast('That does not look like a web link. Use https://... or leave it empty.');return}
+    p.res.push({type:'own',label:l||u,url:u});lab.value='';url.value='';touch();draw()};
+  const r2=el('div','grp');r2.append(lab,url,addOwn);w.append(el('h3','','Add my own resource'),r2);
+  draw();return w;
+}
 function openL(id){
   const p=getPlan(id);if(!p){openLHome();return}
+  p.res=p.res||[];
   stopSpeech();aud.pause();curL=id;lpPage='plan';drawer(false);prefs.lastL=id;save();renderList();
   $('#empty').hidden=true;$('#lpdoc').hidden=false;const box=$('#lpBody');box.textContent='';
   let tmr;const status=el('span','lbl','Saved');
@@ -766,6 +842,7 @@ function openL(id){
     const rm=el('button','','Remove');rm.onclick=()=>{if(p.obj.length>1){p.obj.splice(k,1);touch();drawObj()}};r.append(ip,rm);objs.append(r)})};drawObj();
   const ao=el('button','','Add an objective');ao.onclick=()=>{if(p.obj.length<6){p.obj.push('');touch();drawObj()}};d.append(ao,T(p,'prev','Previous knowledge','What learners already know that this lesson builds on'),T(p,'lang','Language focus','Key vocabulary and structures, with a model sentence'));
   d=sec('3. Teaching materials');d.append(T(p.mat,'aids','Teaching aids / resources','Textbook, pictures, flashcards, worksheet, board'),T(p.mat,'tech','Other materials / technology','Audio, projector, phone, paper'));
+  d=sec('Resources and links (optional)');d.append(buildResources(p,touch,id));
   d=sec('4. Lesson procedure',true);const sb=el('div'),tot=el('p','lbl','');
   const updTot=()=>{const t=p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0),du=parseInt(p.info.duration)||0;tot.textContent='Total lesson time: '+t+' of '+du+' minutes'+(du&&t!==du?' - the stage times do not match the lesson duration':'');tot.style.color=(du&&t!==du)?'var(--danger)':'';tot.style.fontWeight=600};
   const games=gmsecs.filter(x=>x.group!=='Start here'&&x.group!=='Classroom tools');
@@ -1457,7 +1534,7 @@ function setTab(t){
   $('#q').placeholder={essays:sub==='guide'?'Search the guide':'Search titles',grammar:'Search grammar',terms:'Search terms',exam:'Search exam sets',games:'Search games',planner:'Search lesson plans'}[t];$('#starRow').hidden=t!=='grammar';
   $('#tbTitle').textContent={essays:'My Essays',grammar:'Grammar Handbook',terms:'Terminology',exam:'Exam Bank',games:'Games & Activities',planner:'Lesson Planner'}[t];
   $('#doc').hidden=true;$('#gdoc').hidden=true;$('#tdoc').hidden=true;$('#wdoc').hidden=true;$('#pdoc').hidden=true;$('#lpdoc').hidden=true;$('#empty').hidden=false;$('#player').hidden=true;
-  if(t==='planner'){$('#empty').hidden=true;$('#lpdoc').hidden=false;if(curL&&getPlan(curL))openL(curL);else openLHome()}
+  if(t==='planner'){lpBack=null;showBack();$('#empty').hidden=true;$('#lpdoc').hidden=false;if(curL&&getPlan(curL))openL(curL);else openLHome()}
   if(t==='games'&&curP){$('#empty').hidden=true;$('#pdoc').hidden=false}
   if(t==='essays'&&sub==='guide'&&curW){$('#empty').hidden=true;$('#wdoc').hidden=false}
   if(t==='terms'&&curT){$('#empty').hidden=true;$('#tdoc').hidden=false}
@@ -1471,6 +1548,7 @@ $('#tabT').onclick=()=>setTab('terms');
 $('#tabX').onclick=()=>setTab('exam');
 $('#tabP').onclick=()=>setTab('games');
 $('#tabL').onclick=()=>setTab('planner');
+$('#lpBackBtn').onclick=()=>{const id=lpBack;lpBack=null;showBack();setTab('planner');if(id&&getPlan(id))openL(id)};
 const flat=b=>[b.x,b.k,(b.items||[]).join(' '),(b.head||[]).join(' '),(b.rows||[]).map(r=>r.join(' ')).join(' ')].filter(Boolean).join(' ');
 const eP=fetch('essays.json').then(r=>r.json()).then(d=>{items=d.essays||[]}).catch(()=>{eErr=true});
 const pP=fetch('practice.json').then(r=>r.json()).then(d=>{
