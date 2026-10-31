@@ -186,6 +186,18 @@ details.st summary{font-weight:600;cursor:pointer}
 .lpprint table{border-collapse:collapse;width:100%;margin:6px 0}
 .lpprint th,.lpprint td{border:1px solid #555;padding:4px 6px;vertical-align:top;text-align:left}
 .lpprint h1{font-size:20pt;margin:0}.lpprint h2{font-size:14pt;margin:2px 0 8px}.lpprint h3{font-size:12pt;margin:12px 0 4px}
+.cgrid{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));margin:10px 0}
+.cday{border:1px solid var(--line);border-radius:10px;padding:8px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.cday.today{border:2px solid var(--accent)}
+.clesson{display:block;width:100%;text-align:left;padding:8px 10px;margin:0;overflow-wrap:anywhere}
+.clesson small{display:block;color:var(--mute)}
+.mgrid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin:10px 0}
+.mhead{text-align:center;font-size:.8rem;color:var(--mute);font-weight:600}
+.mcell{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:48px;padding:4px 2px;margin:0;gap:2px}
+.mcell.out{opacity:.45}
+.mcell.today{border:2px solid var(--accent)}
+.mcell.sel{background:var(--bg);box-shadow:inset 0 0 0 2px var(--ink)}
+.mbadge{background:var(--accent);color:var(--accent-ink);border-radius:10px;padding:0 6px;font-size:.75rem;font-weight:600}
 </style>
 </head>
 <body>
@@ -509,7 +521,7 @@ const blankRefl=()=>({well:'',diff:'',achieved:'',improve:'',next:'',notes:'',do
 const newId=()=>'lp'+Date.now()+Math.floor(Math.random()*1000);
 function newPlanFrom(t){
   return {id:newId(),created:Date.now(),updated:Date.now(),status:'Draft',
-   info:{teacher:prefs.lpTeacher||'',school:prefs.lpSchool||'',grade:'',level:'',date:'',duration:t.duration||45,skills:(t.skills||[]).slice(),unit:'',topic:'',book:''},
+   info:{teacher:prefs.lpTeacher||'',school:prefs.lpSchool||'',grade:'',level:'',date:'',time:'',duration:t.duration||45,skills:(t.skills||[]).slice(),unit:'',topic:'',book:''},
    obj:['','',''],prev:'',lang:'',mat:{aids:'',tech:''},stages:t.stages.map(x=>Object.assign({},x,{t:'',s:''})),
    assess:{methods:[],evidence:'',errors:''},diff:{support:'',extension:''},hw:{task:'',instr:''},refl:blankRefl()};
 }
@@ -520,7 +532,8 @@ function planFromUser(u){
 }
 function renderLList(){
   const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';
-  const home=el('button','item');home.setAttribute('aria-current',String(!curL||!getPlan(curL)));home.append(el('b','','New plan, templates and backup'));home.onclick=openLHome;box.append(home);
+  const home=el('button','item');home.setAttribute('aria-current',String(lpPage==='home'));home.append(el('b','','New plan, templates and backup'));home.onclick=openLHome;box.append(home);
+  const cal=el('button','item');cal.setAttribute('aria-current',String(lpPage==='cal'));cal.append(el('b','','Calendar: week, month and term'));cal.onclick=()=>openLCal();box.append(cal);
   const rows=plans.slice().sort((a,b)=>b.updated-a.updated).filter(x=>!f||JSON.stringify([x.info.topic,x.info.unit,x.info.grade,x.info.teacher,x.info.skills]).toLowerCase().includes(f));
   if(rows.length)box.append(el('div','grp-h','Your lesson plans'));
   rows.forEach(x=>{
@@ -531,9 +544,10 @@ function renderLList(){
 }
 function dlBlob(blob,name){const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.append(a);a.click();setTimeout(()=>{a.remove()},500)}
 function openLHome(){
-  stopSpeech();aud.pause();curL=null;drawer(false);prefs.lastL='';save();renderList();
+  stopSpeech();aud.pause();curL=null;lpPage='home';drawer(false);prefs.lastL='';save();renderList();
   $('#empty').hidden=true;$('#lpdoc').hidden=false;const box=$('#lpBody');box.textContent='';
   box.append(el('h1','','Lesson planner'),el('p','lbl','Plan a lesson by filling in the form, save it, and come back to check, edit, copy or print it later. Plans are saved in this browser on this device. Use the backup at the bottom to keep a copy or to move your plans to another device.'));
+  const cb=el('button','primary','Open the calendar (week, month, term)');cb.onclick=()=>openLCal();cb.style.margin='8px 0';box.append(cb);
   box.append(el('h3','','Start a new plan'));
   const g=el('div');LTPL.forEach(t=>{const r=el('div','exp');r.style.margin='8px 0';const b=el('button','primary','Use'),tt=el('b','',t.name);b.style.margin='0 10px 0 0';
     b.onclick=()=>{const p=newPlanFrom(t);plans.push(p);savePlans();openL(p.id)};r.append(b,tt,document.createTextNode(' - '+t.desc));g.append(r)});box.append(g);
@@ -559,7 +573,7 @@ function planChecks(p){
 function lpText(p){
   const i=p.info,L=[];const H=t=>{L.push('','== '+t+' ==')};
   L.push('ENGLISH LESSON PLAN','Topic: '+(i.topic||'-'));H('1. General information');
-  L.push("Teacher: "+i.teacher,'School: '+i.school,'Class / grade: '+i.grade,'English level: '+i.level,'Date: '+i.date,'Duration: '+i.duration+' minutes','Skills: '+i.skills.join(', '),'Unit / lesson no.: '+i.unit,'Textbook / pages: '+i.book);
+  L.push("Teacher: "+i.teacher,'School: '+i.school,'Class / grade: '+i.grade,'English level: '+i.level,'Date: '+i.date+(i.time?' '+i.time:''),'Duration: '+i.duration+' minutes','Skills: '+i.skills.join(', '),'Unit / lesson no.: '+i.unit,'Textbook / pages: '+i.book);
   H('2. Learning objectives');L.push('By the end of the lesson, students will be able to:');p.obj.filter(x=>x.trim()).forEach((x,k)=>L.push((k+1)+'. '+x));L.push('Previous knowledge: '+p.prev,'Language focus: '+p.lang);
   H('3. Teaching materials');L.push('Teaching aids / resources: '+p.mat.aids,'Other materials / technology: '+p.mat.tech);
   H('4. Lesson procedure');p.stages.forEach(x=>{L.push('',x.name+' ('+(x.min||0)+' min, '+x.pattern+')','  Teacher: '+x.t.replace(/\n/g,'\n           '),'  Students: '+x.s.replace(/\n/g,'\n            '))});
@@ -574,7 +588,7 @@ function lpPrint(p){
   const c=el('div','bprint lpprint'),i=p.info;
   const T=(rows,w)=>{const t=el('table');rows.forEach((r,ri)=>{const tr=el('tr');r.forEach(x=>{const td=el(ri===0&&w==='head'?'th':'td','',x);td.style.whiteSpace='pre-wrap';tr.append(td)});t.append(tr)});return t};
   c.append(el('h1','','English Lesson Plan'),el('h2','',i.topic||'Untitled lesson'));
-  c.append(el('h3','','1. General information'),T([["Teacher's name",i.teacher,'School',i.school],['Class / grade',i.grade,'English level',i.level],['Date',i.date,'Lesson duration',i.duration+' min'],['Subject / skill',i.skills.join(', '),'Unit / lesson no.',i.unit],['Lesson topic',i.topic,'Textbook / pages',i.book]]));
+  c.append(el('h3','','1. General information'),T([["Teacher's name",i.teacher,'School',i.school],['Class / grade',i.grade,'English level',i.level],['Date',i.date+(i.time?' '+i.time:''),'Lesson duration',i.duration+' min'],['Subject / skill',i.skills.join(', '),'Unit / lesson no.',i.unit],['Lesson topic',i.topic,'Textbook / pages',i.book]]));
   c.append(el('h3','','2. Learning objectives'),el('p','','By the end of the lesson, students will be able to:'));const ol=el('ol');p.obj.filter(x=>x.trim()).forEach(x=>ol.append(el('li','',x)));c.append(ol,el('p','','Previous knowledge: '+p.prev),el('p','','Language focus: '+p.lang));
   c.append(el('h3','','3. Teaching materials'),el('p','','Teaching aids / resources: '+p.mat.aids),el('p','','Other materials / technology: '+p.mat.tech));
   c.append(el('h3','','4. Lesson procedure'),T([['Stage','Time',"Teacher's activities","Students' activities"]].concat(p.stages.map(x=>[x.name+'\n('+x.pattern+')',(x.min||0)+' min',x.t,x.s])),'head'),el('p','','Total lesson time: '+p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0)+' minutes'));
@@ -594,7 +608,7 @@ async function lpDocx(p){
   const lab=t=>({t,b:1,shade:1}),i=p.info,r=p.refl,H=t=>wp(t,{b:1,sz:26,sp:200});
   let b='';
   b+=wp('ENGLISH LESSON PLAN',{b:1,sz:36})+wp(i.topic||'Untitled lesson',{sz:26});
-  b+=H('1. General information')+tbl([[lab("Teacher's name"),i.teacher,lab('School'),i.school],[lab('Class / grade'),i.grade,lab('English level'),i.level],[lab('Date'),i.date,lab('Lesson duration'),i.duration+' minutes'],[lab('Subject / skill'),i.skills.join(', '),lab('Unit / lesson no.'),i.unit],[lab('Lesson topic'),i.topic,lab('Textbook / pages'),i.book]],[1800,2880,1800,2880]);
+  b+=H('1. General information')+tbl([[lab("Teacher's name"),i.teacher,lab('School'),i.school],[lab('Class / grade'),i.grade,lab('English level'),i.level],[lab('Date'),i.date+(i.time?' '+i.time:''),lab('Lesson duration'),i.duration+' minutes'],[lab('Subject / skill'),i.skills.join(', '),lab('Unit / lesson no.'),i.unit],[lab('Lesson topic'),i.topic,lab('Textbook / pages'),i.book]],[1800,2880,1800,2880]);
   b+=H('2. Learning objectives')+wp('By the end of the lesson, students will be able to:');p.obj.filter(x=>x.trim()).forEach((x,k)=>{b+=wp((k+1)+'. '+x)});b+=wp('Previous knowledge: '+p.prev)+wp('Language focus: '+p.lang);
   b+=H('3. Teaching materials')+wp('Teaching aids / resources: '+p.mat.aids)+wp('Other materials / technology: '+p.mat.tech);
   b+=H('4. Lesson procedure')+tbl([[lab('Stage'),lab('Time'),lab("Teacher's activities"),lab("Students' activities")]].concat(p.stages.map(x=>[x.name+'\n('+x.pattern+')',(x.min||0)+' min',x.t,x.s])),[2200,900,3130,3130]);
@@ -610,9 +624,125 @@ async function lpDocx(p){
   return z.generateAsync({type:'blob',mimeType:'application/vnd.openxmlformats-officedocument.wordprocessingml.document'});
 }
 const lpSlug=p=>(p.info.topic||'untitled').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'untitled';
+/* Planner calendar: week, month and term views */
+let lpPage='home',calView=prefs.lpCalView||'week',calAnchor=new Date(),calSel=null;
+const pad2=n=>String(n).padStart(2,'0');
+const isoOf=d=>d.getFullYear()+'-'+pad2(d.getMonth()+1)+'-'+pad2(d.getDate());
+const fromIso=s=>{const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(s||'');return m?new Date(+m[1],+m[2]-1,+m[3]):null};
+const addDays=(d,n)=>new Date(d.getFullYear(),d.getMonth(),d.getDate()+n);
+const weekStart=d=>{const back=prefs.lpWeekSun?d.getDay():(d.getDay()+6)%7;return addDays(d,-back)};
+const DNAME=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const shortDay=d=>DNAME[d.getDay()]+' '+d.getDate()+' '+d.toLocaleDateString(undefined,{month:'short'});
+const lessonsOn=key=>plans.filter(p=>p.info.date===key).sort((a,b)=>(a.info.time||'99:99').localeCompare(b.info.time||'99:99')||a.created-b.created);
+const lessonsBetween=(a,b)=>plans.filter(p=>p.info.date>=a&&p.info.date<=b).sort((x,y)=>(x.info.date+(x.info.time||'99:99')).localeCompare(y.info.date+(y.info.time||'99:99')));
+const planMins=p=>p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0);
+const lessonLabel=p=>[p.info.time,p.info.grade,p.info.topic||'Untitled lesson'].filter(Boolean).join(' - ');
+const count=(arr,f)=>{const o={};arr.forEach(x=>f(x).forEach(k=>{o[k]=(o[k]||0)+1}));return Object.entries(o).map(([k,v])=>k+' '+v).join(', ')||'none'};
+function templateSelect(){
+  const s=el('select');s.setAttribute('aria-label','Template for new lessons');
+  LTPL.forEach(t=>s.append(new Option(t.name,'b:'+t.k)));utpl.forEach(u=>s.append(new Option('My template: '+u.name,'u:'+u.id)));
+  s.value=[...s.options].some(o=>o.value===prefs.lpTpl)?prefs.lpTpl:'b:blank';s.onchange=()=>{prefs.lpTpl=s.value;save()};return s;
+}
+function addLessonOn(key){
+  const v=prefs.lpTpl||'b:blank';let p;
+  if(v.startsWith('u:')){const u=utpl.find(x=>'u:'+x.id===v);p=u?planFromUser(u):newPlanFrom(LTPL[0])}
+  else p=newPlanFrom(LTPL.find(t=>'b:'+t.k===v)||LTPL[0]);
+  p.info.date=key;plans.push(p);savePlans();openL(p.id);
+}
+function printNode(c){document.body.append(c);document.body.classList.add('printing');try{window.print()}catch(e){}setTimeout(()=>{document.body.classList.remove('printing');c.remove()},800)}
+function overviewPrint(title,sub,head,rows){
+  const c=el('div','bprint lpprint');c.append(el('h1','',title));if(sub)c.append(el('p','',sub));
+  const t=el('table'),hr=el('tr');head.forEach(h=>hr.append(el('th','',h)));t.append(hr);
+  rows.forEach(r=>{const tr=el('tr');r.forEach(x=>{const td=el('td','',x);td.style.whiteSpace='pre-wrap';tr.append(td)});t.append(tr)});c.append(t);printNode(c);
+}
+function lessonRow(p){const d=fromIso(p.info.date);return [d?shortDay(d):'No date',p.info.time||'',p.info.grade||'',p.info.topic||'Untitled lesson',(p.obj.find(x=>x.trim())||''),p.info.skills.join(', '),planMins(p)+' min',p.status]}
+const LROWHEAD=['Day','Time','Class','Topic','First objective','Skill','Length','Status'];
+async function copyText(t){try{await navigator.clipboard.writeText(t);toast('Copied.')}catch(e){toast('Could not copy.')}}
+function navBar(label,prev,today,next){
+  const r=el('div','grp'),pb=el('button','','\u2039 Previous'),tb=el('button','','Today'),nb=el('button','','Next \u203A');
+  pb.onclick=prev;tb.onclick=today;nb.onclick=next;r.append(pb,tb,nb);const l=el('b','',label);l.style.marginLeft='6px';r.append(l);return r;
+}
+function lessonButton(p){
+  const b=el('button','clesson');b.append(el('span','',lessonLabel(p)),el('small','',[p.info.skills.join(', '),p.status].filter(Boolean).join(' - ')));b.onclick=()=>openL(p.id);return b;
+}
+function viewWeek(body){
+  const ws=weekStart(calAnchor),we=addDays(ws,6),todayKey=isoOf(new Date());
+  body.append(navBar(shortDay(ws)+' to '+shortDay(we)+' '+we.getFullYear(),()=>{calAnchor=addDays(calAnchor,-7);openLCal()},()=>{calAnchor=new Date();openLCal()},()=>{calAnchor=addDays(calAnchor,7);openLCal()}));
+  const g=el('div','cgrid');
+  for(let k=0;k<7;k++){
+    const d=addDays(ws,k),key=isoOf(d),c=el('div','cday');if(key===todayKey)c.classList.add('today');c.append(el('b','',shortDay(d)));
+    lessonsOn(key).forEach(p=>c.append(lessonButton(p)));
+    const ad=el('button','sv','+ Add lesson');ad.onclick=()=>addLessonOn(key);c.append(ad);g.append(c)}
+  body.append(g);
+  const ls=lessonsBetween(isoOf(ws),isoOf(we));
+  body.append(el('p','lbl','This week: '+ls.length+' lesson'+(ls.length===1?'':'s')+', '+ls.reduce((a,p)=>a+planMins(p),0)+' minutes. Skills: '+count(ls,p=>p.info.skills)+'. Status: '+count(ls,p=>[p.status])+'.'));
+  const r=el('div','grp'),pr=el('button','','Print / PDF'),cp=el('button','','Copy as text');
+  pr.onclick=()=>{if(!ls.length){toast('No lessons this week.');return}overviewPrint('Weekly lesson plan',shortDay(ws)+' to '+shortDay(we)+' '+we.getFullYear(),LROWHEAD,ls.map(lessonRow))};
+  cp.onclick=()=>{if(!ls.length){toast('No lessons this week.');return}copyText('WEEKLY LESSON PLAN: '+shortDay(ws)+' to '+shortDay(we)+'\n'+ls.map(p=>lessonRow(p).filter(Boolean).join(' | ')).join('\n'))};
+  r.append(pr,cp);body.append(r);
+}
+function viewMonth(body){
+  const y=calAnchor.getFullYear(),m=calAnchor.getMonth(),first=new Date(y,m,1),start=weekStart(first),todayKey=isoOf(new Date());
+  if(!calSel)calSel=todayKey;
+  body.append(navBar(first.toLocaleDateString(undefined,{month:'long',year:'numeric'}),()=>{calAnchor=new Date(y,m-1,1);openLCal()},()=>{calAnchor=new Date();calSel=isoOf(new Date());openLCal()},()=>{calAnchor=new Date(y,m+1,1);openLCal()}));
+  const g=el('div','mgrid');
+  for(let k=0;k<7;k++)g.append(el('div','mhead',DNAME[(k+(prefs.lpWeekSun?0:1))%7]));
+  const last=new Date(y,m+1,0),weeks=Math.ceil(((last-start)/86400000+1)/7);
+  for(let k=0;k<weeks*7;k++){
+    const d=addDays(start,k),key=isoOf(d),n=lessonsOn(key).length,b=el('button','mcell');
+    if(d.getMonth()!==m)b.classList.add('out');if(key===todayKey)b.classList.add('today');if(key===calSel)b.classList.add('sel');
+    b.append(el('span','',String(d.getDate())));if(n)b.append(el('span','mbadge',String(n)));
+    b.setAttribute('aria-label',shortDay(d)+(n?', '+n+' lesson'+(n===1?'':'s'):''));b.onclick=()=>{calSel=key;openLCal()};g.append(b)}
+  body.append(g);
+  const sd=fromIso(calSel);
+  if(sd){body.append(el('h3','','Lessons on '+shortDay(sd)+' '+sd.getFullYear()));const ls=lessonsOn(calSel);
+    if(!ls.length)body.append(el('p','lbl','No lessons planned for this day.'));ls.forEach(p=>body.append(lessonButton(p)));
+    const ad=el('button','primary','+ Add a lesson on this day');ad.style.marginTop='8px';ad.onclick=()=>addLessonOn(calSel);body.append(ad)}
+  const ml=lessonsBetween(isoOf(first),isoOf(last));
+  body.append(el('p','lbl','This month: '+ml.length+' lesson'+(ml.length===1?'':'s')+'. Skills: '+count(ml,p=>p.info.skills)+'.'));
+}
+function viewTerm(body){
+  const T=prefs.lpTerm=prefs.lpTerm||{name:'',start:'',end:''};
+  const row=el('div','grp');
+  const mk=(lab,key,type)=>{const l=el('label','lpf');l.append(el('span','lpl',lab));const x=el('input');x.type=type;x.value=T[key]||'';x.onchange=()=>{T[key]=x.value;save();openLCal()};l.append(x);return l};
+  row.append(mk('Term name','name','text'),mk('Start date','start','date'),mk('End date','end','date'));body.append(row);
+  const a=fromIso(T.start),b=fromIso(T.end);
+  if(!a||!b||b<a){body.append(el('p','lbl','Enter the start and end dates of your term to see a week-by-week overview.'));return}
+  const all=lessonsBetween(T.start,T.end),taught=all.filter(p=>p.status==='Taught'||p.status==='Reflected').length;
+  const sum=el('div','exp');
+  sum.append(el('b','',(T.name||'Term')+': '+shortDay(a)+' to '+shortDay(b)+' '+b.getFullYear()),el('br'),document.createTextNode('Planned lessons: '+all.length+'. Taught: '+taught+(all.length?' ('+Math.round(100*taught/all.length)+'%)':'')+'. Skills covered: '+count(all,p=>p.info.skills)+'.'));
+  body.append(sum);
+  let ws=weekStart(a),n=0,empty=0;const rows=[];const list=el('div');
+  while(ws<=b){
+    n++;const we=addDays(ws,6),lo=isoOf(ws)<T.start?T.start:isoOf(ws),hi=isoOf(we)>T.end?T.end:isoOf(we),ls=lessonsBetween(lo,hi);
+    const box=el('div','stg');box.append(el('b','','Week '+n+': '+shortDay(ws)+' to '+shortDay(we)+'  ('+ls.length+' lesson'+(ls.length===1?'':'s')+')'));
+    if(!ls.length){empty++;box.append(el('p','lbl','No lessons planned yet.'))}
+    ls.forEach(p=>{const d=fromIso(p.info.date),bt=lessonButton(p);bt.firstChild.textContent=(d?shortDay(d)+' - ':'')+lessonLabel(p);box.append(bt);rows.push(['Week '+n].concat(lessonRow(p)))});
+    const ad=el('button','sv','+ Add lesson');ad.onclick=()=>{const k=isoOf(ws)<T.start?T.start:isoOf(ws);addLessonOn(k)};box.append(ad);list.append(box);ws=addDays(ws,7)}
+  body.append(el('p','lbl',n+' weeks, '+empty+' without any planned lesson.'),list);
+  const r=el('div','grp'),pr=el('button','','Print / PDF'),cp=el('button','','Copy as text');
+  pr.onclick=()=>{if(!rows.length){toast('No lessons in this term yet.');return}overviewPrint((T.name||'Term')+' overview',shortDay(a)+' to '+shortDay(b)+' '+b.getFullYear(),['Week'].concat(LROWHEAD),rows)};
+  cp.onclick=()=>{if(!rows.length){toast('No lessons in this term yet.');return}copyText((T.name||'Term')+' OVERVIEW\n'+rows.map(x=>x.filter(Boolean).join(' | ')).join('\n'))};
+  r.append(pr,cp);body.append(r);
+}
+function openLCal(view){
+  stopSpeech();aud.pause();curL=null;lpPage='cal';drawer(false);prefs.lastL='';if(view){calView=view;prefs.lpCalView=view}save();renderList();
+  $('#empty').hidden=true;$('#lpdoc').hidden=false;const box=$('#lpBody');box.textContent='';
+  box.append(el('h1','','Calendar and term view'));
+  const vb=el('div','grp');[['week','Week'],['month','Month'],['term','Term']].forEach(([v,t])=>{const b=el('button',v===calView?'primary':'',t);b.onclick=()=>openLCal(v);vb.append(b)});
+  const wl=el('label','lbl'),wc=el('input');wc.type='checkbox';wc.checked=!!prefs.lpWeekSun;wc.onchange=()=>{prefs.lpWeekSun=wc.checked;save();openLCal()};wl.style.cssText='display:flex;gap:6px;align-items:center';wl.append(wc,document.createTextNode('Week starts on Sunday'));
+  const tl=el('div','grp');tl.append(el('span','lbl','New lessons use this template:'),templateSelect());
+  box.append(vb,tl,wl);
+  const body=el('div');box.append(body);(calView==='week'?viewWeek:calView==='month'?viewMonth:viewTerm)(body);
+  const un=plans.filter(p=>!fromIso(p.info.date));
+  if(un.length){box.append(el('h3','','Plans without a date ('+un.length+')'),el('p','lbl','Choose a date to put a plan on the calendar.'));
+    un.forEach(p=>{const r=el('div','trow'),b=el('button','',p.info.topic||'Untitled lesson'),d=el('input');d.type='date';d.setAttribute('aria-label','Date for '+(p.info.topic||'this lesson'));
+      b.onclick=()=>openL(p.id);b.style.flex='1';b.style.textAlign='left';d.onchange=()=>{p.info.date=d.value;p.updated=Date.now();savePlans();openLCal()};r.append(b,d);box.append(r)})}
+  window.scrollTo(0,0);
+}
 function openL(id){
   const p=getPlan(id);if(!p){openLHome();return}
-  stopSpeech();aud.pause();curL=id;drawer(false);prefs.lastL=id;save();renderList();
+  stopSpeech();aud.pause();curL=id;lpPage='plan';drawer(false);prefs.lastL=id;save();renderList();
   $('#empty').hidden=true;$('#lpdoc').hidden=false;const box=$('#lpBody');box.textContent='';
   let tmr;const status=el('span','lbl','Saved');
   const touch=()=>{p.updated=Date.now();savePlans();status.textContent='Saved at '+new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});clearTimeout(tmr);tmr=setTimeout(()=>{renderList();chk()},400)};
@@ -622,13 +752,14 @@ function openL(id){
   const C=(arr,lab,opts)=>{const d=el('div','lpf');d.append(el('span','lpl',lab));const g=el('div','grp');opts.forEach(v=>{const l=el('label','lbl'),c=el('input');c.type='checkbox';c.checked=arr.includes(v);l.style.cssText='display:flex;gap:6px;align-items:center';
     c.onchange=()=>{const k=arr.indexOf(v);if(c.checked&&k<0)arr.push(v);if(!c.checked&&k>=0)arr.splice(k,1);touch()};l.append(c,document.createTextNode(v));g.append(l)});d.append(g);return d};
   const sec=(t,open)=>{const d=el('details','st');d.open=!!open;d.append(el('summary','',t));box.append(d);return d};
+  const nav=el('div','grp'),nb1=el('button','','\u2039 Calendar'),nb2=el('button','','Planner home');nb1.onclick=()=>openLCal();nb2.onclick=openLHome;nav.append(nb1,nb2);box.append(nav);
   box.append(el('h1','',p.info.topic||'Lesson plan'));
   const top=el('div','grp'),st=el('select');st.setAttribute('aria-label','Status');LST.forEach(v=>st.append(new Option(v,v)));st.value=p.status;st.onchange=()=>{p.status=st.value;touch()};
   top.append(el('span','lbl','Status'),st,status);box.append(top);
   const ck=el('details','st');ck.open=true;const cs=el('summary','','Plan check');ck.append(cs);const cl=el('ul');ck.append(cl);box.append(ck);
   const chk=()=>{const r=planChecks(p);cl.textContent='';r.forEach(([ok,t])=>cl.append(el('li','',(ok?'\u2713 ':'\u25CB ')+t)));cs.textContent='Plan check: '+r.filter(x=>x[0]).length+' of '+r.length+' done'};
   let d=sec('1. General information',true);
-  d.append(I(p.info,'topic','Lesson topic','e.g. Past simple: what I did yesterday','text',v=>{box.querySelector('h1').textContent=v||'Lesson plan'}),I(p.info,'teacher',"Teacher's name",'','text',v=>{prefs.lpTeacher=v;save()}),I(p.info,'school','School','','text',v=>{prefs.lpSchool=v;save()}),I(p.info,'grade','Class / grade','e.g. Grade 8A'),S(p.info,'level','English level',LLV),I(p.info,'date','Date','','date'),I(p.info,'duration','Lesson duration (minutes)','45','number',()=>updTot()),C(p.info.skills,'Subject / skill',LSK),I(p.info,'unit','Unit / lesson no.','e.g. Unit 4, Lesson 2'),I(p.info,'book','Textbook / pages','e.g. English Book 8, pp. 30-32'));
+  d.append(I(p.info,'topic','Lesson topic','e.g. Past simple: what I did yesterday','text',v=>{box.querySelector('h1').textContent=v||'Lesson plan'}),I(p.info,'teacher',"Teacher's name",'','text',v=>{prefs.lpTeacher=v;save()}),I(p.info,'school','School','','text',v=>{prefs.lpSchool=v;save()}),I(p.info,'grade','Class / grade','e.g. Grade 8A'),S(p.info,'level','English level',LLV),I(p.info,'date','Date','','date'),I(p.info,'time','Start time (optional)','','time'),I(p.info,'duration','Lesson duration (minutes)','45','number',()=>updTot()),C(p.info.skills,'Subject / skill',LSK),I(p.info,'unit','Unit / lesson no.','e.g. Unit 4, Lesson 2'),I(p.info,'book','Textbook / pages','e.g. English Book 8, pp. 30-32'));
   d=sec('2. Learning objectives',true);d.append(el('p','lbl','By the end of the lesson, students will be able to: (start each with a verb such as name, describe, ask, write, compare)'));
   const objs=el('div');d.append(objs);
   const drawObj=()=>{objs.textContent='';p.obj.forEach((x,k)=>{const r=el('div','trow'),ip=el('input');ip.value=x;ip.placeholder=(k+1)+'. e.g. use the past simple to talk about yesterday';ip.setAttribute('aria-label','Objective '+(k+1));ip.oninput=()=>{p.obj[k]=ip.value;touch()};
