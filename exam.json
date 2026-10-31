@@ -559,7 +559,7 @@
 "id": "x_grep",
 "group": "Part I - Grammar",
 "title": "C. Reported speech",
-"intro": "Choose the correct way to report each sentence. 24 questions from the NIE exam bank. In the bank you wrote the answers yourself, so here each question has four options.",
+"intro": "Choose the correct way to report each sentence.",
 "questions": [
 {
 "q": "\"Don't eat too much.\" The doctor told the fat boy ____.",
@@ -831,7 +831,7 @@
 "id": "x_gmcq",
 "group": "Part I - Grammar",
 "title": "D. Sentence structure and usage",
-"intro": "Choose the option that correctly completes each sentence. 47 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"intro": "Choose the option that correctly completes each sentence.",
 "questions": [
 {
 "q": "____ not a single hard-surfaced road during the entire colonial period aside from city streets.",
@@ -1584,7 +1584,7 @@
 "id": "x_vctx",
 "group": "Part II - Vocabulary",
 "title": "A. Vocabulary in context",
-"intro": "Choose the best word to complete each sentence. In the bank, question 1 had its answer word printed in the sentence, so it is shown here with a blank. 10 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"intro": "Choose the best word to complete each sentence.",
 "questions": [
 {
 "q": "The ____ rain caused the river to overflow its bank.",
@@ -1702,7 +1702,7 @@
 "id": "x_vsyn1",
 "group": "Part II - Vocabulary",
 "title": "B. Closest in meaning (single words)",
-"intro": "Choose the word closest in meaning to the given word. 10 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"intro": "Choose the word closest in meaning to the given word.",
 "questions": [
 {
 "q": "Choose the word closest in meaning to: Demented",
@@ -1820,7 +1820,7 @@
 "id": "x_vsyn2",
 "group": "Part II - Vocabulary",
 "title": "C. Synonyms in sentences",
-"intro": "Choose the word or phrase closest in meaning to the word named in each question. In the bank the target words were not marked, so each is named here. 15 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"intro": "Choose the word or phrase closest in meaning to the word named in each question.",
 "questions": [
 {
 "q": "Choose the word or phrase closest in meaning to abides by: A good citizen abides by law.",
@@ -1993,7 +1993,7 @@
 "id": "x_vidm",
 "group": "Part II - Vocabulary",
 "title": "D. Idioms and fixed expressions",
-"intro": "Choose the word that completes each idiom or fixed expression. 10 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"intro": "Choose the word that completes each idiom or fixed expression.",
 "questions": [
 {
 "q": "By hook or by ____ he is determined to win the race.",
@@ -2111,7 +2111,7 @@
 "id": "x_vm14",
 "group": "Part II - Vocabulary",
 "title": "E. Vocabulary multiple choice (2014)",
-"intro": "Choose the word that best completes each sentence. 10 questions from the NIE exam bank. The original bank has no answer key, so the answers and feedback were prepared by Claude: please check them against your own key.",
+"intro": "Choose the word that best completes each sentence.",
 "questions": [
 {
 "q": "You are ____ to be fined if you break the law.",
