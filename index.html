@@ -815,6 +815,187 @@ function buildResources(p,touch,pid){
   const r2=el('div','grp');r2.append(lab,url,addOwn);w.append(el('h3','','Add my own resource'),r2);
   draw();return w;
 }
+/* Plan helper: ideas from the site, AI prompt, paste-back */
+const LVN={beginner:1,elementary:2,intermediate:3,upper:4,advanced:5};
+function levelRange(t){
+  t=(t||'').toLowerCase();if(/all level/.test(t))return[1,5];
+  const f=[];Object.keys(LVN).forEach(k=>{const i=t.indexOf(k);if(i>=0)f.push([i,LVN[k]])});f.sort((a,b)=>a[0]-b[0]);
+  if(!f.length)return[1,5];let lo=f[0][1],hi=f[f.length-1][1];if(/and above/.test(t))hi=5;return[lo,hi];
+}
+const planRank=l=>{l=(l||'').toLowerCase();return /beginner|\ba1\b/.test(l)?1:/elementary|\ba2\b/.test(l)?2:/upper|\bb2\b/.test(l)?4:/intermediate|\bb1\b/.test(l)?3:/advanced|\bc1\b/.test(l)?5:0};
+const STAGE_GROUPS={warm:['Warm-ups and energizers','Speaking games'],controlled:['Vocabulary games','Grammar games','Listening games','Spelling'],guided:['Grammar games','Vocabulary games','Speaking games','Listening games'],free:['Speaking games','Writing games','Grammar games'],review:['Review games','Vocabulary games','Spelling'],practice:['Vocabulary games','Grammar games','Speaking games','Listening games','Writing games']};
+function stageKind(name){
+  const n=(name||'').toLowerCase();
+  if(/warm|lead-in|lead in/.test(n))return 'warm';
+  if(/present|input|model|pre-|introduc|skimming|explain/.test(n))return 'present';
+  if(/control/.test(n))return 'controlled';
+  if(/guided/.test(n))return 'guided';
+  if(/free|production|independent|speaking task|use the|post-|writing$|\bwriting\b/.test(n))return 'free';
+  if(/review|wrap|feedback|check/.test(n))return 'review';
+  return 'practice';
+}
+function gameInfo(s){const kv={};let steps=[];s.blocks.forEach(b=>{if(b.t==='kv')kv[b.k]=b.x;if(b.t==='ol'&&!steps.length)steps=b.items});return{kv,steps}}
+function topicWords(p){return[...new Set((p.info.topic+' '+p.obj.join(' ')+' '+p.lang).toLowerCase().split(/[^a-z]+/).filter(w=>w.length>=5))]}
+const SKSYN={'Grammar':['grammar','tense','modal','preposition','question form','conditional','word order','past','present','future','adverb'],'Vocabulary':['vocabulary','spelling','words'],'Speaking':['speaking','describing','questions','discussing'],'Listening':['listening','dictation','pronunciation'],'Reading':['reading','sequencing'],'Writing':['writing','narrative','story'],'General English':[]};
+function gameIdeas(p,stage,used){
+  const kind=stageKind(stage.name);if(kind==='present')return[];
+  const groups=STAGE_GROUPS[kind]||STAGE_GROUPS.practice,rank=planRank(p.info.level),tw=topicWords(p),mins=parseInt(stage.min)||10;
+  const res=[];
+  gmsecs.filter(s=>s.group!=='Start here'&&s.group!=='Classroom tools').forEach(s=>{
+    if(used.has(s.id))return;
+    const gi=gameInfo(s),skills=(gi.kv.Skills||'').toLowerCase();let sc=0;
+    const gi2=groups.indexOf(s.group);if(gi2>=0)sc+=3-Math.min(gi2,2);else sc-=1;
+    let sm=0;p.info.skills.forEach(k=>{if((SKSYN[k]||[k.toLowerCase()]).concat([k.toLowerCase()]).some(w=>skills.indexOf(w)>=0))sm++});sc+=Math.min(sm,2)*4;
+    if(s.id==='gnames')sc-=4;
+    if(rank){const[lo,hi]=levelRange(gi.kv.Level);sc+=(rank>=lo&&rank<=hi)?2:-2}
+    const nums=(gi.kv.Time||'').match(/\d+/g)||[];const mx=nums.length?Math.max(...nums.map(Number)):10;sc+=(mx<=mins+5)?2:-2;
+    const g=(gi.kv.Group||'').toLowerCase();
+    if((stage.pattern==='Pairs'&&/pair/.test(g))||(stage.pattern==='Small groups'&&/group|team/.test(g))||(stage.pattern==='Whole class'&&/whole class|circle/.test(g)))sc+=1;
+    const txt=(s.text||'');let tc=0;tw.forEach(w=>{if(txt.indexOf(w)>=0)tc++});sc+=Math.min(tc,3);
+    if(sc>0)res.push({s,gi,sc});
+  });
+  res.sort((a,b)=>b.sc-a.sc);const top=res.slice(0,3);top.forEach(r=>used.add(r.s.id));return top;
+}
+function materialIdeas(p){
+  const out=[],tw=topicWords(p),sk=p.info.skills;
+  if(sk.includes('Grammar')||tw.length){
+    gram.filter(s=>/^p\d+$/.test(s.id)&&s.id!=='p20'&&s.id!=='p19').map(s=>({s,sc:tw.reduce((a,w)=>a+(s.title.toLowerCase().indexOf(w)>=0?3:0)+((s.text||'').indexOf(w)>=0?1:0),0)+(sk.includes('Grammar')?0:-5)})).filter(x=>x.sc>0).sort((a,b)=>b.sc-a.sc).slice(0,3)
+      .forEach(x=>out.push({cat:'Grammar',id:x.s.id,title:x.s.title,why:'Grammar handbook: formulas, uses and examples for the presentation stage; the practice questions suit controlled practice.'}));
+  }
+  if(sk.includes('Writing'))wsecs.filter(s=>/Guided writing|Essay planner|Model essay|Introduction Formula|The Golden/.test(s.title)).slice(0,4).forEach(s=>out.push({cat:'Writing guide',id:s.id,title:s.title,why:'Writing guide: model and planning support for the writing stages.'}));
+  if(sk.includes('Reading'))xsets.filter(s=>s.group==='Part IV - Reading Comprehension').map(s=>({s,sc:tw.reduce((a,w)=>a+(((s.passage||[]).join(' ').toLowerCase()).indexOf(w)>=0?1:0),0)})).sort((a,b)=>b.sc-a.sc).slice(0,3)
+      .forEach(x=>out.push({cat:'Exam bank',id:x.s.id,title:x.s.title,why:'A reading passage with questions you can use for the reading stages.'}));
+  return out;
+}
+const AI_LABELS=[['OBJECTIVES','obj'],['PREVIOUS KNOWLEDGE','prev'],['LANGUAGE FOCUS','lang'],['OTHER MATERIALS','tech'],['TECHNOLOGY','tech'],['MATERIALS','aids'],['ASSESSMENT METHODS','methods'],['ASSESSMENT METHOD','methods'],['EVIDENCE','evidence'],['COMMON ERRORS','errors'],['SUPPORT','support'],['EXTENSION','extension'],['HOMEWORK INSTRUCTIONS','hwi'],['HOMEWORK','hw']];
+function parseAI(text){
+  const out={fields:{},stages:[],obj:[]};let cur=null,st=null,sub=null;
+  const clean=s=>s.replace(/\*\*/g,'').replace(/^[#>\s]+/,'').trim();
+  String(text||'').replace(/\r/g,'').split('\n').forEach(raw=>{
+    const line=clean(raw);if(!line)return;
+    const ms=/^STAGE\s*(\d+)\s*[|:.\-\u2013]?\s*(.*)$/i.exec(line);
+    if(ms){st={n:+ms[1],header:ms[2],t:'',s:''};out.stages.push(st);cur=null;sub=null;return}
+    const mt=/^(TEACHER|STUDENTS?)(?:'S|S')?(?: ACTIVITIES)?\s*[:\-]\s*(.*)$/i.exec(line);
+    if(mt&&st){sub=/^T/i.test(mt[1])?'t':'s';st[sub]=mt[2];return}
+    const ml=AI_LABELS.find(([L])=>new RegExp('^'+L+'\\s*[:\\-]','i').test(line));
+    if(ml){const rest=line.replace(new RegExp('^'+ml[0]+'\\s*[:\\-]\\s*','i'),'');cur=ml[1];st=null;sub=null;
+      if(cur==='obj'){if(rest)out.obj.push(rest.replace(/^\d+[.)]\s*/,''))}else out.fields[cur]=rest;return}
+    if(st&&sub){st[sub]+=(st[sub]?'\n':'')+line;return}
+    if(cur==='obj'){const o=line.replace(/^(\d+[.)]|[-*\u2022])\s*/,'');if(o)out.obj.push(o);return}
+    if(cur)out.fields[cur]=(out.fields[cur]?out.fields[cur]+'\n':'')+line;
+  });
+  out.stages.forEach(x=>{const parts=x.header.split('|').map(y=>y.trim()).filter(Boolean);
+    x.name=(parts[0]||'').replace(/\(\s*\d+\s*(?:min|minutes)\s*\)/i,'').trim();
+    const m=/(\d+)\s*(?:min|minutes)/i.exec(x.header);x.min=m?+m[1]:null;
+    x.pattern=LPAT.find(v=>new RegExp(v.replace(/ /g,'\\s*'),'i').test(x.header))||'';});
+  return out;
+}
+function aiPrompt(p,extra,withExisting){
+  const i=p.info,L=[];
+  L.push('I am an English teacher. Please help me complete a lesson plan. Answer ONLY in the exact layout shown at the end, so that I can paste it into my lesson planner. Do not use tables. Do not include real student names.','');
+  L.push('LESSON DETAILS','Topic: '+(i.topic||'(please suggest one that fits the level)'),'Level: '+(i.level||'not set'),'Skills: '+(i.skills.join(', ')||'not set'),'Lesson length: '+i.duration+' minutes');
+  if(i.book||i.unit)L.push('Textbook / unit: '+[i.book,i.unit].filter(Boolean).join(', '));
+  const obj=p.obj.filter(x=>x.trim());L.push(obj.length?'My objectives so far:\n'+obj.map((x,k)=>(k+1)+'. '+x).join('\n'):'Objectives: please write 3 clear objectives that start with a verb.');
+  if(p.prev.trim())L.push('Previous knowledge: '+p.prev.trim());if(p.lang.trim())L.push('Language focus: '+p.lang.trim());
+  if((extra||'').trim())L.push('Other information: '+extra.trim());
+  const games=[];p.stages.forEach(x=>{(x.t||'').split('\n').forEach(l=>{const m=/^Game:\s*(.+?)(?:\.|\s*\(see)/.exec(l);if(m)games.push(m[1].trim())})});
+  if(games.length)L.push('Games I plan to use (please build the activity around them): '+[...new Set(games)].join(', ')+'.');
+  L.push('','LESSON STAGES (keep these stages and times)');
+  p.stages.forEach((x,k)=>{L.push('STAGE '+(k+1)+' | '+x.name.replace(/^\d+\.\s*/,'')+' | '+(x.min||0)+' min | '+x.pattern);
+    if(withExisting&&(x.t.trim()||x.s.trim()))L.push('   Teacher so far: '+x.t.trim().replace(/\n/g,' / '),'   Students so far: '+x.s.trim().replace(/\n/g,' / '))});
+  L.push('','ANSWER LAYOUT (copy exactly, replace the dots, keep the capital-letter labels):','OBJECTIVES:','1. ...','2. ...','3. ...','PREVIOUS KNOWLEDGE: ...','LANGUAGE FOCUS: ...','MATERIALS: ...','OTHER MATERIALS: ...');
+  p.stages.forEach((x,k)=>L.push('STAGE '+(k+1)+' | '+x.name.replace(/^\d+\.\s*/,'')+' | '+(x.min||0)+' min | '+x.pattern,'TEACHER: ...','STUDENTS: ...'));
+  L.push('ASSESSMENT METHODS: (choose from: Questions, Observation, Exercises, Quiz, Pair / group work)','EVIDENCE: ...','COMMON ERRORS: ...','SUPPORT: ...','EXTENSION: ...','HOMEWORK: ...','HOMEWORK INSTRUCTIONS: ...','','Guidelines: use simple English; keep every field to one to three short sentences; make the activities practical for a classroom with a board and a textbook; make sure the stage times add up to '+i.duration+' minutes.');
+  return L.join('\n');
+}
+function buildChanges(p,pa,mode){
+  const ch=[];const fill=mode==='fill';
+  const status=cur=>{const has=String(cur||'').trim().length>0;return fill?(has?'keep':'fill'):(has?'replace':'fill')};
+  const fld=(label,cur,val,set)=>{if(!val||!String(val).trim())return;ch.push({label,text:String(val).trim(),status:status(cur),run:()=>set(String(val).trim())})};
+  if(pa.obj.length){
+    if(fill){const empty=p.obj.map((x,k)=>x.trim()?-1:k).filter(k=>k>=0);
+      pa.obj.slice(0,6).forEach((o,j)=>{const slot=j<empty.length?empty[j]:(p.obj.length+(j-empty.length));
+        ch.push({label:'Objective '+(slot+1),text:o,status:(slot<p.obj.length&&p.obj[slot].trim())?'keep':'fill',run:()=>{while(p.obj.length<=slot&&p.obj.length<6)p.obj.push('');if(slot<6)p.obj[slot]=o}})})}
+    else ch.push({label:'Objectives ('+pa.obj.length+')',text:pa.obj.slice(0,6).join('\n'),status:status(p.obj.join('')),run:()=>{p.obj=pa.obj.slice(0,6)}});
+  }
+  const F=pa.fields;
+  fld('Previous knowledge',p.prev,F.prev,v=>{p.prev=v});fld('Language focus',p.lang,F.lang,v=>{p.lang=v});
+  fld('Teaching aids / resources',p.mat.aids,F.aids,v=>{p.mat.aids=v});fld('Other materials / technology',p.mat.tech,F.tech,v=>{p.mat.tech=v});
+  if(F.methods){const found=LAM.filter(m=>new RegExp(m.split(' ')[0].replace(/[\/]/g,''),'i').test(F.methods));
+    if(found.length)ch.push({label:'Assessment method',text:found.join(', '),status:p.assess.methods.length?(fill?'keep':'replace'):'fill',run:()=>{p.assess.methods=found}})}
+  fld('Evidence of achievement',p.assess.evidence,F.evidence,v=>{p.assess.evidence=v});fld('Common errors',p.assess.errors,F.errors,v=>{p.assess.errors=v});
+  fld('Support',p.diff.support,F.support,v=>{p.diff.support=v});fld('Extension',p.diff.extension,F.extension,v=>{p.diff.extension=v});
+  fld('Homework',p.hw.task,F.hw,v=>{p.hw.task=v});fld('Homework instructions',p.hw.instr,F.hwi,v=>{p.hw.instr=v});
+  pa.stages.forEach(x=>{
+    const idx=x.n-1;
+    if(idx<p.stages.length){const st=p.stages[idx],nm=st.name;
+      fld('Stage '+x.n+' ('+nm.replace(/^\d+\.\s*/,'')+'): teacher',st.t,x.t,v=>{st.t=v});fld('Stage '+x.n+' ('+nm.replace(/^\d+\.\s*/,'')+'): students',st.s,x.s,v=>{st.s=v});
+      if(!fill&&x.min!=null&&String(x.min)!==String(st.min))ch.push({label:'Stage '+x.n+' time',text:x.min+' min (now '+st.min+')',status:'replace',dmin:x.min-(parseInt(st.min)||0),run:()=>{st.min=x.min}});
+      if(!fill&&x.pattern&&x.pattern!==st.pattern)ch.push({label:'Stage '+x.n+' interaction',text:x.pattern,status:'replace',run:()=>{st.pattern=x.pattern}});
+    }else if(x.t.trim()||x.s.trim()){
+      ch.push({label:'New stage '+x.n+': '+(x.name||'Stage'),text:'Teacher: '+x.t.trim()+'\nStudents: '+x.s.trim(),status:'fill',dmin:x.min||5,run:()=>{p.stages.push({name:x.n+'. '+(x.name||'Stage'),min:x.min||5,ht:'',hs:'',t:x.t.trim(),s:x.s.trim(),pattern:x.pattern||'Whole class'})}});
+    }
+  });
+  return ch;
+}
+function buildHelper(p,api){
+  const w=el('div');
+  // Step 1
+  w.append(el('h3','','Step 1: Ideas from the site'),el('p','lbl','Suggestions use your skills, level, stage names and minutes. Fill in the topic and objectives first for better matches.'));
+  const ideas=el('div'),show=el('button','primary','Show ideas for my stages');w.append(show,ideas);
+  show.onclick=()=>{
+    ideas.textContent='';const used=new Set();
+    const mats=materialIdeas(p);
+    if(mats.length){ideas.append(el('h3','','Presentation and practice material'));
+      mats.forEach(m=>{const r=el('div','exp'),add=el('button','','Add to resources'),op=el('button','','Open');r.append(el('b','',m.cat+': '+m.title),el('br'),document.createTextNode(m.why+' '));
+        add.onclick=()=>{if(p.res.some(x=>x.type==='site'&&x.ref.id===m.id&&x.ref.cat===m.cat)){toast('Already in resources.');return}p.res.push({type:'site',label:m.cat+': '+m.title,ref:{cat:m.cat,id:m.id,title:m.title}});api.touch();toast('Added to resources.')};
+        op.onclick=()=>goSite({cat:m.cat,id:m.id,title:m.title},api.id);r.append(add,op);ideas.append(r)})}
+    p.stages.forEach((st,k)=>{
+      const gs=gameIdeas(p,st,used),kind=stageKind(st.name);
+      ideas.append(el('h3','','Stage '+(k+1)+': '+st.name.replace(/^\d+\.\s*/,'')+' ('+(st.min||0)+' min)'));
+      if(kind==='present')ideas.append(el('p','lbl','A presentation stage: use the material above, or your own textbook, instead of a game.'));
+      if(!gs.length&&kind!=='present')ideas.append(el('p','lbl','No close match. Try adding the skills and level, or choose a game from the stage\'s own list.'));
+      gs.forEach(g=>{
+        const r=el('div','exp'),why=[g.gi.kv.Skills,g.gi.kv.Level,g.gi.kv.Time,g.gi.kv.Group].filter(Boolean).join(' | ');
+        r.append(el('b','',g.s.title),el('br'),el('small','',why),el('br'));
+        const add=el('button','primary','Add to this stage'),op=el('button','','Open game');
+        add.onclick=()=>{const steps=g.gi.steps.map((x,j)=>(j+1)+') '+x).join(' ');
+          st.t=(st.t?st.t+'\n':'')+'Game: '+g.s.title+'. '+steps;
+          st.s=(st.s?st.s+'\n':'')+'Play '+g.s.title+' ('+(g.gi.kv.Group||'class')+') to practise '+(g.gi.kv.Skills||'English').toLowerCase()+'.';
+          api.touch();api.redraw();toast('Added to stage '+(k+1)+'.')};
+        op.onclick=()=>goSite({cat:'Games and tools',id:g.s.id,title:g.s.title},api.id);
+        r.append(add,op);ideas.append(r)})});
+  };
+  // Step 2
+  w.append(el('h3','','Step 2: Ask an AI chat'),el('p','lbl','This builds a prompt from your plan. Copy it into Claude, ChatGPT or any AI chat. The prompt leaves out your name and school. Do not add real student names. Check the AI\'s answer before you use it: it can make mistakes.'));
+  const extra=el('textarea');extra.rows=2;extra.placeholder='Anything else the AI should know (optional), e.g. 40 learners, no projector';
+  extra.style.cssText='width:100%;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;color:var(--ink);font:inherit';
+  const wl=el('label','lbl'),wc=el('input');wc.type='checkbox';wc.checked=true;wl.style.cssText='display:flex;gap:6px;align-items:center;margin:8px 0';wl.append(wc,document.createTextNode('Include what I have already written in the stages'));
+  const cp=el('button','primary','Copy the prompt'),pv=el('button','','Show the prompt'),pre=el('pre');pre.hidden=true;pre.style.cssText='white-space:pre-wrap;overflow-wrap:anywhere;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;font:.85rem/1.5 Figtree,system-ui,sans-serif';
+  const mkp=()=>aiPrompt(p,extra.value,wc.checked);
+  cp.onclick=async()=>{try{await navigator.clipboard.writeText(mkp());toast('Prompt copied. Paste it into your AI chat.')}catch(e){pre.textContent=mkp();pre.hidden=false;toast('Could not copy. Select the text below and copy it.')}};
+  pv.onclick=()=>{if(pre.hidden){pre.textContent=mkp();pre.hidden=false;pv.textContent='Hide the prompt'}else{pre.hidden=true;pv.textContent='Show the prompt'}};
+  const r2=el('div','grp');r2.append(cp,pv);w.append(extra,wl,r2,pre);
+  // Step 3
+  w.append(el('h3','','Step 3: Paste the answer back'),el('p','lbl','Paste the AI\'s answer here. You will see a preview before anything changes.'));
+  const ans=el('textarea');ans.rows=8;ans.placeholder='Paste the AI answer here';ans.style.cssText=extra.style.cssText;
+  const mode=el('select');mode.setAttribute('aria-label','How to apply');mode.append(new Option('Fill only the empty fields','fill'),new Option('Replace the fields found in the answer','replace'));
+  const pvw=el('button','','Preview'),out=el('div');
+  pvw.onclick=()=>{
+    out.textContent='';const pa=parseAI(ans.value),ch=buildChanges(p,pa,mode.value);
+    if(!ch.length){out.append(el('p','lbl','No recognised fields. Make sure the AI used the capital-letter labels from the prompt (OBJECTIVES:, STAGE 1 | ..., TEACHER:, STUDENTS: ...).'));return}
+    const n=ch.filter(c=>c.status!=='keep').length;
+    out.append(el('p','',n+' of '+ch.length+' fields will be written. Fields marked "kept" already have your text.'));
+    const t0=p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0),t1=t0+ch.filter(c=>c.status!=='keep').reduce((a,c)=>a+(c.dmin||0),0),du=parseInt(p.info.duration)||0;
+    if(t1!==t0||(du&&t0!==du)){const tp=el('p','lbl','Stage times after applying: '+t1+' of '+du+' minutes'+(du&&t1!==du?'. You may need to adjust the stage minutes.':'.'));tp.style.fontWeight=600;if(du&&t1!==du)tp.style.color='var(--danger)';out.append(tp)}
+    ch.forEach(c=>{const r=el('div','exp'),t=c.text.length>220?c.text.slice(0,220)+'...':c.text;r.append(el('b','',c.label+': '),el('span','lbl','['+({fill:'will fill',replace:'will replace',keep:'kept'}[c.status])+']'),el('br'),document.createTextNode(t));out.append(r)});
+    const ap=el('button','primary','Apply to my plan');ap.style.marginTop='8px';
+    ap.onclick=()=>{let k=0;ch.forEach(c=>{if(c.status!=='keep'){c.run();k++}});api.touch();toast('Applied '+k+' field'+(k===1?'':'s')+'.');api.reopen()};
+    out.append(ap);
+  };
+  const r3=el('div','grp');r3.append(mode,pvw);w.append(ans,r3,out);
+  return w;
+}
 function openL(id){
   const p=getPlan(id);if(!p){openLHome();return}
   p.res=p.res||[];
@@ -834,6 +1015,7 @@ function openL(id){
   top.append(el('span','lbl','Status'),st,status);box.append(top);
   const ck=el('details','st');ck.open=true;const cs=el('summary','','Plan check');ck.append(cs);const cl=el('ul');ck.append(cl);box.append(ck);
   const chk=()=>{const r=planChecks(p);cl.textContent='';r.forEach(([ok,t])=>cl.append(el('li','',(ok?'\u2713 ':'\u25CB ')+t)));cs.textContent='Plan check: '+r.filter(x=>x[0]).length+' of '+r.length+' done'};
+  const hd=el('details','st');hd.append(el('summary','','Plan helper: ideas, AI prompt and paste-back'));box.append(hd);
   let d=sec('1. General information',true);
   d.append(I(p.info,'topic','Lesson topic','e.g. Past simple: what I did yesterday','text',v=>{box.querySelector('h1').textContent=v||'Lesson plan'}),I(p.info,'teacher',"Teacher's name",'','text',v=>{prefs.lpTeacher=v;save()}),I(p.info,'school','School','','text',v=>{prefs.lpSchool=v;save()}),I(p.info,'grade','Class / grade','e.g. Grade 8A'),S(p.info,'level','English level',LLV),I(p.info,'date','Date','','date'),I(p.info,'time','Start time (optional)','','time'),I(p.info,'duration','Lesson duration (minutes)','45','number',()=>updTot()),C(p.info.skills,'Subject / skill',LSK),I(p.info,'unit','Unit / lesson no.','e.g. Unit 4, Lesson 2'),I(p.info,'book','Textbook / pages','e.g. English Book 8, pp. 30-32'));
   d=sec('2. Learning objectives',true);d.append(el('p','lbl','By the end of the lesson, students will be able to: (start each with a verb such as name, describe, ask, write, compare)'));
@@ -860,6 +1042,7 @@ function openL(id){
     c.append(r2);sb.append(c)});updTot()};
   const as=el('button','','Add a stage');as.onclick=()=>{p.stages.push({name:(p.stages.length+1)+'. New stage',min:5,ht:'',hs:'',t:'',s:'',pattern:'Whole class'});touch();drawStages()};
   d.append(sb,as,tot);drawStages();
+  hd.append(buildHelper(p,{touch,redraw:()=>{drawStages()},reopen:()=>openL(id),id}));
   d=sec('5. Assessment and checking understanding');d.append(C(p.assess.methods,'Assessment method',LAM),T(p.assess,'evidence','Evidence that students achieved the objectives','e.g. 8 of 10 learners write correct sentences in the final task'),T(p.assess,'errors','Common errors or difficulties to watch for','e.g. forgetting -ed; mixing was / were'));
   d=sec('6. Differentiation and student support');d.append(T(p.diff,'support','Support for students who need help','Sentence starters, pictures, pairing with a stronger partner'),T(p.diff,'extension','Extension activities for advanced students','An extra writing task, or a harder question set'));
   d=sec('7. Homework / follow-up');d.append(T(p.hw,'task','Homework / additional practice','e.g. Write five sentences about yesterday'),T(p.hw,'instr','Instructions / textbook pages','e.g. Workbook p. 25, exercises 1 and 2'));
