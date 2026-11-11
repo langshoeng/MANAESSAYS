@@ -836,7 +836,7 @@ function stageKind(name){
   return 'practice';
 }
 function gameInfo(s){const kv={};let steps=[];s.blocks.forEach(b=>{if(b.t==='kv')kv[b.k]=b.x;if(b.t==='ol'&&!steps.length)steps=b.items});return{kv,steps}}
-function topicWords(p){return[...new Set((p.info.topic+' '+p.obj.join(' ')+' '+p.lang).toLowerCase().split(/[^a-z]+/).filter(w=>w.length>=5).concat(srcKeywords(p.src)))]}
+function topicWords(p){return[...new Set((p.info.topic+' '+p.obj.join(' ')+' '+p.lang).toLowerCase().split(/[^a-z]+/).filter(w=>w.length>=5))]}
 const SKSYN={'Grammar':['grammar','tense','modal','preposition','question form','conditional','word order','past','present','future','adverb'],'Vocabulary':['vocabulary','spelling','words'],'Speaking':['speaking','describing','questions','discussing'],'Listening':['listening','dictation','pronunciation'],'Reading':['reading','sequencing'],'Writing':['writing','narrative','story'],'General English':[]};
 function gameIdeas(p,stage,used){
   const kind=stageKind(stage.name);if(kind==='present')return[];
@@ -892,7 +892,7 @@ function parseAI(text){
   return out;
 }
 function aiPrompt(p,extra,withExisting,src){
-  const i=p.info,L=[];src=src||{imgs:[],text:''};const hasImg=src.imgs.length>0,hasTxt=!!(src.text||'').trim(),hasSrc=hasImg||hasTxt;
+  const i=p.info,L=[];src=src||{imgs:[]};const hasImg=src.imgs.length>0,hasSrc=hasImg;
   L.push('I am an English teacher. Please help me complete a lesson plan. Answer ONLY in the exact layout shown at the end, so that I can paste it into my lesson planner. Do not use tables. Do not include real student names.','');
   L.push('LESSON DETAILS','Topic: '+(i.topic||(hasSrc?'(take it from the lesson page)':'(please suggest one that fits the level)')),'Level: '+(i.level||'not set'),'Skills: '+(i.skills.join(', ')||'not set'),'Lesson length: '+i.duration+' minutes');
   if(i.book||i.unit)L.push('Textbook / unit: '+[i.book,i.unit].filter(Boolean).join(', '));
@@ -903,12 +903,9 @@ function aiPrompt(p,extra,withExisting,src){
   if(games.length)L.push('Games I plan to use (please build the activity around them): '+[...new Set(games)].join(', ')+'.');
   if(hasSrc){
     L.push('','LESSON PAGE');
-    if(hasImg){L.push('I have attached '+src.imgs.length+' image'+(src.imgs.length>1?'s':'')+' of the lesson page'+(src.imgs.length>1?'s':'')+' from my textbook.');
+    {L.push('I have attached '+src.imgs.length+' image'+(src.imgs.length>1?'s':'')+' of the lesson page'+(src.imgs.length>1?'s':'')+' from my textbook.');
       src.imgs.forEach((m,k)=>L.push('Image '+(k+1)+(m.note?': '+m.note:'')));
-      L.push('The attached page'+(src.imgs.length>1?'s are':' is')+' the lesson. Build every stage from the exercises and content on '+(src.imgs.length>1?'those pages':'that page')+'. Do not invent unrelated activities. If no objectives are given, write them from the page.')}
-    else L.push('The page text below is the lesson. Build every stage from the exercises and content in it. Do not invent unrelated activities. If no objectives are given, write them from the page.');
-    if(hasTxt){const t=src.text.trim(),cut=t.length>8000;
-      L.push(hasImg?'Text read from the same page by a scanner (it may contain mistakes; if it differs from the image, trust the image):':'Text of the lesson page (it was read by a scanner and may contain mistakes):','--- START OF PAGE TEXT ---',cut?t.slice(0,8000)+' [text shortened]':t,'--- END OF PAGE TEXT ---')}
+      L.push('The attached page'+(src.imgs.length>1?'s are':' is')+' the lesson. Build every stage from the exercises and content on '+(src.imgs.length>1?'those pages':'that page')+'. Do not invent unrelated activities. If no objectives are given, write them from the page.');if(src.imgs.length>1)L.push('The images are in page order: Image 1 is the first page.')}
   }
   L.push('','LESSON STAGES (keep these stages and times)');
   p.stages.forEach((x,k)=>{L.push('STAGE '+(k+1)+' | '+x.name.replace(/^\d+\.\s*/,'')+' | '+(x.min||0)+' min | '+x.pattern);
@@ -949,162 +946,53 @@ function buildChanges(p,pa,mode){
   return ch;
 }
 
-/* Lesson page: attach images (Option A) and read text from them in the browser (Option B) */
-const LSRC={};/* images are kept in memory only (per plan id); the source text is saved in the plan as p.src */
-const SRC_STOP=new Set('about above after again also always another because before being between both could does doing down during each every first from have having here into just like many more most much must never other should still such than that their them then there these they this those through under until very want were what when where which while with would your yours really thing things there\'s'.split(' '));
-const _kwCache={};
-function srcKeywords(t){
-  t=String(t||'');if(t.length<30)return[];if(_kwCache.k===t)return _kwCache.v;
-  const c={};t.toLowerCase().split(/[^a-z]+/).forEach(w=>{if(w.length>=5&&!SRC_STOP.has(w))c[w]=(c[w]||0)+1});
-  const v=Object.keys(c).filter(w=>c[w]>=2).sort((a,b)=>c[b]-c[a]).slice(0,30);_kwCache.k=t;_kwCache.v=v;return v;
-}
-const LFOCUS=[
- ['Past simple',/\b(?:yesterday|ago|did|didn't|was|were|wasn't|weren't|last (?:week|year|night|month|summer))\b/gi,3],
- ['Present simple',/\b(?:always|usually|often|sometimes|never|every (?:day|week|morning))\b/gi,2],
- ['Present continuous',/\b(?:am|is|are|isn't|aren't) \w+ing\b/gi,2],
- ['Present perfect',/\b(?:have|has|haven't|hasn't) (?:\w+ed|been|gone|seen|done|made|taken|eaten|written|met)\b|\b(?:already|yet|ever)\b/gi,3],
- ['Future (will / going to)',/\bwill\b|\bwon't\b|\bgoing to\b/gi,2],
- ['Comparatives and superlatives',/\b\w+er than\b|\bthe (?:most|least) \w+|\bas \w+ as\b|\bthe \w+est\b/gi,2],
- ['Modal verbs',/\b(?:can|can't|could|must|mustn't|should|shouldn't|might|may|have to|don't have to)\b/gi,4],
- ['Conditionals',/\bif (?:you|we|I|he|she|it|they)\b/gi,2],
- ['Passive voice',/\b(?:is|are|was|were) (?:\w+ed|made|built|written|known|given|taken|used|called)\b/gi,3],
- ['Question forms',/\b(?:what|where|when|who|why|how)\b[^.?!\n]*\?/gi,3],
- ['There is / there are',/\bthere (?:is|are|was|were)\b/gi,2],
- ['Quantifiers (some, any, much, many)',/\b(?:some|any|much|many|a lot of|a few|a little)\b/gi,3]
-];
-function suggestFromText(text){
-  const t=String(text||'').replace(/\[[^\]\n]{0,80}\]/g,' ');
-  const lines=t.split('\n').map(x=>x.trim()).filter(Boolean);
-  let topic='';
-  for(const l of lines.slice(0,12)){
-    if(l.length<4||l.length>60||/^[\d\s.:;,\-–]+$/.test(l)||/[.?!,;]$/.test(l))continue;
-    const w=l.split(/\s+/);if(w.length>8)continue;
-    const alpha=(l.match(/[A-Za-z]/g)||[]).length;if(alpha<4||alpha/l.length<0.7)continue;
-    topic=l.replace(/^(?:unit|lesson|chapter)\s*\d+\s*[:.\-–]?\s*/i,'').trim()||l;break;
-  }
-  const sc=LFOCUS.map(([n,re,min])=>[n,(t.match(re)||[]).length,min]).filter(x=>x[1]>=x[2]).sort((a,b)=>b[1]-a[1]).slice(0,2).map(x=>x[0]);
-  const kw=srcKeywords(t).slice(0,6);
-  let lang=sc.join('; ');if(kw.length)lang+=(lang?'. ':'')+'Key words: '+kw.join(', ');
-  return{topic,lang};
-}
-let _tessP=null;
-function loadTesseract(){
-  if(window.Tesseract)return Promise.resolve();if(_tessP)return _tessP;
-  _tessP=new Promise((res,rej)=>{const sc=document.createElement('script');sc.src='https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/5.1.1/tesseract.min.js';sc.onload=res;sc.onerror=()=>{_tessP=null;rej(new Error('Could not download the reading engine'))};document.head.append(sc)});
-  return _tessP;
-}
-/* make the photo easier to read: resize, grey, stretch contrast (stays on this device) */
-function prepForOCR(url){
-  return new Promise((res,rej)=>{const im=new Image();
-    im.onload=()=>{
-      let w=im.naturalWidth,h=im.naturalHeight;if(!w||!h){rej(new Error('Image has no size'));return}
-      const m=Math.max(w,h);let k=1;if(m>2600)k=2600/m;else if(m<1500)k=Math.min(2,1500/m);
-      w=Math.round(w*k);h=Math.round(h*k);
-      const c=document.createElement('canvas');c.width=w;c.height=h;const x=c.getContext('2d',{willReadFrequently:true});x.drawImage(im,0,0,w,h);
-      const d=x.getImageData(0,0,w,h),a=d.data,g=new Uint8Array(w*h),hist=new Uint32Array(256);
-      for(let i=0,j=0;i<a.length;i+=4,j++){const v=(a[i]*0.299+a[i+1]*0.587+a[i+2]*0.114)|0;g[j]=v;hist[v]++}
-      const n=g.length;let acc=0,lo=0,hi=255;
-      for(let v=0;v<256;v++){acc+=hist[v];if(acc>=n*0.01){lo=v;break}}
-      acc=0;for(let v=255;v>=0;v--){acc+=hist[v];if(acc>=n*0.01){hi=v;break}}
-      const rg=Math.max(hi-lo,30);
-      for(let i=0,j=0;i<a.length;i+=4,j++){const v=Math.max(0,Math.min(255,((g[j]-lo)*255/rg)|0));a[i]=a[i+1]=a[i+2]=v}
-      x.putImageData(d,0,0);c.toBlob(b=>b?res(b):rej(new Error('Could not prepare the image')),'image/png');
-    };
-    im.onerror=()=>rej(new Error('This image format cannot be opened in your browser (for example HEIC). Save it as JPG or PNG and try again.'));
-    im.src=url});
-}
-function tidyOCR(t){return String(t||'').replace(/\r/g,'').replace(/[ \t]+$/gm,'').replace(/\n{3,}/g,'\n\n').trim()}
+/* Lesson page: attach page images (kept in memory for this tab only, per plan id) and put them in order */
+const LSRC={};
 function buildSourceBox(p,api){
-  const w=el('div'),imgs=LSRC[api.id]=LSRC[api.id]||[];if(typeof p.src!=='string')p.src='';
-  const keep=()=>{lpKeepOpen=true};
+  const w=el('div'),imgs=LSRC[api.id]=LSRC[api.id]||[];
   w.append(el('h3','','Start: add the lesson page (optional)'),
-    el('p','lbl','Add a photo or screenshot of the textbook page. The AI will then build the stages from the real exercises on that page, and your typed objectives become optional. You can also have the page text read inside this planner (see below).'));
+    el('p','lbl','Add photos or screenshots of the textbook pages. The AI will then build the stages from the real exercises on those pages, and your typed objectives become optional. Use the arrows to put the pages in the right order.'));
   const fi=el('input');fi.type='file';fi.accept='image/*';fi.multiple=true;fi.hidden=true;
   const add=el('button','primary','Add page image(s)');add.onclick=()=>fi.click();
+  const srt=el('button','','Sort by file name'),clr=el('button','danger','Remove all');
+  const ctr=el('div','grp');ctr.append(add,srt,clr);
   const tw=el('div');tw.style.cssText='display:flex;flex-direction:column;gap:8px;margin:8px 0';
-  const stat=el('p','lbl');stat.setAttribute('role','status');stat.setAttribute('aria-live','polite');
-  const rall=el('button','','Read text from image(s)');
-  const clr=el('button','danger','Remove all');
-  const ctr=el('div','grp');ctr.append(add,rall,clr);
-  let busy=false;
-  const draw=()=>{
-    tw.textContent='';
+  const pnote=el('p','lbl');
+  const live=el('p','lbl');live.setAttribute('role','status');live.setAttribute('aria-live','polite');live.style.cssText='position:absolute;left:-9999px';
+  const draw=(focus)=>{
+    tw.textContent='';const btns=new Map();
     imgs.forEach((m,k)=>{
       const r=el('div');r.style.cssText='display:flex;gap:10px;align-items:flex-start;flex-wrap:wrap;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg)';
-      const im=el('img');im.src=m.url;im.alt='Lesson page '+(k+1)+': '+m.file.name;im.style.cssText='width:84px;height:84px;object-fit:cover;border-radius:6px;border:1px solid var(--line);background:var(--panel)';
-      im.onerror=()=>{im.style.display='none';m.noPreview=true;nm.textContent=m.file.name+' (no preview in this browser)'};
-      const col=el('div');col.style.cssText='flex:1;min-width:180px;display:flex;flex-direction:column;gap:6px';
+      const nb=el('b','',String(k+1));nb.style.cssText='min-width:1.6em;height:1.6em;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:flex;align-items:center;justify-content:center;font-size:.85rem;flex:none';nb.setAttribute('aria-hidden','true');
+      const im=el('img');im.src=m.url;im.alt='Page '+(k+1)+': '+m.file.name;im.style.cssText='width:84px;height:84px;object-fit:cover;border-radius:6px;border:1px solid var(--line);background:var(--panel);flex:none';
       const nm=el('span','lbl',m.file.name);
-      const note=el('input');note.type='text';note.value=m.note||'';note.placeholder='Note (optional), e.g. Unit 4, page 30';note.setAttribute('aria-label','Note for image '+(k+1));
+      im.onerror=()=>{im.style.display='none';nm.textContent=m.file.name+' (no preview in this browser)'};
+      const col=el('div');col.style.cssText='flex:1;min-width:180px;display:flex;flex-direction:column;gap:6px';
+      const note=el('input');note.type='text';note.value=m.note||'';note.placeholder='Note (optional), e.g. Unit 4, page 30';note.setAttribute('aria-label','Note for page '+(k+1));
       note.style.cssText='width:100%;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 8px';
       note.oninput=()=>{m.note=note.value};
-      const bt=el('div','grp'),rd=el('button','',m.read?'Read again':'Read text'),rm=el('button','danger','Remove');
-      rd.onclick=()=>readText([m]);
-      rm.onclick=()=>{if(busy)return;URL.revokeObjectURL(m.url);imgs.splice(imgs.indexOf(m),1);draw()};
-      rd.disabled=rm.disabled=busy;
-      bt.append(rd,rm);col.append(nm,note,bt);r.append(im,col);tw.append(r)});
-    rall.disabled=busy||!imgs.length;rall.hidden=!imgs.length;clr.hidden=!imgs.length;clr.disabled=busy;
-    pnote.hidden=!imgs.length;pnote.textContent=imgs.length?'In Step 2, copy the prompt, then attach the same '+imgs.length+' image'+(imgs.length>1?'s':'')+' in Claude or ChatGPT. The images stay in this browser tab only and are not saved with the plan.':'';
+      const bt=el('div','grp'),up=el('button','','\u25B2 Up'),dn=el('button','','\u25BC Down'),rm=el('button','danger','Remove');
+      up.setAttribute('aria-label','Move page '+(k+1)+' up');dn.setAttribute('aria-label','Move page '+(k+1)+' down');rm.setAttribute('aria-label','Remove page '+(k+1));
+      up.disabled=k===0;dn.disabled=k===imgs.length-1;
+      up.onclick=()=>{const i=imgs.indexOf(m);if(i<1)return;imgs.splice(i,1);imgs.splice(i-1,0,m);draw({m,d:'up'});live.textContent='Moved to position '+i+' of '+imgs.length+'.'};
+      dn.onclick=()=>{const i=imgs.indexOf(m);if(i<0||i>=imgs.length-1)return;imgs.splice(i,1);imgs.splice(i+1,0,m);draw({m,d:'dn'});live.textContent='Moved to position '+(i+2)+' of '+imgs.length+'.'};
+      rm.onclick=()=>{URL.revokeObjectURL(m.url);imgs.splice(imgs.indexOf(m),1);draw()};
+      btns.set(m,{up,dn});bt.append(up,dn,rm);col.append(nm,note,bt);r.append(nb,im,col);tw.append(r)});
+    srt.hidden=imgs.length<2;clr.hidden=!imgs.length;
+    pnote.hidden=!imgs.length;
+    pnote.textContent=imgs.length?'Page 1 is first in the prompt. In Step 2, copy the prompt, then attach the same '+imgs.length+' image'+(imgs.length>1?'s':'')+' in Claude or ChatGPT in this order. The images stay in this browser tab only and are not saved with the plan.':'';
+    if(focus){const b=btns.get(focus.m);if(b){const t=!b[focus.d].disabled?b[focus.d]:(focus.d==='up'?b.dn:b.up);if(!t.disabled)t.focus()}}
   };
-  const pnote=el('p','lbl');
   fi.onchange=()=>{
     let rej=0;[...fi.files].forEach(f=>{
       if(!/^image\//.test(f.type)&&!/\.(jpe?g|png|webp|gif|bmp|heic|heif)$/i.test(f.name)){rej++;return}
-      if(f.size>20*1024*1024){rej++;return}
-      if(imgs.length>=8){rej++;return}
-      imgs.push({file:f,url:URL.createObjectURL(f),note:'',read:false})});
-    fi.value='';if(rej)toast(rej+' file'+(rej>1?'s were':' was')+' not added (images only, up to 8 images, 20 MB each).');draw();
+      if(f.size>20*1024*1024||imgs.length>=12){rej++;return}
+      imgs.push({file:f,url:URL.createObjectURL(f),note:''})});
+    fi.value='';if(rej)toast(rej+' file'+(rej>1?'s were':' was')+' not added (images only, up to 12 images, 20 MB each).');draw();
   };
-  clr.onclick=()=>{if(busy)return;imgs.splice(0).forEach(m=>URL.revokeObjectURL(m.url));draw()};
-  rall.onclick=()=>readText(imgs.slice());
-  const ta=el('textarea');ta.rows=7;ta.value=p.src;ta.setAttribute('aria-label','Lesson source text');
-  ta.placeholder='Lesson source text (optional). Read it from the images above, or paste or type it here. It is added to the prompt automatically.';
-  ta.style.cssText='width:100%;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;color:var(--ink);font:inherit';
-  const sbox=el('div');
-  ta.oninput=()=>{p.src=ta.value;api.touch();sug.hidden=true};
-  const ctl=el('div','grp'),sb=el('button','','Suggest topic and language focus'),cs2=el('button','danger','Clear source text');
-  ctl.append(sb,cs2);
-  const sug=el('div','exp');sug.hidden=true;
-  cs2.onclick=()=>{if(!p.src.trim())return;if(!confirm('Clear the lesson source text?'))return;p.src='';ta.value='';sug.hidden=true;api.touch()};
-  sb.onclick=()=>{
-    if(p.src.trim().length<20){toast('Add some lesson source text first.');return}
-    const g=suggestFromText(p.src);sug.textContent='';sug.hidden=false;
-    sug.append(el('b','','Suggestions (guessed from the text). Edit them, then confirm.'));
-    const mk=(lab,val,cur)=>{const l=el('label','lpf');l.append(el('span','lpl',lab));const x=el('input');x.type='text';x.value=val;x.style.cssText='width:100%;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 8px';l.append(x);if((cur||'').trim())l.append(el('span','lbl','Now: '+cur));return[l,x]};
-    const[l1,i1]=mk('Lesson topic',g.topic,p.info.topic),[l2,i2]=mk('Language focus',g.lang,p.lang);
-    const ok=el('button','primary','Use these'),no=el('button','','Cancel');
-    ok.onclick=()=>{let n=0;if(i1.value.trim()){p.info.topic=i1.value.trim();n++}if(i2.value.trim()){p.lang=i2.value.trim();n++}
-      if(!n){toast('Nothing to apply.');return}api.touch();toast('Topic and language focus updated.');keep();api.reopen()};
-    no.onclick=()=>{sug.hidden=true};
-    const bb=el('div','grp');bb.style.marginTop='8px';bb.append(ok,no);sug.append(l1,l2,bb);
-  };
-  async function readText(list){
-    if(busy||!list.length)return;busy=true;draw();let worker=null;
-    try{
-      stat.textContent='Downloading the reading engine (first time only, several megabytes)...';
-      await loadTesseract();
-      let curName='';
-      worker=await Tesseract.createWorker('eng',1,{logger:m=>{
-        if(m.status==='recognizing text')stat.textContent='Reading '+curName+': '+Math.round((m.progress||0)*100)+'%';
-        else if(/load|initiali/i.test(m.status||''))stat.textContent='Preparing the reading engine (first time only)...'}});
-      let added=0;const warn=[];
-      for(let k=0;k<list.length;k++){
-        const m=list[k],lab=(m.note||'').trim()||m.file.name;curName='image '+(imgs.indexOf(m)+1)+' of '+imgs.length;
-        stat.textContent='Preparing '+curName+'...';
-        const blob=await prepForOCR(m.url);
-        const r=await worker.recognize(blob),t=tidyOCR(r.data&&r.data.text);
-        if(t.length<25){warn.push(lab+': almost no text found');continue}
-        p.src=(p.src.trim()?p.src.trim()+'\n\n':'')+'['+lab+']\n'+t;m.read=true;added++;
-        if((r.data.confidence||0)<70)warn.push(lab+': low confidence ('+Math.round(r.data.confidence)+'%), check it carefully');
-      }
-      ta.value=p.src;api.touch();_kwCache.k=null;
-      stat.textContent=(added?'Done. Text from '+added+' image'+(added>1?'s':'')+' was added to the Lesson source box below. Please read it and correct any mistakes.':'No text was added.')+(warn.length?' Warnings: '+warn.join('; ')+'. Handwriting, tables, columns, pictures with text and tilted or dark photos are hard to read: a straight, well-lit photo works best.':'');
-    }catch(e){
-      stat.textContent='Could not read the text: '+(e&&e.message?e.message:'unknown error')+'. If you are offline, connect to the internet once; the first reading needs to download the engine. You can also type or paste the text into the box below.';
-    }finally{try{if(worker)await worker.terminate()}catch(_){}busy=false;draw()}
-  }
-  w.append(ctr,fi,tw,pnote,stat,el('h3','','Lesson source text'),el('p','lbl','The text is read in your browser and the image stays on your device. The first time it needs internet to download a reading engine and English language data (several megabytes). It works well on printed, clearly photographed pages. Always read the text and correct it before you use it.'),ta,ctl,sug);
-  draw();return w;
+  srt.onclick=()=>{imgs.sort((a,b)=>a.file.name.localeCompare(b.file.name,undefined,{numeric:true,sensitivity:'base'}));draw();live.textContent='Sorted by file name.'};
+  clr.onclick=()=>{if(!confirm('Remove all page images?'))return;imgs.splice(0).forEach(m=>URL.revokeObjectURL(m.url));draw()};
+  w.append(ctr,fi,tw,pnote,live);draw();return w;
 }
 function buildHelper(p,api){
   const w=el('div');
@@ -1141,7 +1029,7 @@ function buildHelper(p,api){
   extra.style.cssText='width:100%;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;color:var(--ink);font:inherit';
   const wl=el('label','lbl'),wc=el('input');wc.type='checkbox';wc.checked=true;wl.style.cssText='display:flex;gap:6px;align-items:center;margin:8px 0';wl.append(wc,document.createTextNode('Include what I have already written in the stages'));
   const cp=el('button','primary','Copy the prompt'),pv=el('button','','Show the prompt'),pre=el('pre');pre.hidden=true;pre.style.cssText='white-space:pre-wrap;overflow-wrap:anywhere;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;font:.85rem/1.5 Figtree,system-ui,sans-serif';
-  const mkp=()=>aiPrompt(p,extra.value,wc.checked,{imgs:(LSRC[api.id]||[]).map(m=>({note:(m.note||'').trim()})),text:p.src||''});
+  const mkp=()=>aiPrompt(p,extra.value,wc.checked,{imgs:(LSRC[api.id]||[]).map(m=>({note:(m.note||'').trim()}))});
   const nImg=()=>(LSRC[api.id]||[]).length;
   cp.onclick=async()=>{try{await navigator.clipboard.writeText(mkp());toast(nImg()?'Prompt copied. Now attach the same '+nImg()+' image'+(nImg()>1?'s':'')+' in your AI chat, then paste the prompt.':'Prompt copied. Paste it into your AI chat.')}catch(e){pre.textContent=mkp();pre.hidden=false;toast('Could not copy. Select the text below and copy it.')}};
   pv.onclick=()=>{if(pre.hidden){pre.textContent=mkp();pre.hidden=false;pv.textContent='Hide the prompt'}else{pre.hidden=true;pv.textContent='Show the prompt'}};
@@ -1220,7 +1108,7 @@ function openL(id){
   box.append(el('h3','','Save, reuse and export'));
   const ac=el('div','grp'),B=(t,f,c)=>{const b=el('button',c||'',t);b.onclick=f;ac.append(b);return b};
   B('Duplicate',()=>{const c=JSON.parse(JSON.stringify(p));c.id=newId();c.created=c.updated=Date.now();c.status='Draft';c.info.topic=(c.info.topic||'Lesson')+' (copy)';c.refl=blankRefl();plans.push(c);savePlans();toast('Copied. You are now editing the copy.');openL(c.id)});
-  B('Save as my template',()=>{const nm=(p.info.topic||'My template').slice(0,40);utpl.push({id:'tp'+Date.now(),name:nm,plan:Object.assign(JSON.parse(JSON.stringify(p)),{src:''})});saveTpl();toast('Saved as a template named "'+nm+'". Find it on the planner home page.')});
+  B('Save as my template',()=>{const nm=(p.info.topic||'My template').slice(0,40);utpl.push({id:'tp'+Date.now(),name:nm,plan:JSON.parse(JSON.stringify(p))});saveTpl();toast('Saved as a template named "'+nm+'". Find it on the planner home page.')});
   B('Print / PDF',()=>{const c=lpPrint(p);document.body.append(c);document.body.classList.add('printing');try{window.print()}catch(e){}setTimeout(()=>{document.body.classList.remove('printing');c.remove()},800)});
   B('Word (.docx)',async()=>{const bl=await lpDocx(p);if(bl)dlBlob(bl,'lesson-plan-'+lpSlug(p)+'.docx')});
   B('Text (.txt)',()=>dlBlob(new Blob([lpText(p)],{type:'text/plain'}),'lesson-plan-'+lpSlug(p)+'.txt'));
