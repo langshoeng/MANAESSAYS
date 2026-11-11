@@ -1105,7 +1105,7 @@ function openL(id){
   d=sec('3. Teaching materials');d.append(T(p.mat,'aids','Teaching aids / resources','Textbook, pictures, flashcards, worksheet, board'),T(p.mat,'tech','Other materials / technology','Audio, projector, phone, paper'));
   d=sec('Resources and links (optional)');d.append(buildResources(p,touch,id));
   d=sec('4. Lesson procedure',true);const sb=el('div'),tot=el('p','lbl','');
-  const updTot=()=>{const t=p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0),du=parseInt(p.info.duration)||0;tot.textContent='Total lesson time: '+t+' of '+du+' minutes'+(du&&t!==du?' - the stage times do not match the lesson duration':'');tot.style.color=(du&&t!==du)?'var(--danger)':'';tot.style.fontWeight=600};
+  const updTot=()=>{const t=p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0),du=parseInt(p.info.duration)||0;tot.textContent='Total lesson time: '+t+' of '+du+' minutes'+(du&&t!==du?' - the stage times do not match the lesson duration (edit the minutes or use "Fit stage times")':'');tot.style.color=(du&&t!==du)?'var(--danger)':'';tot.style.fontWeight=600};
   const games=gmsecs.filter(x=>x.group!=='Start here'&&x.group!=='Classroom tools');
   const drawStages=()=>{sb.textContent='';p.stages.forEach((x,k)=>{
     const c=el('div','stg'),r1=el('div','trow'),nm=el('input');nm.value=x.name;nm.setAttribute('aria-label','Stage name');nm.oninput=()=>{x.name=nm.value;touch()};
@@ -1120,7 +1120,25 @@ function openL(id){
       gs.onchange=()=>{if(!gs.value)return;x.t=(x.t?x.t+'\n':'')+'Game: '+gs.value+' (see the Games section)';touch();drawStages()};r2.append(gs)}
     c.append(r2);sb.append(c)});updTot()};
   const as=el('button','','Add a stage');as.onclick=()=>{p.stages.push({name:(p.stages.length+1)+'. New stage',min:5,ht:'',hs:'',t:'',s:'',pattern:'Whole class'});touch();drawStages()};
-  d.append(sb,as,tot);drawStages();
+  const fit=el('button','','Fit stage times to the lesson duration');
+  fit.onclick=()=>{
+    const du=parseInt(p.info.duration)||0;if(du<=0){toast('Enter the lesson duration first.');return}
+    const st=p.stages;if(!st.length)return;
+    const mins=st.map(x=>Math.max(0,parseInt(x.min)||0)),tot=mins.reduce((a,b)=>a+b,0);
+    if(tot===du){toast('The stage times already add up to '+du+' minutes.');return}
+    let nm;
+    if(tot===0){const b=Math.floor(du/st.length);nm=st.map(()=>b);for(let k=0,r=du-b*st.length;r>0;k++,r--)nm[k%st.length]++}
+    else{
+      const raw=mins.map(m=>m*du/tot);nm=raw.map(Math.floor);
+      const ord=raw.map((v,k)=>[v-Math.floor(v),k]).sort((a,b)=>b[0]-a[0]);
+      for(let k=0,r=du-nm.reduce((a,b)=>a+b,0);r>0;k++,r--)nm[ord[k%ord.length][1]]++;
+      mins.forEach((m,k)=>{if(m>0&&nm[k]<1)nm[k]=1});
+      let ex=nm.reduce((a,b)=>a+b,0)-du;
+      while(ex>0){let bi=0;nm.forEach((v,k)=>{if(v>nm[bi])bi=k});if(nm[bi]<=1)break;nm[bi]--;ex--}
+    }
+    st.forEach((x,k)=>{x.min=nm[k]});touch();drawStages();toast('Stage times now add up to '+du+' minutes.');
+  };
+  d.append(sb,as,fit,tot);drawStages();
   hd.append(buildHelper(p,{touch,redraw:()=>{drawStages()},reopen:()=>openL(id),id}));
   d=sec('5. Assessment and checking understanding');d.append(C(p.assess.methods,'Assessment method',LAM),T(p.assess,'evidence','Evidence that students achieved the objectives','e.g. 8 of 10 learners write correct sentences in the final task'),T(p.assess,'errors','Common errors or difficulties to watch for','e.g. forgetting -ed; mixing was / were'));
   d=sec('6. Differentiation and student support');d.append(T(p.diff,'support','Support for students who need help','Sentence starters, pictures, pairing with a stronger partner'),T(p.diff,'extension','Extension activities for advanced students','An extra writing task, or a harder question set'));
