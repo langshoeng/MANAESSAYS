@@ -586,61 +586,98 @@ function planChecks(p){
    [p.stages.length>=3&&p.stages.every(x=>x.t.trim()&&x.s.trim()),'Every stage has teacher and student activities'],[dur>0&&tot===dur,'Stage times add up to the lesson duration ('+tot+' of '+dur+' minutes)'],
    [!!(p.mat.aids.trim()||p.mat.tech.trim()),'Materials are listed'],[p.assess.methods.length>0&&!!p.assess.evidence.trim(),'Assessment method and evidence are noted'],[!!(p.hw.task.trim()||p.hw.instr.trim()),'Homework or follow-up is planned']];
 }
+/* ===== Plan language (English / Khmer): wording used only in the AI prompt and in exports =====
+   All Khmer wording is in the two tables below (KM_T for labels, KM_V for values), so any term can be corrected here. */
+const KM_T={
+ 'Lesson Plan':'កិច្ចតែងការបង្រៀន','Untitled lesson':'មេរៀនគ្មានចំណងជើង','Topic':'ប្រធានបទ',
+ '1. General information':'១. ព័ត៌មានទូទៅ','2. Learning objectives':'២. គោលបំណងមេរៀន','3. Teaching materials':'៣. សម្ភារៈបង្រៀន','4. Lesson procedure':'៤. ដំណើរការមេរៀន',
+ '5. Assessment and checking understanding':'៥. ការវាយតម្លៃ និងការពិនិត្យការយល់ដឹង','6. Differentiation and student support':'៦. ការគាំទ្រ និងការបែងចែកតាមសមត្ថភាពសិស្ស','7. Homework / follow-up':'៧. កិច្ចការផ្ទះ / ការបន្តសកម្មភាព',"8. Teacher's reflection":'៨. ការឆ្លុះបញ្ចាំងរបស់គ្រូ',
+ 'Teacher':'គ្រូបង្រៀន',"Teacher's name":'ឈ្មោះគ្រូបង្រៀន','School':'សាលារៀន','Class / grade':'ថ្នាក់ / កម្រិតថ្នាក់','English level':'កម្រិតភាសាអង់គ្លេស','Level':'កម្រិត',
+ 'Date':'កាលបរិច្ឆេទ','Duration':'រយៈពេល','Lesson duration':'រយៈពេលមេរៀន','minutes':'នាទី','min':'នាទី',
+ 'Subject / skill':'មុខវិជ្ជា / ជំនាញ','Subject':'មុខវិជ្ជា','Skills':'ជំនាញ','Unit / lesson no.':'ជំពូក / មេរៀនលេខ','Lesson topic':'ប្រធានបទមេរៀន','Textbook / pages':'សៀវភៅសិក្សា / ទំព័រ',
+ 'By the end of the lesson, students will be able to:':'នៅចុងបញ្ចប់នៃមេរៀននេះ សិស្សនឹងអាច៖','Previous knowledge':'ចំណេះដឹងមុន','Language focus':'ការផ្តោតលើភាសា','Key terms / concepts':'ពាក្យគន្លឹះ / គោលគំនិត',
+ 'Teaching aids / resources':'សម្ភារៈឧបទេស / ធនធាន','Other materials / technology':'សម្ភារៈផ្សេងៗ / បច្ចេកវិទ្យា','Resources and links':'ធនធាន និងតំណភ្ជាប់',
+ 'Students':'សិស្ស','Stage':'ដំណាក់កាល','Time':'ពេលវេលា',"Teacher's activities":'សកម្មភាពរបស់គ្រូ',"Students' activities":'សកម្មភាពរបស់សិស្ស','Total lesson time':'រយៈពេលសរុបនៃមេរៀន',
+ 'Assessment method':'វិធីសាស្ត្រវាយតម្លៃ','Evidence that students achieved the objectives':'ភស្តុតាងដែលបង្ហាញថាសិស្សសម្រេចបានគោលបំណង','Common errors or difficulties to watch for':'កំហុស ឬការលំបាកទូទៅដែលត្រូវកត់សម្គាល់','Common errors or difficulties':'កំហុស ឬការលំបាកទូទៅ',
+ 'Support for students who need help':'ការជួយសិស្សដែលត្រូវការជំនួយ','Extension activities for advanced students':'សកម្មភាពបន្ថែមសម្រាប់សិស្សពូកែ','Support':'ការជួយ','Extension':'សកម្មភាពបន្ថែម',
+ 'Homework / additional practice':'កិច្ចការផ្ទះ / លំហាត់បន្ថែម','Instructions / textbook pages':'ការណែនាំ / ទំព័រសៀវភៅ','Homework':'កិច្ចការផ្ទះ','Instructions / pages':'ការណែនាំ / ទំព័រ',
+ 'What went well?':'តើអ្វីដែលដំណើរការបានល្អ?','What difficulties did students have?':'តើសិស្សជួបការលំបាកអ្វីខ្លះ?','Were the objectives achieved?':'តើគោលបំណងសម្រេចបានដែរឬទេ?','What should I improve next time?':'តើខ្ញុំគួរកែលម្អអ្វីនៅលើកក្រោយ?',
+ 'Follow-up lesson / next steps':'មេរៀនបន្ត / ជំហានបន្ទាប់',"Teacher's notes":'កំណត់ចំណាំរបស់គ្រូ','Date completed':'កាលបរិច្ឆេទបញ្ចប់'
+};
+const KM_V={
+ 'Whole class':'ទាំងថ្នាក់','Pairs':'ជាគូ','Small groups':'ក្រុមតូច','Individual':'ជាបុគ្គល','Mixed':'ចម្រុះ',
+ 'Questions':'សំណួរ','Observation':'ការសង្កេត','Exercises':'លំហាត់','Quiz':'តេស្តខ្លី','Pair / group work':'ការងារជាគូ / ជាក្រុម','Other':'ផ្សេងៗ',
+ 'Grammar':'វេយ្យាករណ៍','Vocabulary':'វាក្យសព្ទ','Reading':'ការអាន','Writing':'ការសរសេរ','Listening':'ការស្តាប់','Speaking':'ការនិយាយ','General English':'ភាសាអង់គ្លេសទូទៅ',
+ 'English':'ភាសាអង់គ្លេស','Maths':'គណិតវិទ្យា','Physics':'រូបវិទ្យា','Chemistry':'គីមីវិទ្យា','Biology':'ជីវវិទ្យា','History':'ប្រវត្តិវិទ្យា','Geography':'ភូមិវិទ្យា','Khmer Literature':'អក្សរសាស្ត្រខ្មែរ','Moral and Civics':'សីលធម៌-ពលរដ្ឋវិជ្ជា'
+};
+const KM_FONT="'Khmer OS Battambang','Noto Sans Khmer','Khmer UI','Leelawadee UI','Khmer MN','Noto Serif Khmer',Figtree,Arial,sans-serif";
+const isKm=p=>p.plang==='km';
+const lx=(p,x)=>isKm(p)?(KM_T[x]||x):x;
+const lv=(p,x)=>isKm(p)?(KM_V[x]||x):x;
 const lpSubj=p=>p.other?(p.subject||'').trim():'English';
-const lpTitle=p=>(lpSubj(p)?lpSubj(p)+' ':'')+'Lesson Plan';
-const lpLvl=p=>p.other?'Level':'English level';
-const lpSk=p=>p.other?'Subject':'Subject / skill';
-const lpLang=p=>p.other?'Key terms / concepts':'Language focus';
+const lpTitle=p=>isKm(p)?KM_T['Lesson Plan']+(lpSubj(p)?' '+lv(p,lpSubj(p)):''):(lpSubj(p)?lpSubj(p)+' ':'')+'Lesson Plan';
+const lpLvl=p=>lx(p,p.other?'Level':'English level');
+const lpSk=p=>lx(p,p.other?'Subject':'Subject / skill');
+const lpLang=p=>lx(p,p.other?'Key terms / concepts':'Language focus');
+/* Plan language selector (English or Khmer): changes only the AI prompt and the exports */
+function planLangField(p,touch){
+  const l=el('label','lpf');l.append(el('span','lpl','Plan language (for the AI prompt and the Print, Word and Text exports)'));
+  const x=el('select');[['en','English'],['km','Khmer (\u1797\u17B6\u179F\u17B6\u1781\u17D2\u1798\u17C2\u179A)']].forEach(([k,n])=>x.append(new Option(n,k)));
+  x.value=p.plang==='km'?'km':'en';x.onchange=()=>{p.plang=x.value;touch()};l.append(x);return l;
+}
 function lpText(p){
-  const i=p.info,L=[];const H=t=>{L.push('','== '+t+' ==')};
-  L.push(lpTitle(p).toUpperCase(),'Topic: '+(i.topic||'-'));H('1. General information');
-  L.push("Teacher: "+i.teacher,'School: '+i.school,'Class / grade: '+i.grade,lpLvl(p)+': '+i.level,'Date: '+i.date+(i.time?' '+i.time:''),'Duration: '+i.duration+' minutes',(p.other?'Subject':'Skills')+': '+i.skills.join(', '),'Unit / lesson no.: '+i.unit,'Textbook / pages: '+i.book);
-  H('2. Learning objectives');L.push('By the end of the lesson, students will be able to:');p.obj.filter(x=>x.trim()).forEach((x,k)=>L.push((k+1)+'. '+x));L.push('Previous knowledge: '+p.prev,lpLang(p)+': '+p.lang);
-  H('3. Teaching materials');L.push('Teaching aids / resources: '+p.mat.aids,'Other materials / technology: '+p.mat.tech);
-  if((p.res||[]).length){L.push('Resources and links:');resLines(p).forEach(x=>L.push('  - '+x))}
-  H('4. Lesson procedure');p.stages.forEach(x=>{L.push('',x.name+' ('+(x.min||0)+' min, '+x.pattern+')','  Teacher: '+x.t.replace(/\n/g,'\n           '),'  Students: '+x.s.replace(/\n/g,'\n            '))});
-  L.push('','Total lesson time: '+p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0)+' minutes');
-  H('5. Assessment and checking understanding');L.push('Assessment method: '+p.assess.methods.join(', '),'Evidence that students achieved the objectives: '+p.assess.evidence,'Common errors or difficulties to watch for: '+p.assess.errors);
-  H('6. Differentiation and student support');L.push('Support for students who need help: '+p.diff.support,'Extension activities for advanced students: '+p.diff.extension);
-  H('7. Homework / follow-up');L.push('Homework / additional practice: '+p.hw.task,'Instructions / textbook pages: '+p.hw.instr);
-  H("8. Teacher's reflection");const r=p.refl;L.push('What went well? '+r.well,'What difficulties did students have? '+r.diff,'Were the objectives achieved? '+r.achieved,'What should I improve next time? '+r.improve,'Follow-up lesson / next steps: '+r.next,"Teacher's notes: "+r.notes,'Date completed: '+r.done);
+  const t=x=>lx(p,x),v=x=>lv(p,x),c=(k,x)=>t(k)+': '+x,i=p.info,L=[];const H=x=>{L.push('','== '+t(x)+' ==')};
+  L.push(lpTitle(p).toUpperCase(),c('Topic',i.topic||'-'));H('1. General information');
+  L.push(c('Teacher',i.teacher),c('School',i.school),c('Class / grade',i.grade),lpLvl(p)+': '+i.level,c('Date',i.date+(i.time?' '+i.time:'')),t('Duration')+': '+i.duration+' '+t('minutes'),(p.other?t('Subject'):t('Skills'))+': '+i.skills.map(v).join(', '),c('Unit / lesson no.',i.unit),c('Textbook / pages',i.book));
+  H('2. Learning objectives');L.push(t('By the end of the lesson, students will be able to:'));p.obj.filter(x=>x.trim()).forEach((x,k)=>L.push((k+1)+'. '+x));L.push(c('Previous knowledge',p.prev),lpLang(p)+': '+p.lang);
+  H('3. Teaching materials');L.push(c('Teaching aids / resources',p.mat.aids),c('Other materials / technology',p.mat.tech));
+  if((p.res||[]).length){L.push(t('Resources and links')+':');resLines(p).forEach(x=>L.push('  - '+x))}
+  H('4. Lesson procedure');p.stages.forEach(x=>{L.push('',x.name+' ('+(x.min||0)+' '+t('min')+', '+v(x.pattern)+')','  '+t('Teacher')+': '+x.t.replace(/\n/g,'\n           '),'  '+t('Students')+': '+x.s.replace(/\n/g,'\n            '))});
+  L.push('',c('Total lesson time',p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0)+' '+t('minutes')));
+  H('5. Assessment and checking understanding');L.push(c('Assessment method',p.assess.methods.map(v).join(', ')),c('Evidence that students achieved the objectives',p.assess.evidence),c('Common errors or difficulties to watch for',p.assess.errors));
+  H('6. Differentiation and student support');L.push(c('Support for students who need help',p.diff.support),c('Extension activities for advanced students',p.diff.extension));
+  H('7. Homework / follow-up');L.push(c('Homework / additional practice',p.hw.task),c('Instructions / textbook pages',p.hw.instr));
+  H("8. Teacher's reflection");const r=p.refl;L.push(t('What went well?')+' '+r.well,t('What difficulties did students have?')+' '+r.diff,t('Were the objectives achieved?')+' '+r.achieved,t('What should I improve next time?')+' '+r.improve,c('Follow-up lesson / next steps',r.next),c("Teacher's notes",r.notes),c('Date completed',r.done));
   return L.join('\n');
 }
 function lpPrint(p){
-  const c=el('div','bprint lpprint'),i=p.info;
-  const T=(rows,w)=>{const t=el('table');rows.forEach((r,ri)=>{const tr=el('tr');r.forEach(x=>{const td=el(ri===0&&w==='head'?'th':'td','',x);td.style.whiteSpace='pre-wrap';tr.append(td)});t.append(tr)});return t};
-  c.append(el('h1','',lpTitle(p)),el('h2','',i.topic||'Untitled lesson'));
-  c.append(el('h3','','1. General information'),T([["Teacher's name",i.teacher,'School',i.school],['Class / grade',i.grade,lpLvl(p),i.level],['Date',i.date+(i.time?' '+i.time:''),'Lesson duration',i.duration+' min'],[lpSk(p),i.skills.join(', '),'Unit / lesson no.',i.unit],['Lesson topic',i.topic,'Textbook / pages',i.book]]));
-  c.append(el('h3','','2. Learning objectives'),el('p','','By the end of the lesson, students will be able to:'));const ol=el('ol');p.obj.filter(x=>x.trim()).forEach(x=>ol.append(el('li','',x)));c.append(ol,el('p','','Previous knowledge: '+p.prev),el('p','',lpLang(p)+': '+p.lang));
-  c.append(el('h3','','3. Teaching materials'),el('p','','Teaching aids / resources: '+p.mat.aids),el('p','','Other materials / technology: '+p.mat.tech));
-  if((p.res||[]).length){c.append(el('p','','Resources and links:'));const ul2=el('ul');resLines(p).forEach(x=>ul2.append(el('li','',x)));c.append(ul2)}
-  c.append(el('h3','','4. Lesson procedure'),T([['Stage','Time',"Teacher's activities","Students' activities"]].concat(p.stages.map(x=>[x.name+'\n('+x.pattern+')',(x.min||0)+' min',x.t,x.s])),'head'),el('p','','Total lesson time: '+p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0)+' minutes'));
-  c.append(el('h3','','5. Assessment and checking understanding'),el('p','','Assessment method: '+p.assess.methods.join(', ')),el('p','','Evidence that students achieved the objectives: '+p.assess.evidence),el('p','','Common errors or difficulties: '+p.assess.errors));
-  c.append(el('h3','','6. Differentiation and student support'),el('p','','Support: '+p.diff.support),el('p','','Extension: '+p.diff.extension));
-  c.append(el('h3','','7. Homework / follow-up'),el('p','','Homework: '+p.hw.task),el('p','','Instructions / pages: '+p.hw.instr));
-  const r=p.refl;c.append(el('h3','',"8. Teacher's reflection"),T([['What went well?',r.well],['What difficulties did students have?',r.diff],['Were the objectives achieved?',r.achieved],['What should I improve next time?',r.improve],['Follow-up lesson / next steps',r.next],["Teacher's notes",r.notes],['Date completed',r.done]]));
+  const t=x=>lx(p,x),v=x=>lv(p,x),c=el('div','bprint lpprint'),i=p.info;
+  if(isKm(p)){c.style.fontFamily=KM_FONT;c.style.lineHeight='1.6'}
+  const T=(rows,w)=>{const tb=el('table');rows.forEach((r,ri)=>{const tr=el('tr');r.forEach(x=>{const td=el(ri===0&&w==='head'?'th':'td','',x);td.style.whiteSpace='pre-wrap';tr.append(td)});tb.append(tr)});return tb};
+  c.append(el('h1','',lpTitle(p)),el('h2','',i.topic||t('Untitled lesson')));
+  c.append(el('h3','',t('1. General information')),T([[t("Teacher's name"),i.teacher,t('School'),i.school],[t('Class / grade'),i.grade,lpLvl(p),i.level],[t('Date'),i.date+(i.time?' '+i.time:''),t('Lesson duration'),i.duration+' '+t('min')],[lpSk(p),i.skills.map(v).join(', '),t('Unit / lesson no.'),i.unit],[t('Lesson topic'),i.topic,t('Textbook / pages'),i.book]]));
+  c.append(el('h3','',t('2. Learning objectives')),el('p','',t('By the end of the lesson, students will be able to:')));const ol=el('ol');p.obj.filter(x=>x.trim()).forEach(x=>ol.append(el('li','',x)));c.append(ol,el('p','',t('Previous knowledge')+': '+p.prev),el('p','',lpLang(p)+': '+p.lang));
+  c.append(el('h3','',t('3. Teaching materials')),el('p','',t('Teaching aids / resources')+': '+p.mat.aids),el('p','',t('Other materials / technology')+': '+p.mat.tech));
+  if((p.res||[]).length){c.append(el('p','',t('Resources and links')+':'));const ul2=el('ul');resLines(p).forEach(x=>ul2.append(el('li','',x)));c.append(ul2)}
+  c.append(el('h3','',t('4. Lesson procedure')),T([[t('Stage'),t('Time'),t("Teacher's activities"),t("Students' activities")]].concat(p.stages.map(x=>[x.name+'\n('+v(x.pattern)+')',(x.min||0)+' '+t('min'),x.t,x.s])),'head'),el('p','',t('Total lesson time')+': '+p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0)+' '+t('minutes')));
+  c.append(el('h3','',t('5. Assessment and checking understanding')),el('p','',t('Assessment method')+': '+p.assess.methods.map(v).join(', ')),el('p','',t('Evidence that students achieved the objectives')+': '+p.assess.evidence),el('p','',t('Common errors or difficulties')+': '+p.assess.errors));
+  c.append(el('h3','',t('6. Differentiation and student support')),el('p','',t('Support')+': '+p.diff.support),el('p','',t('Extension')+': '+p.diff.extension));
+  c.append(el('h3','',t('7. Homework / follow-up')),el('p','',t('Homework')+': '+p.hw.task),el('p','',t('Instructions / pages')+': '+p.hw.instr));
+  const r=p.refl;c.append(el('h3','',t("8. Teacher's reflection")),T([[t('What went well?'),r.well],[t('What difficulties did students have?'),r.diff],[t('Were the objectives achieved?'),r.achieved],[t('What should I improve next time?'),r.improve],[t('Follow-up lesson / next steps'),r.next],[t("Teacher's notes"),r.notes],[t('Date completed'),r.done]]));
   return c;
 }
 async function lpDocx(p){
   if(typeof JSZip==='undefined'){toast('The Word export needs the page to load its helper script. Check your connection.');return null}
-  const X=t=>String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-  const wp=(t,o)=>{o=o||{};const rp=(o.b||o.sz)?'<w:rPr>'+(o.b?'<w:b/>':'')+(o.sz?'<w:sz w:val="'+o.sz+'"/>':'')+'</w:rPr>':'';
-    return '<w:p>'+(o.sp?'<w:pPr><w:spacing w:before="'+o.sp+'" w:after="60"/></w:pPr>':'')+String(t==null?'':t).split('\n').map((l,k)=>'<w:r>'+rp+(k?'<w:br/>':'')+'<w:t xml:space="preserve">'+X(l)+'</w:t></w:r>').join('')+'</w:p>'};
+  const t=x=>lx(p,x),v=x=>lv(p,x),km=isKm(p);
+  const X=q=>String(q==null?'':q).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const wp=(q,o)=>{o=o||{};
+    const rp=km?'<w:rPr><w:rFonts w:cs="Khmer UI"/>'+(o.b?'<w:b/><w:bCs/>':'')+(o.sz?'<w:sz w:val="'+o.sz+'"/><w:szCs w:val="'+o.sz+'"/>':'')+'<w:lang w:bidi="km-KH"/></w:rPr>':((o.b||o.sz)?'<w:rPr>'+(o.b?'<w:b/>':'')+(o.sz?'<w:sz w:val="'+o.sz+'"/>':'')+'</w:rPr>':'');
+    return '<w:p>'+(o.sp?'<w:pPr><w:spacing w:before="'+o.sp+'" w:after="60"/></w:pPr>':'')+String(q==null?'':q).split('\n').map((l,k)=>'<w:r>'+rp+(k?'<w:br/>':'')+'<w:t xml:space="preserve">'+X(l)+'</w:t></w:r>').join('')+'</w:p>'};
   const cell=(c,w)=>'<w:tc><w:tcPr><w:tcW w:w="'+w+'" w:type="dxa"/>'+(c.shade?'<w:shd w:val="clear" w:color="auto" w:fill="E7EEF2"/>':'')+'</w:tcPr>'+wp(c.t,c)+'</w:tc>';
   const tbl=(rows,ws)=>'<w:tbl><w:tblPr><w:tblW w:w="'+ws.reduce((a,b)=>a+b,0)+'" w:type="dxa"/><w:tblBorders>'+['top','left','bottom','right','insideH','insideV'].map(k=>'<w:'+k+' w:val="single" w:sz="4" w:space="0" w:color="888888"/>').join('')+'</w:tblBorders><w:tblLayout w:type="fixed"/></w:tblPr><w:tblGrid>'+ws.map(w=>'<w:gridCol w:w="'+w+'"/>').join('')+'</w:tblGrid>'+rows.map(r=>'<w:tr>'+r.map((c,k)=>cell(typeof c==='string'?{t:c}:c,ws[k])).join('')+'</w:tr>').join('')+'</w:tbl>';
-  const lab=t=>({t,b:1,shade:1}),i=p.info,r=p.refl,H=t=>wp(t,{b:1,sz:26,sp:200});
+  const lab=q=>({t:q,b:1,shade:1}),i=p.info,r=p.refl,H=q=>wp(q,{b:1,sz:26,sp:200});
   let b='';
-  b+=wp(lpTitle(p).toUpperCase(),{b:1,sz:36})+wp(i.topic||'Untitled lesson',{sz:26});
-  b+=H('1. General information')+tbl([[lab("Teacher's name"),i.teacher,lab('School'),i.school],[lab('Class / grade'),i.grade,lab(lpLvl(p)),i.level],[lab('Date'),i.date+(i.time?' '+i.time:''),lab('Lesson duration'),i.duration+' minutes'],[lab(lpSk(p)),i.skills.join(', '),lab('Unit / lesson no.'),i.unit],[lab('Lesson topic'),i.topic,lab('Textbook / pages'),i.book]],[1800,2880,1800,2880]);
-  b+=H('2. Learning objectives')+wp('By the end of the lesson, students will be able to:');p.obj.filter(x=>x.trim()).forEach((x,k)=>{b+=wp((k+1)+'. '+x)});b+=wp('Previous knowledge: '+p.prev)+wp(lpLang(p)+': '+p.lang);
-  b+=H('3. Teaching materials')+wp('Teaching aids / resources: '+p.mat.aids)+wp('Other materials / technology: '+p.mat.tech);
-  if((p.res||[]).length){b+=wp('Resources and links:',{b:1});resLines(p).forEach(x=>{b+=wp('- '+x)})}
-  b+=H('4. Lesson procedure')+tbl([[lab('Stage'),lab('Time'),lab("Teacher's activities"),lab("Students' activities")]].concat(p.stages.map(x=>[x.name+'\n('+x.pattern+')',(x.min||0)+' min',x.t,x.s])),[2200,900,3130,3130]);
-  b+=wp('Total lesson time: '+p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0)+' minutes',{b:1,sp:100});
-  b+=H('5. Assessment and checking understanding')+wp('Assessment method: '+p.assess.methods.join(', '))+wp('Evidence that students achieved the objectives: '+p.assess.evidence)+wp('Common errors or difficulties to watch for: '+p.assess.errors);
-  b+=H('6. Differentiation and student support')+wp('Support for students who need help: '+p.diff.support)+wp('Extension activities for advanced students: '+p.diff.extension);
-  b+=H('7. Homework / follow-up')+wp('Homework / additional practice: '+p.hw.task)+wp('Instructions / textbook pages: '+p.hw.instr);
-  b+=H("8. Teacher's reflection")+tbl([[lab('What went well?'),r.well],[lab('What difficulties did students have?'),r.diff],[lab('Were the objectives achieved?'),r.achieved],[lab('What should I improve next time?'),r.improve],[lab('Follow-up lesson / next steps'),r.next],[lab("Teacher's notes"),r.notes],[lab('Date completed'),r.done]],[3000,6360]);
+  b+=wp(lpTitle(p).toUpperCase(),{b:1,sz:36})+wp(i.topic||t('Untitled lesson'),{sz:26});
+  b+=H(t('1. General information'))+tbl([[lab(t("Teacher's name")),i.teacher,lab(t('School')),i.school],[lab(t('Class / grade')),i.grade,lab(lpLvl(p)),i.level],[lab(t('Date')),i.date+(i.time?' '+i.time:''),lab(t('Lesson duration')),i.duration+' '+t('minutes')],[lab(lpSk(p)),i.skills.map(v).join(', '),lab(t('Unit / lesson no.')),i.unit],[lab(t('Lesson topic')),i.topic,lab(t('Textbook / pages')),i.book]],[1800,2880,1800,2880]);
+  b+=H(t('2. Learning objectives'))+wp(t('By the end of the lesson, students will be able to:'));p.obj.filter(x=>x.trim()).forEach((x,k)=>{b+=wp((k+1)+'. '+x)});b+=wp(t('Previous knowledge')+': '+p.prev)+wp(lpLang(p)+': '+p.lang);
+  b+=H(t('3. Teaching materials'))+wp(t('Teaching aids / resources')+': '+p.mat.aids)+wp(t('Other materials / technology')+': '+p.mat.tech);
+  if((p.res||[]).length){b+=wp(t('Resources and links')+':',{b:1});resLines(p).forEach(x=>{b+=wp('- '+x)})}
+  b+=H(t('4. Lesson procedure'))+tbl([[lab(t('Stage')),lab(t('Time')),lab(t("Teacher's activities")),lab(t("Students' activities"))]].concat(p.stages.map(x=>[x.name+'\n('+v(x.pattern)+')',(x.min||0)+' '+t('min'),x.t,x.s])),[2200,900,3130,3130]);
+  b+=wp(t('Total lesson time')+': '+p.stages.reduce((a,x)=>a+(parseInt(x.min)||0),0)+' '+t('minutes'),{b:1,sp:100});
+  b+=H(t('5. Assessment and checking understanding'))+wp(t('Assessment method')+': '+p.assess.methods.map(v).join(', '))+wp(t('Evidence that students achieved the objectives')+': '+p.assess.evidence)+wp(t('Common errors or difficulties to watch for')+': '+p.assess.errors);
+  b+=H(t('6. Differentiation and student support'))+wp(t('Support for students who need help')+': '+p.diff.support)+wp(t('Extension activities for advanced students')+': '+p.diff.extension);
+  b+=H(t('7. Homework / follow-up'))+wp(t('Homework / additional practice')+': '+p.hw.task)+wp(t('Instructions / textbook pages')+': '+p.hw.instr);
+  b+=H(t("8. Teacher's reflection"))+tbl([[lab(t('What went well?')),r.well],[lab(t('What difficulties did students have?')),r.diff],[lab(t('Were the objectives achieved?')),r.achieved],[lab(t('What should I improve next time?')),r.improve],[lab(t('Follow-up lesson / next steps')),r.next],[lab(t("Teacher's notes")),r.notes],[lab(t('Date completed')),r.done]],[3000,6360]);
   const z=new JSZip();
   z.file('[Content_Types].xml','<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/></Types>',{createFolders:false});
   z.file('_rels/.rels','<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/></Relationships>',{createFolders:false});
@@ -912,6 +949,7 @@ function parseAI(text){
     x.pattern=LPAT.find(v=>new RegExp(v.replace(/ /g,'\\s*'),'i').test(x.header))||'';});
   return out;
 }
+const KM_RULE='write the content of every field in Khmer (\u1797\u17B6\u179F\u17B6\u1781\u17D2\u1798\u17C2\u179A); keep the capital-letter labels of the answer layout in English exactly as shown; in every STAGE line keep the part "| number min | interaction" exactly as given in English and digits 0-9, and you may translate only the stage name; keep English words, sentences, vocabulary and model language in English where learners must practise them in English; ';
 function aiPrompt(p,extra,withExisting,src){
   const i=p.info,L=[];src=src||{imgs:[]};const hasImg=src.imgs.length>0,hasSrc=hasImg;
   L.push('I am '+(p.other?(lpSubj(p)?'a teacher of '+lpSubj(p):'a teacher'):'an English teacher')+'. Please help me complete a lesson plan. Answer ONLY in the exact layout shown at the end, so that I can paste it into my lesson planner. Do not use tables. Do not include real student names.','');
@@ -933,7 +971,7 @@ function aiPrompt(p,extra,withExisting,src){
     if(withExisting&&(x.t.trim()||x.s.trim()))L.push('   Teacher so far: '+x.t.trim().replace(/\n/g,' / '),'   Students so far: '+x.s.trim().replace(/\n/g,' / '))});
   L.push('','ANSWER LAYOUT (copy exactly, replace the dots, keep the capital-letter labels):','OBJECTIVES:','1. ...','2. ...','3. ...','PREVIOUS KNOWLEDGE: ...','LANGUAGE FOCUS: ...','MATERIALS: ...','OTHER MATERIALS: ...');
   p.stages.forEach((x,k)=>L.push('STAGE '+(k+1)+' | '+x.name.replace(/^\d+\.\s*/,'')+' | '+(x.min||0)+' min | '+x.pattern,'TEACHER: ...','STUDENTS: ...'));
-  L.push('ASSESSMENT METHODS: (choose from: Questions, Observation, Exercises, Quiz, Pair / group work)','EVIDENCE: ...','COMMON ERRORS: ...','SUPPORT: ...','EXTENSION: ...','HOMEWORK: ...','HOMEWORK INSTRUCTIONS: ...','','Guidelines: '+(p.other?'use clear, simple language; for the LANGUAGE FOCUS field write the key terms, formulas or concepts of the lesson; keep the capital-letter labels of the answer layout in English and write the content in English unless "Other information" asks for another language; ':'use simple English; ')+'keep every field to one to three short sentences; make the activities practical for a classroom with a board and a textbook;'+(hasSrc?' use the exercises on the lesson page as the main activities of the stages and say which exercise to do (for example: Do exercise 3 on page 30);':'')+' make sure the stage times add up to '+i.duration+' minutes.');
+  L.push('ASSESSMENT METHODS: (choose from: Questions, Observation, Exercises, Quiz, Pair / group work)','EVIDENCE: ...','COMMON ERRORS: ...','SUPPORT: ...','EXTENSION: ...','HOMEWORK: ...','HOMEWORK INSTRUCTIONS: ...','','Guidelines: '+(p.other?'use clear, simple language; for the LANGUAGE FOCUS field write the key terms, formulas or concepts of the lesson; '+(isKm(p)?KM_RULE:'keep the capital-letter labels of the answer layout in English and write the content in English unless "Other information" asks for another language; '):(isKm(p)?KM_RULE+'use clear, simple Khmer; ':'use simple English; '))+'keep every field to one to three short sentences; make the activities practical for a classroom with a board and a textbook;'+(hasSrc?' use the exercises on the lesson page as the main activities of the stages and say which exercise to do (for example: Do exercise 3 on page 30);':'')+' make sure the stage times add up to '+i.duration+' minutes.');
   return L.join('\n');
 }
 function buildChanges(p,pa,mode){
@@ -1096,7 +1134,7 @@ function openL(id){
   const chk=()=>{const r=planChecks(p);cl.textContent='';r.forEach(([ok,t])=>cl.append(el('li','',(ok?'\u2713 ':'\u25CB ')+t)));cs.textContent='Plan check: '+r.filter(x=>x[0]).length+' of '+r.length+' done'};
   const hd=el('details','st');hd.append(el('summary','','Plan helper: lesson page, ideas, AI prompt and paste-back'));if(lpKeepOpen){hd.open=true;lpKeepOpen=false}box.append(hd);
   let d=sec('1. General information',true);
-  d.append(I(p.info,'topic','Lesson topic',p.other?'e.g. Solving linear equations':'e.g. Past simple: what I did yesterday','text',v=>{box.querySelector('h1').textContent=v||'Lesson plan'}),I(p.info,'teacher',"Teacher's name",'','text',v=>{prefs.lpTeacher=v;save()}),I(p.info,'school','School','','text',v=>{prefs.lpSchool=v;save()}),I(p.info,'grade','Class / grade','e.g. Grade 8A'),(p.other?I(p.info,'level','Level / stage (optional)','e.g. Grade 8, lower secondary'):S(p.info,'level','English level',LLV)),I(p.info,'date','Date','','date'),I(p.info,'time','Start time (optional)','','time'),I(p.info,'duration','Lesson duration (minutes)','45','number',()=>updTot()),(p.other?I(p,'subject','Subject','e.g. Mathematics','text',v=>{p.info.skills=v.trim()?[v.trim()]:[]}):C(p.info.skills,'Subject / skill',LSK)),I(p.info,'unit','Unit / lesson no.','e.g. Unit 4, Lesson 2'),I(p.info,'book','Textbook / pages',p.other?'e.g. Grade 8 textbook, pp. 30-32':'e.g. English Book 8, pp. 30-32'));
+  d.append(I(p.info,'topic','Lesson topic',p.other?'e.g. Solving linear equations':'e.g. Past simple: what I did yesterday','text',v=>{box.querySelector('h1').textContent=v||'Lesson plan'}),I(p.info,'teacher',"Teacher's name",'','text',v=>{prefs.lpTeacher=v;save()}),I(p.info,'school','School','','text',v=>{prefs.lpSchool=v;save()}),I(p.info,'grade','Class / grade','e.g. Grade 8A'),(p.other?I(p.info,'level','Level / stage (optional)','e.g. Grade 8, lower secondary'):S(p.info,'level','English level',LLV)),I(p.info,'date','Date','','date'),I(p.info,'time','Start time (optional)','','time'),I(p.info,'duration','Lesson duration (minutes)','45','number',()=>updTot()),(p.other?I(p,'subject','Subject','e.g. Mathematics','text',v=>{p.info.skills=v.trim()?[v.trim()]:[]}):C(p.info.skills,'Subject / skill',LSK)),I(p.info,'unit','Unit / lesson no.','e.g. Unit 4, Lesson 2'),I(p.info,'book','Textbook / pages',p.other?'e.g. Grade 8 textbook, pp. 30-32':'e.g. English Book 8, pp. 30-32'),planLangField(p,touch));
   d=sec('2. Learning objectives',true);d.append(el('p','lbl','By the end of the lesson, students will be able to: (start each with a verb such as name, describe, ask, write, compare)'));
   const objs=el('div');d.append(objs);
   const drawObj=()=>{objs.textContent='';p.obj.forEach((x,k)=>{const r=el('div','trow'),ip=el('input');ip.value=x;ip.placeholder=(k+1)+(p.other?'. e.g. explain the main idea in their own words':'. e.g. use the past simple to talk about yesterday');ip.setAttribute('aria-label','Objective '+(k+1));ip.oninput=()=>{p.obj[k]=ip.value;touch()};
@@ -1150,7 +1188,7 @@ function openL(id){
   B('Save as my template',()=>{const nm=(p.info.topic||'My template').slice(0,40);utpl.push({id:'tp'+Date.now(),name:nm,plan:JSON.parse(JSON.stringify(p))});saveTpl();toast('Saved as a template named "'+nm+'". Find it on the planner home page.')});
   B('Print / PDF',()=>{const c=lpPrint(p);document.body.append(c);document.body.classList.add('printing');try{window.print()}catch(e){}setTimeout(()=>{document.body.classList.remove('printing');c.remove()},800)});
   B('Word (.docx)',async()=>{const bl=await lpDocx(p);if(bl)dlBlob(bl,'lesson-plan-'+lpSlug(p)+'.docx')});
-  B('Text (.txt)',()=>dlBlob(new Blob([lpText(p)],{type:'text/plain'}),'lesson-plan-'+lpSlug(p)+'.txt'));
+  B('Text (.txt)',()=>dlBlob(new Blob([(isKm(p)?'\ufeff':'')+lpText(p)],{type:'text/plain'}),'lesson-plan-'+lpSlug(p)+'.txt'));
   B('Copy',async()=>{try{await navigator.clipboard.writeText(lpText(p));toast('Lesson plan copied.')}catch(e){toast('Could not copy. Use Text (.txt) instead.')}});
   let arm=0;const dl=B('Delete',()=>{if(!arm){arm=1;dl.textContent='Click again to delete';dl.classList.add('armed');setTimeout(()=>{arm=0;dl.textContent='Delete';dl.classList.remove('armed')},3000);return}
     plans.splice(plans.indexOf(p),1);savePlans();toast('Lesson plan deleted.');openLHome()},'danger');
