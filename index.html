@@ -1646,7 +1646,9 @@ function renderTList(){
   if(f){
     const hits=allT.filter(t=>(t.t+' '+t.d).toLowerCase().includes(f)).slice(0,80);
     hits.forEach(t=>{const b=el('button','item');b.append(el('b','',t.t),el('small','',t.cat));b.onclick=()=>openT(t.sec,t.t);box.append(b)});
-    if(!hits.length)box.textContent=allT.length?'No terms found.':'Could not load terminology.json. Make sure it is uploaded next to index.html.';
+    const sh=tsecs.filter(x=>x.group==='Education theories'&&x.text&&x.text.includes(f)).slice(0,25);
+    sh.forEach(x=>{const b=el('button','item');b.append(el('b','',x.title),el('small','','Education theories'));b.onclick=()=>openT(x);box.append(b)});
+    if(!hits.length&&!sh.length)box.textContent=allT.length?'No terms found.':'Could not load terminology.json. Make sure it is uploaded next to index.html.';
     return;
   }
   if(allT.length){
@@ -1876,6 +1878,7 @@ const pP=fetch('practice.json').then(r=>r.json()).then(d=>{
 const wP=fetch('guide.json').then(r=>r.json()).then(d=>{wsecs=d.sections||[];wsecs.forEach(s=>{s.text=(s.title+' '+s.blocks.map(wflat).join(' ')).toLowerCase()})}).catch(()=>{});
 const tP=fetch('terminology.json').then(r=>r.json()).then(d=>{
   const secs=d.sections;allT=[];
+  secs.forEach(s=>{if(s.kind==='blocks'&&s.group==='Education theories')s.text=(s.title+' '+s.blocks.map(flat).join(' ')).toLowerCase()});
   secs.forEach(s=>{if(s.kind==='terms')s.terms.forEach(t=>{t.sec=s;t.cat=s.title;allT.push(t)})});
   const k=secs.findIndex(s=>s.kind==='terms');
   tsecs=[...secs.slice(0,k),{id:'must',group:'Quick study',title:'Must-memorize terms (★★★)',kind:'terms'},{id:'saved',group:'Quick study',title:'My saved terms',kind:'terms'},...secs.slice(k)];
