@@ -51,7 +51,8 @@
 "Pick a category from the menu, or search for any term to jump straight to it.",
 "Use \"Must-memorize terms\" to study only the ★★★ terms, grouped by category.",
 "Press Save on a term to add it to \"My saved terms\" for last-minute review.",
-"Switch to Flashcards inside a category: see the term, say the definition aloud, then check."
+"Switch to Flashcards inside a category: see the term, say the definition aloud, then check.",
+"Open “Education theories” at the end of the menu for the main learning theories, taxonomies (including Bloom's), lesson and curriculum models, and classroom strategies, each with branches and classroom implementation. These sections are for reading and teaching practice; they do not change the term count."
 ]
 }
 ]
@@ -2804,6 +2805,2467 @@
 "d": "Combining bottom-up and top-down processing, using both language details and background knowledge.",
 "e": "A reader uses vocabulary clues and topic knowledge together.",
 "p": 2
+}
+]
+},
+{
+"id": "th00",
+"group": "Education theories",
+"title": "Overview: how the theories fit together",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Education theories are tools for thinking, not recipes. Each answers a different question: how people learn, how to set goals and sequence a lesson, how to motivate and manage a class, and why we teach at all. Good teachers combine them. One lesson might use Bloom's levels to write the objectives, Gagné's events to sequence the stages, Vygotsky's scaffolding during practice, and formative feedback to decide what to teach next."
+},
+{
+"t": "h",
+"x": "The four classic families of learning theory"
+},
+{
+"t": "tbl",
+"head": [
+"Family",
+"Learning is…",
+"Teacher's role",
+"Learner's role",
+"Typical classroom activities"
+],
+"rows": [
+[
+"Behaviorism",
+"A change in observable behavior produced by stimulus, response and reinforcement.",
+"Controls the environment; gives cues, feedback and reinforcement.",
+"Responds and practises.",
+"Drills, repetition, praise, rewards, programmed practice, immediate feedback."
+],
+[
+"Cognitivism",
+"Mental processing: attention, memory and the organization of knowledge.",
+"Organizes information, activates prior knowledge, teaches strategies.",
+"Active processor of information.",
+"Advance organizers, concept maps, chunking, mnemonics, retrieval practice."
+],
+[
+"Constructivism",
+"Building new understanding on prior knowledge through experience and social interaction.",
+"Facilitator and guide; designs tasks, questions and scaffolds.",
+"Active constructor; explores, discusses and explains.",
+"Inquiry, projects, group problem-solving, discussion, peer teaching."
+],
+[
+"Humanism",
+"Growth of the whole person, driven by needs, feelings and choice.",
+"Supportive facilitator who builds trust and respect.",
+"Self-directed; makes choices.",
+"Learner choice, reflection, goal setting, a safe and respectful climate."
+]
+]
+},
+{
+"t": "p",
+"x": "Two further ideas sit between these families. Social cognitive theory (Bandura) explains learning from observing others and the role of self-belief. Connectivism (Siemens, 2005) describes learning in the digital age as building and moving through networks of people and information."
+},
+{
+"t": "h",
+"x": "Which theory helps at which part of a lesson?"
+},
+{
+"t": "tbl",
+"head": [
+"Part of the lesson plan",
+"Ideas that help"
+],
+"rows": [
+[
+"Objectives",
+"Bloom's Taxonomy, SOLO, Webb's Depth of Knowledge"
+],
+[
+"Lesson sequence",
+"Gagné's nine events, 5E, PPP, ESA, gradual release of responsibility"
+],
+[
+"Warm-up and activating prior knowledge",
+"Schema theory, Ausubel's advance organizers, retrieval practice, Keller's attention and relevance"
+],
+[
+"Presenting new content",
+"Cognitive load theory, dual coding, Bruner's modes of representation, Rosenshine's small steps"
+],
+[
+"Guided practice",
+"Vygotsky's ZPD and scaffolding, cooperative learning, questioning and wait time"
+],
+[
+"Independent practice",
+"Mastery learning, spaced and interleaved practice, self-efficacy"
+],
+[
+"Assessment and feedback",
+"Formative assessment, Hattie and Timperley's feedback model, rubrics"
+],
+[
+"Differentiation",
+"Tomlinson's differentiated instruction, Universal Design for Learning"
+],
+[
+"Classroom climate and behavior",
+"Maslow, Rogers, Kounin, Dreikurs, PBIS"
+],
+[
+"Teacher's reflection",
+"Gibbs' reflective cycle, Schön, Brookfield, Kolb"
+]
+]
+},
+{
+"t": "note",
+"x": "Theories are not competing “right answers”. Evidence is stronger for some ideas than for others. For example, retrieval practice and formative feedback are well supported, while matching teaching to a learner's “learning style” is not. Where an important criticism exists, the section says so."
+}
+]
+},
+{
+"id": "th01",
+"group": "Education theories",
+"title": "Behaviorism (classical and operant conditioning)",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Behaviorism explains learning as a change in observable behavior produced by the environment. It dominated psychology and teaching from the early 1900s to the 1950s. It is the basis of drills, rewards and many classroom-management systems."
+},
+{
+"t": "h",
+"x": "Branches and key figures"
+},
+{
+"t": "tbl",
+"head": [
+"Branch",
+"Key figures",
+"Core idea",
+"Classroom link"
+],
+"rows": [
+[
+"Classical conditioning",
+"Ivan Pavlov; John B. Watson",
+"A neutral stimulus paired with an unconditioned stimulus becomes a conditioned stimulus that triggers a conditioned response. Related ideas: extinction, generalization, discrimination.",
+"Emotional associations: a safe, positive classroom builds positive feelings toward a subject; test anxiety can be a conditioned response."
+],
+[
+"Connectionism",
+"Edward Thorndike",
+"Learning is forming stimulus–response connections. Law of Effect (satisfying results strengthen a response), Law of Exercise, Law of Readiness.",
+"Practice with feedback; reward correct responses."
+],
+[
+"Operant conditioning",
+"B. F. Skinner",
+"Behavior is shaped by its consequences: reinforcement increases behavior, punishment decreases it.",
+"Praise, token systems, shaping a skill step by step, programmed instruction."
+]
+]
+},
+{
+"t": "h",
+"x": "Operant conditioning: four kinds of consequence"
+},
+{
+"t": "tbl",
+"head": [
+"Consequence",
+"What happens",
+"Effect on behavior",
+"Example"
+],
+"rows": [
+[
+"Positive reinforcement",
+"A pleasant thing is added",
+"Increases",
+"Praise or a sticker for a complete answer"
+],
+[
+"Negative reinforcement",
+"An unpleasant thing is removed",
+"Increases",
+"A learner who has been working well is excused from a boring task"
+],
+[
+"Positive punishment",
+"An unpleasant thing is added",
+"Decreases",
+"An extra task after disruption"
+],
+[
+"Negative punishment",
+"A pleasant thing is removed",
+"Decreases",
+"Losing a few minutes of free time"
+]
+]
+},
+{
+"t": "h",
+"x": "Schedules of reinforcement"
+},
+{
+"t": "ul",
+"items": [
+"Continuous: every correct response is reinforced. Fastest learning, but the behavior fades quickly when reinforcement stops.",
+"Fixed-ratio: reinforcement after a set number of responses.",
+"Variable-ratio: after an unpredictable number of responses. Produces steady behavior that is hardest to extinguish.",
+"Fixed-interval: after a set amount of time.",
+"Variable-interval: after unpredictable amounts of time."
+]
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Give specific, immediate feedback (“Good use of the past tense in sentence 2”) instead of general praise.",
+"Break a skill into small steps and reinforce each step (shaping).",
+"Use short repeated drills for skills that must become automatic: multiplication facts, spelling, pronunciation patterns, vocabulary.",
+"Set a few clear rules with consistent consequences. If you use points or tokens, plan how to fade them out.",
+"In English teaching, behaviorism underlies the Audiolingual Method: pattern drills with stimulus, response and reinforcement."
+]
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "Maths: the class practises the 7× table in short daily drills with quick feedback. Each learner colours a progress chart, and the class earns a short game when everyone improves."
+},
+{
+"t": "kv",
+"k": "Limits",
+"x": "Behaviorism ignores thinking, understanding and motivation. Heavy use of external rewards can reduce interest in tasks learners already enjoy (the overjustification effect). Chomsky's 1959 review of Skinner's Verbal Behavior argued that behaviorism cannot explain creative language use."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Reinforcement is not punishment. Negative reinforcement increases behavior by removing something unpleasant; punishment decreases behavior."
+}
+]
+},
+{
+"id": "th02",
+"group": "Education theories",
+"title": "Cognitivism and information processing",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Cognitivism (from the 1950s, the “cognitive revolution”) studies the mental processes between stimulus and response: attention, perception, memory, thinking and problem-solving. Learning is seen as receiving, organizing and storing information so that it can be retrieved and used."
+},
+{
+"t": "h",
+"x": "The information-processing model (Atkinson and Shiffrin, 1968)"
+},
+{
+"t": "ol",
+"items": [
+"Sensory memory holds raw input for a very short time (from a fraction of a second to a few seconds). Attention decides what moves on.",
+"Working (short-term) memory holds and manipulates a small amount of information for seconds to about a minute. Capacity is limited: Miller (1956) suggested “7 ± 2” items; later estimates are nearer 4 chunks.",
+"Long-term memory is a large, lasting store organized into schemas. Information gets there through meaningful encoding, connection to what is known, and repeated use.",
+"Retrieval brings information back. Each successful retrieval strengthens the memory."
+]
+},
+{
+"t": "h",
+"x": "Branches and key theories"
+},
+{
+"t": "tbl",
+"head": [
+"Theory",
+"Key figure",
+"Core idea",
+"Classroom link"
+],
+"rows": [
+[
+"Working memory model",
+"Baddeley and Hitch (1974)",
+"Working memory has a central executive, a phonological loop (sound) and a visuospatial sketchpad (images); an episodic buffer was added in 2000.",
+"Combine words with pictures; avoid asking learners to read one text while listening to another."
+],
+[
+"Levels of processing",
+"Craik and Lockhart (1972)",
+"Deep, meaning-based processing produces stronger memory than shallow processing of sound or appearance.",
+"Ask “why” and “how”; have learners explain, compare and apply."
+],
+[
+"Schema theory",
+"Bartlett (1932); Piaget",
+"Knowledge is organized in schemas. New information is understood by connecting it to existing schemas.",
+"Activate prior knowledge; use concept maps and graphic organizers."
+],
+[
+"Meaningful learning",
+"David Ausubel (1960s)",
+"Learning is meaningful when new ideas are linked to existing knowledge. Advance organizers prepare the learner.",
+"Begin with an overview, a key question or a short introductory text before the details."
+],
+[
+"Dual coding",
+"Allan Paivio (1971)",
+"Verbal and visual information are processed in separate channels; using both improves memory.",
+"Pair explanations with diagrams, photos or gestures."
+],
+[
+"Cognitive load theory",
+"John Sweller (1988)",
+"Working memory is limited. Intrinsic load comes from the difficulty of the content, extraneous load from poor presentation, and germane load from the effort of building schemas.",
+"Cut extraneous load; use worked examples, chunk content, and fade support as skill grows."
+],
+[
+"Multimedia learning",
+"Richard Mayer",
+"People learn better from words and pictures together than from words alone, following principles such as coherence, signaling, spatial contiguity and segmenting.",
+"Keep slides clean; put labels next to the parts they describe."
+]
+]
+},
+{
+"t": "h",
+"x": "Evidence-based study strategies"
+},
+{
+"t": "ul",
+"items": [
+"Retrieval practice: recalling information without notes, for example a low-stakes quiz, strengthens memory more than rereading.",
+"Spaced practice: spreading study over time beats cramming (Ebbinghaus's forgetting curve, 1885).",
+"Interleaving: mixing different problem types improves the ability to choose the right method.",
+"Elaboration and concrete examples: explain ideas in your own words and attach examples.",
+"Dual coding: combine words and visuals."
+]
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Open with a 3-to-5-question retrieval quiz on the previous lesson.",
+"Chunk content into small steps and check understanding after each chunk.",
+"Show a worked example before independent problems, then gradually remove the steps.",
+"Use organizers, mnemonics and clear structure so learners can build schemas.",
+"Remove decoration that does not help learning."
+]
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "English reading lesson: begin with a picture and three prediction questions (activating schema). Pre-teach five key words with pictures (dual coding). Read in two short chunks with a question after each. Finish with a no-notes recall quiz."
+},
+{
+"t": "kv",
+"k": "Limits",
+"x": "The models simplify (the brain is not literally a computer), and cognitivism pays less attention to emotion, culture and social context."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Working memory is limited; long-term memory is practically unlimited. Know the three kinds of cognitive load: intrinsic, extraneous, germane."
+}
+]
+},
+{
+"id": "th03",
+"group": "Education theories",
+"title": "Constructivism (Piaget, Vygotsky, Bruner, Dewey)",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Constructivism holds that learners actively build knowledge by connecting new experiences to what they already know, rather than receiving it ready-made. Its branches differ mainly on whether construction is individual (Piaget) or social (Vygotsky)."
+},
+{
+"t": "h",
+"x": "Branches and key figures"
+},
+{
+"t": "tbl",
+"head": [
+"Branch",
+"Key figure",
+"Core idea",
+"Classroom link"
+],
+"rows": [
+[
+"Cognitive constructivism",
+"Jean Piaget",
+"Children construct knowledge through schemas, assimilation, accommodation and equilibration, and develop through stages.",
+"Cognitive conflict, hands-on exploration, tasks matched to the learner's stage."
+],
+[
+"Social constructivism",
+"Lev Vygotsky",
+"Learning happens first between people and then inside the learner (internalization). Language and culture are tools of thought.",
+"Group work, dialogue, scaffolding, peer teaching."
+],
+[
+"Discovery learning and spiral curriculum",
+"Jerome Bruner",
+"Learners discover principles with guidance. Key ideas are revisited at increasing depth. Scaffolding was described by Wood, Bruner and Ross (1976).",
+"Guided discovery; revisit topics each term with more complexity."
+],
+[
+"Experiential and progressive education",
+"John Dewey",
+"Learning by doing and reflecting on experience; school should connect to real life.",
+"Projects, field visits, real problems."
+],
+[
+"Situated learning",
+"Lave and Wenger (1991)",
+"Learning is participation in a community of practice, moving from legitimate peripheral participation to full membership.",
+"Apprenticeship-style tasks and authentic roles."
+],
+[
+"Radical constructivism",
+"Ernst von Glasersfeld",
+"Knowledge is constructed by the individual and does not copy an independent reality; it is judged by whether it works.",
+"Value learners' own interpretations; ask for explanations."
+]
+]
+},
+{
+"t": "h",
+"x": "Piaget's stages of cognitive development"
+},
+{
+"t": "tbl",
+"head": [
+"Stage",
+"Approximate age",
+"Features",
+"Teaching implication"
+],
+"rows": [
+[
+"Sensorimotor",
+"0–2 years",
+"Learns through senses and actions; develops object permanence.",
+"Real objects and sensory play."
+],
+[
+"Preoperational",
+"2–7 years",
+"Symbolic thought and language; egocentrism; difficulty with conservation.",
+"Pictures, stories and concrete props; short instructions."
+],
+[
+"Concrete operational",
+"7–11 years",
+"Logical thinking about concrete things; conservation, classification, ordering.",
+"Hands-on materials, manipulatives, real examples, sorting tasks."
+],
+[
+"Formal operational",
+"11–12 years and above",
+"Abstract, hypothetical and scientific reasoning.",
+"Hypotheses, variables, debate, abstract problems."
+]
+]
+},
+{
+"t": "note",
+"x": "Piaget's key processes: assimilation (fitting new information into an existing schema), accommodation (changing the schema to fit new information), and equilibration (balancing the two). Ages are approximate, and later research shows children can do more than Piaget estimated."
+},
+{
+"t": "h",
+"x": "Key Vygotsky ideas"
+},
+{
+"t": "ul",
+"items": [
+"Zone of Proximal Development (ZPD): the gap between what a learner can do alone and what they can do with help.",
+"More Knowledgeable Other (MKO): anyone or anything with more skill: teacher, peer, parent, software.",
+"Scaffolding: temporary, adjustable support that is gradually withdrawn as the learner becomes capable.",
+"Private speech: children talk aloud to guide their own thinking; it later becomes inner speech.",
+"Language is the main tool of thought."
+]
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Start from learners' ideas: ask what they already think (a KWL chart works well).",
+"Use tasks built around a problem or question, then discuss the reasoning.",
+"Form mixed-ability groups with clear roles so that peers explain to each other.",
+"Scaffold in steps: model, prompt, give a sentence frame or checklist, then remove it.",
+"Ask for explanations: “How do you know?”, “Why does that work?”"
+]
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "Science: groups predict which objects float, test them, then explain the pattern. A sentence frame (“I predict that … because …”) supports weaker writers. Moral and Civics: groups discuss a real school problem and agree a set of class rules."
+},
+{
+"t": "kv",
+"k": "Limits",
+"x": "Constructivist teaching needs time and strong teacher guidance. Minimal-guidance discovery works poorly for novices (Kirschner, Sweller and Clark, 2006). Piaget's stages are criticized as too rigid."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Piaget: assimilation versus accommodation. Vygotsky: ZPD, MKO, scaffolding. “Social constructivism” is usually linked to Vygotsky."
+}
+]
+},
+{
+"id": "th04",
+"group": "Education theories",
+"title": "Social cognitive theory (Bandura)",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Albert Bandura's social cognitive theory (earlier called social learning theory) says people learn by observing others, and that thoughts, beliefs and the environment all influence behavior. It bridges behaviorism and cognitivism."
+},
+{
+"t": "h",
+"x": "Four processes of observational learning"
+},
+{
+"t": "ol",
+"items": [
+"Attention: the learner notices the model. Models who are competent, respected or similar to the learner get more attention.",
+"Retention: the learner remembers what was seen, as images or words.",
+"Reproduction: the learner is able to perform the behavior, and improves with practice and feedback.",
+"Motivation: the learner expects a reward or sees others rewarded (vicarious reinforcement)."
+]
+},
+{
+"t": "h",
+"x": "Key concepts"
+},
+{
+"t": "tbl",
+"head": [
+"Concept",
+"Meaning",
+"Classroom link"
+],
+"rows": [
+[
+"Modeling",
+"Learning by watching a model.",
+"Teacher think-alouds, demonstrations, peer models, worked examples."
+],
+[
+"Vicarious reinforcement",
+"Seeing a model rewarded or punished changes the observer's behavior.",
+"Praise the behavior you want, specifically and publicly."
+],
+[
+"Self-efficacy",
+"Belief in one's ability to succeed at a task. Sources: mastery experiences (strongest), vicarious experiences, social persuasion, and physiological and emotional states.",
+"Give achievable challenges, show success of similar peers, offer honest encouragement, reduce anxiety."
+],
+[
+"Reciprocal determinism",
+"The person (beliefs), the behavior and the environment influence each other.",
+"Work on the climate, the task and the learner's beliefs together."
+],
+[
+"Self-regulation",
+"Learners set goals, monitor and evaluate their own behavior.",
+"Goal-setting sheets, self-check lists."
+]
+]
+},
+{
+"t": "kv",
+"k": "Famous study",
+"x": "Bobo doll experiments (1961–63): children who watched an adult act aggressively toward the doll imitated the behavior."
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Model the process, not only the answer: think aloud as you solve a problem or write a sentence.",
+"Use peer models, and point out role models of effort as well as of achievement.",
+"Choose tasks that are slightly challenging so success builds self-efficacy.",
+"Teach and model positive self-talk (“I can try another way”).",
+"Remember that learners copy what teachers do as well as what teachers say."
+]
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "English speaking: the teacher models a short dialogue with a confident learner, then pairs perform it. A nervous learner succeeds, which also raises the belief of similar learners that they can do it."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Observational learning can occur without direct reinforcement. Learning is not the same as performance: a learner may learn something and not show it until motivated."
+}
+]
+},
+{
+"id": "th05",
+"group": "Education theories",
+"title": "Humanism and adult learning (Maslow, Rogers, Knowles)",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Humanistic education focuses on the whole person: feelings, needs, values, choice and personal growth. The teacher is a facilitator who creates a safe, respectful climate. It influenced student-centered teaching and adult education."
+},
+{
+"t": "h",
+"x": "Key theorists"
+},
+{
+"t": "tbl",
+"head": [
+"Theorist",
+"Key ideas",
+"Classroom link"
+],
+"rows": [
+[
+"Abraham Maslow (1943)",
+"Hierarchy of needs: physiological, safety, love and belonging, esteem, self-actualization. Lower (deficiency) needs must be reasonably met before higher (growth) needs motivate.",
+"Check basic needs such as hunger, rest and safety; build belonging and respect before demanding high performance. The order is not rigid."
+],
+[
+"Carl Rogers",
+"Person-centered learning (Freedom to Learn, 1969). The teacher is a facilitator who shows empathy, genuineness and unconditional positive regard. Significant learning is self-initiated and personally relevant.",
+"Learner choice, listening, personal relevance, respectful feedback."
+],
+[
+"Malcolm Knowles",
+"Andragogy (adult learning). Adults need to know why they are learning, are self-directing, bring experience, are ready to learn what they need, are problem-centered and are motivated mainly from within.",
+"In teacher training and adult classes: real problems, sharing of experience, choice."
+],
+[
+"Deci and Ryan",
+"Self-determination theory: autonomy, competence and relatedness are basic psychological needs (see Motivation theories).",
+"Offer choices, achievable challenge and a cooperative climate."
+],
+[
+"Hase and Kenyon (2000)",
+"Heutagogy: self-determined learning, where the learner decides what and how to learn.",
+"Learner contracts, independent projects."
+]
+]
+},
+{
+"t": "h",
+"x": "Maslow's levels in a school"
+},
+{
+"t": "ul",
+"items": [
+"Physiological: food, water, rest, so allow breaks and notice hunger or tiredness.",
+"Safety: physical and emotional safety, so use clear routines and a firm approach to bullying.",
+"Love and belonging: a class community where nobody is excluded.",
+"Esteem: recognition of effort and achievement; real responsibilities.",
+"Self-actualization: creativity, projects and personal goals."
+]
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Learn and use learners' names; build relationships first.",
+"Make rules together so learners feel ownership.",
+"Offer choices of topic, task or product.",
+"Give feedback on the work, not on the person.",
+"Invite learners' opinions and feelings; use learning journals."
+]
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "Khmer Literature: learners choose which poem to analyze and how to present their response (essay, poster or reading), then reflect on what the poem means to them."
+},
+{
+"t": "kv",
+"k": "Limits",
+"x": "Humanistic claims are hard to test, and Maslow's order is not universal. “Student-centered” does not mean the teacher does nothing: structure and clear goals still matter."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Maslow: hierarchy of needs. Rogers: facilitator, person-centered learning. Knowles: andragogy."
+}
+]
+},
+{
+"id": "th06",
+"group": "Education theories",
+"title": "Experiential learning and reflective practice (Kolb, Schön, Gibbs)",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Experiential theories say we learn from experience when we reflect on it. They are useful for practical subjects and project work, and for teachers' own professional growth."
+},
+{
+"t": "h",
+"x": "Kolb's experiential learning cycle (1984)"
+},
+{
+"t": "ol",
+"items": [
+"Concrete experience: doing something or having an experience.",
+"Reflective observation: reviewing it. What happened?",
+"Abstract conceptualization: forming ideas, rules or theories from it.",
+"Active experimentation: testing the ideas in a new situation, which starts a new experience."
+]
+},
+{
+"t": "h",
+"x": "Kolb's four learning styles"
+},
+{
+"t": "tbl",
+"head": [
+"Style",
+"Combines",
+"Prefers"
+],
+"rows": [
+[
+"Diverging",
+"Concrete experience and reflective observation",
+"Observing, brainstorming, seeing a situation from many angles"
+],
+[
+"Assimilating",
+"Abstract conceptualization and reflective observation",
+"Logical theories, reading, models"
+],
+[
+"Converging",
+"Abstract conceptualization and active experimentation",
+"Practical problem solving and technical tasks"
+],
+[
+"Accommodating",
+"Concrete experience and active experimentation",
+"Hands-on work, trial and error, taking risks"
+]
+]
+},
+{
+"t": "note",
+"x": "These are preferences, not fixed types of learners. See “Intelligence, learner differences and learning styles” for the evidence."
+},
+{
+"t": "h",
+"x": "Reflective practice for teachers"
+},
+{
+"t": "tbl",
+"head": [
+"Model",
+"Ideas",
+"Use"
+],
+"rows": [
+[
+"John Dewey",
+"Reflective thinking: a problem leads to careful testing of ideas against experience.",
+"The foundation of reflective teaching."
+],
+[
+"Donald Schön (1983)",
+"Reflection-in-action (thinking while teaching) and reflection-on-action (afterwards).",
+"Adjust during the lesson; review it afterwards."
+],
+[
+"Gibbs' reflective cycle (1988)",
+"Description, Feelings, Evaluation, Analysis, Conclusion, Action plan.",
+"A structure for writing a reflection after a lesson."
+],
+[
+"Brookfield's four lenses",
+"Your autobiography, your learners' eyes, your colleagues' perceptions, and theory.",
+"See your teaching from several viewpoints; ask learners for feedback."
+]
+]
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Plan activities as cycles: experience, then debrief (What happened? Why? So what?), then state the rule or concept, then apply it in a new task.",
+"Use role plays, simulations, experiments and field visits, and always follow them with a debrief.",
+"Keep a short teaching journal and use Gibbs' steps after a lesson that went especially well or badly."
+]
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "Geography: groups measure and map the schoolyard (experience), discuss what surprised them (reflection), link it to scale and map symbols (concept), then map a new area (experiment)."
+},
+{
+"t": "kv",
+"k": "Planner link",
+"x": "The “Teacher's reflection” section of the lesson plan follows the same logic: what went well, what difficulties learners had, whether the objectives were achieved, and what to improve."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Kolb: experience, reflection, concept, experiment. Schön: reflection-in-action versus reflection-on-action."
+}
+]
+},
+{
+"id": "th07",
+"group": "Education theories",
+"title": "Bloom's Taxonomy (cognitive, affective and psychomotor domains)",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Bloom's Taxonomy classifies educational objectives so that teachers can aim for different kinds and levels of learning. The original handbook (Bloom and colleagues, 1956) covered the cognitive domain; the affective domain followed in 1964 and psychomotor versions in the early 1970s. The revised cognitive taxonomy (Anderson and Krathwohl, 2001) is the most widely used today."
+},
+{
+"t": "h",
+"x": "Cognitive domain: revised (2001) and original (1956)"
+},
+{
+"t": "tbl",
+"head": [
+"Revised level",
+"Original name",
+"The learner can…"
+],
+"rows": [
+[
+"1. Remember",
+"Knowledge",
+"Recall facts, terms and definitions."
+],
+[
+"2. Understand",
+"Comprehension",
+"Explain ideas in their own words; summarize, interpret, classify."
+],
+[
+"3. Apply",
+"Application",
+"Use a rule or method in a new situation."
+],
+[
+"4. Analyze",
+"Analysis",
+"Break material into parts; compare; find relationships; separate fact from opinion."
+],
+[
+"5. Evaluate",
+"Evaluation",
+"Judge using criteria; justify and critique."
+],
+[
+"6. Create",
+"Synthesis",
+"Combine ideas to produce something new: design, plan, compose."
+]
+]
+},
+{
+"t": "note",
+"x": "In the revision the category names became verbs, “Create” replaced “Synthesis” and moved to the top, and a separate knowledge dimension was added. Remember, Understand and Apply are often called lower-order thinking skills (LOTS). Analyze, Evaluate and Create are higher-order thinking skills (HOTS)."
+},
+{
+"t": "h",
+"x": "Verbs and example tasks for each level"
+},
+{
+"t": "tbl",
+"head": [
+"Level",
+"Useful verbs",
+"Language or humanities example",
+"Maths or science example"
+],
+"rows": [
+[
+"Remember",
+"list, name, define, recall, match, label",
+"List three irregular past tense verbs.",
+"State the formula for the area of a triangle."
+],
+[
+"Understand",
+"explain, summarize, paraphrase, classify, give examples",
+"Summarize the story in three sentences.",
+"Explain in your own words why ice floats."
+],
+[
+"Apply",
+"use, solve, demonstrate, complete, show",
+"Use the past simple to write about your weekend.",
+"Use the formula to find the area of this triangle."
+],
+[
+"Analyze",
+"compare, contrast, categorize, examine, find evidence",
+"Compare the two characters using evidence from the text.",
+"Compare two graphs and decide which shows a proportional relationship."
+],
+[
+"Evaluate",
+"judge, justify, critique, recommend, defend",
+"Which ending is better? Justify with two reasons.",
+"Judge which method of solving the equation is more efficient and say why."
+],
+[
+"Create",
+"design, compose, plan, produce, invent",
+"Write a short dialogue or design a poster for a class event.",
+"Design an experiment to test which material keeps water warm longest."
+]
+]
+},
+{
+"t": "h",
+"x": "The knowledge dimension (revised taxonomy)"
+},
+{
+"t": "p",
+"x": "The revised taxonomy is two-dimensional. An objective combines a cognitive process (verb) with a type of knowledge (noun). For example, “Analyze (process) the structure of a formal letter (conceptual knowledge)”."
+},
+{
+"t": "tbl",
+"head": [
+"Type of knowledge",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"Factual",
+"Basic elements: terminology and specific details.",
+"Vocabulary of a topic; dates; symbols."
+],
+[
+"Conceptual",
+"Categories, principles, theories and models.",
+"Types of triangles; the concept of tense; supply and demand."
+],
+[
+"Procedural",
+"How to do something; methods and when to use them.",
+"Steps of long division; how to write a formal letter."
+],
+[
+"Metacognitive",
+"Knowledge of cognition in general and of oneself.",
+"Knowing which memory strategy works for you."
+]
+]
+},
+{
+"t": "h",
+"x": "Affective domain (Krathwohl, Bloom and Masia, 1964): attitudes and values"
+},
+{
+"t": "tbl",
+"head": [
+"Level",
+"Meaning",
+"Example (Moral and Civics: honesty)"
+],
+"rows": [
+[
+"Receiving",
+"Willing to pay attention",
+"Listens to a story about honesty."
+],
+[
+"Responding",
+"Actively takes part",
+"Joins a class discussion about fairness and honesty."
+],
+[
+"Valuing",
+"Attaches worth to something",
+"Returns a lost item and explains why honesty matters."
+],
+[
+"Organizing",
+"Builds a value system and resolves conflicts between values",
+"Weighs honesty against kindness when deciding what to say."
+],
+[
+"Characterizing",
+"Acts consistently on values",
+"Behaves honestly in many situations, even unobserved."
+]
+]
+},
+{
+"t": "h",
+"x": "Psychomotor domain (physical skills)"
+},
+{
+"t": "ul",
+"items": [
+"Dave (1970): imitation, manipulation, precision, articulation, naturalization.",
+"Simpson (1972): perception, set, guided response, mechanism, complex overt response, adaptation, origination.",
+"Harrow (1972): reflex movements, basic fundamental movements, perceptual abilities, physical abilities, skilled movements, non-discursive communication.",
+"Classroom examples: handwriting, using lab equipment, drawing a map, pronunciation, sport, playing an instrument."
+]
+},
+{
+"t": "h",
+"x": "Using Bloom's Taxonomy in planning"
+},
+{
+"t": "ul",
+"items": [
+"Write each objective with one measurable verb (“By the end of the lesson, students can compare…”). Avoid “know” or “understand” on their own.",
+"Aim for a spread of levels. Lower levels build the base, but most lessons should also include analyze, evaluate or create tasks.",
+"Match the assessment to the verb: an objective that says “create” cannot be measured by a multiple-choice quiz.",
+"Plan questions in advance and mix levels; give wait time.",
+"Differentiate by tiering tasks across levels so all learners work toward the same objective at different depths."
+]
+},
+{
+"t": "kv",
+"k": "Planner link",
+"x": "In the Planner, start each learning objective with a verb from the table above. The AI prompt also asks for objectives that start with a verb."
+},
+{
+"t": "kv",
+"k": "Limits",
+"x": "The levels are not strictly separate, and a learner may create something before fully mastering recall. The verb alone does not fix the level: the task does. Critics note that the taxonomy was not derived from learning research. Treat it as a planning aid, not a rigid ladder."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Know both versions. Revised order: Remember, Understand, Apply, Analyze, Evaluate, Create. Synthesis became Create. HOTS = analyze, evaluate, create. The three domains are cognitive (thinking), affective (feelings and values) and psychomotor (physical skills)."
+}
+]
+},
+{
+"id": "th08",
+"group": "Education theories",
+"title": "Other thinking taxonomies: SOLO, Webb's DOK and Fink",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Bloom's Taxonomy is not the only framework. These three answer related but different questions, and teachers often use them together."
+},
+{
+"t": "h",
+"x": "SOLO taxonomy (Biggs and Collis, 1982)"
+},
+{
+"t": "p",
+"x": "SOLO (Structure of the Observed Learning Outcome) describes the quality of a learner's response, from surface to deep understanding."
+},
+{
+"t": "tbl",
+"head": [
+"Level",
+"What the response shows",
+"Typical verbs",
+"Depth"
+],
+"rows": [
+[
+"Prestructural",
+"No understanding; misses the point.",
+"—",
+"—"
+],
+[
+"Unistructural",
+"One relevant idea.",
+"name, identify, follow a simple procedure",
+"Surface"
+],
+[
+"Multistructural",
+"Several relevant ideas, not connected.",
+"list, describe, combine",
+"Surface"
+],
+[
+"Relational",
+"Ideas connected into a whole.",
+"compare, explain causes, analyze, apply",
+"Deep"
+],
+[
+"Extended abstract",
+"Generalizes beyond the given context to new ideas.",
+"hypothesize, theorize, reflect, generate",
+"Deep"
+]
+]
+},
+{
+"t": "h",
+"x": "Webb's Depth of Knowledge (DOK, Norman Webb)"
+},
+{
+"t": "tbl",
+"head": [
+"Level",
+"Name",
+"Typical task"
+],
+"rows": [
+[
+"DOK 1",
+"Recall and reproduction",
+"Recall a fact or follow a simple procedure."
+],
+[
+"DOK 2",
+"Skills and concepts",
+"Classify, compare, make observations, explain how."
+],
+[
+"DOK 3",
+"Strategic thinking",
+"Reason, plan, use evidence and justify; more than one possible answer."
+],
+[
+"DOK 4",
+"Extended thinking",
+"Investigate over time and combine ideas from many sources; a project."
+]
+]
+},
+{
+"t": "kv",
+"k": "Key point",
+"x": "DOK describes the complexity of the task, not the verb. “Describe” can be DOK 1 (describe what you see) or DOK 3 (describe and justify an approach to a new problem)."
+},
+{
+"t": "h",
+"x": "Fink's taxonomy of significant learning (2003)"
+},
+{
+"t": "tbl",
+"head": [
+"Kind of learning",
+"Meaning"
+],
+"rows": [
+[
+"Foundational knowledge",
+"Understanding and remembering key information and ideas."
+],
+[
+"Application",
+"Using skills, thinking critically and creatively, managing projects."
+],
+[
+"Integration",
+"Connecting ideas, subjects and real life."
+],
+[
+"Human dimension",
+"Learning about oneself and others."
+],
+[
+"Caring",
+"Developing new feelings, interests and values."
+],
+[
+"Learning how to learn",
+"Becoming a self-directed learner."
+]
+]
+},
+{
+"t": "note",
+"x": "Fink's categories are not a ladder. They interact: for example, caring about a topic makes foundational knowledge easier to learn."
+},
+{
+"t": "h",
+"x": "Comparing the three with Bloom"
+},
+{
+"t": "ul",
+"items": [
+"Bloom classifies the thinking in an objective or task.",
+"SOLO classifies the structure of a learner's answer, so it works well for feedback and rubrics.",
+"DOK classifies the complexity of a task, so it helps check whether tasks really demand higher-level thinking.",
+"Fink widens the aim of a course beyond knowledge and skills."
+]
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "SOLO feedback on a paragraph: “You have listed three facts (multistructural). Now explain how they are connected (relational).”"
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "SOLO has five levels from prestructural to extended abstract. DOK has four levels. Fink's six kinds of significant learning are non-hierarchical."
+}
+]
+},
+{
+"id": "th09",
+"group": "Education theories",
+"title": "Lesson design models (Gagné, Hunter, 5E, PPP, ESA and others)",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Lesson design models give a sequence of stages for a lesson. Choose by learning goal; no single model is the only right way, and you can rename and reorder stages in the Planner to follow any of them."
+},
+{
+"t": "h",
+"x": "Gagné's nine events of instruction (1965)"
+},
+{
+"t": "ol",
+"items": [
+"Gain attention: a question, problem, picture or surprise.",
+"Inform learners of the objective: say what they will be able to do.",
+"Stimulate recall of prior learning: quick review or retrieval.",
+"Present the content: explain and demonstrate clearly in chunks.",
+"Provide learning guidance: examples, hints, scaffolds, non-examples.",
+"Elicit performance: learners practise.",
+"Provide feedback: specific and timely.",
+"Assess performance: check whether the objective is met.",
+"Enhance retention and transfer: summary, spaced review, application to new situations."
+]
+},
+{
+"t": "h",
+"x": "Other widely used models"
+},
+{
+"t": "tbl",
+"head": [
+"Model",
+"Stages",
+"Best for"
+],
+"rows": [
+[
+"Hunter lesson design (Madeline Hunter)",
+"Anticipatory set, objective, input, modeling, checking for understanding, guided practice, independent practice, closure. (Lists vary slightly between sources.)",
+"Direct teaching of skills and concepts."
+],
+[
+"5E model (BSCS; Bybee)",
+"Engage, Explore, Explain, Elaborate, Evaluate.",
+"Science and inquiry lessons."
+],
+[
+"PPP",
+"Presentation, Practice, Production.",
+"Teaching new language items, moving from controlled to free practice."
+],
+[
+"Test–Teach–Test (TTT)",
+"Learners attempt a task, the teacher teaches what they lacked, learners try again.",
+"Revising language or skills learners partly know."
+],
+[
+"ESA (Jeremy Harmer)",
+"Engage, Study, Activate. The stages can be repeated or reordered.",
+"Flexible language lessons."
+],
+[
+"Task-based learning (Jane Willis)",
+"Pre-task, task cycle (task, planning, report), language focus.",
+"Communication first, then attention to form."
+],
+[
+"Gradual release of responsibility (Pearson and Gallagher, 1983)",
+"I do (modeling), we do (guided), you do together, you do alone.",
+"Reading, writing and problem solving."
+],
+[
+"ARCS (John Keller)",
+"Attention, Relevance, Confidence, Satisfaction.",
+"Designing motivating lessons."
+],
+[
+"Flipped classroom",
+"Learners study content at home (video or reading); class time is used for practice and discussion.",
+"Classes where learners can access materials at home."
+]
+]
+},
+{
+"t": "h",
+"x": "Choosing a model"
+},
+{
+"t": "ul",
+"items": [
+"New language or concept to be taught directly: PPP, Hunter, or Gagné.",
+"Discovering a scientific idea: 5E.",
+"Communication and fluency: task-based learning or ESA.",
+"Reading or writing strategies: gradual release.",
+"Mixed-ability class with limited class time: flipped, or TTT to avoid reteaching what learners know."
+]
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "A 45-minute reading lesson using gradual release: 5 minutes warm-up, 10 minutes of teacher modeling, 10 minutes of whole-class practice, 10 minutes in pairs, and 10 minutes of individual work with closure."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Know the stage names in order for Gagné (nine events), 5E, PPP and ESA. Gagné's first event is gain attention; the last is enhance retention and transfer."
+}
+]
+},
+{
+"id": "th10",
+"group": "Education theories",
+"title": "Curriculum design models (Tyler, Taba, backward design, ADDIE)",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Curriculum theory deals with what to teach, how to organize it and how to judge results. Teachers need it to read national curricula, write syllabuses and plan units of work."
+},
+{
+"t": "h",
+"x": "Major models"
+},
+{
+"t": "tbl",
+"head": [
+"Model",
+"Key figure",
+"Core idea",
+"Steps or questions"
+],
+"rows": [
+[
+"Tyler rationale (1949)",
+"Ralph Tyler",
+"Objective-based (product) model.",
+"Four questions: What purposes should the school seek? Which experiences will attain them? How should the experiences be organized? How will we know they are attained?"
+],
+[
+"Taba's grassroots model (1962)",
+"Hilda Taba",
+"Teachers design curriculum inductively from learners' needs.",
+"Diagnose needs, formulate objectives, select content, organize content, select learning experiences, organize them, determine what to evaluate."
+],
+[
+"Backward design (Understanding by Design)",
+"Grant Wiggins and Jay McTighe",
+"Start with the end result.",
+"Stage 1: desired results (big ideas, essential questions). Stage 2: acceptable evidence. Stage 3: learning plan (WHERETO)."
+],
+[
+"Process model (1975)",
+"Lawrence Stenhouse",
+"Curriculum as a process and the teacher as researcher.",
+"Focus on principles of procedure rather than fixed objectives."
+],
+[
+"ADDIE",
+"Instructional design",
+"Systematic design cycle.",
+"Analysis, Design, Development, Implementation, Evaluation."
+],
+[
+"Spiral curriculum",
+"Jerome Bruner",
+"Return to key ideas with growing complexity.",
+"Revisit, deepen, connect."
+]
+]
+},
+{
+"t": "h",
+"x": "Ways of describing curriculum"
+},
+{
+"t": "ul",
+"items": [
+"Written (official): documents and syllabuses.",
+"Taught: what teachers actually do in lessons.",
+"Learned: what learners actually take away.",
+"Tested: what is assessed.",
+"Hidden: unwritten messages from school culture and routines.",
+"Null (Elliot Eisner): what is left out and not taught.",
+"Orientations: subject-centered, learner-centered, problem-centered; integrated (interdisciplinary)."
+]
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Plan backward: outcome first, then evidence, then activities.",
+"Check alignment: objective, activity and assessment should match.",
+"Use needs analysis to decide what learners need before choosing content.",
+"Revisit key ideas across units with increasing depth (spiral)."
+]
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "Backward design for a Grade 8 geography unit on rivers. Big idea: people and rivers affect each other. Evidence: groups present a river-management proposal. Activities: map rivers, study a case, debate uses of water."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Tyler: four questions, product model. Taba: teacher-driven, inductive. UbD: begin with the end. ADDIE: Analysis, Design, Development, Implementation, Evaluation."
+}
+]
+},
+{
+"id": "th11",
+"group": "Education theories",
+"title": "Motivation theories (SDT, expectancy-value, attribution, L2 motivation)",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Motivation explains why learners start, continue or stop learning. It can be strengthened by the way teachers design tasks, give feedback and build relationships."
+},
+{
+"t": "h",
+"x": "Major theories"
+},
+{
+"t": "tbl",
+"head": [
+"Theory",
+"Key figure(s)",
+"Core idea",
+"Classroom application"
+],
+"rows": [
+[
+"Intrinsic and extrinsic motivation",
+"Deci and Ryan",
+"Doing something for its own interest versus for a reward or to avoid a penalty.",
+"Make tasks interesting and meaningful; use rewards sparingly."
+],
+[
+"Self-determination theory (SDT)",
+"Deci and Ryan (1985, 2000)",
+"Three basic needs support internalized motivation: autonomy, competence, relatedness. Regulation runs from amotivation through external, introjected, identified and integrated to intrinsic motivation.",
+"Offer choices (autonomy), achievable challenge and feedback (competence), a cooperative class (relatedness)."
+],
+[
+"Expectancy-value theory",
+"Eccles and Wigfield",
+"Effort depends on expecting to succeed and valuing the task (interest, importance, usefulness, cost).",
+"Raise success expectations; explain why the task matters."
+],
+[
+"Attribution theory",
+"Bernard Weiner",
+"People explain success and failure by causes (ability, effort, task difficulty, luck) that differ in locus, stability and controllability.",
+"Help learners link results to effort and strategy, which they can control."
+],
+[
+"Self-efficacy",
+"Albert Bandura",
+"Belief in one's own capability to succeed.",
+"Mastery experiences and models (see Social cognitive theory)."
+],
+[
+"Goal orientation",
+"Dweck; Ames; Nicholls",
+"Mastery goals (learn and improve) versus performance goals (look capable or beat others).",
+"Stress progress and improvement; avoid public ranking."
+],
+[
+"Mindset",
+"Carol Dweck (2006)",
+"A growth mindset (abilities can develop) versus a fixed mindset.",
+"Praise strategy, effort and progress; treat mistakes as information. Effects of mindset programs are modest and depend on how they are taught."
+],
+[
+"Integrative and instrumental motivation",
+"Gardner and Lambert (1959)",
+"Second-language learners may want to join the target community (integrative) or gain a practical benefit such as a job (instrumental).",
+"Connect English to both interests in the culture and career goals."
+],
+[
+"L2 Motivational Self System",
+"Zoltán Dörnyei (2005)",
+"Ideal L2 self (the user I want to become), ought-to L2 self (duties and others' expectations), and L2 learning experience (the classroom).",
+"Ask learners to picture themselves using English in the future; make lessons a positive experience."
+],
+[
+"ARCS model",
+"John Keller",
+"Attention, Relevance, Confidence, Satisfaction.",
+"Design each lesson to include all four."
+]
+]
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Open with a hook that connects to learners' lives (relevance).",
+"Offer choices of topic, task or product.",
+"Set short-term goals and show progress, for example with a checklist or chart.",
+"Give feedback on effort and strategy: “Using a table to organize the data made your answer clear.”",
+"Make tasks challenging but achievable, because success builds confidence."
+]
+},
+{
+"t": "kv",
+"k": "Watch out",
+"x": "Rewards can undermine interest if they feel controlling or are given for tasks learners already enjoy (the overjustification effect)."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "SDT has three needs: autonomy, competence, relatedness. Gardner's integrative versus instrumental motivation. Dörnyei's three parts: ideal L2 self, ought-to L2 self, L2 learning experience."
+}
+]
+},
+{
+"id": "th12",
+"group": "Education theories",
+"title": "Intelligence, learner differences and learning styles",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Learners differ in abilities, interests and preferences. These theories help teachers vary their teaching, but some popular ideas are not well supported by research, so it matters to know which."
+},
+{
+"t": "h",
+"x": "Major ideas"
+},
+{
+"t": "tbl",
+"head": [
+"Theory",
+"Key figure",
+"Core idea",
+"Evidence and classroom use"
+],
+"rows": [
+[
+"General intelligence (g)",
+"Charles Spearman (1904)",
+"A general factor underlies performance on many different mental tests.",
+"A strong predictor of school achievement, but it does not describe everything a learner can do."
+],
+[
+"Fluid and crystallized intelligence",
+"Raymond Cattell; Horn; Carroll (CHC model)",
+"Fluid intelligence is reasoning with new problems; crystallized intelligence is learned knowledge and skills.",
+"Knowledge keeps growing, so teach knowledge as well as reasoning."
+],
+[
+"Multiple intelligences",
+"Howard Gardner (1983)",
+"Intelligence is several relatively independent abilities: linguistic, logical-mathematical, spatial, musical, bodily-kinesthetic, interpersonal, intrapersonal. Naturalistic was added later.",
+"A useful reminder to vary tasks and ways of representing ideas. Research does not support treating them as fixed “types” of students."
+],
+[
+"Triarchic theory",
+"Robert Sternberg (1985)",
+"Analytical, creative and practical intelligence.",
+"Include analysis tasks, creating or inventing tasks, and real-life application tasks."
+],
+[
+"Emotional intelligence",
+"Salovey and Mayer (1990); Daniel Goleman (1995)",
+"The ability to perceive, use, understand and manage emotions in oneself and others.",
+"Teach emotion vocabulary, empathy and conflict resolution as part of social-emotional learning."
+],
+[
+"Learning styles (VARK, Kolb, Honey and Mumford)",
+"Fleming; Kolb; Honey and Mumford",
+"People prefer to receive information in particular ways, for example visual, auditory, read/write or kinesthetic (VARK).",
+"Preferences exist, but studies have not shown that teaching to a learner's “style” improves learning (Pashler and colleagues, 2008). Better: use several modes for everyone and choose the mode that suits the content."
+]
+]
+},
+{
+"t": "kv",
+"k": "Watch out",
+"x": "Avoid labelling learners (“she is a kinesthetic learner”). Labels can limit expectations and choices."
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Present key ideas in more than one form: words, picture, example, action.",
+"Let learners choose how to show learning (write, draw, present) while still assessing the same objective.",
+"Form groups that mix strengths.",
+"Teach social-emotional skills directly, for example how to disagree politely or how to calm down.",
+"Choose modes by content: show a map for geography and let learners speak for pronunciation."
+]
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Gardner: multiple intelligences (seven at first, eight with naturalistic). Sternberg: three. Spearman: g. “Learning styles” is a popular idea without strong evidence for matching teaching to style."
+}
+]
+},
+{
+"id": "th13",
+"group": "Education theories",
+"title": "Human development: Erikson, Kohlberg and Bronfenbrenner",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Development theories describe how children and teenagers change in personality, moral reasoning and context. Knowing typical patterns helps teachers choose age-appropriate tasks and expectations. Piaget's cognitive stages are in the Constructivism section."
+},
+{
+"t": "h",
+"x": "Erikson's psychosocial stages"
+},
+{
+"t": "tbl",
+"head": [
+"Stage (crisis)",
+"Approximate age",
+"Virtue if resolved well"
+],
+"rows": [
+[
+"Trust vs mistrust",
+"Infancy (0–1)",
+"Hope"
+],
+[
+"Autonomy vs shame and doubt",
+"Toddler (1–3)",
+"Will"
+],
+[
+"Initiative vs guilt",
+"Preschool (3–6)",
+"Purpose"
+],
+[
+"Industry vs inferiority",
+"School age (6–12)",
+"Competence"
+],
+[
+"Identity vs role confusion",
+"Adolescence (12–18)",
+"Fidelity"
+],
+[
+"Intimacy vs isolation",
+"Young adulthood",
+"Love"
+],
+[
+"Generativity vs stagnation",
+"Middle adulthood",
+"Care"
+],
+[
+"Integrity vs despair",
+"Late adulthood",
+"Wisdom"
+]
+]
+},
+{
+"t": "kv",
+"k": "School relevance",
+"x": "Industry vs inferiority: learners need chances to complete tasks successfully and be recognized; repeated failure can lead to feeling inferior. Identity vs role confusion: adolescents explore who they are, so offer choices, responsibilities and discussion of values."
+},
+{
+"t": "h",
+"x": "Kohlberg's stages of moral development"
+},
+{
+"t": "tbl",
+"head": [
+"Level",
+"Stage",
+"Reasoning"
+],
+"rows": [
+[
+"Preconventional",
+"1. Obedience and punishment",
+"Right means avoiding punishment."
+],
+[
+"Preconventional",
+"2. Self-interest and exchange",
+"Right means what benefits me or is a fair exchange."
+],
+[
+"Conventional",
+"3. Interpersonal accord",
+"Right means being a good person in the eyes of others."
+],
+[
+"Conventional",
+"4. Law and social order",
+"Right means doing one's duty and following rules."
+],
+[
+"Postconventional",
+"5. Social contract",
+"Rules serve the common good and can be changed."
+],
+[
+"Postconventional",
+"6. Universal ethical principles",
+"Right is based on justice, rights and conscience."
+]
+]
+},
+{
+"t": "note",
+"x": "Kohlberg used moral dilemmas such as the Heinz dilemma and looked at the reasons given, not the decision itself. Carol Gilligan criticized the theory for emphasizing justice over an ethic of care, and cultural bias is also a common criticism."
+},
+{
+"t": "h",
+"x": "Bronfenbrenner's ecological systems theory"
+},
+{
+"t": "tbl",
+"head": [
+"System",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"Microsystem",
+"Immediate settings the child takes part in",
+"Family, classroom, friends"
+],
+[
+"Mesosystem",
+"Links between microsystems",
+"Relationship between parents and teachers"
+],
+[
+"Exosystem",
+"Settings that affect the child indirectly",
+"A parent's workplace; school board decisions"
+],
+[
+"Macrosystem",
+"Culture, laws, values, economy",
+"National education policy; social attitudes"
+],
+[
+"Chronosystem",
+"Change over time",
+"Moving school, a family change, a historical period"
+]
+]
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Moral and Civics: use dilemmas and ask “why?” to reveal learners' reasoning, then invite reasoning one stage higher through discussion.",
+"Involve families in learning (the mesosystem): short notes, meetings, home activities.",
+"Give age-appropriate responsibility and chances to finish tasks successfully.",
+"For teenagers, offer real choices, roles and discussion of values."
+]
+},
+{
+"t": "kv",
+"k": "Limits",
+"x": "Stage theories describe typical patterns, not every learner, and cultures differ a great deal."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Piaget is cognitive, Erikson is psychosocial, Kohlberg is moral, and Bronfenbrenner is ecological (context). Kohlberg has three levels and six stages."
+}
+]
+},
+{
+"id": "th14",
+"group": "Education theories",
+"title": "Classroom management models",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Classroom management theories offer ways to prevent misbehavior, build routines and respond fairly. Most well-run classrooms rely mainly on prevention: clear routines, engaging lessons and positive relationships."
+},
+{
+"t": "h",
+"x": "Major models"
+},
+{
+"t": "tbl",
+"head": [
+"Model",
+"Key figure",
+"Core idea",
+"Typical strategies"
+],
+"rows": [
+[
+"Kounin's model",
+"Jacob Kounin (1970)",
+"Prevent problems through good lesson management.",
+"Withitness (aware of everything), overlapping (handle two things at once), smoothness and momentum, group alerting, accountability, and the ripple effect."
+],
+[
+"Assertive discipline",
+"Lee and Marlene Canter",
+"The teacher has a right to teach; use clear rules and a consistent set of consequences.",
+"Posted rules, warnings, graded consequences, positive recognition. Criticized as teacher-controlled."
+],
+[
+"Choice theory",
+"William Glasser",
+"Behavior is chosen to meet five needs: survival, love and belonging, power, freedom and fun.",
+"Meaningful work, class meetings, helping learners take responsibility."
+],
+[
+"Democratic discipline",
+"Rudolf Dreikurs",
+"Misbehavior comes from four mistaken goals: attention, power, revenge, avoidance of failure (inadequacy).",
+"Identify the goal, encourage, use logical consequences, hold class meetings."
+],
+[
+"Positive classroom discipline",
+"Fred Jones",
+"Use body language, proximity and efficient help to keep learners on task.",
+"Move around, set limits calmly, use group incentives such as preferred activity time."
+],
+[
+"Congruent communication",
+"Haim Ginott",
+"The teacher's words shape the climate: address the situation, not the learner's character.",
+"“I see papers on the floor” rather than “You are messy”."
+],
+[
+"Behavior modification",
+"B. F. Skinner and applied behavior analysis",
+"Reinforce desired behavior.",
+"Token systems, behavior contracts."
+],
+[
+"PBIS (Positive Behavioral Interventions and Supports)",
+"School-wide framework",
+"Three tiers of support: universal (all learners), targeted (some) and intensive (few). Teach and reinforce expectations.",
+"A few positive rules, specific praise, decisions based on data."
+],
+[
+"Restorative practices",
+"—",
+"Repair harm and relationships instead of only punishing.",
+"Circles, conferences, apologies and agreements."
+]
+]
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Teach routines in the first weeks (entering, group work, asking for help, finishing early) and practise them.",
+"State three to five rules in positive terms (“Listen when others speak”).",
+"Respond in steps: non-verbal signal (proximity, eye contact, pause), then a quiet private word, and use consequences last, consistently.",
+"Keep lessons moving: have materials ready, give clear instructions, check that learners understood them.",
+"Praise specific behavior and keep far more positive than corrective comments.",
+"After a conflict, repair the relationship."
+]
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "Group work: the teacher assigns roles (reader, recorder, timekeeper, speaker), displays a timer and a “what to do when finished” task. There are fewer off-task problems because routines and accountability are clear (Kounin)."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Kounin: prevention (withitness, overlapping, momentum). Canter: assertive discipline. Dreikurs: four mistaken goals. Glasser: choice theory and five needs."
+}
+]
+},
+{
+"id": "th15",
+"group": "Education theories",
+"title": "Differentiation, Universal Design for Learning and inclusion",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Learners in any class differ in readiness, interests and needs. Differentiation adjusts teaching for those differences, and Universal Design for Learning (UDL) designs the lesson from the start to reduce barriers for everyone."
+},
+{
+"t": "h",
+"x": "Differentiated instruction (Carol Ann Tomlinson)"
+},
+{
+"t": "tbl",
+"head": [
+"Teacher can differentiate…",
+"Examples"
+],
+"rows": [
+[
+"Content (what is learned, how learners access it)",
+"Texts at different levels, mini-lessons, audio versions, glossaries"
+],
+[
+"Process (how learners make sense of ideas)",
+"Tiered activities, flexible groups, learning stations, choice boards"
+],
+[
+"Product (how learners show learning)",
+"Written, spoken, visual or practical outputs judged by the same criteria"
+],
+[
+"Learning environment",
+"Seating, quiet areas, routines, tools available"
+]
+]
+},
+{
+"t": "p",
+"x": "Differentiation responds to three learner factors: readiness (what the learner can already do), interest, and learning profile (how the learner works best). Pre-assessment and ongoing formative assessment show what to adjust."
+},
+{
+"t": "h",
+"x": "Universal Design for Learning (CAST)"
+},
+{
+"t": "tbl",
+"head": [
+"Principle",
+"Question",
+"Examples"
+],
+"rows": [
+[
+"Multiple means of engagement",
+"The “why” of learning",
+"Choice, relevance, goal setting, collaboration"
+],
+[
+"Multiple means of representation",
+"The “what” of learning",
+"Text with audio and images, captions, glossaries, varied examples"
+],
+[
+"Multiple means of action and expression",
+"The “how” of learning",
+"Oral or written answers, drawing, models, technology, flexible time"
+]
+]
+},
+{
+"t": "h",
+"x": "Tiers of support (MTSS and Response to Intervention)"
+},
+{
+"t": "ul",
+"items": [
+"Tier 1: high-quality teaching for all learners.",
+"Tier 2: targeted small-group support for those who need more.",
+"Tier 3: intensive, individual support."
+]
+},
+{
+"t": "h",
+"x": "Key terms"
+},
+{
+"t": "ul",
+"items": [
+"Accommodation: a change in how a learner accesses or shows learning without lowering expectations (extra time, larger print).",
+"Modification: a change in what the learner is expected to learn.",
+"Scaffolding: temporary support that is withdrawn as skill grows.",
+"Inclusive education: all learners learn together, with the support they need.",
+"Individualized education plan (IEP): a written plan of goals and support for a learner with identified needs."
+]
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Pre-assess with a quick quiz or KWL chart to find readiness.",
+"Keep the same learning objective for all learners and vary the support, the route and the way of showing learning.",
+"Offer tiered tasks on the same topic at different challenge levels, with a choice menu.",
+"Use flexible groups that change by task, not fixed ability groups.",
+"Provide visuals, word banks and sentence frames, and extension tasks for fast finishers."
+]
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "English reading: all learners read the same short text. One group receives a glossary and pre-taught words, one answers questions at three levels, and one writes an alternative ending. Groups change in the next task."
+},
+{
+"t": "kv",
+"k": "Planner link",
+"x": "The “Differentiation and student support” section of the Planner records the support for learners who need help and the extension for advanced learners."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Differentiation: the teacher adjusts content, process, product and environment. UDL: design the lesson up front to reduce barriers for everyone. Accommodation keeps the expectation; modification changes it."
+}
+]
+},
+{
+"id": "th16",
+"group": "Education theories",
+"title": "Teaching strategies: cooperative learning, Rosenshine's principles and questioning",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Teaching strategies are the “how” of a lesson. The strategies below are widely used and well studied. None works for every goal, so choose by objective and learners."
+},
+{
+"t": "h",
+"x": "Cooperative learning"
+},
+{
+"t": "p",
+"x": "Johnson and Johnson identify five elements that make group work cooperative rather than just seated together."
+},
+{
+"t": "ul",
+"items": [
+"Positive interdependence: group members need each other to succeed.",
+"Individual accountability: each member is responsible for their own learning.",
+"Promotive (face-to-face) interaction: members help and encourage each other.",
+"Social skills: listening, taking turns, disagreeing politely.",
+"Group processing: the group reflects on how well it worked."
+]
+},
+{
+"t": "tbl",
+"head": [
+"Structure",
+"How it works"
+],
+"rows": [
+[
+"Think–Pair–Share (Lyman)",
+"Think alone, discuss with a partner, share with the class."
+],
+[
+"Numbered Heads Together (Kagan)",
+"Groups discuss; the teacher calls a number and that member answers for the group."
+],
+[
+"Jigsaw (Aronson, 1971)",
+"Each member becomes an expert on one part, then teaches the others in a new group."
+],
+[
+"STAD (Slavin)",
+"Learners study in teams, take quizzes alone, and team scores come from members' improvement."
+],
+[
+"Round Robin",
+"Members take turns giving ideas."
+]
+]
+},
+{
+"t": "h",
+"x": "Rosenshine's principles of instruction (2012)"
+},
+{
+"t": "ol",
+"items": [
+"Begin each lesson with a short review of previous learning.",
+"Present new material in small steps, with practice after each step.",
+"Ask a large number of questions and check the responses of all learners.",
+"Provide models and worked examples.",
+"Guide learner practice.",
+"Check for understanding.",
+"Obtain a high success rate.",
+"Provide scaffolds for difficult tasks.",
+"Require and monitor independent practice.",
+"Engage learners in weekly and monthly review."
+]
+},
+{
+"t": "h",
+"x": "Gradual release of responsibility"
+},
+{
+"t": "p",
+"x": "I do (the teacher models), we do (guided practice), you do together (pairs or groups), you do alone. Support is reduced as learners gain skill."
+},
+{
+"t": "h",
+"x": "Questioning"
+},
+{
+"t": "ul",
+"items": [
+"Wait time (Mary Budd Rowe, 1974): pausing about three seconds after a question and after an answer gives longer answers and more learners taking part.",
+"Mix closed questions (check facts) and open questions (explore reasoning).",
+"Socratic questioning probes clarity, assumptions, evidence, other viewpoints, consequences and the question itself (Paul and Elder).",
+"Get responses from everyone with mini-whiteboards, cold-calling or response cards instead of only volunteers."
+]
+},
+{
+"t": "h",
+"x": "Inquiry and project-based learning"
+},
+{
+"t": "ul",
+"items": [
+"Inquiry cycle: question, investigate, explain, share and reflect.",
+"Project-based learning: a driving question, an extended project, a product shared with an audience, feedback and revision.",
+"The teacher plans roles, checkpoints and a rubric; learners need guidance, especially at first."
+]
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "Jigsaw in History: five expert groups each study one cause of an event, then regroup so that every new group has an expert on each cause and teaches the others. The lesson ends with an individual quiz."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Johnson and Johnson: five elements. Rowe: wait time of three seconds. Rosenshine: ten principles. Jigsaw: Aronson, 1971."
+}
+]
+},
+{
+"id": "th17",
+"group": "Education theories",
+"title": "Metacognition and self-regulated learning",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Metacognition means “thinking about thinking”: knowing how you learn and controlling your own learning. Self-regulated learners plan, monitor and evaluate their work, and they usually achieve more."
+},
+{
+"t": "h",
+"x": "Key ideas"
+},
+{
+"t": "tbl",
+"head": [
+"Idea",
+"Key figure",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"Metacognitive knowledge",
+"John Flavell (1979)",
+"Knowledge about the person (how I learn), the task (what it demands) and strategies (what works).",
+"“Essays take me longer than short answers, and I remember better when I draw.”"
+],
+[
+"Metacognitive regulation",
+"Flavell; Schraw and Dennison",
+"Planning, monitoring and evaluating one's learning.",
+"Plan time, check understanding while reading, review mistakes."
+],
+[
+"Metacognitive experiences",
+"Flavell",
+"Feelings and judgments during learning, such as feeling confused or feeling sure.",
+"“I'm confused, so I should reread.”"
+],
+[
+"Self-regulated learning cycle",
+"Barry Zimmerman",
+"Forethought (goals, strategy planning, motivation beliefs), performance (self-control, self-observation), self-reflection (self-judgment, reaction). The cycle repeats.",
+"Goal sheet, then working, then a reflection."
+]
+]
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Think aloud so that learners hear the thinking behind a solution.",
+"Use KWL charts (Ogle, 1986): what I Know, what I Want to know, what I Learned.",
+"Teach self-questioning: What is my goal? Which strategy will I use? Did it work?",
+"Use exit tickets: “What was clear? What is still confusing?”",
+"After tests, use error analysis or exam wrappers to sort mistakes and plan actions.",
+"Use checklists and rubrics for self-assessment.",
+"Teach reciprocal teaching for reading (Palincsar and Brown, 1984): predict, question, clarify, summarize."
+]
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "After a maths test, learners sort each error as careless, concept or method, write one action for each, and compare plans with a partner."
+},
+{
+"t": "kv",
+"k": "Evidence",
+"x": "Reviews such as the Education Endowment Foundation's Teaching and Learning Toolkit rate metacognition and self-regulation as high impact for low cost."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Metacognition has two parts: knowledge and regulation. Flavell introduced the term (1979). Zimmerman's cycle has three phases: forethought, performance, self-reflection."
+}
+]
+},
+{
+"id": "th18",
+"group": "Education theories",
+"title": "Assessment and feedback frameworks",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Assessment frameworks help teachers decide what to check, when and how to respond. The main shift in recent decades is from assessment only at the end toward using assessment during learning to guide teaching."
+},
+{
+"t": "h",
+"x": "Key ideas"
+},
+{
+"t": "tbl",
+"head": [
+"Idea",
+"Key figure(s)",
+"Core idea",
+"Classroom use"
+],
+"rows": [
+[
+"Formative and summative assessment",
+"Black and Wiliam (1998)",
+"Formative assessment is used during learning to adjust teaching; summative assessment judges achievement at the end.",
+"Check understanding in every lesson with hinge questions, mini-whiteboards and exit tickets."
+],
+[
+"Assessment for, as and of learning",
+"—",
+"For: the teacher uses evidence to guide teaching. As: learners monitor their own learning. Of: reports achievement.",
+"Plan all three across a unit."
+],
+[
+"Criterion-referenced and norm-referenced",
+"—",
+"Criterion-referenced compares performance with a standard; norm-referenced compares learners with each other.",
+"Use criteria so learners know what success looks like."
+],
+[
+"Rubrics",
+"—",
+"A scoring guide listing criteria and levels of performance, either analytic (by criterion) or holistic (overall).",
+"Share the rubric before the task; build it with learners."
+],
+[
+"Feedback model",
+"Hattie and Timperley (2007)",
+"Three questions: Where am I going? How am I going? Where to next? Feedback works at four levels: task, process, self-regulation and self. Praise aimed at the person (“you're clever”) is the least helpful.",
+"Comment on the process and strategy, and leave time for learners to act on the feedback."
+]
+]
+},
+{
+"t": "h",
+"x": "Wiliam's five formative assessment strategies"
+},
+{
+"t": "ol",
+"items": [
+"Clarify, share and understand learning intentions and success criteria.",
+"Engineer effective discussions, tasks and questions that elicit evidence of learning.",
+"Provide feedback that moves learners forward.",
+"Activate learners as learning resources for one another.",
+"Activate learners as owners of their own learning."
+]
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Share success criteria at the start of the lesson.",
+"Use diagnostic questions whose wrong answers reveal particular misconceptions.",
+"Give comments before, or instead of, marks, because grades can overshadow comments.",
+"Build time into the lesson for learners to respond to feedback.",
+"Use peer and self-assessment with a rubric.",
+"Use the results to plan the next lesson, not only to record scores."
+]
+},
+{
+"t": "kv",
+"k": "Planner link",
+"x": "The “Assessment and checking understanding” section of the Planner records the assessment method, the evidence that learners achieved the objectives, and the common errors to watch for."
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Formative means assessment for learning, summative means assessment of learning. Hattie and Timperley's three questions are often summarized as feed up, feed back and feed forward."
+}
+]
+},
+{
+"id": "th19",
+"group": "Education theories",
+"title": "Philosophies of education",
+"kind": "blocks",
+"blocks": [
+{
+"t": "p",
+"x": "Philosophies of education are beliefs about the purpose of school, what should be taught and how teachers should teach. They explain why teachers, schools and policies differ."
+},
+{
+"t": "h",
+"x": "Major philosophies"
+},
+{
+"t": "tbl",
+"head": [
+"Philosophy",
+"Key figures",
+"Purpose of education",
+"Curriculum and method",
+"Teacher's role"
+],
+"rows": [
+[
+"Perennialism",
+"Robert Hutchins; Mortimer Adler",
+"Develop the mind through enduring truths and great ideas.",
+"Great books and classical subjects; Socratic seminar; the same core for all.",
+"Authority who leads discussion of great ideas."
+],
+[
+"Essentialism",
+"William Bagley",
+"Pass on the essential knowledge and skills of the culture.",
+"Core subjects (reading, writing, maths, science, history); discipline and testing.",
+"Subject expert who transmits knowledge."
+],
+[
+"Progressivism",
+"John Dewey",
+"Develop the whole child and prepare for democratic life.",
+"Learner interests, problem solving, projects, learning by doing.",
+"Guide and facilitator."
+],
+[
+"Social reconstructionism",
+"George Counts; Theodore Brameld",
+"Use schools to build a better, fairer society.",
+"Social issues, community projects, critical thinking.",
+"Agent of change."
+],
+[
+"Existentialism",
+"Maxine Greene",
+"Help each person find meaning and take responsibility for choices.",
+"Choice of topics; arts and humanities; self-expression.",
+"Helps learners discover themselves through dialogue."
+],
+[
+"Critical pedagogy",
+"Paulo Freire",
+"Free learners from oppression by developing critical awareness.",
+"Problem-posing education and dialogue about real-life issues.",
+"Co-learner who enters dialogue with learners."
+],
+[
+"Montessori education",
+"Maria Montessori",
+"Support the child's self-directed development.",
+"Prepared environment, hands-on materials, mixed ages, long uninterrupted work periods.",
+"Observer and guide."
+],
+[
+"Humanism",
+"Carl Rogers; Abraham Maslow",
+"Support personal growth and self-actualization.",
+"Learner choice, feelings and values.",
+"Facilitator."
+]
+]
+},
+{
+"t": "kv",
+"k": "Freire's contrast",
+"x": "The “banking” concept treats learners as empty accounts into which the teacher deposits knowledge. Problem-posing education has teachers and learners investigate real problems together."
+},
+{
+"t": "p",
+"x": "Perennialism and essentialism are usually described as teacher-centered. Progressivism, existentialism, critical pedagogy and humanism are student-centered. Most teachers blend ideas, for example a core of essential knowledge taught through progressive projects."
+},
+{
+"t": "h",
+"x": "In the classroom"
+},
+{
+"t": "ul",
+"items": [
+"Ask yourself why you teach a topic and how learners learn it best. Your answers show your working philosophy.",
+"Notice mismatches, for example valuing creativity but only assessing recall.",
+"Use these labels to justify choices in exam essays and teacher interviews."
+]
+},
+{
+"t": "kv",
+"k": "Exam tip",
+"x": "Perennialism and essentialism are teacher-centered. Progressivism is linked to Dewey. Reconstructionism aims at social change. Freire is linked to critical pedagogy and the banking versus problem-posing contrast."
 }
 ]
 }
