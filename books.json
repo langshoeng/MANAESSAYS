@@ -1,0 +1,5 @@
+{
+  "books": [
+    { "title": "Example Book Title", "author": "Author Name", "category": "Reading", "file": "books/example-book.pdf" }
+  ]
+}
