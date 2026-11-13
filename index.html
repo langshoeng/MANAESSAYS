@@ -202,14 +202,29 @@ details.st summary{font-weight:600;cursor:pointer}
 #lpBackBtn{width:100%;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
 #bdoc{max-width:1000px}
-#bBar{position:sticky;top:calc(env(safe-area-inset-top,0px) + 58px);z-index:14;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:12px}
+#bBar{position:sticky;top:calc(env(safe-area-inset-top,0px) + 58px);z-index:14;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px;display:flex;flex-direction:column;gap:6px;margin-bottom:12px}
+.brow{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+#bMore{display:none}
 #bPg{width:4.2em;text-align:center;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 4px}
-#bStage{display:flex;justify-content:center;overflow:auto;background:var(--bg);border-radius:8px;touch-action:pan-x pan-y pinch-zoom}
-#bCv{display:block;max-width:none;background:#fff}
-#bStage.night #bCv{filter:invert(1) hue-rotate(180deg)}
+#bStage{position:relative;overflow:auto;background:var(--bg);border-radius:8px;touch-action:pan-x pan-y pinch-zoom}
+#bStage.sv{height:calc(100vh - 190px);height:calc(100dvh - 190px);min-height:320px}
+#bCv{display:block;margin:0 auto;max-width:none;background:#fff}
+.bpg{margin:8px auto;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.25);overflow:hidden}
+#bStage.night canvas{filter:invert(1) hue-rotate(180deg)}
+#bStage.night .bpg{background:#000}
 #bNav{margin-top:16px}
 #bNav button{flex:1}
 #bPanel .hit{display:block;width:100%;text-align:left;margin:6px 0}
+#bdoc.bfs{position:fixed;inset:0;z-index:50;max-width:none;margin:0;background:var(--bg);display:flex;flex-direction:column;padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
+.bfs #bTitle,.bfs #bNav{display:none}
+.bfs #bMsg{padding:0 8px;margin:4px 0}
+.bfs #bBar{position:static;border-radius:0;border-width:0 0 1px;margin:0}
+.bfs #bMore{display:inline-block}
+.bfs #bTools{display:none}
+.bfs.tools #bTools{display:flex}
+.bfs #bPanel{margin:0;border-radius:0;max-height:40vh;overflow:auto}
+.bfs #bStage,.bfs #bStage.sv{flex:1;min-height:0;height:auto;border-radius:0}
+.bfs.nobar #bBar,.bfs.nobar #bPanel{display:none}
 </style>
 </head>
 <body>
@@ -288,12 +303,15 @@ details.st summary{font-weight:600;cursor:pointer}
       <h1 id="bTitle"></h1>
       <p id="bMsg" class="lbl"></p>
       <div id="bBar">
-        <button id="bPrev" aria-label="Previous page">&larr;</button><input id="bPg" type="number" min="1" inputmode="numeric" aria-label="Page number"><span class="lbl" id="bTot"></span><button id="bNext" aria-label="Next page">&rarr;</button>
-        <button id="bZo" aria-label="Zoom out">&minus;</button><button id="bFit">Fit</button><button id="bZi" aria-label="Zoom in">+</button>
-        <button id="bMark" aria-label="Bookmark this page" aria-pressed="false">&#9734;</button><button id="bMarks">Marks</button><button id="bFindBtn">Find</button><button id="bNight" aria-pressed="false">Night</button>
+        <div class="brow" id="bR1">
+          <button id="bPrev" aria-label="Previous page">&larr;</button><input id="bPg" type="number" min="1" inputmode="numeric" aria-label="Page number"><span class="lbl" id="bTot"></span><button id="bNext" aria-label="Next page">&rarr;</button>
+          <button id="bZo" aria-label="Zoom out">&minus;</button><button id="bFit">Fit width</button><button id="bZi" aria-label="Zoom in">+</button>
+          <button id="bMark" aria-label="Bookmark this page" aria-pressed="false">&#9734;</button><button id="bFull" class="primary">Full screen</button><button id="bMore" aria-expanded="false">More</button>
+        </div>
+        <div class="brow" id="bTools"><button id="bMarks">Marks</button><button id="bFindBtn">Find</button><button id="bView">View: Pages</button><button id="bNight" aria-pressed="false">Night</button></div>
       </div>
       <div id="bPanel" class="stg" hidden></div>
-      <div id="bStage"><canvas id="bCv"></canvas></div>
+      <div id="bStage"><canvas id="bCv"></canvas><div id="bScroll" hidden></div></div>
       <div class="grp" id="bNav"><button id="bPrev2">&larr; Previous page</button><button id="bNext2">Next page &rarr;</button></div>
     </article>
   </div>
@@ -1896,7 +1914,8 @@ $('#tabB').onclick=()=>setTab('library');
 $('#lpBackBtn').onclick=()=>{const id=lpBack;lpBack=null;showBack();setTab('planner');if(id&&getPlan(id))openL(id)};
 const flat=b=>[b.x,b.k,(b.items||[]).join(' '),(b.head||[]).join(' '),(b.rows||[]).map(r=>r.join(' ')).join(' ')].filter(Boolean).join(' ');
 /* ---- Books: PDFs listed in books.json, files in the books/ folder (PDF.js) ---- */
-let books=[],bErr=false,curB=null,pdf=null,bPage=1,bZ=1,bBusy=false,bPend=false,bTok=0,bMode='';
+let books=[],bErr=false,curB=null,pdf=null,bPage=1,bZ=1,bBusy=false,bPend=false,bTok=0,bMode='',bDir=0,bIO=null,bVis=new Set(),bLockT=0,bLastW=0,bApi=false,bWake=null,bSwipe=null,bBid=0,bRaf=0,bRz;
+const bSv=()=>prefs.bview==='scroll',bIsFs=()=>$('#bdoc').classList.contains('bfs');
 if(window.pdfjsLib)pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 const bP=fetch('books.json').then(r=>r.json()).then(d=>{books=d.books||[]}).catch(()=>{bErr=true});
 function renderBList(){
@@ -1911,6 +1930,7 @@ function renderBList(){
 async function openB(b){
   const t=++bTok;stopSpeech();aud.pause();curB=b;drawer(false);prefs.lastB=b.file;save();renderList();
   $('#empty').hidden=true;$('#bdoc').hidden=false;$('#bTitle').textContent=b.title;$('#bPanel').hidden=true;bMode='';
+  bBid++;if(bIO){bIO.disconnect();bIO=null}bVis.clear();$('#bScroll').textContent='';
   if(!window.pdfjsLib){$('#bMsg').textContent='The PDF reader could not load. Check your internet connection.';return}
   $('#bMsg').textContent='Loading book...';
   try{
@@ -1920,30 +1940,82 @@ async function openB(b){
     pdf=d;bPage=Math.min(Math.max(1,(prefs.bp||{})[b.file]||1),d.numPages);$('#bMsg').textContent='';bUi();bRender();
   }catch(e){if(t===bTok)$('#bMsg').textContent='Could not open this PDF. Check that the file name in books.json matches the file in the books folder.'}
 }
+function bW(){return Math.max(200,$('#bStage').clientWidth-(bSv()?16:2))}
 async function bRender(){
   if(!pdf)return;
+  const st=$('#bStage');st.classList.toggle('sv',bSv());$('#bCv').hidden=bSv();$('#bScroll').hidden=!bSv();$('#bNav').hidden=bSv();
+  if(bSv()){bBuildScroll();return}
   if(bBusy){bPend=true;return}
   bBusy=true;
   try{do{
-    bPend=false;const pg=await pdf.getPage(bPage),w=Math.max(200,$('#bStage').clientWidth-2),fit=w/pg.getViewport({scale:1}).width;
-    const dpr=Math.min(window.devicePixelRatio||1,3),vp=pg.getViewport({scale:fit*bZ*dpr}),cv=$('#bCv');
+    bPend=false;const pg=await pdf.getPage(bPage),v=pg.getViewport({scale:1}),w=bW(),h=bIsFs()?st.clientHeight-2:innerHeight-170;
+    const fit=prefs.bfit==='page'?Math.min(w/v.width,h/v.height):w/v.width,dpr=Math.min(window.devicePixelRatio||1,3),vp=pg.getViewport({scale:fit*bZ*dpr}),cv=$('#bCv');
     cv.width=Math.floor(vp.width);cv.height=Math.floor(vp.height);cv.style.width=Math.floor(vp.width/dpr)+'px';cv.style.height=Math.floor(vp.height/dpr)+'px';
     await pg.render({canvasContext:cv.getContext('2d'),viewport:vp}).promise;
   }while(bPend)}catch(e){}
-  bBusy=false;
+  bBusy=false;bLastW=st.clientWidth;
+  if(bDir&&!matchMedia('(prefers-reduced-motion:reduce)').matches&&$('#bCv').animate)$('#bCv').animate([{transform:'translateX('+bDir*36+'px)',opacity:.2},{transform:'none',opacity:1}],{duration:180});
+  bDir=0;
 }
+async function bBuildScroll(){
+  const st=$('#bStage'),sc=$('#bScroll'),id=++bBid;
+  if(bIO){bIO.disconnect();bIO=null}bVis.clear();sc.textContent='';
+  let v;try{v=(await pdf.getPage(1)).getViewport({scale:1})}catch(e){return}
+  if(id!==bBid||!pdf)return;
+  const w=bW()*bZ,h=w*v.height/v.width,n=pdf.numPages;bLastW=st.clientWidth;
+  for(let i=1;i<=n;i++){const d=el('div','bpg');d.dataset.p=i;d.style.width=w+'px';d.style.height=h+'px';sc.append(d)}
+  st.scrollTop=sc.children[bPage-1].offsetTop-8;bLockT=Date.now()+400;
+  bIO=new IntersectionObserver(es=>es.forEach(e=>{const d=e.target;if(e.isIntersecting){bVis.add(d);bDraw(d)}else{bVis.delete(d);bFree(d)}}),{root:st,rootMargin:'100% 0px'});
+  [...sc.children].forEach(d=>bIO.observe(d));
+}
+async function bDraw(d){
+  const key=d.style.width+'|'+bTok;if(d._k===key||d._busy)return;d._busy=true;const g=d._g=(d._g||0)+1;
+  try{
+    const pg=await pdf.getPage(+d.dataset.p),v=pg.getViewport({scale:1}),w=parseFloat(d.style.width),dpr=Math.min(window.devicePixelRatio||1,3),vp=pg.getViewport({scale:w/v.width*dpr}),cv=document.createElement('canvas');
+    cv.width=Math.floor(vp.width);cv.height=Math.floor(vp.height);cv.style.cssText='width:100%;height:100%;display:block';
+    await pg.render({canvasContext:cv.getContext('2d'),viewport:vp}).promise;
+    if(d._g===g&&d.isConnected){d.style.height=(w*v.height/v.width)+'px';d.textContent='';d.append(cv);d._k=key}
+  }catch(e){}
+  d._busy=false;if(d._g!==g&&bVis.has(d)&&d.isConnected)bDraw(d);
+}
+function bFree(d){d._g=(d._g||0)+1;d._k=null;d.textContent=''}
+$('#bStage').addEventListener('scroll',()=>{
+  if(!bSv()||bRaf)return;
+  bRaf=requestAnimationFrame(()=>{
+    bRaf=0;if(Date.now()<bLockT||!bVis.size||!curB)return;
+    const r=$('#bStage').getBoundingClientRect(),ref=r.top+r.height*.35;let p=0;
+    bVis.forEach(d=>{const b=d.getBoundingClientRect();if(b.top<=ref&&b.bottom>ref)p=+d.dataset.p});
+    if(p&&p!==bPage){bPage=p;prefs.bp=prefs.bp||{};prefs.bp[curB.file]=p;save();bUi();renderList()}
+  });
+},{passive:true});
 function bUi(){
-  if(!pdf||!curB)return;
+  if(!curB)return;
   const m=(prefs.bm||{})[curB.file]||[],on=m.includes(bPage);
-  $('#bPg').value=bPage;$('#bTot').textContent='/ '+pdf.numPages;
+  $('#bPg').value=bPage;$('#bTot').textContent=pdf?'/ '+pdf.numPages:'';
   $('#bMark').textContent=on?'\u2605':'\u2606';$('#bMark').setAttribute('aria-pressed',String(on));
-  $('#bStage').classList.toggle('night',!!prefs.bnight);$('#bNight').setAttribute('aria-pressed',String(!!prefs.bnight));
-  $('#bNight').classList.toggle('primary',!!prefs.bnight);
+  $('#bStage').classList.toggle('night',!!prefs.bnight);$('#bNight').setAttribute('aria-pressed',String(!!prefs.bnight));$('#bNight').classList.toggle('primary',!!prefs.bnight);
+  $('#bView').textContent=bSv()?'View: Scroll':'View: Pages';$('#bFit').textContent=bSv()?'Fit':(prefs.bfit==='page'?'Fit page':'Fit width');
 }
 function bGo(n){
   if(!pdf)return;n=Math.min(Math.max(1,Math.round(n)||1),pdf.numPages);
-  bPage=n;prefs.bp=prefs.bp||{};prefs.bp[curB.file]=n;save();bUi();bRender();window.scrollTo(0,0);$('#bStage').scrollTop=0;renderList();
+  bDir=n>bPage?1:n<bPage?-1:0;bPage=n;prefs.bp=prefs.bp||{};prefs.bp[curB.file]=n;save();bUi();renderList();
+  if(bSv()){bLockT=Date.now()+400;const d=$('#bScroll').children[n-1];if(d)$('#bStage').scrollTop=d.offsetTop-8;return}
+  bRender();if(!bIsFs())window.scrollTo(0,0);$('#bStage').scrollTop=0;
 }
+function bFull(on){
+  const d=$('#bdoc'),r=document.documentElement;if(on===bIsFs())return;
+  d.classList.toggle('bfs',on);d.classList.remove('nobar','tools');$('#bMore').setAttribute('aria-expanded','false');document.body.style.overflow=on?'hidden':'';
+  if(on){
+    bApi=false;try{const p=(r.requestFullscreen||r.webkitRequestFullscreen||(()=>0)).call(r);if(p&&p.then)p.then(()=>{bApi=true}).catch(()=>{})}catch(e){}
+    try{navigator.wakeLock&&navigator.wakeLock.request('screen').then(l=>{bWake=l}).catch(()=>{})}catch(e){}
+  }else{
+    try{if(document.fullscreenElement&&document.exitFullscreen)document.exitFullscreen()}catch(e){}
+    bApi=false;if(bWake){bWake.release().catch(()=>{});bWake=null}
+  }
+  $('#bFull').textContent=on?'Exit':'Full screen';setTimeout(bRender,60);
+}
+document.addEventListener('fullscreenchange',()=>{if(!document.fullscreenElement&&bIsFs()&&bApi)bFull(false)});
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&bIsFs()&&navigator.wakeLock)navigator.wakeLock.request('screen').then(l=>{bWake=l}).catch(()=>{})});
 function bPanel(mode){
   const box=$('#bPanel');if(bMode===mode){bMode='';box.hidden=true;return}
   bMode=mode;box.hidden=false;box.textContent='';
@@ -1974,7 +2046,10 @@ $('#bNext').onclick=$('#bNext2').onclick=()=>bGo(bPage+1);
 $('#bPg').onchange=e=>bGo(+e.target.value);
 $('#bZi').onclick=()=>{bZ=Math.min(4,bZ+.25);bRender()};
 $('#bZo').onclick=()=>{bZ=Math.max(.5,bZ-.25);bRender()};
-$('#bFit').onclick=()=>{bZ=1;bRender()};
+$('#bFit').onclick=()=>{if(bZ!==1)bZ=1;else if(!bSv())prefs.bfit=prefs.bfit==='page'?'width':'page';save();bUi();bRender()};
+$('#bView').onclick=()=>{prefs.bview=bSv()?'page':'scroll';save();bUi();bRender()};
+$('#bFull').onclick=()=>bFull(!bIsFs());
+$('#bMore').onclick=()=>{const o=$('#bdoc').classList.toggle('tools');$('#bMore').setAttribute('aria-expanded',String(o))};
 $('#bMark').onclick=()=>{
   if(!curB||!pdf)return;prefs.bm=prefs.bm||{};const m=new Set(prefs.bm[curB.file]||[]);
   m.has(bPage)?m.delete(bPage):m.add(bPage);prefs.bm[curB.file]=[...m].sort((a,b)=>a-b);save();bUi();if(bMode==='marks'){bMode='';bPanel('marks')}
@@ -1982,11 +2057,24 @@ $('#bMark').onclick=()=>{
 $('#bMarks').onclick=()=>{if(curB)bPanel('marks')};
 $('#bFindBtn').onclick=()=>{if(pdf)bPanel('find')};
 $('#bNight').onclick=()=>{prefs.bnight=!prefs.bnight;save();bUi()};
+/* full screen: tap the sides to turn pages, tap the middle to show or hide the toolbar */
+$('#bStage').addEventListener('click',e=>{
+  if(!bIsFs())return;const r=e.currentTarget.getBoundingClientRect(),x=(e.clientX-r.left)/r.width;
+  if(!bSv()&&x<.25)bGo(bPage-1);else if(!bSv()&&x>.75)bGo(bPage+1);else $('#bdoc').classList.toggle('nobar');
+});
+/* swipe left or right to turn pages (Pages view, not zoomed in) */
+$('#bStage').addEventListener('touchstart',e=>{bSwipe=e.touches.length===1&&!bSv()&&bZ<=1?[e.touches[0].clientX,e.touches[0].clientY]:null},{passive:true});
+$('#bStage').addEventListener('touchend',e=>{
+  if(!bSwipe)return;const t=e.changedTouches[0],dx=t.clientX-bSwipe[0],dy=t.clientY-bSwipe[1];bSwipe=null;
+  if(Math.abs(dx)>60&&Math.abs(dy)<Math.abs(dx)*.5)bGo(bPage+(dx<0?1:-1));
+},{passive:true});
 document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'&&bIsFs()){bFull(false);return}
   if(tab!=='library'||!pdf||/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;
   if(e.key==='ArrowRight')bGo(bPage+1);else if(e.key==='ArrowLeft')bGo(bPage-1);
+  else if((e.key==='ArrowDown'||e.key==='ArrowUp')&&(bIsFs()||bSv())){$('#bStage').scrollBy(0,e.key==='ArrowDown'?90:-90);e.preventDefault()}
 });
-let bRz;window.addEventListener('resize',()=>{clearTimeout(bRz);bRz=setTimeout(()=>{if(tab==='library')bRender()},200)});
+window.addEventListener('resize',()=>{clearTimeout(bRz);bRz=setTimeout(()=>{if(tab!=='library'||!pdf)return;if($('#bStage').clientWidth!==bLastW||(prefs.bfit==='page'&&!bSv()))bRender()},200)});
 const eP=fetch('essays.json').then(r=>r.json()).then(d=>{items=d.essays||[]}).catch(()=>{eErr=true});
 /* practice.json holds the original exercises; practice-extra.json (optional) adds exercises for new sections and is merged by section id */
 const pP=Promise.all([fetch('practice.json').then(r=>r.json()).catch(()=>null),fetch('practice-extra.json').then(r=>r.json()).catch(()=>null)]).then(([a,b])=>{
