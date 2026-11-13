@@ -1,1577 +1,5900 @@
 {
- "sections": [
-  {
-   "id": "start",
-   "group": "Start here",
-   "title": "How to use this handbook",
-   "blocks": [
-    {
-     "t": "p",
-     "x": "Use this as a revision guide: memorize the formula, understand the condition/use, learn the common signal words, then practice the examples."
-    },
-    {
-     "t": "ul",
-     "items": [
-      "V1 = base form: go, study, teach",
-      "V2 = past form: went, studied, taught",
-      "V3 = past participle: gone, studied, taught",
-      "V-ing = going, studying, teaching"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "p1",
-   "group": "Verbs & tenses",
-   "title": "The 12 Tenses",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Tense",
-      "Formula",
-      "Main use",
-      "Signal words"
-     ],
-     "rows": [
-      [
-       "Present Simple",
-       "S + V1/V1-s",
-       "habits, facts, routines, schedules",
-       "always, usually, often, every day"
-      ],
-      [
-       "Present Continuous",
-       "S + am/is/are + V-ing",
-       "happening now; temporary",
-       "now, right now, at the moment"
-      ],
-      [
-       "Present Perfect",
-       "S + have/has + V3",
-       "past linked to present; experience",
-       "already, yet, just, ever, never, since, for"
-      ],
-      [
-       "Present Perfect Continuous",
-       "S + have/has been + V-ing",
-       "activity/duration up to now",
-       "since, for, all day, lately"
-      ],
-      [
-       "Past Simple",
-       "S + V2",
-       "finished past action",
-       "yesterday, last week, ago"
-      ],
-      [
-       "Past Continuous",
-       "S + was/were + V-ing",
-       "action in progress in past",
-       "while, when, at 8 yesterday"
-      ],
-      [
-       "Past Perfect",
-       "S + had + V3",
-       "earlier of two past actions",
-       "before, after, by the time"
-      ],
-      [
-       "Past Perfect Continuous",
-       "S + had been + V-ing",
-       "duration before past point",
-       "for, since, before"
-      ],
-      [
-       "Future Simple",
-       "S + will + V1",
-       "prediction, decision, promise",
-       "tomorrow, next week, probably"
-      ],
-      [
-       "Future Continuous",
-       "S + will be + V-ing",
-       "in progress at future time",
-       "this time tomorrow"
-      ],
-      [
-       "Future Perfect",
-       "S + will have + V3",
-       "completed before future time",
-       "by, before, by the time"
-      ],
-      [
-       "Future Perfect Continuous",
-       "S + will have been + V-ing",
-       "duration up to future time",
-       "for, since, by then"
-      ]
-     ]
-    },
-    {
-     "t": "h",
-     "x": "1. Present Simple"
-    },
-    {
-     "t": "kv",
-     "k": "Formula",
-     "x": "S + V1/V1-s"
-    },
-    {
-     "t": "kv",
-     "k": "Use",
-     "x": "habits, routines, facts, permanent situations, schedules"
-    },
-    {
-     "t": "kv",
-     "k": "Example",
-     "x": "She teaches English every day. / Water boils at 100°C."
-    },
-    {
-     "t": "h",
-     "x": "2. Present Continuous"
-    },
-    {
-     "t": "kv",
-     "k": "Formula",
-     "x": "S + am/is/are + V-ing"
-    },
-    {
-     "t": "kv",
-     "k": "Use",
-     "x": "actions happening now, temporary situations, changing situations, planned arrangements"
-    },
-    {
-     "t": "kv",
-     "k": "Example",
-     "x": "The teacher is explaining the lesson now. / We are meeting tomorrow."
-    },
-    {
-     "t": "h",
-     "x": "3. Present Perfect"
-    },
-    {
-     "t": "kv",
-     "k": "Formula",
-     "x": "S + have/has + V3"
-    },
-    {
-     "t": "kv",
-     "k": "Use",
-     "x": "past action with present result, experience, recent action, continuing situation"
-    },
-    {
-     "t": "kv",
-     "k": "Example",
-     "x": "She has finished her homework. / They have lived here since 2022."
-    },
-    {
-     "t": "h",
-     "x": "4. Present Perfect Continuous"
-    },
-    {
-     "t": "kv",
-     "k": "Formula",
-     "x": "S + have/has been + V-ing"
-    },
-    {
-     "t": "kv",
-     "k": "Use",
-     "x": "activity/duration from past until now; recent activity with visible result"
-    },
-    {
-     "t": "kv",
-     "k": "Example",
-     "x": "She has been studying for three hours. / It has been raining."
-    },
-    {
-     "t": "h",
-     "x": "5. Past Simple"
-    },
-    {
-     "t": "kv",
-     "k": "Formula",
-     "x": "S + V2; negative/question use did + V1"
-    },
-    {
-     "t": "kv",
-     "k": "Use",
-     "x": "completed action at a definite past time; sequence of past events"
-    },
-    {
-     "t": "kv",
-     "k": "Example",
-     "x": "She visited Battambang last month. / Did she go?"
-    },
-    {
-     "t": "h",
-     "x": "6. Past Continuous"
-    },
-    {
-     "t": "kv",
-     "k": "Formula",
-     "x": "S + was/were + V-ing"
-    },
-    {
-     "t": "kv",
-     "k": "Use",
-     "x": "action in progress at a past time; interrupted action; simultaneous actions"
-    },
-    {
-     "t": "kv",
-     "k": "Example",
-     "x": "They were studying when the teacher arrived."
-    },
-    {
-     "t": "h",
-     "x": "7. Past Perfect"
-    },
-    {
-     "t": "kv",
-     "k": "Formula",
-     "x": "S + had + V3"
-    },
-    {
-     "t": "kv",
-     "k": "Use",
-     "x": "action completed before another past action"
-    },
-    {
-     "t": "kv",
-     "k": "Example",
-     "x": "The class had started before I arrived."
-    },
-    {
-     "t": "h",
-     "x": "8. Past Perfect Continuous"
-    },
-    {
-     "t": "kv",
-     "k": "Formula",
-     "x": "S + had been + V-ing"
-    },
-    {
-     "t": "kv",
-     "k": "Use",
-     "x": "duration before another past event/time"
-    },
-    {
-     "t": "kv",
-     "k": "Example",
-     "x": "They had been studying for two hours when he arrived."
-    },
-    {
-     "t": "h",
-     "x": "9. Future Simple"
-    },
-    {
-     "t": "kv",
-     "k": "Formula",
-     "x": "S + will + V1"
-    },
-    {
-     "t": "kv",
-     "k": "Use",
-     "x": "prediction, spontaneous decision, promise, offer"
-    },
-    {
-     "t": "kv",
-     "k": "Example",
-     "x": "I think she will pass. / I will help you."
-    },
-    {
-     "t": "h",
-     "x": "10. Future Continuous"
-    },
-    {
-     "t": "kv",
-     "k": "Formula",
-     "x": "S + will be + V-ing"
-    },
-    {
-     "t": "kv",
-     "k": "Use",
-     "x": "action in progress at a future time"
-    },
-    {
-     "t": "kv",
-     "k": "Example",
-     "x": "This time tomorrow, I will be taking the exam."
-    },
-    {
-     "t": "h",
-     "x": "11. Future Perfect"
-    },
-    {
-     "t": "kv",
-     "k": "Formula",
-     "x": "S + will have + V3"
-    },
-    {
-     "t": "kv",
-     "k": "Use",
-     "x": "completed before a future deadline"
-    },
-    {
-     "t": "kv",
-     "k": "Example",
-     "x": "By Friday, I will have finished the report."
-    },
-    {
-     "t": "h",
-     "x": "12. Future Perfect Continuous"
-    },
-    {
-     "t": "kv",
-     "k": "Formula",
-     "x": "S + will have been + V-ing"
-    },
-    {
-     "t": "kv",
-     "k": "Use",
-     "x": "duration continuing to a future point"
-    },
-    {
-     "t": "kv",
-     "k": "Example",
-     "x": "By June, she will have been teaching for five years."
-    },
-    {
-     "t": "h",
-     "x": "High-Value Tense Rules"
-    },
-    {
-     "t": "tbl",
-     "head": [
-      "Clue",
-      "Likely tense",
-      "Example"
-     ],
-     "rows": [
-      [
-       "every day / usually / always",
-       "Present Simple",
-       "She teaches every day."
-      ],
-      [
-       "now / at the moment",
-       "Present Continuous",
-       "She is teaching now."
-      ],
-      [
-       "yesterday / last year / ago",
-       "Past Simple",
-       "She taught yesterday."
-      ],
-      [
-       "when + interruption",
-       "Past Continuous + Past Simple",
-       "She was teaching when he arrived."
-      ],
-      [
-       "before + past event",
-       "Past Perfect + Past Simple",
-       "She had left before I arrived."
-      ],
-      [
-       "since / for + continuing situation",
-       "Present Perfect / Perfect Continuous",
-       "She has lived here for five years."
-      ],
-      [
-       "by + future time",
-       "Future Perfect",
-       "She will have finished by Friday."
-      ]
-     ]
-    },
-    {
-     "t": "ul",
-     "items": [
-      "After does/doesn't/did/didn't, use V1: Does she teach? Did she go?",
-      "After have/has/had in perfect tenses, use V3.",
-      "After be in continuous tenses, use V-ing.",
-      "Do not normally use Present Perfect with finished time words such as yesterday or last year."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "irregular",
-   "group": "Verbs & tenses",
-   "title": "Common irregular verbs",
-   "blocks": [
-    {
-     "t": "p",
-     "x": "Added to the handbook. Learn these three forms together: V1 (base), V2 (past simple) and V3 (past participle used with have/has/had and in the passive)."
-    },
-    {
-     "t": "tbl",
-     "head": [
-      "V1",
-      "V2",
-      "V3"
-     ],
-     "rows": [
-      [
-       "be",
-       "was/were",
-       "been"
-      ],
-      [
-       "begin",
-       "began",
-       "begun"
-      ],
-      [
-       "break",
-       "broke",
-       "broken"
-      ],
-      [
-       "bring",
-       "brought",
-       "brought"
-      ],
-      [
-       "build",
-       "built",
-       "built"
-      ],
-      [
-       "buy",
-       "bought",
-       "bought"
-      ],
-      [
-       "catch",
-       "caught",
-       "caught"
-      ],
-      [
-       "choose",
-       "chose",
-       "chosen"
-      ],
-      [
-       "come",
-       "came",
-       "come"
-      ],
-      [
-       "do",
-       "did",
-       "done"
-      ],
-      [
-       "draw",
-       "drew",
-       "drawn"
-      ],
-      [
-       "drink",
-       "drank",
-       "drunk"
-      ],
-      [
-       "drive",
-       "drove",
-       "driven"
-      ],
-      [
-       "eat",
-       "ate",
-       "eaten"
-      ],
-      [
-       "fall",
-       "fell",
-       "fallen"
-      ],
-      [
-       "feel",
-       "felt",
-       "felt"
-      ],
-      [
-       "find",
-       "found",
-       "found"
-      ],
-      [
-       "fly",
-       "flew",
-       "flown"
-      ],
-      [
-       "forget",
-       "forgot",
-       "forgotten"
-      ],
-      [
-       "get",
-       "got",
-       "got (US: gotten)"
-      ],
-      [
-       "give",
-       "gave",
-       "given"
-      ],
-      [
-       "go",
-       "went",
-       "gone"
-      ],
-      [
-       "grow",
-       "grew",
-       "grown"
-      ],
-      [
-       "have",
-       "had",
-       "had"
-      ],
-      [
-       "hear",
-       "heard",
-       "heard"
-      ],
-      [
-       "hold",
-       "held",
-       "held"
-      ],
-      [
-       "keep",
-       "kept",
-       "kept"
-      ],
-      [
-       "know",
-       "knew",
-       "known"
-      ],
-      [
-       "leave",
-       "left",
-       "left"
-      ],
-      [
-       "lend",
-       "lent",
-       "lent"
-      ],
-      [
-       "lose",
-       "lost",
-       "lost"
-      ],
-      [
-       "make",
-       "made",
-       "made"
-      ],
-      [
-       "mean",
-       "meant",
-       "meant"
-      ],
-      [
-       "meet",
-       "met",
-       "met"
-      ],
-      [
-       "pay",
-       "paid",
-       "paid"
-      ],
-      [
-       "put",
-       "put",
-       "put"
-      ],
-      [
-       "read",
-       "read (sounds like red)",
-       "read (sounds like red)"
-      ],
-      [
-       "run",
-       "ran",
-       "run"
-      ],
-      [
-       "say",
-       "said",
-       "said"
-      ],
-      [
-       "see",
-       "saw",
-       "seen"
-      ],
-      [
-       "sell",
-       "sold",
-       "sold"
-      ],
-      [
-       "send",
-       "sent",
-       "sent"
-      ],
-      [
-       "sing",
-       "sang",
-       "sung"
-      ],
-      [
-       "sit",
-       "sat",
-       "sat"
-      ],
-      [
-       "speak",
-       "spoke",
-       "spoken"
-      ],
-      [
-       "spend",
-       "spent",
-       "spent"
-      ],
-      [
-       "stand",
-       "stood",
-       "stood"
-      ],
-      [
-       "take",
-       "took",
-       "taken"
-      ],
-      [
-       "teach",
-       "taught",
-       "taught"
-      ],
-      [
-       "tell",
-       "told",
-       "told"
-      ],
-      [
-       "think",
-       "thought",
-       "thought"
-      ],
-      [
-       "understand",
-       "understood",
-       "understood"
-      ],
-      [
-       "wear",
-       "wore",
-       "worn"
-      ],
-      [
-       "win",
-       "won",
-       "won"
-      ],
-      [
-       "write",
-       "wrote",
-       "written"
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "p2",
-   "group": "Verbs & tenses",
-   "title": "Subject–Verb Agreement",
-   "blocks": [
-    {
-     "t": "p",
-     "x": "The verb must agree with the subject."
-    },
-    {
-     "t": "ul",
-     "items": [
-      "He works. / They work.",
-      "Everyone is responsible. Each student has a book.",
-      "Neither answer is correct.",
-      "There is a book. / There are books.",
-      "The list of students is on the desk. The phrase 'of students' does not change the main subject."
-     ]
-    },
-    {
-     "t": "p",
-     "x": "Common singular words: everyone, someone, anyone, nobody, each, every, either, neither."
-    }
-   ]
-  },
-  {
-   "id": "p9",
-   "group": "Verbs & tenses",
-   "title": "Modal Verbs",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Modal",
-      "Main meaning",
-      "Example"
-     ],
-     "rows": [
-      [
-       "can",
-       "ability/possibility/permission",
-       "She can speak English."
-      ],
-      [
-       "could",
-       "past ability/polite request/possibility",
-       "Could you help me?"
-      ],
-      [
-       "may",
-       "permission/possibility",
-       "May I come in?"
-      ],
-      [
-       "might",
-       "weaker possibility",
-       "It might rain."
-      ],
-      [
-       "must",
-       "strong obligation/conclusion",
-       "You must follow the rules."
-      ],
-      [
-       "should",
-       "advice/expectation",
-       "Students should study."
-      ],
-      [
-       "will",
-       "future/willingness/prediction",
-       "I will help you."
-      ],
-      [
-       "would",
-       "polite request/hypothetical",
-       "Would you help me?"
-      ],
-      [
-       "have to",
-       "external obligation",
-       "We have to study."
-      ],
-      [
-       "ought to",
-       "advice/duty",
-       "You ought to study."
-      ]
-     ]
-    },
-    {
-     "t": "p",
-     "x": "Core rule: modal + V1. Never add -s after a modal."
-    },
-    {
-     "t": "p",
-     "x": "Modal perfect: modal + have + V3. Must have = strong past conclusion; may/might have = past possibility; should have = past advice/regret; could have = past possibility/missed opportunity."
-    }
-   ]
-  },
-  {
-   "id": "p10",
-   "group": "Verbs & tenses",
-   "title": "Conditionals",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Type",
-      "Formula",
-      "Meaning",
-      "Example"
-     ],
-     "rows": [
-      [
-       "Zero",
-       "If + present, present",
-       "general truth",
-       "If you heat ice, it melts."
-      ],
-      [
-       "First",
-       "If + present, will + V1",
-       "real/possible future",
-       "If I study, I will pass."
-      ],
-      [
-       "Second",
-       "If + past, would + V1",
-       "unreal/unlikely present/future",
-       "If I had time, I would study."
-      ],
-      [
-       "Third",
-       "If + had + V3, would have + V3",
-       "unreal past/regret",
-       "If I had studied, I would have passed."
-      ],
-      [
-       "Mixed",
-       "If + had + V3, would + V1",
-       "past condition, present result",
-       "If I had studied, I would know it now."
-      ]
-     ]
-    },
-    {
-     "t": "ul",
-     "items": [
-      "Do not normally put will directly after if in the first conditional.",
-      "Formal second conditional: If I were you, I would study.",
-      "Unless = if not: Unless you study, you may fail."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "p11",
-   "group": "Verbs & tenses",
-   "title": "Passive Voice",
-   "blocks": [
-    {
-     "t": "p",
-     "x": "Core formula: appropriate form of BE + V3. Preserve the original tense."
-    },
-    {
-     "t": "tbl",
-     "head": [
-      "Active",
-      "Passive"
-     ],
-     "rows": [
-      [
-       "They teach English.",
-       "English is taught."
-      ],
-      [
-       "They taught English.",
-       "English was taught."
-      ],
-      [
-       "They are teaching English.",
-       "English is being taught."
-      ],
-      [
-       "They were teaching English.",
-       "English was being taught."
-      ],
-      [
-       "They have taught English.",
-       "English has been taught."
-      ],
-      [
-       "They had taught English.",
-       "English had been taught."
-      ],
-      [
-       "They will teach English.",
-       "English will be taught."
-      ],
-      [
-       "They must teach English.",
-       "English must be taught."
-      ]
-     ]
-    },
-    {
-     "t": "p",
-     "x": "Exam method: move the object to subject position → choose correct BE form → use V3."
-    }
-   ]
-  },
-  {
-   "id": "p12",
-   "group": "Verbs & tenses",
-   "title": "Reported Speech",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Direct",
-      "Common reported form"
-     ],
-     "rows": [
-      [
-       "Present Simple",
-       "Past Simple"
-      ],
-      [
-       "Present Continuous",
-       "Past Continuous"
-      ],
-      [
-       "Present Perfect",
-       "Past Perfect"
-      ],
-      [
-       "Past Simple",
-       "Past Perfect"
-      ],
-      [
-       "will",
-       "would"
-      ],
-      [
-       "can",
-       "could"
-      ],
-      [
-       "may",
-       "might"
-      ]
-     ]
-    },
-    {
-     "t": "ul",
-     "items": [
-      "now → then; today → that day; tomorrow → the next day; yesterday → the previous day; here → there; this → that.",
-      "Reported question uses statement order: She asked where I lived. Not: where did I live.",
-      "Commands: 'Study hard.' → The teacher told us to study hard."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "p13",
-   "group": "Verbs & tenses",
-   "title": "Gerunds & Infinitives",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Pattern",
-      "Examples"
-     ],
-     "rows": [
-      [
-       "verb + -ing",
-       "enjoy reading; avoid making; finish studying"
-      ],
-      [
-       "verb + to + V1",
-       "want to learn; decide to study; hope to pass"
-      ],
-      [
-       "preposition + -ing",
-       "interested in learning; good at teaching"
-      ],
-      [
-       "make/let + object + V1",
-       "made students practice; let him go"
-      ],
-      [
-       "ask/tell/allow + object + to V1",
-       "asked me to help; told him to wait"
-      ]
-     ]
-    },
-    {
-     "t": "p",
-     "x": "High-value -ing verbs: enjoy, avoid, finish, suggest, mind, keep, practice, consider."
-    },
-    {
-     "t": "p",
-     "x": "High-value to-infinitive verbs: want, need, decide, hope, plan, agree, promise, refuse."
-    },
-    {
-     "t": "p",
-     "x": "Look forward to + -ing: I look forward to meeting you."
-    }
-   ]
-  },
-  {
-   "id": "p3",
-   "group": "Nouns & describing words",
-   "title": "Articles",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Form",
-      "Rule",
-      "Example"
-     ],
-     "rows": [
-      [
-       "a",
-       "singular countable, non-specific, consonant sound",
-       "a teacher; a university"
-      ],
-      [
-       "an",
-       "singular countable, non-specific, vowel sound",
-       "an apple; an hour"
-      ],
-      [
-       "the",
-       "specific/known/unique; superlatives",
-       "the book; the sun; the best"
-      ],
-      [
-       "zero article",
-       "general plural or uncountable nouns",
-       "Students need practice. Education is important."
-      ]
-     ]
-    },
-    {
-     "t": "p",
-     "x": "Remember: article choice depends on sound: a university, an hour."
-    }
-   ]
-  },
-  {
-   "id": "p4",
-   "group": "Nouns & describing words",
-   "title": "Nouns",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Countable",
-      "Uncountable"
-     ],
-     "rows": [
-      [
-       "a student / students",
-       "information"
-      ],
-      [
-       "a book / books",
-       "advice"
-      ],
-      [
-       "many students / few students",
-       "much information / little information"
-      ],
-      [
-       "fewer students",
-       "less information"
-      ]
-     ]
-    },
-    {
-     "t": "p",
-     "x": "Common uncountable exam nouns: advice, information, knowledge, furniture, equipment, homework, research, news, education."
-    },
-    {
-     "t": "kv",
-     "k": "Correct",
-     "x": "some advice, a piece of advice, much information. Not: an advice, many informations."
-    }
-   ]
-  },
-  {
-   "id": "p5",
-   "group": "Nouns & describing words",
-   "title": "Pronouns",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Type",
-      "Examples"
-     ],
-     "rows": [
-      [
-       "Subject",
-       "I, you, he, she, it, we, they"
-      ],
-      [
-       "Object",
-       "me, you, him, her, it, us, them"
-      ],
-      [
-       "Possessive adjective",
-       "my, your, his, her, its, our, their"
-      ],
-      [
-       "Possessive pronoun",
-       "mine, yours, his, hers, ours, theirs"
-      ],
-      [
-       "Reflexive",
-       "myself, yourself, himself, herself, itself, ourselves, themselves"
-      ],
-      [
-       "Demonstrative",
-       "this, that, these, those"
-      ],
-      [
-       "Relative",
-       "who, whom, which, that, whose"
-      ]
-     ]
-    },
-    {
-     "t": "p",
-     "x": "Exam trap: it's = it is/it has; its = possession."
-    }
-   ]
-  },
-  {
-   "id": "p6",
-   "group": "Nouns & describing words",
-   "title": "Adjectives & Adverbs",
-   "blocks": [
-    {
-     "t": "ul",
-     "items": [
-      "Adjective: She is careful. / Adverb: She works carefully.",
-      "good = adjective; well = usually adverb.",
-      "hard = with effort; hardly = almost not.",
-      "late = not early; lately = recently.",
-      "near = close; nearly = almost."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "p7",
-   "group": "Nouns & describing words",
-   "title": "Comparatives & Superlatives",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Pattern",
-      "Formula/example"
-     ],
-     "rows": [
-      [
-       "Comparative short",
-       "small → smaller"
-      ],
-      [
-       "Comparative long",
-       "useful → more useful"
-      ],
-      [
-       "Superlative short",
-       "small → the smallest"
-      ],
-      [
-       "Superlative long",
-       "useful → the most useful"
-      ],
-      [
-       "Equality",
-       "as + adjective + as"
-      ],
-      [
-       "Negative equality",
-       "not as/so + adjective + as"
-      ]
-     ]
-    },
-    {
-     "t": "ul",
-     "items": [
-      "good → better → best",
-      "bad → worse → worst",
-      "many/much → more → most",
-      "little → less → least"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "p8",
-   "group": "Linking & clauses",
-   "title": "Prepositions",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Preposition",
-      "Use",
-      "Example"
-     ],
-     "rows": [
-      [
-       "at",
-       "clock time",
-       "at 7:00"
-      ],
-      [
-       "on",
-       "day/date",
-       "on Monday; on July 4"
-      ],
-      [
-       "in",
-       "month/year/long period",
-       "in July; in 2026; in the morning"
-      ],
-      [
-       "since",
-       "starting point",
-       "since 2020"
-      ],
-      [
-       "for",
-       "duration",
-       "for five years"
-      ],
-      [
-       "by",
-       "deadline",
-       "by Friday"
-      ],
-      [
-       "until",
-       "continuation to a time",
-       "until Friday"
-      ],
-      [
-       "during",
-       "within a period/event",
-       "during the meeting"
-      ]
-     ]
-    },
-    {
-     "t": "ul",
-     "items": [
-      "because + clause / because of + noun or -ing",
-      "although + clause / despite or in spite of + noun or -ing",
-      "between = two; among = a group",
-      "since = starting point; for = duration"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "p14",
-   "group": "Linking & clauses",
-   "title": "Relative Clauses",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Word",
-      "Use",
-      "Example"
-     ],
-     "rows": [
-      [
-       "who",
-       "people",
-       "The teacher who helped me was kind."
-      ],
-      [
-       "whom",
-       "people as object, formal",
-       "The teacher whom I met was helpful."
-      ],
-      [
-       "which",
-       "things",
-       "The book which I bought is useful."
-      ],
-      [
-       "that",
-       "people/things in defining clauses",
-       "The book that I bought is useful."
-      ],
-      [
-       "whose",
-       "possession",
-       "The student whose book was lost is absent."
-      ],
-      [
-       "where",
-       "place",
-       "The school where I studied is nearby."
-      ],
-      [
-       "when",
-       "time",
-       "The year when I graduated was important."
-      ]
-     ]
-    },
-    {
-     "t": "p",
-     "x": "Do not use 'that' in non-defining clauses with commas: My teacher, who lives nearby, is helpful."
-    }
-   ]
-  },
-  {
-   "id": "p15",
-   "group": "Linking & clauses",
-   "title": "Conjunctions & Linking Words",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Function",
-      "Words"
-     ],
-     "rows": [
-      [
-       "Addition",
-       "and, also, moreover, furthermore, in addition"
-      ],
-      [
-       "Contrast",
-       "but, however, although, even though, whereas"
-      ],
-      [
-       "Cause",
-       "because, since, as, because of, due to"
-      ],
-      [
-       "Result",
-       "so, therefore, thus, as a result"
-      ],
-      [
-       "Purpose",
-       "so that, in order to, so as to"
-      ],
-      [
-       "Condition",
-       "if, unless, provided that, as long as"
-      ]
-     ]
-    },
-    {
-     "t": "p",
-     "x": "Remember: because + clause; because of + noun/-ing. Although + clause; despite/in spite of + noun/-ing."
-    }
-   ]
-  },
-  {
-   "id": "p16",
-   "group": "Sentences & questions",
-   "title": "Question Forms",
-   "blocks": [
-    {
-     "t": "ul",
-     "items": [
-      "Present Simple: Do/Does + S + V1?",
-      "Past Simple: Did + S + V1?",
-      "Present Continuous: Am/Is/Are + S + V-ing?",
-      "Present Perfect: Have/Has + S + V3?",
-      "Past Perfect: Had + S + V3?",
-      "Future: Will + S + V1?"
-     ]
-    },
-    {
-     "t": "p",
-     "x": "Subject question: Who teaches English? The question word is already the subject, so do/does/did is normally unnecessary."
-    }
-   ]
-  },
-  {
-   "id": "p17",
-   "group": "Sentences & questions",
-   "title": "Question Tags",
-   "blocks": [
-    {
-     "t": "ul",
-     "items": [
-      "Positive → negative: You are ready, aren't you?",
-      "Negative → positive: She doesn't teach here, does she?",
-      "Past: They went home, didn't they?",
-      "Modal: He can swim, can't he?",
-      "Let's study, shall we?",
-      "Open the door, will you?",
-      "I am late, aren't I?"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "p18",
-   "group": "Sentences & questions",
-   "title": "Sentence Structure",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Type",
-      "Structure",
-      "Example"
-     ],
-     "rows": [
-      [
-       "Simple",
-       "one independent clause",
-       "Students study."
-      ],
-      [
-       "Compound",
-       "two independent clauses + conjunction",
-       "Students study, and teachers help."
-      ],
-      [
-       "Complex",
-       "independent + dependent clause",
-       "Students study because they want to improve."
-      ],
-      [
-       "Compound-complex",
-       "2+ independent + dependent clause",
-       "Students study, and teachers help because the exam is important."
-      ]
-     ]
-    },
-    {
-     "t": "p",
-     "x": "FANBOYS: for, and, nor, but, or, yet, so."
-    }
-   ]
-  },
-  {
-   "id": "p19",
-   "group": "Exam toolkit",
-   "title": "Common Exam Errors",
-   "blocks": [
-    {
-     "t": "tbl",
-     "head": [
-      "Incorrect",
-      "Correct",
-      "Reason"
-     ],
-     "rows": [
-      [
-       "He go to school.",
-       "He goes to school.",
-       "3rd person singular"
-      ],
-      [
-       "She don't like it.",
-       "She doesn't like it.",
-       "does + V1"
-      ],
-      [
-       "Did you went?",
-       "Did you go?",
-       "did + V1"
-      ],
-      [
-       "I am agree.",
-       "I agree.",
-       "agree is a verb"
-      ],
-      [
-       "married with",
-       "married to",
-       "correct preposition"
-      ],
-      [
-       "discuss about it",
-       "discuss it",
-       "discuss takes direct object"
-      ],
-      [
-       "many information",
-       "much/a lot of information",
-       "uncountable"
-      ],
-      [
-       "since five years",
-       "for five years",
-       "since = starting point"
-      ],
-      [
-       "can speaks",
-       "can speak",
-       "modal + V1"
-      ],
-      [
-       "If I will study...",
-       "If I study...",
-       "first conditional"
-      ],
-      [
-       "look forward to meet",
-       "look forward to meeting",
-       "to is a preposition"
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "p20",
-   "group": "Exam toolkit",
-   "title": "One-Page Cheat Sheet",
-   "blocks": [
-    {
-     "t": "p",
-     "x": "12 Tenses: V1 | am/is/are + V-ing | have/has + V3 | have/has been + V-ing | V2 | was/were + V-ing | had + V3 | had been + V-ing | will + V1 | will be + V-ing | will have + V3 | will have been + V-ing."
-    },
-    {
-     "t": "p",
-     "x": "Five essential rules:"
-    },
-    {
-     "t": "ul",
-     "items": [
-      "do/does/did + V1",
-      "modal + V1",
-      "have/has/had + V3",
-      "be + V-ing for continuous",
-      "be + V3 for passive"
-     ]
-    },
-    {
-     "t": "p",
-     "x": "Conditionals: Zero = if present, present | First = if present, will + V1 | Second = if past, would + V1 | Third = if had + V3, would have + V3."
-    },
-    {
-     "t": "p",
-     "x": "High-frequency pairs: since/for | much/many | fewer/less | because/because of | although/despite | good/well | who/which/whose/where."
-    }
-   ]
-  },
-  {
-   "id": "final",
-   "group": "Exam toolkit",
-   "title": "Final exam strategy",
-   "blocks": [
-    {
-     "t": "ul",
-     "items": [
-      "Identify the time reference first: now, finished past, continuing situation, or future.",
-      "Look for signal words: since, for, already, yesterday, while, before, by.",
-      "Check the subject: he/she/it usually takes -s in Present Simple.",
-      "Check auxiliaries: do/does/did, have/has/had, be, will, and modals.",
-      "Read the whole sentence; the clause around the blank often determines the answer.",
-      "For grammar correction, check tense, subject–verb agreement, verb form, articles, prepositions, and countable/uncountable nouns.",
-      "For conditionals, decide whether the situation is general, possible, unreal now/future, or impossible in the past.",
-      "For passive voice, identify whether the subject receives the action and preserve the tense."
-     ]
-    }
-   ]
-  }
- ]
+"sections": [
+{
+"id": "start",
+"group": "Start here",
+"title": "How to use this handbook",
+"blocks": [
+{
+"t": "p",
+"x": "Use this as a revision guide: memorize the formula, understand the condition/use, learn the common signal words, then practice the examples."
+},
+{
+"t": "ul",
+"items": [
+"V1 = base form: go, study, teach",
+"V2 = past form: went, studied, taught",
+"V3 = past participle: gone, studied, taught",
+"V-ing = going, studying, teaching"
+]
+}
+]
+},
+{
+"id": "n01",
+"group": "Basics",
+"title": "Parts of Speech & Basic Sentence Patterns",
+"blocks": [
+{
+"t": "p",
+"x": "Every English word belongs to a word class (part of speech). The same word can belong to different classes depending on its job in the sentence, so always check the job, not only the word."
+},
+{
+"t": "tbl",
+"head": [
+"Part of speech",
+"Job",
+"Examples"
+],
+"rows": [
+[
+"Noun",
+"Names a person, place, thing or idea",
+"teacher, Phnom Penh, happiness"
+],
+[
+"Pronoun",
+"Replaces a noun",
+"she, them, mine, themselves"
+],
+[
+"Verb",
+"Shows an action, event or state",
+"study, happen, be, seem"
+],
+[
+"Adjective",
+"Describes a noun or pronoun",
+"clever, three, red"
+],
+[
+"Adverb",
+"Describes a verb, adjective, another adverb or a whole sentence",
+"quickly, very, probably"
+],
+[
+"Preposition",
+"Shows how a noun or pronoun relates to another word",
+"in, on, at, with, between"
+],
+[
+"Conjunction",
+"Joins words, phrases or clauses",
+"and, but, because, although"
+],
+[
+"Determiner",
+"Comes before a noun to specify it",
+"a, the, this, some, my, many"
+],
+[
+"Interjection",
+"Expresses sudden feeling",
+"Oh! Wow! Oops!"
+]
+]
+},
+{
+"t": "h",
+"x": "Same word, different class"
+},
+{
+"t": "ul",
+"items": [
+"I need a drink. (noun) / We drink tea. (verb)",
+"She drives fast. (adverb) / a fast car (adjective)",
+"He works hard. (adverb) / a hard exam (adjective)"
+]
+},
+{
+"t": "h",
+"x": "Basic sentence patterns"
+},
+{
+"t": "tbl",
+"head": [
+"Pattern",
+"Example",
+"Notes"
+],
+"rows": [
+[
+"S + V",
+"Birds fly.",
+"Intransitive verb: no object"
+],
+[
+"S + V + O",
+"She reads books.",
+"Transitive verb needs an object"
+],
+[
+"S + V + C",
+"He is a teacher. / The soup smells good.",
+"Linking verbs (be, seem, become, look, feel, sound, smell, taste, get, remain) take a complement, usually an adjective, not an adverb"
+],
+[
+"S + V + O + O",
+"She gave me a book. / She gave a book to me.",
+"Indirect object + direct object"
+],
+[
+"S + V + O + C",
+"The news made us happy.",
+"Complement describes the object"
+],
+[
+"S + V + Adverbial",
+"The meeting is at nine.",
+"Adverbial of time, place or manner"
+]
+]
+},
+{
+"t": "kv",
+"k": "Rule",
+"x": "After linking verbs use an adjective: She looks happy. (not happily) / The food tastes delicious."
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"She looks happily.",
+"She looks happy.",
+"Linking verb + adjective"
+],
+[
+"He speaks very good.",
+"He speaks very well.",
+"Adverb modifies the verb speak"
+],
+[
+"I am agree.",
+"I agree.",
+"agree is a verb, not an adjective"
+]
+]
+}
+]
+},
+{
+"id": "n02",
+"group": "Basics",
+"title": "Spelling & Punctuation Rules",
+"blocks": [
+{
+"t": "p",
+"x": "Spelling rules for endings and basic punctuation are tested directly and affect every piece of writing."
+},
+{
+"t": "h",
+"x": "Spelling rules for endings"
+},
+{
+"t": "tbl",
+"head": [
+"Rule",
+"Examples"
+],
+"rows": [
+[
+"Most words: add -s",
+"book → books; work → works"
+],
+[
+"After -s, -sh, -ch, -x, -z (and some -o): add -es",
+"bus → buses; watch → watches; box → boxes; potato → potatoes (but photo → photos)"
+],
+[
+"Consonant + y: change y to -ies / -ied",
+"study → studies → studied; city → cities"
+],
+[
+"Vowel + y: just add -s / -ed",
+"play → plays → played; day → days"
+],
+[
+"-f / -fe → -ves (many words)",
+"knife → knives; leaf → leaves; life → lives"
+],
+[
+"Drop silent -e before -ing / -ed",
+"make → making → made; (but be → being, see → seeing)"
+],
+[
+"-ie → -y before -ing",
+"lie → lying; die → dying"
+],
+[
+"Double the final consonant in short CVC words and when the last syllable is stressed",
+"stop → stopping; begin → beginning; prefer → preferred (but visit → visiting)"
+],
+[
+"i before e, except after c",
+"believe, receive, ceiling (exceptions: weird, science)"
+]
+]
+},
+{
+"t": "h",
+"x": "Capital letters"
+},
+{
+"t": "ul",
+"items": [
+"First word of a sentence, the pronoun I, names of people and places, days, months, languages and nationalities (Khmer, English, Cambodian), titles before names (Dr Sok), and important words in titles.",
+"Do not capitalize seasons or general directions: summer, the north (but Southeast Asia)."
+]
+},
+{
+"t": "h",
+"x": "Punctuation"
+},
+{
+"t": "tbl",
+"head": [
+"Mark",
+"Main use",
+"Example"
+],
+"rows": [
+[
+"Full stop (.)",
+"Ends a statement",
+"She teaches English."
+],
+[
+"Question mark (?)",
+"Ends a direct question",
+"Where do you live?"
+],
+[
+"Comma (,)",
+"Lists; after introductory words; before a conjunction joining two clauses; around extra information",
+"However, she stayed. / My teacher, who lives nearby, is kind."
+],
+[
+"Apostrophe (')",
+"Contractions and possession, never plurals",
+"don't; the teacher's book; two apples (not apple's)"
+],
+[
+"Colon (:)",
+"Introduces a list or explanation",
+"You need three things: a pen, paper and time."
+],
+[
+"Semicolon (;)",
+"Joins two closely related independent clauses",
+"She studied hard; she passed."
+],
+[
+"Quotation marks (“ ”)",
+"Direct speech",
+"“Study hard,” said the teacher."
+],
+[
+"Hyphen (-)",
+"Compound modifiers; some prefixes",
+"a well-known writer; a five-year-old child"
+]
+]
+},
+{
+"t": "h",
+"x": "Confusing pairs"
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"Its a nice school.",
+"It's a nice school.",
+"it's = it is / it has"
+],
+[
+"The dog wagged it's tail.",
+"The dog wagged its tail.",
+"its shows possession"
+],
+[
+"Your welcome.",
+"You're welcome.",
+"you're = you are"
+],
+[
+"Their going home.",
+"They're going home.",
+"they're = they are"
+],
+[
+"Three book's",
+"Three books",
+"Do not use an apostrophe for plurals"
+]
+]
+}
+]
+},
+{
+"id": "n03",
+"group": "Basics",
+"title": "Word Formation (Prefixes & Suffixes)",
+"blocks": [
+{
+"t": "p",
+"x": "Word formation tests ask you to change a given word so that it fits the sentence. First decide which part of speech the gap needs, then add the right ending."
+},
+{
+"t": "h",
+"x": "Method"
+},
+{
+"t": "ul",
+"items": [
+"After a / an / the / my: a noun, or an adjective + noun. (the education, a useful book)",
+"After be / seem / look / feel: an adjective. (She is successful.)",
+"Before a noun: an adjective. (a beautiful garden)",
+"Describing a verb: an adverb. (She sings beautifully.)",
+"After a preposition: a noun or -ing form. (interested in learning)",
+"After a modal or to: a base verb. (can organize, to simplify)",
+"Then check: is a negative meaning needed? Is a plural or -ing form needed?"
+]
+},
+{
+"t": "h",
+"x": "Common suffixes"
+},
+{
+"t": "tbl",
+"head": [
+"Part of speech",
+"Suffixes",
+"Examples"
+],
+"rows": [
+[
+"Noun",
+"-tion/-sion, -ment, -ness, -ity, -ence/-ance, -er/-or/-ist/-ian, -ship, -hood, -ure",
+"education, development, kindness, ability, importance, teacher, scientist, friendship"
+],
+[
+"Adjective",
+"-ful, -less, -able/-ible, -al, -ous, -ive, -ic, -y, -ish",
+"useful, careless, comfortable, national, dangerous, active, scientific, healthy"
+],
+[
+"Verb",
+"-ize/-ise, -en, -ify, -ate",
+"modernize, widen, simplify, activate"
+],
+[
+"Adverb",
+"-ly",
+"carefully, quickly, happily (y → i)"
+]
+]
+},
+{
+"t": "h",
+"x": "Prefixes"
+},
+{
+"t": "tbl",
+"head": [
+"Prefix",
+"Meaning",
+"Examples"
+],
+"rows": [
+[
+"un-, dis-, in-, im-, il-, ir-, non-",
+"not / opposite",
+"unhappy, disagree, incorrect, impossible, illegal, irregular, nonsense"
+],
+[
+"re-",
+"again",
+"rewrite, rebuild"
+],
+[
+"mis-",
+"wrongly",
+"misunderstand, misspell"
+],
+[
+"pre-, post-",
+"before, after",
+"preview, postpone"
+],
+[
+"over-, under-",
+"too much, too little",
+"overwork, underestimate"
+],
+[
+"inter-, co-, anti-, sub-",
+"between, together, against, under",
+"international, cooperate, antibiotic, subway"
+]
+]
+},
+{
+"t": "note",
+"x": "Choosing im-, il-, ir-: im- before b, m, p (impossible, immature); il- before l (illegal); ir- before r (irregular); in- before most other letters (incorrect)."
+},
+{
+"t": "h",
+"x": "Compound words"
+},
+{
+"t": "ul",
+"items": [
+"Noun + noun: classroom, bus stop, toothbrush.",
+"Compound adjectives with a number use a singular noun: a five-year-old child, a ten-minute break (not years, minutes)."
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"The completely of the project…",
+"The completion of the project…",
+"A noun is needed after the"
+],
+[
+"She is a success woman.",
+"She is a successful woman.",
+"Adjective before a noun"
+],
+[
+"It is un possible.",
+"It is impossible.",
+"im- before p; written as one word"
+]
+]
+}
+]
+},
+{
+"id": "p1",
+"group": "Verbs & tenses",
+"title": "The 12 Tenses",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Tense",
+"Formula",
+"Main use",
+"Signal words"
+],
+"rows": [
+[
+"Present Simple",
+"S + V1/V1-s",
+"habits, facts, routines, schedules",
+"always, usually, often, every day"
+],
+[
+"Present Continuous",
+"S + am/is/are + V-ing",
+"happening now; temporary",
+"now, right now, at the moment"
+],
+[
+"Present Perfect",
+"S + have/has + V3",
+"past linked to present; experience",
+"already, yet, just, ever, never, since, for"
+],
+[
+"Present Perfect Continuous",
+"S + have/has been + V-ing",
+"activity/duration up to now",
+"since, for, all day, lately"
+],
+[
+"Past Simple",
+"S + V2",
+"finished past action",
+"yesterday, last week, ago"
+],
+[
+"Past Continuous",
+"S + was/were + V-ing",
+"action in progress in past",
+"while, when, at 8 yesterday"
+],
+[
+"Past Perfect",
+"S + had + V3",
+"earlier of two past actions",
+"before, after, by the time"
+],
+[
+"Past Perfect Continuous",
+"S + had been + V-ing",
+"duration before past point",
+"for, since, before"
+],
+[
+"Future Simple",
+"S + will + V1",
+"prediction, decision, promise",
+"tomorrow, next week, probably"
+],
+[
+"Future Continuous",
+"S + will be + V-ing",
+"in progress at future time",
+"this time tomorrow"
+],
+[
+"Future Perfect",
+"S + will have + V3",
+"completed before future time",
+"by, before, by the time"
+],
+[
+"Future Perfect Continuous",
+"S + will have been + V-ing",
+"duration up to future time",
+"for, since, by then"
+]
+]
+},
+{
+"t": "h",
+"x": "1. Present Simple"
+},
+{
+"t": "kv",
+"k": "Formula",
+"x": "S + V1/V1-s"
+},
+{
+"t": "kv",
+"k": "Use",
+"x": "habits, routines, facts, permanent situations, schedules"
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "She teaches English every day. / Water boils at 100°C."
+},
+{
+"t": "h",
+"x": "2. Present Continuous"
+},
+{
+"t": "kv",
+"k": "Formula",
+"x": "S + am/is/are + V-ing"
+},
+{
+"t": "kv",
+"k": "Use",
+"x": "actions happening now, temporary situations, changing situations, planned arrangements"
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "The teacher is explaining the lesson now. / We are meeting tomorrow."
+},
+{
+"t": "h",
+"x": "3. Present Perfect"
+},
+{
+"t": "kv",
+"k": "Formula",
+"x": "S + have/has + V3"
+},
+{
+"t": "kv",
+"k": "Use",
+"x": "past action with present result, experience, recent action, continuing situation"
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "She has finished her homework. / They have lived here since 2022."
+},
+{
+"t": "h",
+"x": "4. Present Perfect Continuous"
+},
+{
+"t": "kv",
+"k": "Formula",
+"x": "S + have/has been + V-ing"
+},
+{
+"t": "kv",
+"k": "Use",
+"x": "activity/duration from past until now; recent activity with visible result"
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "She has been studying for three hours. / It has been raining."
+},
+{
+"t": "h",
+"x": "5. Past Simple"
+},
+{
+"t": "kv",
+"k": "Formula",
+"x": "S + V2; negative/question use did + V1"
+},
+{
+"t": "kv",
+"k": "Use",
+"x": "completed action at a definite past time; sequence of past events"
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "She visited Battambang last month. / Did she go?"
+},
+{
+"t": "h",
+"x": "6. Past Continuous"
+},
+{
+"t": "kv",
+"k": "Formula",
+"x": "S + was/were + V-ing"
+},
+{
+"t": "kv",
+"k": "Use",
+"x": "action in progress at a past time; interrupted action; simultaneous actions"
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "They were studying when the teacher arrived."
+},
+{
+"t": "h",
+"x": "7. Past Perfect"
+},
+{
+"t": "kv",
+"k": "Formula",
+"x": "S + had + V3"
+},
+{
+"t": "kv",
+"k": "Use",
+"x": "action completed before another past action"
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "The class had started before I arrived."
+},
+{
+"t": "h",
+"x": "8. Past Perfect Continuous"
+},
+{
+"t": "kv",
+"k": "Formula",
+"x": "S + had been + V-ing"
+},
+{
+"t": "kv",
+"k": "Use",
+"x": "duration before another past event/time"
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "They had been studying for two hours when he arrived."
+},
+{
+"t": "h",
+"x": "9. Future Simple"
+},
+{
+"t": "kv",
+"k": "Formula",
+"x": "S + will + V1"
+},
+{
+"t": "kv",
+"k": "Use",
+"x": "prediction, spontaneous decision, promise, offer"
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "I think she will pass. / I will help you."
+},
+{
+"t": "h",
+"x": "10. Future Continuous"
+},
+{
+"t": "kv",
+"k": "Formula",
+"x": "S + will be + V-ing"
+},
+{
+"t": "kv",
+"k": "Use",
+"x": "action in progress at a future time"
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "This time tomorrow, I will be taking the exam."
+},
+{
+"t": "h",
+"x": "11. Future Perfect"
+},
+{
+"t": "kv",
+"k": "Formula",
+"x": "S + will have + V3"
+},
+{
+"t": "kv",
+"k": "Use",
+"x": "completed before a future deadline"
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "By Friday, I will have finished the report."
+},
+{
+"t": "h",
+"x": "12. Future Perfect Continuous"
+},
+{
+"t": "kv",
+"k": "Formula",
+"x": "S + will have been + V-ing"
+},
+{
+"t": "kv",
+"k": "Use",
+"x": "duration continuing to a future point"
+},
+{
+"t": "kv",
+"k": "Example",
+"x": "By June, she will have been teaching for five years."
+},
+{
+"t": "h",
+"x": "High-Value Tense Rules"
+},
+{
+"t": "tbl",
+"head": [
+"Clue",
+"Likely tense",
+"Example"
+],
+"rows": [
+[
+"every day / usually / always",
+"Present Simple",
+"She teaches every day."
+],
+[
+"now / at the moment",
+"Present Continuous",
+"She is teaching now."
+],
+[
+"yesterday / last year / ago",
+"Past Simple",
+"She taught yesterday."
+],
+[
+"when + interruption",
+"Past Continuous + Past Simple",
+"She was teaching when he arrived."
+],
+[
+"before + past event",
+"Past Perfect + Past Simple",
+"She had left before I arrived."
+],
+[
+"since / for + continuing situation",
+"Present Perfect / Perfect Continuous",
+"She has lived here for five years."
+],
+[
+"by + future time",
+"Future Perfect",
+"She will have finished by Friday."
+]
+]
+},
+{
+"t": "ul",
+"items": [
+"After does/doesn't/did/didn't, use V1: Does she teach? Did she go?",
+"After have/has/had in perfect tenses, use V3.",
+"After be in continuous tenses, use V-ing.",
+"Do not normally use Present Perfect with finished time words such as yesterday or last year."
+]
+}
+]
+},
+{
+"id": "irregular",
+"group": "Verbs & tenses",
+"title": "Common irregular verbs",
+"blocks": [
+{
+"t": "p",
+"x": "Added to the handbook. Learn these three forms together: V1 (base), V2 (past simple) and V3 (past participle used with have/has/had and in the passive)."
+},
+{
+"t": "tbl",
+"head": [
+"V1",
+"V2",
+"V3"
+],
+"rows": [
+[
+"be",
+"was/were",
+"been"
+],
+[
+"begin",
+"began",
+"begun"
+],
+[
+"break",
+"broke",
+"broken"
+],
+[
+"bring",
+"brought",
+"brought"
+],
+[
+"build",
+"built",
+"built"
+],
+[
+"buy",
+"bought",
+"bought"
+],
+[
+"catch",
+"caught",
+"caught"
+],
+[
+"choose",
+"chose",
+"chosen"
+],
+[
+"come",
+"came",
+"come"
+],
+[
+"do",
+"did",
+"done"
+],
+[
+"draw",
+"drew",
+"drawn"
+],
+[
+"drink",
+"drank",
+"drunk"
+],
+[
+"drive",
+"drove",
+"driven"
+],
+[
+"eat",
+"ate",
+"eaten"
+],
+[
+"fall",
+"fell",
+"fallen"
+],
+[
+"feel",
+"felt",
+"felt"
+],
+[
+"find",
+"found",
+"found"
+],
+[
+"fly",
+"flew",
+"flown"
+],
+[
+"forget",
+"forgot",
+"forgotten"
+],
+[
+"get",
+"got",
+"got (US: gotten)"
+],
+[
+"give",
+"gave",
+"given"
+],
+[
+"go",
+"went",
+"gone"
+],
+[
+"grow",
+"grew",
+"grown"
+],
+[
+"have",
+"had",
+"had"
+],
+[
+"hear",
+"heard",
+"heard"
+],
+[
+"hold",
+"held",
+"held"
+],
+[
+"keep",
+"kept",
+"kept"
+],
+[
+"know",
+"knew",
+"known"
+],
+[
+"leave",
+"left",
+"left"
+],
+[
+"lend",
+"lent",
+"lent"
+],
+[
+"lose",
+"lost",
+"lost"
+],
+[
+"make",
+"made",
+"made"
+],
+[
+"mean",
+"meant",
+"meant"
+],
+[
+"meet",
+"met",
+"met"
+],
+[
+"pay",
+"paid",
+"paid"
+],
+[
+"put",
+"put",
+"put"
+],
+[
+"read",
+"read (sounds like red)",
+"read (sounds like red)"
+],
+[
+"run",
+"ran",
+"run"
+],
+[
+"say",
+"said",
+"said"
+],
+[
+"see",
+"saw",
+"seen"
+],
+[
+"sell",
+"sold",
+"sold"
+],
+[
+"send",
+"sent",
+"sent"
+],
+[
+"sing",
+"sang",
+"sung"
+],
+[
+"sit",
+"sat",
+"sat"
+],
+[
+"speak",
+"spoke",
+"spoken"
+],
+[
+"spend",
+"spent",
+"spent"
+],
+[
+"stand",
+"stood",
+"stood"
+],
+[
+"take",
+"took",
+"taken"
+],
+[
+"teach",
+"taught",
+"taught"
+],
+[
+"tell",
+"told",
+"told"
+],
+[
+"think",
+"thought",
+"thought"
+],
+[
+"understand",
+"understood",
+"understood"
+],
+[
+"wear",
+"wore",
+"worn"
+],
+[
+"win",
+"won",
+"won"
+],
+[
+"write",
+"wrote",
+"written"
+]
+]
+}
+]
+},
+{
+"id": "n04",
+"group": "Verbs & tenses",
+"title": "More Irregular Verbs",
+"blocks": [
+{
+"t": "p",
+"x": "Learn all three forms together: V1 (base), V2 (past simple) and V3 (past participle). This list adds to “Common irregular verbs”."
+},
+{
+"t": "tbl",
+"head": [
+"V1",
+"V2",
+"V3"
+],
+"rows": [
+[
+"become",
+"became",
+"become"
+],
+[
+"bend",
+"bent",
+"bent"
+],
+[
+"bet",
+"bet",
+"bet"
+],
+[
+"bite",
+"bit",
+"bitten"
+],
+[
+"blow",
+"blew",
+"blown"
+],
+[
+"burn",
+"burnt / burned",
+"burnt / burned"
+],
+[
+"burst",
+"burst",
+"burst"
+],
+[
+"cost",
+"cost",
+"cost"
+],
+[
+"cut",
+"cut",
+"cut"
+],
+[
+"deal",
+"dealt",
+"dealt"
+],
+[
+"dig",
+"dug",
+"dug"
+],
+[
+"dream",
+"dreamt / dreamed",
+"dreamt / dreamed"
+],
+[
+"feed",
+"fed",
+"fed"
+],
+[
+"fight",
+"fought",
+"fought"
+],
+[
+"forgive",
+"forgave",
+"forgiven"
+],
+[
+"freeze",
+"froze",
+"frozen"
+],
+[
+"hang",
+"hung",
+"hung"
+],
+[
+"hide",
+"hid",
+"hidden"
+],
+[
+"hit",
+"hit",
+"hit"
+],
+[
+"hurt",
+"hurt",
+"hurt"
+],
+[
+"lay",
+"laid",
+"laid"
+],
+[
+"lead",
+"led",
+"led"
+],
+[
+"learn",
+"learnt / learned",
+"learnt / learned"
+],
+[
+"let",
+"let",
+"let"
+],
+[
+"lie",
+"lay",
+"lain"
+],
+[
+"light",
+"lit",
+"lit"
+],
+[
+"ride",
+"rode",
+"ridden"
+],
+[
+"ring",
+"rang",
+"rung"
+],
+[
+"rise",
+"rose",
+"risen"
+],
+[
+"set",
+"set",
+"set"
+],
+[
+"shake",
+"shook",
+"shaken"
+],
+[
+"shine",
+"shone",
+"shone"
+],
+[
+"shoot",
+"shot",
+"shot"
+],
+[
+"show",
+"showed",
+"shown"
+],
+[
+"shut",
+"shut",
+"shut"
+],
+[
+"sink",
+"sank",
+"sunk"
+],
+[
+"sleep",
+"slept",
+"slept"
+],
+[
+"spread",
+"spread",
+"spread"
+],
+[
+"steal",
+"stole",
+"stolen"
+],
+[
+"stick",
+"stuck",
+"stuck"
+],
+[
+"swim",
+"swam",
+"swum"
+],
+[
+"swing",
+"swung",
+"swung"
+],
+[
+"tear",
+"tore",
+"torn"
+],
+[
+"throw",
+"threw",
+"thrown"
+],
+[
+"wake",
+"woke",
+"woken"
+],
+[
+"wind",
+"wound",
+"wound"
+]
+]
+},
+{
+"t": "h",
+"x": "Patterns that help memory"
+},
+{
+"t": "ul",
+"items": [
+"Same in all three forms: cut, hit, hurt, let, put, set, shut, cost, bet, burst, spread.",
+"V2 = V3 with -ought / -aught: bought, brought, caught, fought, taught, thought.",
+"V1 -i- → V2 -a- → V3 -u-: begin, ring, sing, swim, drink, sink.",
+"V3 ends in -en: break, choose, speak, steal, freeze, wake, hide, bite, give, take."
+]
+},
+{
+"t": "h",
+"x": "Easily confused verbs"
+},
+{
+"t": "tbl",
+"head": [
+"Verb",
+"Meaning",
+"Forms"
+],
+"rows": [
+[
+"lie",
+"be in a flat position",
+"lie – lay – lain – lying"
+],
+[
+"lay",
+"put something down",
+"lay – laid – laid – laying"
+],
+[
+"rise",
+"go up by itself",
+"rise – rose – risen"
+],
+[
+"raise",
+"lift or increase something",
+"raise – raised – raised"
+],
+[
+"hang",
+"fix something up",
+"hang – hung – hung (a picture); hang – hanged – hanged (a person)"
+]
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"She has wrote a letter.",
+"She has written a letter.",
+"Use V3 after has"
+],
+[
+"He drunk the water.",
+"He drank the water.",
+"Use V2 for past simple"
+],
+[
+"The sun has rose.",
+"The sun has risen.",
+"rise – rose – risen"
+],
+[
+"I lay the book on the table yesterday.",
+"I laid the book on the table yesterday.",
+"lay (put) – laid – laid"
+]
+]
+}
+]
+},
+{
+"id": "p2",
+"group": "Verbs & tenses",
+"title": "Subject–Verb Agreement",
+"blocks": [
+{
+"t": "p",
+"x": "The verb must agree with the subject."
+},
+{
+"t": "ul",
+"items": [
+"He works. / They work.",
+"Everyone is responsible. Each student has a book.",
+"Neither answer is correct.",
+"There is a book. / There are books.",
+"The list of students is on the desk. The phrase 'of students' does not change the main subject."
+]
+},
+{
+"t": "p",
+"x": "Common singular words: everyone, someone, anyone, nobody, each, every, either, neither."
+}
+]
+},
+{
+"id": "n05",
+"group": "Verbs & tenses",
+"title": "Future Forms (will, going to, present continuous and more)",
+"blocks": [
+{
+"t": "p",
+"x": "English has several ways to talk about the future. The choice depends on whether the future is a plan, an arrangement, a decision made now, a timetable or a prediction."
+},
+{
+"t": "tbl",
+"head": [
+"Form",
+"Use",
+"Example"
+],
+"rows": [
+[
+"will + V1",
+"Spontaneous decision, promise, offer, opinion-based prediction",
+"The phone is ringing. I'll answer it. / I think it will rain."
+],
+[
+"be going to + V1",
+"Plan or intention made before speaking; prediction from present evidence",
+"I'm going to study medicine. / Look at those clouds! It's going to rain."
+],
+[
+"Present Continuous",
+"Fixed personal arrangement (time and place decided)",
+"I'm meeting Dara at 5 o'clock tomorrow."
+],
+[
+"Present Simple",
+"Timetable or schedule",
+"The train leaves at 6.30. / School starts on Monday."
+],
+[
+"be about to + V1",
+"Very near future",
+"Hurry up! The film is about to start."
+],
+[
+"be to + V1",
+"Formal official arrangement",
+"The minister is to visit the school next week."
+]
+]
+},
+{
+"t": "h",
+"x": "will or going to?"
+},
+{
+"t": "tbl",
+"head": [
+"Situation",
+"Choose",
+"Example"
+],
+"rows": [
+[
+"Decision made at the moment of speaking",
+"will",
+"“We have no milk.” “I'll buy some.”"
+],
+[
+"Decision made earlier",
+"going to",
+"I'm going to buy a new phone next month."
+],
+[
+"Evidence you can see now",
+"going to",
+"He's running too fast. He's going to fall."
+],
+[
+"Prediction based on opinion (think, believe, probably)",
+"will",
+"I think she will win."
+]
+]
+},
+{
+"t": "h",
+"x": "Future time clauses"
+},
+{
+"t": "ul",
+"items": [
+"After when, as soon as, before, after, until, once, by the time and if, use a present tense, not will: I'll call you when I arrive. (not when I will arrive)",
+"Use Present Perfect for an action finished before the main future action: I'll go out after I have finished."
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"If it will rain, we will stay home.",
+"If it rains, we will stay home.",
+"No will in an if / time clause"
+],
+[
+"I'll phone you when I will arrive.",
+"I'll phone you when I arrive.",
+"Present simple after when"
+],
+[
+"Tomorrow I will meet Dara at 5 (already arranged).",
+"Tomorrow I'm meeting Dara at 5.",
+"Arrangement: Present Continuous"
+]
+]
+}
+]
+},
+{
+"id": "n06",
+"group": "Verbs & tenses",
+"title": "Used to, Would & Be / Get Used to",
+"blocks": [
+{
+"t": "p",
+"x": "These three structures look similar but have different meanings. Check what follows: a base verb or an -ing form."
+},
+{
+"t": "tbl",
+"head": [
+"Structure",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"used to + V1",
+"A past habit or state that is no longer true",
+"I used to live in Kampot. (but I don't now)"
+],
+[
+"would + V1",
+"A repeated past action (not a state)",
+"Every summer we would visit my grandparents."
+],
+[
+"be used to + -ing / noun",
+"Be accustomed to something",
+"I am used to getting up early."
+],
+[
+"get used to + -ing / noun",
+"Become accustomed to something",
+"She is getting used to the heat."
+]
+]
+},
+{
+"t": "h",
+"x": "Questions and negatives"
+},
+{
+"t": "ul",
+"items": [
+"Questions and negatives with used to: Did you use to…? / I didn't use to… (no -d after did).",
+"Positive: I used to smoke. (with -d)"
+]
+},
+{
+"t": "h",
+"x": "Rules"
+},
+{
+"t": "ul",
+"items": [
+"For past states (live, have, be, like, know, believe) use used to, not would: I used to have long hair. (not I would have)",
+"Do not use used to for a period with a stated length or number of times: I lived there for five years. (not used to)",
+"In be / get used to, to is a preposition, so use -ing: I'm used to working late. (not to work)"
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"I used to going to school by bike.",
+"I used to go to school by bike.",
+"used to + V1 (past habit)"
+],
+[
+"I am used to get up early.",
+"I am used to getting up early.",
+"be used to + -ing"
+],
+[
+"She didn't used to smoke.",
+"She didn't use to smoke.",
+"did / didn't + use to"
+],
+[
+"I would live in Siem Reap when I was young.",
+"I used to live in Siem Reap when I was young.",
+"would is not used for states"
+]
+]
+}
+]
+},
+{
+"id": "n07",
+"group": "Verbs & tenses",
+"title": "Tense Contrasts & Stative Verbs",
+"blocks": [
+{
+"t": "p",
+"x": "Many exam errors come from choosing between two similar tenses. Ask three questions: is the time finished, is the action finished, and do I want to stress the result or the activity?"
+},
+{
+"t": "tbl",
+"head": [
+"Contrast",
+"Rule",
+"Example"
+],
+"rows": [
+[
+"Present Simple vs Continuous",
+"Habit or fact vs happening now or temporary",
+"She teaches English. / She is teaching now."
+],
+[
+"Past Simple vs Present Perfect",
+"Finished time (stated or known) vs time not finished or no time given",
+"I lost my keys yesterday. / I have lost my keys. (so I can't get in now)"
+],
+[
+"Past Simple vs Past Continuous",
+"Completed action vs action in progress",
+"I read the report. (all of it) / I was reading the report when he called."
+],
+[
+"Present Perfect Simple vs Continuous",
+"Result or number vs activity and duration",
+"I have written five emails. / I have been writing emails all morning."
+],
+[
+"Past Simple vs Past Perfect",
+"Later event vs earlier event",
+"When I arrived, the class had started."
+]
+]
+},
+{
+"t": "h",
+"x": "How long vs when"
+},
+{
+"t": "ul",
+"items": [
+"How long have you lived here? (Present Perfect: still true)",
+"When did you move here? (Past Simple: finished time)"
+]
+},
+{
+"t": "h",
+"x": "Stative verbs"
+},
+{
+"t": "p",
+"x": "Stative verbs describe states, not actions. They are not normally used in continuous tenses."
+},
+{
+"t": "tbl",
+"head": [
+"Type",
+"Verbs",
+"Example"
+],
+"rows": [
+[
+"Mental states",
+"know, understand, believe, remember, forget, doubt, want, need, prefer",
+"I know the answer. (not I am knowing)"
+],
+[
+"Feelings",
+"like, love, hate, dislike",
+"She loves music."
+],
+[
+"Possession and being",
+"have (possess), own, belong, be, seem, appear, contain, mean",
+"This book belongs to me."
+],
+[
+"Senses",
+"see, hear, smell, taste (state)",
+"The soup smells good."
+]
+]
+},
+{
+"t": "h",
+"x": "Verbs with two meanings"
+},
+{
+"t": "tbl",
+"head": [
+"Verb",
+"State (simple only)",
+"Action (continuous possible)"
+],
+"rows": [
+[
+"have",
+"I have a car. (possess)",
+"I'm having lunch. (eating)"
+],
+[
+"think",
+"I think it's true. (opinion)",
+"I'm thinking about my holiday. (process)"
+],
+[
+"see",
+"I see what you mean. (understand)",
+"I'm seeing the doctor tomorrow. (meeting)"
+],
+[
+"be",
+"He is rude. (character)",
+"He is being rude today. (temporary behavior)"
+]
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"I am knowing the answer.",
+"I know the answer.",
+"Stative verb"
+],
+[
+"I have lived here since two years.",
+"I have lived here for two years.",
+"for + period"
+],
+[
+"Did you ever visit Angkor?",
+"Have you ever visited Angkor?",
+"Experience up to now: Present Perfect"
+],
+[
+"She has been writing five letters.",
+"She has written five letters.",
+"A number of completed things: Present Perfect Simple"
+]
+]
+}
+]
+},
+{
+"id": "p9",
+"group": "Verbs & tenses",
+"title": "Modal Verbs",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Modal",
+"Main meaning",
+"Example"
+],
+"rows": [
+[
+"can",
+"ability/possibility/permission",
+"She can speak English."
+],
+[
+"could",
+"past ability/polite request/possibility",
+"Could you help me?"
+],
+[
+"may",
+"permission/possibility",
+"May I come in?"
+],
+[
+"might",
+"weaker possibility",
+"It might rain."
+],
+[
+"must",
+"strong obligation/conclusion",
+"You must follow the rules."
+],
+[
+"should",
+"advice/expectation",
+"Students should study."
+],
+[
+"will",
+"future/willingness/prediction",
+"I will help you."
+],
+[
+"would",
+"polite request/hypothetical",
+"Would you help me?"
+],
+[
+"have to",
+"external obligation",
+"We have to study."
+],
+[
+"ought to",
+"advice/duty",
+"You ought to study."
+]
+]
+},
+{
+"t": "p",
+"x": "Core rule: modal + V1. Never add -s after a modal."
+},
+{
+"t": "p",
+"x": "Modal perfect: modal + have + V3. Must have = strong past conclusion; may/might have = past possibility; should have = past advice/regret; could have = past possibility/missed opportunity."
+}
+]
+},
+{
+"id": "n08",
+"group": "Verbs & tenses",
+"title": "Modal Verbs in Detail",
+"blocks": [
+{
+"t": "p",
+"x": "Modals have several meanings. Decide which function the sentence needs: ability, permission, obligation, prohibition, advice, deduction or regret."
+},
+{
+"t": "tbl",
+"head": [
+"Function",
+"Modal forms",
+"Example"
+],
+"rows": [
+[
+"Ability",
+"can, could, be able to",
+"She can swim. / I couldn't open the door."
+],
+[
+"Specific past achievement",
+"was / were able to, managed to",
+"I was able to finish the test. (not could)"
+],
+[
+"Permission",
+"can, could, may (formal)",
+"May I use your pen?"
+],
+[
+"Offers and requests",
+"can, could, would, shall I / we",
+"Shall I open the window? / Could you help me?"
+],
+[
+"Obligation",
+"must (speaker's view), have to (rule, outside authority), need to",
+"You must be careful. / We have to wear uniforms."
+],
+[
+"Prohibition",
+"mustn't, can't",
+"You mustn't park here."
+],
+[
+"No necessity",
+"don't have to, don't need to, needn't",
+"You don't have to come. (it isn't necessary)"
+],
+[
+"Advice",
+"should, ought to, had better",
+"You should see a doctor. / You'd better hurry. (warning)"
+]
+]
+},
+{
+"t": "h",
+"x": "Deduction (guessing)"
+},
+{
+"t": "tbl",
+"head": [
+"Certainty",
+"Present / future",
+"Past"
+],
+"rows": [
+[
+"Almost sure (yes)",
+"must + V1: He must be at home.",
+"must have + V3: He must have left."
+],
+[
+"Possible",
+"may / might / could + V1",
+"may / might / could have + V3"
+],
+[
+"Almost sure (no)",
+"can't + V1: That can't be true.",
+"can't / couldn't have + V3"
+]
+]
+},
+{
+"t": "h",
+"x": "Regret and criticism"
+},
+{
+"t": "ul",
+"items": [
+"should have + V3: past advice or regret. You should have studied.",
+"shouldn't have + V3: It was a mistake. I shouldn't have said that.",
+"needn't have + V3: I did it but it wasn't necessary. You needn't have come.",
+"didn't need to + V1: It wasn't necessary (we don't say if it was done)."
+]
+},
+{
+"t": "h",
+"x": "Other expressions"
+},
+{
+"t": "ul",
+"items": [
+"would rather + V1: I would rather stay. / would rather + subject + past: I'd rather you stayed.",
+"had better + V1 (no to): You had better go.",
+"It's time + subject + past simple: It's time we left."
+]
+},
+{
+"t": "kv",
+"k": "Contrast",
+"x": "mustn't = forbidden; don't have to = not necessary. You mustn't smoke here. / You don't have to pay."
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"She can to swim.",
+"She can swim.",
+"Modal + base verb (no to)"
+],
+[
+"He musts go.",
+"He must go.",
+"No -s after a modal"
+],
+[
+"You mustn't come if you don't want to.",
+"You don't have to come if you don't want to.",
+"No necessity"
+],
+[
+"He must been tired.",
+"He must have been tired.",
+"must have + V3"
+]
+]
+}
+]
+},
+{
+"id": "p10",
+"group": "Verbs & tenses",
+"title": "Conditionals",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Type",
+"Formula",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"Zero",
+"If + present, present",
+"general truth",
+"If you heat ice, it melts."
+],
+[
+"First",
+"If + present, will + V1",
+"real/possible future",
+"If I study, I will pass."
+],
+[
+"Second",
+"If + past, would + V1",
+"unreal/unlikely present/future",
+"If I had time, I would study."
+],
+[
+"Third",
+"If + had + V3, would have + V3",
+"unreal past/regret",
+"If I had studied, I would have passed."
+],
+[
+"Mixed",
+"If + had + V3, would + V1",
+"past condition, present result",
+"If I had studied, I would know it now."
+]
+]
+},
+{
+"t": "ul",
+"items": [
+"Do not normally put will directly after if in the first conditional.",
+"Formal second conditional: If I were you, I would study.",
+"Unless = if not: Unless you study, you may fail."
+]
+}
+]
+},
+{
+"id": "n09",
+"group": "Verbs & tenses",
+"title": "Wishes, Unreal Situations & Alternatives to If",
+"blocks": [
+{
+"t": "p",
+"x": "Use these structures when the situation is not real: wishes, regrets, imaginary situations and preferences. The verb moves one step back in time."
+},
+{
+"t": "tbl",
+"head": [
+"Structure",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"wish / if only + Past Simple",
+"Unreal present: I'm not like this",
+"I wish I had more time. / If only I knew the answer."
+],
+[
+"wish / if only + Past Perfect",
+"Regret about the past",
+"I wish I had studied harder."
+],
+[
+"wish / if only + would + V1",
+"Annoyance or a wanted change in someone else",
+"I wish you would stop talking."
+],
+[
+"would rather + subject + past",
+"Preference about someone else's action",
+"I'd rather you came tomorrow."
+],
+[
+"It's time + subject + Past Simple",
+"It should be done now",
+"It's time we went home."
+],
+[
+"as if / as though + past",
+"Unreal comparison",
+"He talks as if he knew everything."
+]
+]
+},
+{
+"t": "kv",
+"k": "Note",
+"x": "In formal English were is used for all persons: I wish I were taller. / If she were here… Do not use would after wish for your own action: I wish I would have… is wrong."
+},
+{
+"t": "h",
+"x": "Alternatives to if"
+},
+{
+"t": "tbl",
+"head": [
+"Word",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"unless",
+"if … not",
+"Unless you hurry, you'll be late."
+],
+[
+"provided / providing (that), as long as",
+"only if",
+"You can go provided that you finish first."
+],
+[
+"in case",
+"because it may happen",
+"Take an umbrella in case it rains."
+],
+[
+"otherwise / or else",
+"if not",
+"Hurry up, otherwise you'll miss the bus."
+],
+[
+"suppose / supposing",
+"what if",
+"Suppose you won the lottery, what would you do?"
+]
+]
+},
+{
+"t": "h",
+"x": "Inverted conditionals (formal)"
+},
+{
+"t": "ul",
+"items": [
+"Had I known, I would have helped. (= If I had known)",
+"Were I you, I would accept. (= If I were you)",
+"Should you need help, call me. (= If you should need)"
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"I wish I would have more time.",
+"I wish I had more time.",
+"wish + Past Simple for a present wish"
+],
+[
+"I wish I didn't go there yesterday.",
+"I wish I hadn't gone there yesterday.",
+"Past regret: Past Perfect"
+],
+[
+"Unless you don't study, you will fail.",
+"Unless you study, you will fail.",
+"unless already means if … not"
+],
+[
+"It's time we go.",
+"It's time we went.",
+"It's time + Past Simple"
+]
+]
+}
+]
+},
+{
+"id": "p11",
+"group": "Verbs & tenses",
+"title": "Passive Voice",
+"blocks": [
+{
+"t": "p",
+"x": "Core formula: appropriate form of BE + V3. Preserve the original tense."
+},
+{
+"t": "tbl",
+"head": [
+"Active",
+"Passive"
+],
+"rows": [
+[
+"They teach English.",
+"English is taught."
+],
+[
+"They taught English.",
+"English was taught."
+],
+[
+"They are teaching English.",
+"English is being taught."
+],
+[
+"They were teaching English.",
+"English was being taught."
+],
+[
+"They have taught English.",
+"English has been taught."
+],
+[
+"They had taught English.",
+"English had been taught."
+],
+[
+"They will teach English.",
+"English will be taught."
+],
+[
+"They must teach English.",
+"English must be taught."
+]
+]
+},
+{
+"t": "p",
+"x": "Exam method: move the object to subject position → choose correct BE form → use V3."
+}
+]
+},
+{
+"id": "n10",
+"group": "Verbs & tenses",
+"title": "Passive Voice: More Uses & the Causative",
+"blocks": [
+{
+"t": "p",
+"x": "The passive is common in formal writing, news and science. Use it when the action or the receiver is more important than the person doing it, or when the doer is unknown."
+},
+{
+"t": "tbl",
+"head": [
+"Pattern",
+"Example"
+],
+"rows": [
+[
+"Passive with modals: modal + be + V3",
+"The form must be signed. / Homework can be submitted online."
+],
+[
+"Perfect modal passive: modal + have been + V3",
+"The window should have been repaired."
+],
+[
+"Two objects: either can become the subject",
+"I was given a book. / A book was given to me."
+],
+[
+"Reporting passive: It is said that… / S + is said to + V1",
+"It is said that he is rich. / He is said to be rich. / He is believed to have left."
+],
+[
+"get-passive (informal, events and changes)",
+"He got fired. / The glass got broken."
+],
+[
+"Agent with by (only when important)",
+"The poem was written by a student."
+]
+]
+},
+{
+"t": "h",
+"x": "Verbs that cannot be passive"
+},
+{
+"t": "ul",
+"items": [
+"Intransitive verbs have no object, so they have no passive: happen, occur, arrive, die, seem, appear, belong.",
+"Correct: The accident happened. (not was happened)"
+]
+},
+{
+"t": "h",
+"x": "The causative: have / get something done"
+},
+{
+"t": "tbl",
+"head": [
+"Structure",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"have + object + V3",
+"Arrange for someone else to do something",
+"I had my hair cut. / She is having her house painted."
+],
+[
+"get + object + V3",
+"Same, less formal",
+"I got my phone repaired."
+],
+[
+"have + person + V1",
+"Ask or tell someone to do it",
+"She had the mechanic check the car."
+]
+]
+},
+{
+"t": "kv",
+"k": "Compare",
+"x": "I cut my hair. (I did it myself) / I had my hair cut. (someone else did it)"
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"The accident was happened yesterday.",
+"The accident happened yesterday.",
+"happen is intransitive"
+],
+[
+"I cut my hair at the salon yesterday.",
+"I had my hair cut at the salon yesterday.",
+"Someone else did it: causative"
+],
+[
+"The report must write today.",
+"The report must be written today.",
+"modal + be + V3"
+],
+[
+"English speaks in many countries.",
+"English is spoken in many countries.",
+"Passive: English receives the action"
+]
+]
+}
+]
+},
+{
+"id": "p12",
+"group": "Verbs & tenses",
+"title": "Reported Speech",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Direct",
+"Common reported form"
+],
+"rows": [
+[
+"Present Simple",
+"Past Simple"
+],
+[
+"Present Continuous",
+"Past Continuous"
+],
+[
+"Present Perfect",
+"Past Perfect"
+],
+[
+"Past Simple",
+"Past Perfect"
+],
+[
+"will",
+"would"
+],
+[
+"can",
+"could"
+],
+[
+"may",
+"might"
+]
+]
+},
+{
+"t": "ul",
+"items": [
+"now → then; today → that day; tomorrow → the next day; yesterday → the previous day; here → there; this → that.",
+"Reported question uses statement order: She asked where I lived. Not: where did I live.",
+"Commands: 'Study hard.' → The teacher told us to study hard."
+]
+}
+]
+},
+{
+"id": "n28",
+"group": "Verbs & tenses",
+"title": "Reported Speech: Reporting Verbs & Questions",
+"blocks": [
+{
+"t": "p",
+"x": "This section adds to “Reported Speech”. It covers reported questions, reporting-verb patterns and when backshift is not needed."
+},
+{
+"t": "h",
+"x": "Reported questions"
+},
+{
+"t": "tbl",
+"head": [
+"Direct",
+"Reported"
+],
+"rows": [
+[
+"“Where do you live?”",
+"She asked me where I lived."
+],
+[
+"“Do you like tea?”",
+"She asked me if / whether I liked tea."
+],
+[
+"“What time is it?”",
+"He asked what time it was."
+]
+]
+},
+{
+"t": "ul",
+"items": [
+"Use statement word order and no do / does / did in reported questions.",
+"Backshift the tense as in statements."
+]
+},
+{
+"t": "h",
+"x": "Backshift: extra points"
+},
+{
+"t": "ul",
+"items": [
+"will → would, can → could, may → might, must → had to (obligation).",
+"should, would, could, might do not change.",
+"No backshift when the reporting verb is present (She says she is tired), or when the statement is still true or a general truth (He said that water boils at 100°C).",
+"Time words: ago → before, last week → the week before, next week → the following week."
+]
+},
+{
+"t": "h",
+"x": "Reporting verb patterns"
+},
+{
+"t": "tbl",
+"head": [
+"Pattern",
+"Verbs",
+"Example"
+],
+"rows": [
+[
+"verb + that-clause",
+"say, explain, mention, admit, claim, suggest, promise, warn",
+"She said that she was busy."
+],
+[
+"tell / persuade / remind + object + that",
+"tell, remind, warn",
+"He told me that he was late."
+],
+[
+"verb + object + to V1",
+"tell, ask, order, advise, warn, remind, invite, allow",
+"She told me to wait."
+],
+[
+"verb + to V1",
+"promise, offer, refuse, agree, threaten, demand",
+"He promised to call."
+],
+[
+"verb + -ing",
+"suggest, admit, deny, recommend",
+"She suggested going home."
+],
+[
+"verb + preposition + -ing",
+"apologize for, insist on, accuse somebody of, congratulate somebody on",
+"He accused me of cheating."
+]
+]
+},
+{
+"t": "kv",
+"k": "say and tell",
+"x": "say + (to somebody) + that: He said (to me) that he was late. / tell + somebody + that: He told me that he was late. (not He told that…)"
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"He said me that he was tired.",
+"He told me that he was tired.",
+"tell + object"
+],
+[
+"She suggested me to go.",
+"She suggested going. / She suggested that I go.",
+"suggest + -ing / that-clause"
+],
+[
+"She asked me where did I live.",
+"She asked me where I lived.",
+"Statement order"
+],
+[
+"He asked if I will come.",
+"He asked if I would come.",
+"will → would"
+]
+]
+}
+]
+},
+{
+"id": "p13",
+"group": "Verbs & tenses",
+"title": "Gerunds & Infinitives",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Pattern",
+"Examples"
+],
+"rows": [
+[
+"verb + -ing",
+"enjoy reading; avoid making; finish studying"
+],
+[
+"verb + to + V1",
+"want to learn; decide to study; hope to pass"
+],
+[
+"preposition + -ing",
+"interested in learning; good at teaching"
+],
+[
+"make/let + object + V1",
+"made students practice; let him go"
+],
+[
+"ask/tell/allow + object + to V1",
+"asked me to help; told him to wait"
+]
+]
+},
+{
+"t": "p",
+"x": "High-value -ing verbs: enjoy, avoid, finish, suggest, mind, keep, practice, consider."
+},
+{
+"t": "p",
+"x": "High-value to-infinitive verbs: want, need, decide, hope, plan, agree, promise, refuse."
+},
+{
+"t": "p",
+"x": "Look forward to + -ing: I look forward to meeting you."
+}
+]
+},
+{
+"id": "n12",
+"group": "Verbs & tenses",
+"title": "Verb Patterns: -ing or to? (Changes in Meaning)",
+"blocks": [
+{
+"t": "p",
+"x": "Some verbs take both -ing and to + V1, but the meaning changes. Other verbs take an object followed by a particular form."
+},
+{
+"t": "tbl",
+"head": [
+"Verb",
+"+ -ing",
+"+ to-infinitive"
+],
+"rows": [
+[
+"stop",
+"stop doing (end an action): He stopped smoking.",
+"stop to do (pause in order to): He stopped to smoke."
+],
+[
+"remember",
+"remember doing (recall the past): I remember locking the door.",
+"remember to do (not forget): Remember to lock the door."
+],
+[
+"forget",
+"forget doing: I'll never forget meeting her.",
+"forget to do: Don't forget to call."
+],
+[
+"try",
+"try doing (experiment): Try turning it off and on.",
+"try to do (attempt): I tried to open it."
+],
+[
+"regret",
+"regret doing: I regret saying that.",
+"regret to say / inform: We regret to inform you…"
+],
+[
+"go on",
+"continue the same thing: She went on talking.",
+"do the next thing: She went on to explain."
+],
+[
+"need",
+"need doing (passive meaning): The car needs washing.",
+"need to do: I need to wash the car."
+]
+]
+},
+{
+"t": "kv",
+"k": "Same meaning",
+"x": "begin, start, continue, like, love, hate, prefer take either form with almost no change: I like swimming / to swim. After would like / would love / would prefer use to + V1."
+},
+{
+"t": "h",
+"x": "Verb + object + …"
+},
+{
+"t": "tbl",
+"head": [
+"Pattern",
+"Verbs",
+"Example"
+],
+"rows": [
+[
+"object + to + V1",
+"want, ask, tell, advise, allow, invite, remind, warn, persuade, force, expect, would like",
+"She told me to wait."
+],
+[
+"object + V1 (no to)",
+"make, let, (help)",
+"He made me laugh. / Let me go. / She helped me (to) carry it."
+],
+[
+"object + V1 or -ing",
+"see, hear, watch, notice",
+"I saw him cross the road (whole action). / I saw him crossing the road (in progress)."
+]
+]
+},
+{
+"t": "h",
+"x": "Other patterns"
+},
+{
+"t": "ul",
+"items": [
+"Adjective + to-infinitive: easy to learn, ready to go, happy to help.",
+"Purpose: I study to pass the exam. = in order to / so as to pass.",
+"too / enough + to: too tired to walk; old enough to vote.",
+"Preposition + -ing: good at singing, interested in learning, before leaving."
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"She suggested to go.",
+"She suggested going.",
+"suggest + -ing"
+],
+[
+"He made me to cry.",
+"He made me cry.",
+"make + object + base verb"
+],
+[
+"I stopped to smoke last year.",
+"I stopped smoking last year.",
+"stop + -ing = give up"
+],
+[
+"I remember to meet him last year.",
+"I remember meeting him last year.",
+"Memory of the past: -ing"
+]
+]
+}
+]
+},
+{
+"id": "n11",
+"group": "Verbs & tenses",
+"title": "Phrasal Verbs",
+"blocks": [
+{
+"t": "p",
+"x": "A phrasal verb is a verb + particle (up, off, out, on, in, down, away) with a special meaning. The meaning is often different from the verb alone, so learn each as one item."
+},
+{
+"t": "tbl",
+"head": [
+"Type",
+"Rule",
+"Example"
+],
+"rows": [
+[
+"Intransitive",
+"No object",
+"The plane took off. / Please sit down."
+],
+[
+"Transitive separable",
+"The object can go in the middle or after; a pronoun must go in the middle",
+"turn off the light / turn the light off / turn it off (not turn off it)"
+],
+[
+"Transitive inseparable",
+"The object always comes after the particle",
+"look after the children (not look the children after)"
+],
+[
+"Three-part",
+"Verb + two particles; object after",
+"look forward to, put up with, run out of, get on with, come up with, catch up with"
+]
+]
+},
+{
+"t": "h",
+"x": "Common phrasal verbs"
+},
+{
+"t": "tbl",
+"head": [
+"Phrasal verb",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"give up",
+"stop trying",
+"Don't give up!"
+],
+[
+"look up",
+"search for information",
+"Look the word up in a dictionary."
+],
+[
+"find out",
+"discover",
+"I found out the truth."
+],
+[
+"turn down",
+"refuse",
+"She turned down the offer."
+],
+[
+"put off",
+"postpone",
+"They put off the meeting."
+],
+[
+"carry on",
+"continue",
+"Please carry on working."
+],
+[
+"break down",
+"stop working",
+"The bus broke down."
+],
+[
+"bring up",
+"raise (a child / a topic)",
+"She was brought up in Takeo."
+],
+[
+"call off",
+"cancel",
+"The match was called off."
+],
+[
+"set up",
+"establish",
+"They set up a new school."
+],
+[
+"take off",
+"leave the ground; remove clothes",
+"The plane takes off at six."
+],
+[
+"pick up",
+"collect",
+"I'll pick you up at seven."
+],
+[
+"get along with",
+"have a good relationship",
+"I get along with my classmates."
+],
+[
+"look after",
+"take care of",
+"She looks after her brother."
+],
+[
+"look for",
+"search",
+"I'm looking for my keys."
+],
+[
+"run out of",
+"have none left",
+"We have run out of paper."
+],
+[
+"put up with",
+"tolerate",
+"I can't put up with the noise."
+],
+[
+"come up with",
+"think of an idea",
+"She came up with a plan."
+],
+[
+"work out",
+"solve; exercise",
+"I can't work out this problem."
+],
+[
+"fill in",
+"complete a form",
+"Fill in the form, please."
+],
+[
+"hand in",
+"submit",
+"Hand in your homework."
+],
+[
+"drop out",
+"leave school",
+"He dropped out of university."
+],
+[
+"show up",
+"arrive",
+"She didn't show up."
+]
+]
+},
+{
+"t": "note",
+"x": "In look forward to, object to, get used to, to is a preposition, so an -ing form follows: I look forward to meeting you."
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"Turn off it.",
+"Turn it off.",
+"A pronoun goes between verb and particle"
+],
+[
+"I look after for my sister.",
+"I look after my sister.",
+"look after is complete; no for"
+],
+[
+"She gave up to smoke.",
+"She gave up smoking.",
+"give up + -ing"
+]
+]
+}
+]
+},
+{
+"id": "n13",
+"group": "Verbs & tenses",
+"title": "Imperatives, There is / There are & Other Basics",
+"blocks": [
+{
+"t": "h",
+"x": "Imperatives"
+},
+{
+"t": "tbl",
+"head": [
+"Type",
+"Form",
+"Example"
+],
+"rows": [
+[
+"Positive",
+"base verb",
+"Open your books."
+],
+[
+"Negative",
+"Don't + base verb",
+"Don't talk."
+],
+[
+"Suggestion with us",
+"Let's + base verb",
+"Let's start."
+],
+[
+"Polite / emphatic",
+"please; do + base verb",
+"Please sit down. / Do come in."
+]
+]
+},
+{
+"t": "h",
+"x": "There is / There are"
+},
+{
+"t": "ul",
+"items": [
+"There is + singular or uncountable noun: There is a book. / There is some water.",
+"There are + plural noun: There are five students.",
+"With a list, the verb agrees with the first noun: There is a pen and two books.",
+"Other tenses: There was / were, There has been, There will be, There must be.",
+"Question and negative: Is there…? / There isn't any milk."
+]
+},
+{
+"t": "h",
+"x": "It and there"
+},
+{
+"t": "ul",
+"items": [
+"It for time, weather, distance and dummy subject: It's five o'clock. / It rains a lot. / It is important to study.",
+"There for existence: There is a problem. (not It is a problem when you mean it exists)"
+]
+},
+{
+"t": "h",
+"x": "have and have got"
+},
+{
+"t": "ul",
+"items": [
+"have got = have for possession (informal, mainly British): I have got a car. = I have a car.",
+"Do not use have got for actions: have breakfast, have a shower (not have got breakfast)."
+]
+},
+{
+"t": "h",
+"x": "Emphatic do"
+},
+{
+"t": "ul",
+"items": [
+"Do + base verb adds emphasis: She does like music. / I did tell you."
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"There is many students.",
+"There are many students.",
+"Plural noun: There are"
+],
+[
+"Is raining today.",
+"It is raining today.",
+"English needs a subject: It"
+],
+[
+"Don't to go.",
+"Don't go.",
+"Don't + base verb"
+]
+]
+}
+]
+},
+{
+"id": "p3",
+"group": "Nouns & describing words",
+"title": "Articles",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Form",
+"Rule",
+"Example"
+],
+"rows": [
+[
+"a",
+"singular countable, non-specific, consonant sound",
+"a teacher; a university"
+],
+[
+"an",
+"singular countable, non-specific, vowel sound",
+"an apple; an hour"
+],
+[
+"the",
+"specific/known/unique; superlatives",
+"the book; the sun; the best"
+],
+[
+"zero article",
+"general plural or uncountable nouns",
+"Students need practice. Education is important."
+]
+]
+},
+{
+"t": "p",
+"x": "Remember: article choice depends on sound: a university, an hour."
+}
+]
+},
+{
+"id": "n19",
+"group": "Nouns & describing words",
+"title": "Articles in Detail",
+"blocks": [
+{
+"t": "h",
+"x": "Use the"
+},
+{
+"t": "tbl",
+"head": [
+"Use",
+"Example"
+],
+"rows": [
+[
+"Second mention",
+"I saw a dog. The dog was big."
+],
+[
+"Unique things",
+"the sun, the moon, the sky, the world"
+],
+[
+"Superlatives, ordinals, only",
+"the best, the first, the only student"
+],
+[
+"Both speaker and listener know which one",
+"Open the window, please."
+],
+[
+"Rivers, oceans, seas, mountain ranges, deserts, island groups",
+"the Mekong, the Pacific, the Alps, the Sahara, the Philippines"
+],
+[
+"Countries with plural names or union / kingdom / republic",
+"the Netherlands, the United States, the Kingdom of Cambodia"
+],
+[
+"the + adjective = group of people",
+"the poor, the young"
+],
+[
+"Nationality as a group; decades; musical instruments",
+"the French, the 1990s, play the guitar"
+]
+]
+},
+{
+"t": "h",
+"x": "Zero article (no article)"
+},
+{
+"t": "tbl",
+"head": [
+"Use",
+"Example"
+],
+"rows": [
+[
+"Plural and uncountable nouns in general",
+"Students need practice. / Life is short."
+],
+[
+"Languages, subjects, sports, meals",
+"speak Khmer; study maths; play football; have breakfast"
+],
+[
+"Most single countries, cities, continents, lakes, mountains",
+"Cambodia, Asia, Lake Tonle Sap, Mount Everest"
+],
+[
+"by + transport",
+"by bus, by train"
+],
+[
+"school, university, hospital, prison, church, bed, home, work for their main purpose",
+"She goes to school. (as a student) / She went to the school to meet the director. (the building)"
+]
+]
+},
+{
+"t": "h",
+"x": "Use a / an"
+},
+{
+"t": "ul",
+"items": [
+"First mention and jobs: She is a teacher.",
+"Per: twice a week; exclamations: What a day!",
+"Half an hour; a hundred; such a; quite a; a few; a little.",
+"Choose by sound: a university, a European, a one-day trip; an hour, an honest man, an MP."
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"The life is hard.",
+"Life is hard.",
+"General idea: no article"
+],
+[
+"She plays the football.",
+"She plays football.",
+"No article with sports"
+],
+[
+"He is teacher.",
+"He is a teacher.",
+"Jobs take a / an"
+],
+[
+"I go to the school every day. (I am a student)",
+"I go to school every day.",
+"Main purpose: no article"
+],
+[
+"She lives in the Cambodia.",
+"She lives in Cambodia.",
+"No article with most countries"
+]
+]
+}
+]
+},
+{
+"id": "p4",
+"group": "Nouns & describing words",
+"title": "Nouns",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Countable",
+"Uncountable"
+],
+"rows": [
+[
+"a student / students",
+"information"
+],
+[
+"a book / books",
+"advice"
+],
+[
+"many students / few students",
+"much information / little information"
+],
+[
+"fewer students",
+"less information"
+]
+]
+},
+{
+"t": "p",
+"x": "Common uncountable exam nouns: advice, information, knowledge, furniture, equipment, homework, research, news, education."
+},
+{
+"t": "kv",
+"k": "Correct",
+"x": "some advice, a piece of advice, much information. Not: an advice, many informations."
+}
+]
+},
+{
+"id": "n14",
+"group": "Nouns & describing words",
+"title": "Plurals, Possessives & Compound Nouns",
+"blocks": [
+{
+"t": "h",
+"x": "Irregular and special plurals"
+},
+{
+"t": "tbl",
+"head": [
+"Type",
+"Examples"
+],
+"rows": [
+[
+"Irregular",
+"man → men; woman → women; child → children; foot → feet; tooth → teeth; mouse → mice; person → people"
+],
+[
+"Same singular and plural",
+"sheep, fish, deer, series, species, means"
+],
+[
+"Latin / Greek",
+"datum → data; criterion → criteria; phenomenon → phenomena; analysis → analyses; crisis → crises; bacterium → bacteria"
+],
+[
+"Always plural",
+"scissors, trousers, jeans, glasses, clothes, police, people"
+],
+[
+"Look plural, take singular verb",
+"news, mathematics, physics, economics, athletics"
+]
+]
+},
+{
+"t": "kv",
+"k": "Collective nouns",
+"x": "team, family, class, committee, government, staff take a singular verb when seen as one unit (The team is ready) and a plural verb when the members are meant (The team are arguing). The police are coming. (always plural)"
+},
+{
+"t": "h",
+"x": "Possessives"
+},
+{
+"t": "tbl",
+"head": [
+"Rule",
+"Example"
+],
+"rows": [
+[
+"Singular noun + 's",
+"the teacher's book"
+],
+[
+"Plural ending in -s: add only an apostrophe",
+"the students' books"
+],
+[
+"Irregular plural + 's",
+"the children's toys"
+],
+[
+"Names ending in -s: 's or '",
+"James's car / James' car"
+],
+[
+"Time and distance",
+"a week's holiday; ten minutes' walk"
+],
+[
+"Things: of",
+"the door of the room (not the room's door)"
+],
+[
+"Double possessive",
+"a friend of mine"
+],
+[
+"Shared possession: 's on the last name",
+"Tom and Mary's house"
+]
+]
+},
+{
+"t": "h",
+"x": "Compound nouns"
+},
+{
+"t": "ul",
+"items": [
+"Noun + noun: classroom, bus stop, school bag. The plural is on the last word: bus stops.",
+"Exceptions: mothers-in-law, passers-by.",
+"Measurement before a noun is singular: a five-minute break, a two-hour lesson."
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"Three childs",
+"Three children",
+"Irregular plural"
+],
+[
+"The informations are useful.",
+"The information is useful.",
+"uncountable"
+],
+[
+"The students book",
+"The students' books",
+"Plural possessive"
+],
+[
+"Mathematics are difficult.",
+"Mathematics is difficult.",
+"Subject name: singular"
+]
+]
+}
+]
+},
+{
+"id": "n15",
+"group": "Nouns & describing words",
+"title": "Quantifiers & Determiners",
+"blocks": [
+{
+"t": "p",
+"x": "Quantifiers show how much or how many. The choice depends on whether the noun is countable or uncountable and on whether the sentence is positive, negative or a question."
+},
+{
+"t": "tbl",
+"head": [
+"Quantifier",
+"Countable (plural)",
+"Uncountable",
+"Notes"
+],
+"rows": [
+[
+"some",
+"✓",
+"✓",
+"Positive sentences and offers: Would you like some tea?"
+],
+[
+"any",
+"✓",
+"✓",
+"Negatives and questions: I don't have any books."
+],
+[
+"no",
+"✓",
+"✓",
+"= not any: I have no time."
+],
+[
+"much",
+"✗",
+"✓",
+"Mainly negatives and questions: How much money…?"
+],
+[
+"many",
+"✓",
+"✗",
+"How many students…?"
+],
+[
+"a lot of / lots of",
+"✓",
+"✓",
+"Common in positive sentences"
+],
+[
+"(a) few",
+"✓",
+"✗",
+"a few = some; few = hardly any"
+],
+[
+"(a) little",
+"✗",
+"✓",
+"a little = some; little = hardly any"
+],
+[
+"fewer / less",
+"fewer + countable",
+"less + uncountable",
+"fewer students, less water"
+],
+[
+"enough",
+"✓",
+"✓",
+"enough time; tall enough"
+],
+[
+"plenty of",
+"✓",
+"✓",
+"plenty of time"
+]
+]
+},
+{
+"t": "h",
+"x": "all, most, some, many of…"
+},
+{
+"t": "ul",
+"items": [
+"General: Most students like music. (no the)",
+"Specific: Most of the students like music. (of + the / these / my + noun)"
+]
+},
+{
+"t": "h",
+"x": "both, either, neither; each, every"
+},
+{
+"t": "ul",
+"items": [
+"both + plural verb: Both answers are correct.",
+"either / neither + singular noun and verb: Neither answer is correct.",
+"each = every one separately; every = all as a group. Both take a singular verb: Each student has a book. / Every student has a book.",
+"each of / one of + plural noun + singular verb: One of my friends is a teacher."
+]
+},
+{
+"t": "h",
+"x": "another, other, the other"
+},
+{
+"t": "tbl",
+"head": [
+"Word",
+"Use",
+"Example"
+],
+"rows": [
+[
+"another",
+"one more (singular)",
+"Have another cup."
+],
+[
+"other + plural noun",
+"more different things",
+"Other students were late."
+],
+[
+"the other",
+"the second of two (singular)",
+"One is red; the other is blue."
+],
+[
+"the others",
+"all the remaining ones",
+"Two came; the others stayed."
+],
+[
+"others",
+"some more (not all)",
+"Some like tea; others prefer coffee."
+]
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"I have a few water.",
+"I have a little water.",
+"water is uncountable"
+],
+[
+"How many money do you have?",
+"How much money do you have?",
+"money is uncountable"
+],
+[
+"There are less students today.",
+"There are fewer students today.",
+"fewer + countable"
+],
+[
+"Each of the students have a book.",
+"Each of the students has a book.",
+"each takes a singular verb"
+],
+[
+"I have few friends, so I'm happy.",
+"I have a few friends, so I'm happy.",
+"a few = some (positive)"
+]
+]
+}
+]
+},
+{
+"id": "p5",
+"group": "Nouns & describing words",
+"title": "Pronouns",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Type",
+"Examples"
+],
+"rows": [
+[
+"Subject",
+"I, you, he, she, it, we, they"
+],
+[
+"Object",
+"me, you, him, her, it, us, them"
+],
+[
+"Possessive adjective",
+"my, your, his, her, its, our, their"
+],
+[
+"Possessive pronoun",
+"mine, yours, his, hers, ours, theirs"
+],
+[
+"Reflexive",
+"myself, yourself, himself, herself, itself, ourselves, themselves"
+],
+[
+"Demonstrative",
+"this, that, these, those"
+],
+[
+"Relative",
+"who, whom, which, that, whose"
+]
+]
+},
+{
+"t": "p",
+"x": "Exam trap: it's = it is/it has; its = possession."
+}
+]
+},
+{
+"id": "n18",
+"group": "Nouns & describing words",
+"title": "Pronouns in More Detail",
+"blocks": [
+{
+"t": "h",
+"x": "Indefinite pronouns"
+},
+{
+"t": "tbl",
+"head": [
+"",
+"some-",
+"any-",
+"no-",
+"every-"
+],
+"rows": [
+[
+"people",
+"someone, somebody",
+"anyone, anybody",
+"no one, nobody",
+"everyone, everybody"
+],
+[
+"things",
+"something",
+"anything",
+"nothing",
+"everything"
+],
+[
+"places",
+"somewhere",
+"anywhere",
+"nowhere",
+"everywhere"
+]
+]
+},
+{
+"t": "ul",
+"items": [
+"They take a singular verb: Everyone is here. Nobody knows.",
+"Use some- in positive sentences and offers, any- in negatives, questions and conditionals: I don't know anything. / Is there anyone here?",
+"no- already has a negative meaning, so the verb is positive: I know nothing. (not I don't know nothing)",
+"In modern English they / their can refer back: Everyone has their own book."
+]
+},
+{
+"t": "h",
+"x": "Reflexive pronouns and each other"
+},
+{
+"t": "tbl",
+"head": [
+"Use",
+"Example"
+],
+"rows": [
+[
+"Subject = object",
+"She hurt herself."
+],
+[
+"Emphasis",
+"I did it myself."
+],
+[
+"Alone (by + reflexive)",
+"He lives by himself."
+],
+[
+"Two people, each to the other: each other / one another",
+"They help each other."
+]
+]
+},
+{
+"t": "note",
+"x": "Do not use a reflexive after verbs such as feel, relax, concentrate, meet, wash (when obvious): I feel tired. (not I feel myself tired) / We met at six. (not met ourselves)"
+},
+{
+"t": "h",
+"x": "one / ones and general one"
+},
+{
+"t": "ul",
+"items": [
+"To avoid repeating a noun: I like the red one. / Which ones do you want?",
+"one as a general person (formal): One should be careful."
+]
+},
+{
+"t": "h",
+"x": "Case after than, as and be"
+},
+{
+"t": "ul",
+"items": [
+"Formal: taller than I (am). Informal: taller than me.",
+"After prepositions use the object form: between you and me (not between you and I)."
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"I don't know nothing.",
+"I don't know anything.",
+"No double negatives"
+],
+[
+"They help themselves each other.",
+"They help each other.",
+"each other is a reciprocal pronoun"
+],
+[
+"Everyone are ready.",
+"Everyone is ready.",
+"everyone takes a singular verb"
+],
+[
+"Between you and I",
+"Between you and me",
+"Object form after a preposition"
+],
+[
+"I feel myself tired.",
+"I feel tired.",
+"No reflexive after feel"
+]
+]
+}
+]
+},
+{
+"id": "p6",
+"group": "Nouns & describing words",
+"title": "Adjectives & Adverbs",
+"blocks": [
+{
+"t": "ul",
+"items": [
+"Adjective: She is careful. / Adverb: She works carefully.",
+"good = adjective; well = usually adverb.",
+"hard = with effort; hardly = almost not.",
+"late = not early; lately = recently.",
+"near = close; nearly = almost."
+]
+}
+]
+},
+{
+"id": "n16",
+"group": "Nouns & describing words",
+"title": "Adjective Order, -ed / -ing Adjectives & Adverb Position",
+"blocks": [
+{
+"t": "h",
+"x": "Order of adjectives"
+},
+{
+"t": "p",
+"x": "When two or more adjectives come before a noun, they usually follow this order: Opinion – Size – Age – Shape – Colour – Origin – Material – Purpose."
+},
+{
+"t": "tbl",
+"head": [
+"Opinion",
+"Size",
+"Age",
+"Shape",
+"Colour",
+"Origin",
+"Material",
+"Noun"
+],
+"rows": [
+[
+"beautiful",
+"small",
+"old",
+"round",
+"brown",
+"Chinese",
+"wooden",
+"table"
+],
+[
+"lovely",
+"big",
+"new",
+"—",
+"red",
+"Cambodian",
+"silk",
+"scarf"
+]
+]
+},
+{
+"t": "kv",
+"k": "Tip",
+"x": "Use no more than three adjectives before a noun. Write: a nice old house; a small red car."
+},
+{
+"t": "h",
+"x": "-ed and -ing adjectives"
+},
+{
+"t": "tbl",
+"head": [
+"-ed (how someone feels)",
+"-ing (what causes the feeling)"
+],
+"rows": [
+[
+"I am bored.",
+"The lesson is boring."
+],
+[
+"She is interested in art.",
+"Art is interesting."
+],
+[
+"We were tired.",
+"The journey was tiring."
+],
+[
+"He is confused.",
+"The map is confusing."
+],
+[
+"They were surprised.",
+"The news was surprising."
+]
+]
+},
+{
+"t": "h",
+"x": "Types and position of adverbs"
+},
+{
+"t": "tbl",
+"head": [
+"Type",
+"Examples",
+"Usual position"
+],
+"rows": [
+[
+"Manner",
+"carefully, quickly, well",
+"After the verb or object: She speaks English fluently."
+],
+[
+"Place",
+"here, there, upstairs",
+"After the verb or object"
+],
+[
+"Time",
+"yesterday, soon, now",
+"End of the sentence (or start for emphasis)"
+],
+[
+"Frequency",
+"always, usually, often, never",
+"Before the main verb; after be: She always arrives early. / She is always early."
+],
+[
+"Degree",
+"very, quite, extremely, too",
+"Before the adjective or adverb: very good"
+],
+[
+"Sentence adverbs",
+"fortunately, probably, obviously",
+"Start of the sentence or before the verb"
+]
+]
+},
+{
+"t": "ul",
+"items": [
+"With an auxiliary the frequency adverb goes after the first auxiliary: He has never been late.",
+"Usual order at the end: manner, place, time: She worked hard at school yesterday.",
+"Do not put an adverb between a verb and its direct object: She speaks English fluently. (not speaks fluently English)"
+]
+},
+{
+"t": "h",
+"x": "Degree adverbs"
+},
+{
+"t": "ul",
+"items": [
+"very + adjective (very good); very much + verb (I like it very much).",
+"quite / rather / fairly: fairly is weaker; rather often suggests something negative or surprising.",
+"too = more than needed (negative); enough comes after an adjective: tall enough; before a noun: enough time.",
+"so + adjective (so tired); such + (a) + noun (such a long day)."
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"I am boring in this lesson.",
+"I am bored in this lesson.",
+"-ed describes the feeling"
+],
+[
+"a wooden old table",
+"an old wooden table",
+"Order: age before material"
+],
+[
+"She is always arrives late.",
+"She always arrives late.",
+"Frequency adverb before the main verb"
+],
+[
+"He did his homework carefully yesterday at home.",
+"He did his homework carefully at home yesterday.",
+"Order: manner, place, time"
+]
+]
+}
+]
+},
+{
+"id": "p7",
+"group": "Nouns & describing words",
+"title": "Comparatives & Superlatives",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Pattern",
+"Formula/example"
+],
+"rows": [
+[
+"Comparative short",
+"small → smaller"
+],
+[
+"Comparative long",
+"useful → more useful"
+],
+[
+"Superlative short",
+"small → the smallest"
+],
+[
+"Superlative long",
+"useful → the most useful"
+],
+[
+"Equality",
+"as + adjective + as"
+],
+[
+"Negative equality",
+"not as/so + adjective + as"
+]
+]
+},
+{
+"t": "ul",
+"items": [
+"good → better → best",
+"bad → worse → worst",
+"many/much → more → most",
+"little → less → least"
+]
+}
+]
+},
+{
+"id": "n17",
+"group": "Nouns & describing words",
+"title": "Comparison in Detail",
+"blocks": [
+{
+"t": "h",
+"x": "Forms"
+},
+{
+"t": "tbl",
+"head": [
+"Adjective type",
+"Comparative",
+"Superlative",
+"Rule"
+],
+"rows": [
+[
+"One syllable",
+"tall → taller",
+"the tallest",
+"-er / -est"
+],
+[
+"Ends in -e",
+"nice → nicer",
+"the nicest",
+"add -r / -st"
+],
+[
+"One vowel + one consonant",
+"big → bigger",
+"the biggest",
+"double the consonant"
+],
+[
+"Ends in consonant + y",
+"happy → happier",
+"the happiest",
+"y → i"
+],
+[
+"Two or more syllables",
+"beautiful → more beautiful",
+"the most beautiful",
+"more / most"
+],
+[
+"Two syllables, both forms possible",
+"clever, narrow, simple, quiet",
+"cleverer / more clever",
+"check a dictionary"
+],
+[
+"Irregular",
+"good → better; bad → worse; far → farther / further",
+"the best / the worst / the farthest",
+"memorize"
+]
+]
+},
+{
+"t": "h",
+"x": "Structures"
+},
+{
+"t": "tbl",
+"head": [
+"Structure",
+"Example"
+],
+"rows": [
+[
+"comparative + than",
+"She is taller than her brother."
+],
+[
+"as + adjective + as",
+"He is as tall as his father."
+],
+[
+"not as / so + adjective + as",
+"This book is not as expensive as that one."
+],
+[
+"the + superlative + in / of",
+"the tallest in the class; the best of all"
+],
+[
+"superlative + ever + Present Perfect",
+"the best film I have ever seen"
+],
+[
+"modifier + comparative",
+"much / far / a lot / slightly / a little better (not very better)"
+],
+[
+"by far the + superlative",
+"He is by far the fastest."
+],
+[
+"twice / three times as … as",
+"This is twice as expensive as that."
+],
+[
+"the + comparative …, the + comparative …",
+"The more you practise, the better you become."
+],
+[
+"comparative and comparative",
+"It's getting more and more difficult."
+],
+[
+"the same as / different from / similar to",
+"My bag is the same as yours."
+]
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"more better",
+"better",
+"Do not combine more with -er"
+],
+[
+"the most tallest",
+"the tallest",
+"One superlative marker"
+],
+[
+"She is more taller than me.",
+"She is taller than me.",
+"taller already comparative"
+],
+[
+"This is very better than that.",
+"This is much better than that.",
+"very cannot modify a comparative"
+],
+[
+"He is the taller in the class.",
+"He is the tallest in the class.",
+"Three or more people: superlative"
+]
+]
+}
+]
+},
+{
+"id": "p8",
+"group": "Linking & clauses",
+"title": "Prepositions",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Preposition",
+"Use",
+"Example"
+],
+"rows": [
+[
+"at",
+"clock time",
+"at 7:00"
+],
+[
+"on",
+"day/date",
+"on Monday; on July 4"
+],
+[
+"in",
+"month/year/long period",
+"in July; in 2026; in the morning"
+],
+[
+"since",
+"starting point",
+"since 2020"
+],
+[
+"for",
+"duration",
+"for five years"
+],
+[
+"by",
+"deadline",
+"by Friday"
+],
+[
+"until",
+"continuation to a time",
+"until Friday"
+],
+[
+"during",
+"within a period/event",
+"during the meeting"
+]
+]
+},
+{
+"t": "ul",
+"items": [
+"because + clause / because of + noun or -ing",
+"although + clause / despite or in spite of + noun or -ing",
+"between = two; among = a group",
+"since = starting point; for = duration"
+]
+}
+]
+},
+{
+"id": "n20",
+"group": "Linking & clauses",
+"title": "Prepositions of Place & Movement; Dependent Prepositions",
+"blocks": [
+{
+"t": "h",
+"x": "Place"
+},
+{
+"t": "tbl",
+"head": [
+"Preposition",
+"Use",
+"Example"
+],
+"rows": [
+[
+"in",
+"inside; enclosed space; large area",
+"in the room; in a car; in Cambodia"
+],
+[
+"on",
+"surface; public transport; floors",
+"on the wall; on the bus; on the second floor"
+],
+[
+"at",
+"a point or specific place",
+"at the bus stop; at school; at the door; at a party"
+],
+[
+"above / below",
+"higher / lower, not touching",
+"the sky above us"
+],
+[
+"over / under",
+"covering; directly below",
+"a bridge over the river; under the table"
+],
+[
+"between / among",
+"two / a group",
+"between two houses; among the trees"
+],
+[
+"in front of / behind / next to / beside / opposite / near",
+"position",
+"The bank is opposite the school."
+]
+]
+},
+{
+"t": "h",
+"x": "Movement"
+},
+{
+"t": "tbl",
+"head": [
+"Preposition",
+"Example"
+],
+"rows": [
+[
+"to",
+"She went to Siem Reap."
+],
+[
+"into / out of",
+"He walked into the room. / He ran out of the house."
+],
+[
+"onto / off",
+"The cat jumped onto the table."
+],
+[
+"through / across / along / past",
+"walk through the park; across the road; along the river; past the market"
+],
+[
+"towards / up / down / around",
+"He ran towards me; up the hill; down the stairs; around the lake"
+]
+]
+},
+{
+"t": "h",
+"x": "Time (more)"
+},
+{
+"t": "ul",
+"items": [
+"in the morning / afternoon / evening, but at night; on Monday morning.",
+"from … to, between … and, within three days, ago (after the period: two years ago)."
+]
+},
+{
+"t": "h",
+"x": "Dependent prepositions"
+},
+{
+"t": "tbl",
+"head": [
+"Type",
+"Examples"
+],
+"rows": [
+[
+"Adjective + preposition",
+"afraid of; good at; interested in; keen on; proud of; angry with (a person) / about (a thing); different from; similar to; married to; responsible for; famous for; tired of; worried about; aware of"
+],
+[
+"Verb + preposition",
+"depend on; listen to; wait for; look at; belong to; apologize for; believe in; succeed in; insist on; think about / of; ask for; care about; complain about; agree with; concentrate on; consist of; suffer from; rely on"
+],
+[
+"Noun + preposition",
+"reason for; cause of; increase in; solution to; difference between; advantage of; need for; demand for"
+]
+]
+},
+{
+"t": "h",
+"x": "Verbs that take no preposition"
+},
+{
+"t": "ul",
+"items": [
+"discuss (not discuss about), enter (not enter into a room), reach, attend, mention, marry (not marry with), resemble, approach, answer (the question)."
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"married with",
+"married to",
+"married + to"
+],
+[
+"discuss about it",
+"discuss it",
+"discuss takes a direct object"
+],
+[
+"good in English",
+"good at English",
+"good at"
+],
+[
+"He is waiting me.",
+"He is waiting for me.",
+"wait for"
+],
+[
+"I arrived to Phnom Penh.",
+"I arrived in Phnom Penh.",
+"arrive in a city; arrive at a small place"
+]
+]
+}
+]
+},
+{
+"id": "p14",
+"group": "Linking & clauses",
+"title": "Relative Clauses",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Word",
+"Use",
+"Example"
+],
+"rows": [
+[
+"who",
+"people",
+"The teacher who helped me was kind."
+],
+[
+"whom",
+"people as object, formal",
+"The teacher whom I met was helpful."
+],
+[
+"which",
+"things",
+"The book which I bought is useful."
+],
+[
+"that",
+"people/things in defining clauses",
+"The book that I bought is useful."
+],
+[
+"whose",
+"possession",
+"The student whose book was lost is absent."
+],
+[
+"where",
+"place",
+"The school where I studied is nearby."
+],
+[
+"when",
+"time",
+"The year when I graduated was important."
+]
+]
+},
+{
+"t": "p",
+"x": "Do not use 'that' in non-defining clauses with commas: My teacher, who lives nearby, is helpful."
+}
+]
+},
+{
+"id": "n21",
+"group": "Linking & clauses",
+"title": "Relative Clauses in Detail",
+"blocks": [
+{
+"t": "p",
+"x": "A relative clause gives more information about a noun. The type of clause changes the punctuation and which pronouns you can use."
+},
+{
+"t": "tbl",
+"head": [
+"Type",
+"Commas",
+"that?",
+"Omit the pronoun?",
+"Example"
+],
+"rows": [
+[
+"Defining (necessary to identify)",
+"No",
+"Yes",
+"Yes, if it is the object",
+"The book (that) I bought is useful."
+],
+[
+"Non-defining (extra information)",
+"Yes",
+"No",
+"No",
+"My teacher, who lives nearby, is helpful."
+]
+]
+},
+{
+"t": "h",
+"x": "Omitting the relative pronoun"
+},
+{
+"t": "ul",
+"items": [
+"You may omit who, whom, which or that when it is the object of the relative clause: The man (whom) I met is a doctor.",
+"You cannot omit it when it is the subject: The man who lives here is a doctor."
+]
+},
+{
+"t": "h",
+"x": "Prepositions"
+},
+{
+"t": "ul",
+"items": [
+"Informal: The teacher (who) I spoke to… / The pen (that) I wrote with…",
+"Formal: The teacher to whom I spoke… / The pen with which I wrote…",
+"A preposition cannot come before who or that."
+]
+},
+{
+"t": "h",
+"x": "Other relative words"
+},
+{
+"t": "tbl",
+"head": [
+"Word",
+"Use",
+"Example"
+],
+"rows": [
+[
+"whose + noun",
+"possession",
+"The student whose book was lost is absent."
+],
+[
+"where (= in which)",
+"place",
+"The school where I studied is near."
+],
+[
+"when (= in / on which)",
+"time",
+"The year when I graduated was important."
+],
+[
+"why",
+"reason",
+"The reason why he left is unclear."
+],
+[
+"which (whole clause)",
+"comment on a whole idea",
+"He passed the exam, which surprised everyone."
+],
+[
+"that after all, everything, something, nothing, the only, superlatives",
+"—",
+"Everything that she said was true."
+]
+]
+},
+{
+"t": "h",
+"x": "Reduced relative clauses"
+},
+{
+"t": "tbl",
+"head": [
+"Full clause",
+"Reduced clause"
+],
+"rows": [
+[
+"The man who is standing there is my teacher.",
+"The man standing there is my teacher."
+],
+[
+"The books which were written by him are popular.",
+"The books written by him are popular."
+],
+[
+"The first student who arrived won a prize.",
+"The first student to arrive won a prize."
+]
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"The man who he lives next door is kind.",
+"The man who lives next door is kind.",
+"No extra pronoun"
+],
+[
+"The book which I bought it is good.",
+"The book which I bought is good.",
+"No pronoun left over"
+],
+[
+"My sister, that lives in Kampot, is a nurse.",
+"My sister, who lives in Kampot, is a nurse.",
+"No that in a non-defining clause"
+],
+[
+"Everything which she said was true.",
+"Everything that she said was true.",
+"that after everything"
+]
+]
+}
+]
+},
+{
+"id": "n22",
+"group": "Linking & clauses",
+"title": "Participle Clauses",
+"blocks": [
+{
+"t": "p",
+"x": "Participle clauses shorten sentences by replacing a subject and verb with an -ing or -ed form. They are common in written English."
+},
+{
+"t": "tbl",
+"head": [
+"Form",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"V-ing (active, at the same time or as a reason)",
+"while / because",
+"Walking home, I met my teacher. (While I was walking…)"
+],
+[
+"V-ed (passive)",
+"which was / being",
+"Written in 1990, the book is still popular."
+],
+[
+"Having + V3 (earlier action)",
+"after",
+"Having finished the exam, she left. (After she had finished…)"
+],
+[
+"Not + V-ing / Being + V3",
+"negative or passive",
+"Not knowing the answer, he stayed silent."
+],
+[
+"Conjunction + V-ing",
+"while, before, after, when, since, although",
+"Before leaving, check the lights."
+]
+]
+},
+{
+"t": "kv",
+"k": "Rule",
+"x": "The subject of the participle clause must be the same as the subject of the main clause. Walking down the street, I felt rain. (not Walking down the street, the rain started.)"
+},
+{
+"t": "h",
+"x": "Dangling participle"
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"Walking down the street, the rain started.",
+"Walking down the street, I felt the rain start.",
+"Rain cannot walk: the subjects differ"
+],
+[
+"Finished the exam, she went home.",
+"Having finished the exam, she went home.",
+"Earlier action: having + V3"
+],
+[
+"Not feeling well, the doctor was called.",
+"Not feeling well, she called the doctor.",
+"Same subject needed"
+]
+]
+},
+{
+"t": "h",
+"x": "Participle clauses of reason and time"
+},
+{
+"t": "ul",
+"items": [
+"Feeling tired, she went to bed early. (Because she felt tired…)",
+"Seeing the danger, he ran away. (When he saw…)",
+"Given more time, we could finish. (If we were given…)"
+]
+}
+]
+},
+{
+"id": "p15",
+"group": "Linking & clauses",
+"title": "Conjunctions & Linking Words",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Function",
+"Words"
+],
+"rows": [
+[
+"Addition",
+"and, also, moreover, furthermore, in addition"
+],
+[
+"Contrast",
+"but, however, although, even though, whereas"
+],
+[
+"Cause",
+"because, since, as, because of, due to"
+],
+[
+"Result",
+"so, therefore, thus, as a result"
+],
+[
+"Purpose",
+"so that, in order to, so as to"
+],
+[
+"Condition",
+"if, unless, provided that, as long as"
+]
+]
+},
+{
+"t": "p",
+"x": "Remember: because + clause; because of + noun/-ing. Although + clause; despite/in spite of + noun/-ing."
+}
+]
+},
+{
+"id": "n23",
+"group": "Linking & clauses",
+"title": "Time Clauses & Linking Time Words",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Word",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"when",
+"at the time that",
+"When I arrive, I'll call you."
+],
+[
+"as soon as / once",
+"immediately after",
+"I'll start as soon as I get there."
+],
+[
+"after / before",
+"later / earlier",
+"Before you leave, lock the door."
+],
+[
+"until / till",
+"up to the time that",
+"Wait until I come back."
+],
+[
+"while / as",
+"during the same time",
+"While I was cooking, he arrived."
+],
+[
+"by the time",
+"not later than",
+"By the time you arrive, I will have left."
+],
+[
+"whenever",
+"every time",
+"Whenever I call, he is busy."
+],
+[
+"since",
+"from a point in the past",
+"I have lived here since I was a child."
+]
+]
+},
+{
+"t": "h",
+"x": "Tense rules"
+},
+{
+"t": "ul",
+"items": [
+"Future meaning: use a present tense in the time clause. I'll go out after I finish. / I'll go out after I have finished.",
+"by the time + present → main clause Future Perfect: By the time you arrive, I will have left.",
+"by the time + past → main clause Past Perfect: By the time I arrived, they had left.",
+"since + Past Simple clause → main clause Present Perfect: I have worked here since I graduated."
+]
+},
+{
+"t": "h",
+"x": "while, during, for"
+},
+{
+"t": "tbl",
+"head": [
+"Word",
+"Followed by",
+"Example"
+],
+"rows": [
+[
+"while",
+"clause",
+"I read while I travel."
+],
+[
+"during",
+"noun",
+"I read during the trip."
+],
+[
+"for",
+"length of time",
+"I read for two hours."
+]
+]
+},
+{
+"t": "h",
+"x": "by and until"
+},
+{
+"t": "ul",
+"items": [
+"by = not later than a deadline: Finish by Friday.",
+"until = continues up to a time: Work until Friday."
+]
+},
+{
+"t": "h",
+"x": "Sequence words"
+},
+{
+"t": "ul",
+"items": [
+"First, then, next, after that, finally, meanwhile, afterwards, in the end."
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"I'll call you when I will arrive.",
+"I'll call you when I arrive.",
+"Present tense in a time clause"
+],
+[
+"During I was sleeping, he called.",
+"While I was sleeping, he called.",
+"while + clause; during + noun"
+],
+[
+"I live here since 2020.",
+"I have lived here since 2020.",
+"since → Present Perfect"
+],
+[
+"By the time I arrived, they left.",
+"By the time I arrived, they had left.",
+"earlier action: Past Perfect"
+]
+]
+}
+]
+},
+{
+"id": "n24",
+"group": "Linking & clauses",
+"title": "So / Such, Too / Enough, Purpose & Contrast",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Pattern",
+"Example",
+"Notes"
+],
+"rows": [
+[
+"so + adjective / adverb + that",
+"It was so hot that we stayed inside.",
+"result"
+],
+[
+"such + (a / an) + (adjective) + noun + that",
+"It was such a hot day that we stayed inside.",
+"a / an goes after such"
+],
+[
+"so much / many / little / few + noun + that",
+"There were so many students that we had no space.",
+"—"
+],
+[
+"too + adjective (+ for) + to-infinitive",
+"He is too tired to study.",
+"too = more than enough (negative)"
+],
+[
+"adjective + enough + to-infinitive",
+"She is old enough to vote.",
+"enough after an adjective"
+],
+[
+"enough + noun",
+"We have enough time to finish.",
+"enough before a noun"
+]
+]
+},
+{
+"t": "h",
+"x": "Purpose"
+},
+{
+"t": "ul",
+"items": [
+"to / in order to / so as to + V1: I study (in order) to pass.",
+"so that + clause (can, could, will, would): I study so that I can pass.",
+"for + noun or -ing for the general use of a thing: This knife is for cutting bread."
+]
+},
+{
+"t": "h",
+"x": "Contrast"
+},
+{
+"t": "tbl",
+"head": [
+"Word",
+"Followed by",
+"Example"
+],
+"rows": [
+[
+"although / though / even though",
+"clause",
+"Although it rained, we went out."
+],
+[
+"despite / in spite of",
+"noun or -ing",
+"Despite the rain, we went out."
+],
+[
+"whereas / while",
+"clause (contrast between two things)",
+"He likes tea whereas she likes coffee."
+],
+[
+"however / nevertheless",
+"with a comma, new sentence",
+"It rained. However, we went out."
+],
+[
+"no matter how / what",
+"—",
+"No matter how hard it is, try."
+]
+]
+},
+{
+"t": "h",
+"x": "Result"
+},
+{
+"t": "ul",
+"items": [
+"so (conjunction): It rained, so we stayed home.",
+"therefore / as a result: It rained; therefore, we stayed home."
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"so a nice day",
+"such a nice day",
+"such + a + noun"
+],
+[
+"too much tired",
+"too tired",
+"too + adjective"
+],
+[
+"He is enough tall.",
+"He is tall enough.",
+"enough after an adjective"
+],
+[
+"Although it rained, but we went out.",
+"Although it rained, we went out.",
+"Do not use although and but together"
+],
+[
+"Despite it was raining…",
+"Despite the rain… / Although it was raining…",
+"despite + noun / -ing"
+]
+]
+}
+]
+},
+{
+"id": "n25",
+"group": "Linking & clauses",
+"title": "Emphasis & Inversion",
+"blocks": [
+{
+"t": "p",
+"x": "Emphatic structures put important information first or add emphasis. They appear often in formal writing and advanced exams."
+},
+{
+"t": "h",
+"x": "Cleft sentences"
+},
+{
+"t": "tbl",
+"head": [
+"Structure",
+"Example"
+],
+"rows": [
+[
+"It + be + focus + that / who + clause",
+"It was Sophea who won the prize. / It was in 2019 that I moved here."
+],
+[
+"What + clause + be + focus",
+"What I need is a rest. / What she did was apologize."
+],
+[
+"Emphatic do",
+"I did tell you."
+]
+]
+},
+{
+"t": "h",
+"x": "Inversion after negative adverbials"
+},
+{
+"t": "p",
+"x": "When a negative or restrictive adverbial begins the sentence, put the auxiliary before the subject. If there is no auxiliary, use do / does / did."
+},
+{
+"t": "tbl",
+"head": [
+"Adverbial",
+"Example"
+],
+"rows": [
+[
+"Never / Rarely / Seldom",
+"Never have I seen such a view. / Rarely does he arrive late."
+],
+[
+"Hardly … when / No sooner … than",
+"Hardly had we started when it rained. / No sooner had we arrived than it rained."
+],
+[
+"Not only … but also",
+"Not only did she sing, but she also danced."
+],
+[
+"Only when / Only after",
+"Only when I saw her did I understand."
+],
+[
+"Little",
+"Little did he know the truth."
+],
+[
+"Under no circumstances / At no time",
+"Under no circumstances should you open it."
+],
+[
+"So + adjective … that",
+"So tired was he that he fell asleep."
+]
+]
+},
+{
+"t": "h",
+"x": "Inverted conditionals"
+},
+{
+"t": "ul",
+"items": [
+"Had I known, I would have helped.",
+"Were he here, he would help.",
+"Should you need help, call me."
+]
+},
+{
+"t": "note",
+"x": "Inversion is used for emphasis and is formal. Do not use it in everyday speech."
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"Never I have seen such a view.",
+"Never have I seen such a view.",
+"Auxiliary before the subject"
+],
+[
+"Not only she sang, but she danced.",
+"Not only did she sing, but she also danced.",
+"do-support in inversion"
+],
+[
+"Hardly he had arrived when it rained.",
+"Hardly had he arrived when it rained.",
+"Hardly had + subject + V3"
+]
+]
+}
+]
+},
+{
+"id": "p16",
+"group": "Sentences & questions",
+"title": "Question Forms",
+"blocks": [
+{
+"t": "ul",
+"items": [
+"Present Simple: Do/Does + S + V1?",
+"Past Simple: Did + S + V1?",
+"Present Continuous: Am/Is/Are + S + V-ing?",
+"Present Perfect: Have/Has + S + V3?",
+"Past Perfect: Had + S + V3?",
+"Future: Will + S + V1?"
+]
+},
+{
+"t": "p",
+"x": "Subject question: Who teaches English? The question word is already the subject, so do/does/did is normally unnecessary."
+}
+]
+},
+{
+"id": "n27",
+"group": "Sentences & questions",
+"title": "Indirect Questions & Question Words",
+"blocks": [
+{
+"t": "h",
+"x": "Direct and indirect questions"
+},
+{
+"t": "tbl",
+"head": [
+"Direct",
+"Indirect"
+],
+"rows": [
+[
+"Where is the bank?",
+"Could you tell me where the bank is?"
+],
+[
+"What time does the film start?",
+"Do you know what time the film starts?"
+],
+[
+"Does he live here?",
+"I wonder if / whether he lives here."
+],
+[
+"Why did she leave?",
+"I don't know why she left."
+]
+]
+},
+{
+"t": "ul",
+"items": [
+"After an introductory phrase, use statement word order (subject before verb) and no do / does / did.",
+"Use if or whether for yes / no questions.",
+"Use a question mark only when the whole sentence is a question: Do you know where he lives? / I wonder where he lives.",
+"Common phrases: Could you tell me…, Do you know…, I wonder…, I'd like to know…, Can you remember…"
+]
+},
+{
+"t": "h",
+"x": "Question words"
+},
+{
+"t": "tbl",
+"head": [
+"Word",
+"Use",
+"Example"
+],
+"rows": [
+[
+"what",
+"things; open choice",
+"What do you study?"
+],
+[
+"which",
+"limited choice",
+"Which book do you want, the red or the blue?"
+],
+[
+"who / whom / whose",
+"person / person (object, formal) / possession",
+"Whose pen is this?"
+],
+[
+"when / where / why",
+"time / place / reason",
+"Why are you late?"
+],
+[
+"how",
+"manner; how + adjective / adverb",
+"How many / How much / How long / How often / How far / How old"
+]
+]
+},
+{
+"t": "h",
+"x": "Subject questions and object questions"
+},
+{
+"t": "tbl",
+"head": [
+"Type",
+"Example",
+"Notes"
+],
+"rows": [
+[
+"Subject question",
+"Who called you?",
+"No do / does / did"
+],
+[
+"Object question",
+"Who did you call?",
+"Use do / does / did"
+]
+]
+},
+{
+"t": "h",
+"x": "What … like? and How …?"
+},
+{
+"t": "ul",
+"items": [
+"What is she like? (describe her character or appearance)",
+"How is she? (her health)"
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"Do you know where is the bank?",
+"Do you know where the bank is?",
+"Statement order"
+],
+[
+"I wonder what time does it start.",
+"I wonder what time it starts.",
+"No do in an indirect question"
+],
+[
+"She asked where did I live.",
+"She asked where I lived.",
+"Reported question: statement order"
+],
+[
+"Who did call you?",
+"Who called you?",
+"Subject question: no did"
+]
+]
+}
+]
+},
+{
+"id": "p17",
+"group": "Sentences & questions",
+"title": "Question Tags",
+"blocks": [
+{
+"t": "ul",
+"items": [
+"Positive → negative: You are ready, aren't you?",
+"Negative → positive: She doesn't teach here, does she?",
+"Past: They went home, didn't they?",
+"Modal: He can swim, can't he?",
+"Let's study, shall we?",
+"Open the door, will you?",
+"I am late, aren't I?"
+]
+}
+]
+},
+{
+"id": "n26",
+"group": "Sentences & questions",
+"title": "Negatives, Short Answers & Agreeing (So do I / Neither do I)",
+"blocks": [
+{
+"t": "h",
+"x": "Negatives"
+},
+{
+"t": "ul",
+"items": [
+"Use not with an auxiliary or modal: She does not work. / I cannot go.",
+"no + noun = not any: I have no time. = I don't have any time.",
+"none / neither / nor: None of them came. Neither of us knows.",
+"hardly, barely, scarcely, rarely, seldom are already negative: He hardly ever comes. (not He doesn't hardly come.)",
+"Do not use two negatives: I don't know anything. (not I don't know nothing.)"
+]
+},
+{
+"t": "h",
+"x": "Short answers"
+},
+{
+"t": "tbl",
+"head": [
+"Question",
+"Short answers"
+],
+"rows": [
+[
+"Do you like tea?",
+"Yes, I do. / No, I don't."
+],
+[
+"Is she a teacher?",
+"Yes, she is. / No, she isn't."
+],
+[
+"Have they finished?",
+"Yes, they have. / No, they haven't."
+],
+[
+"Can he swim?",
+"Yes, he can. / No, he can't."
+]
+]
+},
+{
+"t": "kv",
+"k": "Rule",
+"x": "Repeat the auxiliary or modal in a short answer. Yes, I like. is not a short answer."
+},
+{
+"t": "h",
+"x": "Agreeing: So … / Neither …"
+},
+{
+"t": "tbl",
+"head": [
+"Statement",
+"Agreement",
+"Notes"
+],
+"rows": [
+[
+"I like tea.",
+"So do I. / I do too. / Me too.",
+"Positive: so + auxiliary + subject"
+],
+[
+"She is tired.",
+"So am I.",
+"Use the same auxiliary: is → am"
+],
+[
+"I can't swim.",
+"Neither can I. / Nor can I. / I can't either. / Me neither.",
+"Negative: neither + auxiliary + subject"
+],
+[
+"I went home.",
+"So did I.",
+"Past Simple: did"
+],
+[
+"I have finished.",
+"So have I.",
+"Present Perfect: have"
+]
+]
+},
+{
+"t": "h",
+"x": "Replacing a clause: so / not"
+},
+{
+"t": "ul",
+"items": [
+"I think so. / I hope so. / I'm afraid so.",
+"I hope not. / I'm afraid not. / I don't think so."
+]
+},
+{
+"t": "h",
+"x": "Negative questions"
+},
+{
+"t": "ul",
+"items": [
+"Aren't you coming? (surprise or expectation) The answer shows the real situation: No, I'm not coming. / Yes, I am coming."
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"So I do.",
+"So do I.",
+"Auxiliary before the subject"
+],
+[
+"Neither I can.",
+"Neither can I.",
+"Auxiliary before the subject"
+],
+[
+"I don't hardly know him.",
+"I hardly know him.",
+"hardly is already negative"
+],
+[
+"“Do you like it?” “Yes, I like.”",
+"“Do you like it?” “Yes, I do.”",
+"Short answer repeats the auxiliary"
+]
+]
+}
+]
+},
+{
+"id": "p18",
+"group": "Sentences & questions",
+"title": "Sentence Structure",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Type",
+"Structure",
+"Example"
+],
+"rows": [
+[
+"Simple",
+"one independent clause",
+"Students study."
+],
+[
+"Compound",
+"two independent clauses + conjunction",
+"Students study, and teachers help."
+],
+[
+"Complex",
+"independent + dependent clause",
+"Students study because they want to improve."
+],
+[
+"Compound-complex",
+"2+ independent + dependent clause",
+"Students study, and teachers help because the exam is important."
+]
+]
+},
+{
+"t": "p",
+"x": "FANBOYS: for, and, nor, but, or, yet, so."
+}
+]
+},
+{
+"id": "n29",
+"group": "Sentences & questions",
+"title": "Sentence Errors & Parallel Structure",
+"blocks": [
+{
+"t": "p",
+"x": "Good sentences are complete, correctly joined and balanced. These are the most common errors in writing."
+},
+{
+"t": "tbl",
+"head": [
+"Error",
+"Example",
+"Fix"
+],
+"rows": [
+[
+"Fragment (no main clause)",
+"Because it was raining.",
+"Because it was raining, we stayed home."
+],
+[
+"Run-on (fused) sentence",
+"I was tired I went to bed.",
+"I was tired, so I went to bed."
+],
+[
+"Comma splice",
+"I was tired, I went to bed.",
+"I was tired, so I went to bed. / I was tired; I went to bed."
+],
+[
+"Faulty parallelism",
+"She likes swimming, to run and cycling.",
+"She likes swimming, running and cycling."
+],
+[
+"Dangling modifier",
+"Walking home, the rain started.",
+"Walking home, I felt the rain start."
+],
+[
+"Double subject",
+"My teacher he is kind.",
+"My teacher is kind."
+],
+[
+"Unclear pronoun",
+"John told Tom that he was wrong.",
+"John told Tom, “You are wrong.”"
+]
+]
+},
+{
+"t": "h",
+"x": "Parallel structure"
+},
+{
+"t": "ul",
+"items": [
+"Items in a list or pair must have the same grammatical form: She enjoys reading, writing and painting.",
+"With both … and, either … or, not only … but also, put the same form after each part: She is both clever and hardworking."
+]
+},
+{
+"t": "h",
+"x": "Editing checklist"
+},
+{
+"t": "ul",
+"items": [
+"Does every sentence have a subject and a main verb?",
+"Are two sentences joined by a conjunction or a semicolon, not only a comma?",
+"Are listed items parallel?",
+"Does the opening phrase describe the subject of the main clause?",
+"Do the verb tenses and subject–verb agreement match?"
+]
+},
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"Because he was late.",
+"Because he was late, he missed the bus.",
+"A dependent clause alone is a fragment"
+],
+[
+"He studied hard, he passed.",
+"He studied hard, so he passed.",
+"Comma splice"
+],
+[
+"He is both smart and works hard.",
+"He is both smart and hardworking.",
+"Parallel forms"
+]
+]
+}
+]
+},
+{
+"id": "p19",
+"group": "Exam toolkit",
+"title": "Common Exam Errors",
+"blocks": [
+{
+"t": "tbl",
+"head": [
+"Incorrect",
+"Correct",
+"Reason"
+],
+"rows": [
+[
+"He go to school.",
+"He goes to school.",
+"3rd person singular"
+],
+[
+"She don't like it.",
+"She doesn't like it.",
+"does + V1"
+],
+[
+"Did you went?",
+"Did you go?",
+"did + V1"
+],
+[
+"I am agree.",
+"I agree.",
+"agree is a verb"
+],
+[
+"married with",
+"married to",
+"correct preposition"
+],
+[
+"discuss about it",
+"discuss it",
+"discuss takes direct object"
+],
+[
+"many information",
+"much/a lot of information",
+"uncountable"
+],
+[
+"since five years",
+"for five years",
+"since = starting point"
+],
+[
+"can speaks",
+"can speak",
+"modal + V1"
+],
+[
+"If I will study...",
+"If I study...",
+"first conditional"
+],
+[
+"look forward to meet",
+"look forward to meeting",
+"to is a preposition"
+]
+]
+}
+]
+},
+{
+"id": "p20",
+"group": "Exam toolkit",
+"title": "One-Page Cheat Sheet",
+"blocks": [
+{
+"t": "p",
+"x": "12 Tenses: V1 | am/is/are + V-ing | have/has + V3 | have/has been + V-ing | V2 | was/were + V-ing | had + V3 | had been + V-ing | will + V1 | will be + V-ing | will have + V3 | will have been + V-ing."
+},
+{
+"t": "p",
+"x": "Five essential rules:"
+},
+{
+"t": "ul",
+"items": [
+"do/does/did + V1",
+"modal + V1",
+"have/has/had + V3",
+"be + V-ing for continuous",
+"be + V3 for passive"
+]
+},
+{
+"t": "p",
+"x": "Conditionals: Zero = if present, present | First = if present, will + V1 | Second = if past, would + V1 | Third = if had + V3, would have + V3."
+},
+{
+"t": "p",
+"x": "High-frequency pairs: since/for | much/many | fewer/less | because/because of | although/despite | good/well | who/which/whose/where."
+}
+]
+},
+{
+"id": "final",
+"group": "Exam toolkit",
+"title": "Final exam strategy",
+"blocks": [
+{
+"t": "ul",
+"items": [
+"Identify the time reference first: now, finished past, continuing situation, or future.",
+"Look for signal words: since, for, already, yesterday, while, before, by.",
+"Check the subject: he/she/it usually takes -s in Present Simple.",
+"Check auxiliaries: do/does/did, have/has/had, be, will, and modals.",
+"Read the whole sentence; the clause around the blank often determines the answer.",
+"For grammar correction, check tense, subject–verb agreement, verb form, articles, prepositions, and countable/uncountable nouns.",
+"For conditionals, decide whether the situation is general, possible, unreal now/future, or impossible in the past.",
+"For passive voice, identify whether the subject receives the action and preserve the tense."
+]
+}
+]
+}
+]
 }
