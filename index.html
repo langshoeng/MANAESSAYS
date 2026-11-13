@@ -1871,7 +1871,10 @@ $('#tabL').onclick=()=>setTab('planner');
 $('#lpBackBtn').onclick=()=>{const id=lpBack;lpBack=null;showBack();setTab('planner');if(id&&getPlan(id))openL(id)};
 const flat=b=>[b.x,b.k,(b.items||[]).join(' '),(b.head||[]).join(' '),(b.rows||[]).map(r=>r.join(' ')).join(' ')].filter(Boolean).join(' ');
 const eP=fetch('essays.json').then(r=>r.json()).then(d=>{items=d.essays||[]}).catch(()=>{eErr=true});
-const pP=fetch('practice.json').then(r=>r.json()).then(d=>{
+/* practice.json holds the original exercises; practice-extra.json (optional) adds exercises for new sections and is merged by section id */
+const pP=Promise.all([fetch('practice.json').then(r=>r.json()).catch(()=>null),fetch('practice-extra.json').then(r=>r.json()).catch(()=>null)]).then(([a,b])=>{
+  if(!a&&!b)return;
+  const d={};[a,b].forEach(src=>{if(src&&typeof src==='object')Object.entries(src).forEach(([sid,arr])=>{if(Array.isArray(arr))d[sid]=(d[sid]||[]).concat(arr)})});
   pbase=d;prac=Object.assign({},d);
   Object.entries(d).forEach(([sid,arr])=>arr.forEach(q=>{q.sid=sid;q.k=sid+'|'+q.q+'|'+q.o[q.a]}));
 }).catch(()=>{});
