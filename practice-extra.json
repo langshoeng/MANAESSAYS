@@ -1,0 +1,2788 @@
+{
+"n01": [
+{
+"q": "In “She looks ___ today”, which word is correct?",
+"o": [
+"happy",
+"happily",
+"happiness",
+"happier than"
+],
+"a": 0,
+"e": "look is a linking verb, so it is followed by an adjective: happy."
+},
+{
+"q": "What part of speech is “fast” in “He drives fast”?",
+"o": [
+"adjective",
+"adverb",
+"noun",
+"verb"
+],
+"a": 1,
+"e": "fast describes how he drives (the verb), so it is an adverb."
+},
+{
+"q": "What part of speech is “drink” in “I need a drink”?",
+"o": [
+"verb",
+"adjective",
+"noun",
+"adverb"
+],
+"a": 2,
+"e": "After the article a, drink is a noun."
+},
+{
+"q": "Which sentence uses the pattern S + V + O + O?",
+"o": [
+"She is a teacher.",
+"Birds fly.",
+"The soup smells good.",
+"She gave me a book."
+],
+"a": 3,
+"e": "gave has two objects: me (indirect) and a book (direct)."
+},
+{
+"q": "Which word is a linking verb?",
+"o": [
+"seem",
+"run",
+"write",
+"carry"
+],
+"a": 0,
+"e": "seem links the subject to a complement: He seems tired."
+},
+{
+"q": "Choose the correct sentence.",
+"o": [
+"The food tastes deliciously.",
+"The food tastes delicious.",
+"The food is tasting deliciously.",
+"The food taste deliciously."
+],
+"a": 1,
+"e": "taste is a linking verb here, so an adjective follows."
+},
+{
+"q": "In “Wow! That was amazing!”, “Wow” is a(n) ___.",
+"o": [
+"conjunction",
+"preposition",
+"interjection",
+"determiner"
+],
+"a": 2,
+"e": "An interjection expresses sudden feeling."
+},
+{
+"q": "In “She bought those books”, which word is a determiner?",
+"o": [
+"bought",
+"books",
+"She",
+"those"
+],
+"a": 3,
+"e": "those comes before the noun books and points to specific things: a determiner."
+}
+],
+"n02": [
+{
+"q": "The plural of “city” is ___.",
+"o": [
+"cities",
+"citys",
+"cityes",
+"citis"
+],
+"a": 0,
+"e": "Consonant + y → -ies."
+},
+{
+"q": "The -ing form of “make” is ___.",
+"o": [
+"makeing",
+"making",
+"maaking",
+"makking"
+],
+"a": 1,
+"e": "Drop the silent -e before -ing."
+},
+{
+"q": "The past simple of “stop” is ___.",
+"o": [
+"stoped",
+"stopt",
+"stopped",
+"stopeed"
+],
+"a": 2,
+"e": "Short CVC word: double the final consonant."
+},
+{
+"q": "Choose the correct sentence.",
+"o": [
+"The dog wagged it's tail.",
+"The dog wagged its' tail.",
+"The dog wagged it tail.",
+"The dog wagged its tail."
+],
+"a": 3,
+"e": "its (no apostrophe) shows possession; it's means it is."
+},
+{
+"q": "Which sentence is correctly punctuated?",
+"o": [
+"Sokha, my friend, lives in Takeo.",
+"Sokha my friend, lives in Takeo.",
+"Sokha, my friend lives in Takeo.",
+"Sokha my friend lives, in Takeo."
+],
+"a": 0,
+"e": "Commas go around the extra information, my friend."
+},
+{
+"q": "Which word is spelled correctly?",
+"o": [
+"recieve",
+"receive",
+"receeve",
+"riceive"
+],
+"a": 1,
+"e": "i before e except after c."
+},
+{
+"q": "Choose the correct plural.",
+"o": [
+"Two potatos",
+"Two potatoe",
+"Two potatoes",
+"Two potatoz"
+],
+"a": 2,
+"e": "Many words ending in -o after a consonant add -es: potatoes."
+},
+{
+"q": "Which needs a capital letter?",
+"o": [
+"student",
+"teacher",
+"class",
+"khmer"
+],
+"a": 3,
+"e": "Languages and nationalities begin with a capital: Khmer."
+}
+],
+"n03": [
+{
+"q": "The ___ of the new school was a great success. (complete)",
+"o": [
+"completion",
+"complete",
+"completely",
+"completed"
+],
+"a": 0,
+"e": "After the, a noun is needed: completion."
+},
+{
+"q": "She is a very ___ student. (success)",
+"o": [
+"success",
+"successful",
+"successfully",
+"succeed"
+],
+"a": 1,
+"e": "Before a noun, use an adjective: successful."
+},
+{
+"q": "The opposite of “possible” is ___.",
+"o": [
+"unpossible",
+"dispossible",
+"impossible",
+"inpossible"
+],
+"a": 2,
+"e": "im- is used before p."
+},
+{
+"q": "He answered the questions ___. (careful)",
+"o": [
+"careful",
+"carefulness",
+"care",
+"carefully"
+],
+"a": 3,
+"e": "An adverb describes the verb: carefully."
+},
+{
+"q": "Which word is a noun?",
+"o": [
+"kindness",
+"kindly",
+"kind",
+"unkind"
+],
+"a": 0,
+"e": "-ness forms nouns."
+},
+{
+"q": "The opposite of “legal” is ___.",
+"o": [
+"unlegal",
+"illegal",
+"inlegal",
+"dislegal"
+],
+"a": 1,
+"e": "il- is used before l."
+},
+{
+"q": "She has a ___ child. (five-year-old)",
+"o": [
+"five-years-old",
+"five years old",
+"five-year-old",
+"five-year-olds"
+],
+"a": 2,
+"e": "In a compound adjective before a noun, the unit is singular."
+},
+{
+"q": "We should ___ the rules to make them easier. (simple)",
+"o": [
+"simplize",
+"simpleen",
+"simplely",
+"simplify"
+],
+"a": 3,
+"e": "-ify makes a verb from simple."
+}
+],
+"n04": [
+{
+"q": "She has ___ a letter to her friend.",
+"o": [
+"written",
+"wrote",
+"writed",
+"write"
+],
+"a": 0,
+"e": "Present Perfect needs V3: written."
+},
+{
+"q": "He ___ the water quickly.",
+"o": [
+"drunk",
+"drank",
+"drinked",
+"drinken"
+],
+"a": 1,
+"e": "Past simple of drink is drank."
+},
+{
+"q": "The thief was ___ by the police.",
+"o": [
+"catched",
+"catch",
+"caught",
+"cought"
+],
+"a": 2,
+"e": "catch – caught – caught."
+},
+{
+"q": "The sun has ___.",
+"o": [
+"rose",
+"rised",
+"raised",
+"risen"
+],
+"a": 3,
+"e": "rise – rose – risen (no object)."
+},
+{
+"q": "The window was ___ by the ball.",
+"o": [
+"broken",
+"broke",
+"breaked",
+"breaken"
+],
+"a": 0,
+"e": "Passive uses V3: broken."
+},
+{
+"q": "I ___ the book on the table yesterday.",
+"o": [
+"lay",
+"laid",
+"layed",
+"lied"
+],
+"a": 1,
+"e": "lay (put) – laid – laid."
+},
+{
+"q": "Which verb has the same form in V1, V2 and V3?",
+"o": [
+"bring",
+"take",
+"cut",
+"give"
+],
+"a": 2,
+"e": "cut – cut – cut."
+},
+{
+"q": "They have ___ a new house.",
+"o": [
+"builded",
+"build",
+"built up",
+"built"
+],
+"a": 3,
+"e": "build – built – built."
+}
+],
+"n05": [
+{
+"q": "Look at the black clouds! It ___ rain.",
+"o": [
+"is going to",
+"is go to",
+"goes to",
+"is going"
+],
+"a": 0,
+"e": "A prediction from present evidence uses be going to."
+},
+{
+"q": "“The phone is ringing.” “I ___ it.”",
+"o": [
+"am going to answer",
+"will answer",
+"am answering",
+"answer"
+],
+"a": 1,
+"e": "A spontaneous decision uses will."
+},
+{
+"q": "I ___ Dara at five o'clock tomorrow. We have already arranged it.",
+"o": [
+"will meet",
+"meet",
+"am meeting",
+"meeting"
+],
+"a": 2,
+"e": "A fixed arrangement: Present Continuous."
+},
+{
+"q": "The train ___ at 6.30 tomorrow morning.",
+"o": [
+"is leaving to",
+"will be leave",
+"leave",
+"leaves"
+],
+"a": 3,
+"e": "A timetable uses Present Simple."
+},
+{
+"q": "I will phone you when I ___ home.",
+"o": [
+"get",
+"will get",
+"am getting to",
+"will be get"
+],
+"a": 0,
+"e": "After when, use a present tense for the future."
+},
+{
+"q": "If it ___ tomorrow, we will stay at home.",
+"o": [
+"will rain",
+"rains",
+"is raining to",
+"rained"
+],
+"a": 1,
+"e": "No will in an if clause."
+},
+{
+"q": "Hurry up! The film ___ start.",
+"o": [
+"will about to",
+"is about",
+"is about to",
+"about to"
+],
+"a": 2,
+"e": "be about to means very soon."
+},
+{
+"q": "I've decided. I ___ study medicine.",
+"o": [
+"will going to",
+"am going",
+"go to",
+"am going to"
+],
+"a": 3,
+"e": "A decision made earlier: be going to."
+}
+],
+"n06": [
+{
+"q": "When I was a child, I ___ in Kampot.",
+"o": [
+"used to live",
+"use to live",
+"was used to live",
+"would to live"
+],
+"a": 0,
+"e": "used to + V1 for a past state."
+},
+{
+"q": "She is used to ___ early.",
+"o": [
+"get up",
+"getting up",
+"got up",
+"gets up"
+],
+"a": 1,
+"e": "be used to + -ing."
+},
+{
+"q": "Every summer we ___ to our grandparents' village.",
+"o": [
+"would going",
+"used to going",
+"would go",
+"are used to go"
+],
+"a": 2,
+"e": "would + V1 for repeated past actions."
+},
+{
+"q": "Did you ___ play football when you were young?",
+"o": [
+"used to",
+"would",
+"using to",
+"use to"
+],
+"a": 3,
+"e": "After did, use use to (no -d)."
+},
+{
+"q": "It took me a while to get used to ___ the heat.",
+"o": [
+"living in",
+"live in",
+"lived in",
+"be living in"
+],
+"a": 0,
+"e": "get used to + -ing."
+},
+{
+"q": "Which sentence is correct for a past state?",
+"o": [
+"I would have long hair when I was young.",
+"I used to have long hair.",
+"I am used to have long hair.",
+"I use to have long hair now."
+],
+"a": 1,
+"e": "have is a state verb, so used to is needed (not would)."
+},
+{
+"q": "I ___ in Phnom Penh for five years.",
+"o": [
+"used to live",
+"would live",
+"lived",
+"am used to live"
+],
+"a": 2,
+"e": "A period of stated length: Past Simple."
+},
+{
+"q": "He ___ smoke, but he stopped last year.",
+"o": [
+"is used to",
+"gets used to",
+"would to",
+"used to"
+],
+"a": 3,
+"e": "used to + V1 for a past habit that has ended."
+}
+],
+"n07": [
+{
+"q": "I ___ the answer. (state)",
+"o": [
+"know",
+"am knowing",
+"have known to",
+"knowing"
+],
+"a": 0,
+"e": "know is a stative verb: no continuous form."
+},
+{
+"q": "How long ___ here?",
+"o": [
+"did you live",
+"have you lived",
+"do you live",
+"are you living"
+],
+"a": 1,
+"e": "Still true now: Present Perfect."
+},
+{
+"q": "I ___ my keys yesterday.",
+"o": [
+"have lost",
+"am losing",
+"lost",
+"had lost"
+],
+"a": 2,
+"e": "A finished time (yesterday): Past Simple."
+},
+{
+"q": "She ___ emails all morning, so she is tired.",
+"o": [
+"has written",
+"wrote",
+"writes",
+"has been writing"
+],
+"a": 3,
+"e": "Duration of an activity: Present Perfect Continuous."
+},
+{
+"q": "She ___ five letters this morning. (count)",
+"o": [
+"has written",
+"has been writing",
+"is writing",
+"writes"
+],
+"a": 0,
+"e": "A completed number of things: Present Perfect Simple."
+},
+{
+"q": "When I arrived, the class ___ already ___.",
+"o": [
+"has; started",
+"had; started",
+"was; start",
+"did; start"
+],
+"a": 1,
+"e": "The earlier past action: Past Perfect."
+},
+{
+"q": "He ___ a shower when the phone rang.",
+"o": [
+"has",
+"is having",
+"was having",
+"have had"
+],
+"a": 2,
+"e": "An action in progress interrupted by another: Past Continuous."
+},
+{
+"q": "Which sentence is correct?",
+"o": [
+"I am having a car.",
+"I am knowing him well.",
+"I am liking music.",
+"I am having lunch with my friend."
+],
+"a": 3,
+"e": "have meaning eat can be continuous; have meaning possess cannot."
+}
+],
+"n08": [
+{
+"q": "You ___ park here. It is forbidden.",
+"o": [
+"mustn't",
+"don't have to",
+"needn't",
+"shouldn't to"
+],
+"a": 0,
+"e": "mustn't = prohibition."
+},
+{
+"q": "You ___ come tomorrow. It's a holiday.",
+"o": [
+"mustn't",
+"don't have to",
+"can't to",
+"mustn't to"
+],
+"a": 1,
+"e": "No necessity: don't have to."
+},
+{
+"q": "She isn't answering. She ___ be asleep.",
+"o": [
+"must to",
+"can to",
+"might",
+"will to"
+],
+"a": 2,
+"e": "Possibility: might + V1."
+},
+{
+"q": "He ___ have left already. His coat has gone.",
+"o": [
+"can",
+"would to",
+"should to",
+"must"
+],
+"a": 3,
+"e": "Strong past deduction: must have + V3."
+},
+{
+"q": "The answer is wrong. It ___ be correct.",
+"o": [
+"can't",
+"mustn't",
+"needn't",
+"shouldn't"
+],
+"a": 0,
+"e": "Almost certain that it is not true: can't."
+},
+{
+"q": "You ___ have told me earlier. Now it is too late.",
+"o": [
+"must to",
+"should",
+"can",
+"need"
+],
+"a": 1,
+"e": "should have + V3 = past criticism or regret."
+},
+{
+"q": "I ___ finish the test in time. It was hard but I did it.",
+"o": [
+"could to",
+"can",
+"was able to",
+"am able to"
+],
+"a": 2,
+"e": "A specific past achievement: was able to."
+},
+{
+"q": "You ___ better hurry or you'll miss the bus.",
+"o": [
+"have",
+"would",
+"should to",
+"had"
+],
+"a": 3,
+"e": "had better + V1."
+},
+{
+"q": "I ___ rather stay at home tonight.",
+"o": [
+"would",
+"should to",
+"could",
+"did"
+],
+"a": 0,
+"e": "would rather + V1."
+},
+{
+"q": "Choose the correct sentence.",
+"o": [
+"She can to swim.",
+"She can swim.",
+"She cans swim.",
+"She can swimming."
+],
+"a": 1,
+"e": "Modal + base verb; no to, no -s."
+}
+],
+"n09": [
+{
+"q": "I wish I ___ more time.",
+"o": [
+"have",
+"would have",
+"had",
+"will have"
+],
+"a": 2,
+"e": "Unreal present: wish + Past Simple."
+},
+{
+"q": "I wish I ___ harder last year.",
+"o": [
+"studied",
+"would study",
+"have studied",
+"had studied"
+],
+"a": 3,
+"e": "Regret about the past: wish + Past Perfect."
+},
+{
+"q": "I wish you ___ stop talking!",
+"o": [
+"would",
+"will",
+"can to",
+"did to"
+],
+"a": 0,
+"e": "wish + would for annoyance about someone's behavior."
+},
+{
+"q": "It's time we ___ home.",
+"o": [
+"going",
+"went",
+"will go",
+"are going"
+],
+"a": 1,
+"e": "It's time + subject + Past Simple."
+},
+{
+"q": "He talks as if he ___ everything.",
+"o": [
+"knows to",
+"has known to",
+"knew",
+"will know"
+],
+"a": 2,
+"e": "as if + past for an unreal comparison."
+},
+{
+"q": "You can borrow my book ___ you return it tomorrow.",
+"o": [
+"unless",
+"although",
+"in case",
+"provided that"
+],
+"a": 3,
+"e": "provided that = only if."
+},
+{
+"q": "___ you hurry, you will miss the train.",
+"o": [
+"Unless",
+"If not",
+"Whether",
+"Although"
+],
+"a": 0,
+"e": "Unless = if you don't hurry."
+},
+{
+"q": "___ I known about the problem, I would have helped.",
+"o": [
+"Did",
+"Had",
+"Would",
+"If had"
+],
+"a": 1,
+"e": "Inverted third conditional: Had I known = If I had known."
+}
+],
+"n10": [
+{
+"q": "The form must ___ before Friday.",
+"o": [
+"sign",
+"be sign",
+"be signed",
+"been signed"
+],
+"a": 2,
+"e": "modal + be + V3."
+},
+{
+"q": "The accident ___ last night.",
+"o": [
+"was happened",
+"was happening to",
+"has been happened",
+"happened"
+],
+"a": 3,
+"e": "happen is intransitive: no passive."
+},
+{
+"q": "I ___ my hair cut yesterday.",
+"o": [
+"had",
+"did",
+"made",
+"got to"
+],
+"a": 0,
+"e": "have + object + V3 = causative."
+},
+{
+"q": "It is said that he is rich. = He ___ rich.",
+"o": [
+"said to be",
+"is said to be",
+"is saying to be",
+"is said being"
+],
+"a": 1,
+"e": "Reporting passive: is said to + V1."
+},
+{
+"q": "The window should ___ yesterday.",
+"o": [
+"be repaired",
+"been repaired",
+"have been repaired",
+"have repaired"
+],
+"a": 2,
+"e": "Perfect modal passive: should have been + V3."
+},
+{
+"q": "She is going to ___ her house painted.",
+"o": [
+"make",
+"do",
+"give",
+"have"
+],
+"a": 3,
+"e": "have + object + V3."
+},
+{
+"q": "English ___ in many countries.",
+"o": [
+"is spoken",
+"speaks",
+"is speaking",
+"has spoken"
+],
+"a": 0,
+"e": "English receives the action: passive."
+},
+{
+"q": "I was ___ a book for my birthday.",
+"o": [
+"give",
+"given",
+"gave",
+"giving"
+],
+"a": 1,
+"e": "Passive with two objects: I was given a book."
+}
+],
+"n11": [
+{
+"q": "Please ___ the light. It's too bright.",
+"o": [
+"turn up",
+"turn on",
+"turn off",
+"turn into"
+],
+"a": 2,
+"e": "turn off = switch off."
+},
+{
+"q": "The plane ___ at six o'clock.",
+"o": [
+"puts off",
+"gets off to",
+"goes off to",
+"takes off"
+],
+"a": 3,
+"e": "take off = leave the ground."
+},
+{
+"q": "I'm looking ___ my keys. Have you seen them?",
+"o": [
+"for",
+"at",
+"after",
+"into"
+],
+"a": 0,
+"e": "look for = search."
+},
+{
+"q": "We have ___ paper. Please buy some.",
+"o": [
+"run into",
+"run out of",
+"run over",
+"run away"
+],
+"a": 1,
+"e": "run out of = have none left."
+},
+{
+"q": "The match was ___ because of rain.",
+"o": [
+"called up",
+"called on",
+"called off",
+"called in"
+],
+"a": 2,
+"e": "call off = cancel."
+},
+{
+"q": "She ___ the offer because the salary was low.",
+"o": [
+"turned up",
+"turned on",
+"turned in",
+"turned down"
+],
+"a": 3,
+"e": "turn down = refuse."
+},
+{
+"q": "Choose the correct sentence.",
+"o": [
+"Turn it off.",
+"Turn off it.",
+"Turn off to it.",
+"Turn up it."
+],
+"a": 0,
+"e": "A pronoun goes between the verb and the particle."
+},
+{
+"q": "I look forward ___ you.",
+"o": [
+"to meet",
+"to meeting",
+"for meet",
+"meeting"
+],
+"a": 1,
+"e": "look forward to + -ing."
+}
+],
+"n12": [
+{
+"q": "He stopped ___ because it was bad for his health.",
+"o": [
+"to smoke",
+"smoke",
+"smoking",
+"smoked"
+],
+"a": 2,
+"e": "stop + -ing = end an action."
+},
+{
+"q": "Remember ___ the door when you leave.",
+"o": [
+"locking",
+"lock",
+"locked",
+"to lock"
+],
+"a": 3,
+"e": "remember to + V1 = do not forget."
+},
+{
+"q": "I remember ___ him last year.",
+"o": [
+"meeting",
+"to meet",
+"meet",
+"to meeting"
+],
+"a": 0,
+"e": "remember + -ing = recall the past."
+},
+{
+"q": "She suggested ___ to the park.",
+"o": [
+"to go",
+"going",
+"go",
+"went"
+],
+"a": 1,
+"e": "suggest + -ing."
+},
+{
+"q": "The teacher made us ___ the text again.",
+"o": [
+"to read",
+"reading",
+"read",
+"reads"
+],
+"a": 2,
+"e": "make + object + base verb."
+},
+{
+"q": "He told me ___ quiet.",
+"o": [
+"be",
+"being",
+"been",
+"to be"
+],
+"a": 3,
+"e": "tell + object + to V1."
+},
+{
+"q": "The car needs ___.",
+"o": [
+"washing",
+"to wash",
+"wash",
+"washed"
+],
+"a": 0,
+"e": "need + -ing has a passive meaning."
+},
+{
+"q": "She is old enough ___ the exam.",
+"o": [
+"taking",
+"to take",
+"take",
+"for take"
+],
+"a": 1,
+"e": "adjective + enough + to V1."
+},
+{
+"q": "I saw him ___ the road. (whole action)",
+"o": [
+"to cross",
+"crossed to",
+"cross",
+"crosses"
+],
+"a": 2,
+"e": "see + object + base verb = whole action."
+},
+{
+"q": "I tried ___ the window, but it was stuck.",
+"o": [
+"opening to",
+"open",
+"opened",
+"to open"
+],
+"a": 3,
+"e": "try to = attempt."
+}
+],
+"n13": [
+{
+"q": "___ is a book on the desk.",
+"o": [
+"There",
+"Their",
+"Those",
+"These"
+],
+"a": 0,
+"e": "There + be introduces something that exists."
+},
+{
+"q": "___ many students in the class.",
+"o": [
+"There is",
+"There are",
+"It is",
+"They are"
+],
+"a": 1,
+"e": "Plural noun: There are."
+},
+{
+"q": "___ is raining today.",
+"o": [
+"There",
+"That",
+"It",
+"This"
+],
+"a": 2,
+"e": "English needs a subject: It."
+},
+{
+"q": "Choose the correct imperative.",
+"o": [
+"Not talk.",
+"Don't to talk.",
+"No talk please to.",
+"Don't talk."
+],
+"a": 3,
+"e": "Don't + base verb."
+},
+{
+"q": "There ___ a pen and two books on the table.",
+"o": [
+"is",
+"are",
+"were",
+"have"
+],
+"a": 0,
+"e": "The verb agrees with the first noun: a pen."
+},
+{
+"q": "___ start the lesson.",
+"o": [
+"Let",
+"Let's",
+"Lets to",
+"We let"
+],
+"a": 1,
+"e": "Let's + base verb = suggestion."
+},
+{
+"q": "I ___ got a new phone.",
+"o": [
+"am",
+"do",
+"have",
+"has"
+],
+"a": 2,
+"e": "have got = have."
+},
+{
+"q": "She ___ like music! (emphasis)",
+"o": [
+"do",
+"is",
+"has",
+"does"
+],
+"a": 3,
+"e": "Emphatic do: does + base verb."
+}
+],
+"n14": [
+{
+"q": "The plural of “child” is ___.",
+"o": [
+"children",
+"childs",
+"childrens",
+"childes"
+],
+"a": 0,
+"e": "Irregular plural: children."
+},
+{
+"q": "The ___ books are on the desk. (more than one student)",
+"o": [
+"student's",
+"students'",
+"students",
+"studentses"
+],
+"a": 1,
+"e": "Plural noun ending in -s + apostrophe: students' books."
+},
+{
+"q": "Mathematics ___ difficult for some students.",
+"o": [
+"are",
+"were to",
+"is",
+"have been"
+],
+"a": 2,
+"e": "Subject names ending in -s take a singular verb."
+},
+{
+"q": "The police ___ looking for the thief.",
+"o": [
+"is",
+"was",
+"has",
+"are"
+],
+"a": 3,
+"e": "police is always plural."
+},
+{
+"q": "We have a ___ break at eleven.",
+"o": [
+"ten-minute",
+"ten-minutes",
+"ten minutes'",
+"ten-minute's"
+],
+"a": 0,
+"e": "In a compound adjective, the unit stays singular."
+},
+{
+"q": "Choose the correct sentence.",
+"o": [
+"That is the childrens room.",
+"That is the children's room.",
+"That is the childrens' room.",
+"That is the children room's."
+],
+"a": 1,
+"e": "Irregular plural + 's: children's."
+},
+{
+"q": "Tom and Mary live together. ___ house is near the school.",
+"o": [
+"Tom's and Mary's",
+"Tom and Marys'",
+"Tom and Mary's",
+"Tom and Mary house"
+],
+"a": 2,
+"e": "Joint possession: 's after the last name."
+},
+{
+"q": "The information ___ very useful.",
+"o": [
+"are",
+"were",
+"have",
+"is"
+],
+"a": 3,
+"e": "information is uncountable: singular verb."
+}
+],
+"n15": [
+{
+"q": "How ___ money do you have?",
+"o": [
+"much",
+"many",
+"few",
+"a number of"
+],
+"a": 0,
+"e": "money is uncountable: much."
+},
+{
+"q": "There are ___ students in the class today than yesterday.",
+"o": [
+"less",
+"fewer",
+"lesser",
+"least"
+],
+"a": 1,
+"e": "fewer + countable noun."
+},
+{
+"q": "I have ___ friends in this city, so I feel lonely.",
+"o": [
+"a few",
+"a little",
+"few",
+"little"
+],
+"a": 2,
+"e": "few = hardly any (negative)."
+},
+{
+"q": "She has ___ time to finish the report, so she is relaxed.",
+"o": [
+"a few",
+"few",
+"many",
+"a little"
+],
+"a": 3,
+"e": "a little = some (positive) with uncountable nouns."
+},
+{
+"q": "Each of the students ___ a book.",
+"o": [
+"has",
+"have",
+"are having",
+"having"
+],
+"a": 0,
+"e": "each of + plural noun takes a singular verb."
+},
+{
+"q": "___ answer is correct. They are both wrong. (two answers)",
+"o": [
+"Both",
+"Neither",
+"Every",
+"All"
+],
+"a": 1,
+"e": "neither = not one and not the other."
+},
+{
+"q": "One pen is red; ___ is blue.",
+"o": [
+"another",
+"others",
+"the other",
+"other"
+],
+"a": 2,
+"e": "the other = the second of two."
+},
+{
+"q": "Some students like tea; ___ prefer coffee.",
+"o": [
+"the other",
+"another",
+"other",
+"others"
+],
+"a": 3,
+"e": "others = some more (not all)."
+},
+{
+"q": "Would you like ___ tea?",
+"o": [
+"some",
+"any",
+"a few",
+"many"
+],
+"a": 0,
+"e": "some is used in offers."
+},
+{
+"q": "I don't have ___ time.",
+"o": [
+"some",
+"any",
+"a few",
+"many"
+],
+"a": 1,
+"e": "any is used in negatives."
+}
+],
+"n16": [
+{
+"q": "I am ___ in this lesson. It is not interesting.",
+"o": [
+"boring",
+"bore",
+"bored",
+"boringly"
+],
+"a": 2,
+"e": "-ed describes how someone feels."
+},
+{
+"q": "The news was ___.",
+"o": [
+"surprised",
+"surprise",
+"surprisedly",
+"surprising"
+],
+"a": 3,
+"e": "-ing describes what causes the feeling."
+},
+{
+"q": "She has a ___ scarf.",
+"o": [
+"beautiful silk",
+"silk beautiful",
+"beautifully silk",
+"silk and beautiful"
+],
+"a": 0,
+"e": "Opinion comes before material."
+},
+{
+"q": "They live in an ___ house.",
+"o": [
+"wooden old",
+"old wooden",
+"woodenly old",
+"oldly wooden"
+],
+"a": 1,
+"e": "Age comes before material."
+},
+{
+"q": "She ___ arrives late.",
+"o": [
+"is never",
+"never is",
+"never",
+"does never"
+],
+"a": 2,
+"e": "A frequency adverb goes before the main verb."
+},
+{
+"q": "He is ___ late. (frequency)",
+"o": [
+"always is",
+"does always",
+"is always to",
+"always"
+],
+"a": 3,
+"e": "A frequency adverb goes after be."
+},
+{
+"q": "She speaks ___.",
+"o": [
+"English fluently",
+"fluently English",
+"fluently in English to",
+"English fluent"
+],
+"a": 0,
+"e": "Do not put an adverb between a verb and its direct object."
+},
+{
+"q": "The lesson was ___ difficult that nobody finished.",
+"o": [
+"such",
+"so",
+"too much",
+"very much"
+],
+"a": 1,
+"e": "so + adjective + that."
+}
+],
+"n17": [
+{
+"q": "This book is ___ than that one.",
+"o": [
+"interestinger",
+"most interesting",
+"more interesting",
+"more interestinger"
+],
+"a": 2,
+"e": "Long adjectives use more."
+},
+{
+"q": "She is ___ in the class.",
+"o": [
+"the most tall",
+"the tallest of",
+"tallest",
+"the tallest"
+],
+"a": 3,
+"e": "the + superlative + in the class."
+},
+{
+"q": "This test is ___ than the last one.",
+"o": [
+"much easier",
+"very easier",
+"more easy much",
+"easier very"
+],
+"a": 0,
+"e": "much + comparative (not very)."
+},
+{
+"q": "The ___ you practise, the better you become.",
+"o": [
+"most",
+"more",
+"much",
+"many"
+],
+"a": 1,
+"e": "the more …, the better …"
+},
+{
+"q": "He is not ___ his brother.",
+"o": [
+"so taller as",
+"tall than",
+"as tall as",
+"as taller than"
+],
+"a": 2,
+"e": "not as + adjective + as."
+},
+{
+"q": "It's the best film I ___ seen.",
+"o": [
+"ever have to",
+"did ever",
+"had ever to",
+"have ever"
+],
+"a": 3,
+"e": "Superlative + ever + Present Perfect."
+},
+{
+"q": "The weather is getting ___.",
+"o": [
+"worse and worse",
+"more worse",
+"worser",
+"bad and bad"
+],
+"a": 0,
+"e": "worse and worse = comparative + and + comparative."
+},
+{
+"q": "This bag is ___ expensive as that one.",
+"o": [
+"two times so",
+"twice as",
+"twice so",
+"as twice"
+],
+"a": 1,
+"e": "twice as … as."
+}
+],
+"n18": [
+{
+"q": "I don't know ___.",
+"o": [
+"nothing",
+"something",
+"anything",
+"everything"
+],
+"a": 2,
+"e": "Use any- in a negative sentence."
+},
+{
+"q": "Everyone ___ ready.",
+"o": [
+"are",
+"were to",
+"have",
+"is"
+],
+"a": 3,
+"e": "everyone takes a singular verb."
+},
+{
+"q": "They help ___.",
+"o": [
+"each other",
+"themselves each",
+"themself",
+"other each"
+],
+"a": 0,
+"e": "each other = reciprocal."
+},
+{
+"q": "She hurt ___ while cooking.",
+"o": [
+"her",
+"herself",
+"hers",
+"she"
+],
+"a": 1,
+"e": "Subject = object: reflexive pronoun."
+},
+{
+"q": "Between you and ___, I think he is wrong.",
+"o": [
+"I",
+"myself",
+"me",
+"mine"
+],
+"a": 2,
+"e": "Object form after a preposition."
+},
+{
+"q": "I live ___. I don't share the house.",
+"o": [
+"myself by",
+"with myself by",
+"on myself",
+"by myself"
+],
+"a": 3,
+"e": "by + reflexive = alone."
+},
+{
+"q": "I like the red ___. (one book)",
+"o": [
+"one",
+"ones",
+"it one",
+"any"
+],
+"a": 0,
+"e": "one replaces a singular noun."
+},
+{
+"q": "I feel ___ today.",
+"o": [
+"tiredly",
+"tired",
+"myself tired",
+"me tired"
+],
+"a": 1,
+"e": "No reflexive after feel."
+}
+],
+"n19": [
+{
+"q": "___ life is hard sometimes.",
+"o": [
+"The",
+"A",
+"(no article)",
+"An"
+],
+"a": 2,
+"e": "General idea: no article."
+},
+{
+"q": "She is ___ teacher.",
+"o": [
+"an",
+"the",
+"(no article)",
+"a"
+],
+"a": 3,
+"e": "Jobs take a / an; teacher starts with a consonant sound."
+},
+{
+"q": "He plays ___ football every weekend.",
+"o": [
+"(no article)",
+"the",
+"a",
+"an"
+],
+"a": 0,
+"e": "No article with sports."
+},
+{
+"q": "We crossed ___ Mekong by boat.",
+"o": [
+"a",
+"the",
+"(no article)",
+"an"
+],
+"a": 1,
+"e": "Rivers take the."
+},
+{
+"q": "She lives in ___ Cambodia.",
+"o": [
+"the",
+"a",
+"(no article)",
+"an"
+],
+"a": 2,
+"e": "No article with most single countries."
+},
+{
+"q": "I'd like to be ___ honest person.",
+"o": [
+"a",
+"the",
+"(no article)",
+"an"
+],
+"a": 3,
+"e": "honest starts with a vowel sound: an."
+},
+{
+"q": "He goes to ___ school by bike. (He is a student.)",
+"o": [
+"(no article)",
+"the",
+"a",
+"an"
+],
+"a": 0,
+"e": "school used for its main purpose: no article."
+},
+{
+"q": "She saw a dog. ___ dog was big.",
+"o": [
+"A",
+"The",
+"An",
+"(no article)"
+],
+"a": 1,
+"e": "Second mention: the."
+},
+{
+"q": "He is ___ best student in the class.",
+"o": [
+"a",
+"an",
+"the",
+"(no article)"
+],
+"a": 2,
+"e": "Superlatives take the."
+},
+{
+"q": "I work in ___ United States.",
+"o": [
+"a",
+"(no article)",
+"an",
+"the"
+],
+"a": 3,
+"e": "The United States has a union name: the."
+}
+],
+"n20": [
+{
+"q": "She is interested ___ music.",
+"o": [
+"in",
+"at",
+"on",
+"of"
+],
+"a": 0,
+"e": "interested in."
+},
+{
+"q": "He is good ___ maths.",
+"o": [
+"in",
+"at",
+"on",
+"for"
+],
+"a": 1,
+"e": "good at."
+},
+{
+"q": "They are waiting ___ the bus.",
+"o": [
+"to",
+"at",
+"for",
+"of"
+],
+"a": 2,
+"e": "wait for."
+},
+{
+"q": "We discussed ___ the problem.",
+"o": [
+"about",
+"on",
+"over",
+"(no preposition)"
+],
+"a": 3,
+"e": "discuss takes a direct object: no preposition."
+},
+{
+"q": "I arrived ___ Phnom Penh at noon.",
+"o": [
+"in",
+"to",
+"at the",
+"into"
+],
+"a": 0,
+"e": "arrive in a city."
+},
+{
+"q": "The cat jumped ___ the table.",
+"o": [
+"in",
+"onto",
+"at",
+"by"
+],
+"a": 1,
+"e": "onto = movement to a surface."
+},
+{
+"q": "She is married ___ a doctor.",
+"o": [
+"with",
+"by",
+"to",
+"for"
+],
+"a": 2,
+"e": "married to."
+},
+{
+"q": "The bank is ___ the school.",
+"o": [
+"in front",
+"next",
+"between to",
+"opposite"
+],
+"a": 3,
+"e": "opposite = facing."
+},
+{
+"q": "The book belongs ___ me.",
+"o": [
+"to",
+"for",
+"at",
+"of"
+],
+"a": 0,
+"e": "belong to."
+},
+{
+"q": "He is afraid ___ dogs.",
+"o": [
+"from",
+"of",
+"about",
+"at"
+],
+"a": 1,
+"e": "afraid of."
+}
+],
+"n21": [
+{
+"q": "The student ___ book was lost is absent.",
+"o": [
+"who",
+"which",
+"whose",
+"whom"
+],
+"a": 2,
+"e": "whose shows possession."
+},
+{
+"q": "My sister, ___ lives in Kampot, is a nurse.",
+"o": [
+"that",
+"which",
+"whose",
+"who"
+],
+"a": 3,
+"e": "Non-defining clause about a person: who."
+},
+{
+"q": "Everything ___ she said was true.",
+"o": [
+"that",
+"whom",
+"what",
+"who"
+],
+"a": 0,
+"e": "that is used after everything."
+},
+{
+"q": "The man ___ lives next door is kind.",
+"o": [
+"whom he",
+"who",
+"which he",
+"who he"
+],
+"a": 1,
+"e": "The pronoun is the subject; do not repeat it."
+},
+{
+"q": "The book ___ I bought is useful. Which word can be left out?",
+"o": [
+"bought",
+"useful",
+"that",
+"book"
+],
+"a": 2,
+"e": "The pronoun that is the object, so it can be omitted."
+},
+{
+"q": "He passed the exam, ___ surprised everyone.",
+"o": [
+"that",
+"what",
+"who",
+"which"
+],
+"a": 3,
+"e": "which refers to the whole clause."
+},
+{
+"q": "The man ___ there is my teacher. (reduced clause)",
+"o": [
+"standing",
+"stood",
+"who standing",
+"is standing"
+],
+"a": 0,
+"e": "Reduced relative clause: standing."
+},
+{
+"q": "This is the school ___ I studied.",
+"o": [
+"which",
+"where",
+"who",
+"whose"
+],
+"a": 1,
+"e": "where = in which (place)."
+},
+{
+"q": "The woman to ___ I spoke was kind.",
+"o": [
+"that",
+"who",
+"whom",
+"which"
+],
+"a": 2,
+"e": "Formal: preposition + whom."
+},
+{
+"q": "The year ___ I graduated was important.",
+"o": [
+"where",
+"which",
+"who",
+"when"
+],
+"a": 3,
+"e": "when = in which (time)."
+}
+],
+"n22": [
+{
+"q": "___ home, I met my teacher.",
+"o": [
+"Walking",
+"Walked",
+"Walk",
+"To walking"
+],
+"a": 0,
+"e": "V-ing for an action at the same time."
+},
+{
+"q": "___ the exam, she left the room.",
+"o": [
+"Finished",
+"Having finished",
+"Finishing to",
+"Having finish"
+],
+"a": 1,
+"e": "Earlier action: having + V3."
+},
+{
+"q": "___ the answer, he stayed silent.",
+"o": [
+"Knowing not",
+"Not known",
+"Not knowing",
+"Don't knowing"
+],
+"a": 2,
+"e": "Not + V-ing."
+},
+{
+"q": "Which sentence is correct?",
+"o": [
+"Walking down the street, the rain started.",
+"Walked down the street, it rained.",
+"Walk down the street, rain started.",
+"Walking down the street, I felt rain."
+],
+"a": 3,
+"e": "The subject of both parts must be the same."
+},
+{
+"q": "___ in 1990, the book is still popular.",
+"o": [
+"Written",
+"Writing",
+"Having write",
+"Wrote"
+],
+"a": 0,
+"e": "Passive meaning: written."
+},
+{
+"q": "___ tired, she went to bed early.",
+"o": [
+"Felt",
+"Feeling",
+"To feel",
+"Been feeling"
+],
+"a": 1,
+"e": "Feeling gives a reason."
+},
+{
+"q": "Before ___, check the lights.",
+"o": [
+"to leave",
+"left",
+"leaving",
+"leave"
+],
+"a": 2,
+"e": "Conjunction + V-ing."
+},
+{
+"q": "Which sentence has a dangling participle?",
+"o": [
+"Walking home, I saw my friend.",
+"Having eaten, we left.",
+"Seeing the dog, she smiled.",
+"Walking home, the rain started."
+],
+"a": 3,
+"e": "The rain was not walking, so the subject does not match."
+}
+],
+"n23": [
+{
+"q": "I'll call you when I ___.",
+"o": [
+"arrive",
+"will arrive",
+"am arriving to",
+"arrived"
+],
+"a": 0,
+"e": "Present tense in a time clause."
+},
+{
+"q": "___ I was sleeping, the phone rang.",
+"o": [
+"During",
+"While",
+"For",
+"Since"
+],
+"a": 1,
+"e": "while + clause."
+},
+{
+"q": "We stayed inside ___ the storm.",
+"o": [
+"while",
+"for",
+"during",
+"since"
+],
+"a": 2,
+"e": "during + noun."
+},
+{
+"q": "I have lived here ___ 2020.",
+"o": [
+"for",
+"during",
+"from to",
+"since"
+],
+"a": 3,
+"e": "since + point in time."
+},
+{
+"q": "By the time I arrived, they ___.",
+"o": [
+"had left",
+"left",
+"have left",
+"were leaving to"
+],
+"a": 0,
+"e": "Earlier past action: Past Perfect."
+},
+{
+"q": "By the time you arrive, I ___.",
+"o": [
+"will leave",
+"will have left",
+"have left",
+"had left"
+],
+"a": 1,
+"e": "by the time + present → Future Perfect."
+},
+{
+"q": "Finish the report ___ Friday. (not later than)",
+"o": [
+"until",
+"during",
+"by",
+"at"
+],
+"a": 2,
+"e": "by = deadline."
+},
+{
+"q": "Wait here ___ I come back.",
+"o": [
+"by",
+"during",
+"for",
+"until"
+],
+"a": 3,
+"e": "until = up to the time that."
+}
+],
+"n24": [
+{
+"q": "It was ___ a hot day that we stayed inside.",
+"o": [
+"such",
+"so",
+"too",
+"very much"
+],
+"a": 0,
+"e": "such + a + adjective + noun."
+},
+{
+"q": "It was ___ hot that we stayed inside.",
+"o": [
+"such",
+"so",
+"too much",
+"very much"
+],
+"a": 1,
+"e": "so + adjective + that."
+},
+{
+"q": "He is ___ tired to study.",
+"o": [
+"enough",
+"very",
+"too",
+"so"
+],
+"a": 2,
+"e": "too + adjective + to V1."
+},
+{
+"q": "She is ___ to vote, so she can register.",
+"o": [
+"enough old",
+"too old",
+"so old",
+"old enough"
+],
+"a": 3,
+"e": "adjective + enough."
+},
+{
+"q": "___ it rained, we went out.",
+"o": [
+"Although",
+"Despite",
+"However",
+"Because"
+],
+"a": 0,
+"e": "although + clause."
+},
+{
+"q": "___ the rain, we went out.",
+"o": [
+"Although",
+"Despite",
+"Even though",
+"Whereas"
+],
+"a": 1,
+"e": "despite + noun."
+},
+{
+"q": "I study ___ I can pass the exam.",
+"o": [
+"in order",
+"because of",
+"so that",
+"even if"
+],
+"a": 2,
+"e": "so that + can."
+},
+{
+"q": "There were ___ many students that we had no space.",
+"o": [
+"such",
+"too much",
+"very much",
+"so"
+],
+"a": 3,
+"e": "so many + noun + that."
+},
+{
+"q": "It rained. ___, we went out.",
+"o": [
+"However",
+"Although",
+"Despite",
+"Whereas"
+],
+"a": 0,
+"e": "However begins a new sentence with a comma."
+},
+{
+"q": "We don't have ___ time to finish.",
+"o": [
+"too",
+"enough",
+"so",
+"very"
+],
+"a": 1,
+"e": "enough + noun."
+}
+],
+"n25": [
+{
+"q": "Never ___ such a beautiful view.",
+"o": [
+"I have seen",
+"I seen",
+"have I seen",
+"did I saw"
+],
+"a": 2,
+"e": "Auxiliary before the subject after Never."
+},
+{
+"q": "Not only ___ sing, but she also danced.",
+"o": [
+"she did",
+"she",
+"does she did",
+"did she"
+],
+"a": 3,
+"e": "Not only + do-support: did she."
+},
+{
+"q": "Hardly ___ arrived when it began to rain.",
+"o": [
+"had we",
+"we had",
+"did we",
+"we have"
+],
+"a": 0,
+"e": "Hardly had + subject + V3 … when."
+},
+{
+"q": "___ I known, I would have helped.",
+"o": [
+"Have",
+"Had",
+"Did",
+"Would"
+],
+"a": 1,
+"e": "Inverted third conditional."
+},
+{
+"q": "It was Sophea ___ won the prize.",
+"o": [
+"whose",
+"whom to",
+"who",
+"which"
+],
+"a": 2,
+"e": "It-cleft: who for a person."
+},
+{
+"q": "What I need ___ a rest.",
+"o": [
+"are",
+"have",
+"does",
+"is"
+],
+"a": 3,
+"e": "Wh-cleft: What I need is …"
+},
+{
+"q": "Rarely ___ he arrive late.",
+"o": [
+"does",
+"did to",
+"is",
+"do he"
+],
+"a": 0,
+"e": "Rarely + do/does + subject + base verb."
+},
+{
+"q": "No sooner had she arrived ___ it started to rain.",
+"o": [
+"when",
+"than",
+"that",
+"as"
+],
+"a": 1,
+"e": "No sooner … than."
+}
+],
+"n26": [
+{
+"q": "“I like tea.” “___”",
+"o": [
+"So I do.",
+"I do so.",
+"So do I.",
+"Do so I."
+],
+"a": 2,
+"e": "So + auxiliary + subject."
+},
+{
+"q": "“I can't swim.” “___”",
+"o": [
+"Neither I can.",
+"So can't I.",
+"Can't neither I.",
+"Neither can I."
+],
+"a": 3,
+"e": "Neither + auxiliary + subject."
+},
+{
+"q": "“Do you like it?” “Yes, ___.”",
+"o": [
+"I do",
+"I like",
+"I am",
+"I did to"
+],
+"a": 0,
+"e": "A short answer repeats the auxiliary."
+},
+{
+"q": "I ___ him.",
+"o": [
+"don't hardly know",
+"hardly know",
+"not hardly know",
+"hardly don't know"
+],
+"a": 1,
+"e": "hardly is already negative."
+},
+{
+"q": "I don't know ___.",
+"o": [
+"nothing",
+"none",
+"anything",
+"no"
+],
+"a": 2,
+"e": "Avoid double negatives."
+},
+{
+"q": "“Is it going to rain?” “I hope ___.”",
+"o": [
+"no",
+"don't",
+"it isn't",
+"not"
+],
+"a": 3,
+"e": "I hope not = I hope it will not rain."
+},
+{
+"q": "“I went to Siem Reap.” “___”",
+"o": [
+"So did I.",
+"So went I.",
+"So I did.",
+"So do I."
+],
+"a": 0,
+"e": "Past Simple: so did I."
+},
+{
+"q": "“She has finished.” “___”",
+"o": [
+"So do I.",
+"So have I.",
+"So did I.",
+"So am I."
+],
+"a": 1,
+"e": "Same auxiliary as the statement: have."
+}
+],
+"n27": [
+{
+"q": "Could you tell me where ___?",
+"o": [
+"is the bank",
+"does the bank",
+"the bank is",
+"the bank does"
+],
+"a": 2,
+"e": "Statement word order in an indirect question."
+},
+{
+"q": "I wonder what time ___.",
+"o": [
+"does it start",
+"it does start",
+"starts it",
+"it starts"
+],
+"a": 3,
+"e": "No do-support in indirect questions."
+},
+{
+"q": "Do you know ___ he is coming?",
+"o": [
+"if",
+"that",
+"what if",
+"does"
+],
+"a": 0,
+"e": "Yes / no indirect question: if."
+},
+{
+"q": "She asked me where ___.",
+"o": [
+"did I live",
+"I lived",
+"I did live",
+"do I live"
+],
+"a": 1,
+"e": "Reported question: statement order."
+},
+{
+"q": "___ called you?",
+"o": [
+"Who did",
+"Whom did to",
+"Who",
+"Who does"
+],
+"a": 2,
+"e": "Subject question: no do."
+},
+{
+"q": "___ did you call?",
+"o": [
+"Whom does",
+"Who has",
+"Who is",
+"Who"
+],
+"a": 3,
+"e": "Object question uses did."
+},
+{
+"q": "“What is she like?” asks about her ___.",
+"o": [
+"personality or appearance",
+"health",
+"age only",
+"address"
+],
+"a": 0,
+"e": "What … like? asks for a description."
+},
+{
+"q": "How ___ is it from here to the market?",
+"o": [
+"much",
+"far",
+"many",
+"often"
+],
+"a": 1,
+"e": "far asks about distance."
+}
+],
+"n28": [
+{
+"q": "She asked me where I ___.",
+"o": [
+"did live",
+"live to",
+"lived",
+"do live"
+],
+"a": 2,
+"e": "Reported question with backshift."
+},
+{
+"q": "He told ___ that he was late.",
+"o": [
+"to me",
+"for me",
+"me to",
+"me"
+],
+"a": 3,
+"e": "tell + object (no to) + that."
+},
+{
+"q": "She suggested ___ home early.",
+"o": [
+"going",
+"to go",
+"go to",
+"went"
+],
+"a": 0,
+"e": "suggest + -ing."
+},
+{
+"q": "He asked if I ___ come to the party.",
+"o": [
+"will",
+"would",
+"can to",
+"am"
+],
+"a": 1,
+"e": "will → would after backshift."
+},
+{
+"q": "“Study hard,” said the teacher. → The teacher told us ___ hard.",
+"o": [
+"study",
+"studying",
+"to study",
+"that study"
+],
+"a": 2,
+"e": "tell + object + to V1."
+},
+{
+"q": "He said that water ___ at 100°C. (general truth)",
+"o": [
+"boiled to",
+"has boiled",
+"is boil",
+"boils"
+],
+"a": 3,
+"e": "No backshift for a general truth."
+},
+{
+"q": "She promised ___ me.",
+"o": [
+"to call",
+"calling",
+"call to",
+"for calling"
+],
+"a": 0,
+"e": "promise + to V1."
+},
+{
+"q": "He accused me ___ cheating.",
+"o": [
+"for",
+"of",
+"with",
+"to"
+],
+"a": 1,
+"e": "accuse somebody of."
+},
+{
+"q": "“I must go,” she said. → She said she ___ go.",
+"o": [
+"must",
+"musts",
+"had to",
+"has must"
+],
+"a": 2,
+"e": "must → had to."
+},
+{
+"q": "She apologized ___ being late.",
+"o": [
+"of",
+"about to",
+"with",
+"for"
+],
+"a": 3,
+"e": "apologize for."
+}
+],
+"n29": [
+{
+"q": "Which is a complete sentence?",
+"o": [
+"Because it rained, we stayed home.",
+"Because it rained.",
+"When we arrived home.",
+"After the long lesson."
+],
+"a": 0,
+"e": "The first has a main clause."
+},
+{
+"q": "Which sentence has a comma splice?",
+"o": [
+"I was tired, so I went to bed.",
+"I was tired, I went to bed.",
+"I was tired; I went to bed.",
+"I was tired. I went to bed."
+],
+"a": 1,
+"e": "Two independent clauses are joined only by a comma."
+},
+{
+"q": "Choose the sentence with parallel structure.",
+"o": [
+"She likes swimming, to run and cycling.",
+"She likes to swim, running and cycling.",
+"She likes swimming, running and cycling.",
+"She likes swim, running and to cycle."
+],
+"a": 2,
+"e": "The list items are all -ing forms."
+},
+{
+"q": "Which sentence is a run-on?",
+"o": [
+"He studied hard, so he passed.",
+"He studied hard. He passed.",
+"He studied hard; he passed.",
+"He studied hard he passed."
+],
+"a": 3,
+"e": "No punctuation or conjunction joins the clauses."
+},
+{
+"q": "Which is correct?",
+"o": [
+"My teacher is kind.",
+"My teacher he is kind.",
+"My teacher, he kind.",
+"My teacher is he kind."
+],
+"a": 0,
+"e": "No double subject."
+},
+{
+"q": "Choose the correct sentence.",
+"o": [
+"He is both smart and works hard.",
+"He is both smart and hardworking.",
+"He is both smartly and hardworking.",
+"He is both smart and to work hard."
+],
+"a": 1,
+"e": "Both … and joins two parallel items."
+},
+{
+"q": "Which sentence has a dangling modifier?",
+"o": [
+"Walking home, I felt the rain.",
+"Having eaten, he left.",
+"Walking home, the rain started.",
+"Tired, she slept."
+],
+"a": 2,
+"e": "The rain was not walking home."
+},
+{
+"q": "Which sentence is a fragment?",
+"o": [
+"She was tired.",
+"She was tired, but she worked.",
+"Tired as she was, she worked.",
+"Although she was tired."
+],
+"a": 3,
+"e": "A dependent clause cannot stand alone."
+}
+]
+}
