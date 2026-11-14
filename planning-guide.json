@@ -1,0 +1,1327 @@
+{
+ "sections": [
+  {
+   "id": "pg-purpose",
+   "group": "Start here",
+   "title": "What a lesson plan is for",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A lesson plan is a map for the lesson, not a script. It helps you decide what learners should achieve, what they will do to get there, and how you will know they have learned it."
+    },
+    {
+     "t": "h",
+     "x": "Why plan"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "You teach with a clear aim instead of filling time.",
+      "You think about problems before they happen.",
+      "You use time, materials and learner energy on purpose.",
+      "You can reflect afterwards and improve the next lesson.",
+      "A mentor, a substitute teacher or an inspector can see what you intended."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A good plan is"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learner-centred: it says what learners do, not only what you do.",
+      "Short and usable: one or two pages you can glance at while teaching.",
+      "Flexible: you can change it when learners need something different.",
+      "Realistic: the timing allows for instructions, feedback and moving between activities."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "Plan for learning, not for teaching. If every stage describes only what the teacher says, the plan is incomplete."
+    }
+   ]
+  },
+  {
+   "id": "pg-prethink",
+   "group": "Start here",
+   "title": "Pre-thinking: before you write the plan",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Pre-thinking is the thinking you do before you write anything down. Work through these questions first. The answers make the written plan quick to write and sensible to teach."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Question",
+      "Think about",
+      "Example (English grammar lesson)"
+     ],
+     "rows": [
+      [
+       "Who are my learners?",
+       "Level, age, class size, mixed abilities, interests, what they already know",
+       "Grade 9, 45 students, A2 level, they know the simple present"
+      ],
+      [
+       "What is my aim?",
+       "One main thing learners can do by the end, and one or two smaller aims",
+       "Talk about future plans using going to"
+      ],
+      [
+       "What do they need to know?",
+       "Language: meaning, form, pronunciation, use. Other subjects: key concepts, terms and steps",
+       "Meaning: a plan made before now. Form: be + going to + verb. Weak sound of to. Use: plans and predictions"
+      ],
+      [
+       "What will be difficult?",
+       "Likely errors, confusing ideas, first-language influence, vocabulary, the wording of instructions",
+       "Forgetting be (I going to travel), pronunciation of going to"
+      ],
+      [
+       "Where does it fit?",
+       "What came before, what comes next, the unit or syllabus",
+       "After the lesson on weekend vocabulary, before a unit review"
+      ],
+      [
+       "How will I know they learned?",
+       "The evidence you will see or hear",
+       "Each learner writes three true sentences about next weekend"
+      ],
+      [
+       "What do I have to work with?",
+       "Time, room, board, books, printouts, electricity, projector, helpers",
+       "45 minutes, board and textbook, no projector"
+      ],
+      [
+       "What could go wrong?",
+       "Problems and a backup (see Anticipating problems and plan B)",
+       "Task too easy: add an extension. No power: use the board"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "After pre-thinking"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Write the aim and the success criteria first.",
+      "Choose a procedure that fits the aim (see Procedures).",
+      "Then fill in the stage table, timing and materials."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pg-components",
+   "group": "The plan",
+   "title": "Key components of a lesson plan",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Component",
+      "What to write",
+      "Tip"
+     ],
+     "rows": [
+      [
+       "General information",
+       "Class, date, time, duration, topic, level, unit or book",
+       "Note where the lesson sits in the unit"
+      ],
+      [
+       "Objectives",
+       "By the end of the lesson, learners will be able to... (one to three)",
+       "Use verbs you can observe"
+      ],
+      [
+       "Success criteria",
+       "How you and the learners will tell the aim has been reached",
+       "Write them as I can... statements"
+      ],
+      [
+       "Previous knowledge",
+       "What learners already know that this lesson builds on",
+       "Link to it in the lead-in"
+      ],
+      [
+       "Target language or content",
+       "Language: meaning, form, pronunciation, use. Other subjects: key concepts and terms",
+       "Write example sentences or a worked example"
+      ],
+      [
+       "Materials and aids",
+       "Board, textbook, pictures, handouts, audio, technology",
+       "List only what you need; prepare a low-tech alternative"
+      ],
+      [
+       "Stages",
+       "For each stage: time, aim, teacher activity, learner activity, interaction pattern",
+       "Five to seven stages are enough for 45 minutes"
+      ],
+      [
+       "Assessment",
+       "How you check learning during and at the end",
+       "Questions, observation, exercises, a short quiz, pair work"
+      ],
+      [
+       "Differentiation",
+       "Support for learners who need help, extension for fast finishers",
+       "Prepare both before the lesson"
+      ],
+      [
+       "Homework",
+       "A short task that practises today's aim",
+       "Explain it before the lesson ends"
+      ],
+      [
+       "Reflection",
+       "After the lesson: what worked, what was difficult, what to change",
+       "Write it the same day"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are the same sections as your planner form, so you can use this table as a checklist while you fill it in."
+    }
+   ]
+  },
+  {
+   "id": "pg-objectives",
+   "group": "The plan",
+   "title": "Writing good objectives",
+   "blocks": [
+    {
+     "t": "kv",
+     "k": "Formula",
+     "x": "By the end of the lesson, students will be able to + verb + what + (how or how well)"
+    },
+    {
+     "t": "h",
+     "x": "Use verbs you can observe"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Level of thinking",
+      "Useful verbs"
+     ],
+     "rows": [
+      [
+       "Remember",
+       "name, list, match, label"
+      ],
+      [
+       "Understand",
+       "explain, describe, summarise, give an example"
+      ],
+      [
+       "Apply",
+       "use, solve, complete, write, demonstrate"
+      ],
+      [
+       "Analyse",
+       "compare, classify, find the main idea"
+      ],
+      [
+       "Evaluate",
+       "justify, give an opinion, choose and explain"
+      ],
+      [
+       "Create",
+       "design, compose, produce, plan"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Weak and better objectives"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Weak",
+      "Better",
+      "Why"
+     ],
+     "rows": [
+      [
+       "Students will understand the present perfect.",
+       "Students will be able to write five correct sentences about experiences using the present perfect.",
+       "Understand cannot be seen. Writing sentences can be checked."
+      ],
+      [
+       "Teach students about the water cycle.",
+       "Students will be able to label the stages of the water cycle and explain each in one sentence.",
+       "The weak version describes the teacher. The better version describes the learners."
+      ],
+      [
+       "Practise speaking.",
+       "Students will be able to ask and answer three questions about daily routines in pairs.",
+       "The better version says what, how and how many."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Write one to three objectives. More than that is usually too much for one lesson.",
+      "Check that every stage helps reach at least one objective.",
+      "Add a success criterion in learner language: I can..."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pg-stages",
+   "group": "The plan",
+   "title": "Lesson stages",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Most lessons have the same shape: get ready, learn something, practise it, use it, and finish. The names change between procedures, but the purposes stay the same."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Purpose",
+      "Teacher",
+      "Learners",
+      "About (45 min)"
+     ],
+     "rows": [
+      [
+       "Lead-in or warm-up",
+       "Interest, context, activate what they know",
+       "Asks questions, shows a picture or starts a short game",
+       "Talk, guess, share ideas",
+       "3 to 5 min"
+      ],
+      [
+       "Presentation or input",
+       "Understand new language or content",
+       "Sets the context, models, explains, checks understanding",
+       "Listen, notice, repeat, answer questions",
+       "8 to 10 min"
+      ],
+      [
+       "Controlled practice",
+       "Accuracy and confidence",
+       "Gives exercises or drills, corrects quickly",
+       "Practise as a class, in pairs or alone",
+       "8 to 10 min"
+      ],
+      [
+       "Freer practice or production",
+       "Fluency and real use",
+       "Sets a task with a purpose, monitors, notes errors",
+       "Use the language to complete the task",
+       "10 to 15 min"
+      ],
+      [
+       "Feedback and correction",
+       "Learn from mistakes",
+       "Shares good examples and common errors without naming learners",
+       "Notice and correct",
+       "3 to 5 min"
+      ],
+      [
+       "Wrap-up",
+       "Consolidate and look ahead",
+       "Summarises, asks an exit question, sets homework",
+       "Answer, note down, ask questions",
+       "2 to 3 min"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Notes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Not every lesson needs every stage. Skills lessons often use pre-, while- and post- stages instead.",
+      "Write each stage's aim in a short phrase. If you cannot, the stage may not be needed.",
+      "Keep time for the wrap-up even when an earlier stage runs over."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pg-stirrer",
+   "group": "Energy and interaction",
+   "title": "Stirrers and settlers",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners' energy rises and falls during a lesson. Stirrers raise it and settlers calm it. Planning both on purpose keeps attention high without losing control."
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Stirrer",
+      "Settler"
+     ],
+     "rows": [
+      [
+       "Effect",
+       "Raises energy, movement and noise",
+       "Calms, focuses and quietens"
+      ],
+      [
+       "Examples",
+       "Board race, running dictation, mingle, Simon says, team quiz, change partners, find someone who",
+       "Silent reading, individual writing, quiet puzzle or word search, copying from the board, drawing from a description, writing a reflection note"
+      ],
+      [
+       "Use when",
+       "Learners are tired or bored, after long sitting or listening, at the start of a low-energy lesson, before a group task",
+       "After a game, before listening or a test, when the room is too noisy, before careful writing"
+      ],
+      [
+       "Watch for",
+       "Noise, lost time, weaker learners left out",
+       "A long settler makes learners drift, so keep it purposeful"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Planning the energy"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Picture the lesson as a line that goes up and down. Mark where you want high energy and where you want calm.",
+      "Put a settler before work that needs concentration, and a stirrer when attention drops.",
+      "Avoid two stirrers in a row without a reason, and avoid a long unbroken settler with younger learners.",
+      "Link each one to the aim: a stirrer should still practise language or content."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Large classes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach the routines first: a signal to stop, how to move, who does what in a group.",
+      "Keep movement small: stand up in teams, pass papers along rows, work with the nearest partner.",
+      "Give every learner a job, such as writer, reporter or timekeeper."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "In your plan, write stirrer or settler beside the activity and note the interaction pattern. It shows you have balanced the lesson."
+    }
+   ]
+  },
+  {
+   "id": "pg-interaction",
+   "group": "Energy and interaction",
+   "title": "Interaction patterns and grouping",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Pattern",
+      "Good for",
+      "Watch for"
+     ],
+     "rows": [
+      [
+       "Whole class (teacher-led)",
+       "Presentation, instructions, feedback",
+       "Few learners speak, others switch off"
+      ],
+      [
+       "Individual",
+       "Reading, writing, thinking time, tests",
+       "Fast and slow finishers"
+      ],
+      [
+       "Pairs",
+       "Practice, information gaps, peer checking",
+       "Noise, one learner doing all the work"
+      ],
+      [
+       "Small groups (3 to 4)",
+       "Projects, discussion, problem solving, role play",
+       "Off-task talk, unequal participation. Give roles."
+      ],
+      [
+       "Mixed or mingle",
+       "Finding information, stirrers",
+       "Movement and time"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Change the pattern when the activity changes. It also changes the energy.",
+      "Use pairs before groups, and groups before open discussion.",
+      "Pair stronger and weaker learners for support, or similar levels for challenge.",
+      "Give group roles: leader, writer, reporter, timekeeper."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pg-choose",
+   "group": "Procedures",
+   "title": "Choosing a procedure",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A procedure is the order of stages you follow. Choose it by the aim and the learners, not by habit."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Procedure",
+      "Best for",
+      "Learners",
+      "Teacher control",
+      "Main idea"
+     ],
+     "rows": [
+      [
+       "PPP",
+       "New, clearly defined grammar or functions",
+       "Beginner to intermediate",
+       "High",
+       "Teach, practise, then use"
+      ],
+      [
+       "PRS",
+       "The same, with support reduced step by step",
+       "Beginner to intermediate",
+       "High to medium",
+       "Restricted, structured, then free"
+      ],
+      [
+       "TTT",
+       "Revision; language learners partly know",
+       "Intermediate and above",
+       "Medium",
+       "Try the task, teach the gaps, try again"
+      ],
+      [
+       "ESA",
+       "Flexible lessons with several parts",
+       "Any",
+       "Medium",
+       "Engage, study, activate, in any order"
+      ],
+      [
+       "PWP",
+       "Reading and listening",
+       "Any",
+       "Medium",
+       "Prepare, read or listen with tasks, respond"
+      ],
+      [
+       "TBL",
+       "Communication and fluency",
+       "Intermediate and above",
+       "Low",
+       "Task first, language focus afterwards"
+      ],
+      [
+       "5E",
+       "Science and enquiry subjects",
+       "Any",
+       "Medium to low",
+       "Engage, explore, explain, elaborate, evaluate"
+      ],
+      [
+       "I do, We do, You do",
+       "Skills, maths, writing",
+       "Any",
+       "High to low",
+       "Gradual release of responsibility"
+      ],
+      [
+       "Guided discovery",
+       "Grammar and vocabulary patterns",
+       "Elementary and above",
+       "Medium",
+       "Learners notice the rule from examples"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "x": "No procedure is best. You can mix them. A PPP grammar stage can sit inside a PWP reading lesson."
+    }
+   ]
+  },
+  {
+   "id": "pg-ppp",
+   "group": "Procedures",
+   "title": "PPP: Presentation, Practice, Production",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "The most widely taught sequence for new grammar and functional language. The teacher presents the language, learners practise it in a controlled way, then use it more freely."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Aim",
+      "Teacher",
+      "Learners"
+     ],
+     "rows": [
+      [
+       "Presentation",
+       "Understand meaning, form and pronunciation",
+       "Sets a context (story, picture, situation), elicits and models the language, checks meaning with concept questions, shows the form on the board",
+       "Listen, notice, repeat"
+      ],
+      [
+       "Practice",
+       "Accuracy",
+       "Gives drills, gap-fills, matching and short question and answer, corrects immediately",
+       "Practise as a class, in pairs and alone"
+      ],
+      [
+       "Production",
+       "Fluency and real use",
+       "Sets a communicative task (role play, information gap, discussion), monitors, notes errors",
+       "Use the language to complete the task"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Example: going to for plans (45 min)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Activity"
+     ],
+     "rows": [
+      [
+       "Warm-up (5)",
+       "Ask: What are you going to do this weekend? Take two or three answers."
+      ],
+      [
+       "Presentation (10)",
+       "Show a diary with pictures. Elicit: Sokha is going to visit his grandmother. Check meaning and form. Drill the sentences."
+      ],
+      [
+       "Practice (10)",
+       "Substitution drill, then a gap-fill, then pair question and answer."
+      ],
+      [
+       "Production (15)",
+       "Pairs interview each other about next weekend, then report one fact to the class."
+      ],
+      [
+       "Wrap-up (5)",
+       "Correct common errors from the board. Learners write two sentences for homework."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Works well when"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "The language item is new and clearly defined.",
+      "Learners are beginners or elementary, or the class is large.",
+      "You need a clear, controllable structure."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Limits"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "It is linear and assumes learners learn what you teach in that order.",
+      "Production can feel artificial and learners may not use the new language naturally.",
+      "It ignores what learners already know."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Present in a context, not in isolated sentences.",
+      "Check meaning before form.",
+      "Keep the presentation under ten minutes.",
+      "Move quickly from controlled practice to meaningful practice.",
+      "Give the production task a real purpose and save correction until afterwards."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pg-prs",
+   "group": "Procedures",
+   "title": "PRS: Presentation, Restricted practice, Structured production",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "PRS is often presented in teacher training as a variant of PPP. It has the same three-step shape, but it names the practice and production stages by how much freedom learners have: restricted, then structured, and finally free if time allows. This makes it easy to plan a gradual release of support."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Learner freedom",
+      "What happens"
+     ],
+     "rows": [
+      [
+       "Presentation",
+       "None",
+       "Set the context, show the meaning, form and pronunciation, and check understanding, as in PPP."
+      ],
+      [
+       "Restricted practice",
+       "Very little choice of language",
+       "Drills, substitution, matching, gap-fills and controlled dialogues. The focus is accuracy and immediate correction."
+      ],
+      [
+       "Structured production",
+       "Some choice, with support",
+       "Learners produce the language using prompts, role cards, sentence frames or a guided dialogue. The target language is guided but the content is partly theirs."
+      ],
+      [
+       "Free production (optional)",
+       "Full choice",
+       "An open task with no frame, such as a discussion or a group presentation, once learners are secure."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Example: going to for plans"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Activity"
+     ],
+     "rows": [
+      [
+       "Restricted practice",
+       "Drill: I am going to play football. Change play football to swim, read, visit my aunt."
+      ],
+      [
+       "Structured production",
+       "Dialogue frame in pairs: What are you going to do on ___? I am going to ___ because ___."
+      ],
+      [
+       "Free production",
+       "Groups plan a class picnic and present their plan to the class."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Works well when"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners need more support between a drill and free speaking or writing.",
+      "The class has mixed levels: stronger learners can drop the frame sooner.",
+      "You want to describe the middle of a PPP lesson more precisely."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Plan a ladder of freedom: drill, then prompts, then a frame, then an open task.",
+      "Prepare the prompts or frames before the lesson.",
+      "Remove the support in steps when learners succeed.",
+      "Terminology differs between courses. Follow your own course's wording in the written plan."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pg-ttt",
+   "group": "Procedures",
+   "title": "TTT: Test, Teach, Test",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners try a task first, you teach only what they could not do, and then they try a similar task again. It starts from what learners already know."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Aim",
+      "What happens"
+     ],
+     "rows": [
+      [
+       "Test 1",
+       "Find the gaps",
+       "Learners attempt a task that needs the target language, with no teaching first. You monitor and note three to five important errors or gaps."
+      ],
+      [
+       "Teach",
+       "Fill the gaps",
+       "Teach only the language learners needed: meaning, form, pronunciation, with short practice."
+      ],
+      [
+       "Test 2",
+       "Check progress",
+       "Learners do a similar task. Compare with the first attempt."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Works well when"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "It is revision, or learners already know part of the language.",
+      "Learners are intermediate or above, or the class is mixed.",
+      "You want to teach only what is needed."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Limits"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "It is less predictable and needs flexible, confident teaching.",
+      "Lower levels may struggle with the first task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choose a task that naturally needs the target language.",
+      "Write down the errors during the first task so you can teach from them.",
+      "Make the second task similar enough to compare."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pg-esa",
+   "group": "Procedures",
+   "title": "ESA: Engage, Study, Activate",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Jeremy Harmer's model has three elements that can be arranged in different orders."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Element",
+      "Aim",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Engage",
+       "Interest and emotional involvement",
+       "Picture, game, story, music, surprising question"
+      ],
+      [
+       "Study",
+       "Focus on how language or content works",
+       "Grammar, vocabulary, pronunciation, text structure"
+      ],
+      [
+       "Activate",
+       "Use language as freely as possible",
+       "Role play, discussion, writing task, project"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common patterns"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pattern",
+      "Order",
+      "Use for"
+     ],
+     "rows": [
+      [
+       "Straight arrow",
+       "Engage, Study, Activate",
+       "Simple new language, like PPP"
+      ],
+      [
+       "Boomerang",
+       "Engage, Activate, Study, Activate",
+       "Like TTT: try first, study the gaps, try again"
+      ],
+      [
+       "Patchwork",
+       "Engage, Study, Activate, Study, Activate...",
+       "Lessons with several language points"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "x": "An activate stage is not finished until learners have used the language. A study stage is not finished until they understand it."
+    }
+   ]
+  },
+  {
+   "id": "pg-pwp",
+   "group": "Procedures",
+   "title": "PWP: Pre, While, Post (reading and listening)",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "For skills lessons. Learners prepare for the text, work through it with tasks, and then respond to it."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Aim",
+      "Ideas"
+     ],
+     "rows": [
+      [
+       "Pre",
+       "Get ready: interest, prediction, purpose",
+       "Talk about the title or picture, predict, pre-teach only three to five essential words, set a purpose for reading or listening"
+      ],
+      [
+       "While",
+       "Understand the text",
+       "First read or listen for gist (the general idea), then again for detail, with tasks such as true or false, matching, ordering, completing a table"
+      ],
+      [
+       "Post",
+       "Respond and use",
+       "Discuss opinions, role play, write a summary, link to their own lives, study useful phrases from the text"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Set the task before learners read or listen, not after.",
+      "Give a different purpose each time: gist first, then detail.",
+      "Do not ask learners to understand every word.",
+      "Let learners check answers in pairs before the whole-class check.",
+      "Play audio two or three times at most, each time with a new task."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pg-tbl",
+   "group": "Procedures",
+   "title": "TBL: Task-based learning",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners do a meaningful task first, using whatever language they have. Language study comes after the task, based on what they needed."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "What happens"
+     ],
+     "rows": [
+      [
+       "Pre-task",
+       "Introduce the topic and the task: brainstorm words, show a model of the task."
+      ],
+      [
+       "Task",
+       "Pairs or groups do the task while you monitor. The focus is on getting the job done."
+      ],
+      [
+       "Planning",
+       "Learners prepare to report their results to the class."
+      ],
+      [
+       "Report",
+       "Groups present or compare their results."
+      ],
+      [
+       "Language focus",
+       "Analyse the language from the task and practise useful items, using errors you noted."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Works well when"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners are intermediate or above and fairly confident.",
+      "You want communication and fluency."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Limits"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "It needs more time and is harder to manage in very large classes.",
+      "Weaker learners need support with language during the task."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pg-other",
+   "group": "Procedures",
+   "title": "Procedures for other subjects",
+   "blocks": [
+    {
+     "t": "h",
+     "x": "5E: Engage, Explore, Explain, Elaborate, Evaluate"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "What happens"
+     ],
+     "rows": [
+      [
+       "Engage",
+       "Show a phenomenon, picture or question from daily life. Learners predict."
+      ],
+      [
+       "Explore",
+       "Learners investigate with a demonstration, experiment, source or diagram."
+      ],
+      [
+       "Explain",
+       "Learners and teacher explain the concept and the vocabulary."
+      ],
+      [
+       "Elaborate",
+       "Learners apply the idea to a new problem or situation."
+      ],
+      [
+       "Evaluate",
+       "Check understanding with questions, a short quiz or a task."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "I do, We do, You do (gradual release)"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "I do: you model the skill or solve an example while thinking aloud.",
+      "We do: you and the learners do an example together; learners answer.",
+      "You do: learners practise alone or in pairs while you monitor and help.",
+      "Use it for maths, writing and any step-by-step skill."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Guided discovery"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Show examples of the language or pattern.",
+      "Ask learners to notice what is the same.",
+      "Guide them to state the rule in their own words.",
+      "Confirm the rule, then practise it."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "Many subject lessons also use a simple five-part plan: warm-up and review, new content, guided practice, independent practice, wrap-up."
+    }
+   ]
+  },
+  {
+   "id": "pg-timing",
+   "group": "Making it work",
+   "title": "Timing and transitions",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Plan each stage in minutes and add them up. Round to five minutes.",
+      "Leave a buffer of about five minutes for instructions and surprises.",
+      "Mark which parts you must do and which you could drop if time runs short.",
+      "Plan the move from one stage to the next: how you will stop, give instructions and regroup.",
+      "Move materials and furniture before the lesson, not during it.",
+      "Always keep the wrap-up, even if you must shorten a practice stage."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "Most new teachers plan too much. If in doubt, plan one activity fewer."
+    }
+   ]
+  },
+  {
+   "id": "pg-instructions",
+   "group": "Making it work",
+   "title": "Instructions, concept checking and questions",
+   "blocks": [
+    {
+     "t": "h",
+     "x": "Giving instructions"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Get everyone's attention.",
+      "Give the instruction in short steps, one at a time.",
+      "Demonstrate with an example or one learner.",
+      "Check understanding with instruction-checking questions (ICQs).",
+      "Start the activity and monitor."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Check",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "ICQ (instruction)",
+       "Are you working alone or in pairs? How many sentences do you write? How much time do you have?"
+      ],
+      [
+       "CCQ (meaning of used to)",
+       "Did I do this in the past? (Yes) Do I do it now? (No)"
+      ],
+      [
+       "CCQ (meaning of going to)",
+       "Have I decided already? (Yes) Is it in the future? (Yes)"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Questions"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Elicit (draw out) answers from learners before you tell them.",
+      "Wait three to five seconds after a question before you choose someone.",
+      "Ask open questions as well as closed ones.",
+      "Do not ask Do you understand? Ask a question that shows it."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pg-problems",
+   "group": "Making it work",
+   "title": "Anticipating problems and plan B",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "Possible solution"
+     ],
+     "rows": [
+      [
+       "Learners finish early",
+       "Prepare an extension task, such as write more, make a new example, or help a partner"
+      ],
+      [
+       "Learners do not understand the instructions",
+       "Demonstrate, shorten the instruction, check with ICQs"
+      ],
+      [
+       "The class is too noisy",
+       "Agree a stop signal, use a settler, reduce the group size"
+      ],
+      [
+       "A stage takes longer than planned",
+       "Use your could-drop list; shorten practice, never the wrap-up"
+      ],
+      [
+       "Mixed ability",
+       "Use support and extension tasks, mixed pairs, choice of task"
+      ],
+      [
+       "No electricity or projector",
+       "Have the key content on the board or on a handout"
+      ],
+      [
+       "Learners use their first language too much",
+       "Give a clear language goal, pre-teach phrases, praise use of the target language"
+      ],
+      [
+       "Learners seem unmotivated",
+       "Change the pattern, add a stirrer, connect to their lives"
+      ],
+      [
+       "Few materials",
+       "Use the board, learner-made materials, cut-up cards"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "x": "Write the two or three most likely problems and your solutions in the plan. That is your plan B."
+    }
+   ]
+  },
+  {
+   "id": "pg-mixed",
+   "group": "Making it work",
+   "title": "Mixed levels and large classes",
+   "blocks": [
+    {
+     "t": "h",
+     "x": "Support"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Give sentence frames, word banks or a worked example.",
+      "Pair a learner who needs help with a stronger partner.",
+      "Break a task into smaller steps with a quick check after each."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Extension"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Add a challenge: more detail, a second example, or explaining to a partner.",
+      "Let fast finishers create questions for the class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Large classes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use pair and group work with roles so everyone has a job.",
+      "Use choral repetition, then pairs, then a few individual answers.",
+      "Walk around in a pattern so you reach every group.",
+      "Use the board and written tasks that can be checked in pairs."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pg-checklist",
+   "group": "Making it work",
+   "title": "Checklist before you teach",
+   "blocks": [
+    {
+     "t": "check",
+     "items": [
+      "The aim is clear and measurable.",
+      "Every stage helps reach the aim.",
+      "The procedure suits the aim and the learners.",
+      "There is variety in interaction patterns and energy (stirrers and settlers).",
+      "The timing is realistic and includes a wrap-up.",
+      "I know how I will check understanding.",
+      "Instructions are short and I have planned the demonstration.",
+      "Materials are ready and I have a low-tech alternative.",
+      "I have support and extension tasks.",
+      "I have a plan B for the most likely problems.",
+      "I know what homework I will set and how I will explain it."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pg-reflect",
+   "group": "Making it work",
+   "title": "Reflecting after the lesson",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Reflect on the same day, while you still remember. Write short, honest notes. They are the start of your next plan."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "What went well, and why?",
+      "What was difficult, and why?",
+      "Were the objectives achieved? What is the evidence?",
+      "Which learners needed more help or more challenge?",
+      "Was the timing right? What would I cut or add?",
+      "What will I change next time?",
+      "What should the next lesson cover?"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "Turn reflection into action: choose one thing to change in your next lesson and write it at the top of your next plan."
+    }
+   ]
+  }
+ ]
+}
