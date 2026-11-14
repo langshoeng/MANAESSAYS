@@ -3456,7 +3456,7 @@
 "blocks": [
 {
 "t": "p",
-"x": "Type your learners' names, then pick a random learner. Everyone is picked once before names repeat. You can also split the class into random groups."
+"x": "Type your learners' names, choose a style (spin the wheel, slot machine, boat race or quick pick), and let the tool choose a random learner. Everyone is picked once before names repeat; you can switch this off. You can also split the class into random groups, and the names are dealt out one by one. Tip: type group names instead of learners' names to pick a group."
 },
 {
 "t": "tool",
