@@ -218,7 +218,8 @@ details.st summary{font-weight:600;cursor:pointer}
 #bdoc.bfs{position:fixed;inset:0;z-index:50;max-width:none;margin:0;background:var(--bg);display:flex;flex-direction:column;padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
 .bfs #bTitle,.bfs #bNav{display:none}
 .bfs #bMsg{padding:0 8px;margin:4px 0}
-.bfs #bBar{position:relative;border-radius:0;border-width:0 0 1px;margin:0}
+#bMsg:empty{display:none}
+.bfs #bBar{position:relative;top:0;border-radius:0;border-width:0 0 1px;margin:0}
 .bfs #bPanel{margin:0;border-radius:0;max-height:40vh;overflow:auto}
 .bfs #bStage,.bfs #bStage.sv{flex:1;min-height:0;height:auto;border-radius:0}
 .bfs.nobar #bBar,.bfs.nobar #bPanel{display:none}
