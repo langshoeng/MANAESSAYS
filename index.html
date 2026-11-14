@@ -203,8 +203,7 @@ details.st summary{font-weight:600;cursor:pointer}
 
 #bdoc{max-width:1000px}
 #bBar{position:sticky;top:calc(env(safe-area-inset-top,0px) + 58px);z-index:14;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px;display:flex;flex-direction:column;gap:6px;margin-bottom:12px}
-.brow{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-#bMore{display:none}
+.brow{display:flex;flex-wrap:wrap;gap:4px;align-items:center}
 #bPg{width:4.2em;text-align:center;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 4px}
 #bStage{position:relative;overflow:auto;background:var(--bg);border-radius:8px;touch-action:pan-x pan-y pinch-zoom}
 #bStage.sv{height:calc(100vh - 190px);height:calc(100dvh - 190px);min-height:320px}
@@ -220,12 +219,21 @@ details.st summary{font-weight:600;cursor:pointer}
 .bfs #bTitle,.bfs #bNav{display:none}
 .bfs #bMsg{padding:0 8px;margin:4px 0}
 .bfs #bBar{position:static;border-radius:0;border-width:0 0 1px;margin:0}
-.bfs #bMore{display:inline-block}
-.bfs #bTools{display:none}
-.bfs.tools #bTools{display:flex}
 .bfs #bPanel{margin:0;border-radius:0;max-height:40vh;overflow:auto}
 .bfs #bStage,.bfs #bStage.sv{flex:1;min-height:0;height:auto;border-radius:0}
 .bfs.nobar #bBar,.bfs.nobar #bPanel{display:none}
+.ib{display:inline-flex;align-items:center;justify-content:center;min-width:36px;min-height:38px;height:38px;padding:0 4px}
+.ic{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;pointer-events:none;flex:none}
+#bMark[aria-pressed=true] .ic{fill:currentColor}
+.bsp{flex:1}
+.bwrap{position:relative;display:inline-block}
+.pop{position:absolute;top:100%;right:0;margin-top:6px;z-index:20;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+.pop[hidden]{display:none}
+.zp{display:grid;grid-template-columns:auto 1fr auto;gap:6px;align-items:center;text-align:center;width:max-content}
+.zp #bFit{grid-column:1/-1}
+.mn{display:grid;grid-template-columns:repeat(4,64px);gap:6px;width:max-content;max-width:calc(100vw - 24px)}
+.mi{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11px;padding:8px 2px;height:auto;min-height:0}
+.mi .ic{width:22px;height:22px}
 </style>
 </head>
 <body>
@@ -305,11 +313,16 @@ details.st summary{font-weight:600;cursor:pointer}
       <p id="bMsg" class="lbl"></p>
       <div id="bBar">
         <div class="brow" id="bR1">
-          <button id="bPrev" aria-label="Previous page">&larr;</button><input id="bPg" type="number" min="1" inputmode="numeric" aria-label="Page number"><span class="lbl" id="bTot"></span><button id="bNext" aria-label="Next page">&rarr;</button>
-          <button id="bZo" aria-label="Zoom out">&minus;</button><button id="bFit">Fit width</button><button id="bZi" aria-label="Zoom in">+</button>
-          <button id="bMark" aria-label="Bookmark this page" aria-pressed="false">&#9734;</button><button id="bFull" class="primary">Full screen</button><button id="bMore" aria-expanded="false">More</button>
+          <button id="bPrev" class="ib" aria-label="Previous page" title="Previous page"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg></button><input id="bPg" type="number" min="1" inputmode="numeric" aria-label="Page number"><span class="lbl" id="bTot"></span><button id="bNext" class="ib" aria-label="Next page" title="Next page"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+          <span class="bsp"></span>
+          <button id="bMark" class="ib" aria-label="Bookmark this page" title="Bookmark this page" aria-pressed="false"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l3 6.2 6.8.9-5 4.8 1.3 6.7L12 17.8l-6.1 3.3 1.3-6.7-5-4.8 6.8-.9z"/></svg></button>
+          <div class="bwrap"><button id="bZoom" class="ib" aria-label="Zoom" title="Zoom" aria-expanded="false"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M11 8v6M8 11h6"/></svg></button>
+            <div id="bZoomPop" class="pop zp" hidden><button id="bZo" class="ib" aria-label="Zoom out" title="Zoom out"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg></button><span id="bZPct" class="lbl">100%</span><button id="bZi" class="ib" aria-label="Zoom in" title="Zoom in"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button><button id="bFit">Fit width</button></div></div>
+          <button id="bFull" class="ib" aria-label="Full screen" title="Full screen"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M3 16v3a2 2 0 0 0 2 2h3M16 21h3a2 2 0 0 0 2-2v-3"/></svg></button>
+          <button id="bListenQ" class="ib primary" aria-label="Stop reading aloud" title="Stop reading aloud" hidden><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4z"/><path d="M22 9l-6 6M16 9l6 6"/></svg></button>
+          <div class="bwrap"><button id="bMore" class="ib" aria-label="More" title="More" aria-expanded="false"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h.01M12 12h.01M19 12h.01" stroke-width="3.4"/></svg></button>
+            <div id="bMenu" class="pop mn" hidden><button id="bToc" class="mi" title="Contents"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span>Contents</span></button><button id="bFindBtn" class="mi" title="Find"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><span>Find</span></button><button id="bMarks" class="mi" title="Marks"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg><span>Marks</span></button><button id="bView" class="mi" title="Pages"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg><span id="bViewL">Pages</span></button><button id="bNight" class="mi" title="Night"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><span>Night</span></button><button id="bListen" class="mi" title="Listen"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg><span id="bListenL">Listen</span></button><button id="bVoice" class="mi" title="Voice"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg><span>Voice</span></button></div></div>
         </div>
-        <div class="brow" id="bTools"><button id="bMarks">Marks</button><button id="bToc">Contents</button><button id="bFindBtn">Find</button><button id="bView">View: Pages</button><button id="bNight" aria-pressed="false">Night</button><button id="bListen">Listen</button><button id="bVoice">Voice</button></div>
       </div>
       <div id="bPanel" class="stg" hidden></div>
       <div id="bStage"><canvas id="bCv"></canvas><div id="bScroll" hidden></div></div>
@@ -1994,9 +2007,9 @@ function bUi(){
   if(!curB)return;
   const m=(prefs.bm||{})[curB.file]||[],on=m.includes(bPage);
   $('#bPg').value=bPage;$('#bTot').textContent=pdf?'/ '+pdf.numPages:'';
-  $('#bMark').textContent=on?'\u2605':'\u2606';$('#bMark').setAttribute('aria-pressed',String(on));
+  $('#bMark').setAttribute('aria-pressed',String(on));
   $('#bStage').classList.toggle('night',!!prefs.bnight);$('#bNight').setAttribute('aria-pressed',String(!!prefs.bnight));$('#bNight').classList.toggle('primary',!!prefs.bnight);
-  $('#bView').textContent=bSv()?'View: Scroll':'View: Pages';$('#bFit').textContent=bSv()?'Fit':(prefs.bfit==='page'?'Fit page':'Fit width');
+  $('#bViewL').textContent=bSv()?'Scroll':'Pages';$('#bZPct').textContent=Math.round(bZ*100)+'%';$('#bFit').textContent=bSv()?'Fit':(prefs.bfit==='page'?'Fit page':'Fit width');
 }
 function bGo(n,fromReader){
   if(!pdf)return;n=Math.min(Math.max(1,Math.round(n)||1),pdf.numPages);
@@ -2007,7 +2020,7 @@ function bGo(n,fromReader){
 }
 function bFull(on){
   const d=$('#bdoc'),r=document.documentElement;if(on===bIsFs())return;
-  d.classList.toggle('bfs',on);d.classList.remove('nobar','tools');$('#bMore').setAttribute('aria-expanded','false');document.body.style.overflow=on?'hidden':'';
+  d.classList.toggle('bfs',on);d.classList.remove('nobar','tools');bClosePops();document.body.style.overflow=on?'hidden':'';
   if(on){
     bApi=false;try{const p=(r.requestFullscreen||r.webkitRequestFullscreen||(()=>0)).call(r);if(p&&p.then)p.then(()=>{bApi=true}).catch(()=>{})}catch(e){}
     try{navigator.wakeLock&&navigator.wakeLock.request('screen').then(l=>{bWake=l}).catch(()=>{})}catch(e){}
@@ -2015,7 +2028,7 @@ function bFull(on){
     try{if(document.fullscreenElement&&document.exitFullscreen)document.exitFullscreen()}catch(e){}
     bApi=false;if(bWake){bWake.release().catch(()=>{});bWake=null}
   }
-  $('#bFull').textContent=on?'Exit':'Full screen';setTimeout(bRender,60);
+  bFullIc(on);setTimeout(bRender,60);
 }
 document.addEventListener('fullscreenchange',()=>{if(!document.fullscreenElement&&bIsFs()&&bApi)bFull(false)});
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&bIsFs()&&navigator.wakeLock)navigator.wakeLock.request('screen').then(l=>{bWake=l}).catch(()=>{})});
@@ -2079,7 +2092,7 @@ async function bToc(){
 }
 /* Read aloud: current page sentence by sentence, then on to the next page (text PDFs only) */
 let bRead=false,bSpTok=0;
-function bListenUi(){$('#bListen').textContent=bRead?'Stop':'Listen';$('#bListen').classList.toggle('primary',bRead)}
+function bListenUi(){$('#bListenL').textContent=bRead?'Stop':'Listen';$('#bListen').classList.toggle('primary',bRead);$('#bListenQ').hidden=!bRead}
 async function bPageText(n){
   const tc=await (await pdf.getPage(n)).getTextContent();
   const s=tc.items.map(i=>i.str+(i.hasEOL?'\n':' ')).join('').replace(/-\n(?=[a-z])/g,'').replace(/\s*\n\s*/g,' ').replace(/\s+/g,' ').trim();
@@ -2110,15 +2123,31 @@ async function bReadStart(){
   if(t===bSpTok){bRead=false;bListenUi()}
 }
 function bStopRead(){bSpTok++;bRead=false;if(synth)synth.cancel();bListenUi()}
+/* toolbar pop-ups (zoom, more): close on outside tap, Esc, or after a few idle seconds */
+let bPopT=0;
+const bIcFull='M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M3 16v3a2 2 0 0 0 2 2h3M16 21h3a2 2 0 0 0 2-2v-3',bIcExit='M8 3v3a2 2 0 0 1-2 2H3M21 8h-3a2 2 0 0 1-2-2V3M3 16h3a2 2 0 0 1 2 2v3M16 21v-3a2 2 0 0 1 2-2h3';
+function bPopOpen(){return !$('#bZoomPop').hidden||!$('#bMenu').hidden}
+function bClosePops(){clearTimeout(bPopT);$('#bZoomPop').hidden=true;$('#bMenu').hidden=true;$('#bZoom').setAttribute('aria-expanded','false');$('#bMore').setAttribute('aria-expanded','false')}
+function bPopTouch(){clearTimeout(bPopT);bPopT=setTimeout(bClosePops,5000)}
+function bTogglePop(w){
+  const pop=w==='zoom'?$('#bZoomPop'):$('#bMenu'),was=!pop.hidden;bClosePops();if(was)return;
+  pop.hidden=false;(w==='zoom'?$('#bZoom'):$('#bMore')).setAttribute('aria-expanded','true');bPopTouch();
+}
+function bFullIc(on){const t=on?'Exit full screen':'Full screen',f=$('#bFull');f.querySelector('path').setAttribute('d',on?bIcExit:bIcFull);f.title=t;f.setAttribute('aria-label',t);f.classList.toggle('primary',on)}
 $('#bPrev').onclick=$('#bPrev2').onclick=()=>bGo(bPage-1);
 $('#bNext').onclick=$('#bNext2').onclick=()=>bGo(bPage+1);
 $('#bPg').onchange=e=>bGo(+e.target.value);
-$('#bZi').onclick=()=>{bZ=Math.min(4,bZ+.25);bRender()};
-$('#bZo').onclick=()=>{bZ=Math.max(.5,bZ-.25);bRender()};
-$('#bFit').onclick=()=>{if(bZ!==1)bZ=1;else if(!bSv())prefs.bfit=prefs.bfit==='page'?'width':'page';save();bUi();bRender()};
+$('#bZi').onclick=()=>{bZ=Math.min(4,bZ+.25);bUi();bRender();bPopTouch()};
+$('#bZo').onclick=()=>{bZ=Math.max(.5,bZ-.25);bUi();bRender();bPopTouch()};
+$('#bFit').onclick=()=>{if(bZ!==1)bZ=1;else if(!bSv())prefs.bfit=prefs.bfit==='page'?'width':'page';save();bUi();bRender();bPopTouch()};
 $('#bView').onclick=()=>{prefs.bview=bSv()?'page':'scroll';save();bUi();bRender()};
 $('#bFull').onclick=()=>bFull(!bIsFs());
-$('#bMore').onclick=()=>{const o=$('#bdoc').classList.toggle('tools');$('#bMore').setAttribute('aria-expanded',String(o))};
+$('#bZoom').onclick=()=>bTogglePop('zoom');
+$('#bMore').onclick=()=>bTogglePop('menu');
+$('#bListenQ').onclick=()=>bStopRead();
+$('#bMenu').addEventListener('click',e=>{if(e.target.closest('button'))bClosePops()});
+document.querySelectorAll('.pop').forEach(x=>x.addEventListener('pointerdown',()=>bPopTouch()));
+document.addEventListener('click',e=>{if(!e.target.closest('.bwrap'))bClosePops()});
 $('#bMark').onclick=()=>{
   if(!curB||!pdf)return;prefs.bm=prefs.bm||{};const m=new Set(prefs.bm[curB.file]||[]);
   m.has(bPage)?m.delete(bPage):m.add(bPage);prefs.bm[curB.file]=[...m].sort((a,b)=>a-b);save();bUi();if(bMode==='marks'){bMode='';bPanel('marks')}
@@ -2142,6 +2171,7 @@ $('#bStage').addEventListener('touchend',e=>{
   if(Math.abs(dx)>60&&Math.abs(dy)<Math.abs(dx)*.5)bGo(bPage+(dx<0?1:-1));
 },{passive:true});
 document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'&&bPopOpen()){bClosePops();return}
   if(e.key==='Escape'&&bIsFs()){bFull(false);return}
   if(tab!=='library'||!pdf||/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;
   if(e.key==='ArrowRight')bGo(bPage+1);else if(e.key==='ArrowLeft')bGo(bPage-1);
