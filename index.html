@@ -236,6 +236,8 @@ details.st summary{font-weight:600;cursor:pointer}
 .mi{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11px;padding:8px 2px;height:auto;min-height:0}
 .mi .ic{width:22px;height:22px}
 @media(max-width:480px){.ib{min-width:32px;padding:0 2px}#bPg{width:3em;padding:6px 2px}.brow,.bgrp{gap:2px}}
+.bcat{display:flex;justify-content:space-between;align-items:center;width:100%;border:0;background:none;border-radius:6px;min-height:0;padding:6px 10px;margin:10px 0 2px;text-align:left}
+.bcat span:last-child{font-weight:400}
 </style>
 </head>
 <body>
@@ -1938,10 +1940,22 @@ const bP=fetch('books.json').then(r=>r.json()).then(d=>{books=d.books||[]}).catc
 function renderBList(){
   const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';
   const rows=books.filter(b=>!f||(b.title+' '+(b.author||'')+' '+(b.category||'')).toLowerCase().includes(f));
-  rows.forEach(b=>{
+  const cats=[];
+  rows.forEach(b=>{const n=(b.category||'').trim()||'Other';let g=cats.find(x=>x.n===n);if(!g)cats.push(g={n,r:[]});g.r.push(b)});
+  const oi=cats.findIndex(x=>x.n==='Other');if(oi>-1)cats.push(cats.splice(oi,1)[0]);
+  const flat=cats.length===1&&cats[0].n==='Other',col=prefs.bcol||{};
+  const item=b=>{
     const x=el('button','item');x.setAttribute('aria-current',String(curB===b));x.append(el('b','',b.title));
-    const p=(prefs.bp||{})[b.file],t=[b.author,b.category,p?'page '+p:''].filter(Boolean).join(' \u00b7 ');
-    if(t)x.append(el('small','',t));x.onclick=()=>openB(b);box.append(x)});
+    const p=(prefs.bp||{})[b.file],t=[b.author,p?'page '+p:''].filter(Boolean).join(' \u00b7 ');
+    if(t)x.append(el('small','',t));x.onclick=()=>openB(b);return x};
+  cats.forEach(g=>{
+    const open=flat||!!f||!col[g.n];
+    if(!flat){
+      const h=el('button','grp-h bcat');h.setAttribute('aria-expanded',String(open));
+      h.append(el('span','',(open?'\u25be ':'\u25b8 ')+g.n),el('span','',String(g.r.length)));
+      h.onclick=()=>{prefs.bcol=prefs.bcol||{};prefs.bcol[g.n]=!prefs.bcol[g.n];save();renderBList()};box.append(h)}
+    if(open)g.r.forEach(b=>box.append(item(b)));
+  });
   if(!rows.length)box.textContent=books.length?'No books found.':bErr?'Could not load books.json. Make sure it is uploaded next to index.html.':'No books yet. Add them to books.json.';
 }
 async function openB(b){
