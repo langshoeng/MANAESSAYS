@@ -289,6 +289,9 @@ details.st summary{font-weight:600;cursor:pointer}
 .wpc .gemo{font-size:52px}
 .wpc .gimg{max-height:32mm}
 .wpc .gword{font:600 20pt Georgia,serif}
+#bAudio input[type=checkbox]{width:auto;min-height:0}
+#auList h3{margin:18px 0 6px}
+.aut{min-width:62px;padding:6px 10px}
 </style>
 </head>
 <body>
@@ -368,6 +371,21 @@ details.st summary{font-weight:600;cursor:pointer}
       <div id="tBody"></div>
       <div id="cBody" hidden></div>
       <div class="grp" id="tNav"><button id="tPrev">&larr; Previous</button><button id="tNext">Next &rarr;</button></div>
+    </article>
+    <article id="bAudio" hidden>
+      <h1 id="auTitle"></h1>
+      <p id="auMsg" class="lbl"></p>
+      <div class="stg">
+        <div id="auNow" style="font:600 1.2rem Literata,Georgia,serif;margin-bottom:8px"></div>
+        <audio id="bAu" controls preload="none" style="width:100%"></audio>
+        <div class="grp" style="margin-top:10px">
+          <button id="auPrev">&larr; Previous</button><button id="auNext">Next &rarr;</button>
+          <select id="auRate" aria-label="Playback speed"><option value="0.5">0.5x</option><option value="0.75">0.75x</option><option value="1" selected>1x</option><option value="1.25">1.25x</option><option value="1.5">1.5x</option></select>
+          <button id="auDl">Download track</button>
+        </div>
+        <div class="grp" style="margin-top:6px"><label class="lbl"><input type="checkbox" id="auLoop"> Repeat this track</label><label class="lbl"><input type="checkbox" id="auAuto"> Play the next track automatically</label></div>
+      </div>
+      <div id="auList"></div>
     </article>
     <article id="bdoc" hidden>
       <h1 id="bTitle"></h1>
@@ -2220,10 +2238,10 @@ function setTab(t){
   $('#tabE').classList.toggle('primary',t==='essays');$('#tabG').classList.toggle('primary',t==='grammar');$('#tabT').classList.toggle('primary',t==='terms');$('#tabX').classList.toggle('primary',t==='exam');$('#tabP').classList.toggle('primary',t==='games');$('#tabL').classList.toggle('primary',t==='planner');$('#tabB').classList.toggle('primary',t==='library');
   $('#q').placeholder={essays:sub==='guide'?'Search the guide':'Search titles',grammar:'Search grammar',terms:'Search terms',exam:'Search exam sets',games:'Search games',planner:lsub==='guide'?'Search the planning guide':'Search lesson plans',library:'Search books'}[t];$('#starRow').hidden=t!=='grammar';
   $('#tbTitle').textContent={essays:'My Essays',grammar:'Grammar Handbook',terms:'Terminology',exam:'Exam Bank',games:'Games & Activities',planner:'Lesson Planner',library:'Books'}[t];
-  $('#doc').hidden=true;$('#gdoc').hidden=true;$('#tdoc').hidden=true;$('#wdoc').hidden=true;$('#pdoc').hidden=true;$('#lpdoc').hidden=true;$('#bdoc').hidden=true;$('#pgdoc').hidden=true;$('#empty').hidden=false;$('#player').hidden=true;
+  $('#doc').hidden=true;$('#gdoc').hidden=true;$('#tdoc').hidden=true;$('#wdoc').hidden=true;$('#pdoc').hidden=true;$('#lpdoc').hidden=true;$('#bdoc').hidden=true;$('#bAudio').hidden=true;$('#pgdoc').hidden=true;$('#empty').hidden=false;$('#player').hidden=true;
   if(t==='planner'){lpBack=null;showBack();syncLsub();if(lsub==='guide'){if(curPG){$('#empty').hidden=true;$('#pgdoc').hidden=false}else if(psecs.length)openPG(psecs[0])}else{$('#empty').hidden=true;$('#lpdoc').hidden=false;if(curL&&getPlan(curL))openL(curL);else openLHome()}}
-  if(t!=='library'&&bRead)bStopRead();
-  if(t==='library'&&curB){$('#empty').hidden=true;$('#bdoc').hidden=false;bRender()}
+  if(t!=='library'){if(bRead)bStopRead();bAu.pause()}
+  if(t==='library'&&curB){$('#empty').hidden=true;if(curB.tracks)$('#bAudio').hidden=false;else{$('#bdoc').hidden=false;bRender()}}
   if(t==='games'&&curP){$('#empty').hidden=true;$('#pdoc').hidden=false}
   if(t==='essays'&&sub==='guide'&&curW){$('#empty').hidden=true;$('#wdoc').hidden=false}
   if(t==='terms'&&curT){$('#empty').hidden=true;$('#tdoc').hidden=false}
@@ -2254,6 +2272,7 @@ const bCovIO=window.IntersectionObserver?new IntersectionObserver(es=>es.forEach
 function bCovSet(d,src){d.textContent='';d.style.background='#fff';const i=new Image();i.alt='';i.src=src;d.append(i)}
 function bCover(b){
   const d=el('span','cv'),src=b.cover||bCov[b.file];d._b=b;
+  if(b.tracks){d.textContent='\uD83C\uDFA7';d.style.background='#455a64';d.style.fontSize='1.4rem';return d}
   if(src)bCovSet(d,src);
   else{
     let h=0;for(const c of b.title||'')h=(h*31+c.charCodeAt(0))%360;
@@ -2289,7 +2308,7 @@ function renderBList(){
   const item=b=>{
     const x=el('button','item bk'),tx=el('span','tx');x.setAttribute('aria-current',String(curB===b));
     tx.append(el('b','',b.title));
-    const p=(prefs.bp||{})[b.file],t=[b.author,p?'page '+p:''].filter(Boolean).join(' \u00b7 ');
+    const p=(prefs.bp||{})[b.file],t=[b.author,b.tracks?'Audio':'',p?'page '+p:''].filter(Boolean).join(' \u00b7 ');
     if(t)tx.append(el('small','',t));
     x.append(bCover(b),tx);x.onclick=()=>openB(b);return x};
   cats.forEach(g=>{
@@ -2303,8 +2322,9 @@ function renderBList(){
   if(!rows.length)box.textContent=books.length?'No books found.':bErr?'Could not load books.json. Make sure it is uploaded next to index.html.':'No books yet. Add them to books.json.';
 }
 async function openB(b){
-  const t=++bTok;stopSpeech();aud.pause();bSpTok++;bRead=false;bListenUi();curB=b;drawer(false);prefs.lastB=b.file;save();renderList();
-  $('#empty').hidden=true;$('#bdoc').hidden=false;$('#bTitle').textContent=b.title;$('#bPanel').hidden=true;bMode='';
+  const t=++bTok;stopSpeech();aud.pause();bSpTok++;bRead=false;bListenUi();curB=b;drawer(false);prefs.lastB=b.file||b.tracks;save();renderList();
+  if(b.tracks){bAu.pause();openAudio(b);return}
+  bAu.pause();$('#bAudio').hidden=true;$('#empty').hidden=true;$('#bdoc').hidden=false;$('#bTitle').textContent=b.title;$('#bPanel').hidden=true;bMode='';
   bBid++;if(bIO){bIO.disconnect();bIO=null}bVis.clear();$('#bScroll').textContent='';
   if(!window.pdfjsLib){$('#bMsg').textContent='The PDF reader could not load. Check your internet connection.';return}
   $('#bMsg').textContent='Loading book...';
@@ -2496,6 +2516,52 @@ function bTogglePop(w){
   pop.style.top=(r.bottom-br.top+6)+'px';pop.style.left=Math.max(0,Math.min(r.left-br.left+r.width/2-pop.offsetWidth/2,br.width-pop.offsetWidth))+'px';bPopTouch();
 }
 function bFullIc(on){const t=on?'Exit full screen':'Full screen',f=$('#bFull');f.querySelector('path').setAttribute('d',on?bIcExit:bIcFull);f.title=t;f.setAttribute('aria-label',t);f.classList.toggle('primary',on)}
+/* Audio collections: a book entry with "tracks" opens a listening player. The tracks file lists the mp3 files. */
+const bAu=$('#bAu');let auT=[],auI=-1,auSaved=0;
+const auKey=()=>curB&&(curB.tracks||curB.file),auLabel=t=>t.label||('Track '+(t.track||''));
+async function openAudio(b){
+  const t=++bTok;if(pdf){pdf.destroy();pdf=null}bBid++;if(bIO){bIO.disconnect();bIO=null}bVis.clear();bClosePops();
+  $('#bdoc').hidden=true;$('#empty').hidden=true;$('#bAudio').hidden=false;$('#auTitle').textContent=b.title;$('#auList').textContent='';$('#auNow').textContent='';
+  $('#auAuto').checked=!!prefs.auauto;$('#auRate').value=String(prefs.aurate||1);$('#auMsg').textContent='Loading tracks...';
+  try{
+    if(!b._tr){
+      const d=await fetch(encodeURI(b.tracks)).then(r=>{if(!r.ok)throw new Error('missing');return r.json()});
+      b._tr=(d.tracks||[]).map(x=>Object.assign({},x,{src:x.src||((d.base||'')+x.file)}));
+    }
+    if(t!==bTok)return;
+    auT=b._tr;if(!auT.length)throw new Error('empty');$('#auMsg').textContent='';
+    const sv=((prefs.au||{})[auKey()])||{};auRenderList();auSet(Math.min(Math.max(0,sv.i||0),auT.length-1),false,sv.t||0);
+  }catch(e){if(t===bTok)$('#auMsg').textContent='Could not load the track list ('+b.tracks+'). Check that the file is uploaded.'}
+}
+function auMark(){document.querySelectorAll('#auList .aut').forEach(x=>x.classList.toggle('primary',+x.dataset.i===auI))}
+function auRenderList(){
+  const box=$('#auList');box.textContent='';let u=null,l=null,row=null;
+  auT.forEach((t,i)=>{
+    if(t.unit!==u){u=t.unit;l=null;row=null;if(u!=null)box.append(el('h3','','Unit '+u))}
+    if(t.lesson!==l||!row){l=t.lesson;row=el('div','grp');if(l!=null)row.append(el('span','lbl','Lesson '+l));box.append(row)}
+    const b=el('button','aut',auLabel(t));b.dataset.i=i;b.onclick=()=>auSet(i,true,0);row.append(b);
+  });
+}
+function auSet(i,play,at){
+  auI=i;const t=auT[i];
+  bAu.src=encodeURI(t.src);bAu.defaultPlaybackRate=bAu.playbackRate=parseFloat($('#auRate').value)||1;bAu.loop=$('#auLoop').checked;
+  if(at)bAu.addEventListener('loadedmetadata',()=>{try{bAu.currentTime=at}catch(e){}},{once:true});
+  $('#auNow').textContent=(t.unit?'Unit '+t.unit+' \u00b7 Lesson '+t.lesson+' \u00b7 ':'')+auLabel(t);$('#auMsg').textContent='';
+  prefs.au=prefs.au||{};prefs.au[auKey()]={i,t:at||0};save();auMark();
+  if(play){const pr=bAu.play();if(pr&&pr.catch)pr.catch(()=>{})}
+  if('mediaSession' in navigator&&window.MediaMetadata){try{navigator.mediaSession.metadata=new MediaMetadata({title:auLabel(t),artist:curB.title,album:curB.category||'Listening'})}catch(e){}}
+}
+$('#auPrev').onclick=()=>{if(auI>0)auSet(auI-1,!bAu.paused,0)};
+$('#auNext').onclick=()=>{if(auI>=0&&auI<auT.length-1)auSet(auI+1,!bAu.paused,0)};
+$('#auRate').onchange=()=>{const r=parseFloat($('#auRate').value)||1;bAu.defaultPlaybackRate=bAu.playbackRate=r;prefs.aurate=r;save()};
+$('#auLoop').onchange=()=>{bAu.loop=$('#auLoop').checked};
+$('#auAuto').onchange=()=>{prefs.auauto=$('#auAuto').checked;save()};
+$('#auDl').onclick=()=>{if(auI<0)return;const a=document.createElement('a');a.href=encodeURI(auT[auI].src);a.download=decodeURIComponent(auT[auI].src.split('/').pop());document.body.append(a);a.click();a.remove()};
+bAu.onended=()=>{if($('#auAuto').checked&&auI<auT.length-1)auSet(auI+1,true,0)};
+bAu.ontimeupdate=()=>{const n=Date.now();if(n-auSaved>4000&&auI>=0&&curB&&curB.tracks){auSaved=n;prefs.au=prefs.au||{};prefs.au[auKey()]={i:auI,t:Math.floor(bAu.currentTime)};save()}};
+bAu.onerror=()=>{if(auI>=0&&bAu.getAttribute('src'))$('#auMsg').textContent='Could not play this track. Check that the file is uploaded to the folder.'};
+bAu.onplaying=()=>{$('#auMsg').textContent=''};
+if('mediaSession' in navigator){try{navigator.mediaSession.setActionHandler('previoustrack',()=>$('#auPrev').click());navigator.mediaSession.setActionHandler('nexttrack',()=>$('#auNext').click())}catch(e){}}
 $('#bPrev').onclick=$('#bPrev2').onclick=()=>bGo(bPage-1);
 $('#bNext').onclick=$('#bNext2').onclick=()=>bGo(bPage+1);
 $('#bPg').onchange=e=>bGo(+e.target.value);
@@ -2558,7 +2624,7 @@ function renderPGList(){
 }
 function openPG(x){
   stopSpeech();aud.pause();curPG=x;lsub='guide';prefs.lsub='guide';prefs.lastPG=x.id;save();drawer(false);syncLsub();
-  ['doc','gdoc','tdoc','wdoc','pdoc','lpdoc','bdoc','empty','player'].forEach(i=>{$('#'+i).hidden=true});$('#pgdoc').hidden=false;
+  ['doc','gdoc','tdoc','wdoc','pdoc','lpdoc','bdoc','bAudio','empty','player'].forEach(i=>{$('#'+i).hidden=true});$('#pgdoc').hidden=false;
   $('#pgTitle').textContent=x.title;const box=$('#pgBody');box.textContent='';x.blocks.forEach(b=>box.append(renderBlock(b)));
   const i=psecs.indexOf(x);$('#pgPrev').disabled=i<=0;$('#pgNext').disabled=i>=psecs.length-1;
   renderList();window.scrollTo(0,0);
@@ -2597,7 +2663,7 @@ Promise.all([eP,gP,pP,tP,wP,xP,gmP,bP,pgP]).then(()=>{
   const lt=tsecs.find(x=>x.id===prefs.lastT);if(lt)curT=lt;
   const lw=wsecs.find(x=>x.id===prefs.lastW);if(lw)curW=lw;sub=prefs.sub==='guide'?'guide':'mine';
   const lx=xsets.find(x=>x.id===prefs.lastX);if(lx)xcur=lx;gcur=curG;
-  const lp=gmsecs.find(x=>x.id===prefs.lastP);if(lp)curP=lp;const lb=books.find(x=>x.file===prefs.lastB);if(lb)curB=lb;const lpg=psecs.find(x=>x.id===prefs.lastPG);if(lpg)curPG=lpg;lsub=prefs.lsub==='guide'?'guide':'plans';
+  const lp=gmsecs.find(x=>x.id===prefs.lastP);if(lp)curP=lp;const lb=books.find(x=>(x.file||x.tracks)===prefs.lastB);if(lb)curB=lb;const lpg=psecs.find(x=>x.id===prefs.lastPG);if(lpg)curPG=lpg;lsub=prefs.lsub==='guide'?'guide':'plans';
   setTab(['grammar','terms','exam','games','planner','library'].includes(prefs.tab)?prefs.tab:'essays');
   if(tab==='essays'&&sub==='mine'&&le)open(le);else if(tab==='essays'&&sub==='guide'&&lw)openW(lw);else if(tab==='grammar'&&lg)openG(lg);else if(tab==='terms'&&lt)openT(lt);else if(tab==='exam'&&lx)openG(lx);else if(tab==='games'&&lp)openP(lp);else if(tab==='library'&&lb)openB(lb);else if(tab==='planner'&&lsub==='guide'&&lpg)openPG(lpg);
 });
