@@ -238,6 +238,10 @@ details.st summary{font-weight:600;cursor:pointer}
 @media(max-width:480px){.ib{min-width:32px;padding:0 2px}#bPg{width:3em;padding:6px 2px}.brow,.bgrp{gap:2px}}
 .bcat{display:flex;justify-content:space-between;align-items:center;width:100%;border:0;background:none;border-radius:6px;min-height:0;padding:6px 10px;margin:10px 0 2px;text-align:left}
 .bcat span:last-child{font-weight:400}
+.item.bk{display:flex;align-items:center;gap:10px;text-align:left}
+.tx{min-width:0;flex:1}
+.cv{flex:none;width:38px;height:52px;border-radius:4px;overflow:hidden;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.8rem;font-weight:700;letter-spacing:.02em;box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.cv img{width:100%;height:100%;object-fit:cover;display:block}
 </style>
 </head>
 <body>
@@ -1937,6 +1941,40 @@ let books=[],bErr=false,curB=null,pdf=null,bPage=1,bZ=1,bBusy=false,bPend=false,
 const bSv=()=>prefs.bview==='scroll',bIsFs=()=>$('#bdoc').classList.contains('bfs');
 if(window.pdfjsLib)pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 const bP=fetch('books.json').then(r=>r.json()).then(d=>{books=d.books||[]}).catch(()=>{bErr=true});
+/* Covers: use "cover" from books.json if given, else make a small picture from page 1 (once per device, only for books on screen) */
+let bCov={},bCovQ=[],bCovBusy=false;const bCovSeen=new Set();
+try{bCov=JSON.parse(localStorage.getItem('mana_bookcovers')||'{}')||{}}catch(e){}
+const bCovIO=window.IntersectionObserver?new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting)return;bCovIO.unobserve(e.target);const b=e.target._b;
+  if(b&&!bCovSeen.has(b.file)){bCovSeen.add(b.file);bCovQ.push(b);bCovRun()}}),{rootMargin:'150px'}):null;
+function bCovSet(d,src){d.textContent='';d.style.background='#fff';const i=new Image();i.alt='';i.src=src;d.append(i)}
+function bCover(b){
+  const d=el('span','cv'),src=b.cover||bCov[b.file];d._b=b;
+  if(src)bCovSet(d,src);
+  else{
+    let h=0;for(const c of b.title||'')h=(h*31+c.charCodeAt(0))%360;
+    d.textContent=(b.title||'?').split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join('').toUpperCase();
+    d.style.background='hsl('+h+',35%,38%)';if(bCovIO)bCovIO.observe(d);
+  }
+  return d;
+}
+async function bCovRun(){
+  if(bCovBusy)return;bCovBusy=true;
+  while(bCovQ.length){await bCovMake(bCovQ.shift());await new Promise(r=>setTimeout(r,250))}
+  bCovBusy=false;
+}
+async function bCovMake(b){
+  if(!window.pdfjsLib||bCov[b.file])return;
+  try{
+    const doc=await pdfjsLib.getDocument({url:encodeURI(b.file),disableAutoFetch:true,disableStream:true}).promise;
+    const pg=await doc.getPage(1),v=pg.getViewport({scale:1}),vp=pg.getViewport({scale:160/v.width}),cv=document.createElement('canvas'),cx=cv.getContext('2d');
+    cv.width=Math.round(vp.width);cv.height=Math.round(vp.height);cx.fillStyle='#fff';cx.fillRect(0,0,cv.width,cv.height);
+    await pg.render({canvasContext:cx,viewport:vp}).promise;doc.destroy();
+    const url=cv.toDataURL('image/jpeg',.7);bCov[b.file]=url;
+    try{localStorage.setItem('mana_bookcovers',JSON.stringify(bCov))}catch(e){}
+    document.querySelectorAll('.cv').forEach(d=>{if(d._b&&d._b.file===b.file)bCovSet(d,url)});
+  }catch(e){}
+}
 function renderBList(){
   const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';
   const rows=books.filter(b=>!f||(b.title+' '+(b.author||'')+' '+(b.category||'')).toLowerCase().includes(f));
@@ -1945,9 +1983,11 @@ function renderBList(){
   const oi=cats.findIndex(x=>x.n==='Other');if(oi>-1)cats.push(cats.splice(oi,1)[0]);
   const flat=cats.length===1&&cats[0].n==='Other',col=prefs.bcol||{};
   const item=b=>{
-    const x=el('button','item');x.setAttribute('aria-current',String(curB===b));x.append(el('b','',b.title));
+    const x=el('button','item bk'),tx=el('span','tx');x.setAttribute('aria-current',String(curB===b));
+    tx.append(el('b','',b.title));
     const p=(prefs.bp||{})[b.file],t=[b.author,p?'page '+p:''].filter(Boolean).join(' \u00b7 ');
-    if(t)x.append(el('small','',t));x.onclick=()=>openB(b);return x};
+    if(t)tx.append(el('small','',t));
+    x.append(bCover(b),tx);x.onclick=()=>openB(b);return x};
   cats.forEach(g=>{
     const open=flat||!!f||!col[g.n];
     if(!flat){
