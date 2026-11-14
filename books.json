@@ -1,0 +1,9 @@
+{
+  "books": [
+    { "title": "THE FIRST DAYS OF SCHOOL", "author": "HARRY K. WONG & ROSEMARY T. WONG", "category": "Educational Psychology", "file": "books/The First Days of School.pdf" },
+    { "title": "វិធីសាស្ដ្របង្រៀនសម្រាប់មធ្យមសិក្សា", "author": "នាយកដ្ឋានអភិវឌ្ឍកម្មវិធីសិក្សា", "category": "Educational Psychology", "file": "books/វិធីសាស្ដ្របង្រៀនសម្រាប់មធ្យមសិក្សា.pdf" },
+    { "title": "ថ្នាក់ទី ៧_កិច្ចតែងការបង្តៀនភាសាអង់គ្លេស", "category": "Lesson Plans", "file": "books/ថ្នាក់ទី ៧_កិច្ចតែងការបង្តៀនភាសាអង់គ្លេស.pdf" },
+	{ "title": "English Grade 7 Student's Book.pdf", "category": "Course Books", "file": "books/English Grade 7 Student's Book.pdf" }
+
+  ]
+}
