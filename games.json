@@ -3501,7 +3501,7 @@
 "blocks": [
 {
 "t": "p",
-"x": "Pick a theme and press Next word. Hide the word on screen so only the actor sees it."
+"x": "Pick a category and press Next word. Each word has a picture. Use Hide word so only the actor sees it, or choose Picture only to teach vocabulary: the class guesses from the picture, then tap the card to show the word. Full screen makes the card big enough for the whole room. Under Manage categories you can add your own categories (with emoji or photos), print the cards, and export or import your categories."
 },
 {
 "t": "tool",
