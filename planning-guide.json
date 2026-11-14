@@ -355,6 +355,10 @@
       "Write each stage's aim in a short phrase. If you cannot, the stage may not be needed.",
       "Keep time for the wrap-up even when an earlier stage runs over."
      ]
+    },
+    {
+     "t": "note",
+     "x": "Your course lesson plan has five parts: 1. Opening (greeting), 2. Warm-up or revision, 3. New lesson, 4. Assessment and practice, 5. Closing (homework). The stages above fit inside this frame."
     }
    ]
   },
@@ -510,13 +514,6 @@
        "Teach, practise, then use"
       ],
       [
-       "PRS",
-       "The same, with support reduced step by step",
-       "Beginner to intermediate",
-       "High to medium",
-       "Restricted, structured, then free"
-      ],
-      [
        "TTT",
        "Revision; language learners partly know",
        "Intermediate and above",
@@ -532,10 +529,10 @@
       ],
       [
        "PWP",
-       "Reading and listening",
+       "Skills lessons: reading, listening, writing, speaking",
        "Any",
        "Medium",
-       "Prepare, read or listen with tasks, respond"
+       "Pre, while and post stages"
       ],
       [
        "TBL",
@@ -613,6 +610,68 @@
     },
     {
      "t": "h",
+     "x": "The full PPP lesson outline"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Part",
+      "What happens"
+     ],
+     "rows": [
+      [
+       "1. Opening",
+       "Greeting"
+      ],
+      [
+       "2. Warm-up or revision",
+       "A short activity or a review of the last lesson"
+      ],
+      [
+       "3. New lesson",
+       "Pre-teach key words, set the scene, introduce the target item, highlight the target item (its form), then a comprehension check and a concept check"
+      ],
+      [
+       "4. Assessment and practice",
+       "Controlled practice, then less-controlled practice, then production or free practice"
+      ],
+      [
+       "5. Closing",
+       "Homework"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Practice moves from controlled to free"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Practice step",
+      "Learner freedom",
+      "Example (going to for plans)"
+     ],
+     "rows": [
+      [
+       "Controlled practice",
+       "Very little choice of language",
+       "Drill: I am going to play football. Change play football to swim, read, visit my aunt."
+      ],
+      [
+       "Less-controlled practice",
+       "Some choice, with prompts or a frame",
+       "Pairs use a frame: What are you going to do on ___? I am going to ___ because ___."
+      ],
+      [
+       "Production or free practice",
+       "Full choice",
+       "Groups plan a class picnic and present their plan to the class."
+      ]
+     ]
+    },
+    {
+     "t": "h",
      "x": "Example: going to for plans (45 min)"
     },
     {
@@ -680,97 +739,6 @@
       "Keep the presentation under ten minutes.",
       "Move quickly from controlled practice to meaningful practice.",
       "Give the production task a real purpose and save correction until afterwards."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "pg-prs",
-   "group": "Procedures",
-   "title": "PRS: Presentation, Restricted practice, Structured production",
-   "blocks": [
-    {
-     "t": "p",
-     "x": "PRS is often presented in teacher training as a variant of PPP. It has the same three-step shape, but it names the practice and production stages by how much freedom learners have: restricted, then structured, and finally free if time allows. This makes it easy to plan a gradual release of support."
-    },
-    {
-     "t": "table",
-     "head": [
-      "Stage",
-      "Learner freedom",
-      "What happens"
-     ],
-     "rows": [
-      [
-       "Presentation",
-       "None",
-       "Set the context, show the meaning, form and pronunciation, and check understanding, as in PPP."
-      ],
-      [
-       "Restricted practice",
-       "Very little choice of language",
-       "Drills, substitution, matching, gap-fills and controlled dialogues. The focus is accuracy and immediate correction."
-      ],
-      [
-       "Structured production",
-       "Some choice, with support",
-       "Learners produce the language using prompts, role cards, sentence frames or a guided dialogue. The target language is guided but the content is partly theirs."
-      ],
-      [
-       "Free production (optional)",
-       "Full choice",
-       "An open task with no frame, such as a discussion or a group presentation, once learners are secure."
-      ]
-     ]
-    },
-    {
-     "t": "h",
-     "x": "Example: going to for plans"
-    },
-    {
-     "t": "table",
-     "head": [
-      "Stage",
-      "Activity"
-     ],
-     "rows": [
-      [
-       "Restricted practice",
-       "Drill: I am going to play football. Change play football to swim, read, visit my aunt."
-      ],
-      [
-       "Structured production",
-       "Dialogue frame in pairs: What are you going to do on ___? I am going to ___ because ___."
-      ],
-      [
-       "Free production",
-       "Groups plan a class picnic and present their plan to the class."
-      ]
-     ]
-    },
-    {
-     "t": "h",
-     "x": "Works well when"
-    },
-    {
-     "t": "ul",
-     "items": [
-      "Learners need more support between a drill and free speaking or writing.",
-      "The class has mixed levels: stronger learners can drop the frame sooner.",
-      "You want to describe the middle of a PPP lesson more precisely."
-     ]
-    },
-    {
-     "t": "h",
-     "x": "Tips"
-    },
-    {
-     "t": "ul",
-     "items": [
-      "Plan a ladder of freedom: drill, then prompts, then a frame, then an open task.",
-      "Prepare the prompts or frames before the lesson.",
-      "Remove the support in steps when learners succeed.",
-      "Terminology differs between courses. Follow your own course's wording in the written plan."
      ]
     }
    ]
@@ -918,11 +886,11 @@
   {
    "id": "pg-pwp",
    "group": "Procedures",
-   "title": "PWP: Pre, While, Post (reading and listening)",
+   "title": "PWP: Pre, While, Post (skills lessons)",
    "blocks": [
     {
      "t": "p",
-     "x": "For skills lessons. Learners prepare for the text, work through it with tasks, and then respond to it."
+     "x": "For skills lessons. Learners get ready for the text or task, work on it, and then respond to it. Your course applies pre-, while- and post- stages to reading, listening, writing and speaking."
     },
     {
      "t": "table",
@@ -934,34 +902,61 @@
      "rows": [
       [
        "Pre",
-       "Get ready: interest, prediction, purpose",
-       "Talk about the title or picture, predict, pre-teach only three to five essential words, set a purpose for reading or listening"
+       "Motivate learners and activate what they already know",
+       "Talk about the topic, pre-teach key words, set the scene, predict"
       ],
       [
        "While",
-       "Understand the text",
-       "First read or listen for gist (the general idea), then again for detail, with tasks such as true or false, matching, ordering, completing a table"
+       "Get the meaning while working on the text or task",
+       "Predict, infer and monitor understanding; for listening, completing a chart or table is one option"
       ],
       [
        "Post",
-       "Respond and use",
-       "Discuss opinions, role play, write a summary, link to their own lives, study useful phrases from the text"
+       "Reflect on and use what was learned",
+       "Discuss, summarise or paraphrase, draw conclusions, write a short response"
       ]
      ]
     },
     {
      "t": "h",
-     "x": "Tips"
+     "x": "Lesson outline for a skills lesson in your course"
     },
     {
-     "t": "ul",
-     "items": [
-      "Set the task before learners read or listen, not after.",
-      "Give a different purpose each time: gist first, then detail.",
-      "Do not ask learners to understand every word.",
-      "Let learners check answers in pairs before the whole-class check.",
-      "Play audio two or three times at most, each time with a new task."
+     "t": "table",
+     "head": [
+      "Part",
+      "What happens"
+     ],
+     "rows": [
+      [
+       "1. Opening",
+       "Greeting"
+      ],
+      [
+       "2. Warm-up or revision",
+       "A short activity or a review of the last lesson"
+      ],
+      [
+       "3. New lesson: pre stage",
+       "Pre-reading, pre-listening, pre-writing or pre-speaking: pre-teach and set the scene"
+      ],
+      [
+       "4. Assessment: while stage",
+       "While-reading, while-listening, while-writing or while-speaking"
+      ],
+      [
+       "4. Assessment: post stage",
+       "Post-reading, post-listening, post-writing or post-speaking"
+      ],
+      [
+       "5. Closing",
+       "Homework"
+      ]
      ]
+    },
+    {
+     "t": "note",
+     "x": "The activities on this page are examples. Choose tasks that fit your text and your course."
     }
    ]
   },
