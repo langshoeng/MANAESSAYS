@@ -266,6 +266,29 @@ details.st summary{font-weight:600;cursor:pointer}
 .gconf{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:5}
 .gchip{display:inline-block;margin:2px 4px 2px 0;padding:2px 10px;border-radius:999px;background:var(--panel);border:1px solid var(--line);animation:gpop .35s}
 @media (prefers-reduced-motion:reduce){.gpop,.gchip{animation:none}}
+.gcard{position:relative;border:1px solid var(--line);border-radius:12px;margin:12px 0;min-height:260px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:18px 12px;text-align:center;background:var(--panel)}
+.gbody{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;width:100%}
+.gemo{font-size:clamp(4.5rem,22vw,8rem);line-height:1}
+.gimg{max-width:100%;max-height:240px;object-fit:contain;border-radius:8px}
+.gword{font:600 clamp(1.7rem,6vw,2.6rem)/1.2 Literata,Georgia,serif;overflow-wrap:anywhere}
+.gq{opacity:.45}
+.gcx{display:none}
+.gcard.gcfull{position:fixed;inset:0;z-index:55;margin:0;border-radius:0;background:var(--bg);cursor:pointer}
+.gcard.gcfull .gemo{font-size:min(38vh,56vw)}
+.gcard.gcfull .gimg{max-height:58vh}
+.gcard.gcfull .gword{font-size:clamp(2.4rem,9vw,5rem)}
+.gcard.gcfull .gcx{display:block;position:absolute;top:calc(env(safe-area-inset-top,0px) + 10px);right:12px}
+.wrow{border:1px solid var(--line);border-radius:10px;padding:8px;margin:8px 0}
+.wtop{display:flex;gap:6px;align-items:center;margin-bottom:6px}
+.wtop input{flex:1;min-width:0}
+.wtop input.wemo{flex:none;width:64px;text-align:center}
+.wvis{flex:none;width:54px;height:54px;border-radius:8px;border:1px dashed var(--line);display:flex;align-items:center;justify-content:center;font-size:30px;overflow:hidden;background:var(--bg)}
+.wvis .gimg{width:100%;height:100%;max-height:none;object-fit:cover;border-radius:0}
+.wprint{display:grid;grid-template-columns:repeat(2,1fr)}
+.wpc{border:1px dashed #888;height:62mm;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3mm;padding:4mm;break-inside:avoid;text-align:center;color:#000;background:#fff}
+.wpc .gemo{font-size:52px}
+.wpc .gimg{max-height:32mm}
+.wpc .gword{font:600 20pt Georgia,serif}
 </style>
 </head>
 <body>
@@ -1503,15 +1526,139 @@ function toolBingo(){
   const r=el('div','grp');r.append(sz,cn,mk,pr);out.className='bprint';
   w.append(ta,r,fl,out,call);return w;
 }
+/* Word cards: themes from games.json plus categories added in the browser; every word gets a picture (photo, emoji, or an automatic emoji for common words) */
+const GE=Object.create(null),GSTOP=new Set(['a','an','the','to','your','my','his','her','our','of','in','on','at','is','are','some']);
+'cat:🐱,dog:🐶,elephant:🐘,monkey:🐒,snake:🐍,crocodile:🐊,bird:🐦,fish:🐟,cow:🐄,buffalo:🐃,chicken:🐔,frog:🐸,spider:🕷️,butterfly:🦋,tiger:🐯,bear:🐻,horse:🐴,pig:🐖,sheep:🐑,duck:🦆,rabbit:🐰,mouse:🐭,lion:🦁,giraffe:🦒,zebra:🦓,panda:🐼,whale:🐋,dolphin:🐬,shark:🦈,turtle:🐢,snail:🐌,bee:🐝,ant:🐜,owl:🦉,deer:🦌,wolf:🐺,fox:🦊,goat:🐐,crab:🦀,octopus:🐙,parrot:🦜,penguin:🐧,camel:🐫,kangaroo:🦘,rat:🐀,bat:🦇,rice:🍚,noodles:🍜,banana:🍌,mango:🥭,coconut:🥥,egg:🥚,soup:🍲,bread:🍞,sugar:🍬,candy:🍬,tea:🍵,milk:🥛,vegetables:🥦,vegetable:🥦,ice cream:🍦,pizza:🍕,apple:🍎,orange:🍊,grape:🍇,watermelon:🍉,pineapple:🍍,lemon:🍋,strawberry:🍓,peach:🍑,cherry:🍒,pear:🍐,carrot:🥕,tomato:🍅,potato:🥔,corn:🌽,cake:🍰,cookie:🍪,chocolate:🍫,coffee:☕,water:💧,juice:🧃,meat:🥩,burger:🍔,hamburger:🍔,sandwich:🥪,salad:🥗,cheese:🧀,honey:🍯,salt:🧂,teeth:🦷,tooth:🦷,bike:🚲,bicycle:🚲,floor:🧹,sweep:🧹,broom:🧹,clothes:👕,shirt:👕,wash:🧼,soap:🧼,song:🎤,sing:🎤,singer:🎤,book:📖,read:📖,letter:✉️,write:✍️,pen:🖊️,pencil:✏️,car:🚗,drive:🚗,football:⚽,soccer:⚽,ball:⚽,door:🚪,bag:🎒,dance:💃,sleep:😴,tree:🌳,climb:🧗,swim:🏊,swimming:🏊,cook:👨‍🍳,doctor:👨‍⚕️,teacher:👩‍🏫,farmer:👨‍🌾,driver:🚕,nurse:👩‍⚕️,police:👮,pilot:👨‍✈️,builder:👷,fisherman:🎣,fishing:🎣,shopkeeper:🏪,tailor:🧵,dentist:🦷,artist:🎨,soldier:💂,student:🎓,firefighter:🚒,scientist:🔬,school:🏫,market:🛒,hospital:🏥,temple:🛕,library:📚,airport:✈️,bank:🏦,farm:🚜,beach:🏖️,mountain:⛰️,kitchen:🍳,post office:📮,bus:🚌,restaurant:🍽️,park:🌳,river:🏞️,house:🏠,home:🏠,city:🏙️,village:🏘️,shop:🏪,store:🏬,hotel:🏨,church:⛪,mosque:🕌,factory:🏭,bridge:🌉,road:🛣️,island:🏝️,forest:🌲,desert:🏜️,happy:😀,sad:😢,angry:😠,tired:😩,hungry:🤤,scared:😨,surprised:😮,bored:😑,excited:🤩,worried:😟,proud:😊,sleepy:😴,shy:🙈,sick:🤒,cold:🥶,hot:🥵,love:❤️,laugh:😂,cry:😭,smile:😊,volleyball:🏐,boxing:🥊,running:🏃,run:🏃,badminton:🏸,basketball:🏀,tennis:🎾,cycling:🚴,yoga:🧘,golf:⛳,table tennis:🏓,skipping:🤸,weightlifting:🏋️,karate:🥋,train:🚆,plane:✈️,boat:⛵,ship:🚢,motorbike:🏍️,motorcycle:🏍️,taxi:🚕,truck:🚚,helicopter:🚁,rocket:🚀,sun:☀️,sunny:☀️,rain:🌧️,rainy:🌧️,cloud:☁️,cloudy:☁️,wind:💨,windy:💨,snow:❄️,storm:⛈️,rainbow:🌈,moon:🌙,star:⭐,fire:🔥,umbrella:☂️,hand:✋,eye:👁️,ear:👂,nose:👃,mouth:👄,foot:🦶,leg:🦵,mother:👩,mom:👩,father:👨,dad:👨,baby:👶,grandmother:👵,grandfather:👴,boy:👦,girl:👧,man:👨,woman:👩,family:👪,phone:📱,computer:💻,television:📺,tv:📺,camera:📷,clock:⏰,key:🔑,gift:🎁,money:💰,heart:❤️,flower:🌸,bed:🛏️,light:💡,music:🎵,guitar:🎸,piano:🎹,drum:🥁,map:🗺️,calendar:📅,ruler:📏,scissors:✂️,glasses:👓,hat:👒,shoes:👟,shoe:👟,socks:🧦,dress:👗,trousers:👖,pants:👖,watch:⌚,red:🔴,blue:🔵,green:🟢,yellow:🟡,black:⚫,white:⚪,purple:🟣,brown:🟤'.split(',').forEach(x=>{const i=x.lastIndexOf(':');if(i>0)GE[x.slice(0,i).trim()]=x.slice(i+1).trim()});
+function gAuto(w){
+  const t=String(w||'').toLowerCase().replace(/[^a-z\s]/g,' ').split(/\s+/).filter(x=>x&&!GSTOP.has(x));
+  if(!t.length)return '';if(GE[t.join(' ')])return GE[t.join(' ')];
+  for(let i=t.length-1;i>=0;i--){const v=GE[t[i]]||GE[t[i].replace(/(es|s)$/,'')];if(v)return v}
+  return '';
+}
+const gVis=it=>it.img?{img:it.img}:it.e?{e:it.e}:(a=>a?{e:a}:null)(gAuto(it.w));
+const gImg=src=>{const i=new Image();i.alt='';i.className='gimg';i.src=src;return i};
+function gResize(file,cb){
+  const fr=new FileReader();
+  fr.onload=()=>{const im=new Image();im.onload=()=>{const sc=Math.min(1,240/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=Math.round(im.width*sc);c.height=Math.round(im.height*sc);c.getContext('2d').drawImage(im,0,0,c.width,c.height);cb(c.toDataURL('image/jpeg',.75))};im.onerror=()=>cb(null);im.src=fr.result};
+  fr.onerror=()=>cb(null);fr.readAsDataURL(file);
+}
+let WC=null;
+const wcGet=()=>WC||(WC=(()=>{try{return JSON.parse(localStorage.getItem('mana_wordcats')||'{}').cats||[]}catch(e){return []}})());
+const wcSave=()=>{try{localStorage.setItem('mana_wordcats',JSON.stringify({cats:WC}));return true}catch(e){toast('Could not save. The browser storage is full. Remove some photos.');return false}};
 function toolWords(b){
-  const w=el('div','gt'),sel=el('select');Object.keys(b.themes).forEach(k=>sel.append(new Option(k,k)));sel.setAttribute('aria-label','Theme');
-  let pool=[],cur='',hid=false;const big=el('div','gbig','Press Next word'),info=el('p','lbl','');
-  const show=()=>{big.textContent=!cur?'Press Next word':(hid?'Hidden. Press Show word.':cur);info.textContent=pool.length+' words left in this theme'};
-  const nx=el('button','primary','Next word'),hd=el('button','','Hide word');
-  nx.onclick=()=>{if(!pool.length)pool=shuffle(b.themes[sel.value].slice());cur=pool.pop();hid=false;hd.textContent='Hide word';show()};
+  const st=prefs.gw=prefs.gw||{},w=el('div','gt'),main=el('div'),ed=el('div');ed.hidden=true;
+  const norm=x=>typeof x==='string'?{w:x}:x;
+  const sel=el('select');sel.setAttribute('aria-label','Category');
+  const fillSel=v=>{sel.textContent='';Object.keys(b.themes).forEach(k=>sel.append(new Option(k,'b:'+k)));wcGet().forEach(c=>sel.append(new Option(c.name+' (mine)','c:'+c.id)));if(v&&[...sel.options].some(o=>o.value===v))sel.value=v};
+  const list=()=>{const v=sel.value;if(v.startsWith('c:')){const c=wcGet().find(x=>x.id===v.slice(2));return c?c.words.map(norm):[]}return (b.themes[v.slice(2)]||[]).map(norm)};
+  let pool=[],cur=null,hist=[],hid=false,rev=false;
+  const card=el('div','gcard'),body=el('div','gbody'),cx=el('button','gcx','Exit');card.append(body,cx);
+  const info=el('p','lbl','');
+  const fm=el('select');fm.setAttribute('aria-label','What the card shows');[['both','Picture and word'],['pic','Picture only'],['word','Word only']].forEach(([v,t])=>fm.append(new Option(t,v)));fm.value=st.fm||'both';
+  const show=()=>{
+    body.textContent='';info.textContent=pool.length+' words left in this category';
+    if(!cur){body.append(el('div','gword','Press Next word'));return}
+    if(hid){body.append(el('div','gword','Hidden. Press Show word.'));return}
+    const v=gVis(cur);let m=fm.value;if(m==='pic'&&!v)m='both';
+    if(m!=='word'&&v)body.append(v.img?gImg(v.img):el('div','gemo',v.e));
+    if(m==='pic'&&!rev){body.append(el('div','gword gq','?'),el('div','lbl','Tap the card to show the word'))}else body.append(el('div','gword',cur.w));
+  };
+  const nx=el('button','primary','Next word'),bk=el('button','','Back'),hd=el('button','','Hide word'),fs=el('button','','Full screen');
+  const next=()=>{if(!pool.length)pool=shuffle(list().slice());if(!pool.length){toast('This category has no words yet.');return}cur=pool.pop();hist.push(cur);if(hist.length>60)hist.shift();hid=false;rev=false;hd.textContent='Hide word';show()};
+  nx.onclick=next;
+  bk.onclick=()=>{if(hist.length>1){hist.pop();cur=hist[hist.length-1];hid=false;rev=false;hd.textContent='Hide word';show()}};
   hd.onclick=()=>{if(!cur)return;hid=!hid;hd.textContent=hid?'Show word':'Hide word';show()};
-  sel.onchange=()=>{pool=[];cur='';hid=false;hd.textContent='Hide word';show()};
-  const r=el('div','grp');r.append(sel,nx,hd);w.append(r,big,info);show();return w;
+  fm.onchange=()=>{st.fm=fm.value;save();rev=false;show()};
+  sel.onchange=()=>{st.cat=sel.value;save();pool=[];cur=null;hist=[];hid=false;rev=false;hd.textContent='Hide word';show()};
+  card.onclick=()=>{
+    if(!cur||hid)return;
+    if(fm.value==='pic'&&!rev&&gVis(cur)){rev=true;show();return}
+    if(card.classList.contains('gcfull'))next();
+  };
+  const full=on=>{
+    card.classList.toggle('gcfull',on);document.body.style.overflow=on?'hidden':'';fs.textContent=on?'Exit full screen':'Full screen';
+    if(on){try{const r=card.requestFullscreen||card.webkitRequestFullscreen,p=r&&r.call(card);if(p&&p.catch)p.catch(()=>{})}catch(e){}}
+    else{try{if(document.fullscreenElement&&document.exitFullscreen)document.exitFullscreen()}catch(e){}}
+  };
+  fs.onclick=()=>full(!card.classList.contains('gcfull'));cx.onclick=e=>{e.stopPropagation();full(false)};
+  const fsl=()=>{if(!card.isConnected){document.removeEventListener('fullscreenchange',fsl);return}if(!document.fullscreenElement&&card.classList.contains('gcfull'))full(false)};
+  document.addEventListener('fullscreenchange',fsl);
+  const kd=e=>{
+    if(!card.isConnected){document.removeEventListener('keydown',kd);return}
+    if(!card.classList.contains('gcfull'))return;
+    if(e.key==='Escape')full(false);else if(e.key===' '||e.key==='Enter'||e.key==='ArrowRight'){e.preventDefault();card.onclick()}else if(e.key==='ArrowLeft')bk.onclick();
+  };
+  document.addEventListener('keydown',kd);
+  /* the editor */
+  const closeEd=()=>{ed.hidden=true;main.hidden=false};
+  const mkRow=it=>{
+    it=it||{};const r=el('div','wrow'),th=el('div','wvis'),wi=el('input'),ei=el('input'),ph=el('button','','Photo'),dx=el('button','','Remove word'),fi=el('input');
+    wi.value=it.w||'';wi.placeholder='Word or phrase';wi.setAttribute('aria-label','Word');ei.value=it.e||'';ei.placeholder='emoji';ei.className='wemo';ei.setAttribute('aria-label','Emoji');
+    fi.type='file';fi.accept='image/*';fi.hidden=true;let img=it.img||null;
+    const ref=()=>{th.textContent='';if(img)th.append(gImg(img));else th.textContent=ei.value.trim()||gAuto(wi.value)||'?';ph.textContent=img?'Remove photo':'Photo'};
+    wi.oninput=ref;ei.oninput=ref;
+    ph.onclick=()=>{if(img){img=null;ref();return}fi.click()};
+    fi.onchange=()=>{const f=fi.files[0];if(!f)return;gResize(f,d=>{if(!d){toast('Could not read that picture.');return}img=d;ref()});fi.value=''};
+    dx.onclick=()=>r.remove();
+    const top=el('div','wtop'),bt=el('div','grp');top.append(th,wi,ei);bt.append(ph,dx,fi);r.append(top,bt);
+    r.get=()=>{const t=wi.value.trim();if(!t)return null;const o={w:t};if(ei.value.trim())o.e=ei.value.trim();if(img)o.img=img;return o};
+    ref();return r;
+  };
+  const openEd=(c,seed)=>{
+    ed.textContent='';main.hidden=true;ed.hidden=false;
+    const src=c||seed||{name:'',words:[]},nm=el('input'),rows=el('div'),bulk=el('textarea');
+    nm.value=src.name;nm.placeholder='Category name, for example Fruit';nm.setAttribute('aria-label','Category name');
+    bulk.rows=4;bulk.placeholder='Paste words here, one per line. To choose a picture, add | and an emoji, for example: mango | 🥭';bulk.setAttribute('aria-label','Add many words');
+    const add=it=>rows.append(mkRow(it));src.words.forEach(add);if(!src.words.length)add();
+    const ab=el('button','','Add these words'),a1=el('button','','Add one word'),sv=el('button','primary','Save category'),cn=el('button','','Cancel');
+    ab.onclick=()=>{bulk.value.split(/\n+/).map(x=>x.trim()).filter(Boolean).forEach(x=>{const m=x.split('|');add({w:m[0].trim(),e:(m[1]||'').trim()})});bulk.value=''};
+    a1.onclick=()=>add();cn.onclick=closeEd;
+    sv.onclick=()=>{
+      const name=nm.value.trim(),words=[...rows.children].map(r=>r.get()).filter(Boolean),all=wcGet();
+      if(!name){toast('Give the category a name.');return}if(!words.length){toast('Add at least one word.');return}
+      if(all.some(x=>x.name.toLowerCase()===name.toLowerCase()&&(!c||x.id!==c.id))){toast('You already have a category with this name.');return}
+      let id;if(c){c.name=name;c.words=words;id=c.id}else{id='c'+Date.now().toString(36);all.push({id,name,words})}
+      if(!wcSave())return;closeEd();fillSel('c:'+id);sel.onchange();toast('Category saved.');
+    };
+    const g1=el('div','grp'),g2=el('div','grp');g1.append(ab,a1);g2.append(sv,cn);
+    if(c){const dl=el('button','danger','Delete category');let arm=0;
+      dl.onclick=()=>{if(!arm){arm=1;dl.textContent='Click again to delete';setTimeout(()=>{arm=0;dl.textContent='Delete category'},3000);return}
+        const all=wcGet();all.splice(all.indexOf(c),1);wcSave();closeEd();fillSel('');sel.onchange();toast('Category deleted.')};g2.append(dl)}
+    ed.append(el('h3','',c?'Edit category':'New category'),nm,el('p','lbl','Each word gets a picture on its card: the emoji you type, a photo you add, or an automatic emoji for common words.'),bulk,g1,rows,g2);
+    window.scrollTo(0,0);
+  };
+  /* manage, print, export, import */
+  const det=el('details'),mg=el('div','grp'),bn=el('button','','New category'),be=el('button','','Edit this category'),bp=el('button','','Print cards'),bx=el('button','','Export my categories'),bi=el('button','','Import categories'),imp=el('input');
+  det.append(el('summary','','Manage categories and print cards'),mg);
+  bn.onclick=()=>openEd(null,null);
+  be.onclick=()=>{const v=sel.value;if(v.startsWith('c:')){const c=wcGet().find(x=>x.id===v.slice(2));if(c)openEd(c)}else openEd(null,{name:v.slice(2)+' (copy)',words:list().map(x=>Object.assign({},x))})};
+  bp.onclick=()=>{
+    const items=list();if(!items.length){toast('This category has no words.');return}
+    const c=el('div','bprint wprint');
+    items.forEach(it=>{const v=gVis(it),m=fm.value,cd=el('div','wpc');if(m!=='word'&&v)cd.append(v.img?gImg(v.img):el('div','gemo',v.e));if(!(m==='pic'&&v))cd.append(el('div','gword',it.w));c.append(cd)});
+    printNode(c);
+  };
+  bx.onclick=()=>{const a=wcGet();if(!a.length){toast('You have no categories of your own yet.');return}dlBlob(new Blob([JSON.stringify({type:'word-cards',categories:a},null,1)],{type:'application/json'}),'my-word-categories.json')};
+  imp.type='file';imp.accept='.json,application/json';imp.hidden=true;bi.onclick=()=>imp.click();
+  imp.onchange=()=>{
+    const f=imp.files[0];if(!f)return;const fr=new FileReader();
+    fr.onload=()=>{try{
+      const d=JSON.parse(fr.result),src=Array.isArray(d.categories)?d.categories:Object.entries(d.themes||{}).map(([name,words])=>({name,words})),all=wcGet();let n=0;
+      src.forEach(c=>{
+        if(!c||!c.name||!Array.isArray(c.words))return;
+        const base=String(c.name).trim().slice(0,60);let nm=base,k=2;while(all.some(x=>x.name.toLowerCase()===nm.toLowerCase()))nm=base+' ('+(k++)+')';
+        const ws=c.words.map(norm).filter(x=>x&&x.w&&String(x.w).trim()).map(x=>{const o={w:String(x.w).trim().slice(0,80)};if(x.e)o.e=String(x.e).slice(0,16);if(x.img&&/^(data:image\/|[\w\-.\/]+\.(png|jpe?g|webp|gif|svg)$)/i.test(String(x.img)))o.img=String(x.img);return o});
+        if(ws.length){all.push({id:'c'+Date.now().toString(36)+n,name:nm,words:ws});n++}
+      });
+      if(!n){toast('No categories found in that file.');return}
+      if(wcSave()){fillSel(sel.value);toast(n+(n===1?' category':' categories')+' imported.')}
+    }catch(e){toast('Could not read that file.')}};
+    fr.readAsText(f);imp.value='';
+  };
+  mg.append(bn,be,bp,bx,bi,imp);
+  const r1=el('div','grp');r1.append(sel,nx,bk,hd,fm,fs);
+  fillSel(st.cat);
+  main.append(r1,card,info,det);w.append(main,ed);show();return w;
 }
 /* Exam bank */
 const xMixed={id:'xmixed',m:'mixed',group:'Practice',title:'Mixed exam quiz (20 questions)',blocks:[{t:'p',x:'Twenty random questions from every exam-bank set that is available. You do not know which type of question comes next, as in a real exam.'}]};
