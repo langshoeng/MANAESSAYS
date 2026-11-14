@@ -214,6 +214,7 @@ details.st summary{font-weight:600;cursor:pointer}
 #bStage.night .bpg{background:#000}
 #bNav{margin-top:16px}
 #bNav button{flex:1}
+#bPanel{max-height:50vh;overflow:auto}
 #bPanel .hit{display:block;width:100%;text-align:left;margin:6px 0}
 #bdoc.bfs{position:fixed;inset:0;z-index:50;max-width:none;margin:0;background:var(--bg);display:flex;flex-direction:column;padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
 .bfs #bTitle,.bfs #bNav{display:none}
@@ -308,7 +309,7 @@ details.st summary{font-weight:600;cursor:pointer}
           <button id="bZo" aria-label="Zoom out">&minus;</button><button id="bFit">Fit width</button><button id="bZi" aria-label="Zoom in">+</button>
           <button id="bMark" aria-label="Bookmark this page" aria-pressed="false">&#9734;</button><button id="bFull" class="primary">Full screen</button><button id="bMore" aria-expanded="false">More</button>
         </div>
-        <div class="brow" id="bTools"><button id="bMarks">Marks</button><button id="bFindBtn">Find</button><button id="bView">View: Pages</button><button id="bNight" aria-pressed="false">Night</button></div>
+        <div class="brow" id="bTools"><button id="bMarks">Marks</button><button id="bToc">Contents</button><button id="bFindBtn">Find</button><button id="bView">View: Pages</button><button id="bNight" aria-pressed="false">Night</button><button id="bListen">Listen</button><button id="bVoice">Voice</button></div>
       </div>
       <div id="bPanel" class="stg" hidden></div>
       <div id="bStage"><canvas id="bCv"></canvas><div id="bScroll" hidden></div></div>
@@ -1896,6 +1897,7 @@ function setTab(t){
   $('#tbTitle').textContent={essays:'My Essays',grammar:'Grammar Handbook',terms:'Terminology',exam:'Exam Bank',games:'Games & Activities',planner:'Lesson Planner',library:'Books'}[t];
   $('#doc').hidden=true;$('#gdoc').hidden=true;$('#tdoc').hidden=true;$('#wdoc').hidden=true;$('#pdoc').hidden=true;$('#lpdoc').hidden=true;$('#bdoc').hidden=true;$('#empty').hidden=false;$('#player').hidden=true;
   if(t==='planner'){lpBack=null;showBack();$('#empty').hidden=true;$('#lpdoc').hidden=false;if(curL&&getPlan(curL))openL(curL);else openLHome()}
+  if(t!=='library'&&bRead)bStopRead();
   if(t==='library'&&curB){$('#empty').hidden=true;$('#bdoc').hidden=false;bRender()}
   if(t==='games'&&curP){$('#empty').hidden=true;$('#pdoc').hidden=false}
   if(t==='essays'&&sub==='guide'&&curW){$('#empty').hidden=true;$('#wdoc').hidden=false}
@@ -1928,7 +1930,7 @@ function renderBList(){
   if(!rows.length)box.textContent=books.length?'No books found.':bErr?'Could not load books.json. Make sure it is uploaded next to index.html.':'No books yet. Add them to books.json.';
 }
 async function openB(b){
-  const t=++bTok;stopSpeech();aud.pause();curB=b;drawer(false);prefs.lastB=b.file;save();renderList();
+  const t=++bTok;stopSpeech();aud.pause();bSpTok++;bRead=false;bListenUi();curB=b;drawer(false);prefs.lastB=b.file;save();renderList();
   $('#empty').hidden=true;$('#bdoc').hidden=false;$('#bTitle').textContent=b.title;$('#bPanel').hidden=true;bMode='';
   bBid++;if(bIO){bIO.disconnect();bIO=null}bVis.clear();$('#bScroll').textContent='';
   if(!window.pdfjsLib){$('#bMsg').textContent='The PDF reader could not load. Check your internet connection.';return}
@@ -1996,11 +1998,12 @@ function bUi(){
   $('#bStage').classList.toggle('night',!!prefs.bnight);$('#bNight').setAttribute('aria-pressed',String(!!prefs.bnight));$('#bNight').classList.toggle('primary',!!prefs.bnight);
   $('#bView').textContent=bSv()?'View: Scroll':'View: Pages';$('#bFit').textContent=bSv()?'Fit':(prefs.bfit==='page'?'Fit page':'Fit width');
 }
-function bGo(n){
+function bGo(n,fromReader){
   if(!pdf)return;n=Math.min(Math.max(1,Math.round(n)||1),pdf.numPages);
   bDir=n>bPage?1:n<bPage?-1:0;bPage=n;prefs.bp=prefs.bp||{};prefs.bp[curB.file]=n;save();bUi();renderList();
-  if(bSv()){bLockT=Date.now()+400;const d=$('#bScroll').children[n-1];if(d)$('#bStage').scrollTop=d.offsetTop-8;return}
-  bRender();if(!bIsFs())window.scrollTo(0,0);$('#bStage').scrollTop=0;
+  if(bSv()){bLockT=Date.now()+400;const d=$('#bScroll').children[n-1];if(d)$('#bStage').scrollTop=d.offsetTop-8}
+  else{bRender();if(!bIsFs())window.scrollTo(0,0);$('#bStage').scrollTop=0}
+  if(bRead&&!fromReader)bReadStart();
 }
 function bFull(on){
   const d=$('#bdoc'),r=document.documentElement;if(on===bIsFs())return;
@@ -2023,6 +2026,21 @@ function bPanel(mode){
     const m=(prefs.bm||{})[curB.file]||[];box.append(el('b','','Bookmarks'));
     if(!m.length){box.append(el('p','lbl','No bookmarks yet. Press the star to bookmark a page.'));return}
     const g=el('div','grp');g.style.marginTop='8px';m.forEach(n=>{const b=el('button','','Page '+n);b.onclick=()=>bGo(n);g.append(b)});box.append(g);
+  }else if(mode==='toc'){
+    box.append(el('b','','Contents'),el('p','lbl','Loading...'));const t=bTok;
+    bToc().then(list=>{
+      if(bMode!=='toc'||t!==bTok)return;box.textContent='';box.append(el('b','','Contents'));
+      if(!list.length){box.append(el('p','lbl','This PDF has no built-in contents. Use Find or the page box instead.'));return}
+      list.forEach(c=>{const b=el('button','hit',c.title+' \u00b7 p.'+c.page);b.style.paddingLeft=(10+c.depth*16)+'px';b.onclick=()=>{bGo(c.page);bPanel('toc')};box.append(b)});
+    }).catch(()=>{if(bMode==='toc'&&t===bTok){box.textContent='';box.append(el('p','lbl','Could not read the contents of this PDF.'))}});
+  }else if(mode==='voice'){
+    box.append(el('b','','Read aloud'));const v=$('#voice');
+    if(!v.options.length){box.append(el('p','lbl','No English voice was found on this device.'));return}
+    const g=el('div','grp'),l1=el('label','lbl fld','Voice '),l2=el('label','lbl fld','Speed '),vs=v.cloneNode(true),rs=$('#rate').cloneNode(true);
+    vs.removeAttribute('id');vs.hidden=false;vs.value=v.value;rs.removeAttribute('id');rs.value=$('#rate').value;
+    vs.onchange=()=>{v.value=vs.value;if(v.onchange)v.onchange()};rs.onchange=()=>{$('#rate').value=rs.value;if($('#rate').onchange)$('#rate').onchange()};
+    const tb=el('button','','Test voice');tb.onclick=()=>{bStopRead();synth.cancel();synth.speak(mkUtt('This is how the book will sound.'))};
+    l1.append(vs);l2.append(rs);g.append(l1,l2,tb);g.style.marginTop='8px';box.append(g);
   }else{
     const i=el('input');i.type='search';i.placeholder='Search inside this book';i.setAttribute('aria-label','Search inside this book');
     const out=el('div','');box.append(i,out);i.onkeydown=e=>{if(e.key==='Enter')bFind(i.value,out)};i.focus();
@@ -2041,6 +2059,57 @@ async function bFind(q,out){
   out.append(el('p','lbl',hits.length+(hits.length>=100?'+':'')+' pages found'));
   hits.forEach(([p,sn])=>{const b=el('button','hit','Page '+p+': ...'+sn+'...');b.onclick=()=>bGo(p);out.append(b)});
 }
+/* Contents: the PDF's own outline, or a "contents" list for the book in books.json */
+async function bToc(){
+  if(curB._toc)return curB._toc;
+  let list=[];
+  if(Array.isArray(curB.contents)&&curB.contents.length)list=curB.contents.map(c=>({title:String(c.title||''),page:+c.page||1,depth:+c.level||0}));
+  else{
+    const ol=await pdf.getOutline();
+    const walk=async(items,d)=>{for(const it of items){
+      let page=0;
+      try{let dest=it.dest;if(typeof dest==='string')dest=await pdf.getDestination(dest);
+        if(Array.isArray(dest)){const r=dest[0];page=r&&typeof r==='object'?await pdf.getPageIndex(r)+1:Number.isInteger(r)?r+1:0}}catch(e){}
+      if(page)list.push({title:it.title||'(untitled)',page,depth:d});
+      if(it.items&&it.items.length)await walk(it.items,d+1);
+    }};
+    if(ol)await walk(ol,0);
+  }
+  return curB._toc=list;
+}
+/* Read aloud: current page sentence by sentence, then on to the next page (text PDFs only) */
+let bRead=false,bSpTok=0;
+function bListenUi(){$('#bListen').textContent=bRead?'Stop':'Listen';$('#bListen').classList.toggle('primary',bRead)}
+async function bPageText(n){
+  const tc=await (await pdf.getPage(n)).getTextContent();
+  const s=tc.items.map(i=>i.str+(i.hasEOL?'\n':' ')).join('').replace(/-\n(?=[a-z])/g,'').replace(/\s*\n\s*/g,' ').replace(/\s+/g,' ').trim();
+  const out=[];
+  (s.match(/[^.!?]+[.!?]+["'\u201d)\]]*\s*|[^.!?]+$/g)||[]).forEach(x=>{x=x.trim();while(x.length>220){let k=x.lastIndexOf(' ',200);if(k<50)k=200;out.push(x.slice(0,k));x=x.slice(k).trim()}if(x){const l=out[out.length-1];if(l&&l.length<6&&/\.$/.test(l))out[out.length-1]=l+' '+x;else out.push(x)}});
+  return out;
+}
+function bSpeak(x,t){
+  return new Promise(res=>{
+    const u=mkUtt(x);u.onend=()=>res();
+    u.onerror=ev=>{
+      if(t===bSpTok&&['interrupted','canceled','not-allowed'].includes(ev.error)){bSpTok++;bRead=false;bListenUi();if(ev.error==='not-allowed')$('#bMsg').textContent='Your browser blocked the voice. Tap Listen again.'}
+      res()};
+    synth.speak(u);
+  });
+}
+async function bReadStart(){
+  if(!synth||!pdf)return;
+  stopSpeech();const t=++bSpTok;bRead=true;bListenUi();$('#bMsg').textContent='';let empty=0;
+  while(t===bSpTok){
+    const sents=await bPageText(bPage);if(t!==bSpTok)return;
+    if(sents.length){empty=0;for(const x of sents){if(t!==bSpTok)return;await bSpeak(x,t)}}
+    else if(++empty>=3){$('#bMsg').textContent='No readable text found. Scanned PDFs (pictures of pages) cannot be read aloud.';break}
+    if(t!==bSpTok)return;
+    if(bPage>=pdf.numPages)break;
+    bGo(bPage+1,true);
+  }
+  if(t===bSpTok){bRead=false;bListenUi()}
+}
+function bStopRead(){bSpTok++;bRead=false;if(synth)synth.cancel();bListenUi()}
 $('#bPrev').onclick=$('#bPrev2').onclick=()=>bGo(bPage-1);
 $('#bNext').onclick=$('#bNext2').onclick=()=>bGo(bPage+1);
 $('#bPg').onchange=e=>bGo(+e.target.value);
@@ -2057,6 +2126,10 @@ $('#bMark').onclick=()=>{
 $('#bMarks').onclick=()=>{if(curB)bPanel('marks')};
 $('#bFindBtn').onclick=()=>{if(pdf)bPanel('find')};
 $('#bNight').onclick=()=>{prefs.bnight=!prefs.bnight;save();bUi()};
+$('#bToc').onclick=()=>{if(pdf)bPanel('toc')};
+$('#bVoice').onclick=()=>{if(curB)bPanel('voice')};
+$('#bListen').onclick=()=>{if(bRead)bStopRead();else bReadStart()};
+if(!synth){$('#bListen').hidden=true;$('#bVoice').hidden=true}
 /* full screen: tap the sides to turn pages, tap the middle to show or hide the toolbar */
 $('#bStage').addEventListener('click',e=>{
   if(!bIsFs())return;const r=e.currentTarget.getBoundingClientRect(),x=(e.clientX-r.left)/r.width;
