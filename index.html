@@ -292,6 +292,10 @@ details.st summary{font-weight:600;cursor:pointer}
 #bAudio input[type=checkbox]{width:auto;min-height:0}
 #auList h3{margin:18px 0 6px}
 .aut{min-width:62px;padding:6px 10px}
+#auTxt p{margin:.45em 0}
+.auwarn{border-left:4px solid #ef6c00;background:rgba(239,108,0,.12);padding:10px 12px;border-radius:6px;margin:0 0 10px;line-height:1.5}
+.aut.edited::after{content:' \270E';font-size:.85em}
+#auTxt .aued{color:#ef6c00;font-size:.85rem;font-weight:600;margin:0 0 8px}
 </style>
 </head>
 <body>
@@ -381,9 +385,17 @@ details.st summary{font-weight:600;cursor:pointer}
         <div class="grp" style="margin-top:10px">
           <button id="auPrev">&larr; Previous</button><button id="auNext">Next &rarr;</button>
           <select id="auRate" aria-label="Playback speed"><option value="0.5">0.5x</option><option value="0.75">0.75x</option><option value="1" selected>1x</option><option value="1.25">1.25x</option><option value="1.5">1.5x</option></select>
-          <button id="auDl">Download track</button>
+          <button id="auDl">Download track</button><button id="auShow" disabled>Show text</button><button id="auEdit" disabled>Edit text</button>
         </div>
         <div class="grp" style="margin-top:6px"><label class="lbl"><input type="checkbox" id="auLoop"> Repeat this track</label><label class="lbl"><input type="checkbox" id="auAuto"> Play the next track automatically</label></div>
+      </div>
+      <div id="auTxt" class="stg" hidden style="margin-top:12px;line-height:1.6"></div>
+      <div id="auEd" class="stg" hidden style="margin-top:12px">
+        <div class="auwarn"><b>Saved on this browser only.</b> Your edits stay on this device. They will not show for other people or on your other devices, and they will be erased if you clear this browser's data (cookies, site data or history). Use <b>Export my edits</b> to keep a backup copy.</div>
+        <textarea id="auEdTa" rows="14" style="width:100%" aria-label="Text for this track" placeholder="Type the text for this track. For a dialogue, write one line per speaker, like Name: words."></textarea>
+        <div class="grp" style="margin-top:8px"><button id="auEdSave" class="primary">Save on this device</button><button id="auEdCancel">Cancel</button><button id="auEdReset" hidden>Reset to original</button></div>
+        <p id="auEdInfo" class="lbl" style="margin:12px 0 4px"></p>
+        <div class="grp"><button id="auEdExp">Export my edits</button><button id="auEdImp">Import edits</button><input type="file" id="auEdFile" accept=".json,application/json" hidden></div>
       </div>
       <div id="auList"></div>
     </article>
@@ -2521,7 +2533,7 @@ const bAu=$('#bAu');let auT=[],auI=-1,auSaved=0;
 const auKey=()=>curB&&(curB.tracks||curB.file),auLabel=t=>t.label||('Track '+(t.track||''));
 async function openAudio(b){
   const t=++bTok;if(pdf){pdf.destroy();pdf=null}bBid++;if(bIO){bIO.disconnect();bIO=null}bVis.clear();bClosePops();
-  $('#bdoc').hidden=true;$('#empty').hidden=true;$('#bAudio').hidden=false;$('#auTitle').textContent=b.title;$('#auList').textContent='';$('#auNow').textContent='';
+  $('#bdoc').hidden=true;$('#empty').hidden=true;$('#bAudio').hidden=false;$('#auTitle').textContent=b.title;$('#auList').textContent='';$('#auNow').textContent='';$('#auEd').hidden=true;$('#auTxt').hidden=true;
   $('#auAuto').checked=!!prefs.auauto;$('#auRate').value=String(prefs.aurate||1);$('#auMsg').textContent='Loading tracks...';
   try{
     if(!b._tr){
@@ -2539,14 +2551,16 @@ function auRenderList(){
   auT.forEach((t,i)=>{
     if(t.unit!==u){u=t.unit;l=null;row=null;if(u!=null)box.append(el('h3','','Unit '+u))}
     if(t.lesson!==l||!row){l=t.lesson;row=el('div','grp');if(l!=null)row.append(el('span','lbl','Lesson '+l));box.append(row)}
-    const b=el('button','aut',auLabel(t));b.dataset.i=i;b.onclick=()=>auSet(i,true,0);row.append(b);
-  });
+    const b=el('button','aut'+(auIsEdited(t)?' edited':''),auLabel(t));b.dataset.i=i;b.onclick=()=>auSet(i,true,0);row.append(b);
+  });auMark();
 }
 function auSet(i,play,at){
+  if(!$('#auEd').hidden&&auDirty()&&!confirm('You have unsaved changes to this text. Leave without saving?'))return;
   auI=i;const t=auT[i];
   bAu.src=encodeURI(t.src);bAu.defaultPlaybackRate=bAu.playbackRate=parseFloat($('#auRate').value)||1;bAu.loop=$('#auLoop').checked;
   if(at)bAu.addEventListener('loadedmetadata',()=>{try{bAu.currentTime=at}catch(e){}},{once:true});
   $('#auNow').textContent=(t.unit?'Unit '+t.unit+' \u00b7 Lesson '+t.lesson+' \u00b7 ':'')+auLabel(t);$('#auMsg').textContent='';
+  $('#auTxt').hidden=true;$('#auEd').hidden=true;$('#auShow').textContent='Show text';auBtns(t);
   prefs.au=prefs.au||{};prefs.au[auKey()]={i,t:at||0};save();auMark();
   if(play){const pr=bAu.play();if(pr&&pr.catch)pr.catch(()=>{})}
   if('mediaSession' in navigator&&window.MediaMetadata){try{navigator.mediaSession.metadata=new MediaMetadata({title:auLabel(t),artist:curB.title,album:curB.category||'Listening'})}catch(e){}}
@@ -2556,6 +2570,58 @@ $('#auNext').onclick=()=>{if(auI>=0&&auI<auT.length-1)auSet(auI+1,!bAu.paused,0)
 $('#auRate').onchange=()=>{const r=parseFloat($('#auRate').value)||1;bAu.defaultPlaybackRate=bAu.playbackRate=r;prefs.aurate=r;save()};
 $('#auLoop').onchange=()=>{bAu.loop=$('#auLoop').checked};
 $('#auAuto').onchange=()=>{prefs.auauto=$('#auAuto').checked;save()};
+/* Text: from the track list file, or the quick edit saved in this browser only */
+const auEAll=()=>{try{return JSON.parse(localStorage.getItem('mana_textedits')||'{}')||{}}catch(e){return {}}};
+const auEMine=()=>auEAll()[auKey()]||{};
+const auIsEdited=t=>Object.prototype.hasOwnProperty.call(auEMine(),t.file);
+const auTxtOf=t=>auIsEdited(t)?auEMine()[t.file]:(t.text||'');
+function auESave(m){
+  const all=auEAll();if(Object.keys(m).length)all[auKey()]=m;else delete all[auKey()];
+  try{localStorage.setItem('mana_textedits',JSON.stringify(all));return true}catch(e){toast('Could not save. The browser storage is full or blocked.');return false}
+}
+function auBtns(t){const has=!!auTxtOf(t);$('#auShow').disabled=!has;$('#auEdit').disabled=false;$('#auEdit').textContent=has?'Edit text':'Add text'}
+function auShowText(){
+  const t=auT[auI],box=$('#auTxt'),tx=t?auTxtOf(t):'';if(!tx)return;
+  box.textContent='';if(auIsEdited(t))box.append(el('p','aued','\u270E Edited on this device only'));
+  tx.split('\n').forEach(line=>{
+    if(!line.trim())return;const p=el('p',''),m=line.match(/^([A-Z][\w .'\u2019-]{0,24}):\s*(.*)$/);
+    if(m){p.append(el('b','',m[1]+': '),document.createTextNode(m[2]))}else p.textContent=line;box.append(p)});
+  box.hidden=false;$('#auShow').textContent='Hide text';
+}
+$('#auShow').onclick=()=>{const box=$('#auTxt');if(!box.hidden){box.hidden=true;$('#auShow').textContent='Show text';return}auShowText()};
+const auDirty=()=>$('#auEdTa').value!==$('#auEdTa').dataset.orig;
+function auEdInfo(){const n=Object.keys(auEMine()).length;$('#auEdInfo').textContent=n?n+(n===1?' track is':' tracks are')+' edited on this device.':'No tracks are edited on this device yet.'}
+$('#auEdit').onclick=()=>{
+  const t=auT[auI];if(!t)return;const ta=$('#auEdTa'),cur=auTxtOf(t);
+  ta.value=cur;ta.dataset.orig=cur;$('#auEdReset').hidden=!auIsEdited(t);$('#auTxt').hidden=true;$('#auShow').textContent='Show text';
+  auEdInfo();$('#auEd').hidden=false;ta.focus();
+};
+$('#auEdCancel').onclick=()=>{if(auDirty()&&!confirm('Discard your changes to this text?'))return;$('#auEd').hidden=true};
+$('#auEdSave').onclick=()=>{
+  const t=auT[auI];if(!t)return;
+  const v=$('#auEdTa').value.replace(/\r\n?/g,'\n').split('\n').map(l=>l.replace(/\s+$/,'')).join('\n').replace(/\n{3,}/g,'\n\n').trim(),m=Object.assign({},auEMine());
+  if(v===(t.text||''))delete m[t.file];else m[t.file]=v;
+  if(!auESave(m))return;$('#auEd').hidden=true;auRenderList();auBtns(t);if(auTxtOf(t))auShowText();toast('Saved on this device only.');
+};
+$('#auEdReset').onclick=()=>{
+  const t=auT[auI];if(!t||!auIsEdited(t)||!confirm('Go back to the original text for this track?'))return;
+  const m=Object.assign({},auEMine());delete m[t.file];if(!auESave(m))return;$('#auEd').hidden=true;auRenderList();auBtns(t);toast('Original text restored.');
+};
+$('#auEdExp').onclick=()=>{
+  const m=auEMine();if(!Object.keys(m).length){toast('You have not edited any tracks yet.');return}
+  dlBlob(new Blob([JSON.stringify({type:'listening-text-edits',collection:auKey(),edits:m},null,1)],{type:'application/json'}),'my-text-edits.json');
+};
+$('#auEdImp').onclick=()=>$('#auEdFile').click();
+$('#auEdFile').onchange=()=>{
+  const f=$('#auEdFile').files[0];if(!f)return;const fr=new FileReader();
+  fr.onload=()=>{try{
+    const e=(JSON.parse(fr.result).edits)||{},files=new Set(auT.map(x=>x.file)),m=Object.assign({},auEMine());let n=0;
+    Object.keys(e).forEach(k=>{if(files.has(k)&&typeof e[k]==='string'){m[k]=e[k].slice(0,20000);n++}});
+    if(!n){toast('No matching tracks found in that file.');return}
+    if(auESave(m)){auRenderList();auBtns(auT[auI]);auEdInfo();toast(n+(n===1?' edit':' edits')+' imported.')}
+  }catch(err){toast('Could not read that file.')}};
+  fr.readAsText(f);$('#auEdFile').value='';
+};
 $('#auDl').onclick=()=>{if(auI<0)return;const a=document.createElement('a');a.href=encodeURI(auT[auI].src);a.download=decodeURIComponent(auT[auI].src.split('/').pop());document.body.append(a);a.click();a.remove()};
 bAu.onended=()=>{if($('#auAuto').checked&&auI<auT.length-1)auSet(auI+1,true,0)};
 bAu.ontimeupdate=()=>{const n=Date.now();if(n-auSaved>4000&&auI>=0&&curB&&curB.tracks){auSaved=n;prefs.au=prefs.au||{};prefs.au[auKey()]={i:auI,t:Math.floor(bAu.currentTime)};save()}};
