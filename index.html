@@ -308,13 +308,21 @@ body.narrow #manage button{flex:1}
 body.split{overflow:hidden}
 body.split .app{width:50vw;height:100vh;min-height:0;overflow-y:auto;overflow-x:hidden}
 #splitMenu{position:fixed;z-index:45;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px;display:grid;gap:6px;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+.item.sub{padding-left:28px}
+.item.sub b{font-weight:500;font-size:.93em}
+.item.soon b{opacity:.55}
+.item.soon small{opacity:.75}
+button.soon{opacity:.6}
+#aMore h3{margin:22px 0 8px}
+#aNav{margin-top:28px;padding-top:16px;border-top:1px solid var(--line)}
+#aNav button{flex:1}
 </style>
 </head>
 <body>
 <div class="app">
 <aside id="side" aria-label="Essays">
   <h2>My Library</h2>
-  <div class="tabs" role="tablist"><button title="Shift+click to open next to the current section (wide screens)" id="tabE" class="primary">Essays</button><button title="Shift+click to open next to the current section (wide screens)" id="tabG">Grammar</button><button title="Shift+click to open next to the current section (wide screens)" id="tabT">Terms</button><button title="Shift+click to open next to the current section (wide screens)" id="tabX">Exam</button><button title="Shift+click to open next to the current section (wide screens)" id="tabP">Games</button><button title="Shift+click to open next to the current section (wide screens)" id="tabL">Planner</button><button title="Shift+click to open next to the current section (wide screens)" id="tabB">Books</button></div>
+  <div class="tabs" role="tablist"><button title="Shift+click to open next to the current section (wide screens)" id="tabE" class="primary">Essays</button><button title="Shift+click to open next to the current section (wide screens)" id="tabG">Grammar</button><button title="Shift+click to open next to the current section (wide screens)" id="tabT">Terms</button><button title="Shift+click to open next to the current section (wide screens)" id="tabX">Exam</button><button title="Shift+click to open next to the current section (wide screens)" id="tabP">Games</button><button title="Shift+click to open next to the current section (wide screens)" id="tabL">Planner</button><button title="Shift+click to open next to the current section (wide screens)" id="tabB">Books</button><button title="Shift+click to open next to the current section (wide screens)" id="tabA">Teaching</button></div>
   <div class="tabs" id="lSubTabs" hidden><button id="lsubM" class="primary">My plans</button><button id="lsubG">Planning guide</button></div>
   <div class="tabs" id="subTabs"><button id="subM" class="primary">My essays</button><button id="subW">Writing guide</button></div>
   <input type="search" id="q" placeholder="Search titles" aria-label="Search">
@@ -369,6 +377,13 @@ body.split .app{width:50vw;height:100vh;min-height:0;overflow-y:auto;overflow-x:
       <h1 id="wTitle"></h1>
       <div id="wBody"></div>
       <div class="grp" id="wNav"><button id="wPrev">&larr; Previous</button><button id="wNext">Next &rarr;</button></div>
+    </article>
+    <article id="adoc" hidden>
+      <h1 id="aTitle"></h1>
+      <p id="aMeta" class="lbl"></p>
+      <div id="aBody"></div>
+      <div id="aMore"></div>
+      <div class="grp" id="aNav"><button id="aPrev">&larr; Previous article</button><button id="aNext">Next article &rarr;</button></div>
     </article>
     <article id="pgdoc" hidden>
       <h1 id="pgTitle"></h1>
@@ -465,7 +480,7 @@ const words=s=>(s.trim().match(/\S+/g)||[]).length;
 function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>t.classList.remove('show'),2800)}
 function drawer(o){$('#side').classList.toggle('open',o);$('#scrim').hidden=!o}
 function settings(o){$('#settings').hidden=!o;$('#setBtn').setAttribute('aria-expanded',String(o))}
-function renderList(){tab==='library'?renderBList():tab==='planner'?(lsub==='guide'?renderPGList():renderLList()):tab==='games'?renderPList():tab==='exam'?renderXList():tab==='grammar'?renderGList():tab==='terms'?renderTList():sub==='guide'?renderWList():renderEList()}
+function renderList(){tab==='teaching'?renderAList():tab==='library'?renderBList():tab==='planner'?(lsub==='guide'?renderPGList():renderLList()):tab==='games'?renderPList():tab==='exam'?renderXList():tab==='grammar'?renderGList():tab==='terms'?renderTList():sub==='guide'?renderWList():renderEList()}
 function pinSet(){return new Set(prefs.pins||[])}
 function renderEList(){
   const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';
@@ -2278,13 +2293,14 @@ function setTab(t){
   if(tab==='exam')xcur=curG;else if(tab==='grammar')gcur=curG;
   if(t==='exam')curG=xcur;else if(t==='grammar')curG=gcur;
   tab=t;if(!PANE)prefs.tab=t;save();stopSpeech();aud.pause();$('#q').value='';$('#subTabs').hidden=t!=='essays';$('#lSubTabs').hidden=t!=='planner';$('#subM').classList.toggle('primary',sub==='mine');$('#subW').classList.toggle('primary',sub==='guide');
-  $('#tabE').classList.toggle('primary',t==='essays');$('#tabG').classList.toggle('primary',t==='grammar');$('#tabT').classList.toggle('primary',t==='terms');$('#tabX').classList.toggle('primary',t==='exam');$('#tabP').classList.toggle('primary',t==='games');$('#tabL').classList.toggle('primary',t==='planner');$('#tabB').classList.toggle('primary',t==='library');
-  $('#q').placeholder={essays:sub==='guide'?'Search the guide':'Search titles',grammar:'Search grammar',terms:'Search terms',exam:'Search exam sets',games:'Search games',planner:lsub==='guide'?'Search the planning guide':'Search lesson plans',library:'Search books'}[t];$('#starRow').hidden=t!=='grammar';
-  $('#tbTitle').textContent={essays:'My Essays',grammar:'Grammar Handbook',terms:'Terminology',exam:'Exam Bank',games:'Games & Activities',planner:'Lesson Planner',library:'Books'}[t];
-  $('#doc').hidden=true;$('#gdoc').hidden=true;$('#tdoc').hidden=true;$('#wdoc').hidden=true;$('#pdoc').hidden=true;$('#lpdoc').hidden=true;$('#bdoc').hidden=true;$('#bAudio').hidden=true;$('#pgdoc').hidden=true;$('#empty').hidden=false;$('#player').hidden=true;
+  $('#tabE').classList.toggle('primary',t==='essays');$('#tabG').classList.toggle('primary',t==='grammar');$('#tabT').classList.toggle('primary',t==='terms');$('#tabX').classList.toggle('primary',t==='exam');$('#tabP').classList.toggle('primary',t==='games');$('#tabL').classList.toggle('primary',t==='planner');$('#tabB').classList.toggle('primary',t==='library');$('#tabA').classList.toggle('primary',t==='teaching');
+  $('#q').placeholder={essays:sub==='guide'?'Search the guide':'Search titles',grammar:'Search grammar',terms:'Search terms',exam:'Search exam sets',games:'Search games',planner:lsub==='guide'?'Search the planning guide':'Search lesson plans',library:'Search books',teaching:'Search articles or problems'}[t];$('#starRow').hidden=t!=='grammar';
+  $('#tbTitle').textContent={essays:'My Essays',grammar:'Grammar Handbook',terms:'Terminology',exam:'Exam Bank',games:'Games & Activities',planner:'Lesson Planner',library:'Books',teaching:'Teaching Articles'}[t];
+  $('#doc').hidden=true;$('#gdoc').hidden=true;$('#tdoc').hidden=true;$('#wdoc').hidden=true;$('#pdoc').hidden=true;$('#lpdoc').hidden=true;$('#bdoc').hidden=true;$('#bAudio').hidden=true;$('#pgdoc').hidden=true;$('#adoc').hidden=true;$('#empty').hidden=false;$('#player').hidden=true;
   if(t==='planner'){lpBack=null;showBack();syncLsub();if(lsub==='guide'){if(curPG){$('#empty').hidden=true;$('#pgdoc').hidden=false}else if(psecs.length)openPG(psecs[0])}else{$('#empty').hidden=true;$('#lpdoc').hidden=false;if(curL&&getPlan(curL))openL(curL);else openLHome()}}
   if(t!=='library'){if(bRead)bStopRead();bAu.pause()}
   if(t==='library'&&curB){$('#empty').hidden=true;if(curB.tracks)$('#bAudio').hidden=false;else{$('#bdoc').hidden=false;bRender()}}
+  if(t==='teaching'){if(curA){$('#empty').hidden=true;$('#adoc').hidden=false}else if(asecs.length)openA(asecs[0])}
   if(t==='games'&&curP){$('#empty').hidden=true;$('#pdoc').hidden=false}
   if(t==='essays'&&sub==='guide'&&curW){$('#empty').hidden=true;$('#wdoc').hidden=false}
   if(t==='terms'&&curT){$('#empty').hidden=true;$('#tdoc').hidden=false}
@@ -2299,6 +2315,7 @@ $('#tabX').onclick=e=>e.shiftKey&&!PANE?openSplit('exam'):setTab('exam');
 $('#tabP').onclick=e=>e.shiftKey&&!PANE?openSplit('games'):setTab('games');
 $('#tabL').onclick=e=>e.shiftKey&&!PANE?openSplit('planner'):setTab('planner');
 $('#tabB').onclick=e=>e.shiftKey&&!PANE?openSplit('library'):setTab('library');
+$('#tabA').onclick=e=>e.shiftKey&&!PANE?openSplit('teaching'):setTab('teaching');
 $('#lpBackBtn').onclick=()=>{lsub='plans';prefs.lsub='plans';const id=lpBack;lpBack=null;showBack();setTab('planner');if(id&&getPlan(id))openL(id)};
 const flat=b=>[b.x,b.k,(b.items||[]).join(' '),(b.head||[]).join(' '),(b.rows||[]).map(r=>r.join(' ')).join(' ')].filter(Boolean).join(' ');
 /* ---- Books: PDFs listed in books.json, files in the books/ folder (PDF.js) ---- */
@@ -2737,7 +2754,7 @@ $('#lsubG').onclick=()=>setLsub('guide');
 $('#pgPrev').onclick=()=>{const i=psecs.indexOf(curPG);if(i>0)openPG(psecs[i-1])};
 $('#pgNext').onclick=()=>{const i=psecs.indexOf(curPG);if(i<psecs.length-1)openPG(psecs[i+1])};
 /* Split view (wide screens): a second copy of the site runs in the right half */
-const SPL=[['essays','Essays'],['grammar','Grammar'],['terms','Terms'],['exam','Exam'],['games','Games'],['planner','Planner'],['library','Books']];
+const SPL=[['essays','Essays'],['grammar','Grammar'],['terms','Terms'],['exam','Exam'],['games','Games'],['planner','Planner'],['library','Books'],['teaching','Teaching']];
 let splitTab=null;
 const splitOK=()=>!PANE&&innerWidth>=1000,splitOn=()=>document.body.classList.contains('split');
 const _wst=window.scrollTo.bind(window);
@@ -2767,6 +2784,36 @@ $('#splitClose').onclick=()=>{try{parent.postMessage({mana:'closeSplit'},locatio
 window.addEventListener('message',e=>{const f=$('#splitFrame');if(e.origin===location.origin&&e.data&&e.data.mana==='closeSplit'&&f&&e.source===f.contentWindow)closeSplit()});
 const splitUi=()=>{$('#splitBtn').hidden=!splitOK();$('#splitClose').hidden=!PANE;if(!PANE&&splitOn()&&innerWidth<900)closeSplit()};
 window.addEventListener('resize',splitUi);splitUi();
+/* Teaching articles (articles.json): written articles and titles that are coming soon */
+let asecs=[],curA=null;
+const aP=fetch('articles.json').then(r=>r.json()).then(d=>{asecs=d.sections||[];asecs.forEach(x=>{x.ready=!!(x.blocks&&x.blocks.length);x.text=(x.title+' '+(x.kw||'')+' '+(x.ready?x.blocks.map(wflat).join(' '):'')).toLowerCase()})}).catch(()=>{});
+function renderAList(){
+  const f=$('#q').value.trim().toLowerCase(),box=$('#list');box.textContent='';
+  if(asecs.length)box.append(el('p','lbl',asecs.filter(x=>x.ready).length+' of '+asecs.length+' articles are written. Greyed titles are coming soon.'));
+  let last='';
+  asecs.filter(x=>!f||x.text.includes(f)).forEach(x=>{
+    if(x.group!==last){last=x.group;box.append(el('div','grp-h',x.group))}
+    const b=el('button','item'+(x.parent?' sub':'')+(x.ready?'':' soon'));b.setAttribute('aria-current',String(curA===x));
+    b.append(el('b','',x.title));if(!x.ready)b.append(el('small','','coming soon'));b.onclick=()=>openA(x);box.append(b)});
+  if(!box.querySelector('.item'))box.append(el('p','lbl',asecs.length?'No articles found.':'Could not load articles.json. Make sure it is uploaded next to index.html.'));
+}
+const aNear=d=>{let i=asecs.indexOf(curA)+d;while(i>=0&&i<asecs.length&&!asecs[i].ready)i+=d;return asecs[i]};
+function openA(x){
+  stopSpeech();aud.pause();curA=x;prefs.lastA=x.id;save();drawer(false);
+  ['doc','gdoc','tdoc','wdoc','pdoc','lpdoc','bdoc','bAudio','pgdoc','empty','player'].forEach(i=>{$('#'+i).hidden=true});$('#adoc').hidden=false;
+  $('#aTitle').textContent=x.title;$('#aMeta').textContent=x.group+(x.ready?'':' \u00b7 coming soon');
+  const box=$('#aBody');box.textContent='';
+  if(x.ready)x.blocks.forEach(b=>box.append(renderBlock(b)));
+  else box.append(renderBlock({t:'note',x:'This article is on the list but has not been written yet. It is shown so you can see what is planned. Use the search box to find related articles that are already written.'}));
+  const more=$('#aMore');more.textContent='';
+  const par=x.parent&&asecs.find(y=>y.id===x.parent),kids=asecs.filter(y=>y.parent===x.id);
+  if(par){more.append(el('h3','','Part of'));const b=el('button',par.ready?'':'soon',par.title);b.onclick=()=>openA(par);more.append(b)}
+  if(kids.length){more.append(el('h3','','More on this topic'));const g=el('div','grp');kids.forEach(k=>{const b=el('button',k.ready?'':'soon',k.title);b.onclick=()=>openA(k);g.append(b)});more.append(g)}
+  $('#aPrev').disabled=!aNear(-1);$('#aNext').disabled=!aNear(1);
+  renderList();window.scrollTo(0,0);
+}
+$('#aPrev').onclick=()=>{const t=aNear(-1);if(t)openA(t)};
+$('#aNext').onclick=()=>{const t=aNear(1);if(t)openA(t)};
 const eP=fetch('essays.json').then(r=>r.json()).then(d=>{items=d.essays||[]}).catch(()=>{eErr=true});
 /* practice.json holds the original exercises; practice-extra.json (optional) adds exercises for new sections and is merged by section id */
 const pP=Promise.all([fetch('practice.json').then(r=>r.json()).catch(()=>null),fetch('practice-extra.json').then(r=>r.json()).catch(()=>null)]).then(([a,b])=>{
@@ -2784,16 +2831,16 @@ const tP=fetch('terminology.json').then(r=>r.json()).then(d=>{
   tsecs=[...secs.slice(0,k),{id:'must',group:'Quick study',title:'Must-memorize terms (★★★)',kind:'terms'},{id:'saved',group:'Quick study',title:'My saved terms',kind:'terms'},...secs.slice(k)];
 }).catch(()=>{});
 const gP=fetch('grammar.json').then(r=>r.json()).then(d=>{gram=d.sections||[];gram.forEach(s=>{s.text=(s.title+' '+s.blocks.map(flat).join(' ')).toLowerCase()})}).catch(()=>{});
-Promise.all([eP,gP,pP,tP,wP,xP,gmP,bP,pgP]).then(()=>{
+Promise.all([eP,gP,pP,tP,wP,xP,gmP,bP,pgP,aP]).then(()=>{
   Object.keys(xbase).forEach(id=>{prac[id]=xbase[id]});Object.keys(xrd).forEach(id=>{prac[id]=xrd[id]});
   const le=items.find(x=>x.file===prefs.last),lg=gram.find(x=>x.id===prefs.lastG);
   if(le)cur=le;if(lg)curG=lg;
   const lt=tsecs.find(x=>x.id===prefs.lastT);if(lt)curT=lt;
   const lw=wsecs.find(x=>x.id===prefs.lastW);if(lw)curW=lw;sub=prefs.sub==='guide'?'guide':'mine';
   const lx=xsets.find(x=>x.id===prefs.lastX);if(lx)xcur=lx;gcur=curG;
-  const lp=gmsecs.find(x=>x.id===prefs.lastP);if(lp)curP=lp;const lb=books.find(x=>(x.file||x.tracks)===prefs.lastB);if(lb)curB=lb;const lpg=psecs.find(x=>x.id===prefs.lastPG);if(lpg)curPG=lpg;lsub=prefs.lsub==='guide'?'guide':'plans';
-  const it0=PANE&&PTAB?PTAB:prefs.tab;setTab(['grammar','terms','exam','games','planner','library'].includes(it0)?it0:'essays');
-  if(tab==='essays'&&sub==='mine'&&le)open(le);else if(tab==='essays'&&sub==='guide'&&lw)openW(lw);else if(tab==='grammar'&&lg)openG(lg);else if(tab==='terms'&&lt)openT(lt);else if(tab==='exam'&&lx)openG(lx);else if(tab==='games'&&lp)openP(lp);else if(tab==='library'&&lb)openB(lb);else if(tab==='planner'&&lsub==='guide'&&lpg)openPG(lpg);
+  const lp=gmsecs.find(x=>x.id===prefs.lastP);if(lp)curP=lp;const lb=books.find(x=>(x.file||x.tracks)===prefs.lastB);if(lb)curB=lb;const lpg=psecs.find(x=>x.id===prefs.lastPG);if(lpg)curPG=lpg;lsub=prefs.lsub==='guide'?'guide':'plans';const la=asecs.find(x=>x.id===prefs.lastA);if(la)curA=la;
+  const it0=PANE&&PTAB?PTAB:prefs.tab;setTab(['grammar','terms','exam','games','planner','library','teaching'].includes(it0)?it0:'essays');
+  if(tab==='essays'&&sub==='mine'&&le)open(le);else if(tab==='essays'&&sub==='guide'&&lw)openW(lw);else if(tab==='grammar'&&lg)openG(lg);else if(tab==='terms'&&lt)openT(lt);else if(tab==='exam'&&lx)openG(lx);else if(tab==='games'&&lp)openP(lp);else if(tab==='library'&&lb)openB(lb);else if(tab==='planner'&&lsub==='guide'&&lpg)openPG(lpg);else if(tab==='teaching'&&la)openA(la);
 });
 </script>
 </body>
