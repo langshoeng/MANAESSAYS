@@ -1,0 +1,3041 @@
+{
+ "sections": [
+  {
+   "id": "about-these-articles",
+   "group": "Start here",
+   "title": "About these articles",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "This section collects short, practical articles for English teachers. You can use it in two ways: read an article to learn a topic, such as how to teach reading, or search for a problem you are facing in class, such as students talking while you teach."
+    },
+    {
+     "t": "h",
+     "x": "How the list is organised"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A. Teaching the language skills: vocabulary, grammar, reading, listening, speaking, writing and pronunciation.",
+      "B. Approaches and methods.",
+      "C. Lesson organisation: starting, finishing, timing and using the textbook.",
+      "D. Classroom management.",
+      "E. Rules and discipline.",
+      "F. Real classroom problems: search here by what is going wrong.",
+      "G. Motivation and relationships.",
+      "H. Questions, feedback and correction.",
+      "I. Assessment.",
+      "J. Different learners and contexts.",
+      "K. Materials, technology and resources.",
+      "L. Teacher development."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Written articles and coming soon"
+    },
+    {
+     "t": "p",
+     "x": "Titles in grey are on the list but are not written yet. They are shown so you can see what is planned and find them once they are added. Titles in normal text are written. Short titles indented under a main title are parts of that topic."
+    },
+    {
+     "t": "h",
+     "x": "Using an article in a real classroom"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Name the problem or the topic clearly.",
+      "Search for it, or find it in the list.",
+      "Read the article and choose one or two ideas.",
+      "Try them in your next lesson.",
+      "After a week, note what changed, and adjust."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These articles give general guidance based on standard teaching practice. They do not replace your school's rules, your ministry's guidance or your teacher trainer's advice. Check anything about discipline or student safety against your own school's policy."
+    }
+   ]
+  },
+  {
+   "id": "how-to-teach-vocabulary",
+   "group": "A. Teaching the language skills",
+   "title": "How to teach vocabulary",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learning a word is not one step. Learners need to meet a word many times, understand it, say it and use it. Good vocabulary teaching gives learners all of these."
+    },
+    {
+     "t": "h",
+     "x": "What it means to know a word"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Part",
+      "What the learner needs to know",
+      "Example: the word book"
+     ],
+     "rows": [
+      [
+       "Meaning",
+       "What it refers to and which words are related",
+       "A set of pages with writing; novel, page"
+      ],
+      [
+       "Form",
+       "Pronunciation, spelling and word parts",
+       "How it sounds, how it is spelled, books"
+      ],
+      [
+       "Use",
+       "Grammar, common partners (collocations) and when it is used",
+       "read a book; book a ticket (verb); notebook"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "x": "Learners often understand a word before they can use it. Teach for use when the word is important."
+    },
+    {
+     "t": "h",
+     "x": "Choosing what to teach"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choose words learners will meet and use soon, from the text, the topic or the unit.",
+      "Prefer common, useful words to rare ones.",
+      "Teach a manageable number in one lesson. For many classes this is fewer than ten new items.",
+      "Teach common phrases (chunks), such as look forward to, as single items.",
+      "Decide which words learners must understand and which they must also use."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Presenting a new word"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Show the meaning with an object, picture, mime, example or short context, before giving a definition.",
+      "Check meaning with simple questions. For enormous: Is it big or small? Is it bigger than big?",
+      "Say the word clearly. Learners repeat together, then one by one.",
+      "Write it on the board with its part of speech, stress and an example sentence.",
+      "Point out useful partners or word parts, for example un-happy or make a mistake."
+     ]
+    },
+    {
+     "t": "p",
+     "x": "A quick translation can be the clearest way to explain an abstract word. Try a picture or example first, and then check that learners can still use the word in English."
+    },
+    {
+     "t": "h",
+     "x": "Practising the word"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Activities"
+     ],
+     "rows": [
+      [
+       "Recognise",
+       "Match words to pictures, odd one out, true or false, sort words into groups"
+      ],
+      [
+       "Remember",
+       "Gap-fill, word search or crossword, flashcard games, spelling games, memory games"
+      ],
+      [
+       "Use",
+       "Write sentences, ask a partner questions, short role play, a short story with five target words, vocabulary notebook entries"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Revising and recycling"
+    },
+    {
+     "t": "p",
+     "x": "Words are forgotten quickly unless learners meet them again. Plan for each new word to appear several times, in different activities, over days and weeks."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Start a lesson with a five-minute review game.",
+      "Keep a word wall or word box in the classroom.",
+      "Use flashcards for quick revision.",
+      "Give a short quiz at the end of the week.",
+      "Use the same words again in reading and writing tasks."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Helping learners remember"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Link words to pictures, real objects and personal experiences.",
+      "Group words by topic or word family, not only in an alphabetical list.",
+      "Encourage a notebook with the word, meaning, example sentence and a picture or translation.",
+      "Teach strategies: guess from context, use word parts, use a dictionary.",
+      "Encourage reading and listening, which show words in context."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common problems and fixes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "Learners forget words after the lesson",
+       "Plan to recycle the words in the next lessons and use them in speaking and writing"
+      ],
+      [
+       "Learners translate every word",
+       "Ask them to guess from context first; use pictures and examples; teach only the key words"
+      ],
+      [
+       "Learners know a word but use it wrongly",
+       "Teach example sentences and common partners, not only the meaning"
+      ],
+      [
+       "A text has too many new words",
+       "Pre-teach only the words needed for the task and let learners guess the rest"
+      ],
+      [
+       "Learners confuse similar words",
+       "Compare the words side by side with example sentences and practise the contrast"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a small set of target words and write an example sentence for each.",
+      "Show the meaning with a picture or an object.",
+      "Check meaning with two quick questions.",
+      "Plan one activity where learners use the words, not only repeat them.",
+      "Decide when you will revise the words again."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Scott Thornbury, How to Teach Vocabulary",
+      "I. S. P. Nation, Learning Vocabulary in Another Language",
+      "Jeremy Harmer, The Practice of English Language Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ]
+  },
+  {
+   "id": "presenting-new-words-meaning-form-and-use",
+   "group": "A. Teaching the language skills",
+   "title": "Presenting new words: meaning, form and use",
+   "parent": "how-to-teach-vocabulary"
+  },
+  {
+   "id": "pre-teaching-vocabulary-for-a-text",
+   "group": "A. Teaching the language skills",
+   "title": "Pre-teaching vocabulary for a text",
+   "parent": "how-to-teach-vocabulary"
+  },
+  {
+   "id": "revising-and-recycling-vocabulary",
+   "group": "A. Teaching the language skills",
+   "title": "Revising and recycling vocabulary",
+   "parent": "how-to-teach-vocabulary"
+  },
+  {
+   "id": "teaching-collocations-and-word-chunks",
+   "group": "A. Teaching the language skills",
+   "title": "Teaching collocations and word chunks",
+   "parent": "how-to-teach-vocabulary"
+  },
+  {
+   "id": "teaching-phrasal-verbs-and-idioms",
+   "group": "A. Teaching the language skills",
+   "title": "Teaching phrasal verbs and idioms",
+   "parent": "how-to-teach-vocabulary"
+  },
+  {
+   "id": "teaching-word-families-and-word-formation",
+   "group": "A. Teaching the language skills",
+   "title": "Teaching word families and word formation",
+   "parent": "how-to-teach-vocabulary"
+  },
+  {
+   "id": "helping-students-remember-new-words",
+   "group": "A. Teaching the language skills",
+   "title": "Helping students remember new words",
+   "parent": "how-to-teach-vocabulary"
+  },
+  {
+   "id": "how-to-teach-grammar",
+   "group": "A. Teaching the language skills",
+   "title": "How to teach grammar",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Grammar teaching helps learners use language accurately. The aim is not to explain rules for their own sake, but to help learners use grammar to communicate."
+    },
+    {
+     "t": "h",
+     "x": "What learners need to know about a grammar item"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Part",
+      "Question",
+      "Example: present perfect (I have lived here for five years)"
+     ],
+     "rows": [
+      [
+       "Meaning",
+       "What does it mean?",
+       "It connects the past to now"
+      ],
+      [
+       "Form",
+       "How is it built?",
+       "have or has + past participle"
+      ],
+      [
+       "Pronunciation",
+       "How does it sound?",
+       "Contraction I've; weak form of have"
+      ],
+      [
+       "Use",
+       "When do we use it?",
+       "Experiences and unfinished time (for, since)"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Two ways to present grammar"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Approach",
+      "How it works",
+      "Good for",
+      "Watch for"
+     ],
+     "rows": [
+      [
+       "Rule first (deductive)",
+       "You explain the rule, give examples, then learners practise",
+       "Adults, exam classes, simple rules, limited time",
+       "Learners may remember the rule but not use it"
+      ],
+      [
+       "Discovery (inductive)",
+       "Learners see examples, notice the pattern and work out the rule; you confirm it",
+       "Learners who can cope with the task; more memorable",
+       "Takes longer; needs clear examples"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A simple teaching sequence"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Set a context (a story, picture or situation) where the grammar is needed.",
+      "Show the language in sentences.",
+      "Check meaning with simple questions.",
+      "Show the form on the board. Colour or underline the parts.",
+      "Practise pronunciation: contractions, stress and weak sounds.",
+      "Controlled practice: drills, gap-fill, matching.",
+      "Meaningful practice: information gaps, interviews, true sentences about the learners.",
+      "Freer use: a speaking or writing task that needs the grammar.",
+      "Feedback and correction."
+     ]
+    },
+    {
+     "t": "p",
+     "x": "See the Planning guide for how PPP, PRS and TTT lessons put these steps in order."
+    },
+    {
+     "t": "h",
+     "x": "Making practice meaningful"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use true information about the learners, not only invented examples.",
+      "Give a communication reason: ask, find out, decide.",
+      "Use information gaps so learners need each other's information.",
+      "Keep each practice activity short."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teaching tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use timelines to show when events happen in different tenses.",
+      "Compare a new form with one learners already know.",
+      "Keep your explanations short and give plenty of examples.",
+      "Use grammar terms only if learners need them.",
+      "With beginners, teach useful phrases first, such as Can I have...?"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Correcting grammar mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Decide the focus. In accuracy work, correct straight away. In fluency work, note errors and correct later.",
+      "Help learners correct themselves first: repeat the error with a rising voice, or ask Say it again.",
+      "Use fingers to show word order and where a word is missing.",
+      "Collect common errors on the board without naming learners."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common problems and fixes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "Learners know the rule but make mistakes when speaking",
+       "Give more meaningful, repeated practice. Accuracy develops slowly, so allow time"
+      ],
+      [
+       "Learners overuse the new form",
+       "Contrast it with other forms and give controlled practice"
+      ],
+      [
+       "Long explanations lose the class",
+       "Shorten the explanation, use examples and let learners discover the rule"
+      ],
+      [
+       "Learners see no reason to learn it",
+       "Show a real situation where they need it"
+      ],
+      [
+       "Learners avoid the structure",
+       "Set a task that needs it"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Prepare a context that shows why the grammar is needed.",
+      "Write three clear example sentences.",
+      "Prepare two or three questions that check meaning.",
+      "Plan one controlled and one meaningful practice activity.",
+      "Collect three or four errors to review at the end."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Scott Thornbury, How to Teach Grammar",
+      "Penny Ur, Grammar Practice Activities",
+      "Michael Swan, Practical English Usage"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ]
+  },
+  {
+   "id": "presenting-grammar-explaining-it-guided-discovery-and-in-con",
+   "group": "A. Teaching the language skills",
+   "title": "Presenting grammar: explaining it, guided discovery, and in context",
+   "parent": "how-to-teach-grammar"
+  },
+  {
+   "id": "grammar-practice-from-controlled-to-free",
+   "group": "A. Teaching the language skills",
+   "title": "Grammar practice, from controlled to free",
+   "parent": "how-to-teach-grammar"
+  },
+  {
+   "id": "teaching-tenses",
+   "group": "A. Teaching the language skills",
+   "title": "Teaching tenses",
+   "parent": "how-to-teach-grammar"
+  },
+  {
+   "id": "teaching-articles-prepositions-and-quantifiers",
+   "group": "A. Teaching the language skills",
+   "title": "Teaching articles, prepositions and quantifiers",
+   "parent": "how-to-teach-grammar"
+  },
+  {
+   "id": "teaching-conditionals-and-modal-verbs",
+   "group": "A. Teaching the language skills",
+   "title": "Teaching conditionals and modal verbs",
+   "parent": "how-to-teach-grammar"
+  },
+  {
+   "id": "correcting-grammar-mistakes",
+   "group": "A. Teaching the language skills",
+   "title": "Correcting grammar mistakes",
+   "parent": "how-to-teach-grammar"
+  },
+  {
+   "id": "teaching-grammar-to-young-learners",
+   "group": "A. Teaching the language skills",
+   "title": "Teaching grammar to young learners",
+   "parent": "how-to-teach-grammar"
+  },
+  {
+   "id": "how-to-teach-reading",
+   "group": "A. Teaching the language skills",
+   "title": "How to teach reading",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Reading is not only reading aloud. Learners need to read for meaning, for different purposes and at a pace that lets them understand."
+    },
+    {
+     "t": "h",
+     "x": "Why learners find reading hard"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Too many unknown words.",
+      "Long, complex sentences.",
+      "An unfamiliar topic or culture.",
+      "Reading word by word and stopping at every new word.",
+      "Fear of not understanding everything."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Reading for different purposes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Purpose",
+      "Example task"
+     ],
+     "rows": [
+      [
+       "Skimming",
+       "Get the general idea quickly",
+       "Match a title to each paragraph"
+      ],
+      [
+       "Scanning",
+       "Find specific information",
+       "Find a name, number or time"
+      ],
+      [
+       "Intensive reading",
+       "Understand a text in detail",
+       "Comprehension questions; put events in order"
+      ],
+      [
+       "Extensive reading",
+       "Read longer texts for pleasure",
+       "Graded readers and stories"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A reading lesson: pre, while, post"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "What happens"
+     ],
+     "rows": [
+      [
+       "Pre-reading",
+       "Build interest and activate what learners know. Pre-teach only the words needed for the task. Predict from the title or pictures."
+      ],
+      [
+       "While-reading",
+       "Learners read first for the general idea with a simple task, then again for detail. Set the task before they read. Let them compare answers in pairs."
+      ],
+      [
+       "Post-reading",
+       "Learners respond: discuss, summarise, give an opinion, or link the text to writing or speaking."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "The Planning guide describes the pre, while and post pattern and your course's lesson outline."
+    },
+    {
+     "t": "h",
+     "x": "Choosing and preparing a text"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choose a text where learners know most of the words but the text still gives some challenge.",
+      "Choose topics that interest your learners.",
+      "Read the text first. Look for difficult words and cultural references.",
+      "Keep texts short enough to finish in class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Types of questions"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Literal (the answer is in the text)",
+       "Where does Sopheak live?"
+      ],
+      [
+       "Inference (read between the lines)",
+       "Why do you think she was late?"
+      ],
+      [
+       "Opinion (respond to the text)",
+       "Do you agree with the writer?"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Use all three types. Start with easier questions so learners feel successful."
+    },
+    {
+     "t": "h",
+     "x": "Reading skills to teach"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Predicting from the title and pictures.",
+      "Guessing the meaning of words from context.",
+      "Finding the main idea.",
+      "Understanding reference words such as it and they.",
+      "Following how a text is organised: paragraphs and linking words."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Reading aloud"
+    },
+    {
+     "t": "p",
+     "x": "Reading aloud practises pronunciation, but it is not the same as reading for meaning. Some learners feel anxious reading aloud in front of the class. Other options: read in pairs, read the text aloud while learners follow, or read chorally."
+    },
+    {
+     "t": "h",
+     "x": "Extensive reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use graded readers or short stories at a comfortable level.",
+      "Let learners choose what to read.",
+      "Keep a simple reading log.",
+      "Do not test every book. The aim is enjoyment and fluency."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common problems and fixes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "Learners stop at every unknown word",
+       "Set a clear purpose, tell them they do not need every word, and practise guessing from context"
+      ],
+      [
+       "Learners read very slowly",
+       "Use timed scanning tasks, easier texts and extensive reading"
+      ],
+      [
+       "Learners copy answers without understanding",
+       "Ask for evidence: Which line tells you? Discuss in pairs"
+      ],
+      [
+       "Learners do not read outside class",
+       "Choose short, interesting texts and use a simple reading log"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Read the text and choose the words to pre-teach.",
+      "Write a gist task and a detail task.",
+      "Set the task before learners read.",
+      "Plan one post-reading activity where learners respond.",
+      "Prepare a backup for learners who finish early."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Christine Nuttall, Teaching Reading Skills in a Foreign Language",
+      "Richard Day and Julian Bamford, Extensive Reading in the Second Language Classroom",
+      "Jeremy Harmer, The Practice of English Language Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ]
+  },
+  {
+   "id": "pre-while-and-post-reading",
+   "group": "A. Teaching the language skills",
+   "title": "Pre-, while- and post-reading",
+   "parent": "how-to-teach-reading"
+  },
+  {
+   "id": "skimming-and-scanning",
+   "group": "A. Teaching the language skills",
+   "title": "Skimming and scanning",
+   "parent": "how-to-teach-reading"
+  },
+  {
+   "id": "extensive-reading-and-graded-readers",
+   "group": "A. Teaching the language skills",
+   "title": "Extensive reading and graded readers",
+   "parent": "how-to-teach-reading"
+  },
+  {
+   "id": "teaching-beginners-to-read-phonics-and-decoding",
+   "group": "A. Teaching the language skills",
+   "title": "Teaching beginners to read (phonics and decoding)",
+   "parent": "how-to-teach-reading"
+  },
+  {
+   "id": "dealing-with-unknown-words",
+   "group": "A. Teaching the language skills",
+   "title": "Dealing with unknown words",
+   "parent": "how-to-teach-reading"
+  },
+  {
+   "id": "reading-aloud-when-and-how",
+   "group": "A. Teaching the language skills",
+   "title": "Reading aloud: when and how",
+   "parent": "how-to-teach-reading"
+  },
+  {
+   "id": "writing-good-comprehension-questions",
+   "group": "A. Teaching the language skills",
+   "title": "Writing good comprehension questions",
+   "parent": "how-to-teach-reading"
+  },
+  {
+   "id": "how-to-teach-listening",
+   "group": "A. Teaching the language skills",
+   "title": "How to teach listening",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Listening is hard because speech is fast, it goes by once, and learners cannot control it. Good listening teaching gives learners a clear purpose, support and a chance to listen more than once."
+    },
+    {
+     "t": "h",
+     "x": "Why listening is hard"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "The speaker controls the speed.",
+      "Words run together in natural speech and some sounds are weak.",
+      "Different accents and voices.",
+      "Unknown words.",
+      "Trying to understand every word."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Two ways of listening"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Bottom-up: working out sounds and words.",
+      "Top-down: using the topic, the situation and what you already know."
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Good listening lessons use both."
+    },
+    {
+     "t": "h",
+     "x": "A listening lesson: pre, while, post"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "What happens"
+     ],
+     "rows": [
+      [
+       "Pre-listening",
+       "Introduce the topic, predict, pre-teach key words and set a clear purpose"
+      ],
+      [
+       "While-listening",
+       "First listening for the general idea with a simple task; second listening for details; check answers in pairs"
+      ],
+      [
+       "Post-listening",
+       "Discuss, role play, use the information, and notice useful language from the recording or script"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Task types"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Task",
+      "What it practises"
+     ],
+     "rows": [
+      [
+       "True or false",
+       "Understanding the main idea"
+      ],
+      [
+       "Matching speakers to topics or pictures",
+       "Gist and sequence"
+      ],
+      [
+       "Completing a table or chart",
+       "Picking out specific information"
+      ],
+      [
+       "Putting pictures or events in order",
+       "Following a story"
+      ],
+      [
+       "Note-taking",
+       "Longer listening"
+      ],
+      [
+       "Dictation or dictogloss",
+       "Sounds, grammar and memory"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "In a dictogloss, learners listen to a short text, note key words, and then rebuild the text in groups."
+    },
+    {
+     "t": "h",
+     "x": "Practical tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Test the audio and the volume before class. Check that everyone can hear.",
+      "Set the task before you play the recording.",
+      "Play the recording more than once, each time with a different purpose.",
+      "Pause the recording to ask what comes next.",
+      "If you have no recording, read the text aloud at natural speed, twice.",
+      "Let learners compare answers in pairs before the whole-class check.",
+      "Use the script after listening so learners can notice how words connect.",
+      "Build confidence first. Avoid using listening only as a test."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Sounds in natural speech"
+    },
+    {
+     "t": "p",
+     "x": "Learners often know words in writing but do not recognise them in fast speech. Short gap-fill or dictation tasks help them notice contractions, linked words and weak sounds."
+    },
+    {
+     "t": "h",
+     "x": "Listening with young learners"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use songs, stories, games and actions.",
+      "Use short recordings with pictures.",
+      "Repeat, and keep the tasks simple.",
+      "Games such as Simon says need listening and are enjoyable."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common problems and fixes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "Learners panic when they cannot understand everything",
+       "Tell them the first task is only the general idea; start with an easy task"
+      ],
+      [
+       "The recording is too fast",
+       "Choose recordings at the right level, pause, and replay short parts"
+      ],
+      [
+       "The room is noisy or the audio is poor",
+       "Reduce noise, seat learners closer, or read the script yourself"
+      ],
+      [
+       "Learners guess without listening",
+       "Ask what they heard, then replay the part and check together"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Listen to the recording yourself first.",
+      "Write a gist task and a detail task.",
+      "Prepare the key words to pre-teach.",
+      "Plan how learners will check answers.",
+      "Decide when to use the script."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "John Field, Listening in the Language Classroom",
+      "Michael Rost, Teaching and Researching Listening",
+      "Penny Ur, Teaching Listening Comprehension"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ]
+  },
+  {
+   "id": "pre-while-and-post-listening",
+   "group": "A. Teaching the language skills",
+   "title": "Pre-, while- and post-listening",
+   "parent": "how-to-teach-listening"
+  },
+  {
+   "id": "listening-for-gist-and-for-detail",
+   "group": "A. Teaching the language skills",
+   "title": "Listening for gist and for detail",
+   "parent": "how-to-teach-listening"
+  },
+  {
+   "id": "fast-and-connected-speech",
+   "group": "A. Teaching the language skills",
+   "title": "Fast and connected speech",
+   "parent": "how-to-teach-listening"
+  },
+  {
+   "id": "using-songs-videos-and-dialogues",
+   "group": "A. Teaching the language skills",
+   "title": "Using songs, videos and dialogues",
+   "parent": "how-to-teach-listening"
+  },
+  {
+   "id": "dictation-activities",
+   "group": "A. Teaching the language skills",
+   "title": "Dictation activities",
+   "parent": "how-to-teach-listening"
+  },
+  {
+   "id": "listening-for-young-learners",
+   "group": "A. Teaching the language skills",
+   "title": "Listening for young learners",
+   "parent": "how-to-teach-listening"
+  },
+  {
+   "id": "helping-students-who-are-afraid-of-listening",
+   "group": "A. Teaching the language skills",
+   "title": "Helping students who are afraid of listening",
+   "parent": "how-to-teach-listening"
+  },
+  {
+   "id": "how-to-teach-speaking",
+   "group": "A. Teaching the language skills",
+   "title": "How to teach speaking",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Speaking is a skill that improves by speaking. Learners need many chances to speak, support while they do it, and feedback afterwards."
+    },
+    {
+     "t": "h",
+     "x": "Fluency and accuracy"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Focus",
+      "Goal",
+      "What the teacher does"
+     ],
+     "rows": [
+      [
+       "Accuracy",
+       "Use correct forms",
+       "Give controlled tasks and correct at once"
+      ],
+      [
+       "Fluency",
+       "Communicate smoothly and with confidence",
+       "Do not interrupt; note errors and give feedback afterwards"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Speaking activities"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Activity",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Choral repetition and drills",
+       "Whole class repeats; good for pronunciation and beginners"
+      ],
+      [
+       "Dialogues",
+       "Learners read a model dialogue, practise it, then change the details"
+      ],
+      [
+       "Information gap",
+       "Partner A and B each have different information and must ask each other"
+      ],
+      [
+       "Role play",
+       "Learners act out a situation, such as shopping or asking for directions"
+      ],
+      [
+       "Interviews and surveys",
+       "Learners ask questions and report what they find"
+      ],
+      [
+       "Find someone who",
+       "Learners move around and ask questions to find a person for each statement"
+      ],
+      [
+       "Picture description",
+       "Describe a picture, or find the differences between two pictures"
+      ],
+      [
+       "Discussion",
+       "Learners share opinions in pairs or groups"
+      ],
+      [
+       "Storytelling",
+       "Retell a story or build a story one sentence at a time"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Before the activity"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Give the task a clear purpose and outcome.",
+      "Give planning time. Let learners note ideas first.",
+      "Put useful phrases on the board.",
+      "Show an example of the task.",
+      "Choose pairs or groups carefully."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "During the activity"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Walk around and listen.",
+      "Write down good language and common errors.",
+      "Help only when learners are stuck.",
+      "Keep to the time limit."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "After the activity"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Praise good language you heard.",
+      "Write three to five common errors on the board without naming learners and let the class correct them.",
+      "Repeat the task so learners can improve."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Helping shy students speak"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Start in pairs, then small groups, then the whole class.",
+      "Give time to rehearse.",
+      "Give sentence frames to start from.",
+      "Praise effort, not only correct answers.",
+      "Pair them with supportive partners.",
+      "Do short speaking activities often so speaking becomes normal.",
+      "Do not force a shy learner to speak alone in front of the class at first."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Managing noise in speaking activities"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Agree a stop signal before you begin.",
+      "Use short time limits.",
+      "Give each learner a role.",
+      "Walk around so every group knows you are listening."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Assessing speaking"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Criterion",
+      "What to listen for"
+     ],
+     "rows": [
+      [
+       "Fluency",
+       "Smoothness, pauses"
+      ],
+      [
+       "Accuracy",
+       "Grammar and vocabulary"
+      ],
+      [
+       "Pronunciation",
+       "Clear sounds, stress and intonation"
+      ],
+      [
+       "Interaction",
+       "Asking and answering, responding to a partner"
+      ],
+      [
+       "Task completion",
+       "Did the learner complete the task?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common problems and fixes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "Learners speak their first language",
+       "Set a clear English goal, keep tasks short, give language support and praise English use"
+      ],
+      [
+       "Learners stay silent",
+       "Use easier prompts, let pairs rehearse first and give sentence frames"
+      ],
+      [
+       "One learner dominates the group",
+       "Give roles or speaking turns, such as a card for each learner to use"
+      ],
+      [
+       "The same errors keep coming",
+       "Give targeted practice and repeat the task after feedback"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one clear speaking task with a purpose.",
+      "Write useful phrases on the board.",
+      "Give two minutes of planning time.",
+      "Listen and note errors during the task.",
+      "Plan three minutes for feedback and a repeat."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Scott Thornbury, How to Teach Speaking",
+      "Martin Bygate, Speaking",
+      "Penny Ur, A Course in Language Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ]
+  },
+  {
+   "id": "fluency-versus-accuracy",
+   "group": "A. Teaching the language skills",
+   "title": "Fluency versus accuracy",
+   "parent": "how-to-teach-speaking"
+  },
+  {
+   "id": "pair-work-and-group-work-for-speaking",
+   "group": "A. Teaching the language skills",
+   "title": "Pair work and group work for speaking",
+   "parent": "how-to-teach-speaking"
+  },
+  {
+   "id": "role-plays-discussions-and-information-gaps",
+   "group": "A. Teaching the language skills",
+   "title": "Role-plays, discussions and information gaps",
+   "parent": "how-to-teach-speaking"
+  },
+  {
+   "id": "helping-shy-students-speak",
+   "group": "A. Teaching the language skills",
+   "title": "Helping shy students speak",
+   "parent": "how-to-teach-speaking"
+  },
+  {
+   "id": "correcting-errors-during-speaking",
+   "group": "A. Teaching the language skills",
+   "title": "Correcting errors during speaking",
+   "parent": "how-to-teach-speaking"
+  },
+  {
+   "id": "how-to-teach-writing",
+   "group": "A. Teaching the language skills",
+   "title": "How to teach writing",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Writing takes time and thinking. Learners write better when they have ideas, a model, a clear reader and a chance to improve their work."
+    },
+    {
+     "t": "h",
+     "x": "Product and process"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Focus",
+      "What it means"
+     ],
+     "rows": [
+      [
+       "Product",
+       "The finished text: its accuracy, organisation and layout"
+      ],
+      [
+       "Process",
+       "The steps learners take to produce the text"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Use both. Learners need to see good models, and they also need to learn how to plan, draft and edit."
+    },
+    {
+     "t": "h",
+     "x": "The writing process"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Generate ideas: talk, brainstorm, read.",
+      "Plan: make a short outline.",
+      "Draft: write a first version.",
+      "Review: check ideas and organisation first, then language.",
+      "Write the final version.",
+      "Share: display or read to a partner."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Levels of support"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Level",
+      "Example tasks"
+     ],
+     "rows": [
+      [
+       "Copying",
+       "Copy words and sentences carefully"
+      ],
+      [
+       "Controlled",
+       "Fill gaps, put sentences in order"
+      ],
+      [
+       "Guided",
+       "Write following a model and prompts"
+      ],
+      [
+       "Free",
+       "Write on a topic using your own ideas"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Paragraphs and essays"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A paragraph has a topic sentence, supporting sentences and often a concluding sentence.",
+      "Teach linking words such as first, then, because and however.",
+      "A simple essay has an introduction, body paragraphs and a conclusion.",
+      "Show a model first, then let learners analyse it before they write."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Write for a purpose and a reader"
+    },
+    {
+     "t": "p",
+     "x": "Tell learners who will read their writing and why. Examples: a letter to a friend, an email, a notice, a story, a description or a short report."
+    },
+    {
+     "t": "h",
+     "x": "Activities"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Sentence combining.",
+      "Completing a gapped model text.",
+      "Dictogloss.",
+      "Writing a story from pictures.",
+      "Parallel writing: follow a model with your own details.",
+      "Group story: pass the paper and add a sentence.",
+      "Diary or letter writing.",
+      "A class newsletter."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Giving feedback"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do not mark everything. Focus on one or two areas, such as organisation first and language later.",
+      "Use a correction code and ask learners to correct their own mistakes. For example: Sp for spelling, T for tense, WW for wrong word, // for a new paragraph.",
+      "Use peer review with a short checklist.",
+      "Always note something done well.",
+      "Talk to learners one by one when you can."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Spelling, punctuation and handwriting"
+    },
+    {
+     "t": "p",
+     "x": "Give short, regular practice: dictation of a few sentences, a spelling game, or a quick punctuation check. Handwriting needs separate time with beginners."
+    },
+    {
+     "t": "h",
+     "x": "Common problems and fixes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "Learners copy from the book or the internet",
+       "Use personal topics, write drafts in class and ask learners to explain their text"
+      ],
+      [
+       "Learners write very little",
+       "Give planning time, a model and a small target length"
+      ],
+      [
+       "The same errors again and again",
+       "Keep an error log and teach a short lesson on the most common errors"
+      ],
+      [
+       "Learners do not edit",
+       "Give an editing checklist and time to use it"
+      ],
+      [
+       "Marking takes too long",
+       "Mark selectively, use correction codes, use peer review and mark a sample"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a writing task with a real reader.",
+      "Show a short model first.",
+      "Give time to plan before writing.",
+      "Give a checklist for checking the draft.",
+      "Decide the one or two areas you will give feedback on."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Jeremy Harmer, How to Teach Writing",
+      "Ann Raimes, Techniques in Teaching Writing",
+      "Ken Hyland, Teaching and Researching Writing"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ]
+  },
+  {
+   "id": "process-writing-plan-draft-edit",
+   "group": "A. Teaching the language skills",
+   "title": "Process writing: plan, draft, edit",
+   "parent": "how-to-teach-writing"
+  },
+  {
+   "id": "teaching-sentences-paragraphs-and-essays",
+   "group": "A. Teaching the language skills",
+   "title": "Teaching sentences, paragraphs and essays",
+   "parent": "how-to-teach-writing"
+  },
+  {
+   "id": "guided-writing-for-beginners",
+   "group": "A. Teaching the language skills",
+   "title": "Guided writing for beginners",
+   "parent": "how-to-teach-writing"
+  },
+  {
+   "id": "giving-feedback-on-writing",
+   "group": "A. Teaching the language skills",
+   "title": "Giving feedback on writing",
+   "parent": "how-to-teach-writing"
+  },
+  {
+   "id": "peer-review-and-self-editing",
+   "group": "A. Teaching the language skills",
+   "title": "Peer review and self-editing",
+   "parent": "how-to-teach-writing"
+  },
+  {
+   "id": "teaching-punctuation-spelling-and-handwriting",
+   "group": "A. Teaching the language skills",
+   "title": "Teaching punctuation, spelling and handwriting",
+   "parent": "how-to-teach-writing"
+  },
+  {
+   "id": "how-to-teach-pronunciation",
+   "group": "A. Teaching the language skills",
+   "title": "How to teach pronunciation"
+  },
+  {
+   "id": "sounds-stress-and-intonation",
+   "group": "A. Teaching the language skills",
+   "title": "Sounds, stress and intonation",
+   "parent": "how-to-teach-pronunciation"
+  },
+  {
+   "id": "common-pronunciation-problems-and-minimal-pairs",
+   "group": "A. Teaching the language skills",
+   "title": "Common pronunciation problems and minimal pairs",
+   "parent": "how-to-teach-pronunciation"
+  },
+  {
+   "id": "teaching-phonics",
+   "group": "A. Teaching the language skills",
+   "title": "Teaching phonics",
+   "parent": "how-to-teach-pronunciation"
+  },
+  {
+   "id": "how-to-teach-across-proficiency-levels",
+   "group": "A. Teaching the language skills",
+   "title": "How to teach across proficiency levels",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners at different levels need different teaching. This article uses three simple labels: beginner, intermediate and advanced. The Common European Framework of Reference (CEFR) describes levels from A1 to C2. Beginner is about A1 to A2, intermediate about B1 to B2, and advanced about C1 to C2."
+    },
+    {
+     "t": "note",
+     "x": "Levels are a guide. A learner can be stronger in reading than in speaking, so check each skill."
+    },
+    {
+     "t": "h",
+     "x": "What each level needs"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Level",
+      "Learners can",
+      "Teaching focus",
+      "How to teach"
+     ],
+     "rows": [
+      [
+       "Beginner (A1 to A2)",
+       "Understand and use very familiar words and simple phrases",
+       "Common vocabulary, simple structures, pronunciation, classroom language",
+       "Speak slowly and clearly; use pictures, gestures and examples; give short steps; model and repeat; use controlled tasks; use some first language for instructions if needed"
+      ],
+      [
+       "Intermediate (B1 to B2)",
+       "Deal with most everyday situations and write simple connected texts",
+       "Wider vocabulary, accuracy and fluency, longer texts, linking ideas",
+       "More freer practice, tasks with choices, supported authentic texts, correction after the activity, learner reflection"
+      ],
+      [
+       "Advanced (C1 to C2)",
+       "Use the language flexibly for social, academic or work purposes",
+       "Style, collocation, register, academic skills",
+       "Authentic materials, discussion and debate, extended writing, feedback on style and detail"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Skills by level"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Skill",
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+     ],
+     "rows": [
+      [
+       "Reading",
+       "Short texts with pictures",
+       "Longer texts; skimming and scanning",
+       "Authentic texts; inference and opinion"
+      ],
+      [
+       "Listening",
+       "Slow, clear, short dialogues",
+       "Natural speed with tasks",
+       "Talks, news and discussions"
+      ],
+      [
+       "Speaking",
+       "Drills and short dialogues",
+       "Role plays and discussions",
+       "Debate and presentations"
+      ],
+      [
+       "Writing",
+       "Words, sentences and short paragraphs",
+       "Paragraphs, emails, short essays",
+       "Essays and reports"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Adjusting your own language"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use shorter sentences and familiar words, and speak a little more slowly.",
+      "Use gestures, pictures and examples.",
+      "Do not distort the language or speak as if to a child.",
+      "Repeat key words and write them on the board."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Adapting one lesson for different levels"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Keep the same topic but change the task, for example sentence completion for some and open writing for others.",
+      "Give support (a word bank or a sentence frame) and challenge (an extension task).",
+      "Use open-ended tasks, so everyone can answer at their own level.",
+      "Mix levels in groups, with clear roles.",
+      "Offer a choice of texts or tasks."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Finding out learners' levels"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use a short diagnostic task at the start of the course.",
+      "Watch how learners cope with tasks.",
+      "Check the skills separately: reading, listening, speaking and writing."
+     ]
+    },
+    {
+     "t": "p",
+     "x": "For classes that include many levels, see the articles on mixed-ability classes (coming soon)."
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one task that the whole class can do at their own level.",
+      "Prepare a support version and an extension version.",
+      "Plan the language you will use to give instructions.",
+      "Plan how you will check each group."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Council of Europe, Common European Framework of Reference for Languages",
+      "Carol Ann Tomlinson, How to Differentiate Instruction in Mixed-Ability Classrooms",
+      "Jim Scrivener, Learning Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ]
+  },
+  {
+   "id": "teaching-beginners-elementary-intermediate-and-advanced-lear",
+   "group": "A. Teaching the language skills",
+   "title": "Teaching beginners, elementary, intermediate and advanced learners",
+   "parent": "how-to-teach-across-proficiency-levels"
+  },
+  {
+   "id": "adapting-one-lesson-for-different-levels",
+   "group": "A. Teaching the language skills",
+   "title": "Adapting one lesson for different levels",
+   "parent": "how-to-teach-across-proficiency-levels"
+  },
+  {
+   "id": "integrating-the-four-skills-in-one-lesson",
+   "group": "A. Teaching the language skills",
+   "title": "Integrating the four skills in one lesson"
+  },
+  {
+   "id": "communicative-language-teaching",
+   "group": "B. Approaches and methods",
+   "title": "Communicative language teaching"
+  },
+  {
+   "id": "task-based-learning",
+   "group": "B. Approaches and methods",
+   "title": "Task-based learning"
+  },
+  {
+   "id": "grammar-translation-and-direct-method-what-they-are-and-wher",
+   "group": "B. Approaches and methods",
+   "title": "Grammar-translation and direct method: what they are and where they still appear"
+  },
+  {
+   "id": "lexical-approach",
+   "group": "B. Approaches and methods",
+   "title": "Lexical approach"
+  },
+  {
+   "id": "content-and-language-integrated-learning-clil",
+   "group": "B. Approaches and methods",
+   "title": "Content and language integrated learning (CLIL)"
+  },
+  {
+   "id": "cooperative-learning",
+   "group": "B. Approaches and methods",
+   "title": "Cooperative learning"
+  },
+  {
+   "id": "project-based-learning",
+   "group": "B. Approaches and methods",
+   "title": "Project-based learning"
+  },
+  {
+   "id": "differentiated-instruction",
+   "group": "B. Approaches and methods",
+   "title": "Differentiated instruction"
+  },
+  {
+   "id": "learner-centred-teaching",
+   "group": "B. Approaches and methods",
+   "title": "Learner-centred teaching"
+  },
+  {
+   "id": "scaffolding",
+   "group": "B. Approaches and methods",
+   "title": "Scaffolding"
+  },
+  {
+   "id": "bloom-s-taxonomy-for-lesson-questions",
+   "group": "B. Approaches and methods",
+   "title": "Bloom's taxonomy for lesson questions"
+  },
+  {
+   "id": "learning-styles-what-the-evidence-says",
+   "group": "B. Approaches and methods",
+   "title": "Learning styles: what the evidence says"
+  },
+  {
+   "id": "flipped-and-blended-learning",
+   "group": "B. Approaches and methods",
+   "title": "Flipped and blended learning"
+  },
+  {
+   "id": "starting-a-lesson-lead-ins-and-warm-ups",
+   "group": "C. Lesson organisation",
+   "title": "Starting a lesson: lead-ins and warm-ups"
+  },
+  {
+   "id": "finishing-a-lesson-wrap-ups-and-exit-tasks",
+   "group": "C. Lesson organisation",
+   "title": "Finishing a lesson: wrap-ups and exit tasks"
+  },
+  {
+   "id": "pacing-and-timing",
+   "group": "C. Lesson organisation",
+   "title": "Pacing and timing"
+  },
+  {
+   "id": "using-the-textbook-well",
+   "group": "C. Lesson organisation",
+   "title": "Using the textbook well"
+  },
+  {
+   "id": "adapting-cutting-and-adding-to-textbook-activities",
+   "group": "C. Lesson organisation",
+   "title": "Adapting, cutting and adding to textbook activities"
+  },
+  {
+   "id": "teaching-a-lesson-with-no-resources",
+   "group": "C. Lesson organisation",
+   "title": "Teaching a lesson with no resources"
+  },
+  {
+   "id": "planning-for-a-substitute-teacher",
+   "group": "C. Lesson organisation",
+   "title": "Planning for a substitute teacher"
+  },
+  {
+   "id": "making-smooth-transitions-between-activities",
+   "group": "C. Lesson organisation",
+   "title": "Making smooth transitions between activities"
+  },
+  {
+   "id": "classroom-management",
+   "group": "D. Classroom management",
+   "title": "Classroom management",
+   "kw": "discipline control behaviour order",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Classroom management is everything you do to create the conditions in which learning can happen: organising space, time, materials and people, and responding to behaviour. Good management is mostly prevention."
+    },
+    {
+     "t": "h",
+     "x": "Principles"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Plan and prepare. Learners who are busy with a clear task rarely misbehave.",
+      "Be clear: say exactly what you want.",
+      "Be consistent: respond to the same behaviour in the same way.",
+      "Be fair to everyone.",
+      "Build good relationships with your learners.",
+      "Teach routines until they become habits.",
+      "Act early and calmly."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Key areas"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Area",
+      "What to do"
+     ],
+     "rows": [
+      [
+       "Space",
+       "Plan where learners sit and how you will move around the room"
+      ],
+      [
+       "Time",
+       "Plan the pace and keep transitions short"
+      ],
+      [
+       "Instructions",
+       "Keep them short, in steps, and check understanding"
+      ],
+      [
+       "Grouping",
+       "Decide pairs, groups and roles before the activity"
+      ],
+      [
+       "Attention",
+       "Use a clear signal and wait for quiet"
+      ],
+      [
+       "Teacher presence",
+       "Use your voice, eye contact and position"
+      ],
+      [
+       "Materials",
+       "Prepare and hand out in a quick, organised way"
+      ],
+      [
+       "Behaviour",
+       "Have clear rules and a calm, consistent response"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Starting well"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Be in the room before the learners arrive and greet them.",
+      "Have a short task ready on the board, so learners start at once.",
+      "Take attendance during the task.",
+      "Begin the lesson clearly with a signal."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Getting attention"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choose a signal and use it every time: raise a hand, a clap pattern or a countdown.",
+      "Wait for quiet. Do not talk over noise.",
+      "Lower your voice rather than raising it.",
+      "Praise the learners who are ready.",
+      "Use silence and eye contact."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Giving instructions"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Get everyone's attention.",
+      "Give the instruction in short steps.",
+      "Show an example or demonstrate.",
+      "Check with questions such as How many minutes do you have?",
+      "Start the activity and monitor."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Pair and group work"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Explain the task and the outcome.",
+      "Give each learner a role.",
+      "Set a time limit.",
+      "Walk around and listen.",
+      "Use the stop signal to end the activity.",
+      "Finish with feedback."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Space and movement"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Stand where all learners can see you, and move around the room.",
+      "Stand near learners who are not working.",
+      "Change the seating plan sometimes so learners work with different partners.",
+      "Keep the board clear and easy to read."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Transitions"
+    },
+    {
+     "t": "p",
+     "x": "Moving from one activity to the next is when most time is lost and most problems start. Practise routines, such as moving into groups in thirty seconds, and give clear signals."
+    },
+    {
+     "t": "h",
+     "x": "Responding to misbehaviour: a ladder"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Step",
+      "What you do"
+     ],
+     "rows": [
+      [
+       "1. Prevent",
+       "Keep learners busy and interested; stand near them"
+      ],
+      [
+       "2. Non-verbal",
+       "Eye contact, a gesture or move closer"
+      ],
+      [
+       "3. Quiet reminder",
+       "Say the learner's name or give a quiet reminder"
+      ],
+      [
+       "4. Clear statement",
+       "Say which rule was broken and what happens next"
+      ],
+      [
+       "5. Private talk",
+       "Talk to the learner alone after class"
+      ],
+      [
+       "6. Agreed consequence",
+       "Apply the consequence your class and school have agreed"
+      ],
+      [
+       "7. Involve others",
+       "For serious or repeated problems, involve the school and parents"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "x": "Stay calm. Criticise the behaviour, not the learner. Follow your school's policy. Avoid physical punishment and humiliation."
+    },
+    {
+     "t": "h",
+     "x": "Large classes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach routines early and practise them.",
+      "Use group leaders or helpers.",
+      "Write instructions on the board.",
+      "Use a seating plan.",
+      "Use a clear signal."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Decide your attention signal and teach it.",
+      "Write a short starting task on the board.",
+      "Plan how learners will move into groups.",
+      "Plan the exact words you will use for the main instruction.",
+      "Decide the first step you will take when someone talks while you teach."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Jim Scrivener, Classroom Management Techniques",
+      "Harry Wong and Rosemary Wong, The First Days of School",
+      "Jeremy Harmer, The Practice of English Language Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ]
+  },
+  {
+   "id": "the-first-day-and-first-week",
+   "group": "D. Classroom management",
+   "title": "The first day and first week",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "building-routines",
+   "group": "D. Classroom management",
+   "title": "Building routines",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "seating-arrangements",
+   "group": "D. Classroom management",
+   "title": "Seating arrangements",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "grouping-students-pairs-groups-and-roles",
+   "group": "D. Classroom management",
+   "title": "Grouping students: pairs, groups and roles",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "getting-students-attention",
+   "group": "D. Classroom management",
+   "title": "Getting students' attention",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "using-your-voice-and-body-language",
+   "group": "D. Classroom management",
+   "title": "Using your voice and body language",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "where-to-stand-and-how-to-move-around-the-room",
+   "group": "D. Classroom management",
+   "title": "Where to stand and how to move around the room",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "giving-clear-instructions",
+   "group": "D. Classroom management",
+   "title": "Giving clear instructions",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "managing-noise-in-pair-and-group-work",
+   "group": "D. Classroom management",
+   "title": "Managing noise in pair and group work",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "managing-a-large-class",
+   "group": "D. Classroom management",
+   "title": "Managing a large class",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "managing-a-mixed-ability-class",
+   "group": "D. Classroom management",
+   "title": "Managing a mixed-ability class",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "managing-early-finishers",
+   "group": "D. Classroom management",
+   "title": "Managing early finishers",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "managing-activities-with-movement",
+   "group": "D. Classroom management",
+   "title": "Managing activities with movement",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "handling-latecomers-and-absences",
+   "group": "D. Classroom management",
+   "title": "Handling latecomers and absences",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "managing-homework-collection-and-checking",
+   "group": "D. Classroom management",
+   "title": "Managing homework collection and checking",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "managing-materials-and-handouts",
+   "group": "D. Classroom management",
+   "title": "Managing materials and handouts",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "managing-the-board",
+   "group": "D. Classroom management",
+   "title": "Managing the board",
+   "parent": "classroom-management"
+  },
+  {
+   "id": "classroom-rules",
+   "group": "E. Rules and discipline",
+   "title": "Classroom rules",
+   "kw": "class rules agreement expectations behaviour",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Classroom rules tell everyone how the class works. They save time, make the classroom safe and fair, and give you a clear base for dealing with problems."
+    },
+    {
+     "t": "h",
+     "x": "What makes a good rule"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Few: about three to six rules are easy to remember.",
+      "Positive: Listen when others speak, rather than Do not talk.",
+      "Specific: Raise your hand to speak, so everyone can see whether it is followed.",
+      "Fair: the rules apply to the teacher as well.",
+      "Clear purpose: learners understand why each rule exists.",
+      "Visible: displayed in the classroom."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "How to make rules with learners"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Talk about what a good class looks like and sounds like.",
+      "Learners brainstorm in small groups.",
+      "Share ideas and group similar ones.",
+      "Choose a few and write them positively.",
+      "Agree: vote, then everyone signs or says yes.",
+      "Display the rules.",
+      "Practise the rules with role play.",
+      "Review the rules after a few weeks."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Examples"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Learners",
+      "Example rules"
+     ],
+     "rows": [
+      [
+       "Young learners",
+       "Listen when someone is speaking; Put your hand up; Keep hands and feet to yourself; Use kind words"
+      ],
+      [
+       "Teenagers",
+       "Respect each other; Arrive on time and ready; Use English in activities; Keep phones away unless the teacher says"
+      ],
+      [
+       "Adults",
+       "Arrive on time; Switch off phones; Respect different opinions; Complete homework"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teach the rules"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do not only display them. Practise the routines, such as how to ask for help.",
+      "Refer to the rule calmly: What is our rule about listening?",
+      "Praise learners who follow the rules."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Rules and consequences"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners should know the consequences in advance.",
+      "Apply them in the same way for everyone.",
+      "Make consequences proportionate and linked to the rule.",
+      "Follow your school's policy."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Keeping the rules working"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Be consistent.",
+      "Model the rules yourself.",
+      "Review and change rules that do not work.",
+      "Do not add too many rules."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Mistakes to avoid"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Too many rules.",
+      "Negative rules only.",
+      "Rules the teacher makes alone and never discusses.",
+      "Unfair enforcement.",
+      "Threats you do not carry out.",
+      "Punishing the whole class for one learner."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common problems and fixes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "Learners ignore the rules",
+       "Review them, practise them, apply consequences consistently and praise good behaviour"
+      ],
+      [
+       "The class has too many rules",
+       "Choose the three to six most important and combine the rest"
+      ],
+      [
+       "Learners say it is not fair",
+       "Listen, explain the reason, and involve learners in adjusting the rule"
+      ],
+      [
+       "New learners join the class",
+       "Teach the rules again and let a learner explain them"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Ask groups to suggest three rules for a good class.",
+      "Choose four or five and write them positively.",
+      "Display them where everyone can see.",
+      "Practise one routine, such as how to get attention.",
+      "Plan how you will refer to the rules during the lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Harry Wong and Rosemary Wong, The First Days of School",
+      "Jim Scrivener, Classroom Management Techniques",
+      "Jane Nelsen, Positive Discipline"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ]
+  },
+  {
+   "id": "making-classroom-rules-with-students",
+   "group": "E. Rules and discipline",
+   "title": "Making classroom rules with students",
+   "parent": "classroom-rules"
+  },
+  {
+   "id": "rules-for-young-learners-teenagers-and-adults",
+   "group": "E. Rules and discipline",
+   "title": "Rules for young learners, teenagers and adults",
+   "parent": "classroom-rules"
+  },
+  {
+   "id": "keeping-rules-consistent-and-fair",
+   "group": "E. Rules and discipline",
+   "title": "Keeping rules consistent and fair",
+   "parent": "classroom-rules"
+  },
+  {
+   "id": "positive-punishment",
+   "group": "E. Rules and discipline",
+   "title": "Positive punishment",
+   "kw": "discipline reinforcement operant conditioning Skinner consequences",
+   "blocks": [
+    {
+     "t": "note",
+     "x": "In behaviour psychology, positive punishment has a technical meaning. It does not mean a nice or kind punishment."
+    },
+    {
+     "t": "h",
+     "x": "The four terms"
+    },
+    {
+     "t": "p",
+     "x": "The terms come from operant conditioning, associated with the psychologist B. F. Skinner. Positive means something is added. Negative means something is removed. Reinforcement increases a behaviour. Punishment decreases a behaviour."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Term",
+      "What happens",
+      "Effect on behaviour",
+      "Classroom example"
+     ],
+     "rows": [
+      [
+       "Positive reinforcement",
+       "Something pleasant is added",
+       "Behaviour increases",
+       "Praise or a point for finishing homework"
+      ],
+      [
+       "Negative reinforcement",
+       "Something unpleasant is removed",
+       "Behaviour increases",
+       "The teacher stops repeating reminders once learners start working quietly"
+      ],
+      [
+       "Positive punishment",
+       "Something unpleasant is added",
+       "Behaviour decreases",
+       "A scolding or extra work"
+      ],
+      [
+       "Negative punishment",
+       "Something pleasant is removed",
+       "Behaviour decreases",
+       "Losing a few minutes of free time"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What research and experience suggest"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Punishment may stop a behaviour for a short time, but it does not teach learners what to do instead.",
+      "It can cause fear, anger, or avoidance of the teacher or the subject.",
+      "How well it works depends on timing, consistency and the relationship between teacher and learner.",
+      "Harsh punishment, public humiliation and physical punishment can harm learners. They are not recommended.",
+      "Reinforcing the behaviour you want usually leads to longer-lasting change."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "If you use consequences"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Stay calm. Speak privately when you can.",
+      "Keep the consequence proportionate and related to the behaviour.",
+      "Explain it in advance so it is not a surprise.",
+      "Be consistent.",
+      "Focus on the behaviour, not the learner's character.",
+      "Give the learner a chance to put things right.",
+      "Never use physical or humiliating punishments.",
+      "Avoid using schoolwork, such as extra homework, as punishment, because it teaches learners to dislike the work."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Alternatives"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Instead of",
+      "Try"
+     ],
+     "rows": [
+      [
+       "Shouting at the class",
+       "A clear signal, then wait for quiet"
+      ],
+      [
+       "Extra homework as punishment",
+       "A short talk, or a catch-up task related to the missed work"
+      ],
+      [
+       "Embarrassing a learner in front of others",
+       "A private word, or moving a seat"
+      ],
+      [
+       "Only noticing misbehaviour",
+       "Praising specific good behaviour"
+      ],
+      [
+       "Unclear rules",
+       "Clear rules made with the class"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Using reinforcement well"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Praise the specific behaviour: You listened carefully to your partner.",
+      "Give praise or rewards soon after the behaviour.",
+      "Use a variety of rewards, not only points or sweets.",
+      "Some researchers warn that too many external rewards can reduce interest in the task, so reduce rewards gradually as the habit grows."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "Courses may use these terms differently. If your teacher uses positive punishment to mean gentler consequences without anger, check the definition in your course notes."
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Notice and praise three examples of the behaviour you want.",
+      "Write down the consequences your class and school have agreed.",
+      "Plan what you will say to a learner privately.",
+      "Review how you respond: calm, consistent and fair?"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "B. F. Skinner, Science and Human Behavior",
+      "Jane Nelsen, Positive Discipline",
+      "Alfie Kohn, Punished by Rewards"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ]
+  },
+  {
+   "id": "reinforcement-and-punishment-explained-positive-and-negative",
+   "group": "E. Rules and discipline",
+   "title": "Reinforcement and punishment explained: positive and negative"
+  },
+  {
+   "id": "positive-discipline",
+   "group": "E. Rules and discipline",
+   "title": "Positive discipline"
+  },
+  {
+   "id": "rewards-and-praise-that-work",
+   "group": "E. Rules and discipline",
+   "title": "Rewards and praise that work"
+  },
+  {
+   "id": "token-systems-and-behaviour-charts",
+   "group": "E. Rules and discipline",
+   "title": "Token systems and behaviour charts"
+  },
+  {
+   "id": "consequences-logical-fair-and-proportionate",
+   "group": "E. Rules and discipline",
+   "title": "Consequences: logical, fair and proportionate"
+  },
+  {
+   "id": "warnings-and-step-by-step-responses",
+   "group": "E. Rules and discipline",
+   "title": "Warnings and step-by-step responses"
+  },
+  {
+   "id": "restorative-approaches-repairing-harm",
+   "group": "E. Rules and discipline",
+   "title": "Restorative approaches: repairing harm"
+  },
+  {
+   "id": "behaviour-contracts",
+   "group": "E. Rules and discipline",
+   "title": "Behaviour contracts"
+  },
+  {
+   "id": "alternatives-to-corporal-punishment",
+   "group": "E. Rules and discipline",
+   "title": "Alternatives to corporal punishment"
+  },
+  {
+   "id": "talking-to-parents-about-behaviour",
+   "group": "E. Rules and discipline",
+   "title": "Talking to parents about behaviour"
+  },
+  {
+   "id": "staying-calm-and-professional-under-pressure",
+   "group": "E. Rules and discipline",
+   "title": "Staying calm and professional under pressure"
+  },
+  {
+   "id": "students-talk-while-i-am-teaching",
+   "group": "F. Real classroom problems",
+   "title": "Students talk while I am teaching",
+   "kw": "noise chatter talkative quiet attention interrupt"
+  },
+  {
+   "id": "students-use-their-first-language-too-much",
+   "group": "F. Real classroom problems",
+   "title": "Students use their first language too much",
+   "kw": "L1 mother tongue Khmer English only"
+  },
+  {
+   "id": "students-do-not-do-their-homework",
+   "group": "F. Real classroom problems",
+   "title": "Students do not do their homework",
+   "kw": "homework assignments lazy not submit"
+  },
+  {
+   "id": "students-come-late",
+   "group": "F. Real classroom problems",
+   "title": "Students come late",
+   "kw": "late tardy punctuality"
+  },
+  {
+   "id": "students-use-their-phones-in-class",
+   "group": "F. Real classroom problems",
+   "title": "Students use their phones in class",
+   "kw": "mobile phones smartphones distraction"
+  },
+  {
+   "id": "students-fall-asleep-in-class",
+   "group": "F. Real classroom problems",
+   "title": "Students fall asleep in class",
+   "kw": "sleepy tired bored"
+  },
+  {
+   "id": "students-copy-or-cheat",
+   "group": "F. Real classroom problems",
+   "title": "Students copy or cheat",
+   "kw": "cheating copying plagiarism"
+  },
+  {
+   "id": "students-refuse-to-take-part",
+   "group": "F. Real classroom problems",
+   "title": "Students refuse to take part",
+   "kw": "refuse participation unwilling passive"
+  },
+  {
+   "id": "students-are-afraid-of-making-mistakes",
+   "group": "F. Real classroom problems",
+   "title": "Students are afraid of making mistakes",
+   "kw": "fear shy anxiety errors confidence"
+  },
+  {
+   "id": "a-few-students-dominate-the-class",
+   "group": "F. Real classroom problems",
+   "title": "A few students dominate the class",
+   "kw": "dominant talkative same students"
+  },
+  {
+   "id": "shy-and-silent-students",
+   "group": "F. Real classroom problems",
+   "title": "Shy and silent students",
+   "kw": "quiet reluctant speak silent"
+  },
+  {
+   "id": "the-class-clown-and-attention-seekers",
+   "group": "F. Real classroom problems",
+   "title": "The class clown and attention seekers",
+   "kw": "disruptive jokes misbehave"
+  },
+  {
+   "id": "disrespect-towards-the-teacher",
+   "group": "F. Real classroom problems",
+   "title": "Disrespect towards the teacher",
+   "kw": "rude cheeky talk back defiant"
+  },
+  {
+   "id": "bullying-and-conflict-between-students",
+   "group": "F. Real classroom problems",
+   "title": "Bullying and conflict between students",
+   "kw": "fight argue teasing"
+  },
+  {
+   "id": "a-student-who-gets-angry-or-aggressive",
+   "group": "F. Real classroom problems",
+   "title": "A student who gets angry or aggressive",
+   "kw": "anger violence tantrum"
+  },
+  {
+   "id": "students-who-finish-too-fast-or-too-slowly",
+   "group": "F. Real classroom problems",
+   "title": "Students who finish too fast or too slowly",
+   "kw": "early finishers slow"
+  },
+  {
+   "id": "students-who-cannot-keep-up",
+   "group": "F. Real classroom problems",
+   "title": "Students who cannot keep up",
+   "kw": "weak struggling slow learners"
+  },
+  {
+   "id": "students-with-low-motivation",
+   "group": "F. Real classroom problems",
+   "title": "Students with low motivation",
+   "kw": "bored uninterested unmotivated"
+  },
+  {
+   "id": "students-with-test-anxiety",
+   "group": "F. Real classroom problems",
+   "title": "Students with test anxiety",
+   "kw": "exam stress nerves"
+  },
+  {
+   "id": "a-noisy-class-that-will-not-settle",
+   "group": "F. Real classroom problems",
+   "title": "A noisy class that will not settle",
+   "kw": "loud noise chaos out of control"
+  },
+  {
+   "id": "too-many-students-and-not-enough-space",
+   "group": "F. Real classroom problems",
+   "title": "Too many students and not enough space",
+   "kw": "large class crowded"
+  },
+  {
+   "id": "not-enough-books-or-materials",
+   "group": "F. Real classroom problems",
+   "title": "Not enough books or materials",
+   "kw": "no resources shortage"
+  },
+  {
+   "id": "activities-that-fail-or-lessons-that-go-wrong",
+   "group": "F. Real classroom problems",
+   "title": "Activities that fail or lessons that go wrong",
+   "kw": "bad lesson failed"
+  },
+  {
+   "id": "running-out-of-time-or-finishing-too-early",
+   "group": "F. Real classroom problems",
+   "title": "Running out of time or finishing too early",
+   "kw": "timing time management"
+  },
+  {
+   "id": "motivating-learners",
+   "group": "G. Motivation and relationships",
+   "title": "Motivating learners"
+  },
+  {
+   "id": "intrinsic-and-extrinsic-motivation",
+   "group": "G. Motivation and relationships",
+   "title": "Intrinsic and extrinsic motivation"
+  },
+  {
+   "id": "building-students-confidence",
+   "group": "G. Motivation and relationships",
+   "title": "Building students' confidence"
+  },
+  {
+   "id": "growth-mindset-in-the-classroom",
+   "group": "G. Motivation and relationships",
+   "title": "Growth mindset in the classroom"
+  },
+  {
+   "id": "praise-and-encouragement",
+   "group": "G. Motivation and relationships",
+   "title": "Praise and encouragement"
+  },
+  {
+   "id": "building-rapport-with-students",
+   "group": "G. Motivation and relationships",
+   "title": "Building rapport with students"
+  },
+  {
+   "id": "teaching-reluctant-teenagers",
+   "group": "G. Motivation and relationships",
+   "title": "Teaching reluctant teenagers"
+  },
+  {
+   "id": "using-games-humour-and-stories",
+   "group": "G. Motivation and relationships",
+   "title": "Using games, humour and stories"
+  },
+  {
+   "id": "learner-autonomy-and-goal-setting",
+   "group": "G. Motivation and relationships",
+   "title": "Learner autonomy and goal setting"
+  },
+  {
+   "id": "creating-a-positive-classroom-climate",
+   "group": "G. Motivation and relationships",
+   "title": "Creating a positive classroom climate"
+  },
+  {
+   "id": "questioning-techniques",
+   "group": "H. Questions, feedback and correction",
+   "title": "Questioning techniques"
+  },
+  {
+   "id": "eliciting-instead-of-telling",
+   "group": "H. Questions, feedback and correction",
+   "title": "Eliciting instead of telling"
+  },
+  {
+   "id": "concept-checking-and-instruction-checking-questions",
+   "group": "H. Questions, feedback and correction",
+   "title": "Concept-checking and instruction-checking questions"
+  },
+  {
+   "id": "wait-time",
+   "group": "H. Questions, feedback and correction",
+   "title": "Wait time"
+  },
+  {
+   "id": "error-correction-techniques",
+   "group": "H. Questions, feedback and correction",
+   "title": "Error correction techniques"
+  },
+  {
+   "id": "peer-correction-and-self-correction",
+   "group": "H. Questions, feedback and correction",
+   "title": "Peer correction and self-correction"
+  },
+  {
+   "id": "giving-useful-feedback",
+   "group": "H. Questions, feedback and correction",
+   "title": "Giving useful feedback"
+  },
+  {
+   "id": "marking-written-work-correction-codes",
+   "group": "H. Questions, feedback and correction",
+   "title": "Marking written work (correction codes)"
+  },
+  {
+   "id": "formative-and-summative-assessment",
+   "group": "I. Assessment",
+   "title": "Formative and summative assessment"
+  },
+  {
+   "id": "writing-a-good-test",
+   "group": "I. Assessment",
+   "title": "Writing a good test"
+  },
+  {
+   "id": "test-types-and-when-to-use-them",
+   "group": "I. Assessment",
+   "title": "Test types and when to use them"
+  },
+  {
+   "id": "rubrics-for-speaking-and-writing",
+   "group": "I. Assessment",
+   "title": "Rubrics for speaking and writing"
+  },
+  {
+   "id": "continuous-assessment",
+   "group": "I. Assessment",
+   "title": "Continuous assessment"
+  },
+  {
+   "id": "self-assessment-and-peer-assessment",
+   "group": "I. Assessment",
+   "title": "Self-assessment and peer assessment"
+  },
+  {
+   "id": "exam-preparation",
+   "group": "I. Assessment",
+   "title": "Exam preparation"
+  },
+  {
+   "id": "preventing-cheating-in-tests",
+   "group": "I. Assessment",
+   "title": "Preventing cheating in tests"
+  },
+  {
+   "id": "reporting-results-to-students-and-parents",
+   "group": "I. Assessment",
+   "title": "Reporting results to students and parents"
+  },
+  {
+   "id": "teaching-young-learners",
+   "group": "J. Different learners and contexts",
+   "title": "Teaching young learners"
+  },
+  {
+   "id": "teaching-teenagers",
+   "group": "J. Different learners and contexts",
+   "title": "Teaching teenagers"
+  },
+  {
+   "id": "teaching-adults",
+   "group": "J. Different learners and contexts",
+   "title": "Teaching adults"
+  },
+  {
+   "id": "teaching-large-classes",
+   "group": "J. Different learners and contexts",
+   "title": "Teaching large classes"
+  },
+  {
+   "id": "teaching-mixed-ability-classes",
+   "group": "J. Different learners and contexts",
+   "title": "Teaching mixed-ability classes"
+  },
+  {
+   "id": "learners-with-learning-difficulties-general-strategies",
+   "group": "J. Different learners and contexts",
+   "title": "Learners with learning difficulties (general strategies)"
+  },
+  {
+   "id": "fast-or-gifted-learners",
+   "group": "J. Different learners and contexts",
+   "title": "Fast or gifted learners"
+  },
+  {
+   "id": "teaching-english-to-khmer-speaking-learners-common-difficult",
+   "group": "J. Different learners and contexts",
+   "title": "Teaching English to Khmer-speaking learners: common difficulties"
+  },
+  {
+   "id": "using-the-first-language-in-an-english-class",
+   "group": "J. Different learners and contexts",
+   "title": "Using the first language in an English class"
+  },
+  {
+   "id": "inclusive-classrooms",
+   "group": "J. Different learners and contexts",
+   "title": "Inclusive classrooms"
+  },
+  {
+   "id": "using-flashcards-and-pictures",
+   "group": "K. Materials, technology and resources",
+   "title": "Using flashcards and pictures"
+  },
+  {
+   "id": "using-realia-and-real-objects",
+   "group": "K. Materials, technology and resources",
+   "title": "Using realia and real objects"
+  },
+  {
+   "id": "using-songs-videos-and-stories",
+   "group": "K. Materials, technology and resources",
+   "title": "Using songs, videos and stories"
+  },
+  {
+   "id": "making-your-own-teaching-aids",
+   "group": "K. Materials, technology and resources",
+   "title": "Making your own teaching aids"
+  },
+  {
+   "id": "designing-a-good-worksheet",
+   "group": "K. Materials, technology and resources",
+   "title": "Designing a good worksheet"
+  },
+  {
+   "id": "using-phones-and-ai-tools-in-class-benefits-and-limits",
+   "group": "K. Materials, technology and resources",
+   "title": "Using phones and AI tools in class: benefits and limits"
+  },
+  {
+   "id": "teaching-online-the-basics",
+   "group": "K. Materials, technology and resources",
+   "title": "Teaching online: the basics"
+  },
+  {
+   "id": "teaching-with-very-few-resources",
+   "group": "K. Materials, technology and resources",
+   "title": "Teaching with very few resources"
+  },
+  {
+   "id": "reflective-practice",
+   "group": "L. Teacher development",
+   "title": "Reflective practice"
+  },
+  {
+   "id": "being-observed-and-observing-others",
+   "group": "L. Teacher development",
+   "title": "Being observed and observing others"
+  },
+  {
+   "id": "teaching-practice-and-demo-lessons-tips",
+   "group": "L. Teacher development",
+   "title": "Teaching practice and demo lessons: tips"
+  },
+  {
+   "id": "surviving-your-first-year",
+   "group": "L. Teacher development",
+   "title": "Surviving your first year"
+  },
+  {
+   "id": "looking-after-your-voice-and-your-energy",
+   "group": "L. Teacher development",
+   "title": "Looking after your voice and your energy"
+  },
+  {
+   "id": "working-with-co-teachers-and-school-leaders",
+   "group": "L. Teacher development",
+   "title": "Working with co-teachers and school leaders"
+  },
+  {
+   "id": "professional-ethics",
+   "group": "L. Teacher development",
+   "title": "Professional ethics"
+  },
+  {
+   "id": "communicating-with-parents",
+   "group": "L. Teacher development",
+   "title": "Communicating with parents"
+  },
+  {
+   "id": "writing-a-teaching-philosophy",
+   "group": "L. Teacher development",
+   "title": "Writing a teaching philosophy"
+  }
+ ]
+}
