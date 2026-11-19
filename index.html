@@ -2809,6 +2809,8 @@ function openA(x){
   const par=x.parent&&asecs.find(y=>y.id===x.parent),kids=asecs.filter(y=>y.parent===x.id);
   if(par){more.append(el('h3','','Part of'));const b=el('button',par.ready?'':'soon',par.title);b.onclick=()=>openA(par);more.append(b)}
   if(kids.length){more.append(el('h3','','More on this topic'));const g=el('div','grp');kids.forEach(k=>{const b=el('button',k.ready?'':'soon',k.title);b.onclick=()=>openA(k);g.append(b)});more.append(g)}
+  const rel=(x.related||[]).map(id=>asecs.find(y=>y.id===id)).filter(Boolean);
+  if(rel.length){more.append(el('h3','','Related articles'));const g=el('div','grp');rel.forEach(k=>{const b=el('button',k.ready?'':'soon',k.title);b.onclick=()=>openA(k);g.append(b)});more.append(g)}
   $('#aPrev').disabled=!aNear(-1);$('#aNext').disabled=!aNear(1);
   renderList();window.scrollTo(0,0);
 }
