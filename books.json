@@ -13,7 +13,8 @@
 	{ "title": "English Grade 9_Lesson Plan", "category": "Lesson Plans", "file": "books/English Grade 9_Lesson Plan.pdf" },
 	{ "title": "English Grade 7: Listening", "category": "Listening", "tracks": "listening/grade7.json" },
 	{ "title": "English Grade 8: Listening", "category": "Listening", "tracks": "listening/grade8.json" },
-	{ "title": "English Grade 9: Listening", "category": "Listening", "tracks": "listening/grade9.json" }
+	{ "title": "English Grade 9: Listening", "category": "Listening", "tracks": "listening/grade9.json" },
+	{ "title": "អនុក្រឹត្យ_ក្រមសីលធម៌គ្រូបង្រៀន", "category": "ឯកសាររដ្ឋ", "file": "books/អនុក្រឹត្យ_ក្រមសីលធម៌គ្រូបង្រៀន.pdf" }
 
   ]
 }
