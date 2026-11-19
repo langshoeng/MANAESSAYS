@@ -2120,103 +2120,2299 @@
    "id": "the-first-day-and-first-week",
    "group": "D. Classroom management",
    "title": "The first day and first week",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "The first days set the tone for the whole course. Your aims are for learners to feel welcome, to know how the class works, and to start learning straight away."
+    },
+    {
+     "t": "note",
+     "x": "Some schools have their own first-day procedures. Follow them first."
+    },
+    {
+     "t": "h",
+     "x": "Before the first lesson"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Find out about the room, the timetable and the school rules.",
+      "Get the class list and prepare name cards or a seating plan.",
+      "Prepare a simple first activity that every learner can succeed at.",
+      "Decide your attention signal and the routines you will teach first."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A possible first lesson (45 minutes)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Time",
+      "Activity"
+     ],
+     "rows": [
+      [
+       "0 to 5 min",
+       "Greet learners at the door and help them find their seats and name cards"
+      ],
+      [
+       "5 to 15 min",
+       "Introductions and a name game, for example: My name is... and I like..."
+      ],
+      [
+       "15 to 25 min",
+       "How our class works: teach the attention signal and talk about class rules (see Classroom rules)"
+      ],
+      [
+       "25 to 40 min",
+       "A short, easy language task so learners feel successful"
+      ],
+      [
+       "40 to 45 min",
+       "Wrap-up, a small homework task, and a preview of the next lesson"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Learning names"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use name cards on desks for the first week.",
+      "Keep a seating plan and mark the names.",
+      "Play a name game.",
+      "Use names often when you speak to learners.",
+      "Ask learners how to pronounce their names, and practise saying them correctly."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Routines in the first week"
+    },
+    {
+     "t": "p",
+     "x": "Teach one routine at a time: entering, starting the lesson, the attention signal, working in pairs, handing out materials and ending the lesson. Practise each one and praise learners who do it well. See Building routines."
+    },
+    {
+     "t": "h",
+     "x": "Getting to know your learners"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use a short questionnaire: interests, why they study English, what they find difficult.",
+      "Listen to what learners say and use it in later lessons.",
+      "Note anything the school needs to know about a learner's needs."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Reading a long list of rules with no activity.",
+      "Too much teacher talk.",
+      "Not learning names.",
+      "Being unclear about what you expect.",
+      "Starting with a task that is too hard."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Prepare name cards or a seating plan.",
+      "Plan a first activity every learner can do.",
+      "Decide your attention signal and practise it.",
+      "Plan how you will start and end the lesson.",
+      "Write down three things you want to learn about your learners."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Harry Wong and Rosemary Wong, The First Days of School",
+      "Jim Scrivener, Classroom Management Techniques"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "classroom-rules",
+    "building-routines",
+    "seating-arrangements",
+    "classroom-management"
+   ]
   },
   {
    "id": "building-routines",
    "group": "D. Classroom management",
    "title": "Building routines",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A routine is something learners do the same way every time. Routines save time, reduce instructions and help learners feel safe, because they know what to expect."
+    },
+    {
+     "t": "h",
+     "x": "Why routines help"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "They save lesson time.",
+      "Learners know what to do without being told.",
+      "There are fewer behaviour problems at the start and in transitions.",
+      "You can give more attention to teaching.",
+      "They help learners who need predictability."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Routines worth building"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Routine",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Entering the room",
+       "Greet, sit down and start the task on the board"
+      ],
+      [
+       "Starting the lesson",
+       "Attention signal, date, quick review"
+      ],
+      [
+       "Getting attention",
+       "One signal that is used every time"
+      ],
+      [
+       "Pair and group work",
+       "Find a partner quickly, take a role, stop at the signal"
+      ],
+      [
+       "Handing out materials",
+       "Row leaders or group helpers hand out and collect"
+      ],
+      [
+       "Asking for help",
+       "Ask a partner first, then raise your hand"
+      ],
+      [
+       "Homework",
+       "Put it in the same place; check it in pairs at the start"
+      ],
+      [
+       "Ending the lesson",
+       "Tidy up, review, and leave when the teacher gives the signal"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "How to teach a routine"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Decide exactly what learners should do, in three or four steps.",
+      "Explain why it helps.",
+      "Show how to do it. Demonstrate it correctly.",
+      "Practise it together and time it.",
+      "Give feedback and praise.",
+      "Repeat it for the first weeks until it is automatic.",
+      "Return to it if it slips."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Start with a few simple routines. Add more slowly.",
+      "Use the same words every time.",
+      "Put the steps on a poster.",
+      "With young learners, use a chant or a song.",
+      "Follow the routines yourself."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching too many routines at once.",
+      "Not practising them.",
+      "Changing routines often.",
+      "Not following your own routines."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one routine to teach.",
+      "Write its steps in three or four short points.",
+      "Demonstrate it, then practise it with the class.",
+      "Praise learners who follow it."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Harry Wong and Rosemary Wong, The First Days of School",
+      "Jim Scrivener, Classroom Management Techniques"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "the-first-day-and-first-week",
+    "getting-students-attention",
+    "giving-clear-instructions",
+    "classroom-management"
+   ]
   },
   {
    "id": "seating-arrangements",
    "group": "D. Classroom management",
    "title": "Seating arrangements",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Where learners sit affects who they talk to, how well they see and hear, and how easily you can move around the room."
+    },
+    {
+     "t": "h",
+     "x": "Common arrangements"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Arrangement",
+      "Good for",
+      "Watch for"
+     ],
+     "rows": [
+      [
+       "Rows",
+       "Listening, tests, large classes, fixed desks",
+       "Little interaction between learners"
+      ],
+      [
+       "Pairs in rows",
+       "Quick pair work in any room",
+       "Limited ways to form groups"
+      ],
+      [
+       "Groups of four to six",
+       "Group tasks and projects",
+       "Some learners have their backs to the board"
+      ],
+      [
+       "U shape or horseshoe",
+       "Discussion; the teacher can reach everyone",
+       "Needs space; works best in small classes"
+      ],
+      [
+       "Circle",
+       "Speaking and discussion",
+       "Needs space"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Planning your seating"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Make sure everyone can see the board and hear you.",
+      "Seat learners who need more help near the front or near you.",
+      "Separate learners who distract each other.",
+      "Mix levels for support, or seat similar levels together for challenge, depending on the task.",
+      "Think about eyesight and hearing.",
+      "Leave aisles so you can reach every learner."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Seating plans"
+    },
+    {
+     "t": "p",
+     "x": "A seating plan helps you learn names and notice who is absent. Change it every few weeks and explain that it is for working with different partners, not as a punishment."
+    },
+    {
+     "t": "h",
+     "x": "Fixed desks and crowded rooms"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use neighbours as pairs.",
+      "Let the front row turn around to work with the row behind.",
+      "Use group leaders and rows as teams.",
+      "Do not move heavy furniture if it takes too long or is unsafe."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Letting learners choose"
+    },
+    {
+     "t": "p",
+     "x": "Free choice can help confidence, but friends may sit together and distract each other. A mix works well: sometimes learners choose, sometimes you decide."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Never changing the seating.",
+      "Ignoring learners in the back rows.",
+      "Blocking aisles.",
+      "Spending a long time moving furniture."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Draw a seating plan.",
+      "Check that every learner can see the board.",
+      "Move two learners who distract each other.",
+      "Plan a pair or group task that works with this arrangement."
+     ]
+    }
+   ],
+   "related": [
+    "managing-a-large-class",
+    "grouping-students-pairs-groups-and-roles",
+    "too-many-students-and-not-enough-space",
+    "the-first-day-and-first-week"
+   ]
   },
   {
    "id": "grouping-students-pairs-groups-and-roles",
    "group": "D. Classroom management",
    "title": "Grouping students: pairs, groups and roles",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "How you group learners decides how much they talk, how much they help each other, and how easy the activity is to manage."
+    },
+    {
+     "t": "h",
+     "x": "Pairs, groups and whole class"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Grouping",
+      "Good for",
+      "Tips"
+     ],
+     "rows": [
+      [
+       "Pairs",
+       "Practice, checking answers, speaking",
+       "The easiest to manage; use often"
+      ],
+      [
+       "Groups of three or four",
+       "Discussion, role plays, projects",
+       "Give each learner a role"
+      ],
+      [
+       "Larger groups (five or six)",
+       "Projects and games",
+       "Need clear roles and a clear task"
+      ],
+      [
+       "Individual",
+       "Thinking, writing, tests",
+       "Follow with a pair check"
+      ],
+      [
+       "Whole class",
+       "Presentation and feedback",
+       "Keep it short"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Ways to make pairs and groups"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use neighbours.",
+      "Count off: one, two, three, four, and put all the ones together.",
+      "Matching cards: each learner finds the partner with the matching word or picture.",
+      "Line up by birthday, then divide the line.",
+      "Use colours, symbols or numbers on cards.",
+      "Choose pairs yourself to mix levels.",
+      "Draw names at random."
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Change partners often so learners work with different people. Mixed-level groups give support. Groups of similar level can give appropriate challenge. Use both at different times."
+    },
+    {
+     "t": "h",
+     "x": "Roles in groups"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Role",
+      "Job"
+     ],
+     "rows": [
+      [
+       "Leader",
+       "Keeps the group on task and makes sure everyone speaks"
+      ],
+      [
+       "Writer",
+       "Writes down the answers"
+      ],
+      [
+       "Reporter",
+       "Tells the class what the group decided"
+      ],
+      [
+       "Timekeeper",
+       "Watches the time"
+      ],
+      [
+       "Language monitor",
+       "Reminds the group to use English and helps with phrases"
+      ],
+      [
+       "Materials manager",
+       "Collects and returns materials"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Rotate the roles so every learner has a turn."
+    },
+    {
+     "t": "h",
+     "x": "Running a group activity"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Explain the task and demonstrate it.",
+      "Form the groups and give out roles.",
+      "Set a time limit.",
+      "Walk around and monitor.",
+      "Use the stop signal.",
+      "Ask groups to report, and give feedback."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common problems"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "One learner does all the work",
+       "Give roles and make each learner responsible for a part; ask each learner to write their own copy"
+      ],
+      [
+       "Learners go off-task",
+       "Use shorter tasks with a clear outcome, and monitor closely"
+      ],
+      [
+       "Learners argue",
+       "Change the groups, and teach simple rules for working together"
+      ],
+      [
+       "The levels are very different",
+       "Use roles that suit each learner and give support materials"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Decide how you will make groups.",
+      "Prepare role cards.",
+      "Set a clear task, a time limit and a stop signal.",
+      "Plan how groups will report."
+     ]
+    }
+   ],
+   "related": [
+    "managing-noise-in-pair-and-group-work",
+    "seating-arrangements",
+    "a-few-students-dominate-the-class",
+    "classroom-management"
+   ]
   },
   {
    "id": "getting-students-attention",
    "group": "D. Classroom management",
    "title": "Getting students' attention",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "To get attention without shouting, use a signal that learners know, and wait until they respond."
+    },
+    {
+     "t": "h",
+     "x": "Principles"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach the signal and practise it.",
+      "Use the same signal every time.",
+      "Wait until everyone responds.",
+      "Give instructions only when the room is quiet.",
+      "Do not compete with noise.",
+      "Be positive."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Signals to try"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Signal",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Hand up",
+       "You raise a hand; learners copy and stop talking"
+      ],
+      [
+       "Clap pattern",
+       "You clap a rhythm; learners clap it back"
+      ],
+      [
+       "Countdown",
+       "You count from five to one"
+      ],
+      [
+       "Call and response",
+       "You say a phrase and learners answer, such as One, two, three: eyes on me"
+      ],
+      [
+       "Bell or chime",
+       "A simple sound that means stop"
+      ],
+      [
+       "Quiet gesture",
+       "A hand to the ear or a finger to the lips"
+      ],
+      [
+       "Stop, look, listen",
+       "A short phrase learners know"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Steps"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Stop the activity.",
+      "Give the signal.",
+      "Wait. Look around calmly and do not talk.",
+      "Thank the learners who respond: Thank you, row two.",
+      "When everyone is quiet, give the instruction.",
+      "If some learners do not respond, repeat the signal calmly."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Practise the signal on the first day.",
+      "Use eye contact and a calm face.",
+      "Lower your voice instead of raising it.",
+      "Give a warning before you stop an activity: Two minutes left.",
+      "With young learners, use a song or a chant.",
+      "Do not start until you have everyone's attention."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Raising your voice.",
+      "Saying Quiet! again and again with no signal.",
+      "Talking while learners are still noisy.",
+      "Changing the signal.",
+      "Using a signal that is too complicated."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one signal.",
+      "Teach it and practise it three times.",
+      "Wait for everyone and thank those who respond.",
+      "Give a one-minute warning before the next stop."
+     ]
+    }
+   ],
+   "related": [
+    "a-noisy-class-that-will-not-settle",
+    "students-talk-while-i-am-teaching",
+    "building-routines",
+    "classroom-management"
+   ]
   },
   {
    "id": "using-your-voice-and-body-language",
    "group": "D. Classroom management",
    "title": "Using your voice and body language",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "How you speak and stand affects how learners respond. A clear voice and calm body language help you teach and manage the class."
+    },
+    {
+     "t": "h",
+     "x": "Your voice"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Volume: loud enough for the back of the room, but not shouting.",
+      "Pace: speak a little more slowly for instructions, and not too slowly.",
+      "Clear speech: do not mumble. Finish your words.",
+      "Pauses: stop after important points and after questions.",
+      "Variety: change pitch and speed to keep attention.",
+      "A quiet voice can bring attention better than a loud one.",
+      "Look after your voice: drink water and rest it when you can."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Body language"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Element",
+      "Tip"
+     ],
+     "rows": [
+      [
+       "Eye contact",
+       "Look at all areas of the room, not just one group. Norms differ, and some learners avoid eye contact out of respect, so be sensitive"
+      ],
+      [
+       "Posture",
+       "Stand tall and relaxed. Avoid crossed arms"
+      ],
+      [
+       "Gestures",
+       "Use clear gestures to show meaning, numbers, pairs or stop"
+      ],
+      [
+       "Facial expression",
+       "Smile and show interest"
+      ],
+      [
+       "Movement",
+       "Move with a purpose; avoid pacing"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Gestures for instructions"
+    },
+    {
+     "t": "p",
+     "x": "Use your hands to show pairs, groups, time and stop. Demonstrate what learners should do. Mime new words when you can."
+    },
+    {
+     "t": "h",
+     "x": "Staying calm and in charge"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Speak in a steady voice.",
+      "Wait and use silence.",
+      "Keep your face neutral when you give a warning.",
+      "Do not rush."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teacher talk"
+    },
+    {
+     "t": "p",
+     "x": "With lower levels, use short sentences and familiar words, but do not distort the language. Keep your talking time moderate so learners have time to speak."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Shouting.",
+      "Speaking too fast.",
+      "Mumbling.",
+      "Talking to the board.",
+      "Using a flat voice.",
+      "Not looking at some learners.",
+      "Repeating a distracting habit."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Use one clear gesture for pairs and one for stop.",
+      "Pause for three seconds after a question.",
+      "Look at the back of the room often.",
+      "Lower your voice once to get attention."
+     ]
+    }
+   ],
+   "related": [
+    "getting-students-attention",
+    "where-to-stand-and-how-to-move-around-the-room",
+    "giving-clear-instructions",
+    "managing-the-board"
+   ]
   },
   {
    "id": "where-to-stand-and-how-to-move-around-the-room",
    "group": "D. Classroom management",
    "title": "Where to stand and how to move around the room",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Where you stand and how you move help you see, be seen and manage the class without saying a word."
+    },
+    {
+     "t": "h",
+     "x": "Where to stand"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Stand where all learners can see you and you can see all of them.",
+      "For instructions, stand at the front, in the centre, and stay still.",
+      "Do not stand in front of what you wrote on the board.",
+      "During tests, stand where you can see all the papers.",
+      "Stand near learners who need your attention."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Moving around"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Walk around during pair and group work.",
+      "Plan a route so you reach every area, for example a zigzag or a circle.",
+      "Crouch to the learners' eye level when you help.",
+      "Do not stand over a learner for a long time.",
+      "Listen from the side or from behind a group."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Using proximity"
+    },
+    {
+     "t": "p",
+     "x": "Standing near a learner who is off-task often stops the behaviour without any words."
+    },
+    {
+     "t": "h",
+     "x": "Where you are at each stage"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Where you are"
+     ],
+     "rows": [
+      [
+       "Instructions",
+       "At the front, still, with eye contact"
+      ],
+      [
+       "Demonstration",
+       "Where everyone can see"
+      ],
+      [
+       "Pair and group work",
+       "Moving around the room"
+      ],
+      [
+       "Whole-class feedback",
+       "At the front or the side"
+      ],
+      [
+       "Test",
+       "At the back or the side of the room"
+      ],
+      [
+       "End of the lesson",
+       "At the door"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Large classes and fixed desks"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use the aisles and move through different parts of the room.",
+      "Choose a different area to focus on each time.",
+      "Move to the back sometimes."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Staying at the front all lesson.",
+      "Always standing in the same place.",
+      "Turning your back to the class while you talk.",
+      "Staying behind the desk.",
+      "Walking around while you give instructions.",
+      "Ignoring the back rows."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Plan your route for pair work.",
+      "Stand still for instructions.",
+      "Spend time at the back.",
+      "Notice and stand near two learners who need attention."
+     ]
+    }
+   ],
+   "related": [
+    "using-your-voice-and-body-language",
+    "managing-a-large-class",
+    "seating-arrangements",
+    "classroom-management"
+   ]
   },
   {
    "id": "giving-clear-instructions",
    "group": "D. Classroom management",
    "title": "Giving clear instructions",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Many activities fail because learners did not understand what to do. Clear instructions save time and prevent noise and confusion."
+    },
+    {
+     "t": "h",
+     "x": "Steps"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Get attention with your signal and wait.",
+      "Give the instruction in short steps, one at a time.",
+      "Show what to do: demonstrate with a learner or an example.",
+      "Check understanding with instruction-checking questions.",
+      "Give the time and the stop signal.",
+      "Hand out materials after the instructions.",
+      "Start, and check in the first minute that learners are doing the task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Language for instructions"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use short sentences and common verbs: work with a partner, read, write, ask and answer.",
+      "Use the same words every time.",
+      "Add gestures.",
+      "Write the key steps on the board.",
+      "Use the first language briefly to check understanding when needed."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "An example"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Instead of",
+      "Say"
+     ],
+     "rows": [
+      [
+       "Now I want you to get into pairs and discuss with your partner the questions on page 15 and then write down your answers",
+       "Work with a partner. (gesture) Look at page 15. Ask and answer questions one to four. Write your partner's answers. You have five minutes."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Checking understanding"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do not ask Do you understand? Learners usually say yes.",
+      "Ask instruction-checking questions: Are you working alone or with a partner? How many questions? How much time do you have?",
+      "Ask a learner to explain the task to the class.",
+      "Demonstrate the first item with the whole class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "When learners still do not understand"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Demonstrate again.",
+      "Ask a learner who understands to show the class.",
+      "Simplify the task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Long instructions.",
+      "Giving out materials before the instructions.",
+      "Too many steps at once.",
+      "No demonstration.",
+      "Not checking.",
+      "Starting before you have attention."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write your instruction in three short steps.",
+      "Plan a demonstration.",
+      "Prepare two instruction-checking questions.",
+      "Decide the time and the stop signal."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Jim Scrivener, Classroom Management Techniques",
+      "Jim Scrivener, Learning Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "getting-students-attention",
+    "managing-materials-and-handouts",
+    "concept-checking-and-instruction-checking-questions",
+    "classroom-management"
+   ]
   },
   {
    "id": "managing-noise-in-pair-and-group-work",
    "group": "D. Classroom management",
    "title": "Managing noise in pair and group work",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Pair and group work is noisy by design. The aim is productive noise: learners are on task, and the level is low enough for other groups to work."
+    },
+    {
+     "t": "h",
+     "x": "Before the activity"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Set a clear task with a clear outcome.",
+      "Give a time limit.",
+      "Agree a voice level for the activity.",
+      "Teach the stop signal.",
+      "Seat learners close together.",
+      "Give roles.",
+      "Show an example with one pair.",
+      "Give language support."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A voice level chart"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Level",
+      "Name",
+      "When"
+     ],
+     "rows": [
+      [
+       "0",
+       "Silent",
+       "Working alone"
+      ],
+      [
+       "1",
+       "Whisper",
+       "Talking very close to a partner"
+      ],
+      [
+       "2",
+       "Partner voice",
+       "Pair work"
+      ],
+      [
+       "3",
+       "Group voice",
+       "Group work; only the group can hear"
+      ],
+      [
+       "4",
+       "Class voice",
+       "Presenting to the class"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "During the activity"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Walk around.",
+      "Stand near noisy groups.",
+      "Praise quiet, on-task groups.",
+      "Remind groups of the voice level.",
+      "Check that the task is not too easy or too hard.",
+      "Give a warning: Two minutes left.",
+      "Use the stop signal early if the noise grows."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Ending the activity"
+    },
+    {
+     "t": "p",
+     "x": "Give the signal, wait for quiet and thank the groups. Follow with feedback."
+    },
+    {
+     "t": "h",
+     "x": "Common problems"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "Everyone talks at once",
+       "Use smaller groups, roles, or a talking token that one speaker holds"
+      ],
+      [
+       "Noise slowly rises",
+       "Stop, reset the voice level and praise a quiet group"
+      ],
+      [
+       "Learners are off-task",
+       "Use a shorter task with a clear outcome, and monitor"
+      ],
+      [
+       "Learners use their first language",
+       "Give language support and a clear English goal"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Teach or review the voice level chart.",
+      "Plan a clear outcome and a time limit.",
+      "Practise the stop signal.",
+      "Praise a quiet group by name."
+     ]
+    }
+   ],
+   "related": [
+    "a-noisy-class-that-will-not-settle",
+    "grouping-students-pairs-groups-and-roles",
+    "getting-students-attention",
+    "students-use-their-first-language-too-much"
+   ]
   },
   {
    "id": "managing-a-large-class",
    "group": "D. Classroom management",
    "title": "Managing a large class",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "In a large class there are more learners, less space and less time for each one. Routines and organisation matter even more."
+    },
+    {
+     "t": "h",
+     "x": "Principles"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use routines for everything that happens often.",
+      "Give clear, short instructions.",
+      "Make pair work the usual way of working.",
+      "Accept that you cannot give every learner individual attention in every lesson.",
+      "Make feedback efficient.",
+      "Keep tasks simple."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Practical ideas"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Area",
+      "Idea"
+     ],
+     "rows": [
+      [
+       "Seating",
+       "Use a seating plan, pairs or clusters"
+      ],
+      [
+       "Attention",
+       "Use a strong signal"
+      ],
+      [
+       "Participation",
+       "Pair talk first, then ask a few learners; choral answers; group reporters"
+      ],
+      [
+       "Monitoring",
+       "Divide the room into zones and focus on a different zone each time"
+      ],
+      [
+       "Marking",
+       "Peer marking, spot checks and class correction"
+      ],
+      [
+       "Materials",
+       "Group leaders hand out and collect; one set for each group"
+      ],
+      [
+       "Instructions",
+       "Write them on the board"
+      ],
+      [
+       "Names",
+       "Name cards and a seating plan"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Group leaders and helpers"
+    },
+    {
+     "t": "p",
+     "x": "Give learners jobs, such as handing out papers or leading a group, and rotate them. Teach the job first."
+    },
+    {
+     "t": "h",
+     "x": "Feedback with many learners"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Check answers in pairs first, then as a class.",
+      "Show answers on the board.",
+      "Ask a few learners to read answers aloud.",
+      "Collect common errors and teach from them.",
+      "Use mini whiteboards or paper if you have them."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Giving up pair work.",
+      "Trying to speak to every learner in every lesson.",
+      "Long instructions.",
+      "Talking at the class for a long time.",
+      "Marking everything yourself."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose group leaders and teach their job.",
+      "Plan a pair task.",
+      "Write the instructions on the board.",
+      "Plan how you will give feedback to the whole class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Natalie Hess, Teaching Large Multilevel Classes",
+      "Jim Scrivener, Classroom Management Techniques"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "too-many-students-and-not-enough-space",
+    "teaching-large-classes",
+    "seating-arrangements",
+    "where-to-stand-and-how-to-move-around-the-room"
+   ]
   },
   {
    "id": "managing-a-mixed-ability-class",
    "group": "D. Classroom management",
    "title": "Managing a mixed-ability class",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "In most classes, learners differ in level, speed and confidence. The aim is for every learner to work at the right level and succeed."
+    },
+    {
+     "t": "h",
+     "x": "Plan for variety"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Plan a core task for everyone and an extension task.",
+      "Give support tools: a word bank, sentence frames or a model.",
+      "Use open-ended tasks that every learner can answer at their own level.",
+      "Give choices of task or topic.",
+      "Use flexible grouping: mixed levels for support, similar levels for challenge.",
+      "Encourage peer support: learners explain, and do not give the answer."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Ideas by stage"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Idea"
+     ],
+     "rows": [
+      [
+       "Presentation",
+       "Ask questions at different levels; use visuals"
+      ],
+      [
+       "Practice",
+       "Prepare tasks at three levels: support, core and challenge"
+      ],
+      [
+       "Production",
+       "Use open tasks with a choice of topic"
+      ],
+      [
+       "Feedback",
+       "Pair check first; spend your time with the learners who need help"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Helping everyone succeed"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Start tasks easy and make them harder.",
+      "Accept different answers.",
+      "Praise progress, not only correct answers.",
+      "Do not label learners by level in public.",
+      "Give roles that fit each learner's strengths."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Managing your time"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Decide before the activity whom you will help first.",
+      "Check on the learners who need support early, then move on.",
+      "Train helpers.",
+      "Keep a short note of who needs follow-up."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common problems"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "Fast learners get bored",
+       "Give extension tasks and challenge cards"
+      ],
+      [
+       "Slow learners get lost",
+       "Give support, steps and a partner"
+      ],
+      [
+       "Stronger learners dominate",
+       "Give roles and speaking turns"
+      ],
+      [
+       "You cannot help everyone",
+       "Use peer help and routines"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Prepare a support version and an extension of one task.",
+      "Decide which learners to check first.",
+      "Plan one open-ended task.",
+      "Plan a mixed-level pair activity."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Carol Ann Tomlinson, How to Differentiate Instruction in Mixed-Ability Classrooms",
+      "Penny Ur, A Course in Language Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-across-proficiency-levels",
+    "students-who-cannot-keep-up",
+    "students-who-finish-too-fast-or-too-slowly",
+    "teaching-mixed-ability-classes"
+   ]
   },
   {
    "id": "managing-early-finishers",
    "group": "D. Classroom management",
    "title": "Managing early finishers",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners who finish early can become bored and disturb others. Plan something useful for them to do."
+    },
+    {
+     "t": "h",
+     "x": "First, check the work"
+    },
+    {
+     "t": "p",
+     "x": "Fast work is not always good work. Ask learners to check their answers before they take an extension task."
+    },
+    {
+     "t": "h",
+     "x": "Ideas for early finishers"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Extend the task",
+       "Write two more sentences; add details; ask more questions"
+      ],
+      [
+       "Create",
+       "Make a quiz, a crossword or a short dialogue for the class"
+      ],
+      [
+       "Read",
+       "Read a graded reader or something from a class library"
+      ],
+      [
+       "Review",
+       "Revise word lists or flashcards; tidy the notebook"
+      ],
+      [
+       "Help",
+       "Check a partner's work and explain mistakes, without giving the answer"
+      ],
+      [
+       "Challenge",
+       "Puzzles, riddles or picture tasks on challenge cards"
+      ],
+      [
+       "Self-study",
+       "Write in a learning log or journal"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Set up a routine"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Write a short list on the board: When you finish: check your work, do the extension, then read quietly.",
+      "Keep materials in a box that learners can use alone.",
+      "Make the extension tasks interesting.",
+      "Make the routine the same for everyone.",
+      "Finishing early must be quiet and not disturb others."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Giving more of the same work.",
+      "Ignoring early finishers.",
+      "Letting them disturb others.",
+      "Extension tasks that are too difficult to start.",
+      "Always asking the same learners to help."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Prepare an extension task.",
+      "Write the when you finish list on the board.",
+      "Prepare a box with challenge cards or readers.",
+      "Plan the first thing early finishers must do: check their work."
+     ]
+    }
+   ],
+   "related": [
+    "students-who-finish-too-fast-or-too-slowly",
+    "managing-a-mixed-ability-class",
+    "pacing-and-timing"
+   ]
   },
   {
    "id": "managing-activities-with-movement",
    "group": "D. Classroom management",
    "title": "Managing activities with movement",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Movement activities, such as mingles and board races, bring energy and speaking practice. They need clear control to stay safe and useful. The Planning guide explains stirrers and settlers."
+    },
+    {
+     "t": "h",
+     "x": "Before the activity"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Check the space and clear aisles and bags.",
+      "Decide the type of movement: stay in groups, or mingle.",
+      "Give the instructions before learners stand up.",
+      "Set the rules: walk, do not run.",
+      "Teach the stop signal.",
+      "Set a time limit.",
+      "Demonstrate."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "During the activity"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Stand where you can see everyone.",
+      "Monitor and listen.",
+      "Use the stop signal as soon as you need it.",
+      "Keep the activity short.",
+      "Praise safe, on-task movement."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "After the activity"
+    },
+    {
+     "t": "p",
+     "x": "Give the signal, ask learners to return to their seats and follow with a settler, such as silent writing. Then give feedback."
+    },
+    {
+     "t": "h",
+     "x": "Examples"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Activity",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Mingle or find someone who",
+       "Learners walk around and ask questions"
+      ],
+      [
+       "Board race",
+       "Teams line up and one learner at a time writes an answer on the board"
+      ],
+      [
+       "Running dictation",
+       "A learner walks to read a text, returns and dictates it to a partner"
+      ],
+      [
+       "Gallery walk",
+       "Posters are on the walls and learners walk around to read and comment"
+      ],
+      [
+       "Simon says",
+       "Learners listen and respond with actions"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "In a large or small room"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use movement without leaving the seat: stand up if...",
+      "Move within rows or groups.",
+      "Use hand signals."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "No clear start and stop.",
+      "Giving instructions after learners have stood up.",
+      "Activities that last too long.",
+      "Ignoring safety.",
+      "No link to the learning aim."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Check the space and clear the aisles.",
+      "Plan the instruction, the demonstration and the stop signal.",
+      "Set a short time limit.",
+      "Plan a settler for afterwards."
+     ]
+    }
+   ],
+   "related": [
+    "too-many-students-and-not-enough-space",
+    "giving-clear-instructions",
+    "a-noisy-class-that-will-not-settle",
+    "managing-a-large-class"
+   ]
   },
   {
    "id": "handling-latecomers-and-absences",
    "group": "D. Classroom management",
    "title": "Handling latecomers and absences",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Late arrivals and absences interrupt the flow of the lesson and the learners' progress. A simple system keeps the lesson moving and treats learners fairly."
+    },
+    {
+     "t": "h",
+     "x": "Latecomers"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do not stop the lesson.",
+      "Let learners enter quietly and join the activity.",
+      "Point to the task on the board.",
+      "Ask a partner to explain what was missed.",
+      "Record the lateness.",
+      "Speak to the learner privately later.",
+      "Make the first minutes of the lesson valuable."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Absent learners"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Record attendance every lesson.",
+      "Use an absence buddy: each learner has a partner who shares notes.",
+      "Give catch-up work or a summary.",
+      "Follow up when a learner is absent for several days, following school policy.",
+      "Welcome the learner back kindly."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Taking attendance quickly"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Method",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "During a starting task",
+       "Check the register while learners work"
+      ],
+      [
+       "Seating plan",
+       "Mark the empty seats"
+      ],
+      [
+       "Name cards",
+       "Collect or check the cards"
+      ],
+      [
+       "Quick response",
+       "Learners say Present when you call their name"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Keeping records"
+    },
+    {
+     "t": "p",
+     "x": "Keep a simple record of attendance and lateness. Look for patterns, and talk to learners with frequent absences. Share information with the school as required."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Stopping the lesson for each latecomer.",
+      "Shaming learners.",
+      "No system for catching up.",
+      "Ignoring long absences.",
+      "Inaccurate attendance records."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Prepare a starting task for the board.",
+      "Plan what latecomers do.",
+      "Set up absence buddies.",
+      "Prepare a simple attendance record."
+     ]
+    }
+   ],
+   "related": [
+    "students-come-late",
+    "building-routines",
+    "managing-homework-collection-and-checking",
+    "talking-to-parents-about-behaviour"
+   ]
   },
   {
    "id": "managing-homework-collection-and-checking",
    "group": "D. Classroom management",
    "title": "Managing homework collection and checking",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Homework helps only when it is collected or checked quickly and learners get useful feedback."
+    },
+    {
+     "t": "h",
+     "x": "Setting homework"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Write it on the board before the lesson ends.",
+      "Keep it short and clear.",
+      "Explain it and give an example.",
+      "Link it to the next lesson.",
+      "Say when it is due."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Collecting homework"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Method",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Pass along the rows",
+       "Each row passes the work to a leader"
+      ],
+      [
+       "Homework tray",
+       "Learners put their work in a tray at the start"
+      ],
+      [
+       "Check at the desk",
+       "You walk around and mark with a tick or stamp"
+      ],
+      [
+       "Pair check",
+       "Partners exchange and check"
+      ],
+      [
+       "Group leaders",
+       "Leaders collect and count"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Checking quickly"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Check in pairs first, then as a class.",
+      "Put the answers on the board.",
+      "Spot-check a few learners each time.",
+      "Use a tick or stamp for completion.",
+      "Mark one exercise, not the whole task.",
+      "Use peer marking with an answer key.",
+      "Collect common errors and teach them.",
+      "Ask learners to correct their own mistakes."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Keeping records"
+    },
+    {
+     "t": "p",
+     "x": "Use a simple chart. A tick shows that the work was done. Look for patterns and follow up with learners who often miss homework."
+    },
+    {
+     "t": "h",
+     "x": "Learners who do not hand in homework"
+    },
+    {
+     "t": "p",
+     "x": "Talk to the learner privately, find out why, and decide whether the task or the support needs to change. See Students do not do their homework."
+    },
+    {
+     "t": "h",
+     "x": "Feedback"
+    },
+    {
+     "t": "p",
+     "x": "Give short comments and praise. Show the learner one thing to improve."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Not checking homework.",
+      "Marking for too long.",
+      "Punishing learners who did not do it, with no questions.",
+      "Marking only mistakes.",
+      "Collecting work but never returning it."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Plan a homework routine: where it goes and how you check it.",
+      "Prepare an answer key for pair checking.",
+      "Prepare a simple chart.",
+      "Plan how you will give feedback."
+     ]
+    }
+   ],
+   "related": [
+    "students-do-not-do-their-homework",
+    "marking-written-work-correction-codes",
+    "peer-review-and-self-editing",
+    "handling-latecomers-and-absences"
+   ]
   },
   {
    "id": "managing-materials-and-handouts",
    "group": "D. Classroom management",
    "title": "Managing materials and handouts",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Handing out and collecting materials wastes a lot of time unless you plan it."
+    },
+    {
+     "t": "h",
+     "x": "Prepare"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Count the copies and prepare a few extra.",
+      "Sort materials into sets.",
+      "Label them.",
+      "Check them before the lesson.",
+      "Test any equipment."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Handing out"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Method",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Row leaders",
+       "A leader takes a pile and passes it along the row"
+      ],
+      [
+       "Group sets",
+       "One set for each group on a tray or in an envelope"
+      ],
+      [
+       "Face down",
+       "Learners keep the paper face down until you say start"
+      ],
+      [
+       "Pass along",
+       "Each learner takes one and passes the rest"
+      ],
+      [
+       "Collect at a signal",
+       "One learner from each group collects the materials"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Give the instructions first and hand out the materials afterwards, so learners listen. Keep movement orderly."
+    },
+    {
+     "t": "h",
+     "x": "Collecting"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Ask leaders to collect.",
+      "Ask learners to return materials to a tray.",
+      "Count the sets.",
+      "Tidy up before the end of the lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Reusable materials"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Put cards in envelopes or bags and label them.",
+      "Use plastic sleeves or cover paper to protect it.",
+      "Store sets so you can find them.",
+      "Ask learners to look after them."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "With few resources"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use one copy for each group.",
+      "Write on the board and ask learners to copy.",
+      "Read the text aloud.",
+      "Share sets between classes."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Technology"
+    },
+    {
+     "t": "p",
+     "x": "Test it before the lesson and have a backup, such as a copy on paper or a plan for the board."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Handing out before the instructions.",
+      "Running out of copies.",
+      "Leaving materials on the floor.",
+      "No spares.",
+      "Wasting time on hand-outs."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Count and sort the materials.",
+      "Choose helpers.",
+      "Give the instruction first.",
+      "Plan how you will collect the materials."
+     ]
+    }
+   ],
+   "related": [
+    "giving-clear-instructions",
+    "not-enough-books-or-materials",
+    "teaching-with-very-few-resources",
+    "managing-the-board"
+   ]
   },
   {
    "id": "managing-the-board",
    "group": "D. Classroom management",
    "title": "Managing the board",
-   "parent": "classroom-management"
+   "parent": "classroom-management",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "The board is one of your most useful teaching tools. Plan it, keep it clear and use it to support learners' understanding."
+    },
+    {
+     "t": "h",
+     "x": "Plan your board"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Divide it into parts: for example, the left for today's plan and homework, the middle for the lesson, the right for new words and language.",
+      "Keep one area for information that stays all lesson: the date, the aims and the homework.",
+      "Decide what to write before the lesson.",
+      "Write key words, not long sentences."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Writing tips"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tip",
+      "Why"
+     ],
+     "rows": [
+      [
+       "Write large and clearly",
+       "The learners at the back can read it"
+      ],
+      [
+       "Use colours or underlining",
+       "To separate parts and show stress"
+      ],
+      [
+       "Leave space",
+       "So you can add things"
+      ],
+      [
+       "Write, then turn and speak",
+       "Learners can hear you and see your face"
+      ],
+      [
+       "Stand to the side",
+       "Everyone can see the board"
+      ],
+      [
+       "Clean it before you start",
+       "To avoid confusion"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What to put on the board"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "The lesson plan and the aims.",
+      "New words: the word, pronunciation or stress, part of speech and an example.",
+      "Grammar structures and examples.",
+      "Instructions for tasks.",
+      "The homework.",
+      "Common errors, without names, for the class to correct.",
+      "Learners' ideas from a brainstorm."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Involving learners"
+    },
+    {
+     "t": "p",
+     "x": "Invite learners to write on the board, use it for games and board races, and give learners a board helper job."
+    },
+    {
+     "t": "h",
+     "x": "Practical problems"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Keep spare markers or chalk.",
+      "Clean the board section by section.",
+      "Leave notes on the board until learners have copied them."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Writing too small.",
+      "Talking to the board.",
+      "A messy or crowded board.",
+      "Erasing before learners have copied.",
+      "Too much text.",
+      "Blocking the view."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Divide the board into parts before the lesson.",
+      "Write the aims and homework.",
+      "Practise writing large.",
+      "Plan where new words will go."
+     ]
+    }
+   ],
+   "related": [
+    "using-your-voice-and-body-language",
+    "where-to-stand-and-how-to-move-around-the-room",
+    "how-to-teach-vocabulary",
+    "classroom-management"
+   ]
   },
   {
    "id": "classroom-rules",
