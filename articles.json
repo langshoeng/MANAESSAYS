@@ -4605,19 +4605,375 @@
    "id": "making-classroom-rules-with-students",
    "group": "E. Rules and discipline",
    "title": "Making classroom rules with students",
-   "parent": "classroom-rules"
+   "parent": "classroom-rules",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Rules that learners help to make are easier to understand and to keep, because the learners have thought about why the rules matter. This article gives a step-by-step way to make a class agreement in one lesson."
+    },
+    {
+     "t": "note",
+     "x": "Some rules are fixed by your school, such as safety and school policy. Tell learners which rules are fixed and which the class can decide."
+    },
+    {
+     "t": "h",
+     "x": "A lesson plan (30 to 40 minutes)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Step",
+      "What to do",
+      "Time"
+     ],
+     "rows": [
+      [
+       "1. Start with a question",
+       "Ask: What helps you learn in class? What makes it hard to learn? Learners think alone, then talk in pairs",
+       "5 min"
+      ],
+      [
+       "2. Collect ideas",
+       "Groups write three things that help and three that make learning hard. Learners may brainstorm in Khmer and then write in English",
+       "8 min"
+      ],
+      [
+       "3. Share",
+       "Each group reads out its ideas. You write them on the board and group similar ones",
+       "7 min"
+      ],
+      [
+       "4. Turn ideas into rules",
+       "Choose four to six rules and write them in positive words: Listen when others speak",
+       "8 min"
+      ],
+      [
+       "5. Agree",
+       "The class votes or says yes to each rule. Everyone signs the poster or the agreement",
+       "5 min"
+      ],
+      [
+       "6. Practise",
+       "Role-play one rule and one routine, such as how to get attention",
+       "5 min"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "From wishes to rules"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Learners say",
+      "Write as"
+     ],
+     "rows": [
+      [
+       "Do not talk",
+       "Listen when someone is speaking"
+      ],
+      [
+       "No phones",
+       "Keep phones in bags unless the teacher says"
+      ],
+      [
+       "Do not be late",
+       "Arrive on time and ready"
+      ],
+      [
+       "No fighting or bad words",
+       "Use kind words and keep hands to yourself"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "When learners suggest harsh rules"
+    },
+    {
+     "t": "p",
+     "x": "Learners sometimes suggest punishments such as hitting or shouting. Thank them for the idea and explain that physical and humiliating punishments are not allowed. Ask the class for another way: What could we do instead?"
+    },
+    {
+     "t": "h",
+     "x": "After the lesson"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Display the rules where everyone can see them.",
+      "Keep a copy for yourself and refer to it calmly during the next weeks.",
+      "Review the rules after two or three weeks: Which rules help? Which need changing?",
+      "Add new learners: ask a learner to explain the rules."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Prepare the two questions for step 1.",
+      "Decide which rules are fixed by the school.",
+      "Prepare a large sheet of paper for the agreement.",
+      "Plan one rule to role-play."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Harry Wong and Rosemary Wong, The First Days of School",
+      "Jane Nelsen, Lynn Lott and H. Stephen Glenn, Positive Discipline in the Classroom"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "classroom-rules",
+    "rules-for-young-learners-teenagers-and-adults",
+    "keeping-rules-consistent-and-fair",
+    "the-first-day-and-first-week"
+   ]
   },
   {
    "id": "rules-for-young-learners-teenagers-and-adults",
    "group": "E. Rules and discipline",
    "title": "Rules for young learners, teenagers and adults",
-   "parent": "classroom-rules"
+   "parent": "classroom-rules",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Good rules have the same purpose at every age, but how you word them, teach them and respond to broken rules changes with the age of the learners. Age ranges are only a guide."
+    },
+    {
+     "t": "h",
+     "x": "What changes with age"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Learners",
+      "What matters",
+      "Example rules",
+      "How to teach them"
+     ],
+     "rows": [
+      [
+       "Young learners",
+       "Few, simple, visual rules; immediate and warm feedback",
+       "Listen when someone speaks; Put your hand up; Walk inside; Use kind words",
+       "Use pictures and gestures, songs or chants; practise every day; praise at once"
+      ],
+      [
+       "Teenagers",
+       "Fairness, respect and some choice; reasons explained",
+       "Respect each other; Arrive ready; Use English in activities; Phones away unless the teacher says",
+       "Discuss reasons and let learners help to word the rules; be consistent; avoid public confrontation"
+      ],
+      [
+       "Adults",
+       "Mutual respect and shared agreement",
+       "Arrive on time; Switch off phones; Respect different opinions; Complete homework",
+       "Agree the rules together; treat learners as equals; give private reminders"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips for young learners"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach one rule at a time.",
+      "Show the rule with a picture and an action.",
+      "Practise how to line up, ask for help and tidy up.",
+      "Keep consequences short and calm, then move on."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips for teenagers"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Explain the reason behind each rule.",
+      "Give choices when you can: You can use your phone for the task or put it in your bag.",
+      "Talk to a learner privately about a problem.",
+      "Notice and praise good choices."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips for adults"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Make a class agreement on the first day.",
+      "Respect their time and experience.",
+      "Speak privately if someone breaks the agreement.",
+      "Remember that work and family may affect attendance."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Using the same rules and tone for every age.",
+      "Treating teenagers like young children.",
+      "Having too many rules for young learners.",
+      "Not following school policy for different age groups."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Check that your rules use words your learners can understand.",
+      "Choose three to five rules for this age group.",
+      "Plan how you will teach them: pictures, discussion or agreement.",
+      "Plan a calm, private way to remind a learner."
+     ]
+    }
+   ],
+   "related": [
+    "classroom-rules",
+    "making-classroom-rules-with-students",
+    "teaching-young-learners",
+    "teaching-teenagers"
+   ]
   },
   {
    "id": "keeping-rules-consistent-and-fair",
    "group": "E. Rules and discipline",
    "title": "Keeping rules consistent and fair",
-   "parent": "classroom-rules"
+   "parent": "classroom-rules",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A rule works only when learners can trust it. They need to know what will happen, and that it will happen in the same way for everyone."
+    },
+    {
+     "t": "h",
+     "x": "Why consistency matters"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners know what to expect and feel safe.",
+      "They see that you are fair.",
+      "There are fewer arguments, because the answer is already known.",
+      "The rules stay meaningful when you apply them every lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "How to be consistent"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Know your rules and the response to each one.",
+      "Respond to the same behaviour in the same way for every learner.",
+      "Apply the rules from the first lesson, and in every lesson.",
+      "Explain the consequence before you use it.",
+      "Follow through calmly. Do not threaten what you will not do.",
+      "Stay calm, so your response does not depend on your mood.",
+      "Agree with colleagues, where possible, on common expectations."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Fair does not always mean identical"
+    },
+    {
+     "t": "p",
+     "x": "Sometimes learners have different needs, such as a long journey, a disability or a difficult situation at home. Fairness means that you respond to the rule and to the situation. Talk privately with the learner, explain the reason to the class only if necessary and appropriate, and follow school policy."
+    },
+    {
+     "t": "h",
+     "x": "Checking your own fairness"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Notice whom you correct most often. Is it always the same learners?",
+      "Ask a colleague to observe one lesson and note who gets attention and who gets corrected.",
+      "Keep a simple tally for one week.",
+      "Ask learners how fair they feel the class is."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common traps"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Trap",
+      "What to do"
+     ],
+     "rows": [
+      [
+       "Having favourites",
+       "Use a seating plan and random choosing to share attention"
+      ],
+      [
+       "Letting small things go, then reacting to a big one",
+       "Respond early and calmly to small things"
+      ],
+      [
+       "Applying rules more strictly when you are tired",
+       "Plan a calm response in advance"
+      ],
+      [
+       "Changing a rule without explanation",
+       "Discuss changes with the class"
+      ],
+      [
+       "Punishing the whole class for one learner",
+       "Speak to the learner involved"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write your three most important rules and your response to each.",
+      "Notice which learners you speak to about behaviour.",
+      "Plan one calm sentence you can use every time.",
+      "Follow through on one consequence you announced."
+     ]
+    }
+   ],
+   "related": [
+    "classroom-rules",
+    "consequences-logical-fair-and-proportionate",
+    "warnings-and-step-by-step-responses",
+    "classroom-management"
+   ]
   },
   {
    "id": "positive-punishment",
@@ -4682,7 +5038,7 @@
       "Punishment may stop a behaviour for a short time, but it does not teach learners what to do instead.",
       "It can cause fear, anger, or avoidance of the teacher or the subject.",
       "How well it works depends on timing, consistency and the relationship between teacher and learner.",
-      "Harsh punishment, public humiliation and physical punishment can harm learners. They are not recommended.",
+      "Harsh punishment, public humiliation and physical punishment can harm learners. They are not recommended. The World Health Organization's 2025 report on corporal punishment found overwhelming scientific evidence of harm and no benefits.",
       "Reinforcing the behaviour you want usually leads to longer-lasting change."
      ]
     },
@@ -4793,57 +5149,1447 @@
   {
    "id": "reinforcement-and-punishment-explained-positive-and-negative",
    "group": "E. Rules and discipline",
-   "title": "Reinforcement and punishment explained: positive and negative"
+   "title": "Reinforcement and punishment explained: positive and negative",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Reinforcement and punishment are terms from behaviour psychology. They describe what happens after a behaviour and how that changes the chance that it happens again. They are easy to confuse, so this article explains them with classroom examples."
+    },
+    {
+     "t": "h",
+     "x": "Two questions"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Did something get added (positive) or removed (negative)?",
+      "Did the behaviour increase (reinforcement) or decrease (punishment)?"
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Term",
+      "Added or removed",
+      "Behaviour",
+      "Classroom example"
+     ],
+     "rows": [
+      [
+       "Positive reinforcement",
+       "Something pleasant is added",
+       "Increases",
+       "A sticker or praise for reading aloud; the learner reads aloud more"
+      ],
+      [
+       "Negative reinforcement",
+       "Something unpleasant is removed",
+       "Increases",
+       "The teacher stops reminding once learners are working quietly; the class works quietly more often"
+      ],
+      [
+       "Positive punishment",
+       "Something unpleasant is added",
+       "Decreases",
+       "A scolding for shouting; the learner shouts less"
+      ],
+      [
+       "Negative punishment",
+       "Something pleasant is removed",
+       "Decreases",
+       "Losing five minutes of break for being late; the learner is late less often"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "x": "Positive does not mean good, and negative does not mean bad. Negative reinforcement is not a kind of punishment."
+    },
+    {
+     "t": "h",
+     "x": "Extinction"
+    },
+    {
+     "t": "p",
+     "x": "When a behaviour no longer gets the reward that kept it going, it usually becomes less frequent. For example, if a learner calls out and you do not respond, but you do respond when the learner raises a hand, calling out may decrease. The behaviour sometimes gets worse for a short time before it improves."
+    },
+    {
+     "t": "h",
+     "x": "Timing and consistency"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A consequence works best soon after the behaviour.",
+      "To start a new behaviour, reinforce it every time. Later, reinforce it sometimes.",
+      "Be consistent. If a behaviour is sometimes rewarded and sometimes not, it can be harder to change."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Test yourself"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Situation",
+      "Which term?"
+     ],
+     "rows": [
+      [
+       "A learner gets a sticker for finishing homework and does it more often",
+       "Positive reinforcement"
+      ],
+      [
+       "The teacher stops extra homework when the class is quiet, and the class becomes quiet more often",
+       "Negative reinforcement"
+      ],
+      [
+       "A learner is scolded for shouting and shouts less",
+       "Positive punishment"
+      ],
+      [
+       "A learner loses break time for being late and is late less often",
+       "Negative punishment"
+      ],
+      [
+       "A learner calls out and gets no attention, and calls out less",
+       "Extinction"
+      ],
+      [
+       "The teacher says, Thank you for waiting quietly, and learners wait quietly more",
+       "Positive reinforcement"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "In practice"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use reinforcement of the behaviour you want more often than punishment.",
+      "Tell learners what to do, not only what not to do.",
+      "Never use physical or humiliating punishment.",
+      "Follow your school's policy."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one behaviour you want more of.",
+      "Plan how you will notice and reinforce it.",
+      "Think of one punishment you use and what the learner learns from it."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "B. F. Skinner, Science and Human Behavior",
+      "Jane Nelsen, Positive Discipline"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "positive-punishment",
+    "rewards-and-praise-that-work",
+    "token-systems-and-behaviour-charts",
+    "alternatives-to-corporal-punishment"
+   ]
   },
   {
    "id": "positive-discipline",
    "group": "E. Rules and discipline",
-   "title": "Positive discipline"
+   "title": "Positive discipline",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Positive discipline is an approach to guiding behaviour that aims to teach learners self-discipline and life skills, with respect for both the teacher and the learner. It is not the same as positive punishment, which is a technical term from behaviour psychology."
+    },
+    {
+     "t": "h",
+     "x": "Where it comes from"
+    },
+    {
+     "t": "p",
+     "x": "The approach builds on the work of the psychologists Alfred Adler and Rudolf Dreikurs. Jane Nelsen and others developed it into the Positive Discipline programme for families and classrooms. Cambodia's Ministry of Education has produced child-friendly school materials and has run teacher training on positive discipline."
+    },
+    {
+     "t": "h",
+     "x": "Five criteria"
+    },
+    {
+     "t": "p",
+     "x": "Jane Nelsen describes five criteria for discipline that teaches. Effective discipline:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Helps learners feel connected, with a sense of belonging and significance.",
+      "Is kind and firm at the same time, respectful and encouraging.",
+      "Is effective in the long term. Punishment may work in the short term, but its long-term results can be negative.",
+      "Teaches valuable social and life skills, such as respect, problem-solving, cooperation and responsibility.",
+      "Helps learners discover that they are capable."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Kind and firm"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Firm: you keep the limit and follow through calmly.",
+      "Kind: you respect the learner, listen and avoid shame.",
+      "Example: I can see you want to talk to your friend. We can talk after the task. For now, please work on your own."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Ideas to use"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Connection before correction: a friendly word first.",
+      "Offer choices within limits.",
+      "Ask what and how questions: What happened? What could you do next time?",
+      "Look for solutions together.",
+      "Treat mistakes as chances to learn.",
+      "Use encouragement that notices effort and improvement.",
+      "Hold class meetings to solve problems together."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Instead of"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Instead of",
+      "Try"
+     ],
+     "rows": [
+      [
+       "Stop talking!",
+       "I will wait until everyone is ready."
+      ],
+      [
+       "You are always late!",
+       "I noticed you were late. What would help you arrive on time?"
+      ],
+      [
+       "Give me your phone!",
+       "Please put your phone away now, or use it for the task. You choose."
+      ],
+      [
+       "Shaming a learner in front of the class",
+       "A private, calm word"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Limits"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "It takes time to learn and practise.",
+      "It is a framework, not a single technique. Adapt it to your school and your learners.",
+      "It does not replace your school's rules and procedures for serious behaviour."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Pick one situation where you usually give an order, and prepare a kind and firm sentence instead.",
+      "Plan one question beginning with what or how.",
+      "Notice one learner's effort and name it."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Jane Nelsen, Positive Discipline",
+      "Jane Nelsen, Lynn Lott and H. Stephen Glenn, Positive Discipline in the Classroom"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "positive-punishment",
+    "rewards-and-praise-that-work",
+    "restorative-approaches-repairing-harm",
+    "alternatives-to-corporal-punishment"
+   ]
   },
   {
    "id": "rewards-and-praise-that-work",
    "group": "E. Rules and discipline",
-   "title": "Rewards and praise that work"
+   "title": "Rewards and praise that work",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Rewards and praise can encourage learners, but how you use them matters. Used well, they help learners notice what they do well. Used badly, they can make learners work only for the prize."
+    },
+    {
+     "t": "h",
+     "x": "Types of reward"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Social",
+       "Praise, a smile, attention, a note home"
+      ],
+      [
+       "Activity",
+       "A game, extra time for a favourite task"
+      ],
+      [
+       "Privilege",
+       "Choosing a seat, being the class helper"
+      ],
+      [
+       "Tangible",
+       "Stickers, small prizes, sweets"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Praise that helps"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Be specific: You used three new words in your story.",
+      "Praise effort, strategy and progress as well as results.",
+      "Be sincere and give it soon after the behaviour.",
+      "Use a calm, natural voice.",
+      "Check how each learner likes to be praised. Some feel embarrassed in front of others, so praise them quietly.",
+      "Do not compare learners with each other."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What research says about rewards"
+    },
+    {
+     "t": "p",
+     "x": "A large review of 128 experiments by Edward Deci, Richard Koestner and Richard Ryan (1999) found that expected tangible rewards tended to reduce people's interest in activities they already enjoyed, especially for children. In the same review, positive verbal feedback tended to increase interest, although it can have the opposite effect when it feels controlling. Other researchers have disagreed about how strong these effects are, so the findings are debated."
+    },
+    {
+     "t": "h",
+     "x": "What this means for teachers"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use rewards carefully, especially for tasks learners already enjoy, such as reading.",
+      "Prefer social recognition, such as specific praise, to prizes.",
+      "Surprise rewards that are not promised in advance are less likely to reduce interest.",
+      "Reward effort and progress, not only top marks.",
+      "Reduce rewards slowly as the habit grows.",
+      "Do not use rewards as bribes in the middle of a problem."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Catch them being good"
+    },
+    {
+     "t": "p",
+     "x": "Notice the behaviour you want, especially from learners who often get attention for misbehaviour. A quiet comment such as Thank you for starting straight away makes the behaviour more likely."
+    },
+    {
+     "t": "h",
+     "x": "In large classes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Praise a group or a row.",
+      "Use a class goal: When we reach 20 points, we will have a game.",
+      "Keep a list so that you notice everyone."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Plan three specific praise sentences.",
+      "Choose two learners who rarely get praise and notice them.",
+      "Think about which tasks learners already enjoy, and avoid prizes for those.",
+      "Plan a class goal instead of individual prizes."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Edward Deci, Richard Koestner and Richard Ryan, A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation, Psychological Bulletin, 1999",
+      "Alfie Kohn, Punished by Rewards"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "token-systems-and-behaviour-charts",
+    "intrinsic-and-extrinsic-motivation",
+    "praise-and-encouragement",
+    "positive-discipline"
+   ]
   },
   {
    "id": "token-systems-and-behaviour-charts",
    "group": "E. Rules and discipline",
-   "title": "Token systems and behaviour charts"
+   "title": "Token systems and behaviour charts",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "In a token system, learners earn points, stickers or tokens for agreed behaviours and exchange them for a reward. Systems like this are widely used in schools. They work best when they are simple, fair and slowly reduced."
+    },
+    {
+     "t": "h",
+     "x": "Setting up a token system"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Choose one to three behaviours, written clearly and positively: Start work within one minute.",
+      "Decide what earns a token and how many.",
+      "Choose rewards learners want. Privileges and activities often work better than sweets.",
+      "Decide the exchange rate, such as ten tokens for a reward.",
+      "Show the chart where learners can see it, or keep it private for individual charts.",
+      "Give tokens at once, with a few words of praise.",
+      "Review with the class, and change what does not work.",
+      "Reduce the system over time, as the behaviour becomes habit."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Class and individual systems"
+    },
+    {
+     "t": "table",
+     "head": [
+      "System",
+      "How it works",
+      "Watch for"
+     ],
+     "rows": [
+      [
+       "Class goal",
+       "The whole class earns points towards one reward",
+       "One learner can feel blamed; praise all contributions"
+      ],
+      [
+       "Team points",
+       "Groups earn points for teamwork and behaviour",
+       "Avoid unhealthy competition"
+      ],
+      [
+       "Individual chart",
+       "A learner works on one behaviour with a private chart",
+       "Keep it private to avoid shame"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Rewards that cost nothing"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choosing a game or song.",
+      "Being the class helper.",
+      "Leading the warm-up.",
+      "Five minutes of free choice.",
+      "A positive note home."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Pitfalls"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Too many behaviours at once.",
+      "Rewards that are too far away.",
+      "Unfairness: tokens given to favourites.",
+      "Public comparison charts that embarrass learners.",
+      "Taking tokens away as punishment, which can feel unfair.",
+      "Using a system for behaviour learners already enjoy, such as reading.",
+      "Never reducing the system, so learners expect a reward every time."
+     ]
+    },
+    {
+     "t": "p",
+     "x": "See Rewards and praise that work for research on how rewards can affect interest."
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one behaviour to focus on.",
+      "Decide three tokens or points rules.",
+      "Choose a reward that costs nothing.",
+      "Plan how you will reduce the system after a few weeks."
+     ]
+    }
+   ],
+   "related": [
+    "rewards-and-praise-that-work",
+    "reinforcement-and-punishment-explained-positive-and-negative",
+    "behaviour-contracts",
+    "classroom-management"
+   ]
   },
   {
    "id": "consequences-logical-fair-and-proportionate",
    "group": "E. Rules and discipline",
-   "title": "Consequences: logical, fair and proportionate"
+   "title": "Consequences: logical, fair and proportionate",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A consequence is what happens after a behaviour. Good consequences help learners learn what to do next time. They are different from punishment, which aims to make a learner suffer."
+    },
+    {
+     "t": "h",
+     "x": "Qualities of a good consequence"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Related: it connects to the behaviour.",
+      "Respectful: it does not shame or frighten the learner.",
+      "Reasonable and proportionate: it matches how serious the behaviour is.",
+      "Known in advance: learners understand the rule and the consequence.",
+      "Consistent: the same for everyone.",
+      "Followed by a way to put things right."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Examples"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Behaviour",
+      "A logical consequence",
+      "Not logical"
+     ],
+     "rows": [
+      [
+       "Making a mess",
+       "The learner helps to clean up",
+       "Writing lines"
+      ],
+      [
+       "Talking during a task",
+       "A quiet reminder, then moving to a different seat",
+       "Extra homework"
+      ],
+      [
+       "Using a phone",
+       "The phone goes in the bag or is kept by the teacher as school policy allows",
+       "Public embarrassment"
+      ],
+      [
+       "Arriving late",
+       "Catching up on what was missed",
+       "Locking the learner out"
+      ],
+      [
+       "Not finishing work",
+       "Finishing at a suitable time",
+       "Sarcastic comments"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Proportionate: three levels"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Level",
+      "Examples",
+      "Response"
+     ],
+     "rows": [
+      [
+       "Minor",
+       "Talking, forgetting materials",
+       "Reminder, a choice, a private word"
+      ],
+      [
+       "Moderate",
+       "Repeated disruption, rudeness",
+       "A private talk and a logical consequence; tell the head or parents if repeated"
+      ],
+      [
+       "Serious",
+       "Bullying, violence, anything that threatens safety",
+       "Follow your school policy and involve school leaders"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "How to give a consequence"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Stay calm and speak quietly.",
+      "Give a choice when possible: You can work quietly here, or move to the front. You decide.",
+      "Follow through when the learner chooses not to cooperate.",
+      "Talk privately afterwards: What will help next time?",
+      "Start fresh in the next lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What to avoid"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Physical punishment.",
+      "Humiliation, sarcasm or name lists on the board.",
+      "Taking away basic needs such as water or toilet breaks.",
+      "Using homework as punishment.",
+      "Punishing the whole class for one learner's behaviour.",
+      "Consequences you cannot or will not carry out."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write one logical consequence for your most common problem.",
+      "Check that it is related, respectful and reasonable.",
+      "Check that learners know it in advance.",
+      "Plan the calm sentence you will use."
+     ]
+    }
+   ],
+   "related": [
+    "warnings-and-step-by-step-responses",
+    "keeping-rules-consistent-and-fair",
+    "positive-punishment",
+    "alternatives-to-corporal-punishment"
+   ]
   },
   {
    "id": "warnings-and-step-by-step-responses",
    "group": "E. Rules and discipline",
-   "title": "Warnings and step-by-step responses"
+   "title": "Warnings and step-by-step responses",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A step-by-step response gives you a plan for behaviour problems. You start with the smallest response that could work and move up only if needed. Learners know what comes next, so the process feels fair."
+    },
+    {
+     "t": "h",
+     "x": "A ladder of responses"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Step",
+      "What you do",
+      "Example words"
+     ],
+     "rows": [
+      [
+       "1. Prevent",
+       "Keep learners busy and stand near them",
+       "(no words)"
+      ],
+      [
+       "2. Non-verbal",
+       "Eye contact, a gesture, a pause",
+       "(a look and a pause)"
+      ],
+      [
+       "3. Quiet reminder",
+       "Say the name and the expected behaviour",
+       "Dara, eyes on the board, please."
+      ],
+      [
+       "4. Choice",
+       "Give two options and a consequence",
+       "You can work here quietly, or move to the front. You decide."
+      ],
+      [
+       "5. Consequence",
+       "Apply the consequence calmly",
+       "It is time to move to the front."
+      ],
+      [
+       "6. Private talk",
+       "Talk alone, after class",
+       "What happened? What will help next time?"
+      ],
+      [
+       "7. Refer",
+       "Involve the school or parents for serious or repeated problems",
+       "Follow your school policy."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Guidelines"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Give a learner a few seconds to respond to each step.",
+      "Do not threaten what you will not do.",
+      "Keep your voice calm and low.",
+      "Offer a fresh start in each lesson.",
+      "Keep brief private notes on repeated problems.",
+      "Skip steps if safety is at risk and get help immediately."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Warnings on the board"
+    },
+    {
+     "t": "p",
+     "x": "Writing names on the board as a warning can embarrass learners in front of the class. Consider tracking warnings privately in a notebook."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Repeating the same warning many times.",
+      "Going from calm to angry in one step.",
+      "Giving a consequence that is too big for the behaviour.",
+      "Different rules for different learners.",
+      "Holding a grudge into the next lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write your own ladder with example words for each step.",
+      "Plan the choice sentence for step 4.",
+      "Decide how you will track repeated problems privately.",
+      "Practise a calm voice for steps 3 and 4."
+     ]
+    }
+   ],
+   "related": [
+    "consequences-logical-fair-and-proportionate",
+    "classroom-management",
+    "staying-calm-and-professional-under-pressure",
+    "students-talk-while-i-am-teaching"
+   ]
   },
   {
    "id": "restorative-approaches-repairing-harm",
    "group": "E. Rules and discipline",
-   "title": "Restorative approaches: repairing harm"
+   "title": "Restorative approaches: repairing harm",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Restorative approaches focus on relationships and on repairing harm, instead of only deciding who deserves punishment. They are used in schools in many countries. They ask learners to think about what happened, who was affected and how to make things right."
+    },
+    {
+     "t": "h",
+     "x": "Restorative questions"
+    },
+    {
+     "t": "p",
+     "x": "The International Institute for Restorative Practices (IIRP) suggests questions like these."
+    },
+    {
+     "t": "table",
+     "head": [
+      "When something goes wrong",
+      "When someone has been harmed"
+     ],
+     "rows": [
+      [
+       "What happened?",
+       "What did you think when you realised what had happened?"
+      ],
+      [
+       "What were you thinking at the time?",
+       "What impact has this had on you and others?"
+      ],
+      [
+       "What have you thought about since?",
+       "What has been the hardest thing for you?"
+      ],
+      [
+       "Who has been affected, and in what way?",
+       "What do you think needs to happen to make things right?"
+      ],
+      [
+       "What do you think you need to do to make things right?",
+       ""
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A short restorative conversation"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Find a private moment when everyone is calm.",
+      "Explain that you want to understand and fix the problem, not only to punish.",
+      "Ask the questions. Listen and do not interrupt.",
+      "Agree what will be done to make things right.",
+      "Follow up in a few days."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Building the habit"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use circles: learners sit in a circle and each shares a thought about a topic.",
+      "Use friendly questions in everyday situations, so the learners know them.",
+      "Use informal talk and everyday respect, not only formal meetings.",
+      "Praise learners who repair a mistake."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Cautions"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Restorative talk is not an excuse to avoid consequences. Accountability remains important.",
+      "It must be safe. For bullying, violence or serious harm, follow your school's child-protection and discipline policy first.",
+      "Taking part should be voluntary for the learner who was harmed. Never make that learner face the other alone.",
+      "Adapt the language to the age and level of the learners. Use Khmer if it helps."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write the five questions on a card.",
+      "Try them with one small, safe problem.",
+      "Prepare a calm, private place for a talk.",
+      "Know who to ask for help with serious cases."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Ted Wachtel, Bob Costello and Joan Wachtel, The Restorative Practices Handbook",
+      "International Institute for Restorative Practices (IIRP), iirp.edu"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "bullying-and-conflict-between-students",
+    "positive-discipline",
+    "talking-to-parents-about-behaviour",
+    "staying-calm-and-professional-under-pressure"
+   ]
   },
   {
    "id": "behaviour-contracts",
    "group": "E. Rules and discipline",
-   "title": "Behaviour contracts"
+   "title": "Behaviour contracts",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A behaviour contract is a short written agreement between a learner and a teacher, and sometimes parents. It states what the learner will do, how the teacher will help, and how progress will be checked. Use it when a general rule is not enough for one learner."
+    },
+    {
+     "t": "h",
+     "x": "Making a contract"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Meet the learner privately and calmly.",
+      "Ask for the learner's view of the problem.",
+      "Choose one or two behaviours, written positively and specifically: Start work within one minute.",
+      "Write what the teacher will do to help, such as a seat near the front or a quiet signal.",
+      "Decide how progress will be checked: a daily tick on a card.",
+      "Agree a short review date, such as one or two weeks.",
+      "Both sign the contract. Give the learner a copy.",
+      "Share it with parents or the school as your policy says."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A simple template"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Part",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Name and date",
+       "Dara, 10 November"
+      ],
+      [
+       "My goal",
+       "I will start work within one minute of the instruction"
+      ],
+      [
+       "What the teacher will do",
+       "Remind me quietly, and check in with me twice"
+      ],
+      [
+       "How we will check",
+       "A tick on my card after each lesson"
+      ],
+      [
+       "If I do it",
+       "Praise, and a note home on Friday"
+      ],
+      [
+       "Review date",
+       "Next Friday"
+      ],
+      [
+       "Signatures",
+       "Learner, teacher"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Keep it short. One behaviour is often enough.",
+      "Make the goal achievable.",
+      "Include support from the teacher, not only demands on the learner.",
+      "Choose rewards the learner values, such as a positive note home.",
+      "Celebrate progress, even if small.",
+      "Review and change the contract if it is not working.",
+      "Keep it confidential."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Using a contract as a threat.",
+      "Too many goals.",
+      "Unrealistic goals.",
+      "No review date.",
+      "A contract made by the teacher alone."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one learner and one behaviour.",
+      "Plan a private talk.",
+      "Prepare a template.",
+      "Decide the review date."
+     ]
+    }
+   ],
+   "related": [
+    "token-systems-and-behaviour-charts",
+    "talking-to-parents-about-behaviour",
+    "restorative-approaches-repairing-harm",
+    "classroom-rules"
+   ]
   },
   {
    "id": "alternatives-to-corporal-punishment",
    "group": "E. Rules and discipline",
-   "title": "Alternatives to corporal punishment"
+   "title": "Alternatives to corporal punishment",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Hitting, slapping, pinching and other physical punishment are not acceptable ways to manage a class. This article gives the facts and practical alternatives. It is written with respect for teachers who work in difficult conditions and who were often disciplined this way themselves."
+    },
+    {
+     "t": "note",
+     "x": "Physical punishment, and humiliating or frightening learners, should never be used."
+    },
+    {
+     "t": "h",
+     "x": "The law and the policy in Cambodia"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Corporal punishment is prohibited in public and private schools in Cambodia under article 35 of the Education Law (2007), according to the Global Initiative to End All Corporal Punishment of Children.",
+      "The Ministry of Education has child-friendly school materials on preventing violence against children and has run teacher training on positive discipline.",
+      "Official documents also acknowledge that physical punishment still occurs in some schools, which is why alternatives and training matter.",
+      "Laws and policies can change. Check the current law and your school's rules."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What the evidence says"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "In 2025 the World Health Organization published a report concluding that there is overwhelming scientific evidence that corporal punishment carries multiple risks of harm and has no benefits for children, parents or societies.",
+      "Meta-analyses of many studies, including work by Elizabeth Gershoff, found that physical punishment was not linked to positive outcomes and was linked to many negative ones.",
+      "Physical punishment can teach fear instead of the behaviour you want."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Instead of hitting"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "Try"
+     ],
+     "rows": [
+      [
+       "Talking in class",
+       "A signal, standing near, a quiet word, a change of seat"
+      ],
+      [
+       "Not doing homework",
+       "A private talk, a catch-up chance, a shorter task, and a call to a parent if needed"
+      ],
+      [
+       "Rudeness",
+       "Stay calm, speak privately, agree what to change, and use a logical consequence"
+      ],
+      [
+       "Fighting",
+       "Separate the learners safely, get help and follow school policy"
+      ],
+      [
+       "Not paying attention",
+       "Change the activity, give a role, move closer"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "When you feel angry"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Pause. Count slowly to five.",
+      "Breathe out slowly and lower your shoulders.",
+      "Lower your voice.",
+      "Step back or move away from the learner.",
+      "Say: I need a moment. We will talk after class.",
+      "Return to the topic when you are calm."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Longer-term ideas"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach the class rules and routines.",
+      "Praise good behaviour.",
+      "Use short, consistent consequences.",
+      "Build relationships with each learner.",
+      "Ask your school for training on positive discipline.",
+      "Share ideas with colleagues."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "If you see it happen"
+    },
+    {
+     "t": "p",
+     "x": "Follow your school's child-protection process and speak to the head teacher or the person responsible for child protection."
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write the sentence you will say when you feel angry.",
+      "Plan your first three non-physical responses.",
+      "Think of one learner you can praise today."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "World Health Organization, Corporal punishment of children: the public health impact (2025)",
+      "Elizabeth Gershoff and Andrew Grogan-Kaylor, Spanking and child outcomes: Old controversies and new meta-analyses, Journal of Family Psychology, 2016",
+      "Ministry of Education, Youth and Sport (Cambodia), Child-Friendly Schools materials"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "positive-punishment",
+    "positive-discipline",
+    "staying-calm-and-professional-under-pressure",
+    "disrespect-towards-the-teacher"
+   ]
   },
   {
    "id": "talking-to-parents-about-behaviour",
    "group": "E. Rules and discipline",
-   "title": "Talking to parents about behaviour"
+   "title": "Talking to parents about behaviour",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Talking to parents about a learner's behaviour works best when you are prepared, calm and ready to work together. Parents want the best for their child, even if the first reaction is worry or defence."
+    },
+    {
+     "t": "note",
+     "x": "Follow your school's rules about contacting parents. For serious matters, speak to the head teacher first."
+    },
+    {
+     "t": "h",
+     "x": "When to contact parents"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A pattern of behaviour that you have not been able to change.",
+      "A serious incident, following school policy.",
+      "Good news too. Contact parents early with something positive, so the first contact is not a complaint."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Prepare"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Collect facts: what, when and how often.",
+      "Note what you have already tried.",
+      "Think of the learner's strengths.",
+      "Decide what you want from the meeting: information, support or a shared plan.",
+      "Choose a private, quiet place and enough time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A simple structure"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Greet warmly and begin with something positive.",
+      "Describe the behaviour clearly, without judgement.",
+      "Ask for the parent's view: Can you help me understand what may be happening?",
+      "Listen. Take notes.",
+      "Agree a plan together: what the school will do, what the family can do and when you will talk again.",
+      "Thank the parent and follow up."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Useful phrases"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Instead of",
+      "Say"
+     ],
+     "rows": [
+      [
+       "Your child is lazy.",
+       "I have noticed Dara often does not finish homework. I would like to understand why."
+      ],
+      [
+       "He is always rude.",
+       "Twice this week he spoke to me in a way that I found disrespectful. I would like to work with you on this."
+      ],
+      [
+       "You need to control your child.",
+       "What do you think would help at home and at school?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "If the parent is upset"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Stay calm and listen.",
+      "Acknowledge the feeling: I can see you are worried.",
+      "Return to the facts and the plan.",
+      "Offer to meet again with another staff member.",
+      "End the meeting politely if it becomes unsafe or abusive and report it to the school."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Confidentiality and records"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do not discuss other learners.",
+      "Keep a note of what was said and agreed.",
+      "Share information only with people who need it, following school policy."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write your three facts and your three positives.",
+      "Plan your opening sentence.",
+      "Plan one question for the parent.",
+      "Decide what plan you will suggest."
+     ]
+    }
+   ],
+   "related": [
+    "behaviour-contracts",
+    "students-do-not-do-their-homework",
+    "disrespect-towards-the-teacher",
+    "communicating-with-parents"
+   ]
   },
   {
    "id": "staying-calm-and-professional-under-pressure",
    "group": "E. Rules and discipline",
-   "title": "Staying calm and professional under pressure"
+   "title": "Staying calm and professional under pressure",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Teaching is stressful. Noise, disrespect and tiredness can make anyone angry. How you respond sets an example for learners and protects the relationship. Calm is a skill you can practise."
+    },
+    {
+     "t": "h",
+     "x": "Know your triggers"
+    },
+    {
+     "t": "p",
+     "x": "Notice which situations make you angry: a particular behaviour, a particular time of day or a particular learner. Knowing your triggers helps you prepare."
+    },
+    {
+     "t": "h",
+     "x": "In the moment"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Step",
+      "What to do"
+     ],
+     "rows": [
+      [
+       "Pause",
+       "Stop and count slowly to five"
+      ],
+      [
+       "Breathe",
+       "Breathe out slowly. Relax your shoulders and hands"
+      ],
+      [
+       "Lower your voice",
+       "Speak more quietly and slowly"
+      ],
+      [
+       "Create space",
+       "Step back, or give a short task while you collect yourself"
+      ],
+      [
+       "Use a script",
+       "I need a moment. We will talk after class. or I will wait until it is quiet."
+      ],
+      [
+       "Choose your response",
+       "Decide what you want the learner to do next, and say that"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Do not take it personally"
+    },
+    {
+     "t": "p",
+     "x": "Most misbehaviour is about the learner's situation, feelings or habits, not about you. Remind yourself: this is a behaviour I can deal with."
+    },
+    {
+     "t": "h",
+     "x": "Professional behaviour"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "No shouting, sarcasm, shaming or physical contact as punishment.",
+      "Speak about the behaviour, not the person.",
+      "Keep promises and consequences consistent.",
+      "If you lose your temper, apologise briefly and start again: I raised my voice earlier. I am sorry. Let us begin again."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "After a hard lesson"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Take a few minutes to breathe or walk.",
+      "Talk to a colleague or mentor you trust.",
+      "Write down what happened and one thing to try next time.",
+      "Focus on what you can control."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Preventing stress"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Plan lessons with clear routines.",
+      "Keep a short list of backup activities.",
+      "Sleep, eat and drink water.",
+      "Set boundaries around work time.",
+      "Ask for help early."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Getting support"
+    },
+    {
+     "t": "p",
+     "x": "If stress is affecting your health or your teaching for a long time, speak to a supervisor, a trusted colleague or a professional. Asking for help is a sign of professionalism."
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose your pause sentence.",
+      "Write down your top three triggers.",
+      "Practise breathing out slowly before the lesson.",
+      "Plan who you will talk to after a hard lesson."
+     ]
+    }
+   ],
+   "related": [
+    "alternatives-to-corporal-punishment",
+    "disrespect-towards-the-teacher",
+    "reflective-practice",
+    "looking-after-your-voice-and-your-energy"
+   ]
   },
   {
    "id": "students-talk-while-i-am-teaching",
@@ -7093,42 +8839,1224 @@
   {
    "id": "questioning-techniques",
    "group": "H. Questions, feedback and correction",
-   "title": "Questioning techniques"
+   "title": "Questioning techniques",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Questions are one of a teacher's most useful tools. Good questions get learners thinking and talking. Poor questions get a quick yes, or silence."
+    },
+    {
+     "t": "h",
+     "x": "Types of question"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Example",
+      "Use"
+     ],
+     "rows": [
+      [
+       "Closed (yes or no)",
+       "Do you like English?",
+       "A quick check or a warm-up"
+      ],
+      [
+       "Display (you know the answer)",
+       "What is the past of go?",
+       "Checking what learners know"
+      ],
+      [
+       "Genuine (you do not know the answer)",
+       "What did you do at the weekend?",
+       "Real communication"
+      ],
+      [
+       "Open and thinking",
+       "Why do you think she was late? How could we solve this?",
+       "Longer answers, opinions and reasoning"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Use a mix. Display questions are useful for checking, but learners also need genuine questions to practise real communication."
+    },
+    {
+     "t": "h",
+     "x": "How to ask a question well"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Plan your key questions before the lesson.",
+      "Ask the whole class first, and then pause.",
+      "Let learners think alone or talk to a partner (think, pair, share).",
+      "Choose a learner, or ask several pairs.",
+      "Listen to the answer, then ask a follow-up: Why? Can you say more? Who agrees?",
+      "Invite other learners to add to the answer."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Ask one question at a time.",
+      "Keep the language of the question simple.",
+      "Do not answer your own question too soon. Give wait time.",
+      "Choose learners fairly. Name sticks or cards help.",
+      "If a learner says I do not know, ask a partner to help, or come back to the learner later.",
+      "Avoid Do you understand? Ask a question that shows understanding.",
+      "Mix easy questions, so learners feel successful, with harder ones."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Making a question better"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Weak question",
+      "Better question"
+     ],
+     "rows": [
+      [
+       "Do you understand the past simple?",
+       "Which is correct: I went to the market, or I goed to the market? Why?"
+      ],
+      [
+       "Is this text interesting?",
+       "What was the most interesting thing in this text for you? Why?"
+      ],
+      [
+       "Do you know this word?",
+       "What do you think this word means? What helps you guess?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Asking several questions at once.",
+      "Asking only the learners who raise their hands.",
+      "Too many yes or no questions.",
+      "Asking questions that are too hard or use difficult language.",
+      "Not giving time to think."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write three key questions in advance, including one thinking question.",
+      "Ask each question to the whole class, and pause.",
+      "Add a pair step before you choose a learner.",
+      "Prepare a follow-up such as Why?"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Penny Ur, A Course in Language Teaching",
+      "Jim Scrivener, Learning Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "wait-time",
+    "eliciting-instead-of-telling",
+    "concept-checking-and-instruction-checking-questions",
+    "a-few-students-dominate-the-class"
+   ]
   },
   {
    "id": "eliciting-instead-of-telling",
    "group": "H. Questions, feedback and correction",
-   "title": "Eliciting instead of telling"
+   "title": "Eliciting instead of telling",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "To elicit means to draw information, ideas or language out of learners instead of telling them. Learners are more involved, you find out what they already know, and you avoid explaining things they know."
+    },
+    {
+     "t": "h",
+     "x": "Ways to elicit"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Technique",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Picture or object",
+       "Show a picture and ask: What is this?"
+      ],
+      [
+       "Mime or gesture",
+       "Mime brushing your teeth: What am I doing?"
+      ],
+      [
+       "Gap sentence",
+       "I ___ to school every day."
+      ],
+      [
+       "Context or short story",
+       "Sokha went to the market. He wanted bread. The shop was closed. How did he feel?"
+      ],
+      [
+       "Definition or opposite",
+       "The opposite of big is..."
+      ],
+      [
+       "Examples",
+       "Cat, dog, cow. What are they?"
+      ],
+      [
+       "Clues",
+       "It starts with b. It has six letters."
+      ],
+      [
+       "Board prompts",
+       "Write word cues: he / go / school, and ask for a sentence"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Steps"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Decide what you want learners to say.",
+      "Prepare the cue: a picture, a question or a gap.",
+      "Give the cue and wait.",
+      "Accept good attempts and help learners improve their answers.",
+      "If nobody knows, give the answer or a clearer clue after a short time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "When not to elicit"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "When learners cannot know the answer, such as a completely new word.",
+      "When time is short.",
+      "When it becomes a long guessing game."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Have a backup plan. If nobody knows after about twenty seconds, tell them.",
+      "Praise attempts, even wrong ones.",
+      "Write answers on the board.",
+      "Give hints from easy to specific.",
+      "If learners are reluctant to guess in public, let them discuss in pairs first."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Asking for something nobody can guess.",
+      "Accepting only the exact answer in your head.",
+      "Making the process long and frustrating."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose two things you can elicit instead of telling.",
+      "Prepare a picture or a gap sentence for each.",
+      "Plan a hint if nobody answers.",
+      "Decide when you will tell the answer."
+     ]
+    }
+   ],
+   "related": [
+    "questioning-techniques",
+    "how-to-teach-vocabulary",
+    "wait-time",
+    "concept-checking-and-instruction-checking-questions"
+   ]
   },
   {
    "id": "concept-checking-and-instruction-checking-questions",
    "group": "H. Questions, feedback and correction",
-   "title": "Concept-checking and instruction-checking questions"
+   "title": "Concept-checking and instruction-checking questions",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners often say Yes when you ask Do you understand? Checking questions show whether they really understand a new language point or an instruction."
+    },
+    {
+     "t": "h",
+     "x": "Concept-checking questions (CCQs)"
+    },
+    {
+     "t": "p",
+     "x": "CCQs check meaning, not form. A good CCQ is short and simple, has a yes, no or one-word answer, and uses easier language than the item you are checking."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Language",
+      "CCQs"
+     ],
+     "rows": [
+      [
+       "used to (I used to play football)",
+       "Did I play football in the past? (Yes) Do I play football now? (No)"
+      ],
+      [
+       "enormous",
+       "Is it big or small? (Big) Is it bigger than big? (Yes)"
+      ],
+      [
+       "I am going to visit my grandmother",
+       "Have I decided already? (Yes) Is it in the past or the future? (Future)"
+      ],
+      [
+       "I have lived here for five years",
+       "Do I live here now? (Yes) Did I start living here in the past? (Yes)"
+      ],
+      [
+       "borrow",
+       "Do I take the pen or give the pen? (Take) Do I give it back? (Yes)"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "How to write CCQs"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Decide the key points of meaning.",
+      "Write two to four short questions.",
+      "Check that the answers are simple.",
+      "Ask them in a clear order, from easy to harder.",
+      "Ask different learners, and ask the class to answer in chorus or in pairs."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Instruction-checking questions (ICQs)"
+    },
+    {
+     "t": "p",
+     "x": "ICQs check that learners know what to do in an activity."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Are you working alone or in pairs?",
+      "How many questions do you answer?",
+      "What do you write?",
+      "How much time do you have?"
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Ask the questions after you give the instruction and before learners start. For more on instructions, see Giving clear instructions."
+    },
+    {
+     "t": "h",
+     "x": "Other ways to check understanding"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Ask a learner to explain in their own words or in their first language.",
+      "Ask for an example.",
+      "Use a picture or a quick action.",
+      "Use a short task, such as a quick gap-fill.",
+      "Look at the learners' faces and at their first attempts."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Asking Do you understand?",
+      "Using questions that are harder than the language being checked.",
+      "Asking too many questions.",
+      "Not giving time to answer.",
+      "Asking only the strongest learner."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one item and write three CCQs.",
+      "Check that the answers are simple.",
+      "Plan two ICQs for the main activity.",
+      "Plan who you will ask."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Gerry Workman, Concept Questions and Time Lines",
+      "Jim Scrivener, Learning Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "giving-clear-instructions",
+    "questioning-techniques",
+    "eliciting-instead-of-telling",
+    "how-to-teach-grammar"
+   ]
   },
   {
    "id": "wait-time",
    "group": "H. Questions, feedback and correction",
-   "title": "Wait time"
+   "title": "Wait time",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Wait time is the pause a teacher leaves during questioning. Many teachers leave very little. A longer pause gives learners time to think and to put their ideas into words."
+    },
+    {
+     "t": "h",
+     "x": "Two pauses"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pause",
+      "When",
+      "What to do"
+     ],
+     "rows": [
+      [
+       "Wait time 1",
+       "After you ask a question, before anyone answers",
+       "Stay silent for three to five seconds"
+      ],
+      [
+       "Wait time 2",
+       "After a learner answers, before you respond",
+       "Pause for a few seconds before you say anything"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What the research found"
+    },
+    {
+     "t": "p",
+     "x": "Mary Budd Rowe recorded and studied classroom lessons for many years, mostly in science classes. She reported that teachers usually wait only about one second after a question and about one second after an answer. When both pauses were extended to about three seconds or more, she reported changes such as longer answers, more reasoned answers, more learners taking part and fewer answers of I do not know."
+    },
+    {
+     "t": "note",
+     "x": "Most of this research was done in science classrooms, not language classrooms. In English lessons, learners must think and find the words in another language, so a longer pause is likely to be useful. Try it and watch what happens in your own class."
+    },
+    {
+     "t": "h",
+     "x": "How to use wait time"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Ask the question clearly.",
+      "Stay silent and count slowly in your head: one, two, three.",
+      "Look around the room in a friendly way. Do not stare at one learner.",
+      "Let learners think or write for a moment, or talk to a partner.",
+      "Choose a learner or take a pair's answer.",
+      "After the answer, pause before you respond. Then say something that invites more: Can you say more? Who sees it differently?"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Three seconds feels long. Count it, or ask a colleague to time you.",
+      "One teaching guide suggests about three seconds for simple knowledge questions and up to five seconds for thinking questions.",
+      "Tell learners: I will give you time to think.",
+      "Offer an I pass choice, so a learner who is not ready can listen and answer later.",
+      "Use think time before pair talk.",
+      "With beginners, allow extra time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Answering your own question.",
+      "Calling on the first raised hand.",
+      "Repeating the question too quickly.",
+      "Judging the answer at once with Good or No, which can close the discussion."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Ask three questions and count three seconds after each.",
+      "After one answer, pause before you respond.",
+      "Ask learners to discuss in pairs before they answer.",
+      "Notice what changes in the length of the answers."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Mary Budd Rowe, Wait time: Slowing down may be a way of speeding up!, Journal of Teacher Education, 1986"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "questioning-techniques",
+    "shy-and-silent-students",
+    "a-few-students-dominate-the-class",
+    "eliciting-instead-of-telling"
+   ]
   },
   {
    "id": "error-correction-techniques",
    "group": "H. Questions, feedback and correction",
-   "title": "Error correction techniques"
+   "title": "Error correction techniques",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners make errors as they learn. Correction helps when it is clear, kind and used for the right errors at the right time."
+    },
+    {
+     "t": "h",
+     "x": "Six ways to correct"
+    },
+    {
+     "t": "p",
+     "x": "Lyster and Ranta (1997) described six types of corrective feedback in classrooms. Take the learner's sentence: He go to school yesterday."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Technique",
+      "What the teacher does",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Explicit correction",
+       "Says what is wrong and gives the correct form",
+       "No, we say went."
+      ],
+      [
+       "Recast",
+       "Says the sentence again correctly, with no comment",
+       "Yes, he went to school yesterday."
+      ],
+      [
+       "Clarification request",
+       "Shows that something was unclear",
+       "Sorry, can you say that again?"
+      ],
+      [
+       "Metalinguistic feedback",
+       "Gives a clue about the rule",
+       "Yesterday. Think about the tense."
+      ],
+      [
+       "Elicitation",
+       "Asks the learner to supply the correct form",
+       "He... ? (pause)"
+      ],
+      [
+       "Repetition",
+       "Repeats the error with a questioning voice",
+       "He go to school yesterday?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What research suggests"
+    },
+    {
+     "t": "p",
+     "x": "In Lyster and Ranta's study of classrooms in French immersion programmes, teachers used recasts most often, but the techniques that asked learners to correct themselves (elicitation, clarification requests, metalinguistic feedback and repetition) led to more learners correcting their own error. Later research has shown that results depend on the setting and on how clear the correction is, and that recasts can work well in some classrooms. A mix of techniques is sensible."
+    },
+    {
+     "t": "h",
+     "x": "When to correct"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Focus",
+      "What to do"
+     ],
+     "rows": [
+      [
+       "Accuracy practice",
+       "Correct at once, so learners get the form right"
+      ],
+      [
+       "Fluency practice",
+       "Do not interrupt. Note errors and give feedback afterwards"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What to correct"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Errors that block understanding.",
+      "Errors in the language you are teaching.",
+      "Errors many learners make.",
+      "Not every error, because correcting everything discourages learners."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Delayed correction"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Listen and note errors and good language while learners speak.",
+      "Write three to five errors on the board without names.",
+      "Ask pairs or the class to correct them.",
+      "Praise good language you heard.",
+      "Return to the errors in a later lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Correct kindly"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use a friendly face and voice.",
+      "Never use sarcasm or let others laugh.",
+      "Thank the learner for trying.",
+      "Some learners feel embarrassed about being corrected in public. A private word or a note can be better."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Decide whether the activity is for accuracy or fluency.",
+      "Choose two correction techniques.",
+      "Prepare a place on the board for errors.",
+      "Plan how you will praise good language."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Roy Lyster and Leila Ranta, Corrective feedback and learner uptake, Studies in Second Language Acquisition, 1997",
+      "Roy Lyster, Kazuya Saito and Masatoshi Sato, Oral corrective feedback in second language classrooms, Language Teaching, 2013"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "peer-correction-and-self-correction",
+    "students-are-afraid-of-making-mistakes",
+    "correcting-errors-during-speaking",
+    "correcting-grammar-mistakes"
+   ]
   },
   {
    "id": "peer-correction-and-self-correction",
    "group": "H. Questions, feedback and correction",
-   "title": "Peer correction and self-correction"
+   "title": "Peer correction and self-correction",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "When learners correct themselves and each other, they notice language more and become more independent. It also frees you to listen. It works best in a kind, supportive class."
+    },
+    {
+     "t": "h",
+     "x": "Self-correction"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Give a signal and let the learner try again: a pause, a raised eyebrow or Try again.",
+      "Repeat the sentence up to the error and stop.",
+      "Show the words with your fingers to show word order or a missing word.",
+      "Give a clue: Past tense.",
+      "Use a checklist for writing.",
+      "Record learners speaking and let them listen and find errors."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Peer correction"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Ask: Who can help?",
+      "Let a classmate suggest a correction.",
+      "Thank both learners.",
+      "Ask the first learner to say the correct sentence again.",
+      "Check that the correction is right."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Pair feedback on writing"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Give a short checklist.",
+      "Use two stars and a wish: two things done well and one thing to improve.",
+      "Teach phrases: I liked..., Maybe you could..., I did not understand..."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Making it work"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Set rules: be kind, be specific, talk about the work, not the person.",
+      "Model giving feedback.",
+      "Start with easy tasks.",
+      "Check peers' corrections, because they can be wrong.",
+      "Pair learners with care.",
+      "Never shame a learner."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Cautions"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Some learners do not like to correct classmates. Pair feedback in private can help.",
+      "Learners may correct correct language. Check.",
+      "Do not use peer correction when a learner is very anxious."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "When to use which"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Situation",
+      "Best choice"
+     ],
+     "rows": [
+      [
+       "A slip learners know",
+       "Self-correction"
+      ],
+      [
+       "An error many learners can fix",
+       "Peer correction"
+      ],
+      [
+       "An error nobody can fix",
+       "Teacher correction or a short explanation"
+      ],
+      [
+       "Written drafts",
+       "Self-checklist, then peer feedback"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Use a self-correction signal once.",
+      "Ask Who can help? for one error.",
+      "Prepare a two stars and a wish card.",
+      "Plan how you will check the corrections."
+     ]
+    }
+   ],
+   "related": [
+    "error-correction-techniques",
+    "peer-review-and-self-editing",
+    "giving-useful-feedback",
+    "students-are-afraid-of-making-mistakes"
+   ]
   },
   {
    "id": "giving-useful-feedback",
    "group": "H. Questions, feedback and correction",
-   "title": "Giving useful feedback"
+   "title": "Giving useful feedback",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Feedback is information that helps learners see where they are and what to do next. Good feedback changes what learners do. Poor feedback, such as only Good or Try harder, does not."
+    },
+    {
+     "t": "h",
+     "x": "Three questions"
+    },
+    {
+     "t": "p",
+     "x": "John Hattie and Helen Timperley (2007) reviewed research on feedback and described three questions that feedback should help learners answer."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Question",
+      "What it means"
+     ],
+     "rows": [
+      [
+       "Where am I going?",
+       "What is the goal? What does success look like?"
+      ],
+      [
+       "How am I going?",
+       "What progress have I made towards the goal?"
+      ],
+      [
+       "Where to next?",
+       "What should I do next to improve?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Four levels"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Level",
+      "Feedback about",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Task",
+       "How well the task was done",
+       "Three answers are correct. Check number four."
+      ],
+      [
+       "Process",
+       "The way the work was done",
+       "You used the model text to organise your ideas. Try a linking word between sentences."
+      ],
+      [
+       "Self-regulation",
+       "How the learner checks and manages their own work",
+       "Read your story aloud and listen for missing words."
+      ],
+      [
+       "Self",
+       "Praise about the person",
+       "You are a good student."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Hattie and Timperley found that feedback about the task, the process and self-regulation tended to be more useful than praise about the person alone."
+    },
+    {
+     "t": "h",
+     "x": "Making feedback useful"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Be specific.",
+      "Link it to the goal or the criteria.",
+      "Focus on one or two points, not everything.",
+      "Give it soon after the work.",
+      "Say what to do next.",
+      "Balance strengths and next steps.",
+      "Give learners time to use it: rewrite, repeat or try again.",
+      "Do not compare learners with each other."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Weak and better feedback"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Weak",
+      "Better"
+     ],
+     "rows": [
+      [
+       "Good job!",
+       "You used three of the new words correctly: borrow, enormous and delicious."
+      ],
+      [
+       "Try harder.",
+       "Add one detail to each sentence."
+      ],
+      [
+       "Your writing is bad.",
+       "Your ideas are clear. Next, check the verb tenses in paragraph two."
+      ],
+      [
+       "You are so clever.",
+       "You checked your answers and found two mistakes. That is good learning."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A simple frame"
+    },
+    {
+     "t": "p",
+     "x": "One thing you did well... One thing to work on... Next time try..."
+    },
+    {
+     "t": "h",
+     "x": "In large classes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Give group feedback on common errors.",
+      "Use peer feedback with a checklist.",
+      "Mark a sample or one section.",
+      "Teach a short lesson on the most common problems.",
+      "Use checklists and rubrics."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write down the goal of the task before you mark.",
+      "Choose one or two things to comment on.",
+      "Write one sentence that says what to do next.",
+      "Give time in class to act on the feedback."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "John Hattie and Helen Timperley, The Power of Feedback, Review of Educational Research, 2007"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "marking-written-work-correction-codes",
+    "error-correction-techniques",
+    "praise-and-encouragement",
+    "rubrics-for-speaking-and-writing"
+   ]
   },
   {
    "id": "marking-written-work-correction-codes",
    "group": "H. Questions, feedback and correction",
-   "title": "Marking written work (correction codes)"
+   "title": "Marking written work (correction codes)",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Marking takes a lot of time, so make it useful. Research suggests that written corrective feedback can help learners write more accurately, but the effect depends on the learners, the setting and the type of feedback, and researchers still discuss which kinds work best."
+    },
+    {
+     "t": "h",
+     "x": "Decide the purpose"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "For content and organisation, comment on ideas and structure first.",
+      "For accuracy, choose one or two kinds of error to mark, such as verb tenses and spelling.",
+      "Say before learners write what you will look at."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Ways to mark errors"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "What you do",
+      "When it is useful"
+     ],
+     "rows": [
+      [
+       "Direct",
+       "Write the correct form",
+       "Beginners, or errors learners cannot fix themselves"
+      ],
+      [
+       "Indirect: underline",
+       "Underline or circle the error, without the answer",
+       "Learners who can find the answer themselves"
+      ],
+      [
+       "Coded",
+       "Write a symbol, such as T for tense",
+       "Learners who know the code"
+      ],
+      [
+       "Comment",
+       "Write a note, such as Check the verbs in paragraph 2",
+       "Self-editing"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Research on which type is best is mixed. Choose by the level of your learners and the type of error."
+    },
+    {
+     "t": "h",
+     "x": "A correction code"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Symbol",
+      "Meaning",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Sp",
+       "Spelling",
+       "recieve"
+      ],
+      [
+       "T",
+       "Tense",
+       "I go to the market yesterday."
+      ],
+      [
+       "WW",
+       "Wrong word",
+       "I did a mistake."
+      ],
+      [
+       "WO",
+       "Word order",
+       "I like very much music."
+      ],
+      [
+       "^",
+       "A word is missing",
+       "She ^ a teacher."
+      ],
+      [
+       "Agr",
+       "Subject and verb do not agree",
+       "She go to school."
+      ],
+      [
+       "Art",
+       "Article",
+       "I have a umbrella."
+      ],
+      [
+       "P",
+       "Punctuation",
+       "Where do you live"
+      ],
+      [
+       "C",
+       "Capital letter",
+       "my name is Dara."
+      ],
+      [
+       "//",
+       "New paragraph",
+       "(start a new paragraph here)"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Introducing a code"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Start with four or five symbols.",
+      "Teach them with examples.",
+      "Practise on a sample text in class.",
+      "Add more symbols over time.",
+      "Ask learners to correct their own work using the code.",
+      "Ask learners to keep an error log."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Marking tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do not mark every error.",
+      "Always include a comment on something good.",
+      "Give a clear next step.",
+      "Return work quickly and give time in class to correct it.",
+      "Use a rubric.",
+      "Use peer marking with a checklist.",
+      "Mark a sample when you have a large class.",
+      "Note common errors and teach them to the whole class.",
+      "Talk to learners while they write, instead of marking everything afterwards."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Covering the page with red ink.",
+      "Only negative comments.",
+      "Symbols learners do not understand.",
+      "No time to read the corrections.",
+      "Marking everything and giving no follow-up."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one or two error types to mark.",
+      "Prepare a short code with four symbols.",
+      "Plan time for learners to correct their work.",
+      "Plan one comment on something good."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Eunyoung Kang and ZhaoHong Han, The efficacy of written corrective feedback in improving L2 written accuracy: A meta-analysis, The Modern Language Journal, 2015",
+      "Dana Ferris, Treatment of Error in Second Language Student Writing"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "giving-useful-feedback",
+    "peer-review-and-self-editing",
+    "managing-homework-collection-and-checking",
+    "giving-feedback-on-writing"
+   ]
   },
   {
    "id": "formative-and-summative-assessment",
