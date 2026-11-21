@@ -258,43 +258,1080 @@
    "id": "presenting-new-words-meaning-form-and-use",
    "group": "A. Teaching the language skills",
    "title": "Presenting new words: meaning, form and use",
-   "parent": "how-to-teach-vocabulary"
+   "parent": "how-to-teach-vocabulary",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "This article shows how to present a new word in a few minutes, using meaning, form and use. It builds on the main article How to teach vocabulary."
+    },
+    {
+     "t": "h",
+     "x": "Choose the way to show meaning"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Technique",
+      "Best for",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Real objects (realia)",
+       "Concrete nouns",
+       "Hold up a ruler: a ruler"
+      ],
+      [
+       "Pictures or drawings",
+       "Nouns, places, adjectives",
+       "Show a picture of an enormous elephant"
+      ],
+      [
+       "Mime or action",
+       "Verbs and some adjectives",
+       "Mime borrow: take a pen and ask to use it"
+      ],
+      [
+       "Context or example",
+       "Abstract words",
+       "I am tired. I want to sleep. I am exhausted."
+      ],
+      [
+       "Synonym or opposite",
+       "Words with a simple partner",
+       "Enormous means very big. The opposite is tiny."
+      ],
+      [
+       "Definition",
+       "Words that are hard to show",
+       "A librarian is a person who works in a library."
+      ],
+      [
+       "Translation",
+       "Abstract words and quick checking",
+       "Use after trying a picture or example, and check use in English"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Three words, worked through"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Word",
+      "Meaning",
+      "Form",
+      "Use"
+     ],
+     "rows": [
+      [
+       "borrow",
+       "Take something and give it back later (act out with a pen)",
+       "Verb. Stress on the first part: BOR-row. borrowed, borrowing",
+       "borrow something from someone; borrow money, borrow a book. Not the same as lend"
+      ],
+      [
+       "enormous",
+       "Very, very big (picture)",
+       "Adjective. Stress on the second part: e-NOR-mous",
+       "An enormous house, an enormous problem. Not used with very"
+      ],
+      [
+       "look forward to",
+       "Feel happy about something in the future",
+       "Three words. Followed by a noun or an -ing form",
+       "I am looking forward to the holiday. I am looking forward to seeing you"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A short presentation"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Show the meaning with a picture, an object or an action.",
+      "Check the meaning with two simple questions: Do I give it back? Do I take it or give it?",
+      "Say the word. Learners repeat together, then one by one.",
+      "Show the stress on the board and count the syllables.",
+      "Write the word with its word class, an example sentence and common partners.",
+      "Ask learners to say a sentence to a partner."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A useful board layout"
+    },
+    {
+     "t": "p",
+     "x": "borrow (verb): I borrowed a pen from Sokha. | borrow something from someone | borrow money, borrow a book"
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Presenting too many words at once.",
+      "Giving long definitions with words that are harder than the new word.",
+      "Using only translation.",
+      "Forgetting pronunciation and stress.",
+      "Not giving learners a chance to use the word."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose three words and decide how to show each meaning.",
+      "Write an example sentence and common partners for each.",
+      "Prepare two meaning-check questions.",
+      "Plan a quick activity where learners use the words."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-vocabulary",
+    "pre-teaching-vocabulary-for-a-text",
+    "concept-checking-and-instruction-checking-questions",
+    "using-flashcards-and-pictures"
+   ]
   },
   {
    "id": "pre-teaching-vocabulary-for-a-text",
    "group": "A. Teaching the language skills",
    "title": "Pre-teaching vocabulary for a text",
-   "parent": "how-to-teach-vocabulary"
+   "parent": "how-to-teach-vocabulary",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Before learners read or listen, you may need to teach a few words. The skill is to choose the right words and spend the right amount of time on them."
+    },
+    {
+     "t": "h",
+     "x": "Which words to pre-teach"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type of word",
+      "Pre-teach?"
+     ],
+     "rows": [
+      [
+       "Key to the main idea and impossible to guess",
+       "Yes"
+      ],
+      [
+       "Needed for the task learners will do",
+       "Yes"
+      ],
+      [
+       "Useful and common, and likely to be used again",
+       "Yes, and recycle later"
+      ],
+      [
+       "Learners can guess from context or from a similar word",
+       "No. Let them guess"
+      ],
+      [
+       "Rare and not useful",
+       "No. Give a short explanation in the margin or on the board if needed"
+      ],
+      [
+       "Needed only for one detail question",
+       "Teach after reading or when needed"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "How many"
+    },
+    {
+     "t": "p",
+     "x": "Keep the list short, so the pre-teaching does not take over the lesson and learners still have something to work out for themselves. Choose only the words that block understanding of the main points."
+    },
+    {
+     "t": "h",
+     "x": "Quick ways to pre-teach"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Show a picture and ask: What can you see? Add the new words.",
+      "Match words to pictures or short definitions.",
+      "Give learners the key words and ask them to predict what the text is about.",
+      "Write a short context sentence for each word.",
+      "Use a quick translation for abstract words.",
+      "Make a word web on the board before reading."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A short example"
+    },
+    {
+     "t": "p",
+     "x": "Text: A day at the market. Words learners may need: stall, bargain, fresh. Show pictures of a market stall and fresh vegetables. Act out bargaining. Ask learners to predict what will happen in the story using the three words."
+    },
+    {
+     "t": "h",
+     "x": "Steps"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Read the text and underline difficult words.",
+      "Decide which words you must teach, which learners can guess and which you can explain quickly.",
+      "Pre-teach with a short activity.",
+      "Let learners read or listen and do the task.",
+      "After the task, return to the words in context and ask learners what helped them understand."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teach strategies"
+    },
+    {
+     "t": "p",
+     "x": "Tell learners they do not need to understand every word. Teach them to guess from context, to use word parts and to ignore words that are not important for the task."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Pre-teaching a long list.",
+      "Explaining so much that learners have nothing to discover.",
+      "Definitions that are harder than the word.",
+      "Not returning to the words after the text."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Underline the difficult words in the text.",
+      "Choose the few that block understanding.",
+      "Prepare a picture or a short context for each.",
+      "Plan a quick review after reading or listening."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-reading",
+    "how-to-teach-listening",
+    "dealing-with-unknown-words",
+    "presenting-new-words-meaning-form-and-use"
+   ]
   },
   {
    "id": "revising-and-recycling-vocabulary",
    "group": "A. Teaching the language skills",
    "title": "Revising and recycling vocabulary",
-   "parent": "how-to-teach-vocabulary"
+   "parent": "how-to-teach-vocabulary",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners forget words quickly. Words become part of a learner's vocabulary when they meet them many times, in different situations and at different times."
+    },
+    {
+     "t": "h",
+     "x": "What research suggests"
+    },
+    {
+     "t": "p",
+     "x": "A 2022 meta-analysis of 48 experiments (Kim and Webb) compared practice that is spaced out over time with practice that is massed together. It found that spacing generally helps second language learning, although the size of the effect depends on things such as the type of practice, the number of sessions and the time between them. For teachers, the message is: do not teach a word once. Come back to it."
+    },
+    {
+     "t": "h",
+     "x": "A simple schedule"
+    },
+    {
+     "t": "table",
+     "head": [
+      "When",
+      "Quick activity (about five minutes)"
+     ],
+     "rows": [
+      [
+       "End of the lesson",
+       "Learners recall the new words with a partner"
+      ],
+      [
+       "Next lesson",
+       "A review game or quick quiz at the start"
+      ],
+      [
+       "After a week",
+       "Use the words in a speaking or writing task"
+      ],
+      [
+       "After a month",
+       "A short revision quiz mixed with other words"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Make learners recall the word"
+    },
+    {
+     "t": "p",
+     "x": "Ask learners to remember the word before you show it. For example, show a picture and ask for the word, or say the meaning and ask for the word. Trying to recall helps memory more than just looking again."
+    },
+    {
+     "t": "h",
+     "x": "Activities"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Word wall: put words on the wall and add a game each week.",
+      "Flashcards: look at the picture or meaning, say the word, then turn it over.",
+      "Vocabulary box: cards move to a new box when learners remember them, and return to the first box when they forget (the Leitner system).",
+      "Bingo, Pictionary, twenty questions, odd one out, Kim's game, category races.",
+      "Use the words in a story, a dialogue or a writing prompt.",
+      "Reading: choose texts that include the words."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Recycle in new contexts"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use the same words in a different topic.",
+      "Ask questions that need the words.",
+      "Use the words in homework.",
+      "Mix new and old words in the same activity."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Keep a record"
+    },
+    {
+     "t": "p",
+     "x": "Keep a simple list of words by week, so you know what to revise."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Revising only on the same day.",
+      "Using the same activity every time.",
+      "No record of what was taught.",
+      "Testing only spelling."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose five words from last week and plan a five-minute review.",
+      "Choose one recall activity.",
+      "Add two old words to the next speaking task.",
+      "Write the words in your record."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "I. S. P. Nation, Learning Vocabulary in Another Language",
+      "Sukyung Kim and Stuart Webb, The effects of spaced practice on second language learning: A meta-analysis, Language Learning, 2022"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "helping-students-remember-new-words",
+    "how-to-teach-vocabulary",
+    "using-flashcards-and-pictures",
+    "pacing-and-timing"
+   ]
   },
   {
    "id": "teaching-collocations-and-word-chunks",
    "group": "A. Teaching the language skills",
    "title": "Teaching collocations and word chunks",
-   "parent": "how-to-teach-vocabulary"
+   "parent": "how-to-teach-vocabulary",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A collocation is a pair or group of words that often go together, such as make a mistake or heavy rain. A chunk is a longer ready-made phrase, such as by the way or What do you think? Learners who know chunks speak more smoothly and sound more natural."
+    },
+    {
+     "t": "h",
+     "x": "Why teach them"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Many common errors are collocation errors, such as do a mistake instead of make a mistake.",
+      "Chunks help fluency, because learners say a whole phrase instead of building each word.",
+      "Learners who translate word by word often choose the wrong partner."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Types"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Verb and noun",
+       "make a mistake, do homework, take a photo, have lunch"
+      ],
+      [
+       "Adjective and noun",
+       "heavy rain, strong tea, fast food"
+      ],
+      [
+       "Adverb and adjective",
+       "very important, deeply worried"
+      ],
+      [
+       "Fixed phrases",
+       "by the way, in the end, as soon as possible"
+      ],
+      [
+       "Conversation chunks",
+       "Can I have...? How much is...? What do you think?"
+      ],
+      [
+       "Classroom chunks",
+       "How do you say... in English? Can you repeat that?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Make or do?"
+    },
+    {
+     "t": "table",
+     "head": [
+      "make",
+      "do",
+      "take",
+      "have"
+     ],
+     "rows": [
+      [
+       "a mistake",
+       "homework",
+       "a photo",
+       "lunch"
+      ],
+      [
+       "a decision",
+       "the dishes",
+       "a break",
+       "a shower"
+      ],
+      [
+       "friends",
+       "exercise",
+       "a bus",
+       "a good time"
+      ],
+      [
+       "money",
+       "your best",
+       "notes",
+       "a look"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Ways to teach"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach a word with its partners: borrow money, borrow a book.",
+      "Ask learners to match halves: verbs and nouns.",
+      "Odd one out: Which does not go with make: a mistake, a decision, homework?",
+      "Ask learners to find collocations in a text and highlight them.",
+      "Make word webs for key verbs such as make, do, take and have.",
+      "Dictate chunks and say them with natural rhythm.",
+      "Give sentence starters for speaking: In my opinion..., I would like to...",
+      "Keep a notebook with the word and its partners."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Which to teach"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "High-frequency collocations that learners need for their tasks.",
+      "Chunks for common situations.",
+      "Collocations that cause errors in your learners' work."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching single words without their partners.",
+      "Long lists with no practice.",
+      "Teaching rare phrases."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose five collocations from your next text.",
+      "Prepare a matching activity.",
+      "Teach two chunks for the speaking task.",
+      "Ask learners to add collocations to their notebooks."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Michael Lewis, The Lexical Approach",
+      "Michael McCarthy and Felicity O'Dell, English Collocations in Use"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-vocabulary",
+    "lexical-approach",
+    "helping-students-remember-new-words",
+    "how-to-teach-speaking"
+   ]
   },
   {
    "id": "teaching-phrasal-verbs-and-idioms",
    "group": "A. Teaching the language skills",
    "title": "Teaching phrasal verbs and idioms",
-   "parent": "how-to-teach-vocabulary"
+   "parent": "how-to-teach-vocabulary",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Phrasal verbs and idioms are common in English and often confuse learners, because their meaning is not always clear from the separate words. Teach a few at a time, in context."
+    },
+    {
+     "t": "h",
+     "x": "Phrasal verbs"
+    },
+    {
+     "t": "p",
+     "x": "A phrasal verb is a verb plus a small word such as up, off or after. Many have more than one meaning."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Example",
+      "Rule"
+     ],
+     "rows": [
+      [
+       "No object",
+       "The plane took off. Please sit down.",
+       "No object needed"
+      ],
+      [
+       "Object can go in the middle or after",
+       "Turn off the TV. Turn the TV off. Turn it off.",
+       "With a pronoun, the pronoun goes in the middle"
+      ],
+      [
+       "Object cannot go in the middle",
+       "Look after the children. Look after them.",
+       "The object always comes after"
+      ],
+      [
+       "Three words",
+       "look forward to, put up with, get on with",
+       "Look forward to is followed by a noun or an -ing form: I am looking forward to seeing you."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "How to teach phrasal verbs"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach a few at a time, grouped by topic (daily routine, travel) or by a verb (get up, get on, get off).",
+      "Show each in a clear context or story.",
+      "Give a simple meaning, often a one-word equivalent: give up means stop.",
+      "Teach the grammar rule for the object.",
+      "Show one meaning at a time.",
+      "Use actions, pictures and short dialogues.",
+      "Practise with gap-fills, matching and short stories.",
+      "Ask learners to record them with an example sentence."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Idioms"
+    },
+    {
+     "t": "p",
+     "x": "An idiom has a figurative meaning that is different from the meaning of the separate words, such as break the ice or a piece of cake."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach only common, useful idioms.",
+      "Show the literal picture and the real meaning.",
+      "Explain a short story or origin when it helps.",
+      "Focus first on understanding. Use in speaking comes later.",
+      "Ask learners if they know a similar saying in Khmer.",
+      "Warn learners that idioms are often informal and that too many sound unnatural."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Practice ideas"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Activity",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Matching",
+       "Match phrasal verbs to meanings"
+      ],
+      [
+       "Story gaps",
+       "Fill gaps in a story with the correct phrasal verb"
+      ],
+      [
+       "Mime",
+       "Act out an idiom and others guess"
+      ],
+      [
+       "Phrasal verb of the day",
+       "One new phrasal verb each lesson, revised later"
+      ],
+      [
+       "Picture and idiom",
+       "Draw the literal meaning and write the real meaning"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching long, random lists.",
+      "Teaching only the literal meaning.",
+      "Teaching rare or old-fashioned idioms.",
+      "Ignoring the grammar rule for the object."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose four phrasal verbs from one topic.",
+      "Write an example sentence for each.",
+      "Prepare a story or dialogue that uses them.",
+      "Plan a short review in the next lesson."
+     ]
+    }
+   ],
+   "related": [
+    "teaching-collocations-and-word-chunks",
+    "how-to-teach-vocabulary",
+    "using-songs-videos-and-stories",
+    "revising-and-recycling-vocabulary"
+   ]
   },
   {
    "id": "teaching-word-families-and-word-formation",
    "group": "A. Teaching the language skills",
    "title": "Teaching word families and word formation",
-   "parent": "how-to-teach-vocabulary"
+   "parent": "how-to-teach-vocabulary",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Many English words are made by adding a prefix or a suffix to a base word. When learners see the pattern, they can guess new words and learn several words at once. Learners whose first language does not usually change word endings, such as Khmer, may need extra attention to English endings."
+    },
+    {
+     "t": "h",
+     "x": "Common prefixes and suffixes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Affix",
+      "Meaning",
+      "Example"
+     ],
+     "rows": [
+      [
+       "un-",
+       "not",
+       "unhappy"
+      ],
+      [
+       "re-",
+       "again",
+       "rewrite"
+      ],
+      [
+       "dis-",
+       "the opposite",
+       "disagree"
+      ],
+      [
+       "-ful",
+       "full of",
+       "careful"
+      ],
+      [
+       "-less",
+       "without",
+       "careless"
+      ],
+      [
+       "-er, -or",
+       "a person who does",
+       "teacher, actor"
+      ],
+      [
+       "-ness",
+       "a state or quality",
+       "happiness"
+      ],
+      [
+       "-ly",
+       "makes an adverb",
+       "quickly"
+      ],
+      [
+       "-able",
+       "can be done",
+       "readable"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A word family"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Noun",
+      "Verb",
+      "Adjective",
+      "Adverb"
+     ],
+     "rows": [
+      [
+       "success",
+       "succeed",
+       "successful",
+       "successfully"
+      ],
+      [
+       "care",
+       "care",
+       "careful or careless",
+       "carefully or carelessly"
+      ],
+      [
+       "creation",
+       "create",
+       "creative",
+       "creatively"
+      ],
+      [
+       "beauty",
+       "",
+       "beautiful",
+       "beautifully"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teaching steps"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Start with the most common affixes.",
+      "Show a few examples and ask learners to notice the pattern.",
+      "Let learners add more examples.",
+      "Build a table: noun, verb, adjective, adverb.",
+      "Practise with gap-fills where learners choose the correct form: He sang ___ (beautiful).",
+      "Use word-building games."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Activities"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Affix cards: learners combine word cards and affix cards.",
+      "How many words can you make from teach, care and use?",
+      "Gap-fill with the correct word form.",
+      "Use a dictionary to find the family of a word.",
+      "Sort words by word class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Watch out for"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Patterns that are not completely regular: the prefix meaning not changes in some words, as in impossible and unhappy.",
+      "Spelling changes: happy and happiness, hope and hoping.",
+      "Changes in stress or sound: photograph and photographer.",
+      "The word class of a new word. The ending often shows it."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching long lists of affixes at once.",
+      "Telling learners the patterns are always regular.",
+      "Not checking the word class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose three affixes from this week's text.",
+      "Prepare a word-family table with gaps.",
+      "Plan a gap-fill that needs the correct form.",
+      "Ask learners to find a new word with the same affix."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-vocabulary",
+    "helping-students-remember-new-words",
+    "teaching-collocations-and-word-chunks",
+    "dealing-with-unknown-words"
+   ]
   },
   {
    "id": "helping-students-remember-new-words",
    "group": "A. Teaching the language skills",
    "title": "Helping students remember new words",
-   "parent": "how-to-teach-vocabulary"
+   "parent": "how-to-teach-vocabulary",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners need strategies as well as teaching. This article gives ways to help words stay in memory, and ways to teach learners to study on their own."
+    },
+    {
+     "t": "h",
+     "x": "Principles"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Meet a word many times, spaced over days and weeks. See Revising and recycling vocabulary.",
+      "Try to recall the word, instead of only looking at it.",
+      "Use the word. Words used in speaking or writing are remembered better.",
+      "Link the word to something personal, to a picture or to words you already know.",
+      "Study often in short sessions, not once for a long time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Make tasks demand thinking"
+    },
+    {
+     "t": "p",
+     "x": "Laufer and Hulstijn (2001) proposed that a word is remembered better when a task gives learners a need for the word, makes them search for its meaning, and asks them to evaluate how it fits. For example, writing a sentence with a new word needs more thinking than only reading a list."
+    },
+    {
+     "t": "h",
+     "x": "Strategies to teach"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Strategy",
+      "How to do it",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Picture or image",
+       "Draw or imagine the word",
+       "Draw an enormous elephant"
+      ],
+      [
+       "Keyword",
+       "Link the sound of the word to a word you know, with an image",
+       "Link a new word to a similar-sounding Khmer or English word and picture them together"
+      ],
+      [
+       "Personal sentence",
+       "Write a sentence about your own life",
+       "I borrowed a book from my friend."
+      ],
+      [
+       "Group by topic or word family",
+       "Learn words in sets, not alphabetically",
+       "Market: stall, bargain, fresh"
+      ],
+      [
+       "Say it",
+       "Say the word aloud and say a sentence",
+       "Repeat three times, then use it"
+      ],
+      [
+       "Test yourself",
+       "Cover the meaning and try to recall the word",
+       "Use flashcards or a list with a covered column"
+      ],
+      [
+       "Notebook",
+       "Record the word, meaning, example sentence and partners",
+       "Keep it organised and review it"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What the teacher can do"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach strategies and let learners try them.",
+      "Give time in class for notebooks.",
+      "Quiz often with recall, not only copying.",
+      "Recycle words in later lessons.",
+      "Choose words that matter to learners.",
+      "Encourage reading and listening, because they bring words back in context."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Copying long lists with no use.",
+      "Learning twenty words the night before a test.",
+      "Only looking at the translation.",
+      "No testing and no use."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Teach one strategy, such as a personal sentence.",
+      "Give five minutes for notebook work.",
+      "Plan a recall quiz for next week.",
+      "Ask learners which strategy helped them."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "I. S. P. Nation, Learning Vocabulary in Another Language",
+      "Norbert Schmitt, Vocabulary in Language Teaching",
+      "Batia Laufer and Jan Hulstijn, Incidental vocabulary acquisition in a second language: The construct of task-induced involvement, Applied Linguistics, 2001"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "revising-and-recycling-vocabulary",
+    "how-to-teach-vocabulary",
+    "using-flashcards-and-pictures",
+    "presenting-new-words-meaning-form-and-use"
+   ]
   },
   {
    "id": "how-to-teach-grammar",
@@ -497,43 +1534,1038 @@
    "id": "presenting-grammar-explaining-it-guided-discovery-and-in-con",
    "group": "A. Teaching the language skills",
    "title": "Presenting grammar: explaining it, guided discovery, and in context",
-   "parent": "how-to-teach-grammar"
+   "parent": "how-to-teach-grammar",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "There are several ways to present a grammar point. This article compares three, so that you can choose the right one for your learners."
+    },
+    {
+     "t": "h",
+     "x": "Three ways to present"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Approach",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Explain first (rule first)",
+       "You explain the rule, give examples, and then learners practise"
+      ],
+      [
+       "Guided discovery",
+       "Learners look at examples, notice the pattern and work out the rule with your help"
+      ],
+      [
+       "In context (text-based)",
+       "Learners meet the grammar in a text or dialogue, talk about the meaning, and then you focus on the form"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What research suggests"
+    },
+    {
+     "t": "p",
+     "x": "Norris and Ortega (2000) analysed 49 studies of second language instruction. They found that teaching that focused on a language point led to large gains, and that explicit teaching was more effective than implicit teaching. Later reviews by Spada and Tomita (2010) and by Goo and colleagues found similar results. Researchers also point out that many of the studies were short and used tests that suit explicit knowledge. So explicit teaching helps, and guided discovery and context are still valuable for understanding and interest. A mix is sensible."
+    },
+    {
+     "t": "h",
+     "x": "Guided discovery: an example"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Step",
+      "What you do",
+      "What learners do"
+     ],
+     "rows": [
+      [
+       "1. Examples",
+       "Write: My brother is taller than me. This book is more interesting than that one. Today is hotter than yesterday.",
+       "Read the sentences"
+      ],
+      [
+       "2. Questions",
+       "Ask: What do we add to short adjectives? What do we use with long adjectives?",
+       "Discuss in pairs"
+      ],
+      [
+       "3. Rule",
+       "Ask pairs to say the rule in their own words",
+       "Share the rule"
+      ],
+      [
+       "4. Confirm",
+       "Check and correct. Add exceptions such as better",
+       "Listen and note"
+      ],
+      [
+       "5. Practise",
+       "Give a short practice task",
+       "Practise comparing"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Which approach?"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Factor",
+      "Rule first",
+      "Discovery"
+     ],
+     "rows": [
+      [
+       "Learners",
+       "Beginners, or learners who like clear rules",
+       "Learners who can handle the task"
+      ],
+      [
+       "The grammar",
+       "Simple, clear rules",
+       "Patterns that are easy to see"
+      ],
+      [
+       "Time",
+       "Short time",
+       "More time"
+      ],
+      [
+       "Exams",
+       "Often useful",
+       "Useful with a confirmation step"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Keep the rule short and show examples.",
+      "Use colour or underlining to show the form.",
+      "Check meaning with concept questions.",
+      "Use the first language to explain when it saves time.",
+      "Give a few rules of thumb. Mention exceptions later.",
+      "Add a timeline for tenses."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A long lecture with no examples.",
+      "Hiding the rule from beginners for too long.",
+      "Examples that do not show the pattern.",
+      "Not checking that learners understand."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Prepare four example sentences that show the pattern.",
+      "Write two guiding questions.",
+      "Prepare a short statement of the rule.",
+      "Prepare a quick practice task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "John Norris and Lourdes Ortega, Effectiveness of L2 instruction: A research synthesis and quantitative meta-analysis, Language Learning, 2000",
+      "Nina Spada and Yasuyo Tomita, Interactions between type of instruction and type of language feature: A meta-analysis, Language Learning, 2010"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-grammar",
+    "grammar-practice-from-controlled-to-free",
+    "concept-checking-and-instruction-checking-questions",
+    "task-based-learning"
+   ]
   },
   {
    "id": "grammar-practice-from-controlled-to-free",
    "group": "A. Teaching the language skills",
    "title": "Grammar practice, from controlled to free",
-   "parent": "how-to-teach-grammar"
+   "parent": "how-to-teach-grammar",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners need practice to use grammar quickly and accurately. The best practice moves from careful, controlled tasks to tasks where learners choose their own words. See also the practice ladder in How to teach grammar and the PPP section of the Planning guide."
+    },
+    {
+     "t": "h",
+     "x": "The practice ladder"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Learner freedom",
+      "Activities",
+      "Teacher"
+     ],
+     "rows": [
+      [
+       "Controlled",
+       "Very little: the answer is fixed",
+       "Drills, gap-fill, matching, transformations, multiple choice",
+       "Correct at once"
+      ],
+      [
+       "Semi-controlled",
+       "Some choice, with prompts",
+       "Guided dialogues, picture prompts, information gaps, sentence stems",
+       "Monitor and help"
+      ],
+      [
+       "Free",
+       "Full choice of language",
+       "Role play, discussion, writing, projects",
+       "Note errors and correct later"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Example: comparatives"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Activity"
+     ],
+     "rows": [
+      [
+       "Controlled",
+       "Write the comparative: big, small, expensive, good"
+      ],
+      [
+       "Semi-controlled",
+       "Compare two pictures using the prompts: tall, short, old, new"
+      ],
+      [
+       "Free",
+       "Compare two cities you know. Decide where you want to live and why."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Principles"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Make practice meaningful. Learners should think about meaning, not only form.",
+      "Use true information about the learners.",
+      "Practise in short, frequent sessions.",
+      "Vary the activity: speaking, writing, games.",
+      "Use pairs and groups, so every learner practises.",
+      "Give feedback that fits the stage.",
+      "Return to the grammar in later lessons."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Game ideas"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Bingo with sentences.",
+      "Board race: teams write correct sentences.",
+      "Find the mistake: correct wrong sentences.",
+      "Two truths and a lie.",
+      "Dictogloss: listen, then rebuild the text."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Only mechanical drills.",
+      "Moving to free tasks too early.",
+      "Never reaching free practice.",
+      "Long practice with no real purpose.",
+      "No follow-up in later lessons."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Plan one controlled, one semi-controlled and one free task.",
+      "Check that learners use true information in at least one task.",
+      "Plan how you will correct at each stage.",
+      "Plan when you will revisit the grammar."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Penny Ur, Grammar Practice Activities",
+      "Scott Thornbury, How to Teach Grammar"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-grammar",
+    "teaching-tenses",
+    "presenting-grammar-explaining-it-guided-discovery-and-in-con",
+    "correcting-grammar-mistakes"
+   ]
   },
   {
    "id": "teaching-tenses",
    "group": "A. Teaching the language skills",
    "title": "Teaching tenses",
-   "parent": "how-to-teach-grammar"
+   "parent": "how-to-teach-grammar",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Tenses are difficult because learners must understand time, form and use together. Teach one tense at a time, with a clear context and a timeline. Learners whose first language does not change the verb for tense, as Khmer does not, need extra practice with verb endings and auxiliary verbs."
+    },
+    {
+     "t": "h",
+     "x": "Common tenses at a glance"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tense",
+      "Use",
+      "Example",
+      "Common problems"
+     ],
+     "rows": [
+      [
+       "Present simple",
+       "Habits, routines and facts",
+       "I go to school every day.",
+       "Missing -s: she go. Do and does in questions"
+      ],
+      [
+       "Present continuous",
+       "Now, or temporary",
+       "I am studying now.",
+       "Forgetting be. Using it with verbs like know and like"
+      ],
+      [
+       "Past simple",
+       "Finished events in the past",
+       "I visited Angkor last year.",
+       "Irregular verbs. Did + base verb: did went"
+      ],
+      [
+       "Present perfect",
+       "Past connected to now",
+       "I have lived here for five years.",
+       "Confusion with past simple. For and since"
+      ],
+      [
+       "Going to and will",
+       "Plans, predictions, decisions",
+       "I am going to study tonight.",
+       "Choosing between will and going to"
+      ],
+      [
+       "Past continuous",
+       "An action in progress in the past",
+       "I was cooking when he called.",
+       "Confusion with past simple"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A teaching sequence"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Set a context with a story or a situation.",
+      "Show the meaning with a timeline and concept questions.",
+      "Show the form: positive, negative and question. Include contractions.",
+      "Practise pronunciation: the three sounds of -ed and of -s.",
+      "Practise in controlled, then meaningful tasks.",
+      "Contrast the tense with one learners already know.",
+      "Revisit it in later lessons."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Timelines"
+    },
+    {
+     "t": "p",
+     "x": "Draw a line with past, now and future. Mark with an x when the event happens. For example, for present perfect: draw a line from the past up to now and mark the period. Ask: Do I live here now? Did I start in the past?"
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach time expressions with each tense: yesterday, last year, every day, since 2020.",
+      "Use true, personal examples.",
+      "Show similar tenses side by side.",
+      "Teach the most useful forms first.",
+      "Avoid too many terms for beginners."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching all forms at once.",
+      "Ignoring pronunciation.",
+      "Using only invented examples.",
+      "Not contrasting with similar tenses."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Draw the timeline you will use.",
+      "Write three meaning-check questions.",
+      "Prepare a text with true examples.",
+      "Plan the contrast with a tense learners already know."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Michael Swan, Practical English Usage",
+      "Gerry Workman, Concept Questions and Time Lines"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-grammar",
+    "presenting-grammar-explaining-it-guided-discovery-and-in-con",
+    "concept-checking-and-instruction-checking-questions",
+    "grammar-practice-from-controlled-to-free"
+   ]
   },
   {
    "id": "teaching-articles-prepositions-and-quantifiers",
    "group": "A. Teaching the language skills",
    "title": "Teaching articles, prepositions and quantifiers",
-   "parent": "how-to-teach-grammar"
+   "parent": "how-to-teach-grammar",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Articles, prepositions and quantifiers are small words that cause many errors. They are learned slowly, so teach them in context and come back to them often."
+    },
+    {
+     "t": "h",
+     "x": "Articles"
+    },
+    {
+     "t": "p",
+     "x": "Khmer does not have articles, so learners often leave them out or use the wrong one. Start with the basic contrast."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Article",
+      "Meaning",
+      "Example"
+     ],
+     "rows": [
+      [
+       "a or an",
+       "Any one, or the first mention",
+       "I saw a dog."
+      ],
+      [
+       "the",
+       "Both speaker and listener know which one",
+       "The dog was very big."
+      ],
+      [
+       "no article",
+       "General plural or uncountable nouns",
+       "Dogs are friendly. I like rice."
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach with a short story: first mention a, second mention the.",
+      "Use pictures: a means any, the means this one that we both know.",
+      "Do not teach every rule at once.",
+      "Notice articles in texts, and correct them gently."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Prepositions"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Group",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Time",
+       "at five o'clock, at night; on Monday, on 5 May; in March, in 2024, in the morning"
+      ],
+      [
+       "Place",
+       "in the box, on the table, at the bus station, under the chair"
+      ],
+      [
+       "Movement",
+       "go to school, walk into the room, come from Cambodia"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A helpful pattern for time: at a point, on a day or date, in a longer period.",
+      "Teach place prepositions with real objects and actions: put the pen on the table, in the bag, under the book.",
+      "Many prepositions go with particular words: interested in, good at, depend on. Teach them as chunks.",
+      "Use pictures and short stories."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Quantifiers"
+    },
+    {
+     "t": "table",
+     "head": [
+      "With countable nouns",
+      "With uncountable nouns",
+      "With both"
+     ],
+     "rows": [
+      [
+       "many, a few, few",
+       "much, a little, little",
+       "some, any, a lot of, lots of, enough"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach countable and uncountable nouns first: apples, rice, water, books.",
+      "Practise How many...? and How much...?",
+      "Use shopping role plays and recipes.",
+      "Warn about common errors: many money, informations, advices.",
+      "Some is used in offers and requests: Would you like some tea?"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching all the rules at once.",
+      "Not using context.",
+      "Expecting quick results. These words take time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one group: articles, prepositions or quantifiers.",
+      "Prepare a story or a picture that shows the pattern.",
+      "Plan a short practice task.",
+      "Plan to revisit it next week."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-grammar",
+    "teaching-collocations-and-word-chunks",
+    "how-to-teach-vocabulary",
+    "correcting-grammar-mistakes"
+   ]
   },
   {
    "id": "teaching-conditionals-and-modal-verbs",
    "group": "A. Teaching the language skills",
    "title": "Teaching conditionals and modal verbs",
-   "parent": "how-to-teach-grammar"
+   "parent": "how-to-teach-grammar",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Conditionals and modal verbs express possibility, obligation, ability and advice. They are used a lot, so teach the forms and the meanings clearly."
+    },
+    {
+     "t": "h",
+     "x": "Conditionals"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Form",
+      "Example",
+      "Meaning"
+     ],
+     "rows": [
+      [
+       "Zero",
+       "If + present, present",
+       "If you heat ice, it melts.",
+       "Always true"
+      ],
+      [
+       "First",
+       "If + present, will + base verb",
+       "If it rains, we will stay home.",
+       "A real possibility in the future"
+      ],
+      [
+       "Second",
+       "If + past, would + base verb",
+       "If I had a lot of money, I would travel.",
+       "An imagined or unlikely situation"
+      ],
+      [
+       "Third",
+       "If + past perfect, would have + past participle",
+       "If I had studied, I would have passed.",
+       "Imagined past; it did not happen"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach in order: zero and first, then second, then third.",
+      "Use situations and short stories. Ask: Is it real or imagined?",
+      "Practise with chains: If I win the lottery, I will... If I...",
+      "Use discussion: What would you do if you saw a lost wallet?",
+      "Practise contractions: I will becomes I'll, I would becomes I'd, and I would have becomes I'd have."
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Common errors: using will in the if-clause (If it will rain), and using would in the if-clause (If I would have time)."
+    },
+    {
+     "t": "h",
+     "x": "Modal verbs"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Function",
+      "Modal",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Ability",
+       "can, could",
+       "I can swim."
+      ],
+      [
+       "Permission",
+       "can, may",
+       "May I come in?"
+      ],
+      [
+       "Obligation",
+       "must, have to",
+       "You must wear a seat belt."
+      ],
+      [
+       "Advice",
+       "should",
+       "You should sleep more."
+      ],
+      [
+       "Possibility",
+       "may, might, could",
+       "It might rain."
+      ],
+      [
+       "Request or offer",
+       "could, would, can",
+       "Could you help me?"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Show the form: modal + base verb. Do not add -s, do not use to, and do not use do for questions or negatives.",
+      "Teach by function and use short dialogues.",
+      "Teach the difference between must not and do not have to: must not means it is forbidden; do not have to means it is not necessary."
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Common errors: She cans swim. I must to go. Do you can swim? You don't must."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching all four conditionals at once.",
+      "Using only form drills with no meaning.",
+      "Not checking the difference between must and have to."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one conditional or one function of modals.",
+      "Prepare a short story or dialogue.",
+      "Write three meaning-check questions.",
+      "Plan one speaking task that needs the form."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-grammar",
+    "teaching-tenses",
+    "concept-checking-and-instruction-checking-questions",
+    "grammar-practice-from-controlled-to-free"
+   ]
   },
   {
    "id": "correcting-grammar-mistakes",
    "group": "A. Teaching the language skills",
    "title": "Correcting grammar mistakes",
-   "parent": "how-to-teach-grammar"
+   "parent": "how-to-teach-grammar",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Grammar mistakes are a normal part of learning. Good correction helps learners notice and fix them without losing confidence. This article builds on Error correction techniques."
+    },
+    {
+     "t": "h",
+     "x": "Kinds of mistakes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Kind",
+      "Example",
+      "What to do"
+     ],
+     "rows": [
+      [
+       "A slip learners can fix",
+       "She go... oh, she goes",
+       "A quick signal or a pause"
+      ],
+      [
+       "A developmental error (the learner applies a rule too widely)",
+       "goed, foots",
+       "Praise the effort, show the correct form and practise it"
+      ],
+      [
+       "An error influenced by the first language",
+       "A missing be or a different word order",
+       "Contrast the forms and give practice"
+      ],
+      [
+       "A form not taught yet",
+       "Third conditional",
+       "Do not correct. Give the form if the learner needs it"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Deciding what to correct"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Is it in the language you are teaching?",
+      "Does it stop understanding?",
+      "Do many learners make it?",
+      "If yes, correct it. If not, note it, or let it go for now."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Techniques for grammar"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Show word order with your fingers.",
+      "Repeat the sentence up to the error.",
+      "Write the sentence on the board and ask learners to find the error.",
+      "Use a clue: Check the tense.",
+      "Collect errors from learners' work and use them for an error hunt: Find and fix.",
+      "Contrast the wrong and right forms side by side."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Helping learners notice their own errors"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Give a personal checklist: subject and verb agreement, tense, plurals, articles.",
+      "Ask learners to keep an error log.",
+      "Let learners check their writing with a partner.",
+      "Use a correction code. See Marking written work."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "When errors do not go away"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Reteach the form in a new way.",
+      "Give more practice that needs the form.",
+      "Check whether learners can notice the error in other people's sentences first.",
+      "Be patient. Some grammar takes a long time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Correcting every error.",
+      "Correcting grammar that you have not taught.",
+      "Correcting in front of the class in a way that embarrasses.",
+      "No follow-up."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Collect three common errors from your learners.",
+      "Plan a find-and-fix activity.",
+      "Give learners a short checklist.",
+      "Plan how you will praise good language."
+     ]
+    }
+   ],
+   "related": [
+    "error-correction-techniques",
+    "peer-correction-and-self-correction",
+    "marking-written-work-correction-codes",
+    "students-are-afraid-of-making-mistakes"
+   ]
   },
   {
    "id": "teaching-grammar-to-young-learners",
    "group": "A. Teaching the language skills",
    "title": "Teaching grammar to young learners",
-   "parent": "how-to-teach-grammar"
+   "parent": "how-to-teach-grammar",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Young learners (roughly children in primary school) learn grammar best through doing, listening and playing. They do not need explanations of rules. They need many chances to hear and use patterns."
+    },
+    {
+     "t": "h",
+     "x": "Principles"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach patterns and chunks, not rules: I like..., Can I have...?, This is a...",
+      "Use repetition, songs, chants and stories.",
+      "Use actions and objects to show meaning.",
+      "Keep activities short and change them often.",
+      "Use the first language for key instructions when needed.",
+      "Use grammar in real classroom routines: May I go to the toilet?",
+      "Praise and encourage."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Activities for grammar items"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Grammar item",
+      "Activity"
+     ],
+     "rows": [
+      [
+       "Imperatives",
+       "Simon says"
+      ],
+      [
+       "Can and cannot",
+       "I can... action game: learners show what they can do"
+      ],
+      [
+       "Present continuous",
+       "Mime an action and others guess: Are you swimming?"
+      ],
+      [
+       "There is and there are",
+       "Describe a picture"
+      ],
+      [
+       "Prepositions",
+       "Hide a toy. Where is it? It is under the chair."
+      ],
+      [
+       "How many",
+       "Count objects and ask questions"
+      ],
+      [
+       "Plurals",
+       "Pairs of pictures: one dog, two dogs"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Stories and songs"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choose stories with a repeated pattern, so children hear the structure many times.",
+      "Let children join in with the repeated line.",
+      "Use songs that include the target structure and add actions."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A short activity plan"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Introduce the pattern with a picture or a toy.",
+      "Say it with an action. Children repeat.",
+      "Play a game that uses the pattern.",
+      "Ask pairs to practise it.",
+      "Sing the song or say the chant.",
+      "Revise the pattern at the start of the next lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Explaining grammar rules.",
+      "Long, boring drills.",
+      "Activities that last too long.",
+      "No movement.",
+      "Not revising."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one pattern.",
+      "Prepare an action or a picture for it.",
+      "Plan a game of five minutes.",
+      "Plan to revise it next lesson."
+     ]
+    }
+   ],
+   "related": [
+    "teaching-young-learners",
+    "using-songs-videos-and-stories",
+    "using-games-humour-and-stories",
+    "how-to-teach-grammar"
+   ]
   },
   {
    "id": "how-to-teach-reading",
