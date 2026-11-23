@@ -2795,43 +2795,962 @@
    "id": "pre-while-and-post-reading",
    "group": "A. Teaching the language skills",
    "title": "Pre-, while- and post-reading",
-   "parent": "how-to-teach-reading"
+   "parent": "how-to-teach-reading",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A reading lesson has three stages. Each stage has a different purpose, and each needs a clear task. This article shows ideas for each stage and a worked example. The Planning guide shows the same pattern in your course lesson outline."
+    },
+    {
+     "t": "h",
+     "x": "The stages"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Purpose",
+      "Ideas"
+     ],
+     "rows": [
+      [
+       "Pre-reading",
+       "Interest, background knowledge, a reason to read",
+       "Predict from the title or a picture; a quick discussion question; a K-W-L chart (what I know, what I want to know); pre-teach only the key words; true or false predictions"
+      ],
+      [
+       "While-reading",
+       "Understand the text",
+       "First reading: a gist task, such as choosing the best title or matching headings. Second reading: detail tasks, such as true or false, a table, or questions. Pairs compare answers before the class check"
+      ],
+      [
+       "Post-reading",
+       "Respond and use",
+       "Compare with predictions; discuss; role play; write a reply or a summary; look at useful language in the text; link to learners' own lives"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A worked example: A day at the market"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Step",
+      "Activity",
+      "Time"
+     ],
+     "rows": [
+      [
+       "Pre",
+       "Show a picture of a market. Ask: What can you see? Have you been to a market? Pre-teach stall, bargain and fresh",
+       "8 min"
+      ],
+      [
+       "Predict",
+       "Learners guess three things that happen in the story",
+       "3 min"
+      ],
+      [
+       "While 1",
+       "Read quickly. Task: choose the best title from three",
+       "5 min"
+      ],
+      [
+       "While 2",
+       "Read again. Task: true or false for six sentences, then compare in pairs",
+       "8 min"
+      ],
+      [
+       "Post",
+       "Pairs act out a conversation between a seller and a buyer",
+       "10 min"
+      ],
+      [
+       "Wrap-up",
+       "Learners say one new thing they learned",
+       "3 min"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Set the task before learners read.",
+      "Give a time limit for each reading.",
+      "Use different tasks for each reading.",
+      "Let learners check answers in pairs.",
+      "Choose the text length to fit the time.",
+      "Do not turn while-reading into reading aloud round the class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching too many words before reading.",
+      "Questions given after reading.",
+      "Only one reading with all the questions together.",
+      "No post-reading task that uses what learners read."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a picture or question for the pre-reading.",
+      "Write one gist task and one detail task.",
+      "Plan how learners will check answers.",
+      "Plan a post-reading task that needs speaking or writing."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-reading",
+    "skimming-and-scanning",
+    "writing-good-comprehension-questions",
+    "pre-teaching-vocabulary-for-a-text"
+   ]
   },
   {
    "id": "skimming-and-scanning",
    "group": "A. Teaching the language skills",
    "title": "Skimming and scanning",
-   "parent": "how-to-teach-reading"
+   "parent": "how-to-teach-reading",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Skimming and scanning are two fast reading skills. Learners who read every word at the same slow speed find real-life reading very hard. Teaching these skills helps them read faster and with more purpose."
+    },
+    {
+     "t": "h",
+     "x": "The two skills"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Skimming",
+      "Scanning"
+     ],
+     "rows": [
+      [
+       "Purpose",
+       "Get the general idea",
+       "Find specific information"
+      ],
+      [
+       "What the eyes do",
+       "Move quickly over the text: title, headings, first and last sentences",
+       "Move quickly, looking only for a word, name or number"
+      ],
+      [
+       "What you read",
+       "Little of the text",
+       "Almost nothing except the answer"
+      ],
+      [
+       "Example tasks",
+       "Choose the best title. Match a heading to each paragraph. What kind of text is it?",
+       "Find the price. What time does the bus leave? Find a name in a list"
+      ],
+      [
+       "Time",
+       "One or two minutes",
+       "Seconds, or a minute at most"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teaching skimming"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Show how you do it: look at the title, pictures and headings; read the first and last sentence of each paragraph.",
+      "Set a short time limit, such as one minute.",
+      "Ask a gist question.",
+      "Compare answers in pairs and say how you found them."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teaching scanning"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Tell learners what to look for before they start.",
+      "Show clues: capital letters for names, digits for numbers, key words.",
+      "Set a very short time.",
+      "Check answers and ask where they found them."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Real materials to use"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Bus or train timetables.",
+      "Menus and price lists.",
+      "Advertisements and flyers.",
+      "School notices and timetables.",
+      "A page of a dictionary or a phone directory.",
+      "A web page, if you can use one."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Start with short, easy texts.",
+      "Make it a game: Who can find the answer first?",
+      "Talk about how readers read in real life.",
+      "Do not ask learners to read every word."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Giving too much time, so learners read every word.",
+      "Asking detail questions after a skimming task.",
+      "Using texts that are too long."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a real text, such as a timetable or a menu.",
+      "Write three scanning questions.",
+      "Set a one-minute time limit.",
+      "Ask learners how they found the answer."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-reading",
+    "pre-while-and-post-reading",
+    "dealing-with-unknown-words",
+    "writing-good-comprehension-questions"
+   ]
   },
   {
    "id": "extensive-reading-and-graded-readers",
    "group": "A. Teaching the language skills",
    "title": "Extensive reading and graded readers",
-   "parent": "how-to-teach-reading"
+   "parent": "how-to-teach-reading",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Extensive reading means reading a lot, for pleasure, in texts that are easy for the reader. It builds fluency, vocabulary and a love of reading. Graded readers are books written at different language levels so that learners can read them with ease."
+    },
+    {
+     "t": "h",
+     "x": "What the research says"
+    },
+    {
+     "t": "p",
+     "x": "Jeon and Day (2016) combined 49 studies, with 5,919 learners in total, in a meta-analysis. They found that extensive reading improved reading proficiency, measured by comprehension, reading rate and vocabulary. The effect was larger in English as a foreign language settings than in second language settings, and larger when extensive reading was part of the curriculum. Other researchers have pointed out problems with the design of some studies, so the results are encouraging but not final."
+    },
+    {
+     "t": "h",
+     "x": "Principles"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Texts are easy. Learners should know about 98 per cent of the words, so they can read without a dictionary.",
+      "There is a choice of texts on many topics.",
+      "Learners choose what to read.",
+      "Learners read a lot.",
+      "The purpose is pleasure, information and general understanding.",
+      "Reading is usually silent and individual, and fairly fast.",
+      "The teacher guides the learners and reads too, as a model."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Setting it up"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Collect books: graded readers, picture books, short stories, learner-made books and magazines.",
+      "Group them by level and label them.",
+      "Set up a borrowing system.",
+      "Give regular reading time in class.",
+      "Learners keep a simple reading log: title, date and one comment.",
+      "Share: short book talks, posters, recommendations to classmates."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Let learners change a book if it is too hard or boring.",
+      "Do not test every book.",
+      "Start with very easy books to build confidence.",
+      "Read a story aloud to show how enjoyable it can be."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Problems and fixes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "Few books or no money",
+       "Ask for donations, share books, make books with learners, or use free online graded readers"
+      ],
+      [
+       "A large class",
+       "Use group libraries and reading time in groups"
+      ],
+      [
+       "Learners say reading is boring",
+       "Offer choice, easier books, pictures and short texts"
+      ],
+      [
+       "Learners read too slowly",
+       "Choose easier books and use timed reading"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Find ten easy books or short stories.",
+      "Plan ten minutes of silent reading.",
+      "Make a simple reading log.",
+      "Plan a short sharing activity."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Richard Day and Julian Bamford, Extensive Reading in the Second Language Classroom",
+      "Eun-Young Jeon and Richard Day, The effectiveness of ER on reading proficiency: A meta-analysis, Reading in a Foreign Language, 2016"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-reading",
+    "dealing-with-unknown-words",
+    "not-enough-books-or-materials",
+    "using-songs-videos-and-stories"
+   ]
   },
   {
    "id": "teaching-beginners-to-read-phonics-and-decoding",
    "group": "A. Teaching the language skills",
    "title": "Teaching beginners to read (phonics and decoding)",
-   "parent": "how-to-teach-reading"
+   "parent": "how-to-teach-reading",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners who are beginning to read in English need to connect letters to sounds and to blend them into words. Much of the research on phonics was done with children learning to read in their first language, so use these ideas as a guide and watch how your own learners respond."
+    },
+    {
+     "t": "h",
+     "x": "Before you start"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners read best the words they already know by ear. Teach the spoken words first.",
+      "Learners who can read Khmer already understand that writing represents speech. They need to learn the English letters and sounds.",
+      "Young learners who are not yet reading in any language need more time and play."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A sequence"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Skills",
+      "Activities"
+     ],
+     "rows": [
+      [
+       "1. Letters and sounds",
+       "Letter names and the common sounds, such as a, b, c, d",
+       "Alphabet song, flashcards, sound games, writing in the air"
+      ],
+      [
+       "2. Short words",
+       "Blend three sounds: c-a-t, s-i-t, h-o-p",
+       "Say the sounds slowly, then blend them. Make words with letter cards"
+      ],
+      [
+       "3. Common patterns",
+       "Digraphs (sh, ch, th), common endings, a silent e (cake, hope)",
+       "Sort words by pattern; read short lists"
+      ],
+      [
+       "4. Sight words",
+       "Common words that do not follow patterns: the, was, said",
+       "Flashcards, games, repeated reading"
+      ],
+      [
+       "5. Short texts",
+       "Read simple sentences and stories",
+       "Repeated sentences with pictures; read with a partner"
+      ],
+      [
+       "6. Meaning and fluency",
+       "Understand what they read; read smoothly",
+       "Questions about the text, repeated reading, reading to a partner"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Activities"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Letter cards: change one letter to make a new word (cat, hat, mat).",
+      "Sound sorting: Which words begin with the sound /s/?",
+      "Flashcard races.",
+      "Echo reading: you read a line, learners repeat it.",
+      "Read and match words with pictures.",
+      "Rhymes and chants."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Remember"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "English spelling is not completely regular, so teach patterns and common exceptions.",
+      "Combine letter-sound work with meaning and with reading real, simple texts.",
+      "Keep sessions short and fun.",
+      "Praise effort."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Drilling letters with no words.",
+      "Teaching all sounds at once.",
+      "Reading only isolated words and never texts.",
+      "Ignoring meaning."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose three letter sounds and three words that use them.",
+      "Prepare letter cards for blending.",
+      "Prepare a very short text with those words.",
+      "Plan a game to review."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-reading",
+    "teaching-phonics",
+    "teaching-young-learners",
+    "using-flashcards-and-pictures"
+   ]
   },
   {
    "id": "dealing-with-unknown-words",
    "group": "A. Teaching the language skills",
    "title": "Dealing with unknown words",
-   "parent": "how-to-teach-reading"
+   "parent": "how-to-teach-reading",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Every reader meets unknown words. Researchers have found that learners need to know most of the words in a text to understand it well. Most studies suggest about 95 to 98 per cent. That is one unknown word in every twenty to fifty words. So choose texts at the right level, and teach learners what to do about the words they do not know."
+    },
+    {
+     "t": "h",
+     "x": "Is it worth knowing?"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Do I need this word to understand the main idea or answer the question?",
+      "If not, ignore it and keep reading.",
+      "If yes, try to guess it.",
+      "If you cannot guess it, use a dictionary or ask."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "How to guess from context"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Decide the word class: is it a noun, verb or adjective?",
+      "Read the sentence and the sentences around it.",
+      "Look for clues: examples, opposites, explanations.",
+      "Look at word parts: prefixes and suffixes.",
+      "Make a guess and check that the sentence makes sense."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Practice example"
+    },
+    {
+     "t": "p",
+     "x": "He was parched after walking all day, so he drank three glasses of water. Learners can guess that parched means very thirsty."
+    },
+    {
+     "t": "h",
+     "x": "Activities"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Cloze: remove a word from a sentence and guess it.",
+      "Replace a word with a nonsense word and ask learners to guess what it means.",
+      "Underline clues in a short text.",
+      "Compare guesses in pairs and explain how they guessed.",
+      "Match words to their clue sentences."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What the teacher can do"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choose texts with mostly known words.",
+      "Pre-teach only key words.",
+      "Put short meanings in the margin or on the board for a few hard words.",
+      "Let learners use a dictionary after the first reading, not during it.",
+      "Teach dictionary skills: choose the right meaning and check the word class.",
+      "Do not translate every word."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Stopping to look up every word.",
+      "Giving the meaning at once, so learners never try to guess.",
+      "Choosing texts with too many unknown words."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a text and count the words you think are unknown.",
+      "Choose which words to teach, to gloss and to leave.",
+      "Prepare one guessing activity.",
+      "Ask learners to explain how they guessed."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Norbert Schmitt, Xiangying Jiang and William Grabe, The percentage of words known in a text and reading comprehension, The Modern Language Journal, 2011",
+      "I. S. P. Nation, Learning Vocabulary in Another Language"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-reading",
+    "pre-teaching-vocabulary-for-a-text",
+    "teaching-word-families-and-word-formation",
+    "extensive-reading-and-graded-readers"
+   ]
   },
   {
    "id": "reading-aloud-when-and-how",
    "group": "A. Teaching the language skills",
    "title": "Reading aloud: when and how",
-   "parent": "how-to-teach-reading"
+   "parent": "how-to-teach-reading",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Reading aloud can help with pronunciation and rhythm, and it can be enjoyable. But it is not the same as reading for meaning, and it is often done in a way that wastes time and makes learners anxious."
+    },
+    {
+     "t": "h",
+     "x": "Different purposes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Purpose",
+      "Who reads",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "Enjoyment and model",
+       "The teacher reads a story or a text",
+       "Learners listen and follow; use expression"
+      ],
+      [
+       "Pronunciation and rhythm",
+       "Learners read a short, prepared text",
+       "Practise first, then read"
+      ],
+      [
+       "Checking fluency",
+       "Individual learners read to the teacher",
+       "Do it privately, not in front of the class"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Problems with reading round the class"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners count ahead to find their paragraph and read it silently.",
+      "Others do not listen.",
+      "Weaker readers feel embarrassed.",
+      "It uses a lot of time and learners practise little.",
+      "Learners may read without understanding."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Better ways"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Technique",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Choral reading",
+       "The class reads together"
+      ],
+      [
+       "Pair reading",
+       "A reads, B listens and helps, then they swap"
+      ],
+      [
+       "Echo reading",
+       "The teacher reads a line, learners repeat it"
+      ],
+      [
+       "Read and look up",
+       "Read a sentence silently, look up, and say it from memory"
+      ],
+      [
+       "Repeated reading",
+       "Read the same short text two or three times to improve speed and smoothness"
+      ],
+      [
+       "Readers theatre",
+       "Groups rehearse a dialogue with roles and perform it"
+      ],
+      [
+       "Recording",
+       "Learners record themselves, listen and try again"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Steps for reading aloud"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Read silently first for meaning.",
+      "Check understanding.",
+      "Model the reading with natural rhythm.",
+      "Let learners practise in pairs or groups.",
+      "Choose a few volunteers to read, if they want to.",
+      "Give kind feedback on one or two points."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Round-the-class reading as the main reading activity.",
+      "Correcting every error while a learner reads.",
+      "Reading aloud with no purpose.",
+      "Forcing shy learners to read in front of the class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a short text for pair reading.",
+      "Plan a silent reading first.",
+      "Prepare a model reading.",
+      "Choose one thing to give feedback on."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-reading",
+    "helping-shy-students-speak",
+    "fast-and-connected-speech",
+    "how-to-teach-pronunciation"
+   ]
   },
   {
    "id": "writing-good-comprehension-questions",
    "group": "A. Teaching the language skills",
    "title": "Writing good comprehension questions",
-   "parent": "how-to-teach-reading"
+   "parent": "how-to-teach-reading",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Good questions help learners understand a text. Poor questions test memory or can be answered without reading. Plan your questions with care."
+    },
+    {
+     "t": "h",
+     "x": "Types of question"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Gist",
+       "What is the text mainly about?"
+      ],
+      [
+       "Literal detail",
+       "What time does the market open?"
+      ],
+      [
+       "Inference",
+       "Why do you think the seller smiled?"
+      ],
+      [
+       "Vocabulary in context",
+       "What does fresh mean in line 4?"
+      ],
+      [
+       "Opinion",
+       "Do you agree with the writer? Why?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Question formats"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Format",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "Open questions",
+       "Learners write their own answers; good for understanding, harder to mark"
+      ],
+      [
+       "Multiple choice",
+       "Three or four options, with believable wrong answers"
+      ],
+      [
+       "True, false, not given",
+       "Clear statements that test one idea"
+      ],
+      [
+       "Matching headings",
+       "Good for gist"
+      ],
+      [
+       "Sentence or table completion",
+       "Good for detail"
+      ],
+      [
+       "Putting events in order",
+       "Good for stories"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Principles"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Start with a gist question, then detail, then inference and opinion.",
+      "Put detail questions in the order of the text.",
+      "Ask one idea per question.",
+      "Use language that is easier than the text.",
+      "Do not give the answer in the question.",
+      "Ask questions that need the text, not general knowledge.",
+      "Avoid trick questions.",
+      "Do not ask too many questions.",
+      "Ask learners to show where the answer is: Which sentence tells you?"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Weak and better questions"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Weak",
+      "Better"
+     ],
+     "rows": [
+      [
+       "Who? (answer is one name that is easy to copy)",
+       "Why did Sokha go to the market early?"
+      ],
+      [
+       "Is the text good?",
+       "Which sentence shows that the market was busy?"
+      ],
+      [
+       "What is the fourth word in the second line?",
+       "What does the writer say about the vegetables?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Steps"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Read the text and decide what learners should understand.",
+      "Write one gist question.",
+      "Write four to six detail questions.",
+      "Write one or two thinking questions.",
+      "Do the task yourself and check that the answers are clear.",
+      "Ask a colleague to try it if you can."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Questions about unimportant details.",
+      "Answers that learners can copy without understanding.",
+      "True or false statements that are unclear.",
+      "Too many why questions with no clue.",
+      "Questions in a different order from the text with no reason."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write one gist question.",
+      "Write four detail questions in order.",
+      "Write one thinking question.",
+      "Check the answer key."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-reading",
+    "pre-while-and-post-reading",
+    "questioning-techniques",
+    "writing-a-good-test"
+   ]
   },
   {
    "id": "how-to-teach-listening",
@@ -3040,43 +3959,915 @@
    "id": "pre-while-and-post-listening",
    "group": "A. Teaching the language skills",
    "title": "Pre-, while- and post-listening",
-   "parent": "how-to-teach-listening"
+   "parent": "how-to-teach-listening",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Listening lessons work best when learners prepare, listen with a clear task, and then use what they heard. This article gives ideas for each stage, and a way of working that research has found helpful, called the metacognitive cycle."
+    },
+    {
+     "t": "h",
+     "x": "The stages"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Purpose",
+      "Ideas"
+     ],
+     "rows": [
+      [
+       "Pre-listening",
+       "Prepare",
+       "Introduce the topic with a picture or question; predict; pre-teach only the key words; give the task and let learners read the questions first"
+      ],
+      [
+       "While-listening",
+       "Understand",
+       "First listening: a gist task. Second listening: detail. Check answers in pairs. A third listening, with the script, for difficult parts"
+      ],
+      [
+       "Post-listening",
+       "Use and notice",
+       "Discuss; role play; write; notice useful language, linked words and chunks; transcribe a short part"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A metacognitive cycle"
+    },
+    {
+     "t": "p",
+     "x": "Vandergrift and Tafaghodtari (2010) compared two groups of learners of French. One group followed a cycle that taught learners to plan, check and reflect. This group did better on a listening test than the group that practised the same texts without guidance, and the learners with less skill gained the most. Other studies have given mixed results, so treat it as a promising approach, not a guarantee."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Step",
+      "What learners do"
+     ],
+     "rows": [
+      [
+       "1. Plan and predict",
+       "Think about the topic and what they might hear"
+      ],
+      [
+       "2. First listening",
+       "Check predictions and note what they understood"
+      ],
+      [
+       "3. Pair talk",
+       "Compare notes with a partner and decide what is still unclear"
+      ],
+      [
+       "4. Second listening",
+       "Listen again to fix the unclear parts"
+      ],
+      [
+       "5. Discuss and listen again",
+       "The class discusses; the teacher helps with hard parts, perhaps with the script"
+      ],
+      [
+       "6. Reflect",
+       "Learners write what helped and set a goal for next time"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Set the task before you play the recording.",
+      "Use a different task for each listening.",
+      "Let learners check answers in pairs.",
+      "Use the script after listening, not before.",
+      "Keep recordings short."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Playing the recording once with all the questions.",
+      "No preparation.",
+      "Giving answers too soon.",
+      "Never using the script for learning."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Prepare a prediction question.",
+      "Write a gist task and a detail task.",
+      "Plan how learners will check answers.",
+      "Plan one post-listening activity."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Larry Vandergrift and Christine Goh, Teaching and Learning Second Language Listening: Metacognition in Action",
+      "Larry Vandergrift and Mohammad Tafaghodtari, Teaching L2 learners how to listen does make a difference: An empirical study, Language Learning, 2010"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-listening",
+    "listening-for-gist-and-for-detail",
+    "helping-students-who-are-afraid-of-listening",
+    "fast-and-connected-speech"
+   ]
   },
   {
    "id": "listening-for-gist-and-for-detail",
    "group": "A. Teaching the language skills",
    "title": "Listening for gist and for detail",
-   "parent": "how-to-teach-listening"
+   "parent": "how-to-teach-listening",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Listening for gist means understanding the main idea. Listening for detail means catching specific information. Learners need both skills, and it usually works best to do gist first."
+    },
+    {
+     "t": "h",
+     "x": "The difference"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Gist",
+      "Detail"
+     ],
+     "rows": [
+      [
+       "Question",
+       "What is it about? Who is speaking? Where are they? How do they feel?",
+       "What time? How much? What is the name? What is the reason?"
+      ],
+      [
+       "Listening",
+       "Listen for the overall message and ignore small details",
+       "Listen for the exact information"
+      ],
+      [
+       "Example",
+       "A phone message: who is calling and why?",
+       "A phone message: the time and the number"
+      ],
+      [
+       "Tasks",
+       "Choose the best title; match speakers to pictures; true or false for the main idea",
+       "Fill in a form; complete a table; answer questions; take notes"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Why gist first"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "It gives learners a picture of the whole, so they understand better the second time.",
+      "It reduces anxiety, because the first task is achievable.",
+      "It teaches learners that they do not need every word."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teaching strategies"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Listen for stressed words, because they carry the main meaning.",
+      "Do not stop at an unknown word. Keep listening.",
+      "Use the context to guess.",
+      "Note numbers and names carefully. Practise 13 and 30, or 15 and 50.",
+      "Take short notes with keywords, not full sentences."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A sample lesson"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Pre-listening: show a picture of a bus station. Ask: What do people do here?",
+      "First listening: Where are the two speakers, and what do they want?",
+      "Pair check.",
+      "Second listening: What time does the bus leave? How much is the ticket? Write the numbers.",
+      "Pair check, then class check.",
+      "Post-listening: role play at a ticket window."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Asking detail questions first.",
+      "Too many questions at once.",
+      "Playing the recording again with no new task.",
+      "Not teaching learners how to note numbers."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write one gist question and three detail questions.",
+      "Prepare a number or name dictation warm-up.",
+      "Plan two listenings with different tasks.",
+      "Teach one strategy, such as ignoring unknown words."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-listening",
+    "pre-while-and-post-listening",
+    "dictation-activities",
+    "helping-students-who-are-afraid-of-listening"
+   ]
   },
   {
    "id": "fast-and-connected-speech",
    "group": "A. Teaching the language skills",
    "title": "Fast and connected speech",
-   "parent": "how-to-teach-listening"
+   "parent": "how-to-teach-listening",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners often know a word in writing but do not recognise it in natural speech. In fast speech, words link together, sounds change or disappear, and small words become weak. Learners need to practise hearing speech as it really sounds."
+    },
+    {
+     "t": "h",
+     "x": "What happens in connected speech"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Feature",
+      "Written",
+      "Sounds roughly like (approximate)"
+     ],
+     "rows": [
+      [
+       "Linking",
+       "pick it up",
+       "pi-ki-tup"
+      ],
+      [
+       "Missing sounds (elision)",
+       "next day",
+       "nex day"
+      ],
+      [
+       "Sounds changing (assimilation)",
+       "ten boys",
+       "tem boys"
+      ],
+      [
+       "Weak forms",
+       "a cup of tea",
+       "a cuppa tea"
+      ],
+      [
+       "Contractions",
+       "I am, do not",
+       "I'm, don't"
+      ],
+      [
+       "Linking vowel sounds",
+       "my idea",
+       "my-yidea"
+      ],
+      [
+       "Informal reductions",
+       "want to, going to",
+       "wanna, gonna"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Stress and rhythm"
+    },
+    {
+     "t": "p",
+     "x": "English stresses the important words (nouns, main verbs, adjectives) and shortens the small words (a, the, of, to, and). Learners who give every word equal stress both sound unnatural and find natural speech harder to follow."
+    },
+    {
+     "t": "h",
+     "x": "Teaching ideas"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Dictate short phrases at natural speed. Learners write what they hear, then compare with the written form.",
+      "Use gap-fill listening with small words missing.",
+      "Show the written form and the sound together: What do you want to do? sounds like Whaddya wanna do?",
+      "Tap or clap the stressed words.",
+      "Practise chunks with natural rhythm.",
+      "Shadowing: learners say the sentence along with the recording.",
+      "Play the same sentence slowly and at natural speed and compare."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Aim"
+    },
+    {
+     "t": "p",
+     "x": "The aim is for learners to recognise connected speech. They do not need to copy all reductions when they speak, though some help them sound more natural."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Always using slow, careful speech.",
+      "Teaching reductions as if they were the only correct form.",
+      "Using only isolated words in listening practice."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose five phrases from your recording.",
+      "Dictate them at natural speed.",
+      "Show the written form and the sound.",
+      "Practise stress by tapping."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "John Field, Listening in the Language Classroom",
+      "Gillian Brown, Listening to Spoken English"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-listening",
+    "dictation-activities",
+    "how-to-teach-pronunciation",
+    "using-songs-videos-and-dialogues"
+   ]
   },
   {
    "id": "using-songs-videos-and-dialogues",
    "group": "A. Teaching the language skills",
    "title": "Using songs, videos and dialogues",
-   "parent": "how-to-teach-listening"
+   "parent": "how-to-teach-listening",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Songs, videos and dialogues bring real voices and real situations into the classroom. Use them with a clear task, a suitable level and respect for copyright."
+    },
+    {
+     "t": "note",
+     "x": "Use songs and videos legally and in the way your school allows. This site does not reproduce song lyrics."
+    },
+    {
+     "t": "h",
+     "x": "Songs"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choose a song that is clear and not too fast, with suitable content.",
+      "Listening tasks: put the lines in order, fill the gaps in a lyric sheet you prepare, find the rhymes, answer questions about the story.",
+      "Teach new words from the song, then listen again.",
+      "Sing along once learners understand.",
+      "Discuss: What is the song about? How does it make you feel?"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Videos"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use short clips of two to four minutes.",
+      "Watch with the sound off and predict what people say, then watch with sound.",
+      "Freeze a frame and ask: What happens next?",
+      "Use English subtitles after the first viewing.",
+      "Divide the class: half watch with sound off and describe, half listen with the screen hidden and tell what they hear.",
+      "Use tasks for gist and then for detail."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Dialogues"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use a recorded dialogue as a model, then let pairs role-play it.",
+      "Change the roles and details.",
+      "Shadow a line: learners repeat after the recording.",
+      "Record learners' own dialogues on a phone and listen to them.",
+      "Use short real recordings, such as announcements or weather reports, with simple tasks."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Practical points"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Resource",
+      "Task ideas",
+      "Check"
+     ],
+     "rows": [
+      [
+       "Song",
+       "Gap-fill, ordering lines, rhymes",
+       "Level, speed and content"
+      ],
+      [
+       "Video",
+       "Sound off and predict, jigsaw viewing, role play",
+       "Clip length and equipment"
+      ],
+      [
+       "Dialogue",
+       "Listen, role-play, shadow",
+       "Audio quality"
+      ],
+      [
+       "Real recording",
+       "Gist and detail tasks",
+       "Difficulty and support"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Playing without a task.",
+      "Choosing material that is too fast or too long.",
+      "Not testing the equipment.",
+      "Ignoring copyright."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a short clip or song with a clear purpose.",
+      "Write a pre-listening question and a task.",
+      "Test the equipment and volume.",
+      "Plan a follow-up activity."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-listening",
+    "using-songs-videos-and-stories",
+    "pre-while-and-post-listening",
+    "fast-and-connected-speech"
+   ]
   },
   {
    "id": "dictation-activities",
    "group": "A. Teaching the language skills",
    "title": "Dictation activities",
-   "parent": "how-to-teach-listening"
+   "parent": "how-to-teach-listening",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Dictation is more than a spelling test. Done well, it trains listening, grammar and memory, needs few resources and works in large classes."
+    },
+    {
+     "t": "h",
+     "x": "Types of dictation"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Traditional",
+       "The teacher reads a short text in chunks and learners write it"
+      ],
+      [
+       "Dictogloss",
+       "Learners listen to a text at natural speed, note key words and rebuild the text in groups"
+      ],
+      [
+       "Gap dictation",
+       "Learners fill gaps in a printed text while they listen"
+      ],
+      [
+       "Running dictation",
+       "One learner runs to read a text on the wall, returns and dictates it to a partner"
+      ],
+      [
+       "Picture dictation",
+       "Learners draw what the teacher describes"
+      ],
+      [
+       "Pair dictation",
+       "A reads sentences, B writes, then they swap"
+      ],
+      [
+       "Spot the difference",
+       "The teacher reads a text that differs from the printed one, and learners mark the changes"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Traditional dictation: steps"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Choose a short text of five to eight sentences at the right level.",
+      "Read it once at natural speed, while learners only listen.",
+      "Read it again in meaningful chunks, with pauses, while learners write. Repeat a chunk once if needed.",
+      "Read it a last time at natural speed, so learners can check.",
+      "Let learners compare with a partner.",
+      "Show the text, let learners correct their work, and talk about common errors."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Dictogloss: steps"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Read a short text at natural speed. Learners just listen.",
+      "Read it again. Learners note key words.",
+      "In pairs or groups, learners rebuild the text so that the meaning is the same.",
+      "Compare with the original text and discuss the differences."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Read in chunks and not word by word.",
+      "Use a natural pace.",
+      "Use texts about your learners' lives.",
+      "Give feedback on more than spelling.",
+      "Let learners dictate to each other."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Texts that are too long.",
+      "Reading too slowly, which sounds unnatural.",
+      "Marking only spelling.",
+      "No follow-up."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a short text of five sentences.",
+      "Mark the chunks where you will pause.",
+      "Plan time for pair checking.",
+      "Plan a short discussion of common errors."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-listening",
+    "fast-and-connected-speech",
+    "teaching-punctuation-spelling-and-handwriting",
+    "listening-for-gist-and-for-detail"
+   ]
   },
   {
    "id": "listening-for-young-learners",
    "group": "A. Teaching the language skills",
    "title": "Listening for young learners",
-   "parent": "how-to-teach-listening"
+   "parent": "how-to-teach-listening",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Young learners (roughly children in primary school) listen best when the listening is short, active and fun. They show understanding by doing, not only by speaking."
+    },
+    {
+     "t": "h",
+     "x": "Principles"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Keep listening short and frequent, with changes of activity.",
+      "Use pictures, real objects and actions.",
+      "Repeat. Children like hearing things again.",
+      "Let children respond without speaking at first: point, draw, move, colour.",
+      "Use stories, songs, chants and games.",
+      "Use a friendly voice and exaggerated expression.",
+      "Use some first language for instructions if needed."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Activities"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Activity",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Total physical response",
+       "The teacher gives commands (stand up, touch your nose) and children do the actions"
+      ],
+      [
+       "Listen and point",
+       "Children point to the picture they hear"
+      ],
+      [
+       "Listen and draw or colour",
+       "The teacher says what to draw or colour"
+      ],
+      [
+       "Simon says",
+       "Children follow only commands that begin with Simon says"
+      ],
+      [
+       "Story time",
+       "The teacher tells a story with pictures and gestures; children join in with a repeated line"
+      ],
+      [
+       "Bingo",
+       "Children cross out pictures or words they hear"
+      ],
+      [
+       "Chants and songs",
+       "Children listen, then join in with actions"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Telling a story"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Show pictures and use gestures.",
+      "Vary your voice for different characters.",
+      "Stop and ask: What will happen next?",
+      "Repeat a key line many times.",
+      "Let children act out the story afterwards."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Long recordings.",
+      "Tasks that need writing or long answers.",
+      "Not repeating.",
+      "Only listening with no action."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one story or song with a repeated line.",
+      "Prepare pictures or objects.",
+      "Plan a listen-and-do game.",
+      "Plan to repeat the activity next lesson."
+     ]
+    }
+   ],
+   "related": [
+    "teaching-young-learners",
+    "using-songs-videos-and-stories",
+    "how-to-teach-listening",
+    "teaching-grammar-to-young-learners"
+   ]
   },
   {
    "id": "helping-students-who-are-afraid-of-listening",
    "group": "A. Teaching the language skills",
    "title": "Helping students who are afraid of listening",
-   "parent": "how-to-teach-listening"
+   "parent": "how-to-teach-listening",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Many learners feel anxious about listening. They worry that they will miss words and cannot control the speed. Anxiety makes listening harder, so reducing it is part of teaching listening."
+    },
+    {
+     "t": "h",
+     "x": "What research suggests"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Studies have found a link between language anxiety and lower achievement. A meta-analysis by Teimouri, Goetze and Plonsky (2019) reported a moderate negative relationship (r = -.36). A correlation does not prove that anxiety causes poor results, but it shows why anxiety matters.",
+      "In a study of French learners, Vandergrift and Tafaghodtari (2010) found that a group taught how to listen did better than a control group, and learners with less skill gained the most."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Why learners are afraid"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Speech is fast and goes by once.",
+      "They think they must understand every word.",
+      "They are afraid of tests.",
+      "They have had bad experiences.",
+      "They compare themselves with classmates."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What to do"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Fear",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "I cannot understand every word",
+       "Explain that nobody does. Start with a gist task and praise understanding of the main idea"
+      ],
+      [
+       "It is too fast",
+       "Choose suitable recordings, replay short parts and give the script afterwards"
+      ],
+      [
+       "I forget what I heard",
+       "Teach short note-taking and give time to write"
+      ],
+      [
+       "I panic in tests",
+       "Practise often with low-stakes tasks and give practice tests"
+      ],
+      [
+       "I feel stupid",
+       "Use pair checks first, so mistakes are not public"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teach strategies"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Predict the topic and the words before you listen.",
+      "Listen for key words and stress.",
+      "Keep going when you miss something.",
+      "Use the context to guess.",
+      "Check with a partner.",
+      "Reflect afterwards: what helped?"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Build confidence"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Start with easy, short recordings and succeed.",
+      "Increase difficulty slowly.",
+      "Give a lot of easy listening, such as stories and songs.",
+      "Praise strategy use as well as correct answers.",
+      "Use listening for learning, not only for testing."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Using listening only as a test.",
+      "Starting with difficult recordings.",
+      "Playing once.",
+      "Calling on a learner to answer in front of the class first."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Start with a gist task that every learner can succeed at.",
+      "Tell learners they do not need every word.",
+      "Use a pair check before the class check.",
+      "Give learners the script afterwards."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Larry Vandergrift and Christine Goh, Teaching and Learning Second Language Listening: Metacognition in Action",
+      "Yasser Teimouri, Julia Goetze and Luke Plonsky, Second language anxiety and achievement: A meta-analysis, Studies in Second Language Acquisition, 2019"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-listening",
+    "students-with-test-anxiety",
+    "pre-while-and-post-listening",
+    "students-are-afraid-of-making-mistakes"
+   ]
   },
   {
    "id": "how-to-teach-speaking",
@@ -3332,31 +5123,713 @@
    "id": "fluency-versus-accuracy",
    "group": "A. Teaching the language skills",
    "title": "Fluency versus accuracy",
-   "parent": "how-to-teach-speaking"
+   "parent": "how-to-teach-speaking",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Fluency means speaking smoothly and with confidence. Accuracy means using correct grammar, vocabulary and pronunciation. Learners need both, but not at the same moment. Decide which one an activity is for."
+    },
+    {
+     "t": "h",
+     "x": "Two kinds of activity"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Accuracy",
+      "Fluency"
+     ],
+     "rows": [
+      [
+       "Goal",
+       "Correct language",
+       "Communication without stopping"
+      ],
+      [
+       "Examples",
+       "Drills, controlled dialogues, gap-fills",
+       "Discussion, role play, information gaps, storytelling"
+      ],
+      [
+       "Teacher",
+       "Corrects at once",
+       "Does not interrupt; notes errors for later"
+      ],
+      [
+       "Learners",
+       "Focus on form",
+       "Focus on meaning and on keeping going"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Research on planning and repeating"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Foster and Skehan (1996) found strong effects of planning time on fluency, and clear effects on the complexity of the language learners used.",
+      "Ellis (2009) summarised the research and concluded that planning time has positive effects on fluency, while the effects on accuracy and complexity were more varied.",
+      "So, giving learners a minute or two to plan before a speaking task is a simple, useful step."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Fluency activities to try"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Planning time: learners note ideas for one or two minutes.",
+      "Task repetition: learners do the same task again with a new partner.",
+      "4-3-2: learners talk about a topic for four minutes, then three, then two, each time to a new partner.",
+      "Time limits: say as much as you can in one minute.",
+      "Talk without stopping: learners may not correct themselves until the time is over."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Balancing the two"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Plan a lesson with a mix: a short accuracy stage, then a fluency task.",
+      "Give feedback on accuracy after the fluency task.",
+      "Explain the aim to learners: Now we are practising speaking smoothly, so do not worry about mistakes.",
+      "Notice perfectionists. Some learners keep silent because they want to be correct."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Interrupting every error in a fluency task.",
+      "Doing only fluency work and giving no feedback.",
+      "Never giving learners time to plan.",
+      "Marking speaking only for accuracy."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Decide whether your speaking task is for fluency or accuracy.",
+      "Give two minutes of planning time.",
+      "Plan a repeat with a new partner.",
+      "Prepare to note errors and good language."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Paul Nation, What Should Every EFL Teacher Know?",
+      "Pauline Foster and Peter Skehan, The influence of planning and task type on second language performance, Studies in Second Language Acquisition, 1996"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-speaking",
+    "correcting-errors-during-speaking",
+    "pair-work-and-group-work-for-speaking",
+    "role-plays-discussions-and-information-gaps"
+   ]
   },
   {
    "id": "pair-work-and-group-work-for-speaking",
    "group": "A. Teaching the language skills",
    "title": "Pair work and group work for speaking",
-   "parent": "how-to-teach-speaking"
+   "parent": "how-to-teach-speaking",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "In a whole-class discussion, only a few learners speak. In pairs and small groups, every learner speaks at the same time. Pair work gives the most speaking time, is less frightening, and works in large classes."
+    },
+    {
+     "t": "h",
+     "x": "Types"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "How it works",
+      "Good for"
+     ],
+     "rows": [
+      [
+       "Closed pairs",
+       "All pairs speak at once",
+       "Practice for everyone"
+      ],
+      [
+       "Open pairs",
+       "Two learners speak in front of the class",
+       "Showing a model, checking"
+      ],
+      [
+       "Small groups of three or four",
+       "Groups discuss, plan or solve a problem",
+       "Discussion, projects"
+      ],
+      [
+       "Mingle",
+       "Learners move around and talk to many partners",
+       "Questions and answers, surveys"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Setting up"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Explain the task and the outcome: What will learners have at the end?",
+      "Demonstrate with one pair.",
+      "Give language support: useful phrases on the board.",
+      "Make pairs or groups, and give roles.",
+      "Give a time limit and the stop signal.",
+      "Walk around and listen.",
+      "Feedback: praise good language and discuss common errors."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Sample tasks"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Ask and answer: Learners ask each other five questions about their day.",
+      "Opinion line: Learners stand in a line from agree to disagree and explain.",
+      "Three-minute chat on a topic, then change partners.",
+      "Describe and draw: A describes a picture, B draws it.",
+      "Find the differences between two pictures."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Active listening"
+    },
+    {
+     "t": "p",
+     "x": "Teach learners to listen to a partner and react: Really? Me too. What happened next? These phrases keep a conversation going."
+    },
+    {
+     "t": "h",
+     "x": "Common problems"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "Learners finish early",
+       "Give a harder follow-up or ask them to repeat with a new partner"
+      ],
+      [
+       "Learners speak their first language",
+       "Give clear English goals and useful phrases; praise English use"
+      ],
+      [
+       "One learner dominates",
+       "Give roles or speaking turns"
+      ],
+      [
+       "Learners are silent",
+       "Give prompts or sentence frames, and a shorter task"
+      ],
+      [
+       "The class is too noisy",
+       "Teach a voice level and a stop signal"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a task with a clear outcome.",
+      "Write five useful phrases.",
+      "Plan pairs.",
+      "Plan a short feedback stage."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-speaking",
+    "grouping-students-pairs-groups-and-roles",
+    "managing-noise-in-pair-and-group-work",
+    "students-use-their-first-language-too-much"
+   ]
   },
   {
    "id": "role-plays-discussions-and-information-gaps",
    "group": "A. Teaching the language skills",
    "title": "Role-plays, discussions and information gaps",
-   "parent": "how-to-teach-speaking"
+   "parent": "how-to-teach-speaking",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Role-plays, discussions and information gaps are three of the most useful speaking activities. Each needs preparation, language support and clear steps."
+    },
+    {
+     "t": "h",
+     "x": "Information gaps"
+    },
+    {
+     "t": "p",
+     "x": "In an information gap, each learner has different information and must speak to share it."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Complete a timetable: A has the morning, B has the afternoon.",
+      "Spot the differences between two pictures without showing them.",
+      "Describe and draw.",
+      "Missing information in a short text."
+     ]
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Make two versions of the task: A and B.",
+      "Explain and demonstrate.",
+      "Learners ask and answer without showing their papers.",
+      "Compare the papers at the end."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Role-plays"
+    },
+    {
+     "t": "p",
+     "x": "In a role-play, learners act out a situation. Choose situations that are real for your learners, such as bargaining at a market, taking a tuk-tuk, ordering food, asking for directions or visiting a doctor."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "What learners do"
+     ],
+     "rows": [
+      [
+       "Controlled",
+       "Read and practise a script, then change details"
+      ],
+      [
+       "Guided",
+       "Use role cards with prompts"
+      ],
+      [
+       "Free",
+       "Play the roles with their own words"
+      ]
+     ]
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Set the scene and the roles.",
+      "Pre-teach useful phrases.",
+      "Model the role-play with a learner.",
+      "Let pairs rehearse.",
+      "Some pairs perform, if they want.",
+      "Give feedback."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Discussions"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Format",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Pair talk",
+       "Learners discuss a question with a partner"
+      ],
+      [
+       "Four corners",
+       "Learners move to a corner that shows their opinion (agree, disagree, and so on) and explain"
+      ],
+      [
+       "Ranking",
+       "Groups rank five items and agree on an order"
+      ],
+      [
+       "Problem solving",
+       "Groups solve a problem together"
+      ],
+      [
+       "Debate",
+       "Two sides argue; best for higher levels"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choose topics learners care about.",
+      "Give phrases: I think..., In my opinion..., I agree because..., I do not agree because...",
+      "Give time to think and prepare.",
+      "Give roles: leader, note-taker, reporter."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Topics that are too hard or boring.",
+      "No language support.",
+      "No preparation time.",
+      "Forcing every pair to perform in front of the class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one of the three activities.",
+      "Prepare the materials: role cards, A and B sheets, or discussion questions.",
+      "Write useful phrases.",
+      "Plan the feedback."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-speaking",
+    "pair-work-and-group-work-for-speaking",
+    "managing-activities-with-movement",
+    "fluency-versus-accuracy"
+   ]
   },
   {
    "id": "helping-shy-students-speak",
    "group": "A. Teaching the language skills",
    "title": "Helping shy students speak",
-   "parent": "how-to-teach-speaking"
+   "parent": "how-to-teach-speaking",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Many learners are shy about speaking English. Researchers call the worry that learners feel about speaking and being judged in a language class foreign language classroom anxiety (Horwitz, Horwitz and Cope, 1986). It is common, and it matters: meta-analyses find that higher anxiety goes with lower achievement, although they cannot prove that anxiety is the cause."
+    },
+    {
+     "t": "h",
+     "x": "Why learners are shy"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Fear of making mistakes and being laughed at.",
+      "Low confidence in their English.",
+      "Cultural ideas about speaking up or losing face.",
+      "Not having the words.",
+      "Personality: some learners are quiet and think before they speak.",
+      "A bad experience earlier."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Lower the stakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Let learners rehearse first: write, then speak.",
+      "Start with a whisper to a partner.",
+      "Use sentence frames.",
+      "Give thinking time.",
+      "Praise effort, not only correct language.",
+      "Make errors normal."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A ladder of speaking"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Step",
+      "Example"
+     ],
+     "rows": [
+      [
+       "1. Whisper or speak to one partner",
+       "Tell your partner your name and favourite food"
+      ],
+      [
+       "2. Pair talk with a task",
+       "Ask and answer three questions"
+      ],
+      [
+       "3. Small group",
+       "Share your answer in a group of four"
+      ],
+      [
+       "4. Whole class together",
+       "Chorus: say it together"
+      ],
+      [
+       "5. A short individual answer",
+       "Answer a question you have prepared"
+      ],
+      [
+       "6. A short talk",
+       "Present for one minute, with notes"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Other ideas"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Rehearse in groups and let a quiet learner be the reporter for the group.",
+      "Use puppets or masks with young learners.",
+      "Let learners record their voice on a phone for you, in private.",
+      "Offer other ways to take part: write, draw, point.",
+      "Choose topics learners know well.",
+      "Stand near a shy learner and listen quietly."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What to say"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Take your time.",
+      "Tell your partner first.",
+      "That is a good idea. Can you say a little more?",
+      "Thank you for trying."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Do not"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Force a shy learner to speak alone in front of the class.",
+      "Compare learners.",
+      "Laugh, or let others laugh.",
+      "Label a learner as shy in front of others."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "If a learner stays silent for a long time or seems very unhappy, talk to the learner privately and tell the school counsellor or head teacher, following school policy."
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Add a pair step before a whole-class question.",
+      "Prepare a sentence frame.",
+      "Give a minute of planning.",
+      "Praise one quiet learner's effort."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Elaine Horwitz, Michael Horwitz and Joann Cope, Foreign language classroom anxiety, The Modern Language Journal, 1986",
+      "Yasser Teimouri, Julia Goetze and Luke Plonsky, Second language anxiety and achievement: A meta-analysis, Studies in Second Language Acquisition, 2019"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "shy-and-silent-students",
+    "students-are-afraid-of-making-mistakes",
+    "how-to-teach-speaking",
+    "pair-work-and-group-work-for-speaking"
+   ]
   },
   {
    "id": "correcting-errors-during-speaking",
    "group": "A. Teaching the language skills",
    "title": "Correcting errors during speaking",
-   "parent": "how-to-teach-speaking"
+   "parent": "how-to-teach-speaking",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Correcting speaking is different from correcting writing. Learners are thinking about what to say and how to say it, and an interruption can stop the flow or cause embarrassment. Decide first what the activity is for. See Fluency versus accuracy and Error correction techniques."
+    },
+    {
+     "t": "h",
+     "x": "During or after?"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Activity",
+      "When to correct"
+     ],
+     "rows": [
+      [
+       "Accuracy practice (drills, controlled tasks)",
+       "Correct at once"
+      ],
+      [
+       "Fluency practice (discussion, role play)",
+       "Do not interrupt. Listen and note, and give feedback after"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Noting errors"
+    },
+    {
+     "t": "p",
+     "x": "Carry a notebook or a card while you monitor. Write good language and errors, and the learners' names if you need to follow up."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Learner",
+      "Good language",
+      "Error (what was said, what to say)"
+     ],
+     "rows": [
+      [
+       "Sokha",
+       "I am looking forward to...",
+       "He go to the market. He goes to the market."
+      ],
+      [
+       "Dara",
+       "That is a good idea.",
+       "I am agree. I agree."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Feedback after the activity"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Praise good language you heard. Write it on the board.",
+      "Write three to five errors on the board without names.",
+      "Ask pairs to correct them.",
+      "Check with the class.",
+      "Repeat the task, so learners can try again."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Quiet ways to correct"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Whisper a correction while you monitor.",
+      "Repeat the correct form naturally in your reply: A learner says I go yesterday, and you say Oh, you went yesterday? What did you do?",
+      "Use a gesture to show a past tense or a missing word.",
+      "Give a signal and let the learner correct."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What to correct"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Errors that stop understanding.",
+      "Errors in the language you have just taught.",
+      "Errors many learners make.",
+      "Pronunciation errors that matter for being understood.",
+      "Not every error."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Interrupting in the middle of a sentence.",
+      "Correcting every mistake.",
+      "Correcting in front of the class in an unkind way.",
+      "No follow-up."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Prepare a card for noting errors and good language.",
+      "Choose two quiet ways to correct.",
+      "Plan three minutes for feedback after the task.",
+      "Plan a repeat of the task."
+     ]
+    }
+   ],
+   "related": [
+    "error-correction-techniques",
+    "fluency-versus-accuracy",
+    "peer-correction-and-self-correction",
+    "students-are-afraid-of-making-mistakes"
+   ]
   },
   {
    "id": "how-to-teach-writing",
