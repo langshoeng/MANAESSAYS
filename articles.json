@@ -6038,60 +6038,1509 @@
    "id": "process-writing-plan-draft-edit",
    "group": "A. Teaching the language skills",
    "title": "Process writing: plan, draft, edit",
-   "parent": "how-to-teach-writing"
+   "parent": "how-to-teach-writing",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "In a process approach, learners go through several steps to write a text, instead of writing it once and handing it in. They learn that good writing is planned, drafted, revised and edited. This article gives the stages and a three-lesson example."
+    },
+    {
+     "t": "h",
+     "x": "The stages"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "What learners do",
+      "How you help"
+     ],
+     "rows": [
+      [
+       "1. Generate ideas",
+       "Talk, brainstorm, draw a mind map, read a model",
+       "Give a topic, questions and a model text"
+      ],
+      [
+       "2. Plan",
+       "Choose and order ideas; write a short outline",
+       "Give an outline frame"
+      ],
+      [
+       "3. Draft",
+       "Write a first version, focusing on ideas",
+       "Let them write without worrying about mistakes"
+      ],
+      [
+       "4. Revise",
+       "Check content and organisation; add, delete and move ideas",
+       "Give a checklist and ask questions about the content"
+      ],
+      [
+       "5. Edit",
+       "Check grammar, spelling and punctuation",
+       "Give a language checklist"
+      ],
+      [
+       "6. Final version and share",
+       "Write a clean copy; read it to a partner or display it",
+       "Respond to the finished piece"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "The stages are not a straight line. Writers often go back, for example from drafting to planning."
+    },
+    {
+     "t": "h",
+     "x": "A three-lesson example: A letter to a friend"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Lesson",
+      "Activity"
+     ],
+     "rows": [
+      [
+       "1",
+       "Read a model letter. Talk about what to tell a friend. Make a plan with four points. Write the first draft"
+      ],
+      [
+       "2",
+       "Swap drafts with a partner. Use a content checklist. Revise the draft"
+      ],
+      [
+       "3",
+       "Edit with a language checklist. Write the final copy. Read it to a new partner"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Making it work"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Keep all drafts in a folder, so learners can see their progress.",
+      "Do the planning and the first draft in class, where you can help.",
+      "Ask questions about the content on the first draft before you look at the language.",
+      "Use checklists so learners know what to look for.",
+      "When time is short, do the stages over several lessons or use homework for the final copy."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "In a large class"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use pair talk for ideas.",
+      "Use peer review in pairs.",
+      "Collect and read a few drafts each time.",
+      "Use checklists and a class error list."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Skipping planning.",
+      "Correcting language while learners are still drafting.",
+      "Marking every error on the first draft.",
+      "Never asking learners to revise."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a short writing task with a real reader.",
+      "Prepare an outline frame.",
+      "Prepare a content checklist.",
+      "Plan time for a second draft."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Jeremy Harmer, How to Teach Writing",
+      "Ann Raimes, Techniques in Teaching Writing",
+      "Dana Ferris and John Hedgcock, Teaching ESL Composition"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-writing",
+    "giving-feedback-on-writing",
+    "peer-review-and-self-editing",
+    "teaching-sentences-paragraphs-and-essays"
+   ]
   },
   {
    "id": "teaching-sentences-paragraphs-and-essays",
    "group": "A. Teaching the language skills",
    "title": "Teaching sentences, paragraphs and essays",
-   "parent": "how-to-teach-writing"
+   "parent": "how-to-teach-writing",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners build writing from sentences to paragraphs to whole texts. Teach each level with models, patterns and plenty of practice. The Writing guide in the Essays section of this site gives further help with essays."
+    },
+    {
+     "t": "h",
+     "x": "Sentences"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A complete sentence has a subject and a verb and expresses a full idea.",
+      "Practise joining sentences with and, but, so and because.",
+      "Practise sentence combining: I like tea. I do not like coffee becomes I like tea, but I do not like coffee.",
+      "Teach learners to recognise a fragment (Because I was late.) and a run-on (I went home I was tired)."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Paragraphs"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Part",
+      "Job"
+     ],
+     "rows": [
+      [
+       "Topic sentence",
+       "States the main idea of the paragraph"
+      ],
+      [
+       "Supporting sentences",
+       "Give reasons, examples and details"
+      ],
+      [
+       "Concluding sentence",
+       "Closes the paragraph or links to the next one"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Check unity: every sentence belongs to the main idea.",
+      "Check coherence: sentences follow in a clear order and use linking words."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Linking words"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Function",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Adding",
+       "and, also, in addition"
+      ],
+      [
+       "Contrast",
+       "but, however, although"
+      ],
+      [
+       "Reason",
+       "because, since"
+      ],
+      [
+       "Result",
+       "so, therefore"
+      ],
+      [
+       "Sequence",
+       "first, then, after that, finally"
+      ],
+      [
+       "Example",
+       "for example, such as"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Essays"
+    },
+    {
+     "t": "p",
+     "x": "A simple essay has an introduction (a general statement and a main idea), body paragraphs (one idea each, with support) and a conclusion. The five-paragraph essay is a useful starting model, and learners can later move beyond it."
+    },
+    {
+     "t": "h",
+     "x": "Teaching steps"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Read a model and mark its parts with colours.",
+      "Put a jumbled paragraph in order.",
+      "Write topic sentences for given topics.",
+      "Add supporting sentences.",
+      "Add linking words.",
+      "Write a paragraph, then a short essay.",
+      "Use a checklist to review."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Asking for essays before learners can write paragraphs.",
+      "Rigid formulas with no purpose.",
+      "No models.",
+      "Marking only grammar."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a model paragraph.",
+      "Prepare a jumbled version.",
+      "Prepare three topic sentences.",
+      "Prepare a list of linking words."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-writing",
+    "process-writing-plan-draft-edit",
+    "guided-writing-for-beginners",
+    "giving-feedback-on-writing"
+   ]
   },
   {
    "id": "guided-writing-for-beginners",
    "group": "A. Teaching the language skills",
    "title": "Guided writing for beginners",
-   "parent": "how-to-teach-writing"
+   "parent": "how-to-teach-writing",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Beginners need support to write. Guided writing gives learners a frame, a model or a word bank, so they can produce correct, meaningful text from the start and gain confidence."
+    },
+    {
+     "t": "h",
+     "x": "Steps from easy to free"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Level of support",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Copying",
+       "Copy a word, a sentence or a short text carefully"
+      ],
+      [
+       "Completing",
+       "Fill gaps in a sentence or a short paragraph from a word bank"
+      ],
+      [
+       "Ordering",
+       "Put jumbled words or sentences in order"
+      ],
+      [
+       "Frames",
+       "Write using sentence starters"
+      ],
+      [
+       "Model-based",
+       "Write a new text that follows a model, with your own information"
+      ],
+      [
+       "Prompts",
+       "Write about a picture or a short list of ideas"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A frame example: My family"
+    },
+    {
+     "t": "p",
+     "x": "My name is ___. I am ___ years old. I live in ___. I have ___ in my family. My father is a ___. I like ___."
+    },
+    {
+     "t": "h",
+     "x": "Ideas for tasks"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Write a short note or a message.",
+      "Write a postcard or a card for a friend.",
+      "Label a picture.",
+      "Write a description of a person, a place or a day.",
+      "Parallel writing: write about yourself using a model about someone else.",
+      "Finish a story with a given beginning.",
+      "Language experience: learners tell you a sentence and you write it on the board, then they copy and read it."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A lesson plan (45 minutes)"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Show a model text and read it aloud.",
+      "Check understanding and teach the key words.",
+      "Learners complete a gap-fill version.",
+      "Learners write their own version with the frame.",
+      "Pairs read each other's texts and say one good thing.",
+      "Learners write a final copy."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Handwriting for new learners"
+    },
+    {
+     "t": "p",
+     "x": "Learners who write mainly in Khmer script are learning a new alphabet. Give time for letter formation and capital letters, which Khmer does not have, and for spaces between words."
+    },
+    {
+     "t": "h",
+     "x": "Feedback"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Say one thing that is good.",
+      "Correct only one or two errors.",
+      "Display learners' writing.",
+      "Let learners rewrite."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Asking beginners to write long, free texts.",
+      "Correcting everything.",
+      "Writing tasks with no reader and no purpose."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a topic and write a model.",
+      "Prepare a gap-fill and a frame.",
+      "Prepare a word bank.",
+      "Plan how learners will share their writing."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-writing",
+    "teaching-punctuation-spelling-and-handwriting",
+    "how-to-teach-across-proficiency-levels",
+    "giving-feedback-on-writing"
+   ]
   },
   {
    "id": "giving-feedback-on-writing",
    "group": "A. Teaching the language skills",
    "title": "Giving feedback on writing",
-   "parent": "how-to-teach-writing"
+   "parent": "how-to-teach-writing",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Feedback helps learners write better when it is clear, limited and given at the right time. This article builds on Giving useful feedback and Marking written work (correction codes)."
+    },
+    {
+     "t": "h",
+     "x": "Respond to the right things at the right time"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Focus",
+      "Example comment"
+     ],
+     "rows": [
+      [
+       "First draft",
+       "Ideas and organisation",
+       "Your second paragraph is interesting. Can you add an example?"
+      ],
+      [
+       "Second draft",
+       "Clarity and detail",
+       "The order is clear now. Which sentence is your main idea?"
+      ],
+      [
+       "Final draft",
+       "Accuracy and language",
+       "Check the verb tense in the last paragraph."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Ways to give feedback"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Questions in the margin: What happened next? Why?",
+      "An end comment: one strength, one or two things to improve and a next step.",
+      "A short conversation with a learner while others write.",
+      "A rubric or checklist that shows the criteria.",
+      "An audio comment on a phone, if you can.",
+      "Peer feedback and self-editing."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A sample end comment"
+    },
+    {
+     "t": "p",
+     "x": "Your letter is friendly and I can see the main news clearly. Next time, add one more detail about the party. Check the verbs in paragraph two: yesterday needs the past tense."
+    },
+    {
+     "t": "h",
+     "x": "Keep feedback manageable"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choose a few points, not everything.",
+      "Mark patterns of errors, not every single one.",
+      "Ask learners to revise and show you the second draft.",
+      "Keep a record of common problems for class lessons."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Weak and better"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Weak",
+      "Better"
+     ],
+     "rows": [
+      [
+       "Good",
+       "Your description of the market uses five good adjectives."
+      ],
+      [
+       "Weak",
+       "Your ideas are clear. The order of the ideas needs work. Try making a plan."
+      ],
+      [
+       "Rewriting a learner's sentence",
+       "Underline the error and ask the learner to fix it"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Red ink on every error.",
+      "Only negative comments.",
+      "Feedback only on the final copy.",
+      "Comments that learners cannot understand.",
+      "Giving feedback and never checking whether learners use it."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Decide the focus for this draft.",
+      "Write two questions and one comment on three drafts.",
+      "Plan time in class to revise.",
+      "Plan how you will check the second draft."
+     ]
+    }
+   ],
+   "related": [
+    "giving-useful-feedback",
+    "marking-written-work-correction-codes",
+    "peer-review-and-self-editing",
+    "rubrics-for-speaking-and-writing"
+   ]
   },
   {
    "id": "peer-review-and-self-editing",
    "group": "A. Teaching the language skills",
    "title": "Peer review and self-editing",
-   "parent": "how-to-teach-writing"
+   "parent": "how-to-teach-writing",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "When learners review each other's writing and check their own, they learn to see writing as a reader would. Reviewers also learn from the work they read. It needs training and a positive atmosphere."
+    },
+    {
+     "t": "h",
+     "x": "What research suggests"
+    },
+    {
+     "t": "p",
+     "x": "Yu and Lee (2016) reviewed a decade of research on peer feedback in second language writing. They found that researchers study many themes, including how peer feedback compares with teacher feedback, the benefits for learners who give feedback, the importance of training, and cultural issues. Findings on how much peer feedback improves writing are mixed in some studies, and quality depends on training and on how well learners work together."
+    },
+    {
+     "t": "h",
+     "x": "Preparing learners"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Show a sample text and review it together as a class.",
+      "Give a short checklist.",
+      "Teach polite phrases: I like..., I did not understand..., Maybe you could...",
+      "Practise in pairs with a short text.",
+      "Remind learners that the writer decides what to change."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A peer review checklist"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Area",
+      "Questions"
+     ],
+     "rows": [
+      [
+       "Content",
+       "Is the main idea clear? Is there enough detail?"
+      ],
+      [
+       "Organisation",
+       "Is there a beginning, middle and end? Do the ideas follow in order?"
+      ],
+      [
+       "Language",
+       "Are the verb tenses correct? Are capital letters and full stops used? Is the spelling correct?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Steps"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Swap drafts.",
+      "Read once for meaning.",
+      "Mark or write two things that are good and one thing to improve (two stars and a wish).",
+      "Talk to the writer about it.",
+      "The writer revises.",
+      "The reviewer says what they learned."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Self-editing"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Put the writing away for a day, then read it again.",
+      "Read aloud and listen for mistakes.",
+      "Check one thing at a time: verbs, then spelling, then punctuation.",
+      "Read the text sentence by sentence from the end to check spelling.",
+      "Use a personal error checklist and an error log.",
+      "Use a dictionary."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Cautions"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Peers can give wrong advice. Check a few reviews.",
+      "Some learners are shy about criticising or being criticised. Start with pairs and keep it positive.",
+      "Pair learners with care.",
+      "Give enough time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "No training.",
+      "Too long a checklist.",
+      "Using peer review as the only feedback.",
+      "Never checking what learners did with the feedback."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Make a three-question checklist.",
+      "Model a review with a sample text.",
+      "Plan time for pair review.",
+      "Plan how learners will show their revision."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Shulin Yu and Icy Lee, Peer feedback in second language writing (2005 to 2014), Language Teaching, 2016"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "peer-correction-and-self-correction",
+    "giving-feedback-on-writing",
+    "process-writing-plan-draft-edit",
+    "marking-written-work-correction-codes"
+   ]
   },
   {
    "id": "teaching-punctuation-spelling-and-handwriting",
    "group": "A. Teaching the language skills",
    "title": "Teaching punctuation, spelling and handwriting",
-   "parent": "how-to-teach-writing"
+   "parent": "how-to-teach-writing",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Punctuation, spelling and handwriting are small parts of writing that can affect how clear a text is. Teach them in short, regular, meaningful practice."
+    },
+    {
+     "t": "h",
+     "x": "Punctuation"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Mark",
+      "Teach",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Capital letter",
+       "Start of a sentence; names; I",
+       "My name is Dara."
+      ],
+      [
+       "Full stop",
+       "End of a statement",
+       "I live in Phnom Penh."
+      ],
+      [
+       "Question mark",
+       "End of a question",
+       "Where do you live?"
+      ],
+      [
+       "Comma",
+       "Items in a list; after words like first",
+       "I like rice, fish and fruit."
+      ],
+      [
+       "Apostrophe",
+       "Short forms and possession",
+       "I am becomes I'm; Sokha's book"
+      ],
+      [
+       "Quotation marks",
+       "Words someone said",
+       "She said, \"Come in.\""
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "In Khmer script there are no capital letters, so learners need practice noticing where capitals are used.",
+      "Use dictation and short editing tasks: add the missing capital letters and full stops.",
+      "Teach a few marks at a time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Spelling"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Look, say, cover, write, check.",
+      "Teach common patterns and word families, such as night, light, right.",
+      "Teach homophones such as their and there with sentences.",
+      "Break a word into syllables.",
+      "Use mnemonics for difficult words.",
+      "Use dictation and spelling games.",
+      "Keep a personal list of words you often misspell.",
+      "Use phonics patterns. See Teaching phonics."
+     ]
+    },
+    {
+     "t": "p",
+     "x": "English spelling has many exceptions. Teach patterns, and warn learners that rules have exceptions."
+    },
+    {
+     "t": "h",
+     "x": "Handwriting"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach letter shapes and the direction of strokes.",
+      "Use lined paper and show how letters sit on the line.",
+      "Teach the space between words.",
+      "Practise with real tasks: labels, lists and short notes.",
+      "Let learners choose print or joined writing, and keep it clear."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching rules in isolation.",
+      "Spelling tests as the only practice.",
+      "Ignoring handwriting for beginners.",
+      "Marking down for neatness when the content is good."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one punctuation mark to focus on.",
+      "Prepare a short editing task.",
+      "Prepare a spelling activity with five words.",
+      "Plan a short handwriting practice."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-writing",
+    "teaching-phonics",
+    "teaching-beginners-to-read-phonics-and-decoding",
+    "guided-writing-for-beginners"
+   ]
   },
   {
    "id": "how-to-teach-pronunciation",
    "group": "A. Teaching the language skills",
-   "title": "How to teach pronunciation"
+   "title": "How to teach pronunciation",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Good pronunciation helps learners to be understood. The aim is not to sound like a native speaker. The aim is to be clear and comfortable to listen to."
+    },
+    {
+     "t": "h",
+     "x": "What research suggests"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Levis (2005) described two principles: the nativeness principle, which aims for a native-like accent, and the intelligibility principle, which aims for speech that listeners can understand. Recent research is guided by the intelligibility principle, because most accented speech is understandable.",
+      "Meta-analyses, including one by Lee, Jang and Plonsky (2015) of 86 studies, found that pronunciation teaching generally improves learners' pronunciation, with a medium effect.",
+      "Researchers generally agree that both individual sounds and features such as stress, rhythm and intonation matter for being understood.",
+      "Teachers often avoid pronunciation because of limited training or confidence."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Set priorities"
+    },
+    {
+     "t": "p",
+     "x": "You cannot teach everything. Choose features that cause problems for your learners and that make them hard to understand. Record learners reading a short text or speaking, listen for repeated problems, and make a short list."
+    },
+    {
+     "t": "h",
+     "x": "A short teaching sequence for a sound or feature"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Listen: learners hear the sound or pattern in words.",
+      "Notice: show how it is made or what is special.",
+      "Discriminate: choose between two words or patterns.",
+      "Say it: choral, then in pairs, then individually.",
+      "Use it in words, phrases and sentences.",
+      "Use it in a speaking task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Techniques"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Technique",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Minimal pairs",
+       "Words that differ in one sound, such as ship and sheep"
+      ],
+      [
+       "Choral drilling",
+       "The class repeats together, then in small groups"
+      ],
+      [
+       "Backchaining",
+       "Build a long sentence from the end: ...to the market, ...going to the market"
+      ],
+      [
+       "Gestures",
+       "Show stress with a hand or a clap"
+      ],
+      [
+       "Mirror and touch",
+       "Look at the mouth; touch the throat to feel voice"
+      ],
+      [
+       "Phonemic chart",
+       "Show sounds with symbols"
+      ],
+      [
+       "Shadowing",
+       "Say the sentence together with a recording"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Make it part of lessons"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach the stress and sounds of new words when you teach vocabulary.",
+      "Spend five minutes on pronunciation in many lessons.",
+      "Listen and give gentle feedback in speaking activities.",
+      "Teach learners to use the pronunciation in a dictionary.",
+      "Encourage listening outside class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Pronunciation of Khmer speakers: points to listen for"
+    },
+    {
+     "t": "p",
+     "x": "Descriptions of Khmer speakers' English report that sounds such as /θ/ and /ð/ (think, this) and /z/, /ʃ/ and /ʒ/ do not exist in Khmer. They also report that learners may drop final consonants and add or delete /s/ and verb endings, and may use the wrong word stress. Check whether these apply to your own learners, and prioritise what stops them being understood."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Aiming for a perfect accent.",
+      "Only drilling single sounds.",
+      "Ignoring stress and rhythm.",
+      "Embarrassing learners about their pronunciation."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Record learners or listen for one repeated problem.",
+      "Choose one feature to teach.",
+      "Plan a five-minute sequence.",
+      "Plan a speaking task that uses it."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Tracey Derwing and Murray Munro, Pronunciation Fundamentals",
+      "Marianne Celce-Murcia, Donna Brinton and Janet Goodwin, Teaching Pronunciation",
+      "John Levis, Changing contexts and shifting paradigms in pronunciation teaching, TESOL Quarterly, 2005",
+      "Junkyu Lee, Juhyun Jang and Luke Plonsky, The effectiveness of second language pronunciation instruction: A meta-analysis, Applied Linguistics, 2015"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "sounds-stress-and-intonation",
+    "common-pronunciation-problems-and-minimal-pairs",
+    "teaching-phonics",
+    "how-to-teach-speaking"
+   ]
   },
   {
    "id": "sounds-stress-and-intonation",
    "group": "A. Teaching the language skills",
    "title": "Sounds, stress and intonation",
-   "parent": "how-to-teach-pronunciation"
+   "parent": "how-to-teach-pronunciation",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Pronunciation has three main parts: individual sounds, stress and rhythm, and intonation. Learners need all three to be understood."
+    },
+    {
+     "t": "h",
+     "x": "The parts"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Part",
+      "What it is",
+      "Teaching idea"
+     ],
+     "rows": [
+      [
+       "Sounds",
+       "Vowels and consonants",
+       "Minimal pairs, mouth position, listen and choose"
+      ],
+      [
+       "Word stress",
+       "The syllable that is stronger in a word",
+       "Clap or tap the stress; mark it with a dot or a capital letter"
+      ],
+      [
+       "Sentence stress and rhythm",
+       "The important words are stressed, the small words are short",
+       "Tap the stressed words; say sentences with a steady beat"
+      ],
+      [
+       "Intonation",
+       "How the voice rises and falls",
+       "Hum the tune; use hand movements"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Word stress"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pattern",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "First syllable",
+       "TAble, HAPpy, TEAcher"
+      ],
+      [
+       "Second syllable",
+       "beGIN, toDAY, aGREE"
+      ],
+      [
+       "Three syllables, first stressed",
+       "FAmily, BEAUtiful"
+      ],
+      [
+       "Three syllables, middle stressed",
+       "baNAna, toMAto"
+      ],
+      [
+       "Last syllable",
+       "afterNOON, underSTAND"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Many two-syllable nouns and adjectives are stressed on the first syllable, and many verbs on the second. There are exceptions.",
+      "Words ending in -tion are stressed on the syllable before it: inforMAtion.",
+      "The unstressed vowel is often a weak sound called schwa, as in the last syllable of teacher.",
+      "Descriptions of Khmer report that Khmer words usually stress the last syllable, so Khmer-speaking learners may place English stress on the last syllable too. Listen to your own learners."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Sentence stress"
+    },
+    {
+     "t": "p",
+     "x": "In English, the important words (nouns, main verbs, adjectives) get stress, and small words (a, the, of, to, and) are short and weak. Learners who stress every word sound unnatural and find fast speech harder to understand. Practise by tapping the stressed words: I WANT to GO to the MARKet."
+    },
+    {
+     "t": "h",
+     "x": "Intonation"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pattern",
+      "Typical use",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Falling",
+       "Statements and wh-questions",
+       "Where do you live?"
+      ],
+      [
+       "Rising",
+       "Yes or no questions",
+       "Do you like rice?"
+      ],
+      [
+       "Rising, then falling",
+       "Lists",
+       "I like rice, fish, and fruit."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "These are typical patterns, not strict rules. Intonation also shows attitude, such as surprise or doubt."
+    },
+    {
+     "t": "h",
+     "x": "Ideas for practice"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Sort words by stress pattern.",
+      "Find the stress in a dictionary.",
+      "Contrasts such as the noun PREsent and the verb preSENT.",
+      "Say a sentence with different stress to change the meaning.",
+      "Choral practice with hand movements.",
+      "Use a short dialogue and mark the stress and the tune."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching only individual sounds.",
+      "Teaching intonation as fixed rules.",
+      "Not marking stress when you teach new words."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose five words with different stress patterns.",
+      "Mark the stress on the board.",
+      "Prepare a sentence for tapping the stress.",
+      "Plan a short dialogue with intonation."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-pronunciation",
+    "common-pronunciation-problems-and-minimal-pairs",
+    "fast-and-connected-speech",
+    "how-to-teach-speaking"
+   ]
   },
   {
    "id": "common-pronunciation-problems-and-minimal-pairs",
    "group": "A. Teaching the language skills",
    "title": "Common pronunciation problems and minimal pairs",
-   "parent": "how-to-teach-pronunciation"
+   "parent": "how-to-teach-pronunciation",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners with the same first language often have similar pronunciation problems. A minimal pair, two words that differ in only one sound, is a simple way to practise a difficult contrast."
+    },
+    {
+     "t": "h",
+     "x": "Minimal pairs"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Contrast",
+      "Pairs"
+     ],
+     "rows": [
+      [
+       "Short and long vowels",
+       "ship, sheep; bit, beat"
+      ],
+      [
+       "/th/ and /s/ or /t/",
+       "think, sink; three, tree"
+      ],
+      [
+       "/th/ and /d/ or /z/",
+       "they, day; breathe, breeze"
+      ],
+      [
+       "/s/ and /z/",
+       "sip, zip; price, prize"
+      ],
+      [
+       "/s/ and /sh/",
+       "see, she; sell, shell"
+      ],
+      [
+       "/l/ and /r/",
+       "light, right; fly, fry"
+      ],
+      [
+       "Final sounds present or dropped",
+       "see, seat, seed; bee, bean"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teaching minimal pairs"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Teach the two words with pictures.",
+      "Listen and choose: say a word and learners hold up card 1 or 2.",
+      "Say the pair clearly, with a clear difference.",
+      "Learners say the words in pairs and check each other.",
+      "Use sentences: I think it is a sheep.",
+      "Play games: bingo, odd one out, Which word did I say?"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Problems reported for Khmer speakers"
+    },
+    {
+     "t": "p",
+     "x": "Descriptions and studies of Khmer speakers learning English report these areas. Check whether they apply to your learners."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Area",
+      "What to listen for",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "Sounds not in Khmer",
+       "th, z, sh and some other English consonants are replaced by similar sounds",
+       "Minimal pairs; show the position of the tongue and lips; practise in words and phrases"
+      ],
+      [
+       "Final consonants",
+       "The last sound of a word is dropped: bag sounds like ba",
+       "Hold the last sound; clap it as a beat; minimal pairs such as see, seat, seed"
+      ],
+      [
+       "Final clusters",
+       "Two or three consonants at the end are shortened: desks, asked",
+       "Build the word in steps: ask, askt; desk, desks"
+      ],
+      [
+       "Endings -s and -ed",
+       "Missing or added: He walk to school",
+       "Teach the sounds of the endings; link to grammar"
+      ],
+      [
+       "Word stress",
+       "Stress on the wrong syllable",
+       "Mark the stress; clap; dictionary checks"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "How to find your learners' problems"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Record learners reading a short text and speaking freely.",
+      "Listen for sounds and patterns that repeat.",
+      "Choose the two or three that most affect understanding.",
+      "Plan short, regular practice for them.",
+      "Record again after a few weeks."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Practising only difficult sounds that rarely matter.",
+      "Drilling without meaning.",
+      "Not listening first: learners must hear the difference before they say it.",
+      "Correcting every sound."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one contrast and five minimal pairs.",
+      "Prepare cards for listen and choose.",
+      "Prepare a game.",
+      "Plan a sentence that uses both words."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Khmer learner English: a teacher's guide to Khmer L1 interference (Macquarie University)",
+      "Tracey Derwing and Murray Munro, Pronunciation Fundamentals"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-pronunciation",
+    "sounds-stress-and-intonation",
+    "teaching-phonics",
+    "correcting-errors-during-speaking"
+   ]
   },
   {
    "id": "teaching-phonics",
    "group": "A. Teaching the language skills",
    "title": "Teaching phonics",
-   "parent": "how-to-teach-pronunciation"
+   "parent": "how-to-teach-pronunciation",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Phonics teaches the link between letters and sounds, so learners can read and spell. It is different from pronunciation work, which is about how to make sounds. The two help each other. See also Teaching beginners to read (phonics and decoding)."
+    },
+    {
+     "t": "h",
+     "x": "Two approaches"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Approach",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Synthetic phonics",
+       "Teach letter-sound links, then blend the sounds into words: c-a-t, cat"
+      ],
+      [
+       "Analytic phonics",
+       "Start with whole words and look at the letters and sounds inside them: cat, cap, can"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "A large United States review of reading research (the National Reading Panel, 2000) found that systematic phonics teaching had a moderate positive effect for children from kindergarten to sixth grade who were learning to read in English as their first language. There is less research on learners of English as a foreign language, so use phonics as a helpful tool and watch your own learners."
+    },
+    {
+     "t": "h",
+     "x": "Common spelling patterns"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Sound",
+      "Spellings"
+     ],
+     "rows": [
+      [
+       "Long a",
+       "a-e (cake), ai (rain), ay (day)"
+      ],
+      [
+       "Long e",
+       "ee (see), ea (read)"
+      ],
+      [
+       "Long i",
+       "i-e (bike), igh (night)"
+      ],
+      [
+       "Long o",
+       "o-e (home), oa (boat)"
+      ],
+      [
+       "sh",
+       "sh (ship)"
+      ],
+      [
+       "ch",
+       "ch (chair)"
+      ],
+      [
+       "th",
+       "th (this, thin)"
+      ],
+      [
+       "Silent letters",
+       "knee, write, climb"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Activities"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Sound sorting: sort words by their vowel sound.",
+      "Word building: change one letter to make a new word (cat, hat, hit, sit).",
+      "Letter cards for blending.",
+      "Rhyme lists: night, light, right.",
+      "Read and write short sentences with target patterns.",
+      "Dictate words and sentences.",
+      "Hunt for a pattern in a text."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Phonemic symbols"
+    },
+    {
+     "t": "p",
+     "x": "The phonemic chart uses one symbol for each sound. It is useful for older learners who read dictionaries, because it shows pronunciation clearly. Younger learners and beginners usually do not need it. It adds more to learn, so use it only if it helps your learners."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching all spellings of a sound at once.",
+      "Teaching spelling rules as if they had no exceptions.",
+      "Phonics with no link to meaning.",
+      "Long, boring drills."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one spelling pattern.",
+      "Prepare a list of ten words that use it.",
+      "Prepare cards for word building.",
+      "Prepare a short sentence to read and write."
+     ]
+    }
+   ],
+   "related": [
+    "teaching-beginners-to-read-phonics-and-decoding",
+    "how-to-teach-pronunciation",
+    "teaching-punctuation-spelling-and-handwriting",
+    "using-flashcards-and-pictures"
+   ]
   },
   {
    "id": "how-to-teach-across-proficiency-levels",
@@ -6256,18 +7705,434 @@
    "id": "teaching-beginners-elementary-intermediate-and-advanced-lear",
    "group": "A. Teaching the language skills",
    "title": "Teaching beginners, elementary, intermediate and advanced learners",
-   "parent": "how-to-teach-across-proficiency-levels"
+   "parent": "how-to-teach-across-proficiency-levels",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "This article extends How to teach across proficiency levels. It uses the levels of the Common European Framework of Reference (CEFR), from A1 to C2, as a guide: beginner (A1), elementary (A2), intermediate (B1 and B2) and advanced (C1 and above). Levels are a guide. Learners can be stronger in one skill than another."
+    },
+    {
+     "t": "h",
+     "x": "Overview"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Level",
+      "Typical learner",
+      "Priorities",
+      "Ideas",
+      "Pitfalls"
+     ],
+     "rows": [
+      [
+       "Beginner (A1)",
+       "Uses and understands very familiar words and basic phrases",
+       "Survival language, simple patterns, pronunciation, alphabet and numbers",
+       "Pictures, actions, repetition, short dialogues, games, a lot of modelling",
+       "Too much language at once; long explanations"
+      ],
+      [
+       "Elementary (A2)",
+       "Handles simple, routine exchanges and describes things in simple terms",
+       "Everyday situations, simple past and future, more vocabulary",
+       "Role plays of daily life, guided writing, short texts and recordings",
+       "Too much grammar terminology; too little speaking"
+      ],
+      [
+       "Intermediate (B1 and B2)",
+       "Deals with most situations and produces connected text; at B2, interacts fairly fluently",
+       "Fluency, wider vocabulary, accuracy, longer texts, linking ideas",
+       "Discussion, projects, longer reading and listening, process writing",
+       "The plateau: progress feels slow. Set new goals and give variety"
+      ],
+      [
+       "Advanced (C1 and above)",
+       "Uses language flexibly for social, study and work purposes",
+       "Style, precision, collocations, register, academic and professional skills",
+       "Authentic materials, debate, extended writing, feedback on style",
+       "Boredom with easy tasks; neglecting fine points of accuracy"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "One topic at four levels: Food"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Level",
+      "Lesson idea"
+     ],
+     "rows": [
+      [
+       "Beginner",
+       "Name foods from pictures; say I like rice. I do not like fish. Make a class chart"
+      ],
+      [
+       "Elementary",
+       "Order food in a restaurant with a menu; write a short note about what you eat"
+      ],
+      [
+       "Intermediate",
+       "Describe a favourite dish, give the steps of a recipe and compare opinions about healthy food"
+      ],
+      [
+       "Advanced",
+       "Discuss food culture and write a restaurant review with a clear opinion"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Adjusting how you teach"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Beginners: grade your language, use gestures and pictures, keep steps small and use some first language for instructions.",
+      "Elementary: give frames and models, and many chances to use the language in real tasks.",
+      "Intermediate: reduce control gradually, let learners choose, and give delayed correction.",
+      "Advanced: use real texts, ask for opinions and reasons, and give detailed feedback."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching advanced learners the same way as beginners, or the other way round.",
+      "Assuming all skills are at the same level.",
+      "Using too much first language at higher levels, or none at all at the lowest."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Decide the level of the class for each skill.",
+      "Choose a can-do aim, such as order food in a restaurant.",
+      "Check that your language and instructions suit the level.",
+      "Plan a task at the right level of challenge."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Council of Europe, Common European Framework of Reference for Languages (2001, and the Companion Volume)",
+      "Jim Scrivener, Learning Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-across-proficiency-levels",
+    "adapting-one-lesson-for-different-levels",
+    "managing-a-mixed-ability-class",
+    "teaching-young-learners"
+   ]
   },
   {
    "id": "adapting-one-lesson-for-different-levels",
    "group": "A. Teaching the language skills",
    "title": "Adapting one lesson for different levels",
-   "parent": "how-to-teach-across-proficiency-levels"
+   "parent": "how-to-teach-across-proficiency-levels",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "In most classes you cannot teach a separate lesson for each level. Instead, keep one lesson with the same aim, and adapt the tasks, the support and the challenge."
+    },
+    {
+     "t": "h",
+     "x": "What you can adapt"
+    },
+    {
+     "t": "table",
+     "head": [
+      "What",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Content",
+       "Easier or harder texts; a glossary; fewer or more items"
+      ],
+      [
+       "Process",
+       "More or less support: a word bank, a frame, a partner, extra time"
+      ],
+      [
+       "Product",
+       "What the learner produces: fill in a table, write three sentences, or write a full paragraph"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Carol Ann Tomlinson describes differentiation in terms of content, process and product, and this is a useful way to plan."
+    },
+    {
+     "t": "h",
+     "x": "A worked example: reading A day at the market"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Version",
+      "Tasks"
+     ],
+     "rows": [
+      [
+       "Support",
+       "Match key words to pictures; true or false with six sentences; fill in a gap-fill with a word bank"
+      ],
+      [
+       "Core",
+       "Answer six comprehension questions; put the events in order"
+      ],
+      [
+       "Challenge",
+       "Answer inference questions; write a different ending; explain how the seller feels"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "All learners share the same warm-up and the same wrap-up discussion, so the class works together."
+    },
+    {
+     "t": "h",
+     "x": "Planning steps"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Fix one aim for the whole class.",
+      "Decide how learners will show they reached it.",
+      "Plan a support, a core and a challenge version of the main task.",
+      "Label the versions neutrally, for example with colours or shapes, not easy and hard.",
+      "Decide how learners will choose or be assigned a version.",
+      "Prepare materials and check your own time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Other techniques"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Open-ended tasks that every learner can answer at their own level.",
+      "A menu of tasks to choose from.",
+      "A ladder of questions from easy to difficult.",
+      "Flexible groups: sometimes mixed, sometimes the same level.",
+      "Extension and support cards on the table.",
+      "The same text with different numbers of questions."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Labelling groups publicly as weak or strong.",
+      "Too much preparation: plan one adapted task, not every task.",
+      "Marking learners differently without telling them why.",
+      "Keeping learners in the same version all the time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one task to adapt.",
+      "Write a support, core and challenge version.",
+      "Label them with colours.",
+      "Plan how you will check each group."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Carol Ann Tomlinson, How to Differentiate Instruction in Mixed-Ability Classrooms"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-across-proficiency-levels",
+    "managing-a-mixed-ability-class",
+    "students-who-finish-too-fast-or-too-slowly",
+    "teaching-mixed-ability-classes"
+   ]
   },
   {
    "id": "integrating-the-four-skills-in-one-lesson",
    "group": "A. Teaching the language skills",
-   "title": "Integrating the four skills in one lesson"
+   "title": "Integrating the four skills in one lesson",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "In real life we use reading, writing, listening and speaking together. We read an email and reply, or listen to a message and talk about it. Integrated lessons link the skills around one topic, so each activity prepares the next."
+    },
+    {
+     "t": "h",
+     "x": "Why integrate"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "It reflects real communication.",
+      "Each skill supports the others: a listening task gives ideas for speaking, and a reading text gives language for writing.",
+      "Learners meet the same words and ideas many times.",
+      "It makes lessons more interesting."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A sample lesson: Planning a trip (60 minutes)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Time",
+      "Skill",
+      "Activity"
+     ],
+     "rows": [
+      [
+       "5 min",
+       "Speaking",
+       "Warm-up: Where would you like to go? Why?"
+      ],
+      [
+       "10 min",
+       "Listening",
+       "Listen to a short conversation about two travel plans. Note the places and prices"
+      ],
+      [
+       "10 min",
+       "Speaking",
+       "Compare notes in pairs and decide which plan is better"
+      ],
+      [
+       "10 min",
+       "Reading",
+       "Read a short travel leaflet and find three facts"
+      ],
+      [
+       "15 min",
+       "Writing",
+       "Write a short email to a friend about your trip plan"
+      ],
+      [
+       "10 min",
+       "Speaking",
+       "Read emails to a partner; share one idea with the class"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Ways to link skills"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Read, discuss, then write a response.",
+      "Listen, summarise, then speak or write.",
+      "Interview, then report in writing or speaking.",
+      "Do a class survey: design questions (writing), ask (speaking and listening), read the results and report them.",
+      "Use one text or recording as the centre for several tasks.",
+      "Use a short project that needs all four skills."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Planning"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Choose a topic that interests your learners.",
+      "Choose one main text or recording.",
+      "Decide the main language aim.",
+      "Order the tasks so each prepares the next: input first, then output.",
+      "Vary the interaction: whole class, pairs, groups, individual.",
+      "Plan time, and decide what you will cut if time runs short."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Cautions"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "You do not have to use all four skills in every lesson.",
+      "Keep the main language aim clear.",
+      "Keep tasks at the right level.",
+      "Plan time carefully."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Four unrelated activities with no link.",
+      "Too many activities for the time.",
+      "No clear language aim.",
+      "Skipping the preparation for the output task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a topic and a main text.",
+      "Plan four tasks that link to each other.",
+      "Plan the timing and one thing to cut.",
+      "Plan a final task where learners use what they learned."
+     ]
+    }
+   ],
+   "related": [
+    "how-to-teach-reading",
+    "how-to-teach-listening",
+    "how-to-teach-speaking",
+    "how-to-teach-writing"
+   ]
   },
   {
    "id": "communicative-language-teaching",
