@@ -8202,42 +8202,1134 @@
   {
    "id": "starting-a-lesson-lead-ins-and-warm-ups",
    "group": "C. Lesson organisation",
-   "title": "Starting a lesson: lead-ins and warm-ups"
+   "title": "Starting a lesson: lead-ins and warm-ups",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "The first few minutes set the tone for the lesson. A good start settles the class, wakes up English, and leads learners naturally into the topic."
+    },
+    {
+     "t": "h",
+     "x": "Warm-up or lead-in?"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Purpose",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Review",
+       "Remind learners of the last lesson",
+       "A quick quiz; What do you remember about yesterday?"
+      ],
+      [
+       "Lead-in",
+       "Introduce today's topic and get interest",
+       "A picture and a question; odd one out; What will we learn today?"
+      ],
+      [
+       "Language warm-up",
+       "Get learners using English",
+       "A vocabulary race; a sentence chain; a short chat with a partner"
+      ],
+      [
+       "Energiser",
+       "Raise energy",
+       "Simon says; a quick board race. The Planning guide describes stirrers and settlers"
+      ],
+      [
+       "Routine",
+       "Settle the class",
+       "The date and the weather; a daily question; a short song"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Guidelines"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Keep it short: about three to seven minutes.",
+      "Link it to the aim of the lesson, so it is not only a game.",
+      "Give a task on the board that learners start as they arrive.",
+      "Use a routine learners know, with some variety.",
+      "Keep the instructions very simple.",
+      "End with a clear link: Now let us look at today's text."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Ten ideas that need no preparation"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Word association: say a word, learners say the first word they think of.",
+      "Ten questions: guess the object or person.",
+      "Two truths and a lie.",
+      "Chain story: each learner adds a sentence.",
+      "Spelling bee.",
+      "What is missing? Remove an object or a word from the board.",
+      "Describe and draw.",
+      "Odd one out with four words on the board.",
+      "Stand up if... (a quick poll).",
+      "Interview a partner for one minute."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A warm-up that is too long.",
+      "A game with no link to the lesson.",
+      "Complicated rules.",
+      "No start routine, so the lesson starts slowly.",
+      "Using the same warm-up every time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one idea that leads to today's topic.",
+      "Write the instruction in one sentence.",
+      "Set a time limit.",
+      "Plan the sentence that links to the main activity."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Penny Ur and Andrew Wright, Five-Minute Activities"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "finishing-a-lesson-wrap-ups-and-exit-tasks",
+    "building-routines",
+    "giving-clear-instructions",
+    "making-smooth-transitions-between-activities"
+   ]
   },
   {
    "id": "finishing-a-lesson-wrap-ups-and-exit-tasks",
    "group": "C. Lesson organisation",
-   "title": "Finishing a lesson: wrap-ups and exit tasks"
+   "title": "Finishing a lesson: wrap-ups and exit tasks",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "The end of a lesson is easy to lose when time runs short, but it is important. A wrap-up helps learners remember what they learned, helps you see what they understood, and gives the lesson a clear end."
+    },
+    {
+     "t": "h",
+     "x": "Why it matters"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners recall and organise what they learned.",
+      "You find out what to teach again.",
+      "The lesson feels complete.",
+      "You can set homework and preview the next lesson.",
+      "Checking learning during and at the end of lessons is part of formative assessment. A well-known review by Black and Wiliam (1998) concluded that improving formative assessment can raise achievement, especially when teachers use the information to adjust their teaching."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Techniques"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Technique",
+      "How it works",
+      "Time"
+     ],
+     "rows": [
+      [
+       "Exit ticket",
+       "Learners write one thing they learned and one question on a slip of paper",
+       "3 min"
+      ],
+      [
+       "3-2-1",
+       "Three things I learned, two things I found interesting, one question",
+       "4 min"
+      ],
+      [
+       "Quick quiz",
+       "Three questions, oral or on mini whiteboards",
+       "3 min"
+      ],
+      [
+       "Pair summary",
+       "Tell your partner three things we did today",
+       "3 min"
+      ],
+      [
+       "Teach it back",
+       "A learner explains a point to a partner or the class",
+       "4 min"
+      ],
+      [
+       "I can...",
+       "Learners tick the can-do statements they now feel sure about",
+       "2 min"
+      ],
+      [
+       "Class summary",
+       "Learners tell you, and you write a summary on the board",
+       "3 min"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Steps"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Plan the wrap-up in your lesson plan and protect the last three to five minutes.",
+      "Stop the main activity on time.",
+      "Do one quick check that every learner can take part in.",
+      "Explain the homework and write it on the board.",
+      "Give a short preview of the next lesson.",
+      "Use a closing routine: tidy up and say goodbye."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Large classes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use thumbs up, sideways or down to show how sure learners feel.",
+      "Fist to five: show zero to five fingers for confidence.",
+      "Collect a sample of exit tickets, not all of them.",
+      "Check pairs while they work."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Use what you learn"
+    },
+    {
+     "t": "p",
+     "x": "Read a sample of the exit tickets before the next lesson, and begin with the most common question or problem."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "No wrap-up because the bell rang.",
+      "Asking Any questions? and getting silence.",
+      "Collecting and marking every exit ticket.",
+      "Not using the information."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Reserve the last four minutes.",
+      "Choose one technique.",
+      "Prepare the exit question.",
+      "Plan how you will use the answers in the next lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Paul Black and Dylan Wiliam, Inside the Black Box: Raising Standards Through Classroom Assessment, 1998"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "starting-a-lesson-lead-ins-and-warm-ups",
+    "formative-and-summative-assessment",
+    "pacing-and-timing",
+    "managing-homework-collection-and-checking"
+   ]
   },
   {
    "id": "pacing-and-timing",
    "group": "C. Lesson organisation",
-   "title": "Pacing and timing"
+   "title": "Pacing and timing",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Pace is how fast the lesson moves. If it is too fast, learners get lost. If it is too slow, they get bored. Good timing means you finish the important parts and keep the energy right."
+    },
+    {
+     "t": "h",
+     "x": "Signs of a pace problem"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Sign",
+      "Possible problem",
+      "What to try"
+     ],
+     "rows": [
+      [
+       "Learners say Teacher, again! or make many mistakes",
+       "Too fast",
+       "Slow down, repeat, give an example, give more time"
+      ],
+      [
+       "Learners finish quickly, talk or look away",
+       "Too slow or too easy",
+       "Add a challenge, shorten the time limit, move on"
+      ],
+      [
+       "You run out of time before the wrap-up",
+       "Too much planned or slow transitions",
+       "Plan fewer activities and use must do and could do"
+      ],
+      [
+       "Some learners are far ahead of others",
+       "Mixed speeds",
+       "Use extension tasks and support tasks"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Planning your timing"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Write a time for each stage, and the clock time when it should end.",
+      "Mark must do, should do and could do parts.",
+      "Add a buffer of about five minutes.",
+      "Put the most important parts early.",
+      "Plan for fast and slow stages, and change the type of activity to change the pace.",
+      "Remember that instructions and transitions take time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A sample 45-minute plan"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Minutes",
+      "Stage"
+     ],
+     "rows": [
+      [
+       "0 to 5",
+       "Warm-up and review"
+      ],
+      [
+       "5 to 15",
+       "Presentation"
+      ],
+      [
+       "15 to 25",
+       "Controlled practice"
+      ],
+      [
+       "25 to 38",
+       "Freer practice"
+      ],
+      [
+       "38 to 43",
+       "Feedback"
+      ],
+      [
+       "43 to 45",
+       "Wrap-up and homework"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "During the lesson"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Watch the learners, not only the clock.",
+      "Use a visible clock or a timer for tasks.",
+      "Give a time warning: Two minutes left.",
+      "Cut or shorten a could do part when you are behind.",
+      "Do not skip the wrap-up."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "After the lesson"
+    },
+    {
+     "t": "p",
+     "x": "Write the planned and the real times beside each stage. Over a few weeks you will plan better."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Planning too many activities.",
+      "Long instructions.",
+      "No time limits for tasks.",
+      "Forgetting transitions.",
+      "Always running over."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write the time for each stage in your plan.",
+      "Mark the must do and could do parts.",
+      "Use a timer for one task.",
+      "Note the real times afterwards."
+     ]
+    }
+   ],
+   "related": [
+    "running-out-of-time-or-finishing-too-early",
+    "making-smooth-transitions-between-activities",
+    "starting-a-lesson-lead-ins-and-warm-ups",
+    "classroom-management"
+   ]
   },
   {
    "id": "using-the-textbook-well",
    "group": "C. Lesson organisation",
-   "title": "Using the textbook well"
+   "title": "Using the textbook well",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A textbook is a resource, not the whole course. The best teachers use it with care: they know what it is for, follow its good ideas, and adapt what does not suit their learners."
+    },
+    {
+     "t": "h",
+     "x": "Get to know the book"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Read the introduction and the contents page. What are the aims and how is each unit organised?",
+      "Look at the teacher's book, the answer key and the audio.",
+      "Find out which parts match the school syllabus and exams.",
+      "Look ahead. Read the whole unit before you plan a lesson.",
+      "Check the level against your learners."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Planning a lesson from the book"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Find the aim of the lesson. What should learners be able to do?",
+      "Choose the activities that help reach it.",
+      "Decide what to use as it is, what to adapt and what to leave out.",
+      "Add a lead-in and a speaking or writing task if the book has none.",
+      "Plan the timing and the interaction.",
+      "Prepare any extra materials."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Using the parts of a unit"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Part of the book",
+      "How to use it"
+     ],
+     "rows": [
+      [
+       "Unit aims",
+       "Share them with learners at the start"
+      ],
+      [
+       "Reading texts",
+       "Add pre-reading and while-reading tasks. Use texts for more than questions"
+      ],
+      [
+       "Audio",
+       "Use it for gist and detail tasks, and use the script afterwards"
+      ],
+      [
+       "Grammar boxes",
+       "Use for checking and reference after learners notice the pattern"
+      ],
+      [
+       "Exercises",
+       "Choose those that match your aim; do not do all of them"
+      ],
+      [
+       "Word lists",
+       "Use for revision and games"
+      ],
+      [
+       "Review pages",
+       "Use for revision and quick checks"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Making the book come alive"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Start with books closed: a picture, a question or a story.",
+      "Link the topic to learners' own lives.",
+      "Use pair work for exercises, and check answers in pairs first.",
+      "Ask learners to make their own examples.",
+      "Mix book activities with others from outside."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "If you must follow the syllabus"
+    },
+    {
+     "t": "p",
+     "x": "Many schools require teachers to cover the textbook. You can follow the content and still make lessons communicative, by adding speaking and by adapting how the tasks are done."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Working through the book page by page.",
+      "Never opening the teacher's book.",
+      "Having learners read every text aloud.",
+      "Skipping all speaking tasks because there is not enough time.",
+      "No revision."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Read the whole unit and mark the lesson aim.",
+      "Choose two activities to adapt.",
+      "Plan a lead-in with books closed.",
+      "Plan a speaking task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Jo McDonough, Christopher Shaw and Hitomi Masuhara, Materials and Methods in ELT",
+      "Brian Tomlinson (editor), Developing Materials for Language Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "adapting-cutting-and-adding-to-textbook-activities",
+    "not-enough-books-or-materials",
+    "teaching-a-lesson-with-no-resources",
+    "starting-a-lesson-lead-ins-and-warm-ups"
+   ]
   },
   {
    "id": "adapting-cutting-and-adding-to-textbook-activities",
    "group": "C. Lesson organisation",
-   "title": "Adapting, cutting and adding to textbook activities"
+   "title": "Adapting, cutting and adding to textbook activities",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "No textbook fits every class. Teachers adapt it to the aim of the lesson, the level of the learners and the time available. Adapting is a normal part of good teaching."
+    },
+    {
+     "t": "h",
+     "x": "Is the activity worth using?"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Does it help reach the aim of my lesson?",
+      "Is the level right for my learners?",
+      "Will it interest them?",
+      "Does it give enough practice?",
+      "Do I have the time and materials?"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Ways to adapt"
+    },
+    {
+     "t": "table",
+     "head": [
+      "What to do",
+      "When",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Add",
+       "The book has no speaking, or is too short",
+       "Add a pair task: ask your partner the same questions"
+      ],
+      [
+       "Cut",
+       "Time is short, or the activity is less important",
+       "Do only the first five items"
+      ],
+      [
+       "Replace",
+       "The topic does not suit your learners",
+       "Use a local example, such as a market in Phnom Penh instead of a foreign shop"
+      ],
+      [
+       "Reorder",
+       "A different order works better",
+       "Do the speaking task first, then read the text"
+      ],
+      [
+       "Simplify",
+       "The task is too hard",
+       "Add a word bank or an example"
+      ],
+      [
+       "Extend",
+       "The task is too easy",
+       "Add a harder question or ask learners to write more"
+      ],
+      [
+       "Change the interaction",
+       "Learners are only listening",
+       "Change individual work to pair work"
+      ],
+      [
+       "Change the focus",
+       "The task only checks details",
+       "Add a gist question first"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A worked example"
+    },
+    {
+     "t": "p",
+     "x": "The book has a gap-fill on the present simple. You can change it as follows: learners do the first five gaps alone, then write true sentences about their own day, then ask a partner the same questions and report one answer. You cut the last five items and added a personal task."
+    },
+    {
+     "t": "h",
+     "x": "Make it local"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use names, places, foods and festivals your learners know.",
+      "Use situations from their lives: the market, the school, the family.",
+      "Keep real information up to date."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Changing everything and losing the logic of the unit.",
+      "Cutting all the speaking.",
+      "Adding too much, so there is no time for the wrap-up.",
+      "Ignoring the syllabus or the exam.",
+      "Not checking answer keys when you change an exercise."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one exercise to adapt.",
+      "Decide to add, cut, replace or change it.",
+      "Write the new instruction.",
+      "Check the time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Jo McDonough, Christopher Shaw and Hitomi Masuhara, Materials and Methods in ELT"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "using-the-textbook-well",
+    "designing-a-good-worksheet",
+    "teaching-with-very-few-resources",
+    "starting-a-lesson-lead-ins-and-warm-ups"
+   ]
   },
   {
    "id": "teaching-a-lesson-with-no-resources",
    "group": "C. Lesson organisation",
-   "title": "Teaching a lesson with no resources"
+   "title": "Teaching a lesson with no resources",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Sometimes you have no copies, no pictures and no technology. A good lesson needs a clear aim, a board or paper, and learners who talk. This article gives ideas that need nothing."
+    },
+    {
+     "t": "h",
+     "x": "What you always have"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "The board and chalk or markers.",
+      "Learners' notebooks and pens.",
+      "Your voice, your face and your hands.",
+      "Real objects in the room.",
+      "The learners themselves: their ideas, their stories and their knowledge."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Activities with no materials"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Activity",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Twenty questions",
+       "One learner thinks of an object; others ask yes or no questions"
+      ],
+      [
+       "Word chains",
+       "Say a word; the next learner says a word that starts with its last letter"
+      ],
+      [
+       "I went to the market and bought...",
+       "Each learner repeats the list and adds one item"
+      ],
+      [
+       "Simon says",
+       "Listening and actions"
+      ],
+      [
+       "Find someone who",
+       "Write four statements on the board; learners ask and find people"
+      ],
+      [
+       "Mime and guess",
+       "Act out a word or an action"
+      ],
+      [
+       "Running dictation",
+       "Write a text on a sheet or the board; learners dictate to a partner"
+      ],
+      [
+       "Describe and draw",
+       "One describes a simple picture, the other draws"
+      ],
+      [
+       "Opinion line",
+       "Write a statement; learners stand where they agree or disagree"
+      ],
+      [
+       "Story circle",
+       "Each learner adds a sentence to a story"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A 45-minute lesson with no materials"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Time",
+      "Activity"
+     ],
+     "rows": [
+      [
+       "5 min",
+       "Warm-up: word association on the board"
+      ],
+      [
+       "10 min",
+       "Present the language with drawings and mime; check meaning"
+      ],
+      [
+       "10 min",
+       "Practice in pairs using questions you write on the board"
+      ],
+      [
+       "15 min",
+       "Speaking game, such as twenty questions or find someone who"
+      ],
+      [
+       "5 min",
+       "Wrap-up: each pair tells one thing they learned"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Prepare"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Keep a short list of backup activities in your notebook.",
+      "Draw simple pictures: stick figures and symbols.",
+      "Use learners as resources: ask them to bring or make things.",
+      "Plan the board before the lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Skipping practice because there are no handouts.",
+      "Long teacher talk to fill the time.",
+      "Games with no language aim."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose two activities from the table.",
+      "Plan how you will draw or mime the new language.",
+      "Plan the board layout.",
+      "Write your backup activities in a list."
+     ]
+    }
+   ],
+   "related": [
+    "not-enough-books-or-materials",
+    "teaching-with-very-few-resources",
+    "making-your-own-teaching-aids",
+    "using-games-humour-and-stories"
+   ]
   },
   {
    "id": "planning-for-a-substitute-teacher",
    "group": "C. Lesson organisation",
-   "title": "Planning for a substitute teacher"
+   "title": "Planning for a substitute teacher",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Sometimes you are absent and someone else teaches your class, and sometimes you are the substitute. Good planning makes both situations easier. This article covers both."
+    },
+    {
+     "t": "h",
+     "x": "If you will be absent: leave a cover plan"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Item",
+      "What to include"
+     ],
+     "rows": [
+      [
+       "Class list and seating plan",
+       "Names, and who is absent or needs help"
+      ],
+      [
+       "Timetable",
+       "Times, rooms and bells"
+      ],
+      [
+       "Lesson plan",
+       "Short, clear, step by step, with times"
+      ],
+      [
+       "Materials",
+       "Copies, texts and answer keys ready in one place"
+      ],
+      [
+       "Routines and signals",
+       "How you get attention and start the lesson"
+      ],
+      [
+       "Rules and consequences",
+       "What the class has agreed, and the school policy"
+      ],
+      [
+       "Helpers",
+       "Learners who can help, and learners who need support"
+      ],
+      [
+       "Extra tasks",
+       "Early finisher tasks"
+      ],
+      [
+       "Safety and contacts",
+       "Emergency procedure and who to call"
+      ],
+      [
+       "What to leave for you",
+       "Notes on what was done and the work to collect"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Good cover activities"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Review tasks that learners can do without new teaching.",
+      "Reading and questions.",
+      "Writing a short text on a familiar topic.",
+      "Vocabulary games.",
+      "A project or a poster.",
+      "Do not introduce new content."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "If you are the substitute"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Arrive early. Read the plan and find the materials.",
+      "Greet learners at the door.",
+      "Introduce yourself and start with a clear routine.",
+      "Use the seating plan and name cards.",
+      "Use your own warm-up to settle the class.",
+      "Stay calm and follow school rules.",
+      "Leave notes: what was done, who helped, who was absent, and any problems."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A plan that is too complicated.",
+      "No seating plan.",
+      "Assuming the substitute knows your routines.",
+      "Leaving no extra tasks.",
+      "Not leaving a note for the return."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write a one-page cover plan for a normal lesson.",
+      "Prepare a seating plan.",
+      "Prepare a review task that needs no teaching.",
+      "Prepare a form for the substitute's notes."
+     ]
+    }
+   ],
+   "related": [
+    "building-routines",
+    "classroom-rules",
+    "seating-arrangements",
+    "reflective-practice"
+   ]
   },
   {
    "id": "making-smooth-transitions-between-activities",
    "group": "C. Lesson organisation",
-   "title": "Making smooth transitions between activities"
+   "title": "Making smooth transitions between activities",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A transition is the time between one activity and the next. Transitions are where lesson time is lost and where behaviour problems often start. With a plan, they take seconds, not minutes."
+    },
+    {
+     "t": "h",
+     "x": "Techniques"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Plan the order of activities so one leads to the next.",
+      "Give a warning: One minute left.",
+      "Use your attention signal, and wait.",
+      "Say what comes next before learners move.",
+      "Prepare materials before the lesson.",
+      "Use routines for moving: how to form pairs and groups.",
+      "Give a clear short task at once, so learners are busy.",
+      "Link activities with a sentence: Now we know the words, so let us use them."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common transitions and fixes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Transition",
+      "Problem",
+      "Fix"
+     ],
+     "rows": [
+      [
+       "Pairs to groups",
+       "Slow, noisy",
+       "Number cards, count off, or seat neighbours; set a time to move"
+      ],
+      [
+       "Sitting to moving",
+       "Learners rush",
+       "Give instructions first; say walk, do not run"
+      ],
+      [
+       "After a noisy activity",
+       "Learners stay excited",
+       "Use a settler: a quiet writing task"
+      ],
+      [
+       "Handing out materials",
+       "Takes a long time",
+       "Use leaders and sets"
+      ],
+      [
+       "Whole class to individual work",
+       "Some do not start",
+       "Give a clear first step and check quickly"
+      ],
+      [
+       "Individual to whole class",
+       "Some are still working",
+       "Give a time warning and finish at a signal"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Use transitions to teach"
+    },
+    {
+     "t": "p",
+     "x": "Give transition instructions in English. Learners hear useful classroom language. Use the same words each time."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "No warning.",
+      "Giving instructions before you have attention.",
+      "Moving furniture slowly.",
+      "Long gaps while you look for materials.",
+      "Changing activity with no link."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Plan how you will form groups.",
+      "Prepare materials in sets.",
+      "Plan your warning and your signal.",
+      "Plan a settler after a lively task."
+     ]
+    }
+   ],
+   "related": [
+    "building-routines",
+    "giving-clear-instructions",
+    "managing-activities-with-movement",
+    "pacing-and-timing"
+   ]
   },
   {
    "id": "classroom-management",
@@ -15159,52 +16251,1394 @@
   {
    "id": "motivating-learners",
    "group": "G. Motivation and relationships",
-   "title": "Motivating learners"
+   "title": "Motivating learners",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Motivated learners put in more effort and keep going when things are hard. Motivation is not fixed. It changes with the learner, the task, the teacher and the classroom, and teachers can influence it."
+    },
+    {
+     "t": "h",
+     "x": "Three needs"
+    },
+    {
+     "t": "p",
+     "x": "Self-determination theory (Deci and Ryan) says that people are more motivated when three needs are met."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Need",
+      "Meaning",
+      "Classroom ideas"
+     ],
+     "rows": [
+      [
+       "Autonomy",
+       "Feeling some choice and control",
+       "Offer choices of topic and task; ask for learners' ideas"
+      ],
+      [
+       "Competence",
+       "Feeling able to succeed",
+       "Give tasks at the right level; show progress; give useful feedback"
+      ],
+      [
+       "Relatedness",
+       "Feeling that you belong and others care",
+       "Use pair and group work; learn names; build a friendly class"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Three parts of language motivation"
+    },
+    {
+     "t": "p",
+     "x": "Zoltán Dörnyei proposed the L2 Motivational Self System, which has three parts."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Part",
+      "Meaning",
+      "Classroom ideas"
+     ],
+     "rows": [
+      [
+       "Ideal L2 self",
+       "The user of English I would like to become",
+       "Talk about jobs, study and travel; invite guest speakers; use role models"
+      ],
+      [
+       "Ought-to L2 self",
+       "What I think others expect me to be",
+       "Be aware of pressure from family and exams"
+      ],
+      [
+       "L2 learning experience",
+       "What it is like to learn in this class: the teacher, the tasks and classmates",
+       "Interesting tasks, success, supportive atmosphere"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Several studies have found that the learning experience in the classroom is a strong influence on motivation. This is good news for teachers, because it is the part you can change most."
+    },
+    {
+     "t": "h",
+     "x": "Practical principles"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Make tasks relevant to learners' lives.",
+      "Plan for success. Start easy and increase the challenge.",
+      "Give choices.",
+      "Set goals and show progress.",
+      "Use variety: games, stories, pair work, real tasks.",
+      "Help learners imagine using English in the future.",
+      "Build a positive, respectful class.",
+      "Give feedback that helps learners improve."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "When motivation is low"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Possible cause",
+      "Response"
+     ],
+     "rows": [
+      [
+       "Tasks too hard or too easy",
+       "Adjust the level and add support or challenge"
+      ],
+      [
+       "No sense of purpose",
+       "Explain the use of English; link to learners' goals"
+      ],
+      [
+       "Fear of failure",
+       "Lower the stakes; praise effort; use pair work"
+      ],
+      [
+       "Boredom",
+       "Add variety and interesting topics"
+      ],
+      [
+       "Problems outside school",
+       "Be understanding and involve the school if needed"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Relying only on rewards.",
+      "Blaming learners for being unmotivated.",
+      "Using the same type of activity all the time.",
+      "Giving no choices."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Add one choice to a task.",
+      "Show one real use of the language.",
+      "Praise progress in one skill.",
+      "Ask learners what they enjoy."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Zoltán Dörnyei, Motivational Strategies in the Language Classroom",
+      "Zoltán Dörnyei and Ema Ushioda, Teaching and Researching Motivation",
+      "Richard Ryan and Edward Deci, Self-Determination Theory"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "students-with-low-motivation",
+    "intrinsic-and-extrinsic-motivation",
+    "learner-autonomy-and-goal-setting",
+    "creating-a-positive-classroom-climate"
+   ]
   },
   {
    "id": "intrinsic-and-extrinsic-motivation",
    "group": "G. Motivation and relationships",
-   "title": "Intrinsic and extrinsic motivation"
+   "title": "Intrinsic and extrinsic motivation",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Intrinsic motivation means doing something because it is interesting or enjoyable. Extrinsic motivation means doing it for a reason outside the activity, such as a mark, a reward or to please someone. Both are common in classrooms."
+    },
+    {
+     "t": "h",
+     "x": "A range of motivation"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Example",
+      "What helps"
+     ],
+     "rows": [
+      [
+       "External",
+       "I study because the teacher will punish me if I do not",
+       "Clear rules, then work towards more internal reasons"
+      ],
+      [
+       "Pressure from within",
+       "I study because I would feel guilty if I did not",
+       "Reduce anxiety and shame"
+      ],
+      [
+       "Valuing it",
+       "I study because English will help me get a job",
+       "Show the use of English and link to learners' goals"
+      ],
+      [
+       "Part of who I am",
+       "I study because I see myself as a person who uses English",
+       "Support learners' identity as English users"
+      ],
+      [
+       "Intrinsic",
+       "I study because I enjoy it",
+       "Interesting tasks, choice and success"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Self-determination theory describes how external reasons can become internal over time when learners understand the value of what they do and feel some choice."
+    },
+    {
+     "t": "h",
+     "x": "Is extrinsic motivation bad?"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "No. Exams, jobs and family hopes are strong reasons to learn English.",
+      "Problems arise when pressure and rewards replace interest.",
+      "A 1999 meta-analysis by Deci, Koestner and Ryan found that expected tangible rewards tended to reduce interest in tasks that learners already enjoyed. See Rewards and praise that work."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Supporting autonomy"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Controlling",
+      "Supporting autonomy"
+     ],
+     "rows": [
+      [
+       "You have to do this now.",
+       "This will help you with the test. You can choose which task to start with."
+      ],
+      [
+       "Do it my way.",
+       "Here is one way. Try it, or find your own way."
+      ],
+      [
+       "You must finish it.",
+       "I know it is hard. What would help?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teaching tips"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Explain why a task is useful.",
+      "Give choices where you can.",
+      "Acknowledge that some tasks are boring and explain why they matter.",
+      "Use interesting tasks, not only rewards.",
+      "Give feedback that informs, not only judges."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Using only marks and rewards.",
+      "Ignoring the exam pressure learners feel.",
+      "Controlling language all the time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Explain the purpose of the task in one sentence.",
+      "Offer a choice.",
+      "Replace one must with a reason.",
+      "Give one piece of feedback that tells learners how to improve."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Richard Ryan and Edward Deci, Self-Determination Theory",
+      "Edward Deci, Richard Koestner and Richard Ryan, A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation, Psychological Bulletin, 1999"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "rewards-and-praise-that-work",
+    "motivating-learners",
+    "students-with-low-motivation",
+    "learner-autonomy-and-goal-setting"
+   ]
   },
   {
    "id": "building-students-confidence",
    "group": "G. Motivation and relationships",
-   "title": "Building students' confidence"
+   "title": "Building students' confidence",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Confident learners try more, speak more and recover from mistakes more easily. Confidence for a task is called self-efficacy. Albert Bandura described four sources of it, and each gives teachers ideas."
+    },
+    {
+     "t": "h",
+     "x": "Four sources of confidence"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Source",
+      "Meaning",
+      "Classroom ideas"
+     ],
+     "rows": [
+      [
+       "Success experiences",
+       "I did it",
+       "Start with tasks learners can do; increase difficulty slowly; point out progress"
+      ],
+      [
+       "Seeing others like me succeed",
+       "If they can, I can",
+       "Use peer models; share work from learners at the same level"
+      ],
+      [
+       "Encouragement from others",
+       "Someone I trust believes I can",
+       "Give specific, honest encouragement"
+      ],
+      [
+       "Feelings and body",
+       "I feel calm",
+       "Reduce anxiety with pair work, rehearsal and a supportive class"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What to do"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Break big tasks into small steps, so learners succeed at each.",
+      "Show models that learners can reach.",
+      "Give specific, true praise: Your sentences are clearer than last week.",
+      "Let learners rehearse before they speak.",
+      "Treat mistakes as normal.",
+      "Use I can lists so learners see what they have learned.",
+      "Keep a progress chart or portfolio.",
+      "Avoid comparing learners with each other.",
+      "Teach strategies, so learners know what to do when they are stuck."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Look back to look forward"
+    },
+    {
+     "t": "p",
+     "x": "Ask learners to compare a piece of work from the beginning of the term with one from now. Seeing their own progress builds confidence."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Praise that is not true.",
+      "Tasks that are too difficult too early.",
+      "Public comparison.",
+      "Ignoring small successes."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Break one task into three small steps.",
+      "Prepare an I can list for the unit.",
+      "Prepare one specific piece of encouragement for a learner who needs it.",
+      "Plan a chance for learners to see their progress."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Albert Bandura, Self-Efficacy: The Exercise of Control"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "students-are-afraid-of-making-mistakes",
+    "helping-shy-students-speak",
+    "praise-and-encouragement",
+    "growth-mindset-in-the-classroom"
+   ]
   },
   {
    "id": "growth-mindset-in-the-classroom",
    "group": "G. Motivation and relationships",
-   "title": "Growth mindset in the classroom"
+   "title": "Growth mindset in the classroom",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Carol Dweck described two beliefs about ability. A fixed mindset is the belief that ability is mostly fixed. A growth mindset is the belief that ability can grow through effort, good strategies and help. The idea is popular in schools, but the evidence for classroom programmes is mixed, so use it with care."
+    },
+    {
+     "t": "h",
+     "x": "What the evidence shows"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Sisk and colleagues (2018) ran two meta-analyses. They found that the link between mindset and achievement was weak, and that the effect of mindset interventions on achievement was also weak overall. The interventions looked more promising for students at risk of low achievement or from low-income families.",
+      "Yeager and colleagues (2019) tested a short online growth mindset programme with 12,490 ninth-grade students in the United States. It improved grades for lower-achieving students, and the effect was small.",
+      "A 2023 meta-analysis by Macnamara and Burgoyne concluded that many positive results may be due to weaknesses in study design and to bias.",
+      "So: teaching mindset is not a proven fix, and short lessons alone are unlikely to change results."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What is still sensible for teachers"
+    },
+    {
+     "t": "p",
+     "x": "Several practices fit a growth-oriented classroom and are supported by other research on feedback and motivation."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Treat mistakes as information for learning.",
+      "Give feedback on the task, the process and the strategy, not only on the person. Hattie and Timperley (2007) found that this kind of feedback tends to help more than praise about the learner as a person.",
+      "Show learners how to improve: what to do next.",
+      "Use the word yet: I cannot do it yet.",
+      "Give challenging tasks with support, so effort leads to progress.",
+      "Show progress over time.",
+      "Talk about your own learning and mistakes."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Messages"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Fixed-mindset message",
+      "Growth-oriented message"
+     ],
+     "rows": [
+      [
+       "You are good at English.",
+       "You used a good strategy in that task."
+      ],
+      [
+       "You are not good at speaking.",
+       "You cannot speak fluently yet. Here is a way to practise."
+      ],
+      [
+       "Do not worry. Not everyone is good at this.",
+       "This is hard. Let us look at what you can try next."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Avoid"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Slogans and posters with no change in practice.",
+      "Praising effort when learners are not learning.",
+      "Promising that effort alone will always produce success.",
+      "Telling learners they have the wrong mindset."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Change one piece of feedback so that it says what to do next.",
+      "Use the word yet once.",
+      "Show learners one example of progress.",
+      "Share one mistake of your own and how you fixed it."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Carol Dweck, Mindset: The New Psychology of Success",
+      "Victoria Sisk and colleagues, To what extent and under which circumstances are growth mind-sets important to academic achievement? Two meta-analyses, Psychological Science, 2018",
+      "David Yeager and colleagues, A national experiment reveals where a growth mindset improves achievement, Nature, 2019"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "building-students-confidence",
+    "praise-and-encouragement",
+    "giving-useful-feedback",
+    "students-are-afraid-of-making-mistakes"
+   ]
   },
   {
    "id": "praise-and-encouragement",
    "group": "G. Motivation and relationships",
-   "title": "Praise and encouragement"
+   "title": "Praise and encouragement",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Praise tells a learner that you approve of the person or the work. Encouragement recognises effort and progress and helps learners keep going. Both are useful, but encouragement tends to give more information about what to do next."
+    },
+    {
+     "t": "h",
+     "x": "What research suggests"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Hattie and Timperley (2007) found that praise about the person, such as You are a good student, carries little information about learning. Feedback about the task and the process helped more.",
+      "The 1999 review by Deci, Koestner and Ryan found that positive verbal feedback tended to increase interest, but could have the opposite effect when it felt controlling."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Praise and encouragement compared"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Praise",
+      "Encouragement"
+     ],
+     "rows": [
+      [
+       "You are so clever!",
+       "You worked hard on this and your sentences are clearer."
+      ],
+      [
+       "Good!",
+       "You used three new words in your story. Which was the hardest?"
+      ],
+      [
+       "Best in the class!",
+       "You improved your spelling since last week."
+      ],
+      [
+       "That is perfect.",
+       "I can see you tried a new way. What helped?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Guidelines"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Be specific.",
+      "Be sincere. Learners notice false praise.",
+      "Praise effort, strategy and progress.",
+      "Say it soon after the behaviour.",
+      "Match it to the task. Heavy praise for an easy task can suggest that you expect little.",
+      "Think about how each learner likes to receive it. Some prefer a quiet word.",
+      "Do not compare learners.",
+      "Praise attempts, not only correct answers."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Phrases to use"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "You explained that clearly.",
+      "I can see you checked your work.",
+      "That was a difficult question and you kept trying.",
+      "You are getting better at...",
+      "Thank you for helping your partner."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Large classes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Praise groups and rows.",
+      "Use a short note on a good piece of work.",
+      "Notice learners who rarely get attention.",
+      "Ask learners to thank or praise a partner."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Only praising top learners.",
+      "Vague praise such as Good job.",
+      "Praise that sounds like a script.",
+      "Praising the person and not the work."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write down three specific praise sentences.",
+      "Choose two learners who rarely get praise.",
+      "Praise one effort that did not give a correct answer.",
+      "Ask learners to say one good thing about a partner's work."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "John Hattie and Helen Timperley, The Power of Feedback, Review of Educational Research, 2007",
+      "Edward Deci, Richard Koestner and Richard Ryan, Psychological Bulletin, 1999"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "rewards-and-praise-that-work",
+    "giving-useful-feedback",
+    "growth-mindset-in-the-classroom",
+    "building-students-confidence"
+   ]
   },
   {
    "id": "building-rapport-with-students",
    "group": "G. Motivation and relationships",
-   "title": "Building rapport with students"
+   "title": "Building rapport with students",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Rapport is a good relationship between teacher and learners, built on respect, trust and care. It does not mean being a friend. It means that learners feel safe, valued and willing to try."
+    },
+    {
+     "t": "h",
+     "x": "What research suggests"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Roorda and colleagues (2011) combined 99 studies. They found that positive teacher-student relationships were linked to higher engagement (a medium to large association) and to higher achievement (a small to medium association). Negative relationships had stronger effects in primary schools than in secondary schools.",
+      "Cornelius-White (2007) combined 119 studies and found an average correlation of .39 between learner-centred relationships, such as warmth and empathy, and student outcomes.",
+      "These are correlations. They do not prove that relationships cause the results, but they show why relationships matter."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What helps"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learn names early and use them.",
+      "Greet learners at the door.",
+      "Show interest in their lives and interests.",
+      "Listen, and let learners finish.",
+      "Be fair and consistent.",
+      "Keep high expectations and give support.",
+      "Use humour in a warm way, never sarcasm.",
+      "Be approachable: give learners a chance to ask in private.",
+      "Notice and acknowledge good things.",
+      "Admit your own mistakes."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Small actions"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Action",
+      "Example"
+     ],
+     "rows": [
+      [
+       "At the door",
+       "Smile and say each learner's name"
+      ],
+      [
+       "In class",
+       "Ask a learner about something they told you earlier"
+      ],
+      [
+       "After class",
+       "A two-minute private chat with a learner who needs support"
+      ],
+      [
+       "In feedback",
+       "A short, personal comment on work"
+      ],
+      [
+       "When something goes wrong",
+       "Stay calm, listen, and restart with a clean slate"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Boundaries"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Be friendly, but remain the teacher.",
+      "Treat all learners fairly. Do not have favourites.",
+      "Follow school policy on contact with learners, including social media and private meetings."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "In large classes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use a seating plan and name cards.",
+      "Greet a few learners each lesson.",
+      "Write short notes on learners to remember.",
+      "Make eye contact across the room."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Being too distant or too friendly.",
+      "Using sarcasm.",
+      "Inconsistent rules.",
+      "Never talking with learners individually."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Learn five more names.",
+      "Greet learners at the door.",
+      "Have one private conversation with a quiet learner.",
+      "Find something specific to praise in each group."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Debora Roorda and colleagues, The influence of affective teacher-student relationships on students' school engagement and achievement, Review of Educational Research, 2011",
+      "Jeffrey Cornelius-White, Learner-centered teacher-student relationships are effective: A meta-analysis, Review of Educational Research, 2007"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "disrespect-towards-the-teacher",
+    "creating-a-positive-classroom-climate",
+    "teaching-reluctant-teenagers",
+    "classroom-rules"
+   ]
   },
   {
    "id": "teaching-reluctant-teenagers",
    "group": "G. Motivation and relationships",
-   "title": "Teaching reluctant teenagers"
+   "title": "Teaching reluctant teenagers",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Many teenagers do not want to take part in lessons. Their reasons are often about identity, peers, fear of looking foolish, and a wish for respect and independence. Understanding the reasons helps you choose the response."
+    },
+    {
+     "t": "h",
+     "x": "Why teenagers may be reluctant"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Pressure from friends and a wish not to look foolish.",
+      "A need for independence and respect.",
+      "Low confidence or fear of failure.",
+      "Boredom, or topics that do not interest them.",
+      "Other worries and priorities.",
+      "A bad past experience of English."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What to do"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Treat them as young adults. Explain reasons and give choices.",
+      "Choose topics that matter to them: music, sport, technology, friends, future jobs.",
+      "Use tasks with a real outcome: a poster, a survey, a short play or a class magazine.",
+      "Make participation low-risk: start in pairs, use anonymous answers on paper.",
+      "Correct mistakes privately.",
+      "Use humour in a friendly way. Avoid sarcasm.",
+      "Be firm and fair about rules, and explain them.",
+      "Involve them in decisions about rules and topics.",
+      "Notice and praise effort quietly.",
+      "Be patient. Trust takes time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Reading the behaviour"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Behaviour",
+      "Possible reason",
+      "Possible response"
+     ],
+     "rows": [
+      [
+       "I do not care",
+       "Protecting themselves from failure",
+       "Ask about interests, set a small goal, give a task they can succeed at"
+      ],
+      [
+       "Silent with arms crossed",
+       "Fear, anger or feeling disrespected",
+       "Speak privately, listen, offer a choice of task"
+      ],
+      [
+       "Jokes and attention seeking",
+       "Wanting status with friends",
+       "Give a role and a stage that is positive"
+      ],
+      [
+       "Phone use",
+       "Boredom or habit",
+       "Agree a phone routine and use active tasks"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Activity ideas"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Opinion lines about topics teenagers care about.",
+      "Surveys of the class and a report.",
+      "Role plays of real situations.",
+      "A class playlist of appropriate songs for listening tasks.",
+      "Quizzes in teams.",
+      "A short video or presentation project, if you have the means."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Treating teenagers as young children.",
+      "Sarcasm and public criticism.",
+      "Topics that are too childish.",
+      "Power struggles in front of the class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Ask learners for two topics they would like.",
+      "Offer a choice of two tasks.",
+      "Plan a pair step before any whole-class answer.",
+      "Plan a private word with one learner."
+     ]
+    }
+   ],
+   "related": [
+    "teaching-teenagers",
+    "students-with-low-motivation",
+    "disrespect-towards-the-teacher",
+    "building-rapport-with-students"
+   ]
   },
   {
    "id": "using-games-humour-and-stories",
    "group": "G. Motivation and relationships",
-   "title": "Using games, humour and stories"
+   "title": "Using games, humour and stories",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Games, humour and stories make learning more enjoyable and more memorable. They need a clear language purpose, so that learners enjoy the activity and also learn from it."
+    },
+    {
+     "t": "h",
+     "x": "Games"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Have a clear language aim.",
+      "Keep the rules simple and show how to play.",
+      "Use teams, and mix them. Change the teams often.",
+      "Keep competition friendly. Give points for good language, not only speed.",
+      "Set a time limit.",
+      "Finish with feedback and a short language focus."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Game",
+      "Language aim",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Bingo",
+       "Vocabulary",
+       "Learners mark words or pictures they hear"
+      ],
+      [
+       "Board race",
+       "Spelling or sentences",
+       "Teams take turns to write on the board"
+      ],
+      [
+       "Twenty questions",
+       "Yes or no questions",
+       "Guess the object"
+      ],
+      [
+       "Describe and guess",
+       "Describing",
+       "One learner describes, the others guess"
+      ],
+      [
+       "Kim's game",
+       "Memory and vocabulary",
+       "Look at objects, then remember them"
+      ],
+      [
+       "Mime",
+       "Verbs and actions",
+       "Act out the word"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Humour"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use humour that includes everyone, not humour that hurts.",
+      "Funny examples and pictures make language memorable.",
+      "Riddles and simple jokes can practise vocabulary and sounds.",
+      "Laugh at your own mistakes.",
+      "Be careful with humour that depends on culture or stereotypes.",
+      "Let learners be funny in safe ways, such as funny sentences or silly role plays."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Stories"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Tell a story to introduce new language, such as past tenses.",
+      "Use pictures, gestures and voices.",
+      "Retell stories in pairs.",
+      "Use chain stories: each learner adds a sentence.",
+      "Use local folk tales that learners know and ask them to tell them in English.",
+      "Let learners write and illustrate their own stories."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Cautions"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do not play a game when learners do not understand the rules.",
+      "Do not let competition upset weaker learners.",
+      "Do not let a game take all the lesson time.",
+      "Check that humour is kind and suitable for the age."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Games with no language aim.",
+      "Too much noise and no control.",
+      "Always using the same game."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one game and write its language aim.",
+      "Plan how to explain and demonstrate the rules.",
+      "Decide the teams and the time limit.",
+      "Plan a feedback stage afterwards."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Andrew Wright, David Betteridge and Michael Buckby, Games for Language Learning",
+      "Andrew Wright, Storytelling with Children"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "using-songs-videos-and-stories",
+    "managing-activities-with-movement",
+    "teaching-young-learners",
+    "motivating-learners"
+   ]
   },
   {
    "id": "learner-autonomy-and-goal-setting",
    "group": "G. Motivation and relationships",
-   "title": "Learner autonomy and goal setting"
+   "title": "Learner autonomy and goal setting",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Autonomous learners take responsibility for their own learning. Henri Holec (1981) described autonomy as the ability to take charge of one's own learning. Phil Benson (2011) described control over three things: how learning is managed, the thinking processes, and the content. Autonomy grows step by step, and goal setting is one of the best ways to start."
+    },
+    {
+     "t": "h",
+     "x": "Why set goals?"
+    },
+    {
+     "t": "p",
+     "x": "Locke and Latham reviewed many years of research on goal setting. They found that specific, challenging goals usually lead to better performance than vague goals such as do your best, as long as people accept the goal and get feedback. For new and complex tasks, a goal to learn how to do something may work better than a goal about a score."
+    },
+    {
+     "t": "h",
+     "x": "Vague and better goals"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Vague goal",
+      "Better goal"
+     ],
+     "rows": [
+      [
+       "Improve my English",
+       "Learn ten new words this week and use five of them in sentences"
+      ],
+      [
+       "Speak more",
+       "Speak for one minute about my day without stopping, by Friday"
+      ],
+      [
+       "Write better",
+       "Write a paragraph with a topic sentence and three details, and check the verb tenses"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A goal-setting cycle"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Reflect: What can I do now? What is difficult?",
+      "Choose one specific goal.",
+      "Plan: What will I do, and when?",
+      "Do it.",
+      "Check: Did I reach the goal? What helped?",
+      "Get feedback from a partner or the teacher.",
+      "Set the next goal."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tools for autonomy"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learning journals: learners write what they learned and what they will try next.",
+      "I can checklists for self-assessment.",
+      "A choice of homework or tasks.",
+      "A reading box or listening corner for self-study.",
+      "Teaching learning strategies, such as how to guess words or how to study vocabulary.",
+      "Peer teaching: learners explain to each other.",
+      "Short weekly check-ins."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Developing autonomy gradually"
+    },
+    {
+     "t": "p",
+     "x": "In classes where the teacher usually makes all decisions, give a little choice at first: choose a task, then choose a goal, then plan a project. Support learners at each step."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Setting goals that are too big or vague.",
+      "Setting goals and never checking them.",
+      "Giving too much freedom too fast.",
+      "Only the teacher sets the goals."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Ask learners to write one specific goal for this week.",
+      "Prepare a short checklist of I can statements.",
+      "Plan a five-minute check-in at the end of the week.",
+      "Give one choice in a task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Phil Benson, Teaching and Researching Autonomy",
+      "Edwin Locke and Gary Latham, Building a practically useful theory of goal setting and task motivation: A 35-year odyssey, American Psychologist, 2002"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "intrinsic-and-extrinsic-motivation",
+    "helping-students-remember-new-words",
+    "motivating-learners",
+    "self-assessment-and-peer-assessment"
+   ]
   },
   {
    "id": "creating-a-positive-classroom-climate",
    "group": "G. Motivation and relationships",
-   "title": "Creating a positive classroom climate"
+   "title": "Creating a positive classroom climate",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Classroom climate is how the class feels: the atmosphere of respect, safety and belonging. A positive climate helps learners take risks, which language learning needs. It is built through many small things over time."
+    },
+    {
+     "t": "h",
+     "x": "Elements of a positive climate"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Element",
+      "Practices"
+     ],
+     "rows": [
+      [
+       "Relationships",
+       "Know names; greet learners; listen; build rapport"
+      ],
+      [
+       "Rules and routines",
+       "Clear, fair, consistent expectations that learners helped make"
+      ],
+      [
+       "Tone",
+       "Warm and firm; positive language; patience"
+      ],
+      [
+       "Mistakes",
+       "Treat them as normal; no laughing at others"
+      ],
+      [
+       "Belonging",
+       "Group work; a class identity such as a name or motto; share learners' work"
+      ],
+      [
+       "Environment",
+       "Display learners' writing and drawings; tidy, welcoming room"
+      ],
+      [
+       "Fairness",
+       "Share attention and apply rules equally"
+      ],
+      [
+       "Celebration",
+       "Notice and celebrate progress and effort"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "The learning experience in the classroom, including the teacher, tasks and classmates, is one of the parts of language learning motivation. A positive climate supports it. Research also links positive teacher-student relationships to engagement. See Building rapport with students and Motivating learners."
+    },
+    {
+     "t": "h",
+     "x": "Ideas to try"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Start each week with a short, friendly activity.",
+      "Hold a short class meeting to talk about problems and solutions.",
+      "Use pair and group work so every learner has a partner.",
+      "Display a good piece of work from each learner during the term.",
+      "Teach learners to give kind, specific feedback to each other.",
+      "Welcome new learners and ask others to help them."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Checking the climate"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Ask learners to answer a short, anonymous question: In this class I feel... (1 to 5).",
+      "Ask: What helps you learn? What makes it hard?",
+      "Watch who takes part and who does not.",
+      "Ask a colleague to observe."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Dealing with negative behaviour quickly"
+    },
+    {
+     "t": "p",
+     "x": "Teasing, exclusion and sarcasm damage the climate. Deal with them calmly and consistently. For bullying, follow your school's policy."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Focusing only on discipline and not on warmth.",
+      "Letting teasing continue.",
+      "Treating the climate as something that can be created in one lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Greet each learner by name.",
+      "Add a short pair task that every learner can succeed at.",
+      "Ask learners one question about what helps them learn.",
+      "Notice and praise one kind action."
+     ]
+    }
+   ],
+   "related": [
+    "building-rapport-with-students",
+    "classroom-rules",
+    "bullying-and-conflict-between-students",
+    "motivating-learners"
+   ]
   },
   {
    "id": "questioning-techniques",
