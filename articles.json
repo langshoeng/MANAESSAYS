@@ -18865,97 +18865,2776 @@
   {
    "id": "formative-and-summative-assessment",
    "group": "I. Assessment",
-   "title": "Formative and summative assessment"
+   "title": "Formative and summative assessment",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Assessment means collecting information about what learners know and can do. Teachers assess for two main reasons: to help learning while it is happening, and to judge learning at the end. These two purposes are called formative and summative assessment."
+    },
+    {
+     "t": "h",
+     "x": "The two types"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Formative assessment",
+      "Summative assessment"
+     ],
+     "rows": [
+      [
+       "Purpose",
+       "To help learning and guide teaching",
+       "To measure what has been learned"
+      ],
+      [
+       "When",
+       "During the lesson or unit",
+       "At the end of a unit, term or year"
+      ],
+      [
+       "Examples",
+       "Questions, quick quizzes, observation, exit tasks, feedback on drafts",
+       "End-of-unit test, final exam, national exam"
+      ],
+      [
+       "Result",
+       "Feedback and a change in teaching",
+       "A score or grade"
+      ],
+      [
+       "Stakes",
+       "Low: usually no mark or a small mark",
+       "Higher: counts towards a grade or decision"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "The same task can be used for either purpose. A unit test is summative if it gives only a grade, but it becomes formative if the teacher uses the results to re-teach weak points and learners learn from their mistakes."
+    },
+    {
+     "t": "h",
+     "x": "Formative assessment in a lesson"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Ask a question and check answers from many learners, not only the fastest.",
+      "Use mini-whiteboards, finger signals or A/B/C cards so every learner responds.",
+      "Walk around and listen to pairs while they work.",
+      "Use a short exit task at the end: write one sentence using today's grammar.",
+      "Ask learners to say what they found easy and what they found difficult.",
+      "Give comments on drafts before the final version is marked."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Making formative assessment work"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Be clear about the goal of the lesson, and tell the learners.",
+      "Collect evidence of learning, not only of behaviour.",
+      "Give feedback that says what to do next (see Giving useful feedback).",
+      "Change your teaching: re-explain, give more practice or move on.",
+      "Give learners a chance to try again."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Summative assessment"
+    },
+    {
+     "t": "p",
+     "x": "Summative assessment gives a record of achievement. It should match what was taught and what the learners were told to expect. A summative test that tests things never taught is unfair and tells you little about learning."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Using tests only to give grades and never to improve teaching.",
+      "Giving marks for every small task, so learners work only for marks.",
+      "Returning tests with a score and no discussion.",
+      "Testing only grammar and vocabulary when the course aims to develop skills."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Add one quick check for understanding in the middle of the lesson.",
+      "Use an exit task and read the answers before the next class.",
+      "Return one piece of work with a comment and let learners improve it."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Paul Black and Dylan Wiliam, Inside the Black Box",
+      "Dylan Wiliam, Embedded Formative Assessment",
+      "Arthur Hughes, Testing for Language Teachers"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "writing-a-good-test",
+    "continuous-assessment",
+    "giving-useful-feedback",
+    "concept-checking-and-instruction-checking-questions"
+   ]
   },
   {
    "id": "writing-a-good-test",
    "group": "I. Assessment",
-   "title": "Writing a good test"
+   "title": "Writing a good test",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A good test gives a fair and useful picture of what learners can do. Writing one takes planning. A test written quickly the night before is often unclear, too hard or does not match the lessons."
+    },
+    {
+     "t": "h",
+     "x": "Qualities of a good test"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Quality",
+      "Meaning",
+      "How to check"
+     ],
+     "rows": [
+      [
+       "Validity",
+       "It tests what it claims to test",
+       "Does the task match the skill and the lesson aims?"
+      ],
+      [
+       "Reliability",
+       "Different markers or days would give similar results",
+       "Is there a clear answer key or scoring guide?"
+      ],
+      [
+       "Practicality",
+       "It can be written, given and marked with the time and resources you have",
+       "Is the length and marking time realistic?"
+      ],
+      [
+       "Fairness",
+       "Learners know what to expect and have a fair chance",
+       "Is it based on what was taught, with clear instructions?"
+      ],
+      [
+       "Washback",
+       "It has a good effect on teaching and learning",
+       "Does it encourage learners to practise the real skills?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Steps for writing a test"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Decide the purpose: progress, end of unit, placement or final grade.",
+      "List what you taught: skills, grammar, vocabulary and functions.",
+      "Make a test plan (a table of content and marks, see below).",
+      "Write the items. Keep the language of the instructions simple.",
+      "Write the answer key and marking scheme at the same time.",
+      "Ask a colleague to check it, or do the test yourself.",
+      "Check the timing. If it takes you ten minutes, learners may need thirty.",
+      "Give the test, then review the results and the items."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A simple test plan"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Part",
+      "Content",
+      "Marks"
+     ],
+     "rows": [
+      [
+       "Listening",
+       "Three short recordings, gist and detail",
+       "10"
+      ],
+      [
+       "Reading",
+       "One text, eight comprehension questions",
+       "10"
+      ],
+      [
+       "Vocabulary and grammar",
+       "Gap-fill and sentence completion",
+       "10"
+      ],
+      [
+       "Writing",
+       "A short paragraph on a familiar topic",
+       "10"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Marks should reflect the importance of each part. If speaking was a main aim of the unit, it should not be missing from the test."
+    },
+    {
+     "t": "h",
+     "x": "Writing good items"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Test one thing at a time.",
+      "Use clear and simple instructions, with an example for the first item.",
+      "Avoid trick questions and unclear wording.",
+      "In multiple choice, make wrong answers possible but clearly wrong, and avoid putting the answer in the same position each time.",
+      "Do not let one answer depend on another.",
+      "Give enough space and time to answer.",
+      "Test language that learners have met in class, in a similar form."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "After the test"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Look at which items many learners got wrong. The item may be unclear, or the topic may need re-teaching.",
+      "Go through answers with the class.",
+      "Keep the test for next time, with improvements."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Testing the unusual and unimportant instead of the main points of the unit.",
+      "Writing instructions that are harder than the task.",
+      "Making the test too long for the time available.",
+      "Marking without a scheme, so scores change from paper to paper."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Make a test plan before writing the next quiz.",
+      "Write the answer key first.",
+      "Ask a colleague to read the instructions."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "test-types-and-when-to-use-them",
+    "formative-and-summative-assessment",
+    "rubrics-for-speaking-and-writing",
+    "preventing-cheating-in-tests"
+   ]
   },
   {
    "id": "test-types-and-when-to-use-them",
    "group": "I. Assessment",
-   "title": "Test types and when to use them"
+   "title": "Test types and when to use them",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "There is no single best test. Different tests have different purposes. Choose the type that matches what you want to find out."
+    },
+    {
+     "t": "h",
+     "x": "Common types of test"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Purpose",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Placement test",
+       "To decide which level or group a learner belongs in",
+       "A short grammar, reading and speaking test at the start of a course"
+      ],
+      [
+       "Diagnostic test",
+       "To find strengths and weaknesses before teaching",
+       "A pre-test on the grammar of a coming unit"
+      ],
+      [
+       "Progress or achievement test",
+       "To check what was learned in a unit or term",
+       "An end-of-unit test"
+      ],
+      [
+       "Proficiency test",
+       "To measure general ability, not tied to one course",
+       "IELTS, TOEFL, Cambridge exams"
+      ],
+      [
+       "Aptitude test",
+       "To predict ability to learn a language",
+       "Rarely used in schools"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Types of item"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Item type",
+      "Good for",
+      "Be careful"
+     ],
+     "rows": [
+      [
+       "Multiple choice",
+       "Fast marking, large groups, reading and listening",
+       "Hard to write well; guessing is possible"
+      ],
+      [
+       "True / false",
+       "Simple checks of understanding",
+       "50 percent chance of guessing; ask for the evidence"
+      ],
+      [
+       "Matching",
+       "Vocabulary, definitions, halves of sentences",
+       "Add extra options to avoid guessing by elimination"
+      ],
+      [
+       "Gap-fill (cloze)",
+       "Grammar and vocabulary in context",
+       "Accept all correct answers; decide how to treat spelling"
+      ],
+      [
+       "Short answer",
+       "Reading and listening comprehension",
+       "Keep the answer short and clear"
+      ],
+      [
+       "Transformation",
+       "Grammar structures",
+       "Tests rule knowledge more than communication"
+      ],
+      [
+       "Writing task",
+       "Writing skills",
+       "Needs a rubric and takes time to mark"
+      ],
+      [
+       "Speaking task (interview, role-play, picture description)",
+       "Speaking skills",
+       "Needs a rubric and time; plan the organisation"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Direct and indirect testing"
+    },
+    {
+     "t": "p",
+     "x": "Direct tests ask learners to do the real skill, such as writing a paragraph or speaking with a partner. Indirect tests test parts of the skill, such as filling gaps in sentences. Direct tests give a better picture of ability but take more time. A good test uses both."
+    },
+    {
+     "t": "h",
+     "x": "Objective and subjective marking"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Objective items (multiple choice, matching) have one right answer and are quick to mark.",
+      "Subjective items (writing, speaking) need judgement. Use a rubric to keep marking fair."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Choosing a test type"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "What do I want to know? (level, progress, weaknesses)",
+      "Which skill or language do I want to see?",
+      "How many learners do I have, and how much time to mark?",
+      "What will I do with the results?"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Using only multiple choice because it is easy to mark.",
+      "Testing speaking and listening rarely because they are harder to organise.",
+      "Using the same item type every time so learners study only for that format."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Look at your last test. List the item types you used.",
+      "Add one direct task, such as a short speaking check.",
+      "Use a short diagnostic quiz before starting a new unit."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "writing-a-good-test",
+    "rubrics-for-speaking-and-writing",
+    "formative-and-summative-assessment",
+    "exam-preparation"
+   ]
   },
   {
    "id": "rubrics-for-speaking-and-writing",
    "group": "I. Assessment",
-   "title": "Rubrics for speaking and writing"
+   "title": "Rubrics for speaking and writing",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A rubric is a table that describes what good work looks like at different levels. It makes marking of speaking and writing fairer and clearer, and it shows learners what to aim for."
+    },
+    {
+     "t": "h",
+     "x": "Two types of rubric"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "How it works",
+      "Good for"
+     ],
+     "rows": [
+      [
+       "Analytic",
+       "Separate scores for each criterion, such as content, organisation, language and accuracy",
+       "Detailed feedback and learning"
+      ],
+      [
+       "Holistic",
+       "One overall score or band, based on a general description",
+       "Quick marking, large groups, final exams"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "An example analytic rubric for writing"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Criterion",
+      "3 (good)",
+      "2 (fair)",
+      "1 (needs work)"
+     ],
+     "rows": [
+      [
+       "Content and ideas",
+       "Ideas are relevant and developed",
+       "Some ideas are relevant but thin",
+       "Few ideas or off topic"
+      ],
+      [
+       "Organisation",
+       "Clear beginning, middle and end; linking words used",
+       "Some order; few linking words",
+       "Hard to follow"
+      ],
+      [
+       "Language",
+       "Varied vocabulary and structures; few errors",
+       "Simple language; some errors that affect meaning sometimes",
+       "Many errors; meaning often unclear"
+      ],
+      [
+       "Mechanics",
+       "Spelling, punctuation and layout mostly correct",
+       "Some errors",
+       "Many errors"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "An example analytic rubric for speaking"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Criterion",
+      "3 (good)",
+      "2 (fair)",
+      "1 (needs work)"
+     ],
+     "rows": [
+      [
+       "Fluency",
+       "Speaks with only short pauses",
+       "Some long pauses but continues",
+       "Frequent stops; hard to follow"
+      ],
+      [
+       "Accuracy",
+       "Few errors, meaning clear",
+       "Some errors, mostly clear",
+       "Many errors that block meaning"
+      ],
+      [
+       "Vocabulary",
+       "Enough words for the topic",
+       "Some gaps in vocabulary",
+       "Very limited"
+      ],
+      [
+       "Pronunciation",
+       "Easy to understand",
+       "Sometimes unclear",
+       "Often hard to understand"
+      ],
+      [
+       "Interaction",
+       "Responds and asks questions",
+       "Responds when asked",
+       "Little response"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "How to make a rubric"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "List the skills you taught and want to assess. Use three to five criteria.",
+      "Write short descriptions for each level, using clear and observable words.",
+      "Use a scale that you can manage, such as three or four levels.",
+      "Try the rubric on two or three samples and adjust it.",
+      "Share the rubric with learners before the task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Using it fairly"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Mark with the rubric, not with a general impression.",
+      "Read several samples first to set the standard.",
+      "Mark one criterion across all papers if you have time.",
+      "Ask a colleague to second-mark a few samples.",
+      "Take breaks. Tired markers become less consistent."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Too many criteria, so marking takes too long.",
+      "Vague words such as good or weak with no description.",
+      "Giving marks for neatness when it is not part of the aim.",
+      "Keeping the rubric secret from learners."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Make a four-criterion rubric for one writing task.",
+      "Show it to learners and ask them to check their own draft against it.",
+      "Use it to give one comment per criterion."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "giving-feedback-on-writing",
+    "self-assessment-and-peer-assessment",
+    "writing-a-good-test",
+    "giving-useful-feedback"
+   ]
   },
   {
    "id": "continuous-assessment",
    "group": "I. Assessment",
-   "title": "Continuous assessment"
+   "title": "Continuous assessment",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Continuous assessment means collecting evidence of learning regularly over the whole course, not only in one final exam. It gives a fuller picture of each learner and shows progress over time. Schools often have their own rules for it, so check what is required where you teach."
+    },
+    {
+     "t": "h",
+     "x": "What it can include"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Short quizzes and unit tests.",
+      "Speaking checks during pair work or short interviews.",
+      "Writing tasks and drafts.",
+      "Homework and projects.",
+      "Teacher observation notes of participation and progress.",
+      "Portfolios: a collection of the learner's best or chosen work.",
+      "Self-assessment and peer assessment."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Advantages and difficulties"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Advantages",
+      "Difficulties"
+     ],
+     "rows": [
+      [
+       "Less pressure than a single exam",
+       "Takes teacher time to plan, mark and record"
+      ],
+      [
+       "Measures skills that exams miss, such as speaking",
+       "Hard with very large classes"
+      ],
+      [
+       "Shows progress and not only the final result",
+       "Different teachers may mark differently"
+      ],
+      [
+       "Gives feedback while there is still time to improve",
+       "Learners can feel tested all the time"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Keeping it manageable"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Decide what you will assess in each unit. Do not assess everything.",
+      "Use a simple record sheet with a column for each task.",
+      "Assess a few learners at a time during speaking activities.",
+      "Use rubrics and checklists to save time.",
+      "Let learners help with self-assessment or peer assessment.",
+      "Keep a clear and fair system for how marks are combined."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A simple record"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Learner",
+      "Speaking check",
+      "Unit test",
+      "Writing task",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "Student A",
+       "3",
+       "14/20",
+       "Good, improving",
+       "Needs help with past tense"
+      ],
+      [
+       "Student B",
+       "2",
+       "11/20",
+       "Short answers",
+       "Shy; encourage in pairs"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Making it fair"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Tell learners what will be assessed and how.",
+      "Do not count every small task as a mark. Keep some work for learning only.",
+      "Give learners a chance to improve and re-submit when possible.",
+      "Keep records safe and private."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Marking everything and having no time to teach.",
+      "Using marks to control behaviour.",
+      "Forgetting to use the results to help learners."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Make a one-page record sheet for the next unit.",
+      "Plan two speaking checks across the unit.",
+      "Choose one task that is for feedback only, with no mark."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules. Follow the official assessment rules of your school and ministry."
+    }
+   ],
+   "related": [
+    "formative-and-summative-assessment",
+    "rubrics-for-speaking-and-writing",
+    "self-assessment-and-peer-assessment",
+    "reporting-results-to-students-and-parents"
+   ]
   },
   {
    "id": "self-assessment-and-peer-assessment",
    "group": "I. Assessment",
-   "title": "Self-assessment and peer assessment"
+   "title": "Self-assessment and peer assessment",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "In self-assessment learners judge their own work. In peer assessment they judge the work of classmates. Both help learners understand the goals of a task and become more independent. They are especially good for formative assessment and are best used for feedback, not for final grades."
+    },
+    {
+     "t": "h",
+     "x": "Why use them"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners see what good work looks like.",
+      "They notice their own mistakes and progress.",
+      "They take more responsibility for learning.",
+      "Teachers get more information without marking everything.",
+      "Learners see more examples of language, which helps their own writing and speaking."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Self-assessment ideas"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Idea",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Can-do checklist",
+       "Learners tick statements such as I can ask for directions"
+      ],
+      [
+       "Traffic lights",
+       "Learners show green, yellow or red for how well they understood"
+      ],
+      [
+       "Learning log",
+       "Learners write what they learned, what was hard, and what to practise"
+      ],
+      [
+       "Check against a rubric",
+       "Learners mark their own draft before handing it in"
+      ],
+      [
+       "Error hunt",
+       "Learners look for the types of errors the teacher has taught them to find"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Peer assessment ideas"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners swap drafts and use a checklist to give two good points and one suggestion.",
+      "Learners listen to a classmate's speaking and complete a short form.",
+      "Pairs mark each other's quiz using an answer key.",
+      "Groups give feedback on a poster or presentation."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "How to make it work"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Explain why you are doing it.",
+      "Give a clear checklist or rubric in simple words.",
+      "Model it. Show a sample and do an example together.",
+      "Teach polite language: I like..., One suggestion is..., Maybe you could...",
+      "Keep it private if learners are shy.",
+      "Check some of the feedback yourself.",
+      "Let learners use the feedback to improve their work."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Possible difficulties"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "Response"
+     ],
+     "rows": [
+      [
+       "Learners are too kind or too harsh",
+       "Use a clear checklist and sentence starters"
+      ],
+      [
+       "Learners do not trust a classmate's feedback",
+       "Use it for drafts and confirm key points yourself"
+      ],
+      [
+       "Weak learners cannot judge accurately",
+       "Start with simple yes or no checks and use pairs of mixed ability"
+      ],
+      [
+       "Low-level English",
+       "Allow some feedback in the first language, then move to English step by step"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Using peer marks for grades without checks.",
+      "Having no criteria, so feedback is only good or bad.",
+      "Doing it once and giving up."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Add a three-point checklist to the next writing task.",
+      "Ask learners to tick can-do statements at the end of the unit.",
+      "Practise one feedback sentence starter."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "peer-review-and-self-editing",
+    "peer-correction-and-self-correction",
+    "learner-autonomy-and-goal-setting",
+    "rubrics-for-speaking-and-writing"
+   ]
   },
   {
    "id": "exam-preparation",
    "group": "I. Assessment",
-   "title": "Exam preparation"
+   "title": "Exam preparation",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Exam preparation should help learners become better users of English and also help them do well in the exam. Preparing only by practising old papers can become boring and does not always improve the language itself. A balance works best."
+    },
+    {
+     "t": "h",
+     "x": "Know the exam"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Find out the format: parts, question types, timing and marks.",
+      "Study the marking criteria, especially for writing and speaking.",
+      "Look at past papers or sample papers.",
+      "Check what language and topics are tested."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teaching language and exam skills"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Language work",
+      "Exam skills work"
+     ],
+     "rows": [
+      [
+       "Grammar and vocabulary from the syllabus",
+       "Reading the instructions carefully"
+      ],
+      [
+       "Reading, listening, speaking and writing practice",
+       "Managing time in each section"
+      ],
+      [
+       "Revision of weak points found in tests",
+       "Using clues and eliminating wrong answers"
+      ],
+      [
+       "Learning from mistakes",
+       "Checking answers at the end"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A revision plan"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Make a calendar that works backwards from the exam date.",
+      "List the topics and put harder ones early.",
+      "Plan short sessions with variety. Review in small amounts often.",
+      "Use past papers under timed conditions near the end.",
+      "Go through mistakes and teach the language behind them.",
+      "Leave time to rest before the exam."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Classroom activities"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Mini-tests with quick review.",
+      "Learners write their own exam questions for each other.",
+      "Pair quizzes and vocabulary games.",
+      "Timed reading and listening practice with discussion of strategies.",
+      "Model answers for writing, and a comparison with weaker answers.",
+      "Speaking practice with a partner using the exam format."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Helping learners with exam stress"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Tell learners what the exam will look like so it feels familiar.",
+      "Teach calm routines: slow breathing, planning time, one question at a time.",
+      "Keep the tone positive and realistic.",
+      "Encourage sleep, food and breaks.",
+      "See Students with test anxiety for more ideas."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching only the test format and ignoring language learning.",
+      "Starting revision too late.",
+      "Giving learners lists to memorise with no practice.",
+      "Making learners afraid of the exam."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Show learners one exam task and talk about how to approach it.",
+      "Set a timed practice of one section.",
+      "Ask learners to make a revision plan for one week."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "students-with-test-anxiety",
+    "test-types-and-when-to-use-them",
+    "revising-and-recycling-vocabulary",
+    "how-to-teach-writing"
+   ]
   },
   {
    "id": "preventing-cheating-in-tests",
    "group": "I. Assessment",
-   "title": "Preventing cheating in tests"
+   "title": "Preventing cheating in tests",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Cheating in tests makes results unfair and teaches learners that results matter more than learning. Prevention works better than punishment. The best approach is a mix of good test design, careful organisation and a classroom culture of honesty."
+    },
+    {
+     "t": "h",
+     "x": "Why learners cheat"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Fear of failure or pressure from family.",
+      "The test is too hard or covers things not taught.",
+      "They are not prepared.",
+      "They think others are cheating.",
+      "Rules are not clear or not enforced."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Before the test"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Prepare learners well and give clear information about the test.",
+      "Explain the rules and the consequences in simple words.",
+      "Reduce pressure: use several smaller assessments and not only one big one.",
+      "Make the test match what was taught."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Test design"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use two or more versions with the same questions in a different order.",
+      "Include questions that need thinking, not only copying facts.",
+      "Give tasks that use class material in a new way, such as writing about a personal experience.",
+      "For homework and projects, use short follow-up questions or a short oral check."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "During the test"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Do",
+      "Avoid"
+     ],
+     "rows": [
+      [
+       "Space learners out if possible",
+       "Sitting at the desk reading or marking"
+      ],
+      [
+       "Walk around quietly and watch",
+       "Staring at one learner and accusing without evidence"
+      ],
+      [
+       "Remove bags, notes and phones from desks",
+       "Shouting or humiliating learners"
+      ],
+      [
+       "Give clear start and finish times",
+       "Leaving the room"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "If you find cheating"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Stay calm. Do not accuse in front of the class.",
+      "Take the paper or note quietly and write down what you saw.",
+      "Speak with the learner privately after the test.",
+      "Follow your school's rules.",
+      "Look for the reason: pressure, fear or lack of understanding.",
+      "Offer a chance to learn and, if allowed, retake in a fair way."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Punishing the whole class.",
+      "Using harsh threats instead of building honesty.",
+      "Having no clear school or class policy.",
+      "Ignoring cheating, which makes honest learners feel unfair."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Talk to the class about why honest results are useful.",
+      "Prepare two versions of the next quiz.",
+      "Plan where learners will sit during a test."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules. Always follow your school's rules about discipline and academic honesty."
+    }
+   ],
+   "related": [
+    "students-copy-or-cheat",
+    "writing-a-good-test",
+    "students-with-test-anxiety",
+    "classroom-rules"
+   ]
   },
   {
    "id": "reporting-results-to-students-and-parents",
    "group": "I. Assessment",
-   "title": "Reporting results to students and parents"
+   "title": "Reporting results to students and parents",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Reporting results is part of assessment. Learners and parents want to know how learners are doing and what to do next. Good reporting is honest, clear, respectful and focused on improvement. Remember that results are private."
+    },
+    {
+     "t": "h",
+     "x": "Reporting to students"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Return work soon, while learners still remember the task.",
+      "Give at least one comment that tells them what they did well and one thing to improve.",
+      "Go over common mistakes with the class without naming individuals.",
+      "Give time to read comments and ask questions.",
+      "Let learners set one goal for the next task.",
+      "Talk privately with learners who are struggling."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Reporting to parents"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Aim",
+      "How"
+     ],
+     "rows": [
+      [
+       "Give a clear picture",
+       "Use simple language and avoid jargon"
+      ],
+      [
+       "Be balanced",
+       "Describe strengths first, then areas to improve"
+      ],
+      [
+       "Give evidence",
+       "Show examples of work or marks"
+      ],
+      [
+       "Suggest action",
+       "Say how parents can help, such as encouraging short daily practice"
+      ],
+      [
+       "Be respectful",
+       "Treat each family with care, and do not compare learners"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What to include in a report"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "The marks or grade and what they mean.",
+      "What the learner can do well in English.",
+      "What the learner needs to work on.",
+      "Effort and participation.",
+      "Next steps for the learner, for the teacher and, where possible, for the family."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Example comments"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Instead of",
+      "Try"
+     ],
+     "rows": [
+      [
+       "Weak in English",
+       "Sokha understands most spoken English and needs more practice writing complete sentences"
+      ],
+      [
+       "Lazy",
+       "Sokha has not handed in three homework tasks. Let's find a way to help with this"
+      ],
+      [
+       "Excellent",
+       "Sokha writes clear paragraphs and uses new vocabulary well. Next, try longer texts"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Difficult conversations"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Begin with something positive and true.",
+      "Explain the problem with specific examples.",
+      "Listen to the parents' view.",
+      "Agree on a plan and a time to check progress.",
+      "Keep a short record of what was said."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Sharing marks in front of the class.",
+      "Using only numbers with no explanation.",
+      "Giving only bad news.",
+      "Making promises about results that you cannot control."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write one useful comment for each learner in a small group.",
+      "Prepare a short note for a parent that includes one strength and one next step.",
+      "Plan how to return the next test in a positive way."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules. Follow your school's rules on privacy and communication with families."
+    }
+   ],
+   "related": [
+    "talking-to-parents-about-behaviour",
+    "communicating-with-parents",
+    "giving-useful-feedback",
+    "continuous-assessment"
+   ]
   },
   {
    "id": "teaching-young-learners",
    "group": "J. Different learners and contexts",
-   "title": "Teaching young learners"
+   "title": "Teaching young learners",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Young learners are usually children from about 5 to 11 years old. They learn differently from older learners. They need activity, variety and a lot of support, and they learn best when English is meaningful and fun."
+    },
+    {
+     "t": "h",
+     "x": "How young learners learn"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "They learn through doing: moving, singing, drawing, playing and making things.",
+      "Their attention is short, so activities should be short and varied.",
+      "They learn from the whole situation, including gestures, pictures and tone of voice.",
+      "They enjoy routines, repetition and stories.",
+      "They need praise and a safe place to try.",
+      "They are still developing their first language and literacy."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Planning a lesson"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Ideas"
+     ],
+     "rows": [
+      [
+       "Warm-up (5 minutes)",
+       "Greeting song, simple routine, quick game"
+      ],
+      [
+       "Presentation",
+       "Flashcards, a story, a puppet, actions"
+      ],
+      [
+       "Practice",
+       "Chants, games, drawing and colouring, matching"
+      ],
+      [
+       "Active moment",
+       "Move around: Simon says, find the card"
+      ],
+      [
+       "Finish",
+       "Review song or game, praise, goodbye routine"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Plan five or six short activities for one lesson and be ready to change them if the children lose interest."
+    },
+    {
+     "t": "h",
+     "x": "Useful techniques"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use total physical response (TPR): learners listen and do actions.",
+      "Use pictures, real objects and gestures to show meaning.",
+      "Use the same instructions every lesson so children learn them.",
+      "Use songs and chants for repetition that does not feel like repetition.",
+      "Tell simple stories and let children act them.",
+      "Use games with clear rules and a quick pace.",
+      "Give short, clear instructions and show what to do."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Classroom management"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach a simple attention signal, such as a clap pattern or a song.",
+      "Keep routines the same: entering, sitting, tidying.",
+      "Give jobs, such as helper of the day.",
+      "Praise good behaviour specifically.",
+      "Plan transitions so children are never waiting without a task.",
+      "Keep activities in short blocks and change the type often."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Expecting children to sit and listen for a long time.",
+      "Too much explanation in English or in the first language.",
+      "Making every game a competition so some children feel they always lose.",
+      "Correcting every error and reducing confidence."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Add one song or chant.",
+      "Use one action game to practise new words.",
+      "Plan a clear start and end routine."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Lynne Cameron, Teaching Languages to Young Learners",
+      "Wendy Scott and Lisbeth Ytreberg, Teaching English to Children",
+      "Sarah Phillips, Young Learners"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "teaching-grammar-to-young-learners",
+    "listening-for-young-learners",
+    "using-games-humour-and-stories",
+    "rules-for-young-learners-teenagers-and-adults"
+   ]
   },
   {
    "id": "teaching-teenagers",
    "group": "J. Different learners and contexts",
-   "title": "Teaching teenagers"
+   "title": "Teaching teenagers",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Teenagers are in a period of big change. They are developing their identity, care a lot about friends and are sensitive to how they look to others. This can make teaching them very rewarding and sometimes hard. Teachers who understand these changes can use them to help learning."
+    },
+    {
+     "t": "h",
+     "x": "What teenagers are like"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Characteristic",
+      "What it can mean in class"
+     ],
+     "rows": [
+      [
+       "Strong need for peer approval",
+       "They may avoid speaking in case classmates laugh"
+      ],
+      [
+       "Searching for identity",
+       "They like topics that connect to their own interests and opinions"
+      ],
+      [
+       "Growing independence",
+       "They dislike being treated like little children"
+      ],
+      [
+       "Energy and changing moods",
+       "Attention and behaviour may change from day to day"
+      ],
+      [
+       "Ability to think abstractly",
+       "They can discuss ideas, arguments and problems"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What helps"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choose topics that matter to them: music, sport, technology, future plans, social issues.",
+      "Treat them with respect and explain the purpose of tasks.",
+      "Give choices of topic or task.",
+      "Use pair and small-group work, which feels safer than speaking to the whole class.",
+      "Use challenging tasks, not only easy ones.",
+      "Build confidence by noticing improvement.",
+      "Be fair and consistent. Teenagers notice unfairness quickly."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Correction and feedback"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Correct mistakes in private when you can.",
+      "Avoid sarcasm and public embarrassment.",
+      "Praise effort and strategies, not only results."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Managing behaviour"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Set rules together and explain the reasons.",
+      "Keep a calm voice and speak privately about problems.",
+      "Stay professional and keep a friendly distance.",
+      "Separate the behaviour from the person: I did not like what happened, and I know you can do better."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Taking misbehaviour personally.",
+      "Using topics that are too childish.",
+      "Forcing learners to speak in front of the class before they are ready.",
+      "Arguing in front of others and making a power struggle."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Ask learners what topics they would like to talk about.",
+      "Use a pair task before whole-class speaking.",
+      "Give one genuine, specific compliment to a quiet learner."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Jeremy Harmer, The Practice of English Language Teaching, section on teenagers",
+      "British Council TeachingEnglish website, articles on teaching teenagers"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "teaching-reluctant-teenagers",
+    "building-rapport-with-students",
+    "rules-for-young-learners-teenagers-and-adults",
+    "helping-shy-students-speak"
+   ]
   },
   {
    "id": "teaching-adults",
    "group": "J. Different learners and contexts",
-   "title": "Teaching adults"
+   "title": "Teaching adults",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Adult learners usually choose to study and have clear reasons, such as work, study, travel or family. They bring life experience, but they also bring worries about time, age and fear of making mistakes. Teaching adults means respecting experience and making lessons useful."
+    },
+    {
+     "t": "h",
+     "x": "What adults bring"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Strength",
+      "Challenge"
+     ],
+     "rows": [
+      [
+       "Clear goals and motivation",
+       "Little time; tired after work"
+      ],
+      [
+       "Life and work experience",
+       "Fear of looking foolish"
+      ],
+      [
+       "Ability to understand rules and explanations",
+       "Past negative experiences of school"
+      ],
+      [
+       "Self-discipline",
+       "Habits of learning that may be rigid"
+      ],
+      [
+       "Willingness to ask for what they need",
+       "Different levels and different expectations in one group"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Principles"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Find out why they are learning and what they need English for.",
+      "Connect tasks to real uses: jobs, travel, family, daily life.",
+      "Treat adults as equals. Avoid childish tasks and tone.",
+      "Use their knowledge and experience in tasks and discussion.",
+      "Explain the purpose of activities and the rules of grammar when helpful.",
+      "Give feedback that is clear and respectful.",
+      "Be flexible about attendance, since adults have other duties."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Activities that work well"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Needs analysis at the start and review at the end.",
+      "Role-plays for real situations: a job interview, a phone call, a shop.",
+      "Discussions on topics from their lives.",
+      "Problem-solving tasks and projects.",
+      "Learner-chosen texts and tasks.",
+      "Pair work with a short, clear purpose."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Reducing anxiety"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Create a friendly atmosphere where mistakes are normal.",
+      "Start with tasks that most learners can do.",
+      "Allow time to think and to practise in pairs before speaking to the class.",
+      "Remember that adults may be slower to start speaking."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Giving homework that is too heavy for busy people.",
+      "Using teaching methods that are only for children.",
+      "Correcting too much and lowering confidence.",
+      "Assuming all adults learn by studying grammar."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Ask learners to write one situation where they need English.",
+      "Design a short role-play based on that situation.",
+      "Check whether the homework is realistic for the group."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Malcolm Knowles, The Adult Learner",
+      "Jeremy Harmer, The Practice of English Language Teaching, section on adult learners"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "building-students-confidence",
+    "learner-autonomy-and-goal-setting",
+    "motivating-learners",
+    "building-rapport-with-students"
+   ]
   },
   {
    "id": "teaching-large-classes",
    "group": "J. Different learners and contexts",
-   "title": "Teaching large classes"
+   "title": "Teaching large classes",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Large classes are common in many schools. There is no fixed number for a large class, but the problems are similar: noise, little space, little individual attention and too much marking. The solution is not to give up on communication but to organise carefully."
+    },
+    {
+     "t": "h",
+     "x": "Main problems and responses"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "Response"
+     ],
+     "rows": [
+      [
+       "Hard to give attention to everyone",
+       "Use pair and group work; walk around different parts of the room each lesson"
+      ],
+      [
+       "Noise",
+       "Teach a quiet signal and use short, clear instructions"
+      ],
+      [
+       "Little space",
+       "Use fixed pairs and small groups; use the area at the front and sides"
+      ],
+      [
+       "Too much marking",
+       "Use peer checking, answer keys and selective marking"
+      ],
+      [
+       "Mixed levels",
+       "Use tasks with different levels of support and challenge"
+      ],
+      [
+       "Learners feel anonymous",
+       "Learn names, use name cards and seating charts"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Organising the class"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Keep seating arrangements stable so moving is quick.",
+      "Use pairs and groups of four with fixed roles, such as leader, writer, reporter.",
+      "Use group leaders to distribute and collect materials.",
+      "Plan how to give instructions: say them, show an example, check understanding.",
+      "Use the board and large visuals so everyone can see.",
+      "Use choral repetition and whole-class responses to include everyone."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Speaking practice"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use pair work: every learner speaks at once.",
+      "Use mingling or line-up activities if space allows.",
+      "Use group work with a task and a report from each group.",
+      "Teach learners to give help to each other."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Marking and feedback"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Mark one class set carefully each week, not everything every time.",
+      "Use answer keys on the board or on posters.",
+      "Let pairs check each other's work using a checklist.",
+      "Collect common mistakes and teach them to the whole class.",
+      "Mark by sampling: check five learners' books per lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Only teaching the whole class from the front.",
+      "Calling on the same learners each time.",
+      "Planning activities that need much movement and no clear routine.",
+      "Trying to correct every learner's mistake."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Make a seating chart and learn five new names.",
+      "Use one pair-work activity with a clear time limit.",
+      "Use peer checking for one exercise."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "managing-a-large-class",
+    "too-many-students-and-not-enough-space",
+    "grouping-students-pairs-groups-and-roles",
+    "managing-noise-in-pair-and-group-work"
+   ]
   },
   {
    "id": "teaching-mixed-ability-classes",
    "group": "J. Different learners and contexts",
-   "title": "Teaching mixed-ability classes"
+   "title": "Teaching mixed-ability classes",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Every class is mixed. Learners differ in level, speed, confidence, background, interests and the way they learn. The aim is to give every learner a task that they can do and that also challenges them, while keeping the class together."
+    },
+    {
+     "t": "h",
+     "x": "Ways to differentiate"
+    },
+    {
+     "t": "table",
+     "head": [
+      "What you change",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Support",
+       "Word bank, sentence starters, a model for weaker learners; no support for stronger ones"
+      ],
+      [
+       "Task",
+       "Same topic, different tasks: match, complete, write"
+      ],
+      [
+       "Time",
+       "Extra time for some; extension tasks for early finishers"
+      ],
+      [
+       "Outcome",
+       "All learners do the same task, and answers are accepted at different levels"
+      ],
+      [
+       "Grouping",
+       "Mixed-ability groups for peer help; similar-level groups for targeted support"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Practical ideas"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use open tasks that have many possible answers, such as write about your weekend.",
+      "Give a core task for everyone and an extension for those who finish.",
+      "Prepare a challenge card with more difficult tasks.",
+      "Use roles in groups so everyone contributes.",
+      "Pair stronger and weaker learners for some tasks, and learners of similar level for others.",
+      "Use texts with several levels of questions: easy, medium, challenge.",
+      "Ask different questions to different learners: yes or no questions for beginners, open questions for advanced."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Planning"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Think about two or three groups of learners, such as needs help, on level and fast.",
+      "Plan the main activity so that all groups can take part.",
+      "Add support and extensions that are quick to prepare.",
+      "Decide how you will check each group.",
+      "Keep the learning goal the same for everyone."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Cautions"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Avoid labelling learners as weak or strong in front of the class.",
+      "Do not use stronger learners only as helpers. They need to learn too.",
+      "Do not make the support tasks too easy and boring."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teaching to the middle only.",
+      "Giving stronger learners more of the same work.",
+      "Making a different worksheet for every learner, which is not realistic."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Add one extension task to your next exercise.",
+      "Prepare a sentence starter for learners who need support.",
+      "Use an open writing or speaking task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Carol Ann Tomlinson, How to Differentiate Instruction in Academically Diverse Classrooms",
+      "Penny Ur, A Course in Language Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "managing-a-mixed-ability-class",
+    "adapting-one-lesson-for-different-levels",
+    "students-who-finish-too-fast-or-too-slowly",
+    "students-who-cannot-keep-up"
+   ]
   },
   {
    "id": "learners-with-learning-difficulties-general-strategies",
    "group": "J. Different learners and contexts",
-   "title": "Learners with learning difficulties (general strategies)"
+   "title": "Learners with learning difficulties (general strategies)",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Some learners find learning, reading, writing, attention or memory much harder than their classmates. The causes can be different, and teachers are not expected to diagnose them. Your role is to notice, support, adapt and communicate with the school and family. Many strategies that help these learners help everyone."
+    },
+    {
+     "t": "h",
+     "x": "Noticing"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learner has persistent difficulty with reading, spelling or writing in any language.",
+      "Learner finds it hard to focus, remember instructions or organise work.",
+      "Learner is very tired, avoids tasks or shows strong anxiety.",
+      "Learner has trouble hearing or seeing the board."
+     ]
+    },
+    {
+     "t": "p",
+     "x": "These signs do not prove a learning difficulty. Vision, hearing, sleep, hunger, home problems and language background can also affect learning. If you are worried, speak to your school leader, counsellor or the family. Do not make a diagnosis yourself."
+    },
+    {
+     "t": "h",
+     "x": "General strategies"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Area",
+      "Strategies"
+     ],
+     "rows": [
+      [
+       "Instructions",
+       "Short, one step at a time; say and show; check understanding"
+      ],
+      [
+       "Reading and writing",
+       "Large clear print; short texts; gap-fill instead of free writing at first; allow extra time"
+      ],
+      [
+       "Memory",
+       "Repeat often; use pictures, gestures and colours; link new words to known words"
+      ],
+      [
+       "Attention",
+       "Seat near the front; give short tasks with clear endings; allow movement breaks"
+      ],
+      [
+       "Organisation",
+       "Routines; checklists; the same layout for worksheets"
+      ],
+      [
+       "Confidence",
+       "Praise effort; set small goals; avoid public comparison"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teaching approach"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use many senses: see, hear, say, touch and move.",
+      "Break tasks into small steps.",
+      "Revise often and in different ways.",
+      "Give examples and models.",
+      "Offer choices of how to show learning, such as saying, drawing or writing.",
+      "Make sure the classroom is calm and predictable."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Working with others"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Share useful strategies with other teachers.",
+      "Talk to parents with respect and offer to work together.",
+      "Ask the school what support is available.",
+      "Keep notes about what helps."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Assuming the learner is lazy or not intelligent.",
+      "Lowering expectations too much.",
+      "Giving a label but no support.",
+      "Correcting everything and destroying confidence."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Give instructions in short steps with a demonstration.",
+      "Add a picture or gesture to one new word.",
+      "Praise one specific thing a struggling learner did."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "British Council TeachingEnglish website, articles on special educational needs and inclusion"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules. Do not diagnose. Refer concerns to qualified people at your school."
+    }
+   ],
+   "related": [
+    "inclusive-classrooms",
+    "students-who-cannot-keep-up",
+    "students-with-low-motivation",
+    "giving-clear-instructions"
+   ]
   },
   {
    "id": "fast-or-gifted-learners",
    "group": "J. Different learners and contexts",
-   "title": "Fast or gifted learners"
+   "title": "Fast or gifted learners",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Some learners finish quickly, understand easily or have a strong ability in English or in learning generally. They also need to be challenged. If they are not, they may become bored, disturb others or stop trying. The goal is deeper and broader learning, not just more work."
+    },
+    {
+     "t": "h",
+     "x": "Fast learners and gifted learners"
+    },
+    {
+     "t": "p",
+     "x": "Fast learners complete tasks quickly. Gifted learners show unusual ability in some area. A learner may be fast in English but not in other areas. Be careful about labels. Focus on what each learner needs."
+    },
+    {
+     "t": "h",
+     "x": "Strategies"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Strategy",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Deeper tasks",
+       "Ask why and how questions; compare, evaluate, create"
+      ],
+      [
+       "Open tasks",
+       "Write a story with a twist; design a poster; create a quiz"
+      ],
+      [
+       "Choice",
+       "Choose between two extension tasks"
+      ],
+      [
+       "Independent work",
+       "Extensive reading, a mini-project, a learning log"
+      ],
+      [
+       "Leadership",
+       "Lead a group, but also keep their own learning in mind"
+      ],
+      [
+       "Higher texts",
+       "Give a more difficult text with the same topic"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Extension ideas"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Write questions for the class about a text.",
+      "Make a vocabulary game for classmates.",
+      "Rewrite a text for a different audience.",
+      "Do an interview and report to the class.",
+      "Use a graded reader or online reading at a higher level.",
+      "Research a topic and prepare a short talk."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Cautions"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do not use fast learners as unpaid teaching assistants all the time.",
+      "Do not give only extra exercises of the same kind.",
+      "Do not make them feel different from the group. Keep them part of the class.",
+      "Watch for perfectionism and fear of mistakes. Praise effort and learning, not just results."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Planning"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Prepare an extension for each main task before the lesson.",
+      "Make clear what learners do when they finish.",
+      "Include challenge in the main task, not only after it.",
+      "Give feedback that moves them forward."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Treating early finishers as a problem.",
+      "Making work harder only by making it longer.",
+      "Ignoring their social and emotional needs."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Prepare one open extension task for early finishers.",
+      "Add a why or how question to a reading exercise.",
+      "Offer a choice between a standard task and a challenge task."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "managing-early-finishers",
+    "teaching-mixed-ability-classes",
+    "students-who-finish-too-fast-or-too-slowly",
+    "extensive-reading-and-graded-readers"
+   ]
   },
   {
    "id": "teaching-english-to-khmer-speaking-learners-common-difficult",
    "group": "J. Different learners and contexts",
-   "title": "Teaching English to Khmer-speaking learners: common difficulties"
+   "title": "Teaching English to Khmer-speaking learners: common difficulties",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Learners' first language influences how they learn English. Khmer and English are very different, so some difficulties are common. This article lists typical areas of difficulty. Every learner is different, so use the list as a guide for noticing and planning and not as a rule for every learner."
+    },
+    {
+     "t": "h",
+     "x": "Pronunciation"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Area",
+      "Possible difficulty",
+      "Ideas"
+     ],
+     "rows": [
+      [
+       "Final consonants",
+       "Final sounds in English words may be dropped or changed, so words such as bus, bed or milk are heard differently",
+       "Practise endings with minimal pairs and clear models"
+      ],
+      [
+       "Consonant clusters",
+       "Groups of consonants such as street, strengths, asked can be hard",
+       "Break up and rebuild words slowly; clap syllables"
+      ],
+      [
+       "Some English sounds",
+       "Sounds such as th, v, z or sh may be replaced by other sounds",
+       "Show mouth position; use mirrors and minimal pairs"
+      ],
+      [
+       "Stress and rhythm",
+       "English stress-timed rhythm can feel unnatural",
+       "Use chants and tapping to practise stress"
+      ],
+      [
+       "Vowel length and quality",
+       "Sets of vowels such as ship and sheep may not be distinguished",
+       "Listening discrimination and minimal pairs"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Grammar"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Area",
+      "Possible difficulty",
+      "Ideas"
+     ],
+     "rows": [
+      [
+       "Verb forms and tense",
+       "Khmer does not change the verb for tense in the same way, so past tense endings and verb forms are often missed",
+       "Use timelines, time words and lots of controlled practice"
+      ],
+      [
+       "Third person -s and plurals",
+       "Plural endings and -s on verbs may be forgotten",
+       "Short drills, editing tasks and consistent correction"
+      ],
+      [
+       "Articles",
+       "Khmer does not use a and the in the same way",
+       "Teach with real examples and patterns, not only rules"
+      ],
+      [
+       "The verb be",
+       "Sentences with adjectives may be made without be",
+       "Use sentence frames and repeat"
+      ],
+      [
+       "Word order in questions",
+       "English changes word order and needs auxiliary verbs",
+       "Question frames, pair interviews"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Vocabulary and writing"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "False friends and direct translation can cause unnatural phrases.",
+      "Learners may translate word for word and use the order of Khmer.",
+      "Collocations and phrasal verbs are hard. Teach words in chunks.",
+      "Writing may follow different patterns of organisation. Teach English paragraph structure clearly, with models."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Learning habits"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Many learners are used to copying and memorising. Add meaningful tasks and speaking practice.",
+      "Some learners are afraid of mistakes and shy about speaking. Use pair work and a supportive atmosphere.",
+      "Respect for teachers can mean learners wait to be told. Teach and praise questions and opinions."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Using Khmer well"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use Khmer briefly to explain, compare and check understanding when needed.",
+      "Compare Khmer and English when it helps, such as showing how the two languages express time.",
+      "Gradually increase English as learners become ready."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Assuming all learners have the same difficulties.",
+      "Correcting the same error without teaching why.",
+      "Teaching only rules with no spoken and written practice."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one typical error, such as missing final sounds, and plan a short practice.",
+      "Use a timeline when you teach a tense.",
+      "Record the errors you hear most often in a notebook."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are general observations about language differences, and they are not true for every learner. Check the descriptions with colleagues who speak Khmer and with your own learners. These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "common-pronunciation-problems-and-minimal-pairs",
+    "using-the-first-language-in-an-english-class",
+    "teaching-tenses",
+    "sounds-stress-and-intonation"
+   ]
   },
   {
    "id": "using-the-first-language-in-an-english-class",
    "group": "J. Different learners and contexts",
-   "title": "Using the first language in an English class"
+   "title": "Using the first language in an English class",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Should teachers use the learners' first language (L1) in an English class? Many teachers feel guilty when they do. Research and experience show that careful, limited use of the first language can help learning, while too much reduces the time for English. The question is not yes or no, but when and why."
+    },
+    {
+     "t": "h",
+     "x": "When it can help"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Explaining difficult grammar or abstract words quickly.",
+      "Giving instructions to beginners when English is not clear.",
+      "Checking understanding of a new idea.",
+      "Comparing the two languages to show differences.",
+      "Building rapport and reducing anxiety.",
+      "Letting learners plan or discuss ideas before speaking English."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "When to avoid it"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Whenever an English explanation, picture or gesture will work.",
+      "For routine classroom talk that learners can learn in English.",
+      "If learners begin to rely on translation for everything.",
+      "In speaking tasks where the aim is practice in English."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Techniques for using L1 well"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Technique",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Translate key words only",
+       "Say the word, then give a quick translation, then use it in English"
+      ],
+      [
+       "Check understanding",
+       "Ask learners to tell you in L1 what the instruction means"
+      ],
+      [
+       "Compare languages",
+       "Show how Khmer and English express past time differently"
+      ],
+      [
+       "Allow short preparation",
+       "Pairs plan the ideas for a role-play in L1, then perform it in English"
+      ],
+      [
+       "Plan transitions",
+       "Start with more L1 support and reduce it step by step"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Building English habits"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach classroom phrases in English: Can I have a pen? How do you say...? I don't understand.",
+      "Use English for greetings, praise and instructions from the start.",
+      "Say clearly when the English-only time begins.",
+      "Praise the use of English."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "When learners use too much L1"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Check whether the task is too hard.",
+      "Give phrases and vocabulary support.",
+      "Use a limit, such as English for the next five minutes.",
+      "Move closer to groups that slip into L1.",
+      "Avoid punishing. Encourage and reward English use."
+     ]
+    },
+    {
+     "t": "p",
+     "x": "See also the Real classroom problems article Students use their first language too much."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Translating everything.",
+      "Using L1 as a punishment for not understanding.",
+      "Banning L1 completely and causing fear."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Plan which instruction you will give in English only, and show it with gestures.",
+      "Use L1 for a short check on one difficult idea.",
+      "Teach one useful classroom phrase."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Guy Cook, Translation in Language Teaching",
+      "Philip Kerr, Translation and Own-language Activities"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "students-use-their-first-language-too-much",
+    "teaching-english-to-khmer-speaking-learners-common-difficult",
+    "giving-clear-instructions",
+    "eliciting-instead-of-telling"
+   ]
   },
   {
    "id": "inclusive-classrooms",
    "group": "J. Different learners and contexts",
-   "title": "Inclusive classrooms"
+   "title": "Inclusive classrooms",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "An inclusive classroom welcomes all learners and gives each one a fair chance to take part and learn. Learners may differ in ability, language, gender, family background, income, health, disability or experience. Inclusion is not a special programme. It is a way of planning and teaching."
+    },
+    {
+     "t": "h",
+     "x": "Principles"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Every learner belongs and has something to contribute.",
+      "Differences are normal and are a resource.",
+      "Barriers to learning are removed where possible.",
+      "High expectations for all, with support where needed.",
+      "Respect for each learner's dignity."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Possible barriers and responses"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Barrier",
+      "Response"
+     ],
+     "rows": [
+      [
+       "Cannot see or hear well",
+       "Seat the learner near the board and teacher; speak clearly; use large print"
+      ],
+      [
+       "Physical difficulty",
+       "Make sure the learner can move and take part safely; adapt activities"
+      ],
+      [
+       "Poor reading or writing",
+       "Use pictures, oral tasks, extra time and simple texts"
+      ],
+      [
+       "Poverty",
+       "Do not ask learners to buy things they cannot afford; share materials; avoid public comments"
+      ],
+      [
+       "Different home language or background",
+       "Welcome the language, use examples from many cultures"
+      ],
+      [
+       "Learner is often absent",
+       "Give a short catch-up summary; avoid blame; talk with the family"
+      ],
+      [
+       "Gender expectations",
+       "Give equal speaking opportunities; choose examples that do not stereotype"
+      ],
+      [
+       "Fear or past negative experience",
+       "Build trust; use low-stakes tasks"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Teaching practices"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use many ways of presenting: spoken, visual, written, practical.",
+      "Give choices in how learners show learning.",
+      "Use group work with different roles so every learner can contribute.",
+      "Keep instructions clear and check understanding.",
+      "Use positive language, and avoid labels.",
+      "Make examples and materials inclusive: different families, jobs and places.",
+      "Make the classroom physically accessible and safe."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Working with others"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Talk with families, colleagues and school leaders.",
+      "Ask what support is available.",
+      "Keep private information private."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Language to avoid and to use"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Avoid",
+      "Try"
+     ],
+     "rows": [
+      [
+       "The weak students",
+       "Learners who need more support with this task"
+      ],
+      [
+       "Normal students",
+       "Other learners"
+      ],
+      [
+       "Handicapped",
+       "A learner with a disability (only when it is relevant)"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Treating inclusion as only for learners with disabilities.",
+      "Lowering expectations.",
+      "Singling out the learner in front of others.",
+      "Doing it alone without help from colleagues."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Check that every learner can see the board and hear you.",
+      "Look at the examples in your lesson and make them more inclusive.",
+      "Offer two ways to complete a task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Tony Booth and Mel Ainscow, Index for Inclusion",
+      "UNESCO, guidelines on inclusion in education",
+      "British Council TeachingEnglish, resources on inclusive education"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "learners-with-learning-difficulties-general-strategies",
+    "teaching-mixed-ability-classes",
+    "creating-a-positive-classroom-climate",
+    "bullying-and-conflict-between-students"
+   ]
   },
   {
    "id": "using-flashcards-and-pictures",
