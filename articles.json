@@ -8137,67 +8137,2138 @@
   {
    "id": "communicative-language-teaching",
    "group": "B. Approaches and methods",
-   "title": "Communicative language teaching"
+   "title": "Communicative language teaching",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Communicative language teaching (CLT) is an approach that aims to help learners use English to communicate, not only to know about it. It developed from the 1970s, when teachers and researchers noticed that learners could know the rules of a language but still could not use it in real situations."
+    },
+    {
+     "t": "h",
+     "x": "Main ideas"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "The goal is communicative competence: using language appropriately for a purpose, not just forming correct sentences.",
+      "Meaning comes first. Learners use language to do things: ask, explain, persuade, solve problems.",
+      "Fluency and accuracy are both important. Different activities focus on each.",
+      "Learners use English in pairs and groups, with real or realistic purposes.",
+      "Errors are a normal part of learning and are not always corrected at once.",
+      "The teacher is a guide and organiser, not only a source of knowledge."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Typical CLT activities"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Activity",
+      "Why it is communicative"
+     ],
+     "rows": [
+      [
+       "Information gap",
+       "One learner has information the other needs"
+      ],
+      [
+       "Role-play",
+       "Learners use language for a realistic situation"
+      ],
+      [
+       "Interview or survey",
+       "Learners ask real questions and report answers"
+      ],
+      [
+       "Problem-solving",
+       "Learners discuss and agree a solution"
+      ],
+      [
+       "Opinion gap",
+       "Learners give and defend their own views"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "CLT in a typical lesson"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Lead in with a situation or topic.",
+      "Present the language needed, often through a text or dialogue.",
+      "Practise with controlled activities.",
+      "Give a communicative task where learners use the language for a purpose.",
+      "Give feedback on both message and language."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common misunderstandings"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "CLT does not mean no grammar. Grammar is taught in relation to meaning and use.",
+      "CLT does not mean only speaking. All four skills can be communicative.",
+      "CLT does not mean the teacher stays silent. The teacher plans, models, monitors and gives feedback.",
+      "It does not need special resources. A simple information gap can be made with a few cards."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Challenges in some classrooms"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Large classes and little space: use pair work and short tasks.",
+      "Exam systems that test grammar and reading: combine communicative tasks with exam preparation.",
+      "Learners who expect the teacher to lead: explain the purpose of the activities and start with simple tasks.",
+      "Limited English of the teacher or learners: use model phrases and repeat tasks."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Giving a communicative task before learners have the language to do it.",
+      "Letting learners use the first language for the whole task.",
+      "Never giving feedback because accuracy does not matter."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Add a short information-gap task after a grammar practice.",
+      "Give learners a reason to speak: a question that the partner does not know the answer to.",
+      "Note two errors you hear and teach them after the task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Jack Richards, Communicative Language Teaching Today",
+      "Jeremy Harmer, The Practice of English Language Teaching",
+      "Penny Ur, A Course in Language Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "how-to-teach-speaking",
+    "role-plays-discussions-and-information-gaps",
+    "fluency-versus-accuracy",
+    "task-based-learning"
+   ]
   },
   {
    "id": "task-based-learning",
    "group": "B. Approaches and methods",
-   "title": "Task-based learning"
+   "title": "Task-based learning",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Task-based learning (TBL) organises a lesson around a task: something learners do using English to reach a clear outcome, such as planning a trip, solving a puzzle or making a poster. Language is studied after learners have tried the task, based on what they needed."
+    },
+    {
+     "t": "h",
+     "x": "What is a task?"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "It has a clear goal or outcome that is not language practice for its own sake.",
+      "Meaning is the main focus.",
+      "Learners need to use their own language resources.",
+      "It is similar to something people do in real life.",
+      "Success is judged by the outcome."
+     ]
+    },
+    {
+     "t": "p",
+     "x": "For example, learners must agree on the three most important rules for their class and report them. This is a task. Completing sentences with the correct verb form is an exercise."
+    },
+    {
+     "t": "h",
+     "x": "A common framework (Jane Willis)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "What happens"
+     ],
+     "rows": [
+      [
+       "Pre-task",
+       "Introduce the topic and task; activate useful words and phrases"
+      ],
+      [
+       "Task",
+       "Learners do the task in pairs or groups while the teacher monitors"
+      ],
+      [
+       "Planning",
+       "Learners prepare to report what they did, with teacher support"
+      ],
+      [
+       "Report",
+       "Learners present their results to the class"
+      ],
+      [
+       "Language focus",
+       "Study useful language from the task: analysis and practice"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Advantages"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners use English for a purpose.",
+      "Language that is taught is language they need.",
+      "Gives a natural mix of fluency and accuracy work.",
+      "Learners are active and motivated by a clear goal.",
+      "Works with different levels because learners use the language they have."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Challenges"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Weaker learners may use mostly the first language or very simple English.",
+      "Teachers need to plan tasks carefully and time them well.",
+      "Syllabuses and exams based on grammar need links to tasks.",
+      "Learners may expect a clear grammar explanation."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Adapting TBL"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Keep tasks short and clear at lower levels.",
+      "Provide phrases and a model before the task.",
+      "Use the task as a final stage in a more traditional lesson, which is called a task at the end of a PPP lesson.",
+      "Use a short feedback stage and choose two or three language points."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choosing a task with no clear outcome.",
+      "Skipping the planning and report stages.",
+      "Not following up with language work."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a simple task, such as planning a class party budget.",
+      "Give two minutes to think before pairs begin.",
+      "Ask each pair to report in one sentence."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Jane Willis, A Framework for Task-Based Learning",
+      "Rod Ellis, Task-Based Language Learning and Teaching",
+      "Jane Willis and Dave Willis, Doing Task-Based Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "communicative-language-teaching",
+    "project-based-learning",
+    "grammar-practice-from-controlled-to-free",
+    "how-to-teach-speaking"
+   ]
   },
   {
    "id": "grammar-translation-and-direct-method-what-they-are-and-wher",
    "group": "B. Approaches and methods",
-   "title": "Grammar-translation and direct method: what they are and where they still appear"
+   "title": "Grammar-translation and direct method: what they are and where they still appear",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Grammar-translation and the direct method are two older approaches. They are often described as opposites, but both still influence classrooms and materials today. Knowing them helps you recognise them in textbooks and use their useful parts."
+    },
+    {
+     "t": "h",
+     "x": "Grammar-translation"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Focus: grammar rules, vocabulary lists, translation and reading of written texts.",
+      "The teacher explains rules in the first language.",
+      "Learners translate sentences and texts in both directions.",
+      "Accuracy is very important; speaking and listening get little time.",
+      "Typical activities: learning rules, memorising word lists, translating a passage, answering questions about it."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Direct method"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "It developed as a reaction to grammar-translation, in the late 19th and early 20th centuries.",
+      "Only the target language is used in the classroom.",
+      "Meaning is shown through pictures, objects, actions and examples. No translation.",
+      "Speaking and listening come first, using everyday vocabulary and sentences.",
+      "Grammar is taught through examples, not rules.",
+      "Typical activities: question and answer, reading aloud, dictation, conversation practice."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Comparison"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Grammar-translation",
+      "Direct method"
+     ],
+     "rows": [
+      [
+       "Main language of instruction",
+       "First language",
+       "English only"
+      ],
+      [
+       "Focus",
+       "Reading, writing, grammar rules",
+       "Speaking and listening"
+      ],
+      [
+       "Grammar",
+       "Rules explained first",
+       "Learned from examples"
+      ],
+      [
+       "Vocabulary",
+       "Word lists and translation",
+       "Taught in context with pictures and actions"
+      ],
+      [
+       "Role of the first language",
+       "Central",
+       "Avoided"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Where they still appear"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Exams that test translation, grammar rules or reading comprehension.",
+      "Classes with large numbers, few resources or teachers who are not confident speakers.",
+      "Exercises in textbooks such as explain the rule, translate, fill the gap.",
+      "Teacher-fronted lessons where English is used only for questions and answers.",
+      "Courses with a focus on reading academic or technical texts."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Useful parts of each"
+    },
+    {
+     "t": "table",
+     "head": [
+      "From grammar-translation",
+      "From the direct method"
+     ],
+     "rows": [
+      [
+       "Short, clear grammar explanations when helpful",
+       "Using English as much as possible"
+      ],
+      [
+       "Comparing the first language and English",
+       "Showing meaning with pictures and actions"
+      ],
+      [
+       "Translating to check understanding or to raise awareness of differences",
+       "Plenty of listening and speaking"
+      ],
+      [
+       "Careful attention to form",
+       "Teaching grammar through examples and context"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Limits"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Grammar-translation alone does not prepare learners to speak.",
+      "The direct method alone can take a long time to explain meaning and may confuse beginners.",
+      "Neither gives enough opportunity for real communication."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Rejecting a technique because it is old.",
+      "Using only these methods and ignoring communication.",
+      "Using translation for every word."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Look at a textbook exercise and decide which approach it comes from.",
+      "Add a speaking task after a grammar-translation exercise.",
+      "Use a picture instead of a translation for one new word."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "communicative-language-teaching",
+    "using-the-first-language-in-an-english-class",
+    "how-to-teach-grammar",
+    "using-the-textbook-well"
+   ]
   },
   {
    "id": "lexical-approach",
    "group": "B. Approaches and methods",
-   "title": "Lexical approach"
+   "title": "Lexical approach",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "The lexical approach, developed by Michael Lewis in the 1990s, says that language is made of lexis, which means words and chunks, more than of grammar rules. Learners need a large store of useful chunks, such as collocations and fixed phrases, to speak and understand fluently."
+    },
+    {
+     "t": "h",
+     "x": "What are lexical chunks?"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Collocations",
+       "make a decision, heavy rain, strongly agree"
+      ],
+      [
+       "Fixed phrases",
+       "by the way, as a matter of fact, on the other hand"
+      ],
+      [
+       "Sentence frames",
+       "I'd like to..., Could you tell me where...?"
+      ],
+      [
+       "Phrasal verbs and idioms",
+       "look after, give up, break the ice"
+      ],
+      [
+       "Social formulas",
+       "How are you? Nice to meet you. See you later."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Main ideas"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Fluency depends on having many ready-made chunks to use quickly.",
+      "Learning words together with the words they often go with is more useful than learning single words.",
+      "Noticing patterns in real language is important.",
+      "Grammar is still useful, but it is seen as a tool for organising chunks.",
+      "Exposure to a lot of meaningful language is needed."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "In the classroom"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach words with their collocations, not alone: not only decision but make a decision.",
+      "Highlight chunks in reading and listening texts and ask learners to notice them.",
+      "Teach useful sentence starters for speaking and writing.",
+      "Record chunks in a notebook by topic or function, with an example.",
+      "Revise chunks often with gap-fills, matching and short dialogues.",
+      "Use dictionaries that show collocations and example sentences."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Sample activity"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Learners read a short text and underline word groups that sound useful.",
+      "In pairs they compare and add a translation or an example.",
+      "The teacher picks five chunks and shows how they are used.",
+      "Learners use the chunks in a short speaking or writing task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Strengths and cautions"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Strengths",
+      "Cautions"
+     ],
+     "rows": [
+      [
+       "Helps fluency and natural language",
+       "Too many chunks can overload learners"
+      ],
+      [
+       "Practical and easy to start",
+       "Needs many repetitions to remember"
+      ],
+      [
+       "Links well with real texts",
+       "Some chunks are rare. Choose the common and useful ones"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Giving long lists of chunks without practice.",
+      "Translating each chunk word by word.",
+      "Ignoring grammar completely."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Teach three new words with one common collocation each.",
+      "Ask learners to underline chunks in the reading text.",
+      "Add one sentence starter for the speaking task."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Michael Lewis, The Lexical Approach",
+      "Michael Lewis, Implementing the Lexical Approach",
+      "Jimmie Hill and Michael Lewis, Dictionary of Selected Collocations"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "teaching-collocations-and-word-chunks",
+    "how-to-teach-vocabulary",
+    "helping-students-remember-new-words",
+    "revising-and-recycling-vocabulary"
+   ]
   },
   {
    "id": "content-and-language-integrated-learning-clil",
    "group": "B. Approaches and methods",
-   "title": "Content and language integrated learning (CLIL)"
+   "title": "Content and language integrated learning (CLIL)",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "CLIL means teaching a subject, such as science, geography or maths, through a foreign language such as English. Learners learn the subject and the language at the same time. The term was introduced in Europe in the 1990s, and the approach is now used in many countries."
+    },
+    {
+     "t": "h",
+     "x": "The four Cs (Do Coyle)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "C",
+      "Meaning"
+     ],
+     "rows": [
+      [
+       "Content",
+       "Subject knowledge and skills"
+      ],
+      [
+       "Communication",
+       "Using language to learn and to show learning"
+      ],
+      [
+       "Cognition",
+       "Thinking skills: understanding, analysing, evaluating"
+      ],
+      [
+       "Culture",
+       "Awareness of self, others and the wider world"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Types of language in CLIL"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Language of learning: key words and phrases of the subject, such as habitat, predator.",
+      "Language for learning: language to work together, such as I agree because...",
+      "Language through learning: new language that comes up while learning."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Planning a CLIL lesson"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Choose the content aim and the thinking skills you want.",
+      "Choose the key vocabulary and structures.",
+      "Plan support: visuals, diagrams, models, word banks.",
+      "Plan tasks for reading, listening, speaking and writing around the topic.",
+      "Plan how to check both content and language."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Support techniques"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use pictures, charts, real objects and short videos.",
+      "Teach key vocabulary before and during the lesson.",
+      "Use graphic organisers: tables, mind maps, flow charts.",
+      "Give sentence frames for explanations: First..., then..., because...",
+      "Use pair and group work so learners talk about the content.",
+      "Simplify the language, not the thinking."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Example: a lesson on the water cycle"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Activity"
+     ],
+     "rows": [
+      [
+       "Lead-in",
+       "Look at a picture of a lake and a cloud; elicit words"
+      ],
+      [
+       "Input",
+       "Read a short text and label a diagram"
+      ],
+      [
+       "Practice",
+       "In pairs, describe the cycle using sequencing words"
+      ],
+      [
+       "Output",
+       "Write a short paragraph or draw and explain"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Benefits and challenges"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Benefits",
+      "Challenges"
+     ],
+     "rows": [
+      [
+       "More exposure to English with a purpose",
+       "Teachers need both subject and language knowledge"
+      ],
+      [
+       "Motivation from interesting content",
+       "Materials are hard to find or prepare"
+      ],
+      [
+       "Develops thinking skills",
+       "Weaker learners may find both content and language hard"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "CLIL in an English teacher's class"
+    },
+    {
+     "t": "p",
+     "x": "An English teacher does not need to teach a full subject. You can borrow a topic from science, geography or history, such as animals, weather or healthy food, and use it for language work. Work with subject teachers when you can."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Focusing only on language and forgetting the content.",
+      "Making the content too easy.",
+      "Not providing enough language support."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a topic from another subject for a reading task.",
+      "Add a diagram or table for learners to complete.",
+      "Teach three key subject words before reading."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do Coyle, Philip Hood and David Marsh, CLIL: Content and Language Integrated Learning",
+      "Liz Dale and Rosie Tanner, CLIL Activities"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "pre-while-and-post-reading",
+    "how-to-teach-vocabulary",
+    "scaffolding",
+    "bloom-s-taxonomy-for-lesson-questions"
+   ]
   },
   {
    "id": "cooperative-learning",
    "group": "B. Approaches and methods",
-   "title": "Cooperative learning"
+   "title": "Cooperative learning",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Cooperative learning means learners work together in small groups to reach a shared goal, and each learner is responsible for their own learning and for helping the others. It is different from ordinary group work, where some learners may do all the work."
+    },
+    {
+     "t": "h",
+     "x": "Key elements (Johnson and Johnson)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Element",
+      "Meaning"
+     ],
+     "rows": [
+      [
+       "Positive interdependence",
+       "Learners need each other to succeed"
+      ],
+      [
+       "Individual accountability",
+       "Each learner is responsible for their part and is assessed"
+      ],
+      [
+       "Face-to-face interaction",
+       "Learners explain and help each other"
+      ],
+      [
+       "Social skills",
+       "Learners practise listening, taking turns, disagreeing politely"
+      ],
+      [
+       "Group processing",
+       "Groups reflect on how well they worked"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Simple structures"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Structure",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Think-pair-share",
+       "Think alone, discuss with a partner, share with the class"
+      ],
+      [
+       "Jigsaw",
+       "Each member learns part of a topic, then teaches the others"
+      ],
+      [
+       "Numbered heads together",
+       "Group members are numbered, discuss, and the teacher calls a number to answer for the group"
+      ],
+      [
+       "Round robin",
+       "Members take turns to give an idea"
+      ],
+      [
+       "Roles",
+       "Leader, writer, reporter, timekeeper, language checker"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Example: a jigsaw reading"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Divide a text into three or four parts.",
+      "Groups of four each take a different part.",
+      "Experts from different groups meet to read and understand the same part.",
+      "Experts return to their groups and teach their part.",
+      "Each learner answers questions about the whole text."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Benefits"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Everyone has more time to speak and think.",
+      "Learners help each other and learn from each other.",
+      "Builds social skills and respect.",
+      "Works with mixed levels and large classes.",
+      "Increases engagement."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Making it work"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Teach the skills of group work step by step.",
+      "Keep groups small: two to four.",
+      "Change groups from time to time.",
+      "Give clear tasks and time limits.",
+      "Give roles and rotate them.",
+      "Check each learner's learning, for example with an individual quiz.",
+      "Monitor and help groups that are stuck."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common problems and responses"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Problem",
+      "Response"
+     ],
+     "rows": [
+      [
+       "One learner does all the work",
+       "Give roles and ask individuals to report"
+      ],
+      [
+       "Noise",
+       "Teach a quiet signal and set voice levels"
+      ],
+      [
+       "Learners use only the first language",
+       "Give phrases and a clear English output"
+      ],
+      [
+       "Weaker learners are ignored",
+       "Use structures with equal turns, such as round robin"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Calling any group work cooperative learning.",
+      "Giving no roles or clear goal.",
+      "Giving a group mark only."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Use think-pair-share for one question.",
+      "Give each group member a role.",
+      "End with a quick individual check."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "David Johnson and Roger Johnson, Cooperative Learning in the Classroom",
+      "Spencer Kagan, Cooperative Learning"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "grouping-students-pairs-groups-and-roles",
+    "pair-work-and-group-work-for-speaking",
+    "managing-noise-in-pair-and-group-work",
+    "a-few-students-dominate-the-class"
+   ]
   },
   {
    "id": "project-based-learning",
    "group": "B. Approaches and methods",
-   "title": "Project-based learning"
+   "title": "Project-based learning",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "In project-based learning, learners work over a period of time to produce something, such as a poster, a survey report, a class magazine or a short video. They use English for real purposes throughout. The project is not an extra at the end. It is the way learners learn."
+    },
+    {
+     "t": "h",
+     "x": "Features of a good project"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A real question, problem or goal.",
+      "A final product or presentation for an audience.",
+      "Learners make choices and take responsibility.",
+      "Several stages over days or weeks.",
+      "Use of all four skills.",
+      "Reflection on the process and the result."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Planning a project"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Choose a topic linked to the curriculum and to learners' interests.",
+      "Decide the product and the audience.",
+      "Plan stages: ideas, research, drafting, practising, presenting.",
+      "Plan the language learners will need and teach it in lessons.",
+      "Plan roles and timing.",
+      "Plan how to assess process and product."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Example: a survey project"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Activity",
+      "Language"
+     ],
+     "rows": [
+      [
+       "Plan",
+       "Decide the question and who to ask",
+       "Questions: Do you like...? How often...?"
+      ],
+      [
+       "Collect",
+       "Ask classmates and record answers",
+       "Question forms, numbers"
+      ],
+      [
+       "Analyse",
+       "Make a chart",
+       "Percentages, comparisons"
+      ],
+      [
+       "Present",
+       "Report to the class",
+       "Reporting verbs, linking words"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Roles of the teacher"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Guide and advisor, not the one who does the work.",
+      "Teach or revise language at the right time.",
+      "Monitor groups and help them keep to the plan.",
+      "Give feedback on drafts."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Assessment"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use a simple rubric for the product, such as content, language, organisation, creativity.",
+      "Assess teamwork and individual contribution.",
+      "Use self-assessment and peer assessment.",
+      "Keep a record of the process, such as a project log."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Challenges and solutions"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Challenge",
+      "Solution"
+     ],
+     "rows": [
+      [
+       "Not enough time",
+       "Choose a small project and use short stages"
+      ],
+      [
+       "Little technology",
+       "Use paper, posters, drawings and oral presentations"
+      ],
+      [
+       "Some learners do not contribute",
+       "Give roles and individual tasks"
+      ],
+      [
+       "Too much first language",
+       "Plan English checkpoints and presentations"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choosing a project that is too big.",
+      "Giving no language support.",
+      "Marking only the final product."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Plan a mini-project that takes two lessons.",
+      "Choose a real audience, such as another class.",
+      "Create a simple project log for learners to fill in."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "PBLWorks (Buck Institute for Education), free project-based learning resources",
+      "Sylvia Chard, The Project Approach"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "task-based-learning",
+    "cooperative-learning",
+    "rubrics-for-speaking-and-writing",
+    "learner-autonomy-and-goal-setting"
+   ]
   },
   {
    "id": "differentiated-instruction",
    "group": "B. Approaches and methods",
-   "title": "Differentiated instruction"
+   "title": "Differentiated instruction",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Differentiated instruction means planning teaching so that learners with different needs, levels and interests can all learn. Carol Ann Tomlinson, who developed the idea, describes it as teachers responding to learners instead of expecting every learner to fit the same lesson."
+    },
+    {
+     "t": "h",
+     "x": "What can be differentiated"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Area",
+      "Meaning",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Content",
+       "What learners learn or the materials they use",
+       "Texts at different levels on the same topic"
+      ],
+      [
+       "Process",
+       "How learners work with the content",
+       "Some work alone, some in groups; some use word banks"
+      ],
+      [
+       "Product",
+       "How learners show learning",
+       "Write, draw, present or make a poster"
+      ],
+      [
+       "Environment",
+       "The learning space and atmosphere",
+       "Quiet corner, group tables, clear routines"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What to base it on"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Readiness: what learners can already do.",
+      "Interest: what motivates them.",
+      "Learning profile: how they work best, such as alone or with others."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Practical strategies"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Tiered tasks: the same goal with easier, middle and harder versions.",
+      "Choice boards: learners choose from a menu of tasks.",
+      "Flexible grouping: change groups by task, level or interest.",
+      "Anchor activities: meaningful tasks for learners who finish early.",
+      "Scaffolds: word banks, models, sentence starters, with later removal.",
+      "Open-ended tasks that learners can complete at their own level.",
+      "Quick checks, such as exit tasks, to see who needs support."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A simple example"
+    },
+    {
+     "t": "p",
+     "x": "The class reads a text about a school day. Every learner answers the same main question: What is the writer's day like? Some learners answer with a table to complete. Others write sentences using a word bank. Others write a paragraph and compare it with their own day."
+    },
+    {
+     "t": "h",
+     "x": "Planning steps"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Decide the aim that everyone should reach.",
+      "Find out learners' needs with a quick check.",
+      "Plan two or three versions of key tasks.",
+      "Prepare supports and extensions.",
+      "Check learning and adjust."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Cautions"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Differentiation is not a different lesson for every learner.",
+      "Do not label groups in a way that harms confidence.",
+      "Keep the same high expectations and the same aim."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Giving weaker learners less work and no challenge.",
+      "Making the extension more of the same.",
+      "Planning too many versions to manage."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Prepare two versions of one exercise.",
+      "Add a choice of task for the final activity.",
+      "Use an exit task to see who needs help."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Carol Ann Tomlinson, The Differentiated Classroom",
+      "Carol Ann Tomlinson, How to Differentiate Instruction in Academically Diverse Classrooms"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "teaching-mixed-ability-classes",
+    "managing-a-mixed-ability-class",
+    "adapting-one-lesson-for-different-levels",
+    "scaffolding"
+   ]
   },
   {
    "id": "learner-centred-teaching",
    "group": "B. Approaches and methods",
-   "title": "Learner-centred teaching"
+   "title": "Learner-centred teaching",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "In learner-centred teaching, the learners' needs, activity and responsibility are at the centre of the lesson. The teacher still plans and leads, but learners do more of the thinking, speaking and decision-making. The opposite is teacher-centred teaching, where the teacher controls most of the talk and activity."
+    },
+    {
+     "t": "h",
+     "x": "Teacher-centred and learner-centred"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Teacher-centred",
+      "Learner-centred"
+     ],
+     "rows": [
+      [
+       "Who talks most",
+       "Teacher",
+       "Learners"
+      ],
+      [
+       "Role of teacher",
+       "Source of knowledge",
+       "Guide, organiser, resource"
+      ],
+      [
+       "Learners",
+       "Listen and answer",
+       "Work together, ask, decide"
+      ],
+      [
+       "Activities",
+       "Mostly whole class",
+       "Pairs, groups, individual choices"
+      ],
+      [
+       "Assessment",
+       "Mainly the teacher",
+       "Teacher, peers and self"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "Both have a place. A short clear explanation by the teacher can be very helpful. The question is how much time learners spend actively using English."
+    },
+    {
+     "t": "h",
+     "x": "Features of a learner-centred classroom"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Lessons are based on learners' needs and interests.",
+      "Learners work in pairs and groups much of the time.",
+      "Learners have some choice of tasks or topics.",
+      "Learners ask questions and give opinions.",
+      "Learners reflect on their learning and set goals.",
+      "The teacher monitors and supports, and gives feedback."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Steps to become more learner-centred"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Reduce teacher talk. Use short instructions and give learners more tasks.",
+      "Use pair work for practice and discussion.",
+      "Ask open questions and wait for answers.",
+      "Give choices: topic, partner, task, product.",
+      "Let learners check each other's work.",
+      "Ask for feedback on the lessons and use it.",
+      "Build routines so that learners know what to do."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Challenges"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Challenge",
+      "Response"
+     ],
+     "rows": [
+      [
+       "Large classes",
+       "Use pairs and groups with clear roles"
+      ],
+      [
+       "Learners expect the teacher to lead",
+       "Explain the purpose and start with small changes"
+      ],
+      [
+       "Exam pressure",
+       "Use learner-centred activities for revision and practice"
+      ],
+      [
+       "Noise and control",
+       "Use routines, signals and clear tasks"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Thinking the teacher does less. Planning and monitoring take a lot of skill.",
+      "Leaving learners with no guidance.",
+      "Changing everything in one lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Replace one teacher explanation with a task in which learners discover the point.",
+      "Add a choice to one activity.",
+      "Ask learners what helped them today."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Barbara McCombs and Lynda Miller, Learner-Centered Classroom Practices and Assessments",
+      "Penny Ur, A Course in Language Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "learner-autonomy-and-goal-setting",
+    "pair-work-and-group-work-for-speaking",
+    "eliciting-instead-of-telling",
+    "building-rapport-with-students"
+   ]
   },
   {
    "id": "scaffolding",
    "group": "B. Approaches and methods",
-   "title": "Scaffolding"
+   "title": "Scaffolding",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Scaffolding means giving learners temporary support so that they can do a task that is a little too hard to do alone. As learners become able, the support is reduced and removed. The idea comes from the work of Jerome Bruner and colleagues, and it is linked to Vygotsky's zone of proximal development: the gap between what a learner can do alone and what they can do with help."
+    },
+    {
+     "t": "h",
+     "x": "Why it matters"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners can do tasks at a higher level than they could manage alone.",
+      "Success builds confidence.",
+      "It helps learners become independent.",
+      "It reduces frustration."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Types of scaffolding"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Modelling",
+       "The teacher shows an example of the task, such as writing a model paragraph"
+      ],
+      [
+       "Visual support",
+       "Pictures, diagrams, timelines, graphic organisers"
+      ],
+      [
+       "Language support",
+       "Word banks, sentence starters, phrase lists"
+      ],
+      [
+       "Task support",
+       "Break a task into steps; give a template or a checklist"
+      ],
+      [
+       "Questions and prompts",
+       "Guide thinking with questions and hints"
+      ],
+      [
+       "Peer support",
+       "Pair stronger and weaker learners"
+      ],
+      [
+       "Teacher support",
+       "Monitor and give help when needed"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Example: scaffolding a paragraph"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Read a model paragraph and notice its parts.",
+      "Write one together on the board.",
+      "Give a planning frame and sentence starters.",
+      "Learners write in pairs.",
+      "Learners write alone with fewer starters.",
+      "Learners write freely."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Removing the scaffold"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Reduce the help step by step.",
+      "Watch whether learners still need it.",
+      "Do not remove all support at once.",
+      "Praise the move to independence."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Scaffolding in the four skills"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Skill",
+      "Scaffolds"
+     ],
+     "rows": [
+      [
+       "Listening",
+       "Pre-teach words; give questions before listening; replay in short parts"
+      ],
+      [
+       "Speaking",
+       "Phrases on the board; rehearsal in pairs; model dialogues"
+      ],
+      [
+       "Reading",
+       "Pictures; prediction; glossaries; reading in stages"
+      ],
+      [
+       "Writing",
+       "Models; outlines; sentence frames; peer feedback"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Giving too much help so the task is no longer a challenge.",
+      "Never removing the support.",
+      "Giving the same scaffold to all learners."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Add one sentence starter box to a speaking or writing task.",
+      "Show a model before learners start.",
+      "Plan how you will reduce the support next time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "David Wood, Jerome Bruner and Gail Ross, The role of tutoring in problem solving (1976)",
+      "Pauline Gibbons, Scaffolding Language, Scaffolding Learning"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "differentiated-instruction",
+    "guided-writing-for-beginners",
+    "pre-while-and-post-listening",
+    "learner-centred-teaching"
+   ]
   },
   {
    "id": "bloom-s-taxonomy-for-lesson-questions",
    "group": "B. Approaches and methods",
-   "title": "Bloom's taxonomy for lesson questions"
+   "title": "Bloom's taxonomy for lesson questions",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Bloom's taxonomy is a list of levels of thinking. It helps teachers plan questions and tasks that ask learners to do more than remember. The original list was made by Benjamin Bloom and colleagues in 1956 and was revised in 2001 by Lorin Anderson and David Krathwohl."
+    },
+    {
+     "t": "h",
+     "x": "The revised levels"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Level",
+      "Meaning",
+      "Question examples in English class"
+     ],
+     "rows": [
+      [
+       "Remember",
+       "Recall facts and words",
+       "What is the past tense of go? Who is the main character?"
+      ],
+      [
+       "Understand",
+       "Explain ideas in your own words",
+       "What does this paragraph mean? Can you explain in your own words?"
+      ],
+      [
+       "Apply",
+       "Use knowledge in a new situation",
+       "Use this tense to describe your last holiday."
+      ],
+      [
+       "Analyse",
+       "Break down and compare",
+       "What is the difference between these two sentences? Why did the writer use this word?"
+      ],
+      [
+       "Evaluate",
+       "Judge and give reasons",
+       "Which ending do you prefer? Why? Is this a good solution?"
+      ],
+      [
+       "Create",
+       "Make something new",
+       "Write a different ending. Design a poster. Make a dialogue."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "x": "The lower levels (remember, understand) are called lower-order thinking skills. The higher levels (analyse, evaluate, create) are higher-order thinking skills. All levels are useful. Learners need to remember before they can analyse."
+    },
+    {
+     "t": "h",
+     "x": "Using Bloom's levels in planning"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Write your lesson aim.",
+      "Choose the level of thinking you want for the main task.",
+      "Write two or three questions at different levels.",
+      "Start easy to build confidence, then move up.",
+      "Plan support for higher-level questions, such as sentence starters."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Using it with reading texts"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Level",
+      "Question"
+     ],
+     "rows": [
+      [
+       "Remember",
+       "Where does the story happen?"
+      ],
+      [
+       "Understand",
+       "Why was the boy sad?"
+      ],
+      [
+       "Apply",
+       "What would you do in the same situation?"
+      ],
+      [
+       "Analyse",
+       "How does the writer show that the boy is brave?"
+      ],
+      [
+       "Evaluate",
+       "Do you think the boy made a good choice?"
+      ],
+      [
+       "Create",
+       "Write a letter from the boy to his friend."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Language needed"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Higher-level questions need more language. Give phrases such as I think... because..., In my opinion....",
+      "Allow time to think and talk in pairs.",
+      "Accept answers at the learners' language level."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Asking only recall questions.",
+      "Asking higher-level questions without language support.",
+      "Treating the levels as a strict order that must always be followed."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Add one why or what do you think question to a reading task.",
+      "Plan one create task, such as writing a different ending.",
+      "Give a sentence starter for opinion questions."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Lorin Anderson and David Krathwohl, A Taxonomy for Learning, Teaching, and Assessing",
+      "Benjamin Bloom, Taxonomy of Educational Objectives"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "questioning-techniques",
+    "writing-good-comprehension-questions",
+    "wait-time",
+    "scaffolding"
+   ]
   },
   {
    "id": "learning-styles-what-the-evidence-says",
    "group": "B. Approaches and methods",
-   "title": "Learning styles: what the evidence says"
+   "title": "Learning styles: what the evidence says",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Many teachers have heard that learners are visual, auditory or kinaesthetic learners, and that teaching should match each learner's style. This idea is popular, but research does not support it. This article explains what the evidence says and what to do instead."
+    },
+    {
+     "t": "h",
+     "x": "The popular idea"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Visual learners learn best from pictures and diagrams.",
+      "Auditory learners learn best from listening and talking.",
+      "Kinaesthetic learners learn best by moving and doing.",
+      "The meshing idea says that learners learn more when teaching matches their preferred style."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What the research says"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners do have preferences. Many people say they prefer to see, hear or do things.",
+      "But studies have not shown that teaching to a preferred style improves learning. A well-known review by Harold Pashler and colleagues (2008) found no good evidence for the meshing idea.",
+      "Researchers have also criticised many learning styles tests for being unreliable.",
+      "Learners often do better when the method fits the content, not the learner. For example, a map or a diagram is helpful for everyone when learning geography."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Risks of the idea"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Labelling learners may limit them: I am not a visual learner, so I can't do this.",
+      "Teachers may spend time making many versions of materials.",
+      "It can distract from teaching practices with better evidence, such as practice, feedback and spaced revision."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What to do instead"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Instead of",
+      "Try"
+     ],
+     "rows": [
+      [
+       "Matching each learner's style",
+       "Using many ways of presenting, for everyone"
+      ],
+      [
+       "Labelling learners",
+       "Asking learners what helps them and trying different ways"
+      ],
+      [
+       "Only one type of input",
+       "Combining words with pictures, speaking and actions"
+      ],
+      [
+       "Assuming a preference is an ability",
+       "Teaching learners strategies for all skills"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Why variety still helps"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Variety keeps attention and motivation.",
+      "Using several senses can help memory. For example, saying a word, seeing it and acting it out.",
+      "Different content suits different forms of input.",
+      "Learners can learn new strategies."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A useful way to think"
+    },
+    {
+     "t": "p",
+     "x": "You do not need to find each learner's style. Plan lessons with a good mix of listening, speaking, reading, writing, pictures and movement. Notice what works for your learners and keep asking them for feedback."
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Giving learners a style test and labelling them.",
+      "Making each lesson separate for each style.",
+      "Believing that a learner cannot learn in a certain way."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Present one new word with a picture, an action and a sentence.",
+      "Ask learners which activity helped most and why.",
+      "Teach one strategy, such as drawing a mind map."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Harold Pashler and others, Learning Styles: Concepts and Evidence (2008)",
+      "Frank Coffield and others, Learning Styles and Pedagogy in Post-16 Learning (2004)"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules. Research on this topic continues, so check recent sources."
+    }
+   ],
+   "related": [
+    "differentiated-instruction",
+    "helping-students-remember-new-words",
+    "teaching-mixed-ability-classes",
+    "growth-mindset-in-the-classroom"
+   ]
   },
   {
    "id": "flipped-and-blended-learning",
    "group": "B. Approaches and methods",
-   "title": "Flipped and blended learning"
+   "title": "Flipped and blended learning",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Flipped learning and blended learning both combine class time with learning outside class, often with technology. They are different ideas, and each needs some resources, so check what is possible in your situation."
+    },
+    {
+     "t": "h",
+     "x": "The two ideas"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Flipped learning",
+      "Blended learning"
+     ],
+     "rows": [
+      [
+       "Main idea",
+       "Learners meet new content before class, and class time is used for practice and discussion",
+       "A mix of face-to-face lessons and online or independent learning"
+      ],
+      [
+       "Example",
+       "Watch a short video on the present perfect at home, then do speaking tasks in class",
+       "Some units taught in class, others studied online with teacher support"
+      ],
+      [
+       "Who uses it",
+       "Teachers who want more active class time",
+       "Schools and courses that combine class and online study"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "How flipped learning works"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Before class: learners watch a short video, read a text or listen to a recording.",
+      "Learners do a short check, such as a quiz or a question.",
+      "In class: the teacher checks understanding and answers questions.",
+      "Learners practise in pairs and groups, with teacher help.",
+      "After class: review and extension."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Benefits"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "More class time for speaking, practice and feedback.",
+      "Learners can pause and repeat the input at their own pace.",
+      "Teachers can give more individual help.",
+      "Learners prepare before the lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Challenges"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Challenge",
+      "Response"
+     ],
+     "rows": [
+      [
+       "Learners do not have devices or internet",
+       "Use printed texts or short readings, or let learners prepare in a school lab or library"
+      ],
+      [
+       "Learners do not prepare",
+       "Give a short, clear task and a quick check in class"
+      ],
+      [
+       "Long videos",
+       "Keep input to five to ten minutes"
+      ],
+      [
+       "Teacher time to prepare",
+       "Use existing materials and short recordings"
+      ],
+      [
+       "Different levels",
+       "Give extra support materials"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A low-technology version"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Give learners a short reading or a page of vocabulary to read before the lesson.",
+      "Ask them to write one question or one sentence.",
+      "Use the lesson to practise and discuss.",
+      "Use the textbook, a printed handout or a voice recording shared by phone."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Blended learning ideas"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use online exercises for extra practice and the lesson for speaking.",
+      "Use a messaging group for reminders and short tasks.",
+      "Share recordings and short videos for listening practice.",
+      "Let learners study online for a unit and meet to discuss."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Assuming everyone has a phone or internet.",
+      "Setting long tasks before class.",
+      "Repeating the same content in class, so preparation has no purpose."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Set a five-minute reading or recording for next lesson.",
+      "Plan a speaking task that uses that preparation.",
+      "Add a quick check at the start of the lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Jonathan Bergmann and Aaron Sams, Flip Your Classroom",
+      "Jeremy Harmer, The Practice of English Language Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "using-phones-and-ai-tools-in-class-benefits-and-limits",
+    "teaching-online-the-basics",
+    "students-do-not-do-their-homework",
+    "learner-centred-teaching"
+   ]
   },
   {
    "id": "starting-a-lesson-lead-ins-and-warm-ups",
