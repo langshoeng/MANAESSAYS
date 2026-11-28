@@ -23710,87 +23710,2686 @@
   {
    "id": "using-flashcards-and-pictures",
    "group": "K. Materials, technology and resources",
-   "title": "Using flashcards and pictures"
+   "title": "Using flashcards and pictures",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Flashcards and pictures are among the cheapest and most flexible teaching resources. They show meaning without translation, attract attention and can be used at every level, not only with young learners."
+    },
+    {
+     "t": "h",
+     "x": "What you can do with them"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Purpose",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Present new words",
+       "Show a card, say the word, learners repeat; ask What is it?"
+      ],
+      [
+       "Practise pronunciation",
+       "Choral and individual repetition; vary volume and speed"
+      ],
+      [
+       "Revise vocabulary",
+       "Show a card quickly; learners shout the word"
+      ],
+      [
+       "Speaking",
+       "Describe a picture; compare two pictures; make a story from a set of pictures"
+      ],
+      [
+       "Grammar",
+       "Is there a...? There are three...; He is wearing...; What is she doing?"
+      ],
+      [
+       "Memory games",
+       "Cards on the board, remove one, learners say which is missing"
+      ],
+      [
+       "Prediction",
+       "Show a picture before a reading or listening text and ask what the text will be about"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Simple games"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Flash: show the card very quickly and learners guess.",
+      "Slow reveal: uncover a picture bit by bit.",
+      "Pelmanism: match pairs of pictures and words face down.",
+      "Bingo: learners choose words from a list and cross them out when they see the picture.",
+      "Mime and guess: a learner shows a card to a partner without speaking."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Tips for use"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Make cards large enough for the whole class to see.",
+      "Use one clear image per card, with no extra detail.",
+      "Put the word on the back, or on a separate card, so you can use the picture alone.",
+      "Hold the card beside your face when you say the word, so learners look at your mouth.",
+      "Keep the cards in order or in a labelled bag or envelope.",
+      "Use pictures from magazines, old books, calendars and packaging, or draw simple ones."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Pictures for older learners"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use photographs for describing, comparing and storytelling.",
+      "Use a single interesting picture for a discussion.",
+      "Use a picture to introduce a topic or a reading text.",
+      "Learners can bring their own pictures, such as photos on their phones."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Using unclear or confusing pictures.",
+      "Showing a picture that can be named in several ways, so learners say a different word from the one you want.",
+      "Using cards only for presentation and never for practice."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Make six simple cards for your next vocabulary set.",
+      "Use a quick-flash game to revise words from last lesson.",
+      "Ask learners to describe one picture in pairs."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Andrew Wright, Pictures for Language Learning",
+      "Andrew Wright, 1000 Pictures for Teachers to Copy"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "making-your-own-teaching-aids",
+    "using-realia-and-real-objects",
+    "presenting-new-words-meaning-form-and-use",
+    "teaching-young-learners"
+   ]
   },
   {
    "id": "using-realia-and-real-objects",
    "group": "K. Materials, technology and resources",
-   "title": "Using realia and real objects"
+   "title": "Using realia and real objects",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Realia means real objects from daily life used in the classroom, such as fruit, clothes, coins, maps, tickets, menus and packaging. Real objects show meaning clearly, bring the lesson to life and are easy to remember."
+    },
+    {
+     "t": "h",
+     "x": "Why use realia"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners see, touch and sometimes taste or smell the object, which makes the word memorable.",
+      "It shows meaning without translation.",
+      "It connects English to real life.",
+      "It adds interest and a break from the textbook.",
+      "It supports learners who need concrete examples."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Where to find realia"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Source",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Home and kitchen",
+       "Cups, spoons, fruit, vegetables, spices"
+      ],
+      [
+       "Clothes",
+       "Hats, scarves, bags, shoes"
+      ],
+      [
+       "Paper items",
+       "Tickets, receipts, brochures, maps, menus, calendars, forms"
+      ],
+      [
+       "Packaging",
+       "Boxes, bottles, labels, instructions"
+      ],
+      [
+       "Money and shopping",
+       "Coins, notes, price tags"
+      ],
+      [
+       "Nature",
+       "Leaves, seeds, shells, stones"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Activities"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Mystery bag: learners feel an object inside a bag and guess the name.",
+      "Shopping role-play with real items and prices.",
+      "Reading a real menu, timetable or label and answering questions.",
+      "Describing an object: size, colour, material, use.",
+      "Prepositions: place an object in different positions and ask Where is it?",
+      "Instructions: a recipe, a game, a simple machine.",
+      "Classify objects into groups and say why."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Example: a real menu"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Show a real menu and ask learners what it is.",
+      "Learners find food words they know.",
+      "Pre-teach three or four new words.",
+      "Pairs read the menu and decide what to order.",
+      "Role-play ordering and serving."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Practical points"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choose safe objects. Do not use anything sharp or dangerous.",
+      "Check for allergies before using food.",
+      "Keep a box of realia you collect over time.",
+      "Ask learners to bring things from home.",
+      "Use real objects together with pictures when the real thing is not available."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Bringing too many objects for the time available.",
+      "Using realia for presentation only and not giving learners a task.",
+      "Using unclear or fragile objects with a large class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Collect five objects related to your next topic.",
+      "Plan one guessing game or role-play with them.",
+      "Ask learners to bring one object and describe it."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "using-flashcards-and-pictures",
+    "teaching-with-very-few-resources",
+    "presenting-new-words-meaning-form-and-use",
+    "role-plays-discussions-and-information-gaps"
+   ]
   },
   {
    "id": "using-songs-videos-and-stories",
    "group": "K. Materials, technology and resources",
-   "title": "Using songs, videos and stories"
+   "title": "Using songs, videos and stories",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Songs, videos and stories give learners real, interesting English and a reason to listen. They are motivating and memorable, but they work best when you plan tasks around them and do not use them only to fill time."
+    },
+    {
+     "t": "h",
+     "x": "Songs"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Choose a song with clear words, a suitable topic and language level.",
+      "Check the lyrics and the content to make sure they suit your learners.",
+      "Before listening, give a prediction task or teach key words.",
+      "While listening: gap-fill, put lines in order, tick words heard, answer questions.",
+      "After listening: discuss the meaning, sing along, write a new verse.",
+      "Use chants and rhymes that you write for a grammar point or vocabulary."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Videos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Technique",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Silent viewing",
+       "Play without sound; learners guess what is said, then check"
+      ],
+      [
+       "Sound only",
+       "Listen first, then predict the pictures"
+      ],
+      [
+       "Freeze frame",
+       "Pause and ask what will happen next"
+      ],
+      [
+       "Jigsaw viewing",
+       "Half the class watch with sound, half without; they compare"
+      ],
+      [
+       "Short clips",
+       "Use clips of one to three minutes with a clear task"
+      ],
+      [
+       "Subtitles",
+       "Use same-language subtitles for support at higher levels"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Stories"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use stories for listening, speaking, reading and writing.",
+      "Tell a story with gestures, voice and pictures.",
+      "Pause to ask what happens next.",
+      "Ask learners to retell the story in pairs or act it out.",
+      "Learners write a different ending or another story with the same pattern.",
+      "Use graded readers and simple picture books."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Planning with media"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Decide your language and skills aim.",
+      "Choose a short and suitable piece.",
+      "Prepare tasks for before, during and after.",
+      "Check the equipment and the sound before the lesson.",
+      "Play it more than once, with a different task each time.",
+      "Follow up with speaking or writing."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "When there is no technology"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Read or tell a story yourself.",
+      "Say or sing a song without a recording.",
+      "Use a recording on one phone with a small group.",
+      "Use picture sequences as a silent story."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Playing a whole film with no task.",
+      "Using a song that is too fast or unclear.",
+      "Spending the whole lesson on one clip.",
+      "Forgetting to test the equipment."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose a short clip or story and write two tasks for it.",
+      "Teach three key words before listening.",
+      "Ask learners to predict what happens next."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Tim Murphey, Music and Song",
+      "Jeremy Harmer, The Practice of English Language Teaching, sections on using video and stories"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules. Follow your school's rules on using copyrighted material."
+    }
+   ],
+   "related": [
+    "using-songs-videos-and-dialogues",
+    "using-games-humour-and-stories",
+    "pre-while-and-post-listening",
+    "extensive-reading-and-graded-readers"
+   ]
   },
   {
    "id": "making-your-own-teaching-aids",
    "group": "K. Materials, technology and resources",
-   "title": "Making your own teaching aids"
+   "title": "Making your own teaching aids",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Teachers often need materials that are not in the textbook or that the school cannot buy. Making your own simple aids saves money, suits your learners and can be done with ordinary things. Learners can help make them, which is also good language practice."
+    },
+    {
+     "t": "h",
+     "x": "Easy aids to make"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Aid",
+      "Materials",
+      "Uses"
+     ],
+     "rows": [
+      [
+       "Flashcards",
+       "Card, paper or old boxes; pens",
+       "Vocabulary, games, speaking"
+      ],
+      [
+       "Word cards and sentence strips",
+       "Paper strips",
+       "Word order, sentence building, matching"
+      ],
+      [
+       "Picture sets",
+       "Magazines, old calendars",
+       "Description, stories, comparison"
+      ],
+      [
+       "Dice and spinners",
+       "Paper cube, pencil and paper circle",
+       "Games, speaking prompts"
+      ],
+      [
+       "Board game",
+       "Large paper, small objects as counters",
+       "Question and answer practice, revision"
+      ],
+      [
+       "Puppets",
+       "Socks, paper bags, card",
+       "Speaking with young learners, dialogues"
+      ],
+      [
+       "Posters and wall charts",
+       "Large paper, markers",
+       "Grammar summaries, rules, vocabulary"
+      ],
+      [
+       "Role-play cards",
+       "Small cards",
+       "Situations and roles"
+      ],
+      [
+       "Cut-up texts",
+       "Photocopy or handwritten text",
+       "Ordering and reading tasks"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Making materials well"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Make them clear: large letters, simple pictures, good contrast.",
+      "Make them last: use thicker paper, or cover with clear tape.",
+      "Make them reusable: avoid writing on them with permanent marker if you want to use them in different ways.",
+      "Label and store them in boxes or envelopes.",
+      "Share with colleagues and share the work."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Involving learners"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners draw pictures for flashcards.",
+      "Learners make word cards for a revision game.",
+      "Learners write quiz questions on cards.",
+      "Learners make posters for display."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Planning a home-made game"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Decide the language you want to practise.",
+      "Choose a simple game format, such as bingo, snakes and ladders or a card game.",
+      "Write the questions or word cards.",
+      "Make a simple set of rules.",
+      "Try it with one pair first.",
+      "Improve and share."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Using the board and paper creatively"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Fold paper into small books for vocabulary.",
+      "Draw a grid for bingo or noughts and crosses.",
+      "Cut paper into word cards for sentence building.",
+      "Use the classroom wall for a word wall."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Making materials that take hours and are used once.",
+      "Using small writing that learners cannot see.",
+      "Not storing them well so they are lost."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Make one set of word cards for a sentence-building activity.",
+      "Ask learners to draw four flashcards.",
+      "Store your materials in a labelled box."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "using-flashcards-and-pictures",
+    "teaching-with-very-few-resources",
+    "designing-a-good-worksheet",
+    "not-enough-books-or-materials"
+   ]
   },
   {
    "id": "designing-a-good-worksheet",
    "group": "K. Materials, technology and resources",
-   "title": "Designing a good worksheet"
+   "title": "Designing a good worksheet",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A worksheet gives learners practice or a task on paper. A good worksheet is clear, short and focused on one aim. A poor worksheet is crowded, confusing or just a way to keep learners busy."
+    },
+    {
+     "t": "h",
+     "x": "Before you design"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Decide the aim: what should learners be able to do after it?",
+      "Decide the skill or language: reading, vocabulary, grammar, writing.",
+      "Think about your learners' level and the time available.",
+      "Plan how learners will use it: alone, in pairs or in groups.",
+      "Plan how you will check the answers."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Layout and design"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Feature",
+      "Advice"
+     ],
+     "rows": [
+      [
+       "Title and aim",
+       "A short title; the aim in simple words"
+      ],
+      [
+       "Instructions",
+       "Short, clear, with an example for the first item"
+      ],
+      [
+       "Font",
+       "Clear, at least size 12 for older learners; larger for young learners"
+      ],
+      [
+       "Space",
+       "Leave room to write; avoid crowded pages"
+      ],
+      [
+       "Order",
+       "From easy to harder; from controlled to freer"
+      ],
+      [
+       "Variety",
+       "Mix item types; do not use the same type for a whole page"
+      ],
+      [
+       "Images",
+       "Use simple pictures only when they help"
+      ],
+      [
+       "Length",
+       "One page is often enough for one lesson stage"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Writing good tasks"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use language learners have met in class.",
+      "Give examples for each exercise type.",
+      "Make sure there is only one clear answer in closed exercises.",
+      "Avoid too many gaps in a text, which makes it hard to understand.",
+      "Add a final open task such as write your own sentences.",
+      "Include a self-check box, such as I can..."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Checking your worksheet"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Do it yourself to find mistakes and timing.",
+      "Check that the instructions are clear.",
+      "Check spelling and numbering.",
+      "Check that learners can see all the text when it is photocopied.",
+      "Prepare the answer key."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Using a worksheet in class"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Explain the task and do the first item together.",
+      "Set a time limit.",
+      "Let learners compare answers in pairs.",
+      "Go through answers and discuss errors.",
+      "Collect a sample for feedback, not all."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "If you cannot photocopy"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Write the task on the board and learners copy in notebooks.",
+      "Give each group one worksheet and pass it on.",
+      "Use a dictation of the task.",
+      "Print one copy and use it in a station rotation."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Giving a worksheet with no aim.",
+      "Using worksheets to avoid teaching.",
+      "Making tasks too long and boring."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write the aim at the top of your next worksheet.",
+      "Add one example to each exercise.",
+      "Test it yourself and time it."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "managing-materials-and-handouts",
+    "making-your-own-teaching-aids",
+    "writing-good-comprehension-questions",
+    "giving-clear-instructions"
+   ]
   },
   {
    "id": "using-phones-and-ai-tools-in-class-benefits-and-limits",
    "group": "K. Materials, technology and resources",
-   "title": "Using phones and AI tools in class: benefits and limits"
+   "title": "Using phones and AI tools in class: benefits and limits",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Phones and AI tools such as chatbots and translation apps are now part of many learners' lives. Used well they can help teaching and learning. Used badly they can distract, mislead or replace thinking. Always follow your school's rules and think about access, safety and fairness."
+    },
+    {
+     "t": "h",
+     "x": "Benefits of phones in class"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Dictionaries and pronunciation help.",
+      "Recording speaking and listening to it again.",
+      "Taking photos of the board, a project or real objects.",
+      "Listening to texts and watching short clips.",
+      "Quick quizzes and vocabulary games.",
+      "Searching for information for projects."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Benefits of AI tools for teachers"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Drafting ideas for lesson plans, warm-ups and activities.",
+      "Producing example sentences, short texts and dialogues at a chosen level.",
+      "Writing practice questions and gap-fills.",
+      "Offering different ways to explain a point.",
+      "Saving time on routine tasks."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Benefits of AI tools for learners"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Practising conversation when there is no partner.",
+      "Getting quick explanations of words and grammar.",
+      "Receiving suggestions on a draft of writing.",
+      "Getting a model text for comparison."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Limits and risks"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Risk",
+      "What to do"
+     ],
+     "rows": [
+      [
+       "Mistakes: AI tools can give wrong or invented information, or unnatural English",
+       "Always check the output before using it; compare with a reliable source"
+      ],
+      [
+       "Over-reliance: learners let the tool do the work",
+       "Ask for drafts and explanations in class; require learners to explain their choices"
+      ],
+      [
+       "Cheating",
+       "Use in-class writing, oral follow-up questions and tasks about personal experience"
+      ],
+      [
+       "Privacy",
+       "Do not enter learners' names, photos or private information into AI tools"
+      ],
+      [
+       "Unequal access",
+       "Some learners have no phone or internet. Plan alternatives and group sharing"
+      ],
+      [
+       "Distraction",
+       "Set clear rules for when phones are used and when they are put away"
+      ],
+      [
+       "Bias and unsuitable content",
+       "Check material and use age-appropriate tools"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Setting rules"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Agree with learners when phones are for learning and when they are away.",
+      "Give a clear task and time limit when phones are used.",
+      "Teach learners how to check information.",
+      "Explain what is acceptable use of AI in homework and tests.",
+      "Follow school policy and age rules of the tools."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A simple activity with a phone"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Learners record themselves answering a question for one minute.",
+      "They listen again and note two things to improve.",
+      "They record again.",
+      "They compare the two recordings and tell a partner what changed."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A simple activity with an AI tool"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "The teacher asks the tool for a short text on a topic at a certain level.",
+      "The class reads it and finds mistakes or unnatural phrases.",
+      "Learners improve the text in pairs.",
+      "They compare with the original and discuss the changes."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Using technology because it is new, with no learning aim.",
+      "Trusting the output without checking.",
+      "Banning everything or allowing everything with no rules."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write a clear rule for phone use in your class.",
+      "Use a tool to prepare a draft, then check and change it yourself.",
+      "Plan a non-phone version of the same activity."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "UNESCO, Guidance for generative AI in education and research (2023)",
+      "British Council TeachingEnglish, articles on technology in the classroom"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules. Tools and policies change quickly, so check current school and ministry guidance."
+    }
+   ],
+   "related": [
+    "students-use-their-phones-in-class",
+    "flipped-and-blended-learning",
+    "preventing-cheating-in-tests",
+    "teaching-online-the-basics"
+   ]
   },
   {
    "id": "teaching-online-the-basics",
    "group": "K. Materials, technology and resources",
-   "title": "Teaching online: the basics"
+   "title": "Teaching online: the basics",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Teaching online is different from teaching in a classroom. You cannot see everyone easily, technology can fail and learners can lose attention more quickly. With simple planning, many classroom techniques work online."
+    },
+    {
+     "t": "h",
+     "x": "Preparing"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Test your internet, microphone, camera and sound before the lesson.",
+      "Have a back-up plan: a phone for audio, a way to message learners, offline tasks.",
+      "Prepare a clear space, light and background.",
+      "Send learners the link, the time and any materials early.",
+      "Know how to use the main tools: share screen, chat, mute, breakout rooms."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Structuring an online lesson"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Classroom",
+      "Online equivalent"
+     ],
+     "rows": [
+      [
+       "Warm-up",
+       "A quick question in chat or a short speaking task"
+      ],
+      [
+       "Present",
+       "Share a slide, picture or text on the screen"
+      ],
+      [
+       "Pair work",
+       "Breakout rooms or pairs in private messages"
+      ],
+      [
+       "Writing on the board",
+       "Shared whiteboard, document or slide"
+      ],
+      [
+       "Monitor",
+       "Visit breakout rooms; watch the chat"
+      ],
+      [
+       "Check answers",
+       "Learners type answers in the chat at the same time"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Keeping learners engaged"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Keep teacher talk short: five to ten minutes, then a task.",
+      "Use a variety of tasks: speaking, chat, polls, drawing, short quizzes.",
+      "Ask questions to all and name individuals to answer.",
+      "Use routines so learners know what to do.",
+      "Use clear and simple instructions, written on the slide too.",
+      "Give time. Online responses can be slower."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Camera, audio and bandwidth"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Ask learners to turn on cameras if it is possible and suitable, but be understanding about internet or privacy problems.",
+      "Use audio-only for weak connections.",
+      "Use low-data options: short texts, voice messages, printed worksheets."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Assessment and homework"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use short quizzes and tasks in the lesson.",
+      "Use speaking recordings and written work to check progress.",
+      "Plan homework that is possible for learners with limited access."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Privacy and safety"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Follow school rules about video platforms and recordings.",
+      "Ask permission before recording a lesson.",
+      "Do not share learners' personal details.",
+      "Keep communication with learners in school-approved channels."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Long lectures on screen.",
+      "Using too many tools at once.",
+      "Ignoring learners who cannot join because of internet problems."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Test your equipment and a back-up plan 15 minutes before class.",
+      "Add a task every five minutes.",
+      "Give instructions on a slide as well as in speech."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Nicky Hockly and Lindsay Clandfield, Teaching Online",
+      "British Council TeachingEnglish, articles on teaching online"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "flipped-and-blended-learning",
+    "using-phones-and-ai-tools-in-class-benefits-and-limits",
+    "pair-work-and-group-work-for-speaking",
+    "giving-clear-instructions"
+   ]
   },
   {
    "id": "teaching-with-very-few-resources",
    "group": "K. Materials, technology and resources",
-   "title": "Teaching with very few resources"
+   "title": "Teaching with very few resources",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Many good teachers work with a board, chalk and a few books. Resources help, but learning depends more on the quality of the activity than on the equipment. You, your learners and the room are already your main resources."
+    },
+    {
+     "t": "h",
+     "x": "What you always have"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Resource",
+      "Uses"
+     ],
+     "rows": [
+      [
+       "Your voice",
+       "Reading aloud, telling stories, dictation, songs and chants"
+      ],
+      [
+       "Your body",
+       "Gestures, mime, actions for vocabulary (TPR)"
+      ],
+      [
+       "The board",
+       "Notes, drawings, games, text for copying"
+      ],
+      [
+       "Learners",
+       "Pair work, group work, peer teaching, role-plays"
+      ],
+      [
+       "Notebooks and paper",
+       "Writing, drawing, folding into cards"
+      ],
+      [
+       "The room",
+       "Objects, posters, windows, doors, bags, shoes, pens"
+      ],
+      [
+       "The community",
+       "People, places, local texts such as signs and labels"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Activities that need almost nothing"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Dictation and running dictation.",
+      "Twenty questions and guessing games.",
+      "Chain stories: each learner adds a sentence.",
+      "Describe and draw: one learner describes, a partner draws.",
+      "Interviews and surveys in pairs.",
+      "Mime and guess.",
+      "Word chains and word association.",
+      "Hot seat: a learner is questioned by the class.",
+      "Board race: teams write words on the board."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Making materials"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learners write their own word cards.",
+      "Draw simple pictures on the board or paper.",
+      "Use found objects, such as leaves, stones, bottle tops, as counters.",
+      "Write a text on the board and cover it step by step.",
+      "Use local newspapers, packaging and signs as reading texts."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Using the textbook with only one copy"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Read the text aloud while learners listen with books closed.",
+      "Write key exercises on the board.",
+      "Share a book between pairs and rotate.",
+      "Make learners the experts: each pair prepares a part and teaches it."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Planning"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Decide your aim for the lesson.",
+      "Choose activities that need very little.",
+      "Prepare any cards or board text before the lesson.",
+      "Have one extra activity in case you finish early.",
+      "Reflect after the lesson and note what worked."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Waiting for resources before teaching well.",
+      "Copying long texts on the board that take most of the lesson.",
+      "Teaching only from the front."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Use a no-materials game in the first five minutes.",
+      "Replace one worksheet with a board activity.",
+      "Ask learners to bring one useful item to class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Penny Ur and Andrew Wright, Five-Minute Activities",
+      "British Council TeachingEnglish, teaching in large classes and with few resources"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "teaching-a-lesson-with-no-resources",
+    "not-enough-books-or-materials",
+    "making-your-own-teaching-aids",
+    "managing-the-board"
+   ]
   },
   {
    "id": "reflective-practice",
    "group": "L. Teacher development",
-   "title": "Reflective practice"
+   "title": "Reflective practice",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Reflective practice means thinking carefully about your teaching, learning from experience and changing what you do. Many teachers think about their lessons without realising it. Reflective practice makes this thinking regular and useful, and it is one of the best ways to develop as a teacher."
+    },
+    {
+     "t": "h",
+     "x": "Reflection on action and in action"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Reflection on action: thinking about a lesson after it has happened.",
+      "Reflection in action: noticing and changing something during the lesson, such as slowing down when learners look confused.",
+      "The idea comes from the work of Donald Schön, The Reflective Practitioner (1983)."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A simple model: Gibbs' reflective cycle"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Question"
+     ],
+     "rows": [
+      [
+       "Description",
+       "What happened?"
+      ],
+      [
+       "Feelings",
+       "What was I thinking and feeling?"
+      ],
+      [
+       "Evaluation",
+       "What was good and bad about it?"
+      ],
+      [
+       "Analysis",
+       "Why did it happen? What can I learn?"
+      ],
+      [
+       "Conclusion",
+       "What else could I have done?"
+      ],
+      [
+       "Action plan",
+       "What will I do next time?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Ways to reflect"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Method",
+      "How"
+     ],
+     "rows": [
+      [
+       "Teaching journal",
+       "Write a few lines after each lesson: what worked, what did not, what to try"
+      ],
+      [
+       "Lesson notes",
+       "Write notes on your plan during the lesson"
+      ],
+      [
+       "Learner feedback",
+       "Ask learners a few simple questions, such as What helped you? What was difficult?"
+      ],
+      [
+       "Peer observation",
+       "A colleague watches a part of your lesson for a focus you choose"
+      ],
+      [
+       "Recording",
+       "Record the audio of part of a lesson, with permission, and listen"
+      ],
+      [
+       "Student work",
+       "Look at what the errors tell you about your teaching"
+      ],
+      [
+       "Talking with colleagues",
+       "Share a problem and ideas"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Questions to ask yourself"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Did the learners learn what I wanted? How do I know?",
+      "Who talked most? How much did learners speak?",
+      "Which part of the lesson went best? Why?",
+      "Which instruction was unclear?",
+      "What will I keep, change or drop?"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Making it a habit"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Choose a time after each lesson or each day.",
+      "Write three to five lines.",
+      "Choose one focus for a week, such as instructions or questions.",
+      "Try one change and note what happens.",
+      "Review your notes every month to see patterns."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Only noticing what went wrong.",
+      "Writing long entries and giving up.",
+      "Reflecting without deciding on any action."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write three lines after your next lesson: one good thing, one problem, one change.",
+      "Ask learners one question at the end of the lesson.",
+      "Choose a focus for a week."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Donald Schön, The Reflective Practitioner",
+      "Jack Richards and Thomas Farrell, Professional Development for Language Teachers",
+      "Stephen Brookfield, Becoming a Critically Reflective Teacher"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "being-observed-and-observing-others",
+    "activities-that-fail-or-lessons-that-go-wrong",
+    "writing-a-teaching-philosophy",
+    "surviving-your-first-year"
+   ]
   },
   {
    "id": "being-observed-and-observing-others",
    "group": "L. Teacher development",
-   "title": "Being observed and observing others"
+   "title": "Being observed and observing others",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Observation is one of the most useful ways to learn about teaching. You can be observed by a mentor, a school leader or a colleague, and you can observe other teachers. Many teachers feel nervous about being observed, but it can be a positive experience when it is well prepared."
+    },
+    {
+     "t": "h",
+     "x": "Types of observation"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Purpose"
+     ],
+     "rows": [
+      [
+       "Evaluative",
+       "A leader or inspector judges the teaching, sometimes for a decision or a grade"
+      ],
+      [
+       "Developmental",
+       "A mentor or colleague gives feedback to help you improve"
+      ],
+      [
+       "Peer observation",
+       "Colleagues watch each other and share ideas"
+      ],
+      [
+       "Self-observation",
+       "You record or reflect on your own lesson"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "When you are observed"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Ask what the observer will focus on, and what the process will be.",
+      "Give the observer your lesson plan and any useful background about the class.",
+      "Choose a focus yourself: questions, instructions, learners' speaking time.",
+      "Teach as you normally do. Do not try something completely new.",
+      "Remember that learners may behave differently, and it is normal.",
+      "After the lesson, take time to reflect before the feedback conversation.",
+      "In the feedback, listen, ask questions and note useful points.",
+      "Agree one or two actions."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "When you observe others"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Always arrange it politely with the teacher and the school.",
+      "Agree on a focus, such as how the teacher gives instructions or corrects errors.",
+      "Use a simple observation task, such as counting the number of learners who speak or noting each question the teacher asks.",
+      "Sit where you can see learners but do not disturb the class.",
+      "Take notes of what you see, not only your opinions.",
+      "Afterwards, thank the teacher and share what you learned.",
+      "Think about what you can try in your own class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "An observation focus sheet"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Focus",
+      "What to note"
+     ],
+     "rows": [
+      [
+       "Instructions",
+       "Were they clear? Did the teacher demonstrate?"
+      ],
+      [
+       "Questions",
+       "Who answered? Which kinds of questions?"
+      ],
+      [
+       "Learner talk",
+       "How long did learners speak compared with the teacher?"
+      ],
+      [
+       "Error correction",
+       "What was corrected? How?"
+      ],
+      [
+       "Time",
+       "How long did each stage take?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Giving feedback"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Start with what you noticed and ask the teacher's view.",
+      "Be specific and kind.",
+      "Describe what happened, not who the teacher is.",
+      "Suggest options, not orders."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Watching without a focus.",
+      "Giving only criticism.",
+      "Comparing teachers rather than learning from them."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Ask a colleague to watch ten minutes of your class with one focus.",
+      "Observe another class once this month.",
+      "Note one idea you will try."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "reflective-practice",
+    "teaching-practice-and-demo-lessons-tips",
+    "working-with-co-teachers-and-school-leaders",
+    "giving-useful-feedback"
+   ]
   },
   {
    "id": "teaching-practice-and-demo-lessons-tips",
    "group": "L. Teacher development",
-   "title": "Teaching practice and demo lessons: tips"
+   "title": "Teaching practice and demo lessons: tips",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "In teaching practice or a demo lesson, an observer, mentor or interview panel watches you teach. It is natural to feel nervous. Good planning and a few simple choices can help you to teach well and show your skills."
+    },
+    {
+     "t": "h",
+     "x": "Planning the lesson"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Find out the details: the level, the number of learners, time, topic, room and equipment.",
+      "Choose a clear aim that can be reached in the time.",
+      "Plan a simple structure: lead-in, presentation, practice, production, wrap-up.",
+      "Plan interaction: include pair or group work and learner speaking.",
+      "Keep activities familiar and short.",
+      "Prepare materials in advance and check they work.",
+      "Prepare a back-up activity in case you finish early, and an option to cut if you run out of time."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "A sample plan"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Time",
+      "Activity"
+     ],
+     "rows": [
+      [
+       "Lead-in",
+       "5 min",
+       "Picture and questions to introduce the topic"
+      ],
+      [
+       "Presentation",
+       "10 min",
+       "Elicit and teach new language with examples"
+      ],
+      [
+       "Controlled practice",
+       "10 min",
+       "Gap-fill or drill in pairs"
+      ],
+      [
+       "Freer practice",
+       "15 min",
+       "Role-play or information gap"
+      ],
+      [
+       "Feedback and wrap-up",
+       "5 min",
+       "Check answers, error correction, exit task"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "On the day"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Arrive early and set up the room.",
+      "Greet learners and the observer.",
+      "Write the aim and a short plan on the board if appropriate.",
+      "Speak clearly, use simple instructions and demonstrate.",
+      "Check understanding with questions.",
+      "Monitor pair and group work and note errors.",
+      "Keep an eye on time.",
+      "Smile and stay calm."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "If something goes wrong"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Stay calm and keep going.",
+      "If an activity does not work, change it or move on.",
+      "If the equipment fails, use the board or a back-up activity.",
+      "Observers know that things can go wrong. They look at how you respond."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "What observers often look for"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A clear aim and a lesson that matches it.",
+      "Clear instructions and good use of time.",
+      "Learners speaking and active.",
+      "Good rapport and classroom management.",
+      "Appropriate correction and feedback.",
+      "Reflection after the lesson."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "After the lesson"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Reflect before the feedback conversation.",
+      "Listen with an open mind.",
+      "Say what you would change.",
+      "Thank the observer and follow up."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Planning too much.",
+      "Talking too much.",
+      "Using an activity you have never tried before.",
+      "Ignoring the learners' needs."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Practise the lesson, at least the first ten minutes, aloud.",
+      "Make a back-up and a cut plan.",
+      "Prepare two sentences to say about what you would change."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "being-observed-and-observing-others",
+    "starting-a-lesson-lead-ins-and-warm-ups",
+    "pacing-and-timing",
+    "reflective-practice"
+   ]
   },
   {
    "id": "surviving-your-first-year",
    "group": "L. Teacher development",
-   "title": "Surviving your first year"
+   "title": "Surviving your first year",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "The first year of teaching is hard for almost everyone. You are learning to plan, manage a class, understand learners and work in a school at the same time. It is normal to feel tired and unsure. The aim is not to be perfect but to keep learning and to look after yourself."
+    },
+    {
+     "t": "h",
+     "x": "What to expect"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Planning takes a long time at first and gets faster.",
+      "Some lessons will go badly. This happens to all teachers.",
+      "Class management can be the hardest part.",
+      "You will learn from every class.",
+      "You will gradually find your own style."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Practical advice"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Area",
+      "Advice"
+     ],
+     "rows": [
+      [
+       "Planning",
+       "Keep plans simple. Plan the aim and two or three activities, not every minute"
+      ],
+      [
+       "Routines",
+       "Build clear routines for starting, instructions, pairs and finishing"
+      ],
+      [
+       "Class management",
+       "Be fair and consistent. Learn names early. Start firm and friendly"
+      ],
+      [
+       "Materials",
+       "Keep a folder of ideas, worksheets and activities that worked"
+      ],
+      [
+       "Marking",
+       "Do not mark everything. Use selective marking and peer checking"
+      ],
+      [
+       "Colleagues",
+       "Ask questions and observe other teachers"
+      ],
+      [
+       "Mistakes",
+       "Write what you learned after each difficult lesson"
+      ],
+      [
+       "Time",
+       "Set a limit for work at home and keep a day for rest"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Building relationships"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learn learners' names quickly.",
+      "Show interest in them as people.",
+      "Speak to learners privately about problems.",
+      "Be respectful and clear in your expectations."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Asking for help"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Find a mentor, an experienced colleague who can answer your questions.",
+      "Ask to observe lessons.",
+      "Share problems with colleagues and listen to their ideas.",
+      "Ask school leaders for support when you need it."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Looking after yourself"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Sleep and eat well, and take breaks.",
+      "Do not compare yourself with experienced teachers.",
+      "Celebrate small successes: a good activity, an improving learner.",
+      "Keep a list of positive moments and read it on difficult days.",
+      "Talk to someone if you feel overwhelmed."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Trying to prepare perfect lessons every day.",
+      "Working all night and weekends.",
+      "Not asking for help.",
+      "Making friends with learners and losing authority."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Choose one routine to practise this week.",
+      "Write three good things from this week.",
+      "Ask a colleague a question about their teaching."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Harry Wong and Rosemary Wong, The First Days of School",
+      "Penny Ur, A Course in Language Teaching"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "the-first-day-and-first-week",
+    "classroom-management",
+    "looking-after-your-voice-and-your-energy",
+    "reflective-practice"
+   ]
   },
   {
    "id": "looking-after-your-voice-and-your-energy",
    "group": "L. Teacher development",
-   "title": "Looking after your voice and your energy"
+   "title": "Looking after your voice and your energy",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Teaching uses your voice and your energy every day. Teachers with a tired voice or no energy find it hard to teach well. Simple habits can protect both. This article gives general advice, and it is not medical advice."
+    },
+    {
+     "t": "h",
+     "x": "Voice care"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Drink water through the day, and keep a bottle in class.",
+      "Speak at a comfortable pitch and volume. Do not shout.",
+      "Use other ways to get attention: a signal, a gesture, a clap, standing in a place.",
+      "Use your body and face to communicate so you need less voice.",
+      "Reduce talking: use pair work, written instructions and learners' voices.",
+      "Warm up gently before a long day: hum, yawn, stretch the neck and shoulders.",
+      "Breathe from the lower chest and speak on the out-breath.",
+      "Avoid whispering and clearing your throat often.",
+      "Rest your voice when you can, such as in breaks."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Projecting without shouting"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Stand tall with relaxed shoulders.",
+      "Take a breath before speaking.",
+      "Speak slowly and clearly.",
+      "Face the learners.",
+      "Move closer to the learners who are far away.",
+      "Pause and wait for quiet."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Energy"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Area",
+      "Ideas"
+     ],
+     "rows": [
+      [
+       "Planning",
+       "Plan lessons with a mix of teacher-led and learner-led activities, so you can rest your voice and your energy"
+      ],
+      [
+       "Marking",
+       "Mark in smaller amounts; use peer checking"
+      ],
+      [
+       "Breaks",
+       "Take a real break: sit, drink, talk with colleagues"
+      ],
+      [
+       "Sleep",
+       "Keep a regular sleep time"
+      ],
+      [
+       "Food and water",
+       "Eat regular meals and drink water"
+      ],
+      [
+       "Movement",
+       "Walk, stretch and move during the day"
+      ],
+      [
+       "Boundaries",
+       "Have time away from work"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Stress and tiredness"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Notice early signs: headaches, irritability, loss of interest.",
+      "Talk to a colleague, friend or family member.",
+      "Share workload where possible.",
+      "Say no to extra tasks when you are overloaded.",
+      "Find activities that give you joy outside school."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "When to get help"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "If your voice is hoarse or painful for a long time, or you lose it often, see a doctor.",
+      "If you feel unwell, exhausted or very low for a long time, speak to a health professional or someone you trust."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Speaking loudly over noise.",
+      "Skipping breaks and meals.",
+      "Ignoring hoarseness until it is serious."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Keep a water bottle in class.",
+      "Use a quiet signal instead of shouting.",
+      "Plan two learner-led activities so you can rest your voice."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "This is general advice and not a substitute for medical advice. These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "using-your-voice-and-body-language",
+    "getting-students-attention",
+    "staying-calm-and-professional-under-pressure",
+    "surviving-your-first-year"
+   ]
   },
   {
    "id": "working-with-co-teachers-and-school-leaders",
    "group": "L. Teacher development",
-   "title": "Working with co-teachers and school leaders"
+   "title": "Working with co-teachers and school leaders",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Teaching is not only about learners. You also work with other teachers, assistants and school leaders. Good relationships make work easier and improve learning. Poor communication causes stress and confusion."
+    },
+    {
+     "t": "h",
+     "x": "Working with co-teachers"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Meet before the lesson to agree who does what.",
+      "Agree on classroom rules and routines so learners see a consistent approach.",
+      "Divide roles clearly: for example, one leads, one monitors; one teaches language, one supports.",
+      "Respect each other in front of learners.",
+      "Share ideas, materials and problems.",
+      "Give feedback kindly and privately.",
+      "If you disagree, talk privately and look for a compromise."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Team teaching roles"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Model",
+      "Example"
+     ],
+     "rows": [
+      [
+       "One teach, one observe",
+       "One teacher teaches; the other notes learner behaviour or language"
+      ],
+      [
+       "One teach, one assist",
+       "One leads; the other helps individuals"
+      ],
+      [
+       "Parallel teaching",
+       "Class is divided in two; both teach the same content"
+      ],
+      [
+       "Station teaching",
+       "Groups move between teachers and tasks"
+      ],
+      [
+       "Alternative teaching",
+       "One teaches a large group, one works with a small group needing support"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Working with a foreign or local co-teacher"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learn about each other's backgrounds and teaching styles.",
+      "Be patient about differences in language and culture.",
+      "Explain your reasons for activities.",
+      "Plan together and share language knowledge: one teacher may know the learners' first language well; the other may be a confident English speaker."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Working with school leaders"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Learn the school policies, schedules and expectations.",
+      "Communicate clearly and politely, in writing when it is important.",
+      "Ask for support early, for example with class management or materials.",
+      "Bring solutions as well as problems.",
+      "Accept feedback and ask how to improve.",
+      "Be on time and ready for meetings and duties."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Raising a problem"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Think about what the problem is and what you want.",
+      "Choose a good time and place.",
+      "Describe the facts calmly.",
+      "Listen to the other person's view.",
+      "Suggest a solution.",
+      "Agree what happens next and follow up."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Complaining about colleagues to others instead of speaking to them.",
+      "Not asking questions about the school's rules.",
+      "Assuming others know what you need."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Meet your co-teacher for five minutes before the next lesson.",
+      "Agree on one shared classroom routine.",
+      "Thank a colleague who helped you."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "professional-ethics",
+    "being-observed-and-observing-others",
+    "communicating-with-parents",
+    "staying-calm-and-professional-under-pressure"
+   ]
   },
   {
    "id": "professional-ethics",
    "group": "L. Teacher development",
-   "title": "Professional ethics"
+   "title": "Professional ethics",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Professional ethics are the principles that guide how teachers behave. Teachers have power and responsibility, and learners, parents and the community trust them. Ethical behaviour protects learners, supports learning and protects you."
+    },
+    {
+     "t": "h",
+     "x": "Core principles"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Principle",
+      "In practice"
+     ],
+     "rows": [
+      [
+       "Respect",
+       "Treat every learner with dignity, regardless of ability, background, gender or behaviour"
+      ],
+      [
+       "Fairness",
+       "Treat learners equally in marking, attention and discipline"
+      ],
+      [
+       "Care and safety",
+       "Protect learners from harm; use non-violent discipline"
+      ],
+      [
+       "Honesty",
+       "Report marks and progress truthfully; be honest about your qualifications"
+      ],
+      [
+       "Confidentiality",
+       "Keep private information about learners and families private"
+      ],
+      [
+       "Professionalism",
+       "Be prepared, reliable and respectful to colleagues"
+      ],
+      [
+       "Responsibility",
+       "Keep developing as a teacher and follow school and ministry rules"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Boundaries"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Keep a friendly but professional relationship with learners.",
+      "Do not favour learners because of friendship, gifts or family connections.",
+      "Be careful with private messages and social media. Use school-approved channels.",
+      "Avoid being alone with a learner in a private place where possible, and follow your school's policy.",
+      "Do not accept gifts that create a duty or influence marks."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Discipline and safety"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do not use physical punishment or humiliation.",
+      "Do not insult or shame learners.",
+      "Use fair and logical consequences.",
+      "If you are worried that a learner is being harmed, tell the school's designated person or follow your school's child protection procedures. Do not investigate alone."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Assessment ethics"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Mark by clear criteria.",
+      "Do not change marks for personal reasons.",
+      "Do not share exam questions in advance with some learners.",
+      "Protect test security."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Private tutoring and conflicts of interest"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Follow your school's rules about private lessons.",
+      "Do not pressure learners to take private lessons or buy materials.",
+      "Avoid giving your own learners an unfair advantage."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Copyright and honesty"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use materials in line with copyright rules and school policy.",
+      "Acknowledge sources.",
+      "Do not claim another person's work as yours."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Facing an ethical dilemma"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Identify the problem and who is affected.",
+      "Check school policy and the law.",
+      "Think about the interests of the learner first.",
+      "Consider options and their results.",
+      "Discuss with a trusted colleague or leader, keeping details private.",
+      "Decide, act and reflect."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Sharing private information about a learner in the staff room.",
+      "Showing favourites.",
+      "Using fear as a way to control a class."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Read your school's code of conduct.",
+      "Check that your marking is based on clear criteria.",
+      "Think about one situation where you were unsure what was right."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules. Follow your school's code of conduct, ministry rules and the law."
+    }
+   ],
+   "related": [
+    "alternatives-to-corporal-punishment",
+    "bullying-and-conflict-between-students",
+    "preventing-cheating-in-tests",
+    "working-with-co-teachers-and-school-leaders"
+   ]
   },
   {
    "id": "communicating-with-parents",
    "group": "L. Teacher development",
-   "title": "Communicating with parents"
+   "title": "Communicating with parents",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Parents and guardians are partners in a learner's education. Regular, respectful communication builds trust and helps learners. Many teachers only contact parents when there is a problem. It is much better to also share good news."
+    },
+    {
+     "t": "h",
+     "x": "Why it matters"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Parents can support learning at home.",
+      "You learn more about the learner.",
+      "Problems can be solved early.",
+      "Trust makes difficult conversations easier."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Ways to communicate"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Channel",
+      "Good for",
+      "Cautions"
+     ],
+     "rows": [
+      [
+       "Meeting in person",
+       "Important matters, discussion, building relationship",
+       "Needs time; choose a private place"
+      ],
+      [
+       "Phone call",
+       "Quick and personal contact",
+       "Choose a good time; keep a short record"
+      ],
+      [
+       "Written note or report",
+       "Formal information, marks",
+       "Keep language simple and kind"
+      ],
+      [
+       "School messaging group or app",
+       "Notices and reminders",
+       "Follow school rules; do not discuss individual learners in groups"
+      ],
+      [
+       "Parent meetings or open days",
+       "Sharing the class goals and ways to help",
+       "Prepare in advance"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Making a good start"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Contact parents early in the year with a short positive message.",
+      "Tell them how to reach you and when.",
+      "Share the main aims of the class and how they can help.",
+      "Learn how parents prefer to be contacted, and consider literacy, language and work schedules."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Having a conversation"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Greet warmly and thank the parent for coming.",
+      "Start with something positive and true about the learner.",
+      "Describe the concern with specific examples and facts.",
+      "Listen carefully to the parent's view.",
+      "Agree on a plan and a time to check progress.",
+      "Thank the parent and write down what was agreed."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Helpful ways to say things"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Instead of",
+      "Try"
+     ],
+     "rows": [
+      [
+       "Your child is lazy",
+       "I have noticed that Dara has not handed in homework. Can we think together about how to help?"
+      ],
+      [
+       "He is a bad student",
+       "He finds it hard to stay focused. These things help him: ..."
+      ],
+      [
+       "You must make her study",
+       "Ten minutes of English each day, such as reading aloud, would help"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "How parents can help"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Show interest and ask the child to show or tell something they learned.",
+      "Provide a quiet time for homework.",
+      "Encourage reading and listening in English, even if they do not speak English.",
+      "Praise effort."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Difficult situations"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Stay calm and polite, even if the parent is angry.",
+      "Do not blame. Focus on the learner's needs.",
+      "Do not discuss other learners.",
+      "If the meeting becomes difficult, involve a school leader.",
+      "Keep a short record of important conversations."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Privacy"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Share information about a learner only with their parents or guardians, or others the school allows.",
+      "Do not share learner details in public groups."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Only calling when there is a problem.",
+      "Using difficult words.",
+      "Making promises you cannot keep."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Send one positive message to a parent this week.",
+      "Prepare one specific example for a parent meeting.",
+      "Write a short plan for how parents can help."
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules. Follow your school's rules on privacy and communication with families."
+    }
+   ],
+   "related": [
+    "talking-to-parents-about-behaviour",
+    "reporting-results-to-students-and-parents",
+    "working-with-co-teachers-and-school-leaders",
+    "professional-ethics"
+   ]
   },
   {
    "id": "writing-a-teaching-philosophy",
    "group": "L. Teacher development",
-   "title": "Writing a teaching philosophy"
+   "title": "Writing a teaching philosophy",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "A teaching philosophy is a short personal statement of what you believe about teaching and learning and how those beliefs appear in your classroom. Teachers are often asked for one when applying for a job, a course or a promotion. Writing one is also a good way to understand your own teaching."
+    },
+    {
+     "t": "h",
+     "x": "What it includes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Part",
+      "Question to answer"
+     ],
+     "rows": [
+      [
+       "Beliefs about learning",
+       "How do people learn a language? What helps learners most?"
+      ],
+      [
+       "Beliefs about teaching",
+       "What is my role? What is a good lesson?"
+      ],
+      [
+       "Goals",
+       "What do I want learners to achieve, and who do I want them to become?"
+      ],
+      [
+       "Practice",
+       "What do I do in the classroom to put my beliefs into practice?"
+      ],
+      [
+       "Assessment",
+       "How do I know learners are learning?"
+      ],
+      [
+       "Growth",
+       "How do I keep learning and improving?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Steps to write it"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Think about your best teachers and your best lessons. What did they have in common?",
+      "Make notes on your beliefs about learning, learners and the teacher's role.",
+      "Choose three or four main ideas.",
+      "For each idea, write an example of what you do in class.",
+      "Write a short opening that states your main idea.",
+      "Write the body in the first person and use simple, clear language.",
+      "End with your goals and how you want to develop.",
+      "Read it aloud, cut repeated ideas and ask a colleague for feedback."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Structure"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Opening: your main belief in one or two sentences.",
+      "Two or three paragraphs: each has a belief and an example from your teaching.",
+      "Closing: your goals and how you will keep improving."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Length and style"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Usually one page, about 300 to 500 words, unless told otherwise.",
+      "Use I and the present tense.",
+      "Be specific. Examples are stronger than general statements.",
+      "Avoid long lists of famous theories without examples.",
+      "Be honest. Do not write what you think the reader wants to hear."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "An example opening and example paragraph"
+    },
+    {
+     "t": "p",
+     "x": "Opening example: I believe that learners learn English best when they use it to communicate about things that matter to them. My classroom is a place where it is safe to make mistakes and try."
+    },
+    {
+     "t": "p",
+     "x": "Paragraph example: To put this into practice, I give learners many chances to speak in pairs and small groups. For example, after learning how to ask for information, my learners interview each other about their daily routines and report to the class. I listen, note common errors and teach them afterwards, so learners get both confidence and accuracy."
+    },
+    {
+     "t": "h",
+     "x": "Questions to test your draft"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Does it say what I really believe?",
+      "Does every belief have an example?",
+      "Is it clear to someone who has never seen me teach?",
+      "Is it free of repeated ideas and long words?",
+      "Would I be happy for my learners to read it?"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Common mistakes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Copying general statements from the internet.",
+      "Only describing what you do with no reasons.",
+      "Making it too long.",
+      "Never updating it. Your philosophy will change as you grow."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Try it in your next lesson"
+    },
+    {
+     "t": "check",
+     "items": [
+      "Write down three beliefs about how people learn English.",
+      "Write one example from your classroom for each.",
+      "Review your statement every year."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Further reading"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Stephen Brookfield, Becoming a Critically Reflective Teacher",
+      "Jack Richards and Thomas Farrell, Professional Development for Language Teachers"
+     ]
+    },
+    {
+     "t": "note",
+     "x": "These are suggestions for further study. The advice in this article is general. Adapt it to your learners and follow your school's rules."
+    }
+   ],
+   "related": [
+    "reflective-practice",
+    "learner-centred-teaching",
+    "communicative-language-teaching",
+    "surviving-your-first-year"
+   ]
   }
  ]
 }
